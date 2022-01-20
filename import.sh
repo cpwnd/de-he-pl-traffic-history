@@ -9,6 +9,8 @@ if data.get("status") != "OK":
     # {"code": 500, "error": "Error accessing remote data..."}
     return
 for item in data["data"]:
+    if data is None:
+        continue
     try:
         res = dict()
         res["id"] = item["ticId"]["value"]
@@ -16,6 +18,20 @@ for item in data["data"]:
         res["dataId"] = item["dataIdentifier"]["value"]
         res["verbal"] = item["description"][0]["value"]
         res["urgency"] = item["urgency"]["value"]
+        res["duration"] = item["duration"] if "duration" in item.keys() else None
+        res["streets"] = None
+        if "location" in item.keys() and "streets" in item["location"] and item["location"]["streets"]:
+            res["streets"] = reduce(lambda a, b: a + "," + b, sorted(list(map(lambda x: x, list(item["location"]["streets"])))))
+
+        res["durationStartTime"] = None
+        res["durationEndTime"] = None
+        if "duration" in item.keys() and item["duration"]:
+            if "startTime" in item["duration"].keys():
+                res["durationStartTime"] = item["duration"]["startTime"]["value"]
+            if "endTime" in item["duration"].keys():
+                res["durationEndTime"] = item["duration"]["endTime"]["value"]
+
+        res["startTime"] = item["duration"]["startTime"]
         res["eventCategory"] = reduce(lambda a, b: a + "," + b, sorted(list(map(lambda x: x["value"], item["eventCategory"]))))
         res["begin"] = item["objectVersionBeginTime"]["value"]
         res["status"] = item["objectVersionStatus"]["value"]
