@@ -523,6 +523,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/465886_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 465886
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt - Köln\nzwischen Wiesbadener Kreuz und Wiesbaden/Niedernhausen\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Köln zwischen Wiesbadener Kreuz und Wiesbaden/Niedernhausen",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-20T12:24:19.011Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/457840_LMS-HE/54"
       },
       "dataProducer": {
@@ -7110,60 +7161,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/465840_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 465840
-      },
-      "description": [
-        {
-          "value": "L3050 Weidenhausen, Westring\nzwischen Schieferstraße und Ernst-Reuter-Straße\nin beiden Richtungen Unfall, Richtungsfahrbahn gesperrt, empfohlene Umleitungen: über Ernst-Reuter-Straße, Karlstraße und Schieferstraße, über Mühlstraße und Weidenhäuser Straße"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3050"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Weidenhausen, Westring zwischen Schieferstraße und Ernst-Reuter-Straße",
-        "streets": [
-          "L3050"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-20T11:23:41.133Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/426280_LMS-HE/54"
       },
       "dataProducer": {
@@ -8182,7 +8179,7 @@
       },
       "description": [
         {
-          "value": "L3398 in Höhe Heppenheim (Bergstraße)\nBauarbeiten, Richtungsfahrbahn gesperrt, Einbahnstraßenregelung, eine Umleitung ist eingerichtet, bis 15.04.2022 18:00 Uhr"
+          "value": "L3398 in Höhe Heppenheim (Bergstraße)\nBauarbeiten, Richtungsfahrbahn gesperrt, Einbahnstraßenregelung, eine Umleitung ist eingerichtet, bis 28.02.2022 20:00 Uhr"
         }
       ],
       "location": {
@@ -8202,16 +8199,13 @@
         ]
       },
       "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2021-09-29T05:00:00Z"
-        },
+        "startTime": null,
         "endTime": {
           "name": "Endzeit",
-          "value": "2022-04-15T16:00:00Z"
+          "value": "2022-02-28T19:00:00Z"
         },
         "name": "Dauer",
-        "description": "von 29.09.2021 07:00 Uhr bis 15.04.2022 18:00 Uhr"
+        "description": "bis 28.02.2022 20:00 Uhr"
       },
       "urgency": {
         "name": "Dringlichkeit",
@@ -8234,7 +8228,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-19T08:40:33.986Z"
+        "value": "2022-01-20T11:57:23.169Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
