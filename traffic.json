@@ -851,57 +851,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/466060_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 466060
-      },
-      "description": [
-        {
-          "value": "A4 Bad Hersfeld Richtung Erfurt\nzwischen Kirchheimer Dreieck und Bad Hersfeld\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A4"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A4 Bad Hersfeld Richtung Erfurt zwischen Kirchheimer Dreieck und Bad Hersfeld",
-        "streets": [
-          "A4"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-20T19:07:47.306Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/438866_LMS-HE/54"
       },
       "dataProducer": {
@@ -963,6 +912,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/466075_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 466075
+      },
+      "description": [
+        {
+          "value": "A4 Bad Hersfeld Richtung Erfurt\nzwischen Friedewald und Wildeck-Hönebach\nGefahr durch defekten LKW auf dem rechten Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A4"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A4 Bad Hersfeld Richtung Erfurt zwischen Friedewald und Wildeck-Hönebach",
+        "streets": [
+          "A4"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-20T19:22:35.501Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -2884,7 +2884,7 @@
       },
       "description": [
         {
-          "value": "A643 Wiesbaden - Mainz\nzwischen Übergang von der Schiersteiner Straße und Schiersteiner Kreuz\nin beiden Richtungen Gefahr durch Fahrradfahrer auf der Fahrbahn"
+          "value": "A643 Wiesbaden - Mainz\nzwischen Übergang von der Schiersteiner Straße und Schiersteiner Kreuz\nin beiden Richtungen Gefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -2906,7 +2906,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2916,11 +2916,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-20T18:57:44.112Z"
+        "value": "2022-01-20T19:10:55.228Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4681,7 +4681,7 @@
       },
       "description": [
         {
-          "value": "B62 Barchfeld - Alsfeld\nzwischen Beiershausen und Niederaula\nin beiden Richtungen Bergungsarbeiten, Richtungsfahrbahn gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+          "value": "B62 Barchfeld - Alsfeld\nzwischen Beiershausen und Niederaula\nin beiden Richtungen Verkehrsstörung besteht nicht mehr"
         }
       ],
       "location": {
@@ -4719,7 +4719,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-20T16:05:58.416Z"
+        "value": "2022-01-20T19:20:53.361Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4738,7 +4738,7 @@
       },
       "description": [
         {
-          "value": "B249 Eschwege-Niederhone - Sondershausen\nzwischen Döringsdorfer Straße und Katharinenberg\nin beiden Richtungen querstehender LKW, Richtungsfahrbahn gesperrt"
+          "value": "B249 Eschwege-Niederhone - Sondershausen\nzwischen Döringsdorfer Straße und Katharinenberg\nin beiden Richtungen Straße wieder frei"
         }
       ],
       "location": {
@@ -4773,11 +4773,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-20T18:26:44.294Z"
+        "value": "2022-01-20T19:17:18.893Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4907,6 +4907,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-10T22:59:00.417Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/466076_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 466076
+      },
+      "description": [
+        {
+          "value": "B519 Königstein - Rüsselsheim\nzwischen Abzweig nach Kelkheim (Taunus) und Liederbach\nin beiden Richtungen 1 Hund auf der Fahrbahn\n(kleiner Hund mit Leine)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B519"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B519 Königstein Richtung Rüsselsheim zwischen Abzweig nach Kelkheim (Taunus) und Liederbach",
+        "streets": [
+          "B519"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-20T19:21:11.685Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
