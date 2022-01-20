@@ -1431,63 +1431,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/466111_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 466111
-      },
-      "description": [
-        {
-          "value": "A7 Kassel Richtung Fulda\nin Höhe Kirchheimer Dreieck\nalle Fahrbahnen geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A7"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A7 Kassel Richtung Fulda in Höhe Kirchheimer Dreieck",
-        "streets": [
-          "A7"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-20T23:24:31.248Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/466114_LMS-HE/54"
       },
       "dataProducer": {
@@ -8244,6 +8187,51 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-15T04:00:01.451Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/466127_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 466127
+      },
+      "description": [
+        {
+          "value": "Hofheim am Taunus\nVermisstenfahndung\nSeit dem 20.01.2022, 18:00 Uhr, wird die 63 jährige Frau Astrid Lornatos aus Hofheim am Taunus vermisst. Die Vermisste ist schlecht orientiert und auf ärztliche Hilfe angewiesen.Beschreibung:1,70 cm groß, dunkelbraune mittellange Haare, dünne Gestalt. Derzeitige Bekleidung ist unbekannt.Sachdienliche Hinweise zum Aufenthalt der Vermissten bitte an die Polizeistation Hofheim am Taunus (06192-2079-0) oder jede andere Polizeidienststelle. (Quelle: Polizeipräsidium Westhessen). "
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": null
+          }
+        ],
+        "name": "Ort",
+        "description": "Hofheim am Taunus",
+        "streets": null
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Information"
+        }
+      ],
+      "masterEventCategory": "Information",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-20T23:41:18.215Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
