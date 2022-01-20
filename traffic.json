@@ -1115,7 +1115,7 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt - Kassel\nzwischen Nordwestkreuz Frankfurt und Bad Homburger Kreuz\nin beiden Richtungen Gefahr durch 1 Hund auf der Fahrbahn"
+          "value": "A5 Frankfurt - Kassel\nzwischen Nordwestkreuz Frankfurt und Bad Homburger Kreuz\nin beiden Richtungen Gefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -1137,7 +1137,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1147,11 +1147,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-20T08:07:47.697Z"
+        "value": "2022-01-20T08:34:59.236Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1611,7 +1611,7 @@
       },
       "description": [
         {
-          "value": "A7 Fulda Richtung Kassel\nzwischen Kirchheimer Dreieck und Bad Hersfeld-West\nGefahr durch 1 defekten LKW auf dem rechten Fahrstreifen"
+          "value": "A7 Fulda Richtung Kassel\nzwischen Kirchheimer Dreieck und Bad Hersfeld-West\nGefahr durch 1 defekten LKW auf dem rechten Fahrstreifen, rechter Fahrstreifen gesperrt"
         }
       ],
       "location": {
@@ -1638,63 +1638,15 @@
       "eventCategory": [
         {
           "value": "Hindernis"
+        },
+        {
+          "value": "Sperrung"
         }
       ],
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-20T07:42:01.638Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/465764_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 465764
-      },
-      "description": [
-        {
-          "value": "A44 Eisenach Richtung Kassel\nzwischen Hessisch Lichtenau-Ost und Hessisch Lichtenau-Mitte\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A44"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A44 Eisenach Richtung Kassel zwischen Hessisch Lichtenau-Ost und Hessisch Lichtenau-Mitte",
-        "streets": [
-          "A44"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-20T08:23:03.448Z"
+        "value": "2022-01-20T08:40:34.446Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
