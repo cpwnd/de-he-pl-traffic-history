@@ -988,7 +988,7 @@
       },
       "description": [
         {
-          "value": "A5 Kassel Richtung Frankfurt\nAusfahrt Frankfurt am Main-Westhafen\nUnfall in der Überleitung"
+          "value": "A5 Kassel Richtung Frankfurt\nAusfahrt Frankfurt am Main-Westhafen\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -1020,11 +1020,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-20T15:18:31.122Z"
+        "value": "2022-01-20T15:47:19.96Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2421,6 +2421,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-12T14:31:18.473Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/465969_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 465969
+      },
+      "description": [
+        {
+          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Eschborner Dreieck und Frankfurt am Main-Höchst\nGefahr besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Frankfurt Richtung Wiesbaden zwischen Eschborner Dreieck und Frankfurt am Main-Höchst",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-20T15:48:25.445Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
