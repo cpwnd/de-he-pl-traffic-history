@@ -2486,57 +2486,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/465832_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 465832
-      },
-      "description": [
-        {
-          "value": "A66 Rhein-Main-Schnellweg, Wiesbaden - Frankfurt\nzwischen Diedenbergen und Hofheim am Taunus\nin beiden Richtungen die Sicht hat sich verbessert"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A66"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A66 Rhein-Main-Schnellweg, Wiesbaden Richtung Frankfurt zwischen Diedenbergen und Hofheim am Taunus",
-        "streets": [
-          "A66"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-20T11:10:31.403Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/461537_LMS-HE/54"
       },
       "dataProducer": {
@@ -7208,6 +7157,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/465840_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 465840
+      },
+      "description": [
+        {
+          "value": "L3050 Weidenhausen, Westring\nzwischen Schieferstraße und Ernst-Reuter-Straße\nin beiden Richtungen Unfall, Richtungsfahrbahn gesperrt, empfohlene Umleitungen: über Ernst-Reuter-Straße, Karlstraße und Schieferstraße, über Mühlstraße und Weidenhäuser Straße"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3050"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Weidenhausen, Westring zwischen Schieferstraße und Ernst-Reuter-Straße",
+        "streets": [
+          "L3050"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-20T11:23:41.133Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
