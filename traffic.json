@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -2917,6 +2917,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/466181_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 466181
+      },
+      "description": [
+        {
+          "value": "A643 Mainz Richtung Wiesbaden\nzwischen Wiesbaden-Äppelallee und Schiersteiner Kreuz\ndefekter LKW auf dem rechten Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A643"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A643 Mainz Richtung Wiesbaden zwischen Wiesbaden-Äppelallee und Schiersteiner Kreuz",
+        "streets": [
+          "A643"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-21T06:22:44.144Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -8675,6 +8726,42 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-05T12:46:23.25Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/466184_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 466184
+      },
+      "description": [
+        {
+          "value": "Gefahr durch Gegenstände auf der Fahrbahn"
+        }
+      ],
+      "location": null,
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-21T06:23:34.382Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
