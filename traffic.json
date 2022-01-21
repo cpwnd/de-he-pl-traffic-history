@@ -1180,7 +1180,7 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Bad Homburger Kreuz und Friedberg\nUnfallaufnahme, 2 linke Fahrstreifen gesperrt, Verkehrsbehinderung"
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Bad Homburger Kreuz und Friedberg\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -1215,7 +1215,7 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-21T20:13:37.635Z"
+        "value": "2022-01-21T21:16:06.862Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4701,6 +4701,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/466451_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 466451
+      },
+      "description": [
+        {
+          "value": "B417, K707 zwischen Ehrenbach und Abzweig nach Oberlibbach\nin beiden Richtungen Gefahr durch ein totes Tier auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B417"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B417 Richtung Diez zwischen Ehrenbach und Abzweig nach Oberlibbach",
+        "streets": [
+          "B417"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-21T21:15:36.924Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
