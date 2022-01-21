@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "4ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -515,60 +515,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-04T14:58:05.381Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/466092_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 466092
-      },
-      "description": [
-        {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Raunheim und Wiesbadener Kreuz\nBaustelle beseitigt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Frankfurt Richtung Köln zwischen Raunheim und Wiesbadener Kreuz",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-21T02:15:10.143Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1169,7 +1115,7 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Fernwald und Reiskirchen\nGefahr durch ungesicherte Unfallstelle auf dem rechten Fahrstreifen, rechter Fahrstreifen blockiert"
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Fernwald und Reiskirchen\nUnfallaufnahme auf dem rechten Fahrstreifen, Gefahr, rechter Fahrstreifen blockiert, Staugefahr"
         }
       ],
       "location": {
@@ -1195,20 +1141,20 @@
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Störung"
         },
         {
-          "value": "Störung"
+          "value": "Stau"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-21T02:26:38.886Z"
+        "value": "2022-01-21T02:41:55.341Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
