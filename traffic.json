@@ -916,6 +916,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/466177_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 466177
+      },
+      "description": [
+        {
+          "value": "A4 Erfurt Richtung Bad Hersfeld\nzwischen Wildeck-Obersuhl und Wildeck-Hönebach\nGefahr durch defekten LKW auf dem rechten Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A4"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A4 Erfurt Richtung Bad Hersfeld zwischen Wildeck-Obersuhl und Wildeck-Hönebach",
+        "streets": [
+          "A4"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-21T05:55:29.582Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/438866_LMS-HE/54"
       },
       "dataProducer": {
@@ -1039,57 +1090,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/466174_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 466174
-      },
-      "description": [
-        {
-          "value": "A5 Kassel Richtung Frankfurt\nzwischen Bad Homburger Kreuz und Nordwestkreuz Frankfurt\nGefahr durch Metallteile auf der Fahrbahn"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Kassel Richtung Frankfurt zwischen Bad Homburger Kreuz und Nordwestkreuz Frankfurt",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-21T05:30:29.218Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
@@ -2485,7 +2485,7 @@
       },
       "description": [
         {
-          "value": "A66, A45 Frankfurt Richtung Fulda\nzwischen Hanauer Kreuz und Gründau-Lieblos\nUnfallaufnahme, Gefahr, Unfall mit mehreren Fahrzeugen, Richtungsfahrbahn gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren\n(VT werden gebeten Gründau - Rothenbergen abzufahren)"
+          "value": "A66, A45 Frankfurt Richtung Fulda\nzwischen Hanauer Kreuz und Gründau-Lieblos\nUnfall mit mehreren Fahrzeugen, Richtungsfahrbahn gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren\n(VT werden gebeten Gründau - Rothenbergen abzufahren)"
         }
       ],
       "location": {
@@ -2508,12 +2508,9 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
-        {
-          "value": "Störung"
-        },
         {
           "value": "Unfall"
         },
@@ -2524,10 +2521,10 @@
           "value": "Hinweis"
         }
       ],
-      "masterEventCategory": "Störung",
+      "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-21T03:27:47.288Z"
+        "value": "2022-01-21T05:45:38.368Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4612,6 +4609,61 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/466175_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 466175
+      },
+      "description": [
+        {
+          "value": "B49, B54 Limburg - Gießen\nzwischen Limburg-Offheim und Ausfahrt Obertiefenbach\nin beiden Richtungen Gefahr durch ungesicherte Unfallstelle, Richtungsfahrbahn blockiert"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B49, B54"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B49, B54 Limburg Richtung Gießen zwischen Limburg-Offheim und Ausfahrt Obertiefenbach",
+        "streets": [
+          "B49",
+          "B54"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-21T05:53:00.605Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
