@@ -2262,6 +2262,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/466459_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 466459
+      },
+      "description": [
+        {
+          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Frankfurt am Main-L.-Landmann-Str. und Nordwestkreuz Frankfurt\nGefahr durch 1 unbeleuchtetes Fahrzeug auf dem rechten Fahrstreifen\n(E-Rollerfahrer)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Frankfurt Richtung Wiesbaden zwischen Frankfurt am Main-L.-Landmann-Str. und Nordwestkreuz Frankfurt",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-21T23:11:01.503Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/397236_LMS-HE/54"
       },
       "dataProducer": {
@@ -5042,71 +5093,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-16T23:00:01.413Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/464762_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 464762
-      },
-      "description": [
-        {
-          "value": "Nieder-Walluf, Hauptstraße\nzwischen Schöne Aussicht und Kreisverkehr\nin beiden Richtungen Baustelle, Richtungsfahrbahn gesperrt, bis 21.01.2022 Mitternacht"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "K638"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Nieder-Walluf, Hauptstraße zwischen Schöne Aussicht und Kreisverkehr",
-        "streets": [
-          "K638"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-01-17T04:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-01-21T22:59:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 17.01.2022 05:00 Uhr bis 21.01.2022 Mitternacht"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-17T04:00:00.624Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
