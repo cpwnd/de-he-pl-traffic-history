@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -450,6 +450,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-04T14:57:19.111Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/466144_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 466144
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Frankfurt am Main-Flughafen und Kelsterbach\nGefahr durch ungesicherte Unfallstelle auf dem mittleren Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Köln zwischen Frankfurt am Main-Flughafen und Kelsterbach",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-21T02:54:53.632Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4439,6 +4490,63 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/466146_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 466146
+      },
+      "description": [
+        {
+          "value": "B62 Alsfeld Richtung Marburg\nzwischen Leusel und Angenrod\nGefahr durch ungesicherte Unfallstelle, Verkehrsbehinderung zu erwarten, Glatteisgefahr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B62"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B62 Alsfeld Richtung Marburg zwischen Leusel und Angenrod",
+        "streets": [
+          "B62"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Stau"
+        },
+        {
+          "value": "Straßenzustand"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-21T03:11:02.711Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/445126_LMS-HE/54"
       },
       "dataProducer": {
@@ -8179,7 +8287,7 @@
       },
       "description": [
         {
-          "value": "Nordhessen\nmit Straßenglätte ist zu rechnen, bitte vorsichtig fahren"
+          "value": "Hessen, in höheren Lagen\nmit Straßenglätte ist zu rechnen, bitte vorsichtig fahren"
         }
       ],
       "location": {
@@ -8189,7 +8297,7 @@
           }
         ],
         "name": "Ort",
-        "description": "Nordhessen",
+        "description": "Hessen, in höheren Lagen",
         "streets": null
       },
       "duration": null,
@@ -8208,7 +8316,7 @@
       "masterEventCategory": "Straßenzustand",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-20T23:03:35.75Z"
+        "value": "2022-01-21T03:12:49.431Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
