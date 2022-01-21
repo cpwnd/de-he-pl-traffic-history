@@ -458,6 +458,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/466440_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 466440
+      },
+      "description": [
+        {
+          "value": "A3 Köln - Frankfurt\nzwischen Idstein und Wiesbaden/Niedernhausen\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Frankfurt zwischen Idstein und Wiesbaden/Niedernhausen",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-21T19:16:33.562Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/461440_LMS-HE/54"
       },
       "dataProducer": {
@@ -1118,7 +1169,7 @@
       },
       "description": [
         {
-          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Langen/Mörfelden und Zeppelinheim\nGefahr durch ungesicherte Unfallstelle, linker Fahrstreifen blockiert"
+          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Langen/Mörfelden und Zeppelinheim\nUnfallaufnahme, linker Fahrstreifen gesperrt"
         }
       ],
       "location": {
@@ -1140,24 +1191,24 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Störung"
         },
         {
-          "value": "Störung"
+          "value": "Sperrung"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-21T18:32:16.778Z"
+        "value": "2022-01-21T19:11:09.544Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4783,7 +4834,7 @@
       },
       "description": [
         {
-          "value": "B486 Eppertshausen Richtung Rüsselsheim\nzwischen A661, Langen und B3 Langen Frankfurter Straße\nUnfall, Richtungsfahrbahn gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+          "value": "B486 Eppertshausen Richtung Rüsselsheim\nzwischen A661, Langen und B3 Langen Frankfurter Straße\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -4821,7 +4872,7 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-21T18:29:19.164Z"
+        "value": "2022-01-21T19:21:50.523Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
