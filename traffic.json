@@ -458,6 +458,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/466202_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 466202
+      },
+      "description": [
+        {
+          "value": "A3 Köln Richtung Frankfurt\nEinfahrt Limburg-Nord\nHindernisse beseitigt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Frankfurt Einfahrt Limburg-Nord",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-21T07:41:58.012Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/461440_LMS-HE/54"
       },
       "dataProducer": {
@@ -2421,60 +2472,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/466167_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 466167
-      },
-      "description": [
-        {
-          "value": "A66, L3206 Neuhof-Süd Richtung Fulda\nzwischen Neuhof-Süd und Neuhof-Nord\nalle Fahrbahnen geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A66"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A66 Neuhof-Süd Richtung Fulda zwischen Neuhof-Süd und Neuhof-Nord",
-        "streets": [
-          "A66"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-21T07:27:47.234Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/397236_LMS-HE/54"
       },
       "dataProducer": {
@@ -2967,57 +2964,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-13T10:18:11.076Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/466181_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 466181
-      },
-      "description": [
-        {
-          "value": "A643 Mainz Richtung Wiesbaden\nzwischen Wiesbaden-Äppelallee und Schiersteiner Kreuz\nStraße geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A643"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A643 Mainz Richtung Wiesbaden zwischen Wiesbaden-Äppelallee und Schiersteiner Kreuz",
-        "streets": [
-          "A643"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-21T07:17:56.348Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4782,7 +4728,7 @@
       },
       "description": [
         {
-          "value": "B62 Alsfeld - Marburg\nzwischen Alsfeld und Leusel\nin beiden Richtungen Gefahr durch ungesicherte Unfallstelle, Gefahr durch Bergungsarbeiten, Glatteisgefahr, Richtungsfahrbahn bis auf weiteres gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren\n(Achtung: Örtlichkeit wurde geändert!!!)"
+          "value": "B62 Alsfeld - Marburg\nzwischen Alsfeld und Leusel\nin beiden Richtungen Bergungsarbeiten, Verkehr wird an der Unfallstelle vorbeigeführt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
         }
       ],
       "location": {
@@ -4804,29 +4750,23 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
-        {
-          "value": "Unfall"
-        },
         {
           "value": "Arbeitsstelle"
         },
         {
-          "value": "Straßenzustand"
+          "value": "Störung"
         },
         {
           "value": "Hinweis"
-        },
-        {
-          "value": "Sperrung"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-21T04:41:02.474Z"
+        "value": "2022-01-21T07:38:26.009Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -8578,51 +8518,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/466127_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 466127
-      },
-      "description": [
-        {
-          "value": "Hofheim am Taunus\nVermisstenfahndung eingestellt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": null
-          }
-        ],
-        "name": "Ort",
-        "description": "Hofheim am Taunus",
-        "streets": null
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Information"
-        }
-      ],
-      "masterEventCategory": "Information",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-21T07:25:36.481Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
