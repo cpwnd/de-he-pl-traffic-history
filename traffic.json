@@ -2762,6 +2762,74 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/466321_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 466321
+      },
+      "description": [
+        {
+          "value": "A648 Wiesbadener Straße, Frankfurt - Eschborn\nin Höhe Westkreuz Frankfurt\nin beiden Richtungen Demonstration, mehrfach kurzfristige Sperrungen, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, bis 21.01.2022 16:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A648"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A648 Wiesbadener Straße, Frankfurt Richtung Eschborn in Höhe Westkreuz Frankfurt",
+        "streets": [
+          "A648"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-01-21T12:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-01-21T15:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "am 21.01.2022 von 13:00 Uhr bis 16:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-21T12:00:00.976Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/430914_LMS-HE/54"
       },
       "dataProducer": {
@@ -8265,7 +8333,7 @@
       },
       "description": [
         {
-          "value": "Hessen, in höheren Lagen\nmit Straßenglätte ist zu rechnen, bitte vorsichtig fahren"
+          "value": "Hessen, in höheren Lagen\nFahrbedingungen haben sich gebessert"
         }
       ],
       "location": {
@@ -8294,7 +8362,7 @@
       "masterEventCategory": "Straßenzustand",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-21T03:12:49.431Z"
+        "value": "2022-01-21T12:17:52.424Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
