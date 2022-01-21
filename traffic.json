@@ -1246,7 +1246,7 @@
       },
       "description": [
         {
-          "value": "A6 Heilbronn Richtung Mannheim\nzwischen Viernheimer Kreuz und Viernheimer Dreieck\nGefahr durch ungesicherte Unfallstelle"
+          "value": "A6 Heilbronn Richtung Mannheim\nzwischen Viernheimer Kreuz und Viernheimer Dreieck\nUnfallaufnahme, rechter Fahrstreifen gesperrt, Verkehrsbehinderung"
         }
       ],
       "location": {
@@ -1268,17 +1268,74 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-21T17:24:45.043Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/466415_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 466415
+      },
+      "description": [
+        {
+          "value": "A6 Mannheim Richtung Heilbronn\nzwischen Viernheimer Dreieck und Viernheimer Kreuz\nUnfall, Stau"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A6"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A6 Mannheim Richtung Heilbronn zwischen Viernheimer Dreieck und Viernheimer Kreuz",
+        "streets": [
+          "A6"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
       },
       "eventCategory": [
         {
           "value": "Unfall"
+        },
+        {
+          "value": "Stau"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-21T16:37:22.858Z"
+        "value": "2022-01-21T17:31:44.732Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1492,7 +1549,7 @@
       },
       "description": [
         {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Kirchheimer Dreieck und Hattenbacher Dreieck\nGefahr durch ungesicherte Unfallstelle, Gefahr durch Personen auf der Fahrbahn"
+          "value": "A7 Kassel Richtung Fulda\nzwischen Kirchheimer Dreieck und Hattenbacher Dreieck\nUnfallaufnahme, 2 linke Fahrstreifen gesperrt, Verkehrsbehinderung"
         }
       ],
       "location": {
@@ -1514,24 +1571,24 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Störung"
         },
         {
-          "value": "Hindernis"
+          "value": "Sperrung"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-21T17:06:42.449Z"
+        "value": "2022-01-21T17:19:06.344Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4571,7 +4628,7 @@
       },
       "description": [
         {
-          "value": "B49 Gießener Ring, Limburg Richtung Gießen\nzwischen B429, Gießen-Lahnfeld und Dreieck Bergwerkswald\nGefahr durch ungesicherte Unfallstelle"
+          "value": "B49 Gießener Ring, Limburg Richtung Gießen\nzwischen B429, Gießen-Lahnfeld und Dreieck Bergwerkswald\nUnfallaufnahme, Bergungsarbeiten, Verkehrsbehinderung"
         }
       ],
       "location": {
@@ -4593,21 +4650,24 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Störung"
+        },
+        {
+          "value": "Arbeitsstelle"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-21T16:53:15.335Z"
+        "value": "2022-01-21T17:25:09.652Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -8140,63 +8200,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/433544_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 433544
-      },
-      "description": [
-        {
-          "value": "L3398 Heppenheim (Bergstraße), Bürgermeister-Metzendorf-Straße bis Außerhalb Heppenheim\nzwischen Kreisverkehr Am Bruchsee und Kreisverkehr Außerhalb Heppenheim\nin beiden Richtungen Baustelle beseitigt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3398"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Heppenheim (Bergstraße), Bürgermeister-Metzendorf-Straße bis Außerhalb Heppenheim zwischen Kreisverkehr Am Bruchsee und Kreisverkehr Außerhalb Heppenheim",
-        "streets": [
-          "L3398"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-21T17:02:19.321Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
