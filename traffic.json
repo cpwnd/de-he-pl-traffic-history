@@ -588,6 +588,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/466652_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 466652
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Limburg-Nord und Diez\nUnfall, Gefahr durch Fahrzeugteile auf der Fahrbahn, 2 defekte PKW auf dem Standstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Köln zwischen Limburg-Nord und Diez",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-22T20:45:23.585Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/461444_LMS-HE/54"
       },
       "dataProducer": {
@@ -4652,7 +4706,7 @@
       },
       "description": [
         {
-          "value": "B62, L3140 Alsfeld Richtung Großenlüder\nzwischen Niederjossa und Niederaula\nUnfall, gesperrt\n(Abfahrt kommend aus Richtung Niederjossa auf die L3140 Fr Unter-Wegfurth nicht möglich)"
+          "value": "B62, L3140 Alsfeld Richtung Großenlüder\nzwischen Niederjossa und Niederaula\nStraße wieder frei"
         }
       ],
       "location": {
@@ -4687,7 +4741,7 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-22T19:05:53.965Z"
+        "value": "2022-01-22T20:31:46.851Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -8515,57 +8569,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-22T11:16:31.192Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/466596_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 466596
-      },
-      "description": [
-        {
-          "value": "Sachsenhausen\nVeranstaltung beendet"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": null
-          }
-        ],
-        "name": "Ort",
-        "description": "Sachsenhausen",
-        "streets": null
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Hinweis"
-        },
-        {
-          "value": "Stau"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-22T20:22:19.58Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
