@@ -1236,17 +1236,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/466608_LMS-HE/54"
+        "value": "LMS/r_LMS/466609_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 466608
+        "value": 466609
       },
       "description": [
         {
-          "value": "A7 Fulda Richtung Würzburg\nzwischen Dreieck Fulda und Bad Brückenau-Volkers\nGefahr durch Gegenstände auf dem linken Fahrstreifen (ein Reifen)"
+          "value": "A7 Richtung Fulda\nzwischen Einfahrt Melsungen und Homberg (Efze)\nGefahr durch ungesicherte Unfallstelle, Gefahr durch Gegenstände auf der Fahrbahn, empfohlene Umleitung: Richtung Fulda über B253, Beuern, Hilgershausen, Ostheim, Sipperhausen, Oberbeisheim, Niederbeisheim, Rengshausen, Ersrode, Hainrode, Mühlbach und Aua"
         }
       ],
       "location": {
@@ -1260,7 +1260,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A7 Fulda Richtung Würzburg zwischen Dreieck Fulda und Bad Brückenau-Volkers",
+        "description": "A7 Richtung Fulda zwischen Einfahrt Melsungen und Homberg (Efze)",
         "streets": [
           "A7"
         ]
@@ -1272,17 +1272,20 @@
       },
       "eventCategory": [
         {
+          "value": "Unfall"
+        },
+        {
           "value": "Hindernis"
         }
       ],
-      "masterEventCategory": "Hindernis",
+      "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-22T15:38:33.065Z"
+        "value": "2022-01-22T16:02:36.971Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2309,6 +2312,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/466618_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 466618
+      },
+      "description": [
+        {
+          "value": "A66 Fulda Richtung Frankfurt\nzwischen Hanau-Nord und Hanau-West\nGefahr durch Fahrradfahrer auf dem Standstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Fulda Richtung Frankfurt zwischen Hanau-Nord und Hanau-West",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-22T16:18:49.471Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -4118,74 +4172,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/466438_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 466438
-      },
-      "description": [
-        {
-          "value": "B49 Gießen - Limburg\nzwischen Abzweig nach Tiefenbach und Abzweig nach Biskirchen\nin beiden Richtungen Bauarbeiten, Richtungsfahrbahn gesperrt, eine Umleitung ist eingerichtet, am 22.01.2022 von 08:00 Uhr bis 17:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B49"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B49 Gießen Richtung Limburg zwischen Abzweig nach Tiefenbach und Abzweig nach Biskirchen",
-        "streets": [
-          "B49"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-01-22T07:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-01-22T16:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "am 22.01.2022 von 08:00 Uhr bis 17:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-21T19:00:00.826Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/466437_LMS-HE/54"
       },
       "dataProducer": {
@@ -4646,7 +4632,7 @@
       },
       "description": [
         {
-          "value": "B279 Fuldatalstraße, Fulda Richtung Bischofsheim\nzwischen Hettenhausen und Altenfeld\nUnfall, Rettungsfahrzeuge im Einsatz, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, Fahrbahn auf einen Fahrstreifen verengt"
+          "value": "B279 Fuldatalstraße, Fulda Richtung Bischofsheim\nzwischen Hettenhausen und Altenfeld\nalle Unfallstellen geräumt, keine Verkehrsbehinderung mehr"
         }
       ],
       "location": {
@@ -4687,7 +4673,7 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-22T14:54:47.734Z"
+        "value": "2022-01-22T16:15:47.654Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -7172,60 +7158,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/466540_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 466540
-      },
-      "description": [
-        {
-          "value": "L3068 Dietges Richtung Obernhausen\nzwischen B284 und Abtsroda\nalle Parkplätze besetzt, Sperrung für Durchgangsverkehr ist aufgehoben"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3068"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Kreis Fulda, L3068 zwischen B284 und Abtsroda",
-        "streets": [
-          "L3068"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Parken"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Parken",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-22T14:55:01.541Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/464788_LMS-HE/54"
       },
       "dataProducer": {
@@ -8284,65 +8216,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/466564_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 466564
-      },
-      "description": [
-        {
-          "value": "Marburg\nDemonstration, Verkehrsbehinderung zu erwarten, am 22.01.2022 von 13:30 Uhr bis 17:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": null
-          }
-        ],
-        "name": "Ort",
-        "description": "Marburg",
-        "streets": null
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-01-22T12:30:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-01-22T16:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "am 22.01.2022 von 13:30 Uhr bis 17:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Stau"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-22T11:54:24.448Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
@@ -9774,59 +9647,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-21T09:15:16.362Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/466506_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 466506
-      },
-      "description": [
-        {
-          "value": "Großer Feldberg\nin Höhe Hochtaunusstraße\nbeide Fahrtrichtungen gesperrt, nutzen Sie die öffentlichen Verkehrsmittel, alle Parkplätze weitgehend besetzt\n(Das Feldbergplateau ist aufgrund des Ausflugsverkehrs für Kraftfahrzeuge gesperrt. Benutzen Sie die öffentlichen Verkehrsmittel)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": null
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Hochtaunuskreis, Großer Feldberg in Höhe Hochtaunusstraße",
-        "streets": null
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Hinweis"
-        },
-        {
-          "value": "Parken"
-        }
-      ],
-      "masterEventCategory": "Sperrung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-22T14:39:10.308Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
