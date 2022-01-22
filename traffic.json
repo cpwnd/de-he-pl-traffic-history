@@ -2370,6 +2370,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/466653_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 466653
+      },
+      "description": [
+        {
+          "value": "A67 Mönchhof-Dreieck Richtung Darmstadt\nzwischen Mönchhof-Dreieck und Rüsselsheim-Ost\nAchtung, Ihnen kommt ein Falschfahrer entgegen, nicht überholen, Vorsicht auf beiden Richtungsfahrbahnen, bitte vorsichtig fahren\n(PKW fährt rückwärts auf dem Standstreifen)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A67"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A67 Mönchhof-Dreieck Richtung Darmstadt zwischen Mönchhof-Dreieck und Rüsselsheim-Ost",
+        "streets": [
+          "A67"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Sehr dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-22T21:05:55.178Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/466646_LMS-HE/54"
       },
       "dataProducer": {
@@ -4692,60 +4746,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/466639_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 466639
-      },
-      "description": [
-        {
-          "value": "B62, L3140 Alsfeld Richtung Großenlüder\nzwischen Niederjossa und Niederaula\nStraße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B62"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B62 Alsfeld Richtung Großenlüder zwischen Niederjossa und Niederaula",
-        "streets": [
-          "B62"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-22T20:31:46.851Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -7502,7 +7502,7 @@
       },
       "description": [
         {
-          "value": "L3155 Schwalmstadt - Gemünden (Wohra)\nzwischen Treysa und Abzweig nach Sebbeterode\nschwerer Unfall, beide Fahrtrichtungen gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, Rettungsfahrzeuge im Einsatz"
+          "value": "L3155 Schwalmstadt - Gemünden (Wohra)\nzwischen Treysa und Abzweig nach Sebbeterode\nin beiden Richtungen Straße wieder frei"
         }
       ],
       "location": {
@@ -7543,11 +7543,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-22T18:14:37.015Z"
+        "value": "2022-01-22T21:10:18.22Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
