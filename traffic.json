@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -1155,57 +1155,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/466500_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 466500
-      },
-      "description": [
-        {
-          "value": "A5 Darmstadt - Frankfurt\nzwischen Weiterstadt und Langen/Mörfelden\nin beiden Richtungen Gefahr durch Personen auf dem Standstreifen"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Darmstadt Richtung Frankfurt zwischen Weiterstadt und Langen/Mörfelden",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-22T07:20:21.796Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/364835_LMS-HE/54"
       },
       "dataProducer": {
@@ -1464,57 +1413,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/466503_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 466503
-      },
-      "description": [
-        {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Hünfeld/Schlitz und Fulda-Nord\nGefahr durch defektes Fahrzeug auf dem mittleren Fahrstreifen"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A7"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A7 Kassel Richtung Fulda zwischen Hünfeld/Schlitz und Fulda-Nord",
-        "streets": [
-          "A7"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-22T07:33:04.463Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/443925_LMS-HE/54"
       },
       "dataProducer": {
@@ -1706,6 +1604,58 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/466503_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 466503
+      },
+      "description": [
+        {
+          "value": "A7, A5 Fulda Richtung Kassel\nzwischen Hattenbacher Dreieck und Kirchheimer Dreieck\nalle Fahrbahnen wieder frei"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7, A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7, A5 Fulda Richtung Kassel zwischen Hattenbacher Dreieck und Kirchheimer Dreieck",
+        "streets": [
+          "A7",
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-22T08:02:01.34Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -3904,7 +3854,7 @@
       },
       "description": [
         {
-          "value": "B43A Hanauer Kreuz Richtung Obertshausen\nzwischen Hellentalbrücke und Überleitung Hanau-Klein-Auheim\nGefahr durch defektes Fahrzeug auf dem Verzögerungsstreifen"
+          "value": "B43A Hanauer Kreuz Richtung Obertshausen\nzwischen Hellentalbrücke und Überleitung Hanau-Klein-Auheim\nalle Fahrbahnen wieder frei"
         }
       ],
       "location": {
@@ -3926,7 +3876,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -3936,11 +3886,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-22T07:40:48.289Z"
+        "value": "2022-01-22T08:03:39.171Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -9839,7 +9789,7 @@
       },
       "description": [
         {
-          "value": "Großer Feldberg\nin Höhe Hochtaunusstraße\nFahrstreifen gesperrt, nutzen Sie die öffentlichen Verkehrsmittel\n(Das Feldbergplateau ist aufgrund des Ausflugsverkehrs für Kraftfahrzeuge gesperrt. Benutzen Sie die öffentlichen Verkehrsmittel)"
+          "value": "Großer Feldberg\nin Höhe Hochtaunusstraße\nbeide Fahrtrichtungen gesperrt, nutzen Sie die öffentlichen Verkehrsmittel\n(Das Feldbergplateau ist aufgrund des Ausflugsverkehrs für Kraftfahrzeuge gesperrt. Benutzen Sie die öffentlichen Verkehrsmittel)"
         }
       ],
       "location": {
@@ -9861,20 +9811,20 @@
       },
       "eventCategory": [
         {
-          "value": "Sperrung"
+          "value": "Hinweis"
         },
         {
-          "value": "Hinweis"
+          "value": "Sperrung"
         }
       ],
-      "masterEventCategory": "Sperrung",
+      "masterEventCategory": "Hinweis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-22T07:39:21.009Z"
+        "value": "2022-01-22T07:47:16.712Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     }
   ]
