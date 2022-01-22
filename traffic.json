@@ -208,7 +208,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Würzburg\nzwischen Frankfurt am Main-Süd und Offenbacher Kreuz\nGefahr durch Gegenstände auf der Fahrbahn"
+          "value": "A3 Frankfurt Richtung Würzburg\nzwischen Frankfurt am Main-Süd und Offenbacher Kreuz\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -230,7 +230,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -240,11 +240,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-22T06:45:27.592Z"
+        "value": "2022-01-22T07:17:32.598Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1070,7 +1070,7 @@
       "masterEventCategory": null,
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-22T07:09:36.659Z"
+        "value": "2022-01-22T07:18:13.276Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1202,6 +1202,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/466500_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 466500
+      },
+      "description": [
+        {
+          "value": "A5 Darmstadt - Frankfurt\nzwischen Weiterstadt und Langen/Mörfelden\nin beiden Richtungen Gefahr durch Personen auf dem Standstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Darmstadt Richtung Frankfurt zwischen Weiterstadt und Langen/Mörfelden",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-22T07:20:21.796Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
