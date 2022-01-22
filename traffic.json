@@ -458,6 +458,63 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/466623_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 466623
+      },
+      "description": [
+        {
+          "value": "A3 Würzburg Richtung Frankfurt\nzwischen Offenbacher Kreuz und Frankfurt am Main-Süd\nUnfall auf dem linken Fahrstreifen, defekter PKW auf dem Standstreifen, bitte vorsichtig fahren, Gefahr durch ungesicherte Unfallstelle, Gefahr durch Fahrzeugteile auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Würzburg Richtung Frankfurt zwischen Offenbacher Kreuz und Frankfurt am Main-Süd",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-22T17:11:39.96Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/461440_LMS-HE/54"
       },
       "dataProducer": {
@@ -1246,7 +1303,7 @@
       },
       "description": [
         {
-          "value": "A7 Richtung Fulda\nzwischen Einfahrt Melsungen und Homberg (Efze)\nGefahr durch ungesicherte Unfallstelle, Gefahr durch Gegenstände auf der Fahrbahn, empfohlene Umleitung: Richtung Fulda über B253, Beuern, Hilgershausen, Ostheim, Sipperhausen, Oberbeisheim, Niederbeisheim, Rengshausen, Ersrode, Hainrode, Mühlbach und Aua"
+          "value": "A7 Richtung Fulda\nzwischen Einfahrt Melsungen und Homberg (Efze)\nGefahr durch Gegenstände auf der Fahrbahn, Unfall, Unfallaufnahme, Stau, Richtungsfahrbahn gesperrt, empfohlene Umleitung: Richtung Fulda über B253, Beuern, Hilgershausen, Ostheim, Sipperhausen, Oberbeisheim, Niederbeisheim, Rengshausen, Ersrode, Hainrode, Mühlbach und Aua"
         }
       ],
       "location": {
@@ -1272,16 +1329,25 @@
       },
       "eventCategory": [
         {
+          "value": "Hindernis"
+        },
+        {
           "value": "Unfall"
         },
         {
-          "value": "Hindernis"
+          "value": "Störung"
+        },
+        {
+          "value": "Stau"
+        },
+        {
+          "value": "Sperrung"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-22T16:02:36.971Z"
+        "value": "2022-01-22T16:56:24.401Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2308,57 +2374,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-12T14:31:18.473Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/466618_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 466618
-      },
-      "description": [
-        {
-          "value": "A66 Fulda Richtung Frankfurt\nzwischen Hanau-Nord und Hanau-West\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A66"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A66 Fulda Richtung Frankfurt zwischen Hanau-Nord und Hanau-West",
-        "streets": [
-          "A66"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-22T16:40:36.122Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
