@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -2840,66 +2840,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/466642_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 466642
-      },
-      "description": [
-        {
-          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Bad Homburger Kreuz und Ausfahrt Bad Homburg\ndefekter PKW, Verzögerungsstreifen blockiert, Polizei ist benachrichtigt, bitte vorsichtig fahren"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A661"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A661 Darmstadt Richtung Bad Homburg zwischen Bad Homburger Kreuz und Ausfahrt Bad Homburg",
-        "streets": [
-          "A661"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Information"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-22T19:09:19.191Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/430914_LMS-HE/54"
       },
       "dataProducer": {
@@ -4205,7 +4145,7 @@
       },
       "description": [
         {
-          "value": "B45 Eberbach - Michelstadt\nzwischen Beerfelden und Abzweig nach Etzean\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
+          "value": "B45 Eberbach - Michelstadt\nzwischen Beerfelden und Abzweig nach Etzean\nin beiden Richtungen Gefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -4227,7 +4167,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -4237,11 +4177,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-22T19:15:07.175Z"
+        "value": "2022-01-22T20:07:14.445Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -8343,62 +8283,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-15T04:00:01.451Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/466619_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 466619
-      },
-      "description": [
-        {
-          "value": "Kreis Fulda\nDemonstration, bis 22.01.2022 ca. 21:00 Uhr\n(Aufgrund einer Demonstrationslage in Fulda kommt es im Innenstadtbereich bis ca 20:00 Uhr zu Verkehrsbeeinträchtigungen)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": null
-          }
-        ],
-        "name": "Ort",
-        "description": "Kreis Fulda",
-        "streets": null
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-01-22T16:30:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-01-22T20:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "am 22.01.2022 von 17:30 Uhr bis ca. 21:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-22T16:35:26.42Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
