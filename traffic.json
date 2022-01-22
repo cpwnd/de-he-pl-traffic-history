@@ -2326,7 +2326,7 @@
       },
       "description": [
         {
-          "value": "A66 Fulda Richtung Frankfurt\nzwischen Hanau-Nord und Hanau-West\nGefahr durch Fahrradfahrer auf dem Standstreifen"
+          "value": "A66 Fulda Richtung Frankfurt\nzwischen Hanau-Nord und Hanau-West\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -2348,7 +2348,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2358,11 +2358,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-22T16:18:49.471Z"
+        "value": "2022-01-22T16:40:36.122Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4614,66 +4614,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-12-31T21:50:54.913Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/466551_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 466551
-      },
-      "description": [
-        {
-          "value": "B279 Fuldatalstraße, Fulda Richtung Bischofsheim\nzwischen Hettenhausen und Altenfeld\nalle Unfallstellen geräumt, keine Verkehrsbehinderung mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B279"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B279 Fuldatalstraße, Fulda Richtung Bischofsheim zwischen Hettenhausen und Altenfeld",
-        "streets": [
-          "B279"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Information"
-        },
-        {
-          "value": "Hinweis"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-22T16:15:47.654Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -8093,6 +8033,62 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-15T04:00:01.451Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/466619_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 466619
+      },
+      "description": [
+        {
+          "value": "Kreis Fulda\nDemonstration, bis 22.01.2022 ca. 21:00 Uhr\n(Aufgrund einer Demonstrationslage in Fulda kommt es im Innenstadtbereich bis ca 20:00 Uhr zu Verkehrsbeeinträchtigungen)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": null
+          }
+        ],
+        "name": "Ort",
+        "description": "Kreis Fulda",
+        "streets": null
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-01-22T16:30:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-01-22T20:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "am 22.01.2022 von 17:30 Uhr bis ca. 21:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-22T16:35:26.42Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
