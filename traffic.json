@@ -1272,57 +1272,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/466520_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 466520
-      },
-      "description": [
-        {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Bad Homburger Kreuz und Friedberg\nHindernisse beseitigt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Frankfurt Richtung Kassel zwischen Bad Homburger Kreuz und Friedberg",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-22T10:15:02.316Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/335177_LMS-HE/54"
       },
       "dataProducer": {
@@ -3118,7 +3067,7 @@
       },
       "description": [
         {
-          "value": "B3 Richtung Friedberg\nzwischen Preungesheimer Dreieck und Bad Vilbel-Süd\nGefahr durch Gegenstände auf der Fahrbahn (ein Müllsack)"
+          "value": "B3 Richtung Friedberg\nzwischen Preungesheimer Dreieck und Bad Vilbel-Süd\nalle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -3140,7 +3089,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -3150,11 +3099,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-22T09:59:46.252Z"
+        "value": "2022-01-22T10:30:49.562Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -7326,6 +7275,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/466540_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 466540
+      },
+      "description": [
+        {
+          "value": "L3068 Wasserkuppe, Dietges Richtung Obernhausen\nalle Parkplätze besetzt\n(Es wird darum gebeten, von einer Anfahrt abzusehen bzw. auf umliegende Möglichkeiten auszuweichen.)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3068"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Kreis Fulda, Wasserkuppe ",
+        "streets": [
+          "L3068"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Parken"
+        }
+      ],
+      "masterEventCategory": "Parken",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-22T10:42:34.613Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
