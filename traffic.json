@@ -916,57 +916,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/466537_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 466537
-      },
-      "description": [
-        {
-          "value": "A4 Erfurt Richtung Bad Hersfeld\nzwischen Wildeck-Hönebach und Friedewald\nUnfallstelle geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A4"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A4 Erfurt Richtung Bad Hersfeld zwischen Wildeck-Hönebach und Friedewald",
-        "streets": [
-          "A4"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-22T11:04:21.004Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/438866_LMS-HE/54"
       },
       "dataProducer": {
@@ -1104,7 +1053,7 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Darmstadt\nzwischen Zeppelinheim und Langen/Mörfelden\nGefahr durch Gegenstände auf der Fahrbahn"
+          "value": "A5 Frankfurt Richtung Darmstadt\nzwischen Zeppelinheim und Langen/Mörfelden\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -1126,7 +1075,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1136,11 +1085,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-22T09:42:16.249Z"
+        "value": "2022-01-22T11:18:29.578Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -7292,7 +7241,7 @@
       },
       "description": [
         {
-          "value": "L3068 Wasserkuppe, Dietges Richtung Obernhausen\nalle Parkplätze besetzt\n(Es wird darum gebeten, von einer Anfahrt abzusehen bzw. auf umliegende Möglichkeiten auszuweichen.)"
+          "value": "L3068 Dietges Richtung Obernhausen\nzwischen B284 und Abtsroda\nalle Parkplätze besetzt, gesperrt für Durchgangsverkehr\n(Es wird darum gebeten, von einer Anfahrt abzusehen bzw. auf umliegende Möglichkeiten auszuweichen.)"
         }
       ],
       "location": {
@@ -7306,7 +7255,7 @@
           }
         ],
         "name": "Ort",
-        "description": "Kreis Fulda, Wasserkuppe ",
+        "description": "Kreis Fulda, L3068 zwischen B284 und Abtsroda",
         "streets": [
           "L3068"
         ]
@@ -7319,16 +7268,19 @@
       "eventCategory": [
         {
           "value": "Parken"
+        },
+        {
+          "value": "Sperrung"
         }
       ],
       "masterEventCategory": "Parken",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-22T10:42:34.613Z"
+        "value": "2022-01-22T11:22:56.444Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -8437,11 +8389,11 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-22T08:55:10.088Z"
+        "value": "2022-01-22T11:16:28.411Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -8601,7 +8553,7 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-22T04:15:27.531Z"
+        "value": "2022-01-22T11:16:31.192Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -9829,7 +9781,7 @@
       },
       "description": [
         {
-          "value": "Großer Feldberg\nin Höhe Hochtaunusstraße\nbeide Fahrtrichtungen gesperrt, nutzen Sie die öffentlichen Verkehrsmittel\n(Das Feldbergplateau ist aufgrund des Ausflugsverkehrs für Kraftfahrzeuge gesperrt. Benutzen Sie die öffentlichen Verkehrsmittel)"
+          "value": "Großer Feldberg\nin Höhe Hochtaunusstraße\nbeide Fahrtrichtungen gesperrt, nutzen Sie die öffentlichen Verkehrsmittel, alle Parkplätze zu 70 % besetzt\n(Das Feldbergplateau ist aufgrund des Ausflugsverkehrs für Kraftfahrzeuge gesperrt. Benutzen Sie die öffentlichen Verkehrsmittel)"
         }
       ],
       "location": {
@@ -9851,16 +9803,19 @@
       },
       "eventCategory": [
         {
+          "value": "Sperrung"
+        },
+        {
           "value": "Hinweis"
         },
         {
-          "value": "Sperrung"
+          "value": "Parken"
         }
       ],
-      "masterEventCategory": "Hinweis",
+      "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-22T07:47:16.712Z"
+        "value": "2022-01-22T11:17:02.526Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
