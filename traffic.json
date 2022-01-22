@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -1043,6 +1043,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/466664_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 466664
+      },
+      "description": [
+        {
+          "value": "A5 Kassel - Frankfurt\nzwischen Friedberg und Bad Homburger Kreuz\nin beiden Richtungen Gefahr durch 1 Person auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Kassel Richtung Frankfurt zwischen Friedberg und Bad Homburger Kreuz",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-22T23:07:17.77Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/338932_LMS-HE/54"
       },
       "dataProducer": {
@@ -1812,7 +1863,7 @@
       },
       "description": [
         {
-          "value": "A45 Aschaffenburg Richtung Gießen\nzwischen Florstadt und Wölfersheim\nGefahr durch Gegenstände auf der Fahrbahn (eine Stoßstange)"
+          "value": "A45 Aschaffenburg Richtung Gießen\nzwischen Florstadt und Wölfersheim\nalle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -1834,7 +1885,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1844,11 +1895,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-22T22:29:56.42Z"
+        "value": "2022-01-22T23:04:24.378Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
