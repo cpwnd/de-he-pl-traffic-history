@@ -265,7 +265,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Würzburg\nzwischen Frankfurt am Main-Süd und Offenbacher Kreuz\nGefahr durch ungesicherte Unfallstelle"
+          "value": "A3 Frankfurt Richtung Würzburg\nzwischen Frankfurt am Main-Süd und Offenbacher Kreuz\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -287,7 +287,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -297,11 +297,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-24T17:25:16.247Z"
+        "value": "2022-01-24T18:09:38.719Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1081,6 +1081,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-15T20:00:04.312Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/466996_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 466996
+      },
+      "description": [
+        {
+          "value": "A4 Bad Hersfeld Richtung Erfurt\nzwischen Bad Hersfeld und Friedewald\ndefekter LKW auf dem rechten Fahrstreifen im Baustellenbereich, rechter Fahrstreifen blockiert"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A4"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A4 Bad Hersfeld Richtung Erfurt zwischen Bad Hersfeld und Friedewald",
+        "streets": [
+          "A4"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-24T18:11:15.364Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4250,7 +4304,7 @@
       },
       "description": [
         {
-          "value": "B47 Worms Richtung Bensheim\nzwischen B44, Bürstadt-Mitte und Abzweig nach Riedrode\nAufräumarbeiten, Bergungsarbeiten, Richtungsfahrbahn gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+          "value": "B47 Bensheim Richtung Worms\nzwischen Abzweig nach Riedrode und Worms\nSchwertransport, Überholen nicht möglich, stockender Verkehr\n( nach VU kannn LKW nur in Schritttempo abtransportiert werden und benötigt beide Spuren auf der Bundesstraße )"
         }
       ],
       "location": {
@@ -4264,7 +4318,7 @@
           }
         ],
         "name": "Ort",
-        "description": "B47 Worms Richtung Bensheim zwischen B44, Bürstadt-Mitte und Abzweig nach Riedrode",
+        "description": "B47 Bensheim Richtung Worms zwischen Abzweig nach Riedrode und Worms",
         "streets": [
           "B47"
         ]
@@ -4279,19 +4333,13 @@
           "value": "Störung"
         },
         {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Hinweis"
+          "value": "Stau"
         }
       ],
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-24T16:25:23.559Z"
+        "value": "2022-01-24T17:59:21.429Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
