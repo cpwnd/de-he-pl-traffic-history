@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -2828,6 +2828,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/466935_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 466935
+      },
+      "description": [
+        {
+          "value": "B3 zwischen Einfahrt Bad Vilbel-Süd und Preungesheimer Dreieck\nGefahr durch verlorene Ladung, Gefahr durch Personen auf der Fahrbahn, Stau"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B3 zwischen Einfahrt Bad Vilbel-Süd und Preungesheimer Dreieck",
+        "streets": [
+          "B3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Stau"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-24T12:05:47.781Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/381701_LMS-HE/54"
       },
       "dataProducer": {
@@ -3687,7 +3741,7 @@
       },
       "description": [
         {
-          "value": "B43, B519 Kelsterbach Richtung Wiesbaden\nzwischen Mainzer Straße und Rüsselsheim\nUnfall auf dem linken Fahrstreifen, linker Fahrstreifen blockiert"
+          "value": "B43, B519 Kelsterbach Richtung Wiesbaden\nzwischen Mainzer Straße und Rüsselsheim\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -3723,11 +3777,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-24T09:50:57.876Z"
+        "value": "2022-01-24T12:15:08.108Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
