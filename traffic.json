@@ -1170,57 +1170,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/466907_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 466907
-      },
-      "description": [
-        {
-          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Zeppelinheim und Frankfurter Kreuz\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Darmstadt Richtung Frankfurt zwischen Zeppelinheim und Frankfurter Kreuz",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-24T10:09:47.351Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/335177_LMS-HE/54"
       },
       "dataProducer": {
@@ -2765,7 +2714,7 @@
       },
       "description": [
         {
-          "value": "A648 Wiesbadener Straße, Eschborn - Frankfurt\nzwischen Frankfurt am Main-Rebstock und Katharinenkreisel\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
+          "value": "A648 Wiesbadener Straße, Eschborn - Frankfurt\nzwischen Frankfurt am Main-Rebstock und Katharinenkreisel\nin beiden Richtungen Gefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -2787,7 +2736,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2797,11 +2746,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-24T09:49:01.863Z"
+        "value": "2022-01-24T10:21:28.619Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3826,6 +3775,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-24T09:50:57.876Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/466917_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 466917
+      },
+      "description": [
+        {
+          "value": "B43A Großauheim\nzwischen Hanau-Bahnhof und Hanau-Hafen in Großauheim\nUnfall auf dem linken Fahrstreifen im Kurvenbereich"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B43A"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B43A Großauheim zwischen Hanau-Bahnhof und Hanau-Hafen in Großauheim",
+        "streets": [
+          "B43A"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-24T10:20:15.328Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
