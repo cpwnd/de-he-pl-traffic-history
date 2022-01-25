@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -136,57 +136,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/467198_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 467198
-      },
-      "description": [
-        {
-          "value": "A3 Frankfurt Richtung Würzburg\nAusfahrt Hanau\nStraße geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Frankfurt Richtung Würzburg Ausfahrt Hanau",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-25T18:44:42.942Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/365984_LMS-HE/54"
       },
       "dataProducer": {
@@ -249,17 +198,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/467210_LMS-HE/54"
+        "value": "LMS/r_LMS/467245_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 467210
+        "value": 467245
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Würzburg\nzwischen Frankfurt am Main-Süd und Offenbacher Kreuz\nUnfallaufnahme, Gefahr, Fahrbahn auf einen Fahrstreifen verengt, bitte vorsichtig fahren"
+          "value": "A3 Frankfurt Richtung Würzburg\nzwischen Frankfurt am Main-Süd und Offenbacher Kreuz\nungesicherte Unfallstelle auf dem rechten Fahrstreifen und dem Standstreifen, bitte vorsichtig fahren"
         }
       ],
       "location": {
@@ -281,7 +230,61 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-25T19:07:25.272Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/467210_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 467210
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Würzburg\nzwischen Frankfurt am Main-Süd und Offenbacher Kreuz\nUnfallstelle geräumt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Würzburg zwischen Frankfurt am Main-Süd und Offenbacher Kreuz",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -294,11 +297,11 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-25T16:56:55.361Z"
+        "value": "2022-01-25T19:09:12.184Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -573,7 +576,7 @@
       },
       "description": [
         {
-          "value": "A3 Würzburg Richtung Frankfurt\nzwischen Offenbacher Kreuz und Frankfurt am Main-Süd\nungesicherte Unfallstelle, Fahrstreifen blockiert, bitte vorsichtig fahren"
+          "value": "A3 Würzburg Richtung Frankfurt\nzwischen Offenbacher Kreuz und Frankfurt am Main-Süd\nUnfallaufnahme auf dem Standstreifen, bitte vorsichtig fahren"
         }
       ],
       "location": {
@@ -599,23 +602,20 @@
       },
       "eventCategory": [
         {
-          "value": "Unfall"
-        },
-        {
           "value": "Störung"
         },
         {
           "value": "Hinweis"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-25T18:03:53.602Z"
+        "value": "2022-01-25T18:49:42.367Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -670,63 +670,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/467224_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 467224
-      },
-      "description": [
-        {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Frankfurt am Main-Süd und Frankfurt am Main-Flughafen\nUnfallstelle geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Frankfurt Richtung Köln zwischen Frankfurt am Main-Süd und Frankfurt am Main-Flughafen",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-25T18:41:45.697Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -1489,60 +1432,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-20T14:33:29.607Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/467215_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 467215
-      },
-      "description": [
-        {
-          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Zeppelinheim und Frankfurter Kreuz\nUnfallaufnahme auf dem Standstreifen, bitte vorsichtig fahren"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Darmstadt Richtung Frankfurt zwischen Zeppelinheim und Frankfurter Kreuz",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hinweis"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Hinweis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-25T18:16:11.196Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4822,6 +4711,61 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-25T03:58:34.243Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/467243_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 467243
+      },
+      "description": [
+        {
+          "value": "B253, B62 Marburg Richtung Siegen\nzwischen Ludwigshütte und Niederlaasphe\nGefahr durch Pferde auf der Fahrbahn, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B253, B62"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B253, B62 Marburg Richtung Siegen zwischen Ludwigshütte und Niederlaasphe",
+        "streets": [
+          "B253",
+          "B62"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-25T19:11:57.609Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
