@@ -1180,7 +1180,7 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Ober-Mörlen und Bad Nauheim\nGefahr durch defektes Fahrzeug auf dem rechten Fahrstreifen, bitte vorsichtig fahren"
+          "value": "A5 Frankfurt Richtung Kassel\nAusfahrt Bad Nauheim\nBergungsarbeiten, Ausfahrt gesperrt\n(Bitte Ausfahrt Ober-Mörlen nutzen)"
         }
       ],
       "location": {
@@ -1194,7 +1194,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A5 Frankfurt Richtung Kassel zwischen Ober-Mörlen und Bad Nauheim",
+        "description": "A5 Frankfurt Richtung Kassel Ausfahrt Bad Nauheim",
         "streets": [
           "A5"
         ]
@@ -1202,20 +1202,20 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Hindernis"
+          "value": "Arbeitsstelle"
         },
         {
-          "value": "Hinweis"
+          "value": "Sperrung"
         }
       ],
-      "masterEventCategory": "Hindernis",
+      "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-25T09:45:00.204Z"
+        "value": "2022-01-25T10:07:49.451Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2863,6 +2863,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-13T10:36:16.465Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/467110_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 467110
+      },
+      "description": [
+        {
+          "value": "A661 Darmstadt - Bad Homburg\nzwischen Kaiserleibrücke und Frankfurt am Main-Ost\nin beiden Richtungen Gefahr besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A661"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A661 Darmstadt Richtung Bad Homburg zwischen Kaiserleibrücke und Frankfurt am Main-Ost",
+        "streets": [
+          "A661"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-25T10:03:10.568Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
