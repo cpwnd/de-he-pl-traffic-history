@@ -1170,17 +1170,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/467108_LMS-HE/54"
+        "value": "LMS/r_LMS/467125_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 467108
+        "value": 467125
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Kassel\nAusfahrt Bad Nauheim\nBergungsarbeiten, Ausfahrt gesperrt\n(Bitte Ausfahrt Ober-Mörlen nutzen)"
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Nordwestkreuz Frankfurt und Bad Homburger Kreuz\nUnfall, Gefahr durch defektes Fahrzeug auf dem Standstreifen, Gefahr durch Fahrzeugteile auf der Fahrbahn, rechter Fahrstreifen blockiert, Standstreifen blockiert"
         }
       ],
       "location": {
@@ -1194,7 +1194,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A5 Frankfurt Richtung Kassel Ausfahrt Bad Nauheim",
+        "description": "A5 Frankfurt Richtung Kassel zwischen Nordwestkreuz Frankfurt und Bad Homburger Kreuz",
         "streets": [
           "A5"
         ]
@@ -1202,20 +1202,23 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Normal"
+        "value": "Dringend"
       },
       "eventCategory": [
         {
-          "value": "Arbeitsstelle"
+          "value": "Unfall"
         },
         {
-          "value": "Sperrung"
+          "value": "Hindernis"
+        },
+        {
+          "value": "Störung"
         }
       ],
-      "masterEventCategory": "Arbeitsstelle",
+      "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-25T10:07:49.451Z"
+        "value": "2022-01-25T11:01:19.563Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
