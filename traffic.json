@@ -991,7 +991,7 @@
       },
       "description": [
         {
-          "value": "A5 Kassel Richtung Frankfurt\nzwischen Alsfeld-Ost und Ausfahrt Alsfeld-West\ndefekter LKW, Fahrstreifen blockiert"
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Alsfeld-Ost und Ausfahrt Alsfeld-West\nalle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -1026,11 +1026,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-25T18:23:40.784Z"
+        "value": "2022-01-25T22:37:20.566Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2326,7 +2326,7 @@
       },
       "description": [
         {
-          "value": "A66 Rhein-Main-Schnellweg, Frankfurt - Wiesbaden\nzwischen Hofheim am Taunus und Wiesbaden-Nordenstadt\nin beiden Richtungen Achtung, Ihnen kommt ein Falschfahrer entgegen, nicht überholen, Vorsicht auf beiden Richtungsfahrbahnen"
+          "value": "A66 Rhein-Main-Schnellweg, Frankfurt - Wiesbaden\nzwischen Hofheim am Taunus und Wiesbaden-Nordenstadt\nin beiden Richtungen die Gefahr durch ein entgegenkommendes Fahrzeug besteht nicht mehr"
         }
       ],
       "location": {
@@ -2348,7 +2348,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Sehr dringend"
+        "value": "Dringend"
       },
       "eventCategory": [
         {
@@ -2358,7 +2358,7 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-25T22:23:51.411Z"
+        "value": "2022-01-25T22:36:05.564Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2377,7 +2377,7 @@
       },
       "description": [
         {
-          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Eschborn und Frankfurt am Main-Höchst\ndefekter PKW auf dem Standstreifen, Gefahr durch auslaufenden Kraftstoff"
+          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Eschborn und Frankfurt am Main-Höchst\ndefekter PKW auf dem Standstreifen, Gefahr durch auslaufenden Kraftstoff, rechter Fahrstreifen gesperrt"
         }
       ],
       "location": {
@@ -2407,16 +2407,19 @@
         },
         {
           "value": "Störung"
+        },
+        {
+          "value": "Sperrung"
         }
       ],
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-25T21:54:22.386Z"
+        "value": "2022-01-25T22:35:26.088Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3106,6 +3109,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-18T19:37:24.437Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/467279_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 467279
+      },
+      "description": [
+        {
+          "value": "B3 Marburg Richtung Kassel\nzwischen Josbach und Lischeid\nwegen Bergungsarbeiten gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B3 Marburg Richtung Kassel zwischen Josbach und Lischeid",
+        "streets": [
+          "B3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-25T22:33:44.024Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
