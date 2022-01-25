@@ -1170,6 +1170,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/467105_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 467105
+      },
+      "description": [
+        {
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Bad Nauheim und Butzbach\nGefahr durch 1 Person auf der Fahrbahn, Gefahr durch defektes Fahrzeug auf dem rechten Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Frankfurt Richtung Kassel zwischen Bad Nauheim und Butzbach",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-25T09:24:36.989Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/335177_LMS-HE/54"
       },
       "dataProducer": {
@@ -2838,7 +2889,7 @@
       },
       "description": [
         {
-          "value": "A671 Mainz Richtung Wiesbaden\nzwischen Mainz-Kastel und Wiesbaden-Amöneburg\nGefahr durch defekten LKW auf dem rechten Fahrstreifen und dem Standstreifen"
+          "value": "A671 Mainz Richtung Wiesbaden\nzwischen Mainz-Kastel und Wiesbaden-Amöneburg\nStraße wieder frei"
         }
       ],
       "location": {
@@ -2860,7 +2911,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2870,11 +2921,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-25T06:02:37.885Z"
+        "value": "2022-01-25T09:25:36.382Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4557,6 +4608,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-12-31T21:50:54.913Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/467102_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 467102
+      },
+      "description": [
+        {
+          "value": "B277 Dillenburg - Wetzlar\nzwischen Schloßbergtunnel in Dillenburg und Herborn-Süd\nin beiden Richtungen Gefahr besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B277"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B277 Dillenburg Richtung Wetzlar zwischen Schloßbergtunnel in Dillenburg und Herborn-Süd",
+        "streets": [
+          "B277"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-25T09:22:54.594Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
