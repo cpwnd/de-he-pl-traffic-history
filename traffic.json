@@ -1180,7 +1180,7 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Kassel\nin Höhe Nordwestkreuz Frankfurt\ndefekter PKW auf dem Beschleunigungsstreifen"
+          "value": "A5 Frankfurt Richtung Kassel\nin Höhe Nordwestkreuz Frankfurt\nStraße wieder frei"
         }
       ],
       "location": {
@@ -1212,11 +1212,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-26T10:41:59.145Z"
+        "value": "2022-01-26T11:02:48.254Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4561,7 +4561,7 @@
       },
       "description": [
         {
-          "value": "B62 Alsfeld Richtung Marburg\nzwischen Kirchhain-West und B3, Cölbe Bürgeln\ndefekter PKW auf dem rechten Fahrstreifen"
+          "value": "B62 Alsfeld Richtung Marburg\nzwischen Kirchhain-West und B3, Cölbe Bürgeln\nStraße wieder frei"
         }
       ],
       "location": {
@@ -4593,11 +4593,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-26T08:53:54.706Z"
+        "value": "2022-01-26T11:00:51.321Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -7002,6 +7002,68 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-07T18:18:27.101Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/467406_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 467406
+      },
+      "description": [
+        {
+          "value": "L3020 Löhnberger Weg, Limburg Richtung Heuchelheim\nzwischen Weilburg und Abzweig nach Drommershausen\nGrünpflege, bis 21.02.2022 Mitternacht"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3020"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Kreis Limburg-Weilburg, Löhnberger Weg zwischen Weilburg und Abzweig nach Drommershausen",
+        "streets": [
+          "L3020"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2021-11-29T23:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-02-21T22:59:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 30.11.2021 Mitternacht bis 21.02.2022 Mitternacht"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-26T11:10:32.156Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
