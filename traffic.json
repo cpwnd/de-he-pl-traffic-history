@@ -146,7 +146,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt - Würzburg\nzwischen Hanau und Aschaffenburg-West\nin beiden Richtungen Achtung, Ihnen kommt ein Falschfahrer entgegen, nicht überholen, Vorsicht auf beiden Richtungsfahrbahnen"
+          "value": "A3 Frankfurt - Würzburg\nzwischen Hanau und Aschaffenburg-West\nin beiden Richtungen die Gefahr durch ein entgegenkommendes Fahrzeug besteht nicht mehr"
         }
       ],
       "location": {
@@ -168,7 +168,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Sehr dringend"
+        "value": "Dringend"
       },
       "eventCategory": [
         {
@@ -178,11 +178,62 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-26T09:30:42.592Z"
+        "value": "2022-01-26T09:40:09.865Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/467382_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 467382
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Würzburg\nzwischen Hanau und Seligenstädter Dreieck\ndefekter PKW auf dem Standstreifen\n(PKW steht entgegengesetzt der Fahrbahn um Starthilfe zu geben)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Würzburg zwischen Hanau und Seligenstädter Dreieck",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-26T09:41:02.9Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -1857,7 +1908,7 @@
       },
       "description": [
         {
-          "value": "A45 Aschaffenburg Richtung Gießen\nzwischen Gambacher Kreuz und Gießener Südkreuz\nes haben sich bereits mehrere Unfälle ereignet, bitte vorsichtig fahren, Gasse für Rettungsfahrzeuge bilden"
+          "value": "A45 Aschaffenburg Richtung Gießen\nzwischen Gambacher Kreuz und Gießener Südkreuz\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -1892,7 +1943,7 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-26T07:22:07.167Z"
+        "value": "2022-01-26T09:34:50.531Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
