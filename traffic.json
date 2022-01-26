@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -1659,7 +1659,7 @@
       },
       "description": [
         {
-          "value": "A7 Fulda Richtung Kassel\nzwischen Hünfeld/Schlitz und Niederaula\nGefahr durch Gegenstände auf der Fahrbahn (ein Metallteil)"
+          "value": "A7 Fulda Richtung Kassel\nzwischen Hünfeld/Schlitz und Niederaula\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -1681,7 +1681,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1691,11 +1691,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-26T17:19:01.812Z"
+        "value": "2022-01-26T18:02:58.323Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2462,57 +2462,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/467554_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 467554
-      },
-      "description": [
-        {
-          "value": "A66 Frankfurt - Wiesbaden\nzwischen Kelkheim und Frankfurt am Main-Zeilsheim\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A66"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A66 Frankfurt Richtung Wiesbaden zwischen Kelkheim und Frankfurt am Main-Zeilsheim",
-        "streets": [
-          "A66"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-26T17:38:59.198Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
@@ -4250,71 +4199,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/466840_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 466840
-      },
-      "description": [
-        {
-          "value": "B47 Ober-Ramstadt Richtung Bensheim\nzwischen Gadernheim und Lautern\nvorübergehende Begrenzung der Fahrbahnbreite auf 5,50 m, halbseitig gesperrt, bis 26.01.2022 19:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B47"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B47 Ober-Ramstadt Richtung Bensheim zwischen Gadernheim und Lautern",
-        "streets": [
-          "B47"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-01-24T06:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-01-26T18:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 24.01.2022 07:00 Uhr bis 26.01.2022 19:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Beschränkung"
-        }
-      ],
-      "masterEventCategory": "Sperrung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-24T06:00:01.161Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
@@ -8310,6 +8194,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-15T04:00:01.451Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/467559_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 467559
+      },
+      "description": [
+        {
+          "value": "L3449 Hessenstraße, Selters - Niederselters - Selters - Haintchen\nzwischen Hof Brunhilde und Abzweig nach Niederselters\nin beiden Richtungen Richtungsfahrbahn gesperrt, wegen Bergungsarbeiten gesperrt, Unfallaufnahme"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3449"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Kreis Limburg-Weilburg, Hessenstraße zwischen Hof Brunhilde und Abzweig nach Niederselters",
+        "streets": [
+          "L3449"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-26T17:58:38.804Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
