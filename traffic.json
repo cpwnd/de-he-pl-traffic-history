@@ -1180,7 +1180,7 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Rastplatz Krachgarten und Alsfeld-West\n1 defekter LKW auf dem Beschleunigungsstreifen"
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Rastplatz Krachgarten und Alsfeld-West\nStraße wieder frei"
         }
       ],
       "location": {
@@ -1212,11 +1212,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-26T06:46:46.611Z"
+        "value": "2022-01-26T07:41:34.778Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3123,6 +3123,61 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/467335_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 467335
+      },
+      "description": [
+        {
+          "value": "B3, B62 Kassel Richtung Marburg\nzwischen Cölbe Bürgeln und Cölber Eck\nStraße wieder frei"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B3, B62"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B3, B62 Kassel Richtung Marburg zwischen Cölbe Bürgeln und Cölber Eck",
+        "streets": [
+          "B3",
+          "B62"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-26T07:38:47.266Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -8448,45 +8503,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/467335_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 467335
-      },
-      "description": [
-        {
-          "value": "defekter PKW auf dem rechten Fahrstreifen, bitte vorsichtig fahren"
-        }
-      ],
-      "location": null,
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-26T07:12:49.753Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
