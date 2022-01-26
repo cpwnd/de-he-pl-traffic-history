@@ -1108,17 +1108,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/467548_LMS-HE/54"
+        "value": "LMS/r_LMS/467582_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 467548
+        "value": 467582
       },
       "description": [
         {
-          "value": "A5 Kassel Richtung Frankfurt\nzwischen Hattenbacher Dreieck und Alsfeld-Ost\nGefahr durch defekten LKW auf dem rechten Fahrstreifen"
+          "value": "A5 Darmstadt Richtung Heidelberg\nzwischen Darmstädter Kreuz und Darmstadt-Eberstadt\nNachtbaustelle, Fahrbahn auf einen Fahrstreifen verengt"
         }
       ],
       "location": {
@@ -1132,7 +1132,61 @@
           }
         ],
         "name": "Ort",
-        "description": "A5 Kassel Richtung Frankfurt zwischen Hattenbacher Dreieck und Alsfeld-Ost",
+        "description": "A5 Darmstadt Richtung Heidelberg zwischen Darmstädter Kreuz und Darmstadt-Eberstadt",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-26T19:57:57.32Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/467580_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 467580
+      },
+      "description": [
+        {
+          "value": "A5 Europabrücke Frankfurt, Frankfurt Richtung Darmstadt\nzwischen Frankfurt am Main-Westhafen und Frankfurt-Niederrad\nGefahr durch ungesicherte Unfallstelle"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Europabrücke Frankfurt, Frankfurt Richtung Darmstadt zwischen Frankfurt am Main-Westhafen und Frankfurt-Niederrad",
         "streets": [
           "A5"
         ]
@@ -1144,13 +1198,13 @@
       },
       "eventCategory": [
         {
-          "value": "Hindernis"
+          "value": "Unfall"
         }
       ],
-      "masterEventCategory": "Hindernis",
+      "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-26T17:12:05.156Z"
+        "value": "2022-01-26T19:54:49.273Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1337,17 +1391,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/467517_LMS-HE/54"
+        "value": "LMS/r_LMS/467578_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 467517
+        "value": 467578
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Kassel\nHattenbacher Dreieck Überleitung zur A7 Richtung Kassel\nGefahr besteht nicht mehr"
+          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Frankfurt am Main-Flughafen-Nord und Frankfurt-Niederrad\nGefahr durch ungesicherte Unfallstelle auf dem linken Fahrstreifen, fahren Sie bitte besonders vorsichtig"
         }
       ],
       "location": {
@@ -1361,7 +1415,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A5 Frankfurt Richtung Kassel Hattenbacher Dreieck Überleitung zur A7 Richtung Kassel",
+        "description": "A5 Darmstadt Richtung Frankfurt zwischen Frankfurt am Main-Flughafen-Nord und Frankfurt-Niederrad",
         "streets": [
           "A5"
         ]
@@ -1369,17 +1423,20 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Normal"
+        "value": "Dringend"
       },
       "eventCategory": [
         {
           "value": "Unfall"
+        },
+        {
+          "value": "Hinweis"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-26T19:37:01.376Z"
+        "value": "2022-01-26T20:00:28.552Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1659,7 +1716,7 @@
       },
       "description": [
         {
-          "value": "A7 Fulda Richtung Kassel\nzwischen Fulda-Mitte und Fulda-Nord\ndefekter LKW auf dem rechten Fahrstreifen"
+          "value": "A7 Fulda Richtung Kassel\nzwischen Fulda-Mitte und Fulda-Nord\nalle Fahrbahnen wieder frei"
         }
       ],
       "location": {
@@ -1691,11 +1748,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-26T14:40:04.821Z"
+        "value": "2022-01-26T20:08:29.223Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
