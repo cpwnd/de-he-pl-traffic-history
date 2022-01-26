@@ -1350,7 +1350,7 @@
       },
       "description": [
         {
-          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Frankfurt am Main-Flughafen-Nord und Frankfurt-Niederrad\nGefahr durch ungesicherte Unfallstelle auf dem linken Fahrstreifen, fahren Sie bitte besonders vorsichtig"
+          "value": "A5 Darmstadt - Frankfurt\nzwischen Frankfurt am Main-Flughafen-Nord und Frankfurt-Niederrad\nin beiden Richtungen Unfallaufnahme, Richtungsfahrbahn blockiert"
         }
       ],
       "location": {
@@ -1372,20 +1372,17 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Unfall"
-        },
-        {
-          "value": "Hinweis"
+          "value": "Störung"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-26T20:00:28.552Z"
+        "value": "2022-01-26T20:50:36.559Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1777,57 +1774,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-10T07:00:01.983Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/467565_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 467565
-      },
-      "description": [
-        {
-          "value": "A7 Fulda Richtung Kassel\nzwischen Bad Hersfeld-West und Homberg (Efze)\nGefahr durch defekten LKW auf dem rechten Fahrstreifen"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A7"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A7 Fulda Richtung Kassel zwischen Bad Hersfeld-West und Homberg (Efze)",
-        "streets": [
-          "A7"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-26T18:50:49.384Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
