@@ -2323,7 +2323,7 @@
       },
       "description": [
         {
-          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Frankfurt am Main-Zeilsheim und Krifteler Dreieck\nGefahr durch unbeleuchtetes Fahrzeug auf der Fahrbahn in Anschlussstellen, Gefahr durch Personen auf der Fahrbahn"
+          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Frankfurt am Main-Zeilsheim und Krifteler Dreieck\nStraße wieder frei"
         }
       ],
       "location": {
@@ -2345,7 +2345,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2355,7 +2355,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-26T06:34:22.066Z"
+        "value": "2022-01-26T07:05:45.994Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -7024,6 +7024,63 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/467332_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 467332
+      },
+      "description": [
+        {
+          "value": "L3030 Weilrod-Rod an der Weil Richtung Hünfelden-Dauborn\nzwischen Erbach und Gnadenthal\nUnfall, Gefahr durch Fahrzeugteile auf der Fahrbahn, Gefahr durch Personen auf der Fahrbahn, Unfall, Gefahr durch auslaufendes Öl, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3030"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Kreis Limburg-Weilburg, L3030 zwischen Erbach und Gnadenthal",
+        "streets": [
+          "L3030"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-26T06:53:39.271Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/461648_LMS-HE/54"
       },
       "dataProducer": {
@@ -7088,6 +7145,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/467333_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 467333
+      },
+      "description": [
+        {
+          "value": "L3063 Usingen Richtung Runkel\nzwischen Steeden und Dehrn\nGefahr durch ein totes Tier (Reh) auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3063"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Kreis Limburg-Weilburg, L3063 zwischen Steeden und Dehrn",
+        "streets": [
+          "L3063"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-26T06:59:15.483Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -8337,6 +8445,45 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/467335_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 467335
+      },
+      "description": [
+        {
+          "value": "defekter PKW auf dem rechten Fahrstreifen, bitte vorsichtig fahren"
+        }
+      ],
+      "location": null,
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-26T07:12:49.753Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
