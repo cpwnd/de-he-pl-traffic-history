@@ -314,6 +314,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/467831_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 467831
+      },
+      "description": [
+        {
+          "value": "A3 Köln Richtung Frankfurt\nMönchhof-Dreieck Überleitung zur A67 Richtung Darmstadt\nUnfall auf dem rechten Fahrstreifen in der Überleitung, rechter Fahrstreifen blockiert"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Frankfurt Mönchhof-Dreieck Überleitung zur A67 Richtung Darmstadt",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-27T14:28:49.376Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/461441_LMS-HE/54"
       },
       "dataProducer": {
@@ -519,7 +573,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbaden/Niedernhausen und Wiesbadener Kreuz\nTagesbaustelle, rechter Fahrstreifen gesperrt, Fahrbahn von 3 auf zwei Fahrstreifen verengt, bis 27.01.2022 17:00 Uhr"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbaden/Niedernhausen und Wiesbadener Kreuz\nBaustelle beseitigt"
         }
       ],
       "location": {
@@ -538,15 +592,7 @@
           "A3"
         ]
       },
-      "duration": {
-        "startTime": null,
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-01-27T16:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "bis 27.01.2022 17:00 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -565,7 +611,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-27T09:11:16.122Z"
+        "value": "2022-01-27T14:42:28.271Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2442,7 +2488,7 @@
       },
       "description": [
         {
-          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Wiesbaden-Erbenheim und Wiesbaden-Mainzer Straße\nGefahr durch defektes Fahrzeug"
+          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Wiesbaden-Erbenheim und Wiesbaden-Mainzer Straße\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -2464,7 +2510,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2474,7 +2520,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-27T12:51:18.082Z"
+        "value": "2022-01-27T14:31:33.469Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3170,6 +3216,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-11-19T11:33:19.495Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/467833_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 467833
+      },
+      "description": [
+        {
+          "value": "B26 Darmstadt Richtung Aschaffenburg\nEinfahrt Dieburg-West\nGefahr durch Gegenstände auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B26"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B26 Darmstadt Richtung Aschaffenburg Einfahrt Dieburg-West",
+        "streets": [
+          "B26"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-27T14:42:01.565Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
