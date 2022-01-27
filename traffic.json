@@ -1043,6 +1043,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/467881_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 467881
+      },
+      "description": [
+        {
+          "value": "A5 Frankfurt - Darmstadt\nzwischen Frankfurter Kreuz und Zeppelinheim\nin beiden Richtungen Gefahr durch 1 Person auf dem Standstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Frankfurt Richtung Darmstadt zwischen Frankfurter Kreuz und Zeppelinheim",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-27T17:33:44.406Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/338932_LMS-HE/54"
       },
       "dataProducer": {
@@ -1557,6 +1608,61 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/467886_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 467886
+      },
+      "description": [
+        {
+          "value": "A7, A5 Fulda Richtung Kassel\nzwischen Hattenbacher Dreieck und Kirchheim\nGefahr durch 1 ungesicherte Unfallstelle auf allen Fahrstreifen, Personen auf allen Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7, A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7, A5 Fulda Richtung Kassel zwischen Hattenbacher Dreieck und Kirchheim",
+        "streets": [
+          "A7",
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-27T17:40:39.072Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -2824,7 +2930,7 @@
       },
       "description": [
         {
-          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Frankfurt am Main-Ost und Frankfurt-Friedberger Landstraße\nGefahr durch 1 defektes Fahrzeug auf dem linken Fahrstreifen"
+          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Frankfurt am Main-Ost und Frankfurt-Friedberger Landstraße\nalle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -2846,7 +2952,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2856,11 +2962,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-27T17:20:16.574Z"
+        "value": "2022-01-27T17:33:20.725Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4564,7 +4670,7 @@
       },
       "description": [
         {
-          "value": "B456 Weilburg, Frankfurter Straße\nzwischen Kubacher Weg und Bahnhofstraße\nin beiden Richtungen Unfall mit mehreren Fahrzeugen, Bergungsarbeiten, Richtungsfahrbahn bis auf weiteres gesperrt, eine örtliche Umleitung ist eingerichtet"
+          "value": "B456 Weilburg, Frankfurter Straße\nzwischen Kubacher Weg und Bahnhofstraße\nin beiden Richtungen Unfallstelle geräumt"
         }
       ],
       "location": {
@@ -4605,7 +4711,7 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-27T16:54:42.405Z"
+        "value": "2022-01-27T17:41:20.625Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
