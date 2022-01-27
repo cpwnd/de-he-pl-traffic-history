@@ -1108,6 +1108,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/467786_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 467786
+      },
+      "description": [
+        {
+          "value": "A5 Darmstadt Richtung Heidelberg\nzwischen Darmstädter Kreuz und Darmstadt-Eberstadt\nGefahr durch ungesicherte Unfallstelle, Gefahr durch Personen auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Darmstadt Richtung Heidelberg zwischen Darmstädter Kreuz und Darmstadt-Eberstadt",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-27T12:34:18.433Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/338932_LMS-HE/54"
       },
       "dataProducer": {
@@ -2145,7 +2199,7 @@
       },
       "description": [
         {
-          "value": "A49 Südtangente, Gießen Richtung Kassel\nzwischen Kreuz Kassel-West und Kassel-Niederzwehren\nTagesbaustelle, linker Fahrstreifen gesperrt, bis 27.01.2022 13:30 Uhr"
+          "value": "A49 Südtangente, Gießen Richtung Kassel\nzwischen Kreuz Kassel-West und Kassel-Niederzwehren\nTagesbaustelle, linker Fahrstreifen gesperrt"
         }
       ],
       "location": {
@@ -2164,18 +2218,7 @@
           "A49"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-01-27T07:45:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-01-27T12:30:00Z"
-        },
-        "name": "Dauer",
-        "description": "am 27.01.2022 von 08:45 Uhr bis 13:30 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -2191,7 +2234,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-27T09:24:14.211Z"
+        "value": "2022-01-27T12:52:05.904Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2434,11 +2477,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-27T11:35:03.335Z"
+        "value": "2022-01-27T12:51:18.082Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
