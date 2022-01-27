@@ -458,57 +458,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/467936_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 467936
-      },
-      "description": [
-        {
-          "value": "A3 Köln - Frankfurt\nzwischen Bad Camberg und Idstein\nin beiden Richtungen die Gefahr durch ein entgegenkommendes Fahrzeug besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Köln Richtung Frankfurt zwischen Bad Camberg und Idstein",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-27T20:20:54.633Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/467930_LMS-HE/54"
       },
       "dataProducer": {
@@ -519,7 +468,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt - Köln\nzwischen Frankfurt am Main-Flughafen und Kelsterbach\nin beiden Richtungen Unfall mit mehreren Fahrzeugen auf allen Fahrstreifen, Richtungsfahrbahn bis auf weiteres gesperrt, Sichtbehinderung durch Rauch, Gasse für Rettungs- und Einsatzfahrzeuge bilden, eine örtliche Umleitung ist eingerichtet, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, empfohlene Umleitungen: U67, U60"
+          "value": "A3 Frankfurt - Köln\nzwischen Frankfurt am Main-Flughafen und Kelsterbach\nin beiden Richtungen Unfall mit mehreren Fahrzeugen auf allen Fahrstreifen, Richtungsfahrbahn bis auf weiteres gesperrt, Gasse für Rettungs- und Einsatzfahrzeuge bilden, eine örtliche Umleitung ist eingerichtet, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, empfohlene Umleitungen: U67, U60"
         }
       ],
       "location": {
@@ -551,16 +500,13 @@
           "value": "Sperrung"
         },
         {
-          "value": "Störung"
-        },
-        {
           "value": "Hinweis"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-27T20:27:53.31Z"
+        "value": "2022-01-27T20:37:22.372Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -763,7 +709,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Limburg-Nord und Diez\n1 Unfall auf allen Fahrstreifen, Polizei und Rettungswagen sind vor Ort, Richtungsfahrbahn bis auf weiteres gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Limburg-Nord und Diez\n1 Unfall auf dem linken Fahrstreifen, Polizei und Rettungswagen sind vor Ort, linke Fahrstreifen bis auf weiteres gesperrt, Verkehr wird an der Unfallstelle vorbeigeführt, Stau"
         }
       ],
       "location": {
@@ -798,13 +744,16 @@
           "value": "Sperrung"
         },
         {
-          "value": "Hinweis"
+          "value": "Stau"
+        },
+        {
+          "value": "Störung"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-27T20:09:13.969Z"
+        "value": "2022-01-27T20:34:32.366Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
