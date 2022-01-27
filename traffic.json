@@ -2639,6 +2639,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/467877_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 467877
+      },
+      "description": [
+        {
+          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Oberursel und Ausfahrt Oberursel-Nord\nGefahr durch defektes Fahrzeug"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A661"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A661 Darmstadt Richtung Bad Homburg zwischen Oberursel und Ausfahrt Oberursel-Nord",
+        "streets": [
+          "A661"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-27T17:25:03.7Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/430914_LMS-HE/54"
       },
       "dataProducer": {
@@ -4573,7 +4624,7 @@
       },
       "description": [
         {
-          "value": "K12 Niederrheinische Straße\nzwischen B454 und Stadtallendorf\nUnfall, Verkehrsbehinderung zu erwarten"
+          "value": "K12 Niederrheinische Straße\nzwischen B454 und Stadtallendorf\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -4602,17 +4653,17 @@
           "value": "Unfall"
         },
         {
-          "value": "Stau"
+          "value": "Störung"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-27T17:14:57.087Z"
+        "value": "2022-01-27T17:30:31.113Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
