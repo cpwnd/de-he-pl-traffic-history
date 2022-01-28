@@ -458,6 +458,114 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/468298_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 468298
+      },
+      "description": [
+        {
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Idstein und Wiesbaden/Niedernhausen\nBaustelle auf dem linken Fahrstreifen, Fahrstreifen gesperrt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Frankfurt zwischen Idstein und Wiesbaden/Niedernhausen",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-28T20:44:00.572Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/468301_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 468301
+      },
+      "description": [
+        {
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Diez und Limburg-Nord\nUnfall, rechter Fahrstreifen gesperrt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Frankfurt zwischen Diez und Limburg-Nord",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-28T20:56:02.989Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/461440_LMS-HE/54"
       },
       "dataProducer": {
@@ -796,7 +904,7 @@
       },
       "description": [
         {
-          "value": "A4 Erfurt Richtung Bad Hersfeld\nAusfahrt Kirchheim\nBaustelle, Anschlussstelle gesperrt, bis 28.01.2022 22:00 Uhr"
+          "value": "A4 Erfurt Richtung Bad Hersfeld\nAusfahrt Kirchheim\nBaustelle beseitigt"
         }
       ],
       "location": {
@@ -815,18 +923,7 @@
           "A4"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-01-21T04:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-01-28T21:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 21.01.2022 05:00 Uhr bis 28.01.2022 22:00 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -842,11 +939,11 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-21T04:00:00.712Z"
+        "value": "2022-01-28T21:00:16.439Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2716,7 +2813,7 @@
       },
       "description": [
         {
-          "value": "A67 Darmstadt Richtung Mannheim\nzwischen Lorsch und Viernheimer Dreieck\nUnfall, Gefahr durch Gegenstände auf der Fahrbahn (Fahrzeugteile)"
+          "value": "A67 Darmstadt Richtung Mannheim\nzwischen Lorsch und Viernheimer Dreieck\nUnfall, Gefahr durch Gegenstände auf der Fahrbahn (Fahrzeugteile), rechter Fahrstreifen gesperrt"
         }
       ],
       "location": {
@@ -2746,16 +2843,19 @@
         },
         {
           "value": "Hindernis"
+        },
+        {
+          "value": "Sperrung"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-28T20:38:05.187Z"
+        "value": "2022-01-28T21:04:57.077Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -5042,7 +5142,7 @@
       },
       "description": [
         {
-          "value": "K32 Kirchheim\nzwischen Ausfahrt A7, Kirchheim und A7, Kirchheim\nin beiden Richtungen Anschlussstelle gesperrt, bis 28.01.2022 22:00 Uhr"
+          "value": "K32 Kirchheim\nzwischen Ausfahrt A7, Kirchheim und A7, Kirchheim\nin beiden Richtungen wieder offen"
         }
       ],
       "location": {
@@ -5061,18 +5161,7 @@
           "K32"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-01-21T04:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-01-28T21:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 21.01.2022 05:00 Uhr bis 28.01.2022 22:00 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -5085,11 +5174,11 @@
       "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-21T04:00:00.712Z"
+        "value": "2022-01-28T21:00:12.75Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -5406,6 +5495,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-25T03:59:05.701Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/468300_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 468300
+      },
+      "description": [
+        {
+          "value": "K645 Wiesbaden, Saarstraße\nzwischen Alte Schmelze und Sylter Straße\nin beiden Richtungen alle Unfallstellen geräumt, keine Verkehrsbehinderung mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K645"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Wiesbaden, Saarstraße zwischen Alte Schmelze und Sylter Straße",
+        "streets": [
+          "K645"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-28T21:05:20.811Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
