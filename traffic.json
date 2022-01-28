@@ -458,63 +458,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/467930_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 467930
-      },
-      "description": [
-        {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Frankfurt am Main-Flughafen und Kelsterbach\nAufräumarbeiten, linker Fahrstreifen gesperrt, mittlerer Fahrstreifen gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, Fahrbahn von 3 auf einen Fahrstreifen verengt, empfohlene Umleitung: U60\n(Genehmigungspflichtige Schwertransporte mit festgelegter Route werden gebeten rechtzeitig Parkplätze anzufahren, Sperrung der Richtungsfahrbahn in Fahrtrichtung Köln wird noch andauern!)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Frankfurt Richtung Köln zwischen Frankfurt am Main-Flughafen und Kelsterbach",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-28T12:24:24.845Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/461440_LMS-HE/54"
       },
       "dataProducer": {
@@ -1272,11 +1215,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-28T14:43:55.71Z"
+        "value": "2022-01-28T16:08:52.563Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1343,6 +1286,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/468185_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 468185
+      },
+      "description": [
+        {
+          "value": "A6 Heilbronn - Kaiserslautern\nzwischen Viernheimer Dreieck und Mannheim-Sandhofen\nin beiden Richtungen Gefahr besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A6"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A6 Heilbronn Richtung Kaiserslautern zwischen Viernheimer Dreieck und Mannheim-Sandhofen",
+        "streets": [
+          "A6"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-28T16:09:24.083Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -1534,6 +1528,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-11-01T04:00:01.895Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/468199_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 468199
+      },
+      "description": [
+        {
+          "value": "A7 Kassel Richtung Fulda\nzwischen Homberg (Efze) und Bad Hersfeld-West\nRichtungsfahrbahn gesperrt, Unfall"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Kassel Richtung Fulda zwischen Homberg (Efze) und Bad Hersfeld-West",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-28T16:23:37.044Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4055,7 +4103,7 @@
       },
       "description": [
         {
-          "value": "B45 Ortsdurchfahrt Ilbenstadt\nbrennendes Fahrzeug, Richtungsfahrbahn blockiert, Feuerwehreinsatz, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+          "value": "B45 Ilbenstadt, Hanauer Straße\nzwischen Mühlgasse und Im Kloster\nbrennendes Fahrzeug, Feuerwehreinsatz, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, Richtungsfahrbahn gesperrt, Richtungsfahrbahn blockiert"
         }
       ],
       "location": {
@@ -4069,7 +4117,7 @@
           }
         ],
         "name": "Ort",
-        "description": "B45 Ortsdurchfahrt Ilbenstadt",
+        "description": "B45 Ilbenstadt, Hanauer Straße zwischen Mühlgasse und Im Kloster",
         "streets": [
           "B45"
         ]
@@ -4084,20 +4132,23 @@
           "value": "Störung"
         },
         {
+          "value": "Information"
+        },
+        {
           "value": "Hinweis"
         },
         {
-          "value": "Information"
+          "value": "Sperrung"
         }
       ],
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-28T14:43:23.906Z"
+        "value": "2022-01-28T16:13:34.74Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4483,6 +4534,63 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/468194_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 468194
+      },
+      "description": [
+        {
+          "value": "B62 Alsfeld Richtung Marburg\nzwischen B454, Kirchhain-Ost und Kirchhain-Mitte\nBahnschranke außer Betrieb, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, Stau zu erwarten"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B62"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B62 Alsfeld Richtung Marburg zwischen B454, Kirchhain-Ost und Kirchhain-Mitte",
+        "streets": [
+          "B62"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Hinweis"
+        },
+        {
+          "value": "Stau"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-28T16:07:07.017Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -7496,7 +7604,7 @@
       },
       "description": [
         {
-          "value": "L3139 Fulda Richtung Schotten\nzwischen Oberrode und Kleinlüder\nGefahr durch Ölspur, fahren Sie bitte besonders vorsichtig"
+          "value": "L3139 Fulda Richtung Schotten\nzwischen Oberrode und Kleinlüder\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -7518,7 +7626,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -7531,11 +7639,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-28T12:07:41.815Z"
+        "value": "2022-01-28T16:10:23.338Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -8061,11 +8169,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-28T13:31:28.17Z"
+        "value": "2022-01-28T16:08:37.492Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
