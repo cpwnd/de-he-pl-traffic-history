@@ -3427,7 +3427,7 @@
       },
       "description": [
         {
-          "value": "B42 Wiesbaden Richtung Rüdesheim\nin Höhe Eltville Martinsthal\nGefahr durch ein totes Tier auf der Fahrbahn"
+          "value": "B42 Wiesbaden Richtung Rüdesheim\nin Höhe Eltville Martinsthal\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -3449,7 +3449,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -3459,11 +3459,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-28T19:17:42.555Z"
+        "value": "2022-01-28T19:30:36.681Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -6692,6 +6692,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-22T10:38:52.455Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/468274_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 468274
+      },
+      "description": [
+        {
+          "value": "L3012 Rüsselsheim Richtung Geinsheim\nzwischen Trebur und Geinsheim\nalle Unfallstellen geräumt, keine Verkehrsbehinderung mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3012"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Kreis Groß-Gerau, L3012 zwischen Trebur und Geinsheim",
+        "streets": [
+          "L3012"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-28T19:38:16.418Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
