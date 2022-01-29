@@ -458,57 +458,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/468551_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 468551
-      },
-      "description": [
-        {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Idstein und Wiesbaden/Niedernhausen\nalle Fahrbahnen geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Köln Richtung Frankfurt zwischen Idstein und Wiesbaden/Niedernhausen",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-29T18:20:54.151Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/461440_LMS-HE/54"
       },
       "dataProducer": {
@@ -1029,17 +978,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/468569_LMS-HE/54"
+        "value": "LMS/r_LMS/468577_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 468569
+        "value": 468577
       },
       "description": [
         {
-          "value": "A5 Darmstadt - Heidelberg\nzwischen Zwingenberg und Bensheim\nin beiden Richtungen Gefahr besteht nicht mehr"
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Westkreuz Frankfurt und Frankfurt am Main-Westhafen\nUnfall, rechter Fahrstreifen gesperrt, mittlerer Fahrstreifen gesperrt"
         }
       ],
       "location": {
@@ -1053,7 +1002,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A5 Darmstadt Richtung Heidelberg zwischen Zwingenberg und Bensheim",
+        "description": "A5 Kassel Richtung Frankfurt zwischen Westkreuz Frankfurt und Frankfurt am Main-Westhafen",
         "streets": [
           "A5"
         ]
@@ -1065,13 +1014,16 @@
       },
       "eventCategory": [
         {
-          "value": "Hindernis"
+          "value": "Unfall"
+        },
+        {
+          "value": "Sperrung"
         }
       ],
-      "masterEventCategory": "Hindernis",
+      "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-29T18:21:19.799Z"
+        "value": "2022-01-29T18:35:18.161Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1217,7 +1169,7 @@
       },
       "description": [
         {
-          "value": "A5 Europabrücke Frankfurt, Frankfurt - Kassel\nzwischen Frankfurt-Niederrad und Frankfurt am Main-Westhafen\nin beiden Richtungen Achtung, Ihnen kommt ein Falschfahrer entgegen, nicht überholen, Vorsicht auf beiden Richtungsfahrbahnen"
+          "value": "A5 Europabrücke Frankfurt, Frankfurt - Kassel\nzwischen Frankfurt-Niederrad und Frankfurt am Main-Westhafen\nin beiden Richtungen die Gefahr durch ein entgegenkommendes Fahrzeug besteht nicht mehr"
         }
       ],
       "location": {
@@ -1239,7 +1191,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Sehr dringend"
+        "value": "Dringend"
       },
       "eventCategory": [
         {
@@ -1249,7 +1201,58 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-29T18:17:54.39Z"
+        "value": "2022-01-29T18:33:37.499Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/468575_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 468575
+      },
+      "description": [
+        {
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Ober-Mörlen und Bad Nauheim\nGefahr durch ungesicherte Unfallstelle auf dem linken Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Frankfurt Richtung Kassel zwischen Ober-Mörlen und Bad Nauheim",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-29T18:26:39.919Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -8512,7 +8515,7 @@
       },
       "description": [
         {
-          "value": "Frankfurt-Innenstadt\nDemonstration, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, am 29.01.2022 von 15:00 Uhr bis 19:30 Uhr\nes kommt zu kurzfristigen Behinderungen im Innenstadtbereich"
+          "value": "Frankfurt-Innenstadt\nVeranstaltung beendet"
         }
       ],
       "location": {
@@ -8525,18 +8528,7 @@
         "description": "Frankfurt-Innenstadt",
         "streets": null
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-01-29T14:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-01-29T18:30:00Z"
-        },
-        "name": "Dauer",
-        "description": "am 29.01.2022 von 15:00 Uhr bis 19:30 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -8552,7 +8544,7 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-29T13:52:03.242Z"
+        "value": "2022-01-29T18:36:08.244Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
