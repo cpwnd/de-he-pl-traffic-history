@@ -988,7 +988,7 @@
       },
       "description": [
         {
-          "value": "A5 Kassel Richtung Frankfurt\nzwischen Westkreuz Frankfurt und Frankfurt am Main-Westhafen\nUnfallaufnahme, rechter Fahrstreifen gesperrt, mittlerer Fahrstreifen gesperrt"
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Westkreuz Frankfurt und Frankfurt am Main-Westhafen\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -1023,7 +1023,7 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-29T19:43:12.064Z"
+        "value": "2022-01-29T22:15:50.632Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1820,7 +1820,7 @@
       },
       "description": [
         {
-          "value": "A45 Gießen Richtung Aschaffenburg\nzwischen Gießener Südkreuz und Gambacher Kreuz\nUnfallaufnahme, linker Fahrstreifen gesperrt, Fahrbahn auf einen Fahrstreifen verengt"
+          "value": "A45 Gießen Richtung Aschaffenburg\nzwischen Gießener Südkreuz und Gambacher Kreuz\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -1855,7 +1855,7 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-29T21:21:05.247Z"
+        "value": "2022-01-29T22:24:38.086Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2619,6 +2619,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/468635_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 468635
+      },
+      "description": [
+        {
+          "value": "A66 Wiesbaden Richtung Frankfurt\nAusfahrt Frankfurt am Main-L.-Landmann-Str.\nGefahr durch ungesicherte Unfallstelle im Kurvenbereich"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Wiesbaden Richtung Frankfurt Ausfahrt Frankfurt am Main-L.-Landmann-Str.",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-29T22:24:14.38Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/468632_LMS-HE/54"
       },
       "dataProducer": {
@@ -2629,7 +2680,7 @@
       },
       "description": [
         {
-          "value": "A67 Mönchhof-Dreieck Richtung Darmstadt\nzwischen Rüsselsheimer Dreieck und Groß-Gerau\nGefahr durch ungesicherte Unfallstelle"
+          "value": "A67 Mönchhof-Dreieck Richtung Darmstadt\nzwischen Rüsselsheimer Dreieck und Groß-Gerau\nGefahr durch ungesicherte Unfallstelle, Gefahr durch Fahrzeugteile auf der Fahrbahn"
         }
       ],
       "location": {
@@ -2656,16 +2707,19 @@
       "eventCategory": [
         {
           "value": "Unfall"
+        },
+        {
+          "value": "Hindernis"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-29T22:04:54.885Z"
+        "value": "2022-01-29T22:20:24.178Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
