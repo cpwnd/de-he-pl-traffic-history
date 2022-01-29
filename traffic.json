@@ -2265,6 +2265,63 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/468346_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 468346
+      },
+      "description": [
+        {
+          "value": "A49 Südtangente, Gießen Richtung Kassel\nEinfahrt Kassel-Industriepark\nBaustelle beseitigt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A49"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A49 Südtangente, Gießen Richtung Kassel Einfahrt Kassel-Industriepark",
+        "streets": [
+          "A49"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-29T15:21:42.816Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/442723_LMS-HE/54"
       },
       "dataProducer": {
@@ -3162,7 +3219,7 @@
       },
       "description": [
         {
-          "value": "B8 Königstein im Taunus, Le-Cannet-Rocheville-Straße\nzwischen Adelheidstraße und B455, Kreisverkehr Königstein\nBaumfällarbeiten, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, beide Fahrtrichtungen gesperrt"
+          "value": "B8 Königstein im Taunus, Le-Cannet-Rocheville-Straße\nzwischen Adelheidstraße und B455, Kreisverkehr Königstein\nBaumfällarbeiten, beide Fahrtrichtungen bis auf weiteres gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
         }
       ],
       "location": {
@@ -3191,20 +3248,20 @@
           "value": "Arbeitsstelle"
         },
         {
-          "value": "Hinweis"
+          "value": "Sperrung"
         },
         {
-          "value": "Sperrung"
+          "value": "Hinweis"
         }
       ],
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-29T11:23:54.052Z"
+        "value": "2022-01-29T15:22:19.52Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4632,6 +4689,63 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/468485_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 468485
+      },
+      "description": [
+        {
+          "value": "B417 Diez - Wiesbaden\nzwischen Ortseingang und Burgstraße\nUnfallaufnahme, beide Fahrtrichtungen gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B417"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B417 Diez Richtung Wiesbaden zwischen Ortseingang und Burgstraße",
+        "streets": [
+          "B417"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-29T15:25:37.664Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
