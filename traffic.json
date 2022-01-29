@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -1214,6 +1214,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-14T09:12:55.969Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/468479_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 468479
+      },
+      "description": [
+        {
+          "value": "A6 Mannheim Richtung Heilbronn\nin Höhe Viernheimer Dreieck\nGefahr durch Gegenstände auf der Fahrbahn\nLKW Kotflügel"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A6"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A6 Mannheim Richtung Heilbronn in Höhe Viernheimer Dreieck",
+        "streets": [
+          "A6"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-29T14:39:04.84Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3004,57 +3055,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-13T10:36:16.465Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/468467_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 468467
-      },
-      "description": [
-        {
-          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Frankfurt am M.-Nieder-Eschbach und Frankfurt am Main-Heddernheim\nStraße geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A661"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A661 Bad Homburg Richtung Darmstadt zwischen Frankfurt am M.-Nieder-Eschbach und Frankfurt am Main-Heddernheim",
-        "streets": [
-          "A661"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-29T14:13:09.761Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -7490,7 +7490,7 @@
       },
       "description": [
         {
-          "value": "L3130 Langgöns - Gießen\nzwischen Langgöns und Leihgestern\nbeide Fahrtrichtungen gesperrt, eine Umleitung ist eingerichtet, Reinigungsarbeiten"
+          "value": "L3130 Langgöns - Gießen\nzwischen Langgöns und Leihgestern\nin beiden Richtungen Straße wieder frei"
         }
       ],
       "location": {
@@ -7528,7 +7528,7 @@
       "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-29T12:55:25.907Z"
+        "value": "2022-01-29T14:34:51.598Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
