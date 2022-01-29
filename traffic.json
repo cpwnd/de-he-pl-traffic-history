@@ -136,6 +136,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/468336_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 468336
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Würzburg\nzwischen Obertshausen und Hanau\nUnfallaufnahme auf dem Standstreifen, Gefahr durch Personen auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Würzburg zwischen Obertshausen und Hanau",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-29T04:52:34.793Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/365984_LMS-HE/54"
       },
       "dataProducer": {
@@ -926,7 +980,7 @@
       },
       "description": [
         {
-          "value": "A4 Bad Hersfeld Richtung Erfurt\nzwischen Bad Hersfeld und Friedewald\nUnfall, Richtungsfahrbahn gesperrt, empfohlene Umleitung: U77"
+          "value": "A4 Bad Hersfeld Richtung Erfurt\nzwischen Bad Hersfeld und Friedewald\nUnfall, Richtungsfahrbahn gesperrt, Staugefahr, Gasse für Rettungs- und Einsatzfahrzeuge bilden, empfohlene Umleitung: U77"
         }
       ],
       "location": {
@@ -956,12 +1010,18 @@
         },
         {
           "value": "Sperrung"
+        },
+        {
+          "value": "Stau"
+        },
+        {
+          "value": "Hinweis"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-29T04:48:18.585Z"
+        "value": "2022-01-29T04:49:33.056Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
