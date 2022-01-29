@@ -2457,6 +2457,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/468500_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 468500
+      },
+      "description": [
+        {
+          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Eschborn und Frankfurt am Main-Höchst\nalle Fahrbahnen geräumt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Frankfurt Richtung Wiesbaden zwischen Eschborn und Frankfurt am Main-Höchst",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-29T16:20:03.142Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/397236_LMS-HE/54"
       },
       "dataProducer": {
@@ -2844,7 +2895,7 @@
       },
       "description": [
         {
-          "value": "A643 Mainz Richtung Wiesbaden\nzwischen Wiesbaden-Äppelallee und Schiersteiner Kreuz\n1 defekter PKW\nungesicherter Pannen PKW"
+          "value": "A643 Mainz Richtung Wiesbaden\nzwischen Wiesbaden-Äppelallee und Schiersteiner Kreuz\n1 defekter PKW"
         }
       ],
       "location": {
@@ -2876,11 +2927,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-29T15:32:06.591Z"
+        "value": "2022-01-29T16:02:51.427Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3199,63 +3250,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/468424_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 468424
-      },
-      "description": [
-        {
-          "value": "B8 Königstein im Taunus, Le-Cannet-Rocheville-Straße\nzwischen Adelheidstraße und B455, Kreisverkehr Königstein\nin beiden Richtungen Wartungsarbeiten beendet"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B8"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B8 Königstein im Taunus, Le-Cannet-Rocheville-Straße zwischen Adelheidstraße und B455, Kreisverkehr Königstein",
-        "streets": [
-          "B8"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-29T15:36:54.485Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -4683,63 +4677,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/468485_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 468485
-      },
-      "description": [
-        {
-          "value": "B417 Diez - Wiesbaden\nzwischen Ortseingang und Burgstraße\nUnfallaufnahme, beide Fahrtrichtungen gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B417"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B417 Diez Richtung Wiesbaden zwischen Ortseingang und Burgstraße",
-        "streets": [
-          "B417"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-29T15:25:37.664Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
