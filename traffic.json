@@ -3023,17 +3023,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/468444_LMS-HE/54"
+        "value": "LMS/r_LMS/468448_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 468444
+        "value": 468448
       },
       "description": [
         {
-          "value": "A671 Wiesbaden Richtung Mainz\nzwischen Wiesbaden-Amöneburg und Mainz-Kastel\nGefahr durch Gegenstände auf dem linken Fahrstreifen\neine graue Plane"
+          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Oberursel und Oberursel-Nord\nGefahr durch verlorene Ladung (eine Metallstange) auf dem rechten Fahrstreifen"
         }
       ],
       "location": {
@@ -3041,15 +3041,15 @@
           {
             "edge": {
               "sortRoadNumber": {
-                "value": "A671"
+                "value": "A661"
               }
             }
           }
         ],
         "name": "Ort",
-        "description": "A671 Wiesbaden Richtung Mainz zwischen Wiesbaden-Amöneburg und Mainz-Kastel",
+        "description": "A661 Darmstadt Richtung Bad Homburg zwischen Oberursel und Oberursel-Nord",
         "streets": [
-          "A671"
+          "A661"
         ]
       },
       "duration": null,
@@ -3065,7 +3065,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-29T12:21:28.27Z"
+        "value": "2022-01-29T12:35:35.64Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -7429,6 +7429,63 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/468447_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 468447
+      },
+      "description": [
+        {
+          "value": "L3120 Heppenheim - Wald-Michelbach\nzwischen Bonsweiher und B38 in Mörlenbach\nUnfallaufnahme, beide Fahrtrichtungen gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3120"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Kreis Bergstraße, L3120 zwischen Bonsweiher und B38 in Mörlenbach",
+        "streets": [
+          "L3120"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-29T12:38:53.938Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/468421_LMS-HE/54"
       },
       "dataProducer": {
@@ -8415,51 +8472,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/468413_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 468413
-      },
-      "description": [
-        {
-          "value": "Rhön\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": null
-          }
-        ],
-        "name": "Ort",
-        "description": "Rhön",
-        "streets": null
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-29T12:18:59.644Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
