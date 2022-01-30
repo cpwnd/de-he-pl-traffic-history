@@ -598,7 +598,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Bad Camberg und Limburg-Süd\nGefahr durch ungesicherte Unfallstelle, umgestürzter Wohnwagen auf dem Standstreifen, Gefahr durch Gegenstände auf dem rechten und dem mittleren Fahrstreifen\n(Glasscherben auf der Fahbahn)"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Bad Camberg und Limburg-Süd\nUnfallaufnahme, rechter Fahrstreifen blockiert\n(Glasscherben auf der Fahbahn)"
         }
       ],
       "location": {
@@ -620,20 +620,17 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Unfall"
-        },
-        {
-          "value": "Hindernis"
+          "value": "Störung"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-30T06:05:42.475Z"
+        "value": "2022-01-30T07:29:50.708Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2616,6 +2613,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/468711_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 468711
+      },
+      "description": [
+        {
+          "value": "A66 Wiesbaden Richtung Frankfurt\nKrifteler Dreieck Überleitung zur B40\nGefahr durch Gegenstände auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Wiesbaden Richtung Frankfurt Krifteler Dreieck Überleitung zur B40",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-30T07:40:14.53Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/461537_LMS-HE/54"
       },
       "dataProducer": {
@@ -3011,7 +3059,7 @@
       },
       "description": [
         {
-          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Frankfurt-Friedberger Landstraße und Frankfurt am Main-Ost\nGefahr durch ungesicherte Unfallstelle, Gefahr durch Gegenstände auf der Fahrbahn"
+          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Frankfurt-Friedberger Landstraße und Frankfurt am Main-Ost\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -3033,7 +3081,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -3046,11 +3094,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-30T04:17:43.473Z"
+        "value": "2022-01-30T07:40:46.286Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
