@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -4665,6 +4665,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-10T22:59:00.417Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/469248_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 469248
+      },
+      "description": [
+        {
+          "value": "B455 Schneidhain, Wiesbadener Straße\nzwischen Am Hohlberg und Am Wäldchen\nin beiden Richtungen Bahnschranke öffnet nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B455"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B455 Schneidhain, Wiesbadener Straße zwischen Am Hohlberg und Am Wäldchen",
+        "streets": [
+          "B455"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-31T17:33:01.224Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
