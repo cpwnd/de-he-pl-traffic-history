@@ -198,6 +198,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/469257_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 469257
+      },
+      "description": [
+        {
+          "value": "A3 Köln Richtung Würzburg\nzwischen Frankfurt am Main-Flughafen und Frankfurt am Main-Süd\nGefahr durch ungesicherte Unfallstelle auf dem Standstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Würzburg zwischen Frankfurt am Main-Flughafen und Frankfurt am Main-Süd",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-31T17:47:57.339Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/462180_LMS-HE/54"
       },
       "dataProducer": {
@@ -1043,6 +1094,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/469263_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 469263
+      },
+      "description": [
+        {
+          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Zeppelinheim und Frankfurter Kreuz\nGefahr durch 1 defektes Fahrzeug auf dem rechten Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Darmstadt Richtung Frankfurt zwischen Zeppelinheim und Frankfurter Kreuz",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-31T18:10:05.742Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/335177_LMS-HE/54"
       },
       "dataProducer": {
@@ -1444,7 +1546,7 @@
       },
       "description": [
         {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Homberg (Efze) und Bad Hersfeld-West\nGefahr durch ungesicherte Unfallstelle"
+          "value": "A7 Kassel Richtung Fulda\nzwischen Homberg (Efze) und Bad Hersfeld-West\nUnfallaufnahme, Richtungsfahrbahn gesperrt"
         }
       ],
       "location": {
@@ -1466,21 +1568,24 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Störung"
+        },
+        {
+          "value": "Sperrung"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-31T17:35:05.452Z"
+        "value": "2022-01-31T17:56:01.524Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1856,71 +1961,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-18T07:41:21.879Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/463964_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 463964
-      },
-      "description": [
-        {
-          "value": "A45 Hagen - Gießen\nzwischen Dillenburg und Herborn-West\nin beiden Richtungen Baustelle, vorübergehende Begrenzung der Fahrbahnbreite auf 6,50 m, bis 31.01.2022 19:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A45"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A45 Hagen Richtung Gießen zwischen Dillenburg und Herborn-West",
-        "streets": [
-          "A45"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-01-13T15:10:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-01-31T18:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 13.01.2022 16:10 Uhr bis 31.01.2022 19:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Beschränkung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-14T00:36:57.764Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2878,57 +2918,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/469245_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 469245
-      },
-      "description": [
-        {
-          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Frankfurt-Friedberger Landstraße und Preungesheimer Dreieck\nGefahr durch ungesicherte Unfallstelle"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A661"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A661 Darmstadt Richtung Bad Homburg zwischen Frankfurt-Friedberger Landstraße und Preungesheimer Dreieck",
-        "streets": [
-          "A661"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-31T17:15:15.429Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
@@ -4554,57 +4543,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/469238_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 469238
-      },
-      "description": [
-        {
-          "value": "B275 Bad Schwalbach - Usingen\nzwischen B260, B260-Hettenhain und Abzweig nach Wiesbaden\nin beiden Richtungen Gefahr durch umgestürzte Bäume"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B275"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B275 Bad Schwalbach Richtung Usingen zwischen B260, B260-Hettenhain und Abzweig nach Wiesbaden",
-        "streets": [
-          "B275"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-31T16:38:23.09Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/469211_LMS-HE/54"
       },
       "dataProducer": {
@@ -4734,7 +4672,7 @@
       },
       "description": [
         {
-          "value": "B455 Schneidhain, Wiesbadener Straße\nzwischen Am Hohlberg und Am Wäldchen\nin beiden Richtungen Bahnschranke öffnet nicht mehr"
+          "value": "B455 Schneidhain, Wiesbadener Straße\nzwischen Am Hohlberg und Am Wäldchen\nin beiden Richtungen Störung am Bahnübergang beseitigt"
         }
       ],
       "location": {
@@ -4766,11 +4704,11 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-31T17:33:01.224Z"
+        "value": "2022-01-31T18:13:26.308Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4853,7 +4791,7 @@
       },
       "description": [
         {
-          "value": "Kreis Fulda, K18\nzwischen Niederbieber und Langenbieber\nin beiden Richtungen Baumfällarbeiten, Richtungsfahrbahn gesperrt, eine örtliche Umleitung ist eingerichtet, bis 31.01.2022 19:00 Uhr"
+          "value": "K18 zwischen Niederbieber und Langenbieber\nin beiden Richtungen Störung beseitigt"
         }
       ],
       "location": {
@@ -4872,18 +4810,7 @@
           "K18"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-01-26T06:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-01-31T18:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 26.01.2022 07:00 Uhr bis 31.01.2022 19:00 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -4902,11 +4829,11 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-26T06:00:00.384Z"
+        "value": "2022-01-31T18:12:53.279Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
