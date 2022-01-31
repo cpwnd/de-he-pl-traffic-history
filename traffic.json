@@ -533,7 +533,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Raunheim und Wiesbadener Kreuz\nGefahr durch Gegenstände auf der Fahrbahn"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Raunheim und Wiesbadener Kreuz\nHindernisse beseitigt"
         }
       ],
       "location": {
@@ -555,7 +555,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -565,11 +565,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-31T19:04:58.524Z"
+        "value": "2022-01-31T19:23:41.609Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1104,7 +1104,7 @@
       },
       "description": [
         {
-          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Zeppelinheim und Frankfurter Kreuz\nBergungsarbeiten auf dem Standstreifen"
+          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Zeppelinheim und Frankfurter Kreuz\nalle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -1136,7 +1136,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-31T18:43:44.433Z"
+        "value": "2022-01-31T19:11:22.803Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2417,6 +2417,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/469271_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 469271
+      },
+      "description": [
+        {
+          "value": "A67 Mannheim - Darmstadt\nzwischen Viernheimer Dreieck und Lorsch\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A67"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A67 Mannheim Richtung Darmstadt zwischen Viernheimer Dreieck und Lorsch",
+        "streets": [
+          "A67"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-31T19:12:38.228Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -4499,7 +4550,7 @@
       },
       "description": [
         {
-          "value": "B275 Bad Schwalbach Richtung Usingen\nzwischen Idstein und L3026\nReinigungsarbeiten"
+          "value": "B275 Bad Schwalbach Richtung Usingen\nzwischen Idstein und L3026\nStörung beseitigt"
         }
       ],
       "location": {
@@ -4531,7 +4582,7 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-31T16:43:41.848Z"
+        "value": "2022-01-31T19:20:47.514Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
