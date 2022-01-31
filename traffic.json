@@ -525,7 +525,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Idstein und Wiesbaden/Niedernhausen\ndefekter LKW, rechter Fahrstreifen blockiert\n(steht am Stauende)"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Idstein und Wiesbaden/Niedernhausen\nalle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -560,11 +560,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-31T08:09:33.521Z"
+        "value": "2022-01-31T08:31:19.069Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1334,69 +1334,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-31T08:05:34.208Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/468983_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 468983
-      },
-      "description": [
-        {
-          "value": "A7 Fulda Richtung Würzburg\nzwischen Dreieck Fulda und Bad Brückenau-Volkers\nGefahr durch ungesicherte Unfallstelle, Gefahr durch Personen auf der Fahrbahn, linker Fahrstreifen blockiert, Standstreifen blockiert, Polizei ist benachrichtigt, bitte vorsichtig fahren"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A7"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A7 Fulda Richtung Würzburg zwischen Dreieck Fulda und Bad Brückenau-Volkers",
-        "streets": [
-          "A7"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Information"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-31T06:26:06.032Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2820,7 +2757,7 @@
       },
       "description": [
         {
-          "value": "A67 Mönchhof-Dreieck Richtung Darmstadt\nzwischen Mönchhof-Dreieck und Rüsselsheim-Ost\nGefahr durch Gegenstände auf der Fahrbahn, bitte vorsichtig fahren\n(Außenspiegel)"
+          "value": "A67 Mönchhof-Dreieck Richtung Darmstadt\nzwischen Mönchhof-Dreieck und Rüsselsheim-Ost\nalle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -2842,7 +2779,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2855,11 +2792,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-31T07:58:54.784Z"
+        "value": "2022-01-31T08:21:36.23Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -5278,6 +5215,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/469047_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 469047
+      },
+      "description": [
+        {
+          "value": "B456 Usingen Richtung Oberursel\nzwischen Abzweig nach Köppern und Abzweig nach Obernhain\nGefahr durch Metallteile auf der Fahrbahn, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B456"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B456 Usingen Richtung Oberursel zwischen Abzweig nach Köppern und Abzweig nach Obernhain",
+        "streets": [
+          "B456"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-31T08:22:53.111Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
