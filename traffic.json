@@ -973,6 +973,63 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/468991_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 468991
+      },
+      "description": [
+        {
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Nordwestkreuz Frankfurt und Westkreuz Frankfurt\nStraße wieder frei"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Kassel Richtung Frankfurt zwischen Nordwestkreuz Frankfurt und Westkreuz Frankfurt",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Information"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-31T07:09:53.865Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS-HE/r_LMS-HE/182703_LMS-HE/54"
       },
       "dataProducer": {
@@ -1868,6 +1925,63 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-28T20:00:01.686Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/469001_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 469001
+      },
+      "description": [
+        {
+          "value": "A7 Fulda Richtung Kassel\nzwischen Bad Hersfeld-West und Homberg (Efze)\nGefahr durch ungesicherte Unfallstelle, Polizei ist benachrichtigt, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Fulda Richtung Kassel zwischen Bad Hersfeld-West und Homberg (Efze)",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Information"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-31T07:09:05.799Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3079,17 +3193,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/468979_LMS-HE/54"
+        "value": "LMS/r_LMS/469006_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 468979
+        "value": 469006
       },
       "description": [
         {
-          "value": "A480 Gießen Richtung Reiskirchen\nzwischen Gießener Nordkreuz und Reiskirchener Dreieck\nGefahr durch ungesicherte Unfallstelle, rechter Fahrstreifen blockiert, Polizei ist benachrichtigt, bitte vorsichtig fahren"
+          "value": "A480 Gießen Richtung Reiskirchen\nzwischen Gießener Nordkreuz und Reiskirchener Dreieck\nGefahr durch Reifenteile auf der Fahrbahn, bitte vorsichtig fahren"
         }
       ],
       "location": {
@@ -3115,26 +3229,77 @@
       },
       "eventCategory": [
         {
-          "value": "Unfall"
-        },
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Information"
+          "value": "Hindernis"
         },
         {
           "value": "Hinweis"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-31T06:12:17.3Z"
+        "value": "2022-01-31T07:14:12.176Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/468979_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 468979
+      },
+      "description": [
+        {
+          "value": "A480 Gießen Richtung Reiskirchen\nzwischen Gießener Nordkreuz und Reiskirchener Dreieck\nbitte vorsichtig fahren, Unfall mit Verletzten, Richtungsfahrbahn gesperrt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A480"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A480 Gießen Richtung Reiskirchen zwischen Gießener Nordkreuz und Reiskirchener Dreieck",
+        "streets": [
+          "A480"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hinweis"
+        },
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Hinweis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-31T06:58:24.228Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -9362,6 +9527,54 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/468998_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 468998
+      },
+      "description": [
+        {
+          "value": "Main-Kinzig-Kreis\nSchneefall, Verkehrsbehinderung"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": null
+          }
+        ],
+        "name": "Ort",
+        "description": "Main-Kinzig-Kreis",
+        "streets": null
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Wetter"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Wetter",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-31T07:04:06.805Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/466885_LMS-HE/54"
       },
       "dataProducer": {
@@ -10215,6 +10428,56 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/468997_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 468997
+      },
+      "description": [
+        {
+          "value": "Frankfurt, Neue Mainzer Straße\nzwischen Hofstraße und Junghofstraße\nWanderbaustelle, Fahrbahnverengung"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": null
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, Neue Mainzer Straße zwischen Hofstraße und Junghofstraße",
+        "streets": null
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-31T07:00:00.399Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
