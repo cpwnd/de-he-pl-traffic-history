@@ -1994,6 +1994,71 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/468949_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 468949
+      },
+      "description": [
+        {
+          "value": "A45 Hagen Richtung Gießen\nzwischen Dillenburg und Herborn-West\nBauarbeiten, vorübergehende Begrenzung der Fahrbahnbreite auf 6,50 m, bis 31.08.2022 20:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A45 Hagen Richtung Gießen zwischen Dillenburg und Herborn-West",
+        "streets": [
+          "A45"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-01-31T04:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-08-31T18:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 31.01.2022 05:00 Uhr bis 31.08.2022 20:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-31T04:00:01.833Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/443952_LMS-HE/54"
       },
       "dataProducer": {
@@ -2055,6 +2120,71 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/468950_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 468950
+      },
+      "description": [
+        {
+          "value": "A45 Gießen Richtung Hagen\nzwischen Herborn-West und Dillenburg\nBauarbeiten, vorübergehende Begrenzung der Fahrbahnbreite auf 6,50 m, bis 31.08.2022 20:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A45 Gießen Richtung Hagen zwischen Herborn-West und Dillenburg",
+        "streets": [
+          "A45"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-01-31T04:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-08-31T18:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 31.01.2022 05:00 Uhr bis 31.08.2022 20:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-31T04:00:01.833Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -2199,7 +2329,7 @@
       },
       "description": [
         {
-          "value": "A49 Kassel - Gießen\nzwischen Baunatal-Mitte und Edermünde\nin beiden Richtungen Baustelle, vorübergehende Begrenzung der Fahrbahnbreite auf 5,85 m, bis 31.01.2022 05:00 Uhr"
+          "value": "A49 Kassel - Gießen\nzwischen Baunatal-Mitte und Edermünde\nin beiden Richtungen Baustelle beseitigt"
         }
       ],
       "location": {
@@ -2218,18 +2348,7 @@
           "A49"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-01-17T21:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-01-31T04:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 17.01.2022 22:00 Uhr bis 31.01.2022 05:00 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -2245,11 +2364,11 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-17T21:00:01.155Z"
+        "value": "2022-01-31T04:09:59.015Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
