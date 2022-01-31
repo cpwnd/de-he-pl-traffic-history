@@ -468,7 +468,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbaden/Niedernhausen und Raststätte Medenbach West\nGefahr durch Gegenstände auf der Fahrbahn, Gefahr durch ungesicherte Unfallstelle, rechter Fahrstreifen blockiert, Polizei ist benachrichtigt, bitte vorsichtig fahren"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbaden/Niedernhausen und Raststätte Medenbach West\nGefahr durch Gegenstände auf der Fahrbahn, Unfall, Richtungsfahrbahn gesperrt, empfohlene Umleitung: U61"
         }
       ],
       "location": {
@@ -500,23 +500,17 @@
           "value": "Unfall"
         },
         {
-          "value": "Störung"
-        },
-        {
-          "value": "Information"
-        },
-        {
-          "value": "Hinweis"
+          "value": "Sperrung"
         }
       ],
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-31T05:37:26.649Z"
+        "value": "2022-01-31T06:16:24.52Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2403,7 +2397,7 @@
       },
       "description": [
         {
-          "value": "A49 Südtangente, Kassel Richtung Gießen\nzwischen Kassel-Waldau und Kassel-Auestadion\ndefekter LKW, Beschleunigungsstreifen blockiert\n(Fahrzeugheck ragt noch auf den rechten Fahrstreifen)"
+          "value": "A49 Südtangente, Kassel Richtung Gießen\nzwischen Kassel-Waldau und Kassel-Auestadion\nalle Fahrbahnen wieder frei"
         }
       ],
       "location": {
@@ -2438,7 +2432,67 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-31T05:34:12.583Z"
+        "value": "2022-01-31T06:13:53.532Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/468971_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 468971
+      },
+      "description": [
+        {
+          "value": "A49 Gießen Richtung Kassel\nzwischen Neuental und Borken (Hessen)\nUnfall, Gefahr durch Gegenstände auf der Fahrbahn, Polizei ist benachrichtigt, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A49"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A49 Gießen Richtung Kassel zwischen Neuental und Borken (Hessen)",
+        "streets": [
+          "A49"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Information"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-31T05:59:17.177Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3016,6 +3070,66 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/468979_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 468979
+      },
+      "description": [
+        {
+          "value": "A480 Gießen Richtung Reiskirchen\nzwischen Gießener Nordkreuz und Reiskirchener Dreieck\nGefahr durch ungesicherte Unfallstelle, rechter Fahrstreifen blockiert, Polizei ist benachrichtigt, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A480"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A480 Gießen Richtung Reiskirchen zwischen Gießener Nordkreuz und Reiskirchener Dreieck",
+        "streets": [
+          "A480"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Information"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-31T06:12:17.3Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/430914_LMS-HE/54"
       },
       "dataProducer": {
@@ -3074,6 +3188,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/468978_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 468978
+      },
+      "description": [
+        {
+          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Frankfurt-Friedberger Landstraße und Frankfurt am Main-Ost\nGefahr durch ungesicherte Unfallstelle, rechter Fahrstreifen blockiert\n(kurz vor dem Seckbachtunnel)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A661"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A661 Bad Homburg Richtung Darmstadt zwischen Frankfurt-Friedberger Landstraße und Frankfurt am Main-Ost",
+        "streets": [
+          "A661"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-31T06:06:05.88Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -4696,6 +4864,69 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/468968_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 468968
+      },
+      "description": [
+        {
+          "value": "B253 Battenberg Richtung Biedenkopf\nzwischen Abzweig nach Dexbach und Ende der Straße\nUnfall, Gefahr von Straßenglätte, gesperrt für LKW, Polizei ist benachrichtigt, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B253"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B253 Battenberg Richtung Biedenkopf zwischen Abzweig nach Dexbach und Ende der Straße",
+        "streets": [
+          "B253"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Straßenzustand"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Information"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-31T05:48:59.292Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/445126_LMS-HE/54"
       },
       "dataProducer": {
@@ -4757,6 +4988,66 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/468969_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 468969
+      },
+      "description": [
+        {
+          "value": "B255, L3044 Rennerod Richtung Herborn\nin Höhe Abzweig nach Driedorf\nUnfall, Straßenglätte, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, Bergungsarbeiten"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B255"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B255 Rennerod Richtung Herborn in Höhe Abzweig nach Driedorf",
+        "streets": [
+          "B255"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Straßenzustand"
+        },
+        {
+          "value": "Hinweis"
+        },
+        {
+          "value": "Arbeitsstelle"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-31T05:52:19.861Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -7677,6 +7968,63 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/468977_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 468977
+      },
+      "description": [
+        {
+          "value": "L3043 Hirzenhain - Dietzhölztal\nzwischen Abzweig nach Hirzenhain und Eibelshausen\nin beiden Richtungen Straßenglätte, Unfall, Richtungsfahrbahn gesperrt\n(mehrere Fahrzeuge stehen quer)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3043"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Lahn-Dill-Kreis, L3043 zwischen Abzweig nach Hirzenhain und Eibelshausen",
+        "streets": [
+          "L3043"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Straßenzustand"
+        },
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Straßenzustand",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-31T06:04:21.692Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
