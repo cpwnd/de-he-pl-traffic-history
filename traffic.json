@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -598,7 +598,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Limburg-Süd und Ausfahrt Limburg-Nord\nReparaturarbeiten, rechter Fahrstreifen gesperrt, mittlerer Fahrstreifen gesperrt, Fahrbahn von 3 auf einen Fahrstreifen verengt"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Limburg-Süd und Ausfahrt Limburg-Nord\nReparaturarbeiten, rechter Fahrstreifen gesperrt, Fahrbahn von 3 auf zwei Fahrstreifen verengt"
         }
       ],
       "location": {
@@ -636,11 +636,11 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-31T11:48:21.977Z"
+        "value": "2022-01-31T14:39:48.409Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -983,7 +983,7 @@
       },
       "description": [
         {
-          "value": "A5 Darmstadt - Heidelberg\nzwischen Bensheim und Rastplatz Fuchsbuckel\nin beiden Richtungen Baustelle, Fahrbahnverengung, maximale Fahrbahnbreite von 6,50 m, Verkehrsbehinderung, bis 31.01.2022 15:30 Uhr"
+          "value": "A5 Darmstadt - Heidelberg\nzwischen Bensheim und Rastplatz Fuchsbuckel\nin beiden Richtungen Baustelle beseitigt"
         }
       ],
       "location": {
@@ -1002,15 +1002,7 @@
           "A5"
         ]
       },
-      "duration": {
-        "startTime": null,
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-01-31T14:30:00Z"
-        },
-        "name": "Dauer",
-        "description": "bis 31.01.2022 15:30 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -1026,7 +1018,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2021-12-20T09:46:00.916Z"
+        "value": "2022-01-31T14:41:39.963Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2054,6 +2046,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-31T04:00:01.833Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/469188_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 469188
+      },
+      "description": [
+        {
+          "value": "A45 Aschaffenburg Richtung Gießen\nzwischen Hammersbach und Altenstadt\nGefahr durch Gegenstände auf der Fahrbahn (Fahrzeugteile)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A45 Aschaffenburg Richtung Gießen zwischen Hammersbach und Altenstadt",
+        "streets": [
+          "A45"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-31T14:31:20.865Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -5286,7 +5329,7 @@
       },
       "description": [
         {
-          "value": "K655 Wiesbaden, Saarstraße bis Erich-Ollenhauer-Straße\nzwischen A643, Wiesbaden-Dotzheim und Steckelburgstraße\nin beiden Richtungen 1 umgestürzter Baum"
+          "value": "K655 Wiesbaden, Saarstraße bis Erich-Ollenhauer-Straße\nzwischen A643, Wiesbaden-Dotzheim und Steckelburgstraße\nin beiden Richtungen alle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -5318,11 +5361,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-31T13:56:42.72Z"
+        "value": "2022-01-31T14:36:29.907Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -8391,63 +8434,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/469104_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 469104
-      },
-      "description": [
-        {
-          "value": "L3291 zwischen Schotten und Ulrichstein-Feldkrücken\nin beiden Richtungen Straßenverhältnisse haben sich wieder gebessert"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3291"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Vogelsbergkreis, L3291 zwischen Schotten und Ulrichstein-Feldkrücken",
-        "streets": [
-          "L3291"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Straßenzustand"
-        },
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Straßenzustand",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-31T14:19:16.933Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/463033_LMS-HE/54"
       },
       "dataProducer": {
@@ -8958,7 +8944,7 @@
       },
       "description": [
         {
-          "value": "Hochtaunuskreis\nSturmböen, Gefahr durch umgestürzte Bäume, mehrfach kurzfristige Sperrungen"
+          "value": "Hochtaunuskreis\nHindernisse beseitigt"
         }
       ],
       "location": {
@@ -8974,7 +8960,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -8990,11 +8976,11 @@
       "masterEventCategory": "Wetter",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-31T13:26:25.063Z"
+        "value": "2022-01-31T14:41:04.568Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
