@@ -598,7 +598,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Limburg-Süd und Ausfahrt Limburg-Nord\nReparaturarbeiten, rechter Fahrstreifen gesperrt, Fahrbahn von 3 auf zwei Fahrstreifen verengt"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Limburg-Süd und Ausfahrt Limburg-Nord\nBaustelle beseitigt"
         }
       ],
       "location": {
@@ -636,7 +636,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-31T14:39:48.409Z"
+        "value": "2022-01-31T16:42:01.392Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1110,7 +1110,7 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Butzbach und Gambacher Kreuz\nGefahr durch Unterlegkeil auf der Fahrbahn"
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Butzbach und Gambacher Kreuz\nHindernisse beseitigt"
         }
       ],
       "location": {
@@ -1132,7 +1132,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1142,11 +1142,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-31T16:13:06.273Z"
+        "value": "2022-01-31T16:45:14.013Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2535,6 +2535,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-14T09:08:53.888Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/469233_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 469233
+      },
+      "description": [
+        {
+          "value": "A66 Wiesbaden - Frankfurt\nzwischen Eschborner Dreieck und Nordwestkreuz Frankfurt\nin beiden Richtungen Gefahr besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Wiesbaden Richtung Frankfurt zwischen Eschborner Dreieck und Nordwestkreuz Frankfurt",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-31T16:41:39.939Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4611,6 +4662,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/469238_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 469238
+      },
+      "description": [
+        {
+          "value": "B275 Bad Schwalbach - Usingen\nzwischen B260, B260-Hettenhain und Abzweig nach Wiesbaden\nin beiden Richtungen Gefahr durch umgestürzte Bäume"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B275"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B275 Bad Schwalbach Richtung Usingen zwischen B260, B260-Hettenhain und Abzweig nach Wiesbaden",
+        "streets": [
+          "B275"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-31T16:38:23.09Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/469211_LMS-HE/54"
       },
       "dataProducer": {
@@ -4621,7 +4723,7 @@
       },
       "description": [
         {
-          "value": "B275 Bad Schwalbach Richtung Usingen\nzwischen Idstein und L3026\nGefahr durch Ölspur"
+          "value": "B275 Bad Schwalbach Richtung Usingen\nzwischen Idstein und L3026\nReinigungsarbeiten"
         }
       ],
       "location": {
@@ -4643,21 +4745,21 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Hindernis"
+          "value": "Störung"
         }
       ],
-      "masterEventCategory": "Hindernis",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-31T15:34:59.455Z"
+        "value": "2022-01-31T16:43:41.848Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
