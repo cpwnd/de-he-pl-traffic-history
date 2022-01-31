@@ -1228,6 +1228,69 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/468983_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 468983
+      },
+      "description": [
+        {
+          "value": "A7 Fulda Richtung Würzburg\nzwischen Dreieck Fulda und Bad Brückenau-Volkers\nGefahr durch ungesicherte Unfallstelle, Gefahr durch Personen auf der Fahrbahn, linker Fahrstreifen blockiert, Standstreifen blockiert, Polizei ist benachrichtigt, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Fulda Richtung Würzburg zwischen Dreieck Fulda und Bad Brückenau-Volkers",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Information"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-31T06:26:06.032Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/450370_LMS-HE/54"
       },
       "dataProducer": {
@@ -2387,60 +2450,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/468958_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 468958
-      },
-      "description": [
-        {
-          "value": "A49 Südtangente, Kassel Richtung Gießen\nzwischen Kassel-Waldau und Kassel-Auestadion\nalle Fahrbahnen wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A49"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A49 Südtangente, Kassel Richtung Gießen zwischen Kassel-Waldau und Kassel-Auestadion",
-        "streets": [
-          "A49"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-31T06:13:53.532Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/468971_LMS-HE/54"
       },
       "dataProducer": {
@@ -3202,7 +3211,7 @@
       },
       "description": [
         {
-          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Frankfurt-Friedberger Landstraße und Frankfurt am Main-Ost\nGefahr durch ungesicherte Unfallstelle, rechter Fahrstreifen blockiert\n(kurz vor dem Seckbachtunnel)"
+          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Frankfurt-Friedberger Landstraße und Frankfurt am Main-Ost\nalle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -3224,7 +3233,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -3237,11 +3246,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-31T06:06:05.88Z"
+        "value": "2022-01-31T06:22:19.012Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -5130,7 +5139,7 @@
       },
       "description": [
         {
-          "value": "B453 Gladenbach Richtung Dautphetal\nzwischen Gladenbach und Runzhausen\nStraßenglätte, Streufahrzeuge im Einsatz\n(mehrere Fahrzeuge haben sich bereits festgefahren, mit erheblichen Behinderungen ist zu rechnen)"
+          "value": "B453 Gladenbach Richtung Dautphetal\nzwischen Gladenbach und Runzhausen\nStraßenglätte, Richtungsfahrbahn gesperrt, Streufahrzeuge im Einsatz\n(mehrere Fahrzeuge haben sich bereits festgefahren, mit erheblichen Behinderungen ist zu rechnen)"
         }
       ],
       "location": {
@@ -5160,16 +5169,19 @@
         },
         {
           "value": "Störung"
+        },
+        {
+          "value": "Sperrung"
         }
       ],
       "masterEventCategory": "Straßenzustand",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-31T05:40:39.786Z"
+        "value": "2022-01-31T06:28:11.468Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
