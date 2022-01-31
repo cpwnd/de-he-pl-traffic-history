@@ -988,7 +988,7 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Darmstadt\nzwischen Zeppelinheim und Langen/Mörfelden\nUnfall, Gefahr durch Fahrzeugteile auf der Fahrbahn"
+          "value": "A5 Frankfurt Richtung Darmstadt\nzwischen Zeppelinheim und Langen/Mörfelden\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -1010,7 +1010,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1023,11 +1023,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-31T09:35:47.705Z"
+        "value": "2022-01-31T10:17:21.466Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1880,7 +1880,7 @@
       },
       "description": [
         {
-          "value": "A44 Dortmund Richtung Kassel\nzwischen Warburg und Breuna\nGefahr durch Metallteile auf der Fahrbahn"
+          "value": "A44 Dortmund Richtung Kassel\nzwischen Warburg und Breuna\nalle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -1902,7 +1902,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1912,11 +1912,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-31T09:42:47.634Z"
+        "value": "2022-01-31T10:14:54.004Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2487,6 +2487,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-12-28T13:15:02.058Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/469084_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 469084
+      },
+      "description": [
+        {
+          "value": "A49 Kassel Richtung Gießen\nzwischen Baunatal-Mitte und Baunatal-Süd\nGefahr durch Gegenstände auf der Fahrbahn im Baustellenbereich"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A49"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A49 Kassel Richtung Gießen zwischen Baunatal-Mitte und Baunatal-Süd",
+        "streets": [
+          "A49"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-31T10:13:43.004Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3231,57 +3282,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-12-20T14:44:37.366Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/469071_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 469071
-      },
-      "description": [
-        {
-          "value": "A671 Wiesbaden Richtung Mainz\nzwischen Gustavsburg und Mainspitz-Dreieck\nalle Fahrbahnen geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A671"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A671 Wiesbaden Richtung Mainz zwischen Gustavsburg und Mainspitz-Dreieck",
-        "streets": [
-          "A671"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-31T09:41:19.395Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
