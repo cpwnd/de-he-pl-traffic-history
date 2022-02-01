@@ -468,7 +468,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbaden/Niedernhausen und Wiesbadener Kreuz\nBauarbeiten, rechter Fahrstreifen gesperrt, mittlerer Fahrstreifen gesperrt, Stau"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbaden/Niedernhausen und Wiesbadener Kreuz\nBauarbeiten, rechter Fahrstreifen gesperrt"
         }
       ],
       "location": {
@@ -498,19 +498,16 @@
         },
         {
           "value": "Sperrung"
-        },
-        {
-          "value": "Stau"
         }
       ],
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-01T12:44:41.895Z"
+        "value": "2022-02-01T15:28:49.404Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -973,57 +970,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/469548_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 469548
-      },
-      "description": [
-        {
-          "value": "A5 Darmstadt Richtung Heidelberg\nzwischen Heppenheim und Hemsbach\nbrennender LKW, Löscharbeiten, Verkehrsbehinderung"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Darmstadt Richtung Heidelberg zwischen Heppenheim und Hemsbach",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-01T14:06:17.647Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/469521_LMS-HE/54"
       },
       "dataProducer": {
@@ -1034,7 +980,7 @@
       },
       "description": [
         {
-          "value": "A5 Heidelberg - Darmstadt\nin Höhe Heppenheim\nin beiden Richtungen Bauarbeiten, vorübergehende Begrenzung der Fahrbahnbreite auf 6,50 m"
+          "value": "A5 Heidelberg - Darmstadt\nin Höhe Heppenheim\nin beiden Richtungen Bauarbeiten, vorübergehende Begrenzung der Fahrbahnbreite auf 6,50 m, bis 04.02.2022 15:30 Uhr"
         }
       ],
       "location": {
@@ -1053,7 +999,15 @@
           "A5"
         ]
       },
-      "duration": null,
+      "duration": {
+        "startTime": null,
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-02-04T14:30:00Z"
+        },
+        "name": "Dauer",
+        "description": "bis 04.02.2022 15:30 Uhr"
+      },
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -1069,11 +1023,11 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-01T12:46:47.221Z"
+        "value": "2022-02-01T15:34:18.135Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2481,6 +2435,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/469579_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 469579
+      },
+      "description": [
+        {
+          "value": "A67 Darmstadt Richtung Mannheim\nzwischen Gernsheim und Lorsch\nGefahr durch Gegenstände auf der Fahrbahn\n(ein Eimer)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A67"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A67 Darmstadt Richtung Mannheim zwischen Gernsheim und Lorsch",
+        "streets": [
+          "A67"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-01T15:23:59.943Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/461537_LMS-HE/54"
       },
       "dataProducer": {
@@ -3773,6 +3778,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/469585_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 469585
+      },
+      "description": [
+        {
+          "value": "B43 Hanau\nKreisverkehr Ehrensäule\nUnfall, stockender Verkehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B43"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B43 Hanau Kreisverkehr Ehrensäule",
+        "streets": [
+          "B43"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Stau"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-01T15:26:42.998Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
