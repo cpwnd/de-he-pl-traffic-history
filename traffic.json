@@ -198,57 +198,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/469596_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 469596
-      },
-      "description": [
-        {
-          "value": "A3 Frankfurt Richtung Würzburg\nzwischen Offenbach und Obertshausen\nUnfall auf dem rechten Fahrstreifen und dem Standstreifen"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Frankfurt Richtung Würzburg zwischen Offenbach und Obertshausen",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-01T15:44:22.459Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/462180_LMS-HE/54"
       },
       "dataProducer": {
@@ -519,7 +468,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbaden/Niedernhausen und Wiesbadener Kreuz\nBauarbeiten, rechter Fahrstreifen gesperrt"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbaden/Niedernhausen und Wiesbadener Kreuz\nalle Fahrbahnen wieder frei"
         }
       ],
       "location": {
@@ -554,7 +503,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-01T15:28:49.404Z"
+        "value": "2022-02-01T17:02:29.038Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4021,63 +3970,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/469540_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 469540
-      },
-      "description": [
-        {
-          "value": "B47 Michelstadt - Amorbach\nzwischen Abzweig nach Ernsbach und Eulbach\nin beiden Richtungen Unfall, Bergungsarbeiten, Richtungsfahrbahn gesperrt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B47"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B47 Michelstadt Richtung Amorbach zwischen Abzweig nach Ernsbach und Eulbach",
-        "streets": [
-          "B47"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-01T13:45:21.819Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
@@ -7784,6 +7676,64 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-31T23:09:53.66Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/469610_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 469610
+      },
+      "description": [
+        {
+          "value": "L3265, L3011 Hattersheim am Main, Mainzer Landstraße\nzwischen Albanstraße und Staufenstraße\nUnfallaufnahme, Fahrbahn auf einen Fahrstreifen verengt, Stau zu erwarten, Polizei regelt den Verkehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3265, L3011"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Hattersheim am Main, Mainzer Landstraße zwischen Albanstraße und Staufenstraße",
+        "streets": [
+          "L3265",
+          "L3011"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Stau"
+        },
+        {
+          "value": "Information"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-01T17:01:30.687Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
