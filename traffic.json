@@ -2642,60 +2642,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/469311_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 469311
-      },
-      "description": [
-        {
-          "value": "A485 in Höhe Gießener Nordkreuz\nUnfallaufnahme, Richtungsfahrbahn gesperrt, empfohlene Umleitung: Auf der B3 Lollar-Nord / Staufenberg abfahren und der L3475 Rtg. Gießen folgen. Am Gießener Nordkreuz wieder über die A480 auf die A485 auffahren."
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A485"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A485 in Höhe Gießener Nordkreuz",
-        "streets": [
-          "A485"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-31T23:09:16.211Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/430914_LMS-HE/54"
       },
       "dataProducer": {
@@ -2943,6 +2889,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/469311_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 469311
+      },
+      "description": [
+        {
+          "value": "B3 Marburg Richtung Gießen\nzwischen Staufenberg-Süd und Gießener Nordkreuz/B3\nUnfallaufnahme, Richtungsfahrbahn gesperrt, empfohlene Umleitung: Auf der B3 Lollar-Nord / Staufenberg abfahren und der L3475 Rtg. Gießen folgen. Am Gießener Nordkreuz wieder über die A480 auf die A485 auffahren."
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B3 Marburg Richtung Gießen zwischen Staufenberg-Süd und Gießener Nordkreuz/B3",
+        "streets": [
+          "B3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-01T01:08:56.893Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
