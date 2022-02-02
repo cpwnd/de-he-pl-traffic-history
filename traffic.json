@@ -2623,7 +2623,7 @@
       },
       "description": [
         {
-          "value": "A67 Darmstadt Richtung Mönchhof-Dreieck\nzwischen Dreieck Darmstadt-Griesheim und Büttelborn\nbrennender PKW auf dem Standstreifen, Gefahr durch Personen auf der Fahrbahn"
+          "value": "A67 Darmstadt Richtung Mönchhof-Dreieck\nzwischen Dreieck Darmstadt-Griesheim und Büttelborn\nbrennender PKW auf dem Standstreifen, Löscharbeiten, Verkehrsbehinderung, Fahrbahn auf einen Fahrstreifen verengt"
         }
       ],
       "location": {
@@ -2645,20 +2645,17 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
           "value": "Störung"
-        },
-        {
-          "value": "Hindernis"
         }
       ],
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-02T19:13:57.676Z"
+        "value": "2022-02-02T19:42:42.648Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -9599,6 +9596,59 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-25T12:23:16.203Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/469934_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 469934
+      },
+      "description": [
+        {
+          "value": "Gustavsburg, Mierendorffstraße\nin Höhe B43, Darmstädter Landstraße\nGefahr durch ungesicherte Unfallstelle, Verkehrsbehinderung, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": null
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Gustavsburg, Mierendorffstraße in Höhe B43, Darmstädter Landstraße",
+        "streets": null
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-02T19:41:09.251Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
