@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -458,17 +458,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/469849_LMS-HE/54"
+        "value": "LMS/r_LMS/469865_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 469849
+        "value": 469865
       },
       "description": [
         {
-          "value": "A3 Würzburg Richtung Frankfurt\nzwischen Offenbacher Kreuz und Frankfurt am Main-Süd\nGefahr besteht nicht mehr"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Limburg-Süd und Bad Camberg\nGefahr durch defekten LKW auf dem rechten Fahrstreifen und dem Standstreifen, Reifenschaden"
         }
       ],
       "location": {
@@ -482,7 +482,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A3 Würzburg Richtung Frankfurt zwischen Offenbacher Kreuz und Frankfurt am Main-Süd",
+        "description": "A3 Köln Richtung Frankfurt zwischen Limburg-Süd und Bad Camberg",
         "streets": [
           "A3"
         ]
@@ -490,21 +490,24 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Normal"
+        "value": "Dringend"
       },
       "eventCategory": [
         {
           "value": "Hindernis"
+        },
+        {
+          "value": "Information"
         }
       ],
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-02T14:32:17.969Z"
+        "value": "2022-02-02T15:15:14.673Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Geändert"
+        "value": "Neu"
       }
     },
     {
@@ -1028,7 +1031,7 @@
       },
       "description": [
         {
-          "value": "A5 Heidelberg - Darmstadt\nzwischen Hemsbach und Heppenheim\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
+          "value": "A5 Heidelberg - Darmstadt\nzwischen Hemsbach und Heppenheim\nin beiden Richtungen Straße wieder frei"
         }
       ],
       "location": {
@@ -1050,7 +1053,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1060,11 +1063,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-02T14:24:44.966Z"
+        "value": "2022-02-02T15:09:03.612Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2792,6 +2795,63 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/469832_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 469832
+      },
+      "description": [
+        {
+          "value": "A480, L3047 zwischen Abzweig nach Vetzberg und Wettenberg\nUnfall, beide Fahrtrichtungen gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren\n(Verkehrsteilnehmer werden gebeten , die A 480 bereits an der AS Wettenberg zu verlassen) "
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A480"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A480 Richtung Reiskirchen zwischen Abzweig nach Vetzberg und Wettenberg",
+        "streets": [
+          "A480"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-02T15:06:47.045Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/435760_LMS-HE/54"
       },
       "dataProducer": {
@@ -2853,63 +2913,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/469832_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 469832
-      },
-      "description": [
-        {
-          "value": "A480 Gießen - Reiskirchen\nin Höhe Übergang von der L3047\nUnfall, beide Fahrtrichtungen gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren\n(Verkehrsteilnehmer werden gebeten , die A 480 bereits an der AS Wettenberg zu verlassen) "
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A480"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A480 Gießen Richtung Reiskirchen in Höhe Übergang von der L3047",
-        "streets": [
-          "A480"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-02T13:19:20.868Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
@@ -4012,6 +4015,58 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-17T06:00:01.396Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/469862_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 469862
+      },
+      "description": [
+        {
+          "value": "B44, B43 Groß-Gerau - Offenbach\nzwischen A3, Frankfurt am Main-Süd und Frankfurt am Main-Oberforsthaus\nin beiden Richtungen Achtung, Ihnen kommt ein Falschfahrer entgegen, nicht überholen, Vorsicht auf beiden Richtungsfahrbahnen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B44, B43"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B44, B43 Groß-Gerau Richtung Offenbach zwischen A3, Frankfurt am Main-Süd und Frankfurt am Main-Oberforsthaus",
+        "streets": [
+          "B44",
+          "B43"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Sehr dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-02T15:08:26.267Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -8116,54 +8171,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/469830_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 469830
-      },
-      "description": [
-        {
-          "value": "Frankfurt\nGasaustritt, Anwohner werden gebeten, Fenster und Türen geschlossen zu halten, Gesundheitsgefährdung\n(Stoffaustritt im Industriepark  Höchst - Die Bewohner der Stadtteile Höchst, Schwanheim und Kelsterbach werden gebenen Lüftungs- und Klimaanlagen abschalten, Geben sie Passanten die Möglichkeit in ihren Wohnungen Schutz zu suchen. Meiden sie den Bereich Schwanheimer Wäldchen / Schwanheimer Dünen, Gesundheitsgefährdung ggf durch Augenbrennen, Übelkeit, Husten)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": null
-          }
-        ],
-        "name": "Ort",
-        "description": "Frankfurt",
-        "streets": null
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-02T13:27:39.843Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
