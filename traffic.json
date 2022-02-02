@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -338,7 +338,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Raunheim und Mönchhof-Dreieck\nUnfall im Baustellenbereich, Verkehr wird an der Unfallstelle vorbeigeführt"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Raunheim und Mönchhof-Dreieck\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -373,7 +373,7 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-02T21:05:19.137Z"
+        "value": "2022-02-02T21:31:43.194Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -522,7 +522,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Idstein und Wiesbaden/Niedernhausen\nNachtbaustelle, linker Fahrstreifen gesperrt"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Idstein und Wiesbaden/Niedernhausen\nBaustelle beseitigt"
         }
       ],
       "location": {
@@ -557,11 +557,11 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-02T18:46:40.219Z"
+        "value": "2022-02-02T21:40:15.047Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -692,6 +692,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/469955_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 469955
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbaden/Niedernhausen und Idstein\nBaustelle, linker Fahrstreifen gesperrt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Köln zwischen Wiesbaden/Niedernhausen und Idstein",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-02T21:37:51.964Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -1546,7 +1600,7 @@
       },
       "description": [
         {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Kirchheim und Hattenbacher Dreieck\ndefekter PKW auf dem rechten Fahrstreifen hinter einer Kurve"
+          "value": "A7 Kassel Richtung Fulda\nzwischen Kirchheim und Hattenbacher Dreieck\nalle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -1578,11 +1632,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-02T20:46:45.526Z"
+        "value": "2022-02-02T21:30:47.056Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2558,7 +2612,7 @@
       },
       "description": [
         {
-          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Nordwestkreuz Frankfurt und Eschborner Dreieck\nUnfall, Bergungsarbeiten, Richtungsfahrbahn gesperrt"
+          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Nordwestkreuz Frankfurt und Eschborner Dreieck\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -2596,11 +2650,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-02T20:23:05.178Z"
+        "value": "2022-02-02T21:32:37.351Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2669,7 +2723,7 @@
       },
       "description": [
         {
-          "value": "A66 Wiesbaden Richtung Frankfurt\nNordwestkreuz Frankfurt Überleitung zur A5 Richtung Frankfurt\nUnfall\n93899"
+          "value": "A66 Wiesbaden Richtung Frankfurt\nNordwestkreuz Frankfurt Überleitung zur A5 Richtung Frankfurt\nUnfall"
         }
       ],
       "location": {
@@ -2701,11 +2755,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-02T21:16:10.647Z"
+        "value": "2022-02-02T21:31:26.755Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
