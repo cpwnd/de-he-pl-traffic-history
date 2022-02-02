@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -1557,7 +1557,7 @@
       },
       "description": [
         {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Bad Hersfeld-West und Kirchheimer Dreieck\nUnfall, Gefahr durch Aufräumarbeiten"
+          "value": "A7 Kassel Richtung Fulda\nzwischen Bad Hersfeld-West und Kirchheimer Dreieck\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -1579,7 +1579,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1592,7 +1592,61 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-02T09:11:13.02Z"
+        "value": "2022-02-02T09:20:56.403Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/469785_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 469785
+      },
+      "description": [
+        {
+          "value": "A7 Hannover Richtung Kassel\nzwischen Hann. Münden/Lutterberg und Kassel-Nord\nbrennender LKW, Richtungsfahrbahn gesperrt, empfohlene Umleitung: U2"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Hannover Richtung Kassel zwischen Hann. Münden/Lutterberg und Kassel-Nord",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-02T09:25:01.921Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4215,6 +4269,61 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-25T16:00:00.732Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/469783_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 469783
+      },
+      "description": [
+        {
+          "value": "B49, B54 Limburg Richtung Gießen\nzwischen A3, Limburg-Nord und Hadamar\nGefahr durch defektes Fahrzeug auf dem linken Fahrstreifen, linker Fahrstreifen blockiert"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B49, B54"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B49, B54 Limburg Richtung Gießen zwischen A3, Limburg-Nord und Hadamar",
+        "streets": [
+          "B49",
+          "B54"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-02T09:20:47.711Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
