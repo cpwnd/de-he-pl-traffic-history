@@ -588,57 +588,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/469795_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 469795
-      },
-      "description": [
-        {
-          "value": "A3 Frankfurt Richtung Köln\nAusfahrt Limburg-Süd\nGefahr durch defektes Fahrzeug im Kurvenbereich"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Frankfurt Richtung Köln Ausfahrt Limburg-Süd",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-02T10:23:01.733Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/461444_LMS-HE/54"
       },
       "dataProducer": {
@@ -2496,7 +2445,7 @@
       },
       "description": [
         {
-          "value": "A67 Mannheim Richtung Darmstadt\nzwischen Gernsheim und Pfungstadt\nGefahr durch verlorene Ladung, umgestürztes Fahrzeug\n(Anhänger ist umgekippt, nun liegt Bauschutt auf der Straße)"
+          "value": "A67 Mannheim Richtung Darmstadt\nzwischen Gernsheim und Pfungstadt\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -2518,7 +2467,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2531,11 +2480,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-02T11:24:25.284Z"
+        "value": "2022-02-02T12:49:02.204Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3173,6 +3122,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-11-19T11:33:19.495Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/469828_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 469828
+      },
+      "description": [
+        {
+          "value": "B40 Schwanheimer Knoten - Mainzer Landstraße\nzwischen Schwanheimer Knoten und Schwanheimer Brücke in Frankfurt\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn\n(ein Rollstuhlfahrer)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B40"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B40 Schwanheimer Knoten Richtung Mainzer Landstraße zwischen Schwanheimer Knoten und Schwanheimer Brücke in Frankfurt",
+        "streets": [
+          "B40"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-02T12:56:00.537Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4532,57 +4532,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/469695_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 469695
-      },
-      "description": [
-        {
-          "value": "K72 Bebra\nin Höhe Kreisverkehr\nRichtungsfahrbahn gesperrt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "K72"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "K72 Bebra in Höhe Kreisverkehr",
-        "streets": [
-          "K72"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Sperrung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-02T04:40:15.434Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
