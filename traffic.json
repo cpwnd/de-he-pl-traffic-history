@@ -2486,57 +2486,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/469922_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 469922
-      },
-      "description": [
-        {
-          "value": "A67 Darmstadt Richtung Mannheim\nzwischen Pfungstadt und Gernsheim\nalle Fahrbahnen geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A67"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A67 Darmstadt Richtung Mannheim zwischen Pfungstadt und Gernsheim",
-        "streets": [
-          "A67"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-02T19:01:30.199Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/461537_LMS-HE/54"
       },
       "dataProducer": {
@@ -2660,6 +2609,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/469928_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 469928
+      },
+      "description": [
+        {
+          "value": "A67 Darmstadt Richtung Mönchhof-Dreieck\nzwischen Dreieck Darmstadt-Griesheim und Büttelborn\nbrennender PKW auf dem Standstreifen, Gefahr durch Personen auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A67"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A67 Darmstadt Richtung Mönchhof-Dreieck zwischen Dreieck Darmstadt-Griesheim und Büttelborn",
+        "streets": [
+          "A67"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-02T19:13:57.676Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -6480,6 +6483,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/469929_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 469929
+      },
+      "description": [
+        {
+          "value": "L3011 Lorsbacher Straße, Waldems - Hattersheim\nzwischen Eppstein und Abzweig nach Lorsbach\nFeuerwehreinsatz, beide Fahrtrichtungen gesperrt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3011"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Main-Taunus-Kreis, Lorsbacher Straße zwischen Eppstein und Abzweig nach Lorsbach",
+        "streets": [
+          "L3011"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Information"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Information",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-02T19:18:23.788Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
