@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -598,7 +598,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbaden/Niedernhausen und Idstein\nBaustelle, linker Fahrstreifen gesperrt"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbaden/Niedernhausen und Idstein\nBaustelle beseitigt"
         }
       ],
       "location": {
@@ -633,7 +633,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-02T21:37:51.964Z"
+        "value": "2022-02-02T23:03:21.102Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2493,6 +2493,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/469963_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 469963
+      },
+      "description": [
+        {
+          "value": "A67 Mannheim Richtung Darmstadt\nzwischen Lorsch und Gernsheim\nunbeleuchtetes Fahrzeug auf dem Standstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A67"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A67 Mannheim Richtung Darmstadt zwischen Lorsch und Gernsheim",
+        "streets": [
+          "A67"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-02T22:58:51.276Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
