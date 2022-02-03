@@ -916,17 +916,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/470199_LMS-HE/54"
+        "value": "LMS/r_LMS/470205_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 470199
+        "value": 470205
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Darmstadt\nzwischen Zeppelinheim und Langen/Mörfelden\nUnfallstelle geräumt"
+          "value": "A4 Bad Hersfeld Richtung Erfurt\nAusfahrt Wildeck-Hönebach\ndefekter LKW in der Überleitung"
         }
       ],
       "location": {
@@ -934,15 +934,15 @@
           {
             "edge": {
               "sortRoadNumber": {
-                "value": "A5"
+                "value": "A4"
               }
             }
           }
         ],
         "name": "Ort",
-        "description": "A5 Frankfurt Richtung Darmstadt zwischen Zeppelinheim und Langen/Mörfelden",
+        "description": "A4 Bad Hersfeld Richtung Erfurt Ausfahrt Wildeck-Hönebach",
         "streets": [
-          "A5"
+          "A4"
         ]
       },
       "duration": null,
@@ -952,17 +952,17 @@
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Hindernis"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-03T17:36:26.285Z"
+        "value": "2022-02-03T17:54:05.723Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Geändert"
+        "value": "Neu"
       }
     },
     {
@@ -2590,6 +2590,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/470203_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 470203
+      },
+      "description": [
+        {
+          "value": "A67 Darmstadt Richtung Mannheim\nzwischen Gernsheim und Lorsch\nunbeleuchtetes Fahrzeug auf dem Standstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A67"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A67 Darmstadt Richtung Mannheim zwischen Gernsheim und Lorsch",
+        "streets": [
+          "A67"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-03T17:43:28.177Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
