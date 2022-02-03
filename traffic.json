@@ -458,57 +458,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/470179_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 470179
-      },
-      "description": [
-        {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbaden/Niedernhausen und Wiesbadener Kreuz\nGefahr durch defektes Fahrzeug auf dem mittleren Fahrstreifen"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Köln Richtung Frankfurt zwischen Wiesbaden/Niedernhausen und Wiesbadener Kreuz",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-03T16:15:02.541Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/461440_LMS-HE/54"
       },
       "dataProducer": {
@@ -1481,7 +1430,7 @@
       },
       "description": [
         {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Kirchheim und Hattenbacher Dreieck\nGefahr durch defektes Fahrzeug auf dem rechten Fahrstreifen"
+          "value": "A7 Kassel Richtung Fulda\nzwischen Kirchheim und Hattenbacher Dreieck\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -1503,7 +1452,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1513,7 +1462,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-03T16:11:29.753Z"
+        "value": "2022-02-03T16:54:31.862Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4092,7 +4041,7 @@
       },
       "description": [
         {
-          "value": "B45 Dieburg Richtung Hanau\nzwischen Dieburg-Nord und Münster\nbrennendes Fahrzeug auf dem Standstreifen, langsam fahren"
+          "value": "B45 Dieburg Richtung Hanau\nzwischen Dieburg-Nord und Münster\nbrennendes Fahrzeug auf dem Standstreifen, langsam fahren\n( der Verkehr fährt langsam über den linken Fahrstreifen )"
         }
       ],
       "location": {
@@ -4127,11 +4076,11 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-03T16:21:01.801Z"
+        "value": "2022-02-03T16:47:52.783Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4200,6 +4149,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/470192_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 470192
+      },
+      "description": [
+        {
+          "value": "B49 Gießen Richtung Limburg\nzwischen Löhnberg und Merenberg-Ost\nGefahr durch defekten LKW"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B49"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B49 Gießen Richtung Limburg zwischen Löhnberg und Merenberg-Ost",
+        "streets": [
+          "B49"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-03T16:45:09.024Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -4326,6 +4326,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-25T16:00:00.732Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/470188_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 470188
+      },
+      "description": [
+        {
+          "value": "B54 Im Aartal, Aarbergen - Bad Schwalbach\nzwischen Kettenbach und Abzweig nach Michelbach\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B54"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B54 Im Aartal, Aarbergen Richtung Bad Schwalbach zwischen Kettenbach und Abzweig nach Michelbach",
+        "streets": [
+          "B54"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-03T16:43:08.482Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
