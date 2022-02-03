@@ -916,6 +916,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/470095_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 470095
+      },
+      "description": [
+        {
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Ober-Mörlen und Friedberg\nGefahr durch Fahrzeugteile auf der Fahrbahn, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Kassel Richtung Frankfurt zwischen Ober-Mörlen und Friedberg",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-03T11:00:03.478Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/469521_LMS-HE/54"
       },
       "dataProducer": {
@@ -2145,7 +2199,7 @@
       },
       "description": [
         {
-          "value": "A49 Kassel Richtung Gießen\nzwischen Borken (Hessen) und Neuental\nalle Fahrbahnen geräumt"
+          "value": "A49 Kassel Richtung Gießen\nzwischen Borken (Hessen) und Neuental\nalle Fahrbahnen geräumt, Bergungsarbeiten, Fahrbahn auf einen Fahrstreifen verengt"
         }
       ],
       "location": {
@@ -2171,22 +2225,19 @@
       },
       "eventCategory": [
         {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
           "value": "Störung"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Stau"
-        },
-        {
-          "value": "Hinweis"
         }
       ],
-      "masterEventCategory": "Störung",
+      "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-03T10:44:26.183Z"
+        "value": "2022-02-03T10:46:28.251Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2205,7 +2256,7 @@
       },
       "description": [
         {
-          "value": "A49 Südtangente, Kassel Richtung Gießen\nzwischen Kassel-Industriepark und Kassel-Waldau\nUnfallaufnahme, Gefahr, Gefahr durch Personen auf der Fahrbahn, Fahrbahn auf einen Fahrstreifen verengt, Stau"
+          "value": "A49 Südtangente, Kassel Richtung Gießen\nzwischen Kassel-Industriepark und Kassel-Waldau\nUnfallaufnahme, Ausfahrt gesperrt, bitte vorsichtig fahren"
         }
       ],
       "location": {
@@ -2227,27 +2278,27 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
           "value": "Störung"
         },
         {
-          "value": "Hindernis"
+          "value": "Sperrung"
         },
         {
-          "value": "Stau"
+          "value": "Hinweis"
         }
       ],
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-03T07:47:33.208Z"
+        "value": "2022-02-03T11:08:33.964Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2494,60 +2545,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/470087_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 470087
-      },
-      "description": [
-        {
-          "value": "A67 Darmstadt Richtung Mannheim\nzwischen Lorsch und Rastplatz Wildbahn\nGefahr durch Gegenstände auf der Fahrbahn (mehrere Plastikteile), bitte vorsichtig fahren"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A67"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A67 Darmstadt Richtung Mannheim zwischen Lorsch und Rastplatz Wildbahn",
-        "streets": [
-          "A67"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-03T10:21:35.983Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
