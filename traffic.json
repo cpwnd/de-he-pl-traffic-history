@@ -916,17 +916,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/470068_LMS-HE/54"
+        "value": "LMS/r_LMS/470071_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 470068
+        "value": 470071
       },
       "description": [
         {
-          "value": "A5 Darmstadt Richtung Heidelberg\nzwischen Seeheim-Jugenheim und Zwingenberg\nUnfallstelle geräumt"
+          "value": "A5 Darmstadt Richtung Heidelberg\nzwischen Heppenheim und Hemsbach\nGefahr durch Reifenteile auf der Fahrbahn, fahren Sie bitte besonders vorsichtig"
         }
       ],
       "location": {
@@ -940,7 +940,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A5 Darmstadt Richtung Heidelberg zwischen Seeheim-Jugenheim und Zwingenberg",
+        "description": "A5 Darmstadt Richtung Heidelberg zwischen Heppenheim und Hemsbach",
         "streets": [
           "A5"
         ]
@@ -948,12 +948,9 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Normal"
+        "value": "Dringend"
       },
       "eventCategory": [
-        {
-          "value": "Unfall"
-        },
         {
           "value": "Hindernis"
         },
@@ -961,14 +958,14 @@
           "value": "Hinweis"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-03T09:10:59.333Z"
+        "value": "2022-02-03T09:17:07.423Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Geändert"
+        "value": "Neu"
       }
     },
     {
@@ -1923,60 +1920,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/470050_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 470050
-      },
-      "description": [
-        {
-          "value": "A44 Dortmund Richtung Kassel\nzwischen Breuna und Zierenberg\nalle Fahrbahnen geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A44"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A44 Dortmund Richtung Kassel zwischen Breuna und Zierenberg",
-        "streets": [
-          "A44"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-03T09:11:28.242Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
