@@ -2424,6 +2424,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/470503_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 470503
+      },
+      "description": [
+        {
+          "value": "A66 Frankfurt Richtung Fulda\nzwischen Frankfurt am Main-Bergen-Enkheim und Maintal-Dörnigheim\nGefahr durch Gegenstände auf der Fahrbahn (ein Holzbalken)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Frankfurt Richtung Fulda zwischen Frankfurt am Main-Bergen-Enkheim und Maintal-Dörnigheim",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-04T18:21:37.331Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/461537_LMS-HE/54"
       },
       "dataProducer": {
@@ -2809,57 +2860,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/470498_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 470498
-      },
-      "description": [
-        {
-          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Frankfurt-Friedberger Landstraße und Frankfurt am Main-Ost\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A661"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A661 Bad Homburg Richtung Darmstadt zwischen Frankfurt-Friedberger Landstraße und Frankfurt am Main-Ost",
-        "streets": [
-          "A661"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-04T18:06:48.257Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/430911_LMS-HE/54"
       },
       "dataProducer": {
@@ -3059,7 +3059,7 @@
       },
       "description": [
         {
-          "value": "B3 Frankfurt Richtung Friedberg\nzwischen Bad Vilbel-Süd und Bad Vilbel/Homburger Straße (L3008)\nBrand, Rettungsfahrzeuge im Einsatz, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren\n(Fahrzeugbrand)"
+          "value": "B3 Frankfurt Richtung Friedberg\nzwischen Bad Vilbel-Süd und Bad Vilbel/Homburger Straße (L3008)\nBrand, Rettungsfahrzeuge im Einsatz, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, Richtungsfahrbahn gesperrt\n(Fahrzeugbrand)"
         }
       ],
       "location": {
@@ -3092,12 +3092,15 @@
         },
         {
           "value": "Hinweis"
+        },
+        {
+          "value": "Sperrung"
         }
       ],
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-04T18:13:09.963Z"
+        "value": "2022-02-04T18:18:05.578Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
