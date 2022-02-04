@@ -1485,6 +1485,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/470486_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 470486
+      },
+      "description": [
+        {
+          "value": "A7 Kassel Richtung Fulda\nzwischen Homberg (Efze) und Bad Hersfeld-West\nGefahr durch Gegenstände auf dem mittleren Fahrstreifen (ein Unterlegkeil)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Kassel Richtung Fulda zwischen Homberg (Efze) und Bad Hersfeld-West",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-04T17:08:53.615Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/468285_LMS-HE/54"
       },
       "dataProducer": {
@@ -8461,7 +8512,7 @@
       },
       "description": [
         {
-          "value": "Frankfurt, Pfingstweidstraße\nzwischen Alfred-Brehm-Platz und Friedberger Anlage\nBaustelle beseitigt"
+          "value": "Frankfurt, Pfingstweidstraße\nzwischen Alfred-Brehm-Platz und Friedberger Anlage"
         }
       ],
       "location": {
@@ -8481,22 +8532,15 @@
         "name": "Dringlichkeit",
         "value": "Normal"
       },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
+      "eventCategory": null,
+      "masterEventCategory": null,
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-04T15:56:58.046Z"
+        "value": "2022-02-04T16:59:32.35Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
