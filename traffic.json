@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -2421,6 +2421,108 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/470462_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 470462
+      },
+      "description": [
+        {
+          "value": "A66 Rhein-Main-Schnellweg, Wiesbaden Richtung Frankfurt\nWiesbadener Kreuz Überleitung zur A3 Richtung Frankfurt\nGefahr durch Personen auf der Fahrbahn, 1 defektes Fahrzeug auf dem Verzögerungsstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Rhein-Main-Schnellweg, Wiesbaden Richtung Frankfurt Wiesbadener Kreuz Überleitung zur A3 Richtung Frankfurt",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-04T15:39:22.139Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/470461_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 470461
+      },
+      "description": [
+        {
+          "value": "A66 Wiesbaden Richtung Frankfurt\nEinfahrt Frankfurt am Main-Höchst\ndefektes Fahrzeug auf dem Beschleunigungsstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Wiesbaden Richtung Frankfurt Einfahrt Frankfurt am Main-Höchst",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-04T15:32:24.245Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/461537_LMS-HE/54"
       },
       "dataProducer": {
@@ -3727,7 +3829,7 @@
       },
       "description": [
         {
-          "value": "B44 Groß-Gerau - Mannheim\nzwischen Biebesheim am Rhein und Marie-Curie-Straße\nbeide Fahrtrichtungen bis auf weiteres gesperrt, Bergungsarbeiten, vorausgegangener Unfall, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+          "value": "B44 Groß-Gerau - Mannheim\nzwischen Biebesheim am Rhein und Marie-Curie-Straße\nin beiden Richtungen Unfallstelle geräumt"
         }
       ],
       "location": {
@@ -3768,7 +3870,7 @@
       "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-04T12:43:31.676Z"
+        "value": "2022-02-04T15:29:18.441Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
