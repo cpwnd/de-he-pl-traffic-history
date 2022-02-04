@@ -786,57 +786,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/470493_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 470493
-      },
-      "description": [
-        {
-          "value": "A4 Erfurt Richtung Bad Hersfeld\nzwischen Friedewald und Bad Hersfeld\nStraße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A4"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A4 Erfurt Richtung Bad Hersfeld zwischen Friedewald und Bad Hersfeld",
-        "streets": [
-          "A4"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-04T18:12:16.419Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/438867_LMS-HE/54"
       },
       "dataProducer": {
@@ -1929,6 +1878,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/470508_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 470508
+      },
+      "description": [
+        {
+          "value": "A45 Aschaffenburg Richtung Gießen\nzwischen Wölfersheim und Münzenberg\nGefahr durch ein totes Tier (Reh) auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A45 Aschaffenburg Richtung Gießen zwischen Wölfersheim und Münzenberg",
+        "streets": [
+          "A45"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-04T18:37:59.615Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/443952_LMS-HE/54"
       },
       "dataProducer": {
@@ -2261,7 +2261,7 @@
       },
       "description": [
         {
-          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Wiesbaden-Biebrich und Schiersteiner Kreuz\nGefahr durch ungesicherte Unfallstelle, Polizei und Rettungswagen sind unterwegs"
+          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Wiesbaden-Biebrich und Schiersteiner Kreuz\nGefahr durch ungesicherte Unfallstelle, Richtungsfahrbahn gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
         }
       ],
       "location": {
@@ -2290,13 +2290,16 @@
           "value": "Unfall"
         },
         {
-          "value": "Information"
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-04T18:05:54.27Z"
+        "value": "2022-02-04T18:25:15.654Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2434,7 +2437,7 @@
       },
       "description": [
         {
-          "value": "A66 Frankfurt Richtung Fulda\nzwischen Frankfurt am Main-Bergen-Enkheim und Maintal-Dörnigheim\nGefahr durch Gegenstände auf der Fahrbahn (ein Holzbalken)"
+          "value": "A66 Frankfurt Richtung Fulda\nzwischen Frankfurt am Main-Bergen-Enkheim und Maintal-Dörnigheim\nGefahr durch Gegenstände auf der Fahrbahn (mehrere Holzbalken)"
         }
       ],
       "location": {
@@ -2466,7 +2469,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-04T18:21:37.331Z"
+        "value": "2022-02-04T18:38:59.987Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3100,7 +3103,7 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-04T18:18:05.578Z"
+        "value": "2022-02-04T18:30:48.037Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
