@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -634,57 +634,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-02-04T10:02:13.588Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/470356_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 470356
-      },
-      "description": [
-        {
-          "value": "A3 Frankfurt Richtung Köln\nAusfahrt Diez\nalle Fahrbahnen geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Frankfurt Richtung Köln Ausfahrt Diez",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-04T10:33:17.505Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1601,6 +1550,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/470364_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 470364
+      },
+      "description": [
+        {
+          "value": "A7 Kassel Richtung Fulda\nzwischen Malsfeld und Homberg (Efze)\nGefahr durch Reifenteile auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Kassel Richtung Fulda zwischen Malsfeld und Homberg (Efze)",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-04T10:53:16.212Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/468285_LMS-HE/54"
       },
       "dataProducer": {
@@ -1857,108 +1857,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/470354_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 470354
-      },
-      "description": [
-        {
-          "value": "A7 Kassel Richtung Hannover\nzwischen Kassel-Ost und Kassel-Nord\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A7"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A7 Kassel Richtung Hannover zwischen Kassel-Ost und Kassel-Nord",
-        "streets": [
-          "A7"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-04T10:34:18.251Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/470355_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 470355
-      },
-      "description": [
-        {
-          "value": "A7 Kassel Richtung Hannover\nzwischen Kassel-Nord und Hann. Münden/Lutterberg\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A7"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A7 Kassel Richtung Hannover zwischen Kassel-Nord und Hann. Münden/Lutterberg",
-        "streets": [
-          "A7"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-04T10:33:04.693Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -3027,57 +2925,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-12-20T14:44:37.366Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/470357_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 470357
-      },
-      "description": [
-        {
-          "value": "A671 Wiesbaden Richtung Mainz\nzwischen Wiesbaden-Amöneburg und Mainz-Kastel\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A671"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A671 Wiesbaden Richtung Mainz zwischen Wiesbaden-Amöneburg und Mainz-Kastel",
-        "streets": [
-          "A671"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-04T10:33:24.161Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
