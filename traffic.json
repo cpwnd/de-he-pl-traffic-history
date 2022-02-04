@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -7069,6 +7069,66 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-12-17T17:58:17.589Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/470518_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 470518
+      },
+      "description": [
+        {
+          "value": "L3094 Darmstadt - Dieburg\nzwischen Dieburger Straße in Darmstadt und Darmstädter Straße\numgestürzte Bäume, Aufräumarbeiten, beide Fahrtrichtungen bis auf weiteres gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3094"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Darmstadt und Kreis Darmstadt-Dieburg, L3094 zwischen Dieburger Straße in Darmstadt und Darmstädter Straße",
+        "streets": [
+          "L3094"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-04T20:16:34.906Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
