@@ -2261,7 +2261,7 @@
       },
       "description": [
         {
-          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Wiesbaden-Biebrich und Schiersteiner Kreuz\nGefahr durch ungesicherte Unfallstelle, Richtungsfahrbahn gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Wiesbaden-Biebrich und Schiersteiner Kreuz\nvorausgegangener Unfall, Bergungsarbeiten, Richtungsfahrbahn bis auf weiteres gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
         }
       ],
       "location": {
@@ -2283,11 +2283,14 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
           "value": "Unfall"
+        },
+        {
+          "value": "Arbeitsstelle"
         },
         {
           "value": "Sperrung"
@@ -2299,7 +2302,7 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-04T18:25:15.654Z"
+        "value": "2022-02-04T18:55:32.17Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2437,7 +2440,7 @@
       },
       "description": [
         {
-          "value": "A66 Frankfurt Richtung Fulda\nzwischen Frankfurt am Main-Bergen-Enkheim und Maintal-Dörnigheim\nGefahr durch Gegenstände auf der Fahrbahn (mehrere Holzbalken)"
+          "value": "A66 Frankfurt Richtung Fulda\nzwischen Frankfurt am Main-Bergen-Enkheim und Maintal-Dörnigheim\nStraße wieder frei"
         }
       ],
       "location": {
@@ -2459,7 +2462,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2469,7 +2472,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-04T18:38:59.987Z"
+        "value": "2022-02-04T19:01:18.165Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3062,7 +3065,7 @@
       },
       "description": [
         {
-          "value": "B3 Frankfurt Richtung Friedberg\nzwischen Bad Vilbel-Süd und Bad Vilbel/Homburger Straße (L3008)\nBrand, Rettungsfahrzeuge im Einsatz, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, Richtungsfahrbahn gesperrt\n(Fahrzeugbrand)"
+          "value": "B3 Frankfurt Richtung Friedberg\nzwischen Bad Vilbel-Süd und Bad Vilbel/Homburger Straße (L3008)\nBergungsarbeiten, Richtungsfahrbahn bis auf weiteres gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren\n(vorausgegangener Lkw-Brand)"
         }
       ],
       "location": {
@@ -3088,22 +3091,19 @@
       },
       "eventCategory": [
         {
-          "value": "Störung"
-        },
-        {
-          "value": "Information"
-        },
-        {
-          "value": "Hinweis"
+          "value": "Arbeitsstelle"
         },
         {
           "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
         }
       ],
-      "masterEventCategory": "Störung",
+      "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-04T18:30:48.037Z"
+        "value": "2022-02-04T18:52:22.298Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -8611,49 +8611,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-17T10:13:14.94Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_D__HE_FFM-IGLZ/210813858735_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 470469
-      },
-      "description": [
-        {
-          "value": "Frankfurt, Pfingstweidstraße\nzwischen Alfred-Brehm-Platz und Friedberger Anlage"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": null
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Frankfurt, Pfingstweidstraße zwischen Alfred-Brehm-Platz und Friedberger Anlage",
-        "streets": null
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": null,
-      "masterEventCategory": null,
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-04T16:59:32.35Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
