@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -1053,7 +1053,7 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Frankfurt am Main-Westhafen und Westkreuz Frankfurt\nUnfall auf dem Standstreifen, Gegenstände auf der Fahrbahn (ein Auspuff)"
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Frankfurt am Main-Westhafen und Westkreuz Frankfurt\nUnfallaufnahme, rechter Fahrstreifen gesperrt, Standstreifen gesperrt, bitte vorsichtig fahren"
         }
       ],
       "location": {
@@ -1079,16 +1079,19 @@
       },
       "eventCategory": [
         {
-          "value": "Hindernis"
+          "value": "Störung"
         },
         {
-          "value": "Unfall"
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
         }
       ],
-      "masterEventCategory": "Hindernis",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-04T19:31:35.371Z"
+        "value": "2022-02-04T19:51:59.678Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2828,7 +2831,7 @@
       },
       "description": [
         {
-          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Offenbach-Kaiserlei und Frankfurt am Main-Ost\nUnfall"
+          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Offenbach-Kaiserlei und Frankfurt am Main-Ost\nUnfallaufnahme auf dem Standstreifen, bitte vorsichtig fahren"
         }
       ],
       "location": {
@@ -2854,13 +2857,16 @@
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Störung"
+        },
+        {
+          "value": "Hinweis"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-04T19:27:24.115Z"
+        "value": "2022-02-04T19:54:21.118Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3847,7 +3853,7 @@
       },
       "description": [
         {
-          "value": "B44 Frankfurter Landstraße, Frankfurt am Main - Groß-Gerau\nzwischen Walldorf und Mörfelden\nUnfall mit mehreren Fahrzeugen, beide Fahrtrichtungen gesperrt, brennender PKW"
+          "value": "B44 Frankfurter Landstraße, Frankfurt am Main - Groß-Gerau\nzwischen Walldorf und Mörfelden\nvorausgegangener Unfall, Bergungsarbeiten, beide Fahrtrichtungen bis auf weiteres gesperrt"
         }
       ],
       "location": {
@@ -3876,16 +3882,16 @@
           "value": "Unfall"
         },
         {
-          "value": "Sperrung"
+          "value": "Arbeitsstelle"
         },
         {
-          "value": "Störung"
+          "value": "Sperrung"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-04T19:18:32.27Z"
+        "value": "2022-02-04T19:56:02.048Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4463,60 +4469,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-10T22:59:00.417Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/470514_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 470514
-      },
-      "description": [
-        {
-          "value": "B453 Gladenbach - Dautphetal\nzwischen Gladenbach und Runzhausen\nGegenstände auf der Fahrbahn, beide Fahrtrichtungen gesperrt\n(umgestürzter Baum)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B453"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B453 Gladenbach Richtung Dautphetal zwischen Gladenbach und Runzhausen",
-        "streets": [
-          "B453"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-04T19:44:36.219Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
