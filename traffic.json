@@ -598,7 +598,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbadener Kreuz und Wiesbaden/Niedernhausen\nGefahr durch 1 Gegenstand auf der Fahrbahn (Spanngurt)"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbadener Kreuz und Wiesbaden/Niedernhausen\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -620,7 +620,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -630,11 +630,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-04T06:09:40.932Z"
+        "value": "2022-02-04T06:18:34.811Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2620,7 +2620,7 @@
       },
       "description": [
         {
-          "value": "A67 Darmstadt Richtung Mönchhof-Dreieck\nzwischen Groß-Gerau und Rüsselsheimer Dreieck\nBergungsarbeiten auf dem Standstreifen, vorausgegangener Unfall"
+          "value": "A67 Darmstadt Richtung Mönchhof-Dreieck\nzwischen Groß-Gerau und Rüsselsheimer Dreieck\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -2655,7 +2655,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-04T05:51:45.671Z"
+        "value": "2022-02-04T06:22:46.909Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4266,6 +4266,58 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-25T16:00:00.732Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/470277_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 470277
+      },
+      "description": [
+        {
+          "value": "B49, B54 Gießen Richtung Limburg\nzwischen Runkel und Limburg-Offheim\nGefahr durch ungesicherte Unfallstelle"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B49, B54"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B49, B54 Gießen Richtung Limburg zwischen Runkel und Limburg-Offheim",
+        "streets": [
+          "B49",
+          "B54"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-04T06:18:26.795Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
