@@ -1210,17 +1210,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/470387_LMS-HE/54"
+        "value": "LMS/r_LMS/470390_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 470387
+        "value": 470390
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Kassel\nBad Homburger Kreuz Überleitung zur A661 Richtung Bad Homburg\nGefahr besteht nicht mehr"
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Nordwestkreuz Frankfurt und Bad Homburger Kreuz\nUnfall, 1 km Stau"
         }
       ],
       "location": {
@@ -1234,7 +1234,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A5 Frankfurt Richtung Kassel Bad Homburger Kreuz Überleitung zur A661 Richtung Bad Homburg",
+        "description": "A5 Frankfurt Richtung Kassel zwischen Nordwestkreuz Frankfurt und Bad Homburger Kreuz",
         "streets": [
           "A5"
         ]
@@ -1246,17 +1246,20 @@
       },
       "eventCategory": [
         {
-          "value": "Hindernis"
+          "value": "Unfall"
+        },
+        {
+          "value": "Stau"
         }
       ],
-      "masterEventCategory": "Hindernis",
+      "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-04T12:29:06.639Z"
+        "value": "2022-02-04T12:39:56.435Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Geändert"
+        "value": "Neu"
       }
     },
     {
@@ -2283,57 +2286,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-11-12T05:07:04.209Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/470386_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 470386
-      },
-      "description": [
-        {
-          "value": "A49 Südtangente, Kassel Richtung Gießen\nzwischen Kassel-Auestadion und Kassel-Niederzwehren\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A49"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A49 Südtangente, Kassel Richtung Gießen zwischen Kassel-Auestadion und Kassel-Niederzwehren",
-        "streets": [
-          "A49"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-04T12:28:59.744Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3894,7 +3846,7 @@
       },
       "description": [
         {
-          "value": "B44 Groß-Gerau - Mannheim\nzwischen Biebesheim am Rhein und Marie-Curie-Straße\nbeide Fahrtrichtungen bis auf weiteres gesperrt, 1 schwerer Unfall, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+          "value": "B44 Groß-Gerau - Mannheim\nzwischen Biebesheim am Rhein und Marie-Curie-Straße\nbeide Fahrtrichtungen bis auf weiteres gesperrt, Bergungsarbeiten, vorausgegangener Unfall, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
         }
       ],
       "location": {
@@ -3923,16 +3875,19 @@
           "value": "Sperrung"
         },
         {
-          "value": "Unfall"
+          "value": "Arbeitsstelle"
         },
         {
           "value": "Hinweis"
+        },
+        {
+          "value": "Unfall"
         }
       ],
       "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-04T11:20:25.631Z"
+        "value": "2022-02-04T12:43:31.676Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
