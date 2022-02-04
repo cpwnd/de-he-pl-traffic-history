@@ -973,6 +973,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/470331_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 470331
+      },
+      "description": [
+        {
+          "value": "A4 Bad Hersfeld Richtung Erfurt\nzwischen Bad Hersfeld und Friedewald\nGefahr durch defektes Fahrzeug auf dem rechten Fahrstreifen im Baustellenbereich"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A4"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A4 Bad Hersfeld Richtung Erfurt zwischen Bad Hersfeld und Friedewald",
+        "streets": [
+          "A4"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-04T08:40:54.001Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/469521_LMS-HE/54"
       },
       "dataProducer": {
@@ -1354,57 +1405,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/470306_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 470306
-      },
-      "description": [
-        {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Hünfeld/Schlitz und Fulda-Nord\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A7"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A7 Kassel Richtung Fulda zwischen Hünfeld/Schlitz und Fulda-Nord",
-        "streets": [
-          "A7"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-04T08:15:31.356Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -2612,63 +2612,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/470300_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 470300
-      },
-      "description": [
-        {
-          "value": "A67 Darmstadt Richtung Mönchhof-Dreieck\nzwischen Dreieck Darmstadt-Griesheim und Büttelborn\nUnfallstelle geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A67"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A67 Darmstadt Richtung Mönchhof-Dreieck zwischen Dreieck Darmstadt-Griesheim und Büttelborn",
-        "streets": [
-          "A67"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Unfall"
-        }
-      ],
-      "masterEventCategory": "Sperrung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-04T08:21:07.765Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -4361,7 +4304,7 @@
       },
       "description": [
         {
-          "value": "B260 Wiesbaden - Lahnstein\nzwischen Abzweig nach Bärstadt und Schlangenbad\nin beiden Richtungen Gefahr durch Gegenstände auf der Fahrbahn (ein Stein)"
+          "value": "B260 Wiesbaden - Lahnstein\nzwischen Abzweig nach Bärstadt und Schlangenbad\nin beiden Richtungen Gefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -4383,7 +4326,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -4393,11 +4336,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-04T08:23:44.717Z"
+        "value": "2022-02-04T08:30:19.031Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
