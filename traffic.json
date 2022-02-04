@@ -2949,7 +2949,7 @@
       },
       "description": [
         {
-          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Bad Homburg und Rastplatz\nbrennender PKW, Richtungsfahrbahn gesperrt"
+          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Bad Homburg und Oberursel\nbrennender PKW, Rettungsfahrzeuge im Einsatz, Richtungsfahrbahn gesperrt"
         }
       ],
       "location": {
@@ -2963,7 +2963,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A661 Darmstadt Richtung Bad Homburg zwischen Bad Homburg und Rastplatz",
+        "description": "A661 Darmstadt Richtung Bad Homburg zwischen Bad Homburg und Oberursel",
         "streets": [
           "A661"
         ]
@@ -2979,16 +2979,19 @@
         },
         {
           "value": "Sperrung"
+        },
+        {
+          "value": "Information"
         }
       ],
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-04T22:40:38.623Z"
+        "value": "2022-02-04T23:03:54.053Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -9333,64 +9336,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_D__HE_FFM-IGLZ/210818047064_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 467150
-      },
-      "description": [
-        {
-          "value": "Frankfurt, Allerheiligenstraße bis Battonnstraße\nzwischen Allerheiligentor und Kurt-Schumacher-Straße\nBaustelle, rechter Fahrstreifen gesperrt, bis 04.02.2022 23:59 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": null
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Frankfurt, Allerheiligenstraße bis Battonnstraße zwischen Allerheiligentor und Kurt-Schumacher-Straße",
-        "streets": null
-      },
-      "duration": {
-        "startTime": null,
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-02-04T22:59:00Z"
-        },
-        "name": "Dauer",
-        "description": "bis 04.02.2022 23:59 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-25T12:23:16.203Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     }
   ]
