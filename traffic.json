@@ -598,7 +598,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Bad Camberg und Limburg-Süd\nBergungsarbeiten auf dem Standstreifen"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Bad Camberg und Limburg-Süd\nBergungsarbeiten auf dem Standstreifen, rechter Fahrstreifen gesperrt, defekter LKW"
         }
       ],
       "location": {
@@ -625,12 +625,18 @@
       "eventCategory": [
         {
           "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hindernis"
         }
       ],
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-04T08:01:50.522Z"
+        "value": "2022-02-04T08:15:00.107Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1362,7 +1368,7 @@
       },
       "description": [
         {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Hünfeld/Schlitz und Fulda-Nord\nGefahr durch Reifenteile auf der Fahrbahn"
+          "value": "A7 Kassel Richtung Fulda\nzwischen Hünfeld/Schlitz und Fulda-Nord\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -1384,7 +1390,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1394,11 +1400,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-04T07:57:18.993Z"
+        "value": "2022-02-04T08:15:31.356Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2620,7 +2626,7 @@
       },
       "description": [
         {
-          "value": "A67 Darmstadt Richtung Mönchhof-Dreieck\nzwischen Dreieck Darmstadt-Griesheim und Büttelborn\nlinker Fahrstreifen gesperrt, Bergungsarbeiten, vorausgegangener Unfall"
+          "value": "A67 Darmstadt Richtung Mönchhof-Dreieck\nzwischen Dreieck Darmstadt-Griesheim und Büttelborn\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -2658,7 +2664,7 @@
       "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-04T08:02:29.993Z"
+        "value": "2022-02-04T08:21:07.765Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4341,6 +4347,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/470323_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 470323
+      },
+      "description": [
+        {
+          "value": "B260 Wiesbaden - Lahnstein\nzwischen Abzweig nach Bärstadt und Schlangenbad\nin beiden Richtungen Gefahr durch Gegenstände auf der Fahrbahn (ein Stein)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B260"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B260 Wiesbaden Richtung Lahnstein zwischen Abzweig nach Bärstadt und Schlangenbad",
+        "streets": [
+          "B260"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-04T08:23:44.717Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
