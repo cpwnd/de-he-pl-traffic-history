@@ -468,7 +468,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Idstein und Wiesbaden/Niedernhausen\nGefahr durch ungesicherte Unfallstelle, Unfall mit Verletzten, Polizei ist benachrichtigt, bitte vorsichtig fahren"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Idstein und Wiesbaden/Niedernhausen\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -490,7 +490,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -506,7 +506,7 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-05T07:41:47.935Z"
+        "value": "2022-02-05T09:21:19.315Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1805,6 +1805,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/470667_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 470667
+      },
+      "description": [
+        {
+          "value": "A45 Hagen Richtung Gießen\nzwischen Herborn-Süd und Ehringshausen\nGefahr durch Gegenstände auf dem rechten Fahrstreifen (Fahrzeugteile)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A45 Hagen Richtung Gießen zwischen Herborn-Süd und Ehringshausen",
+        "streets": [
+          "A45"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-05T09:24:16.993Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/443951_LMS-HE/54"
       },
       "dataProducer": {
@@ -2332,7 +2383,7 @@
       },
       "description": [
         {
-          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Wallau und Wiesbaden-Nordenstadt\nGegenstände auf dem rechten Fahrstreifen"
+          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Wallau und Wiesbaden-Nordenstadt\nStraße geräumt"
         }
       ],
       "location": {
@@ -2364,11 +2415,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-05T09:09:58.418Z"
+        "value": "2022-02-05T09:18:03.293Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
