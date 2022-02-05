@@ -796,7 +796,7 @@
       },
       "description": [
         {
-          "value": "A4 Erfurt Richtung Bad Hersfeld\nzwischen Bad Hersfeld und Kirchheimer Dreieck\nGefahr durch ungesicherte Unfallstelle auf allen Fahrstreifen, Stau"
+          "value": "A4 Erfurt Richtung Bad Hersfeld\nzwischen Bad Hersfeld und Kirchheimer Dreieck\nStau, Unfall, Richtungsfahrbahn gesperrt"
         }
       ],
       "location": {
@@ -818,24 +818,27 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
+        {
+          "value": "Stau"
+        },
         {
           "value": "Unfall"
         },
         {
-          "value": "Stau"
+          "value": "Sperrung"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Stau",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-05T12:13:36.592Z"
+        "value": "2022-02-05T12:23:14.22Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -962,6 +965,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-15T20:00:04.312Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/470704_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 470704
+      },
+      "description": [
+        {
+          "value": "A5 Frankfurt Richtung Darmstadt\nzwischen Langen/Mörfelden und Weiterstadt\nGefahr durch Gegenstände auf dem mittleren Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Frankfurt Richtung Darmstadt zwischen Langen/Mörfelden und Weiterstadt",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-05T12:24:13.594Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1802,6 +1856,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/470706_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 470706
+      },
+      "description": [
+        {
+          "value": "A44 Kassel Richtung Dortmund\nzwischen Breuna und Warburg\nGefahr durch Gegenstände auf allen Fahrstreifen (Fahrzeugteile)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A44"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A44 Kassel Richtung Dortmund zwischen Breuna und Warburg",
+        "streets": [
+          "A44"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-05T12:31:05.39Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/398575_LMS-HE/54"
       },
       "dataProducer": {
@@ -2365,6 +2470,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-12T14:31:18.473Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/470707_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 470707
+      },
+      "description": [
+        {
+          "value": "A66 Frankfurt Richtung Wiesbaden\nEinfahrt Hattersheim\nUnfall in Anschlussstellen, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Frankfurt Richtung Wiesbaden Einfahrt Hattersheim",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-05T12:33:30.568Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
