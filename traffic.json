@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -983,7 +983,7 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Darmstadt\nzwischen Langen/Mörfelden und Weiterstadt\nGefahr durch Gegenstände auf dem mittleren Fahrstreifen"
+          "value": "A5 Frankfurt Richtung Darmstadt\nzwischen Langen/Mörfelden und Weiterstadt\nStraße wieder frei"
         }
       ],
       "location": {
@@ -1005,7 +1005,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1015,7 +1015,61 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-05T12:24:13.594Z"
+        "value": "2022-02-05T12:38:24.835Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/470711_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 470711
+      },
+      "description": [
+        {
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Rastplatz Spießwald und Bad Homburger Kreuz\nUnfall mit mehreren Fahrzeugen, Richtungsfahrbahn gesperrt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Kassel Richtung Frankfurt zwischen Rastplatz Spießwald und Bad Homburger Kreuz",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-05T12:39:59.917Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
