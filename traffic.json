@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -2083,7 +2083,7 @@
       },
       "description": [
         {
-          "value": "A45, A66 Aschaffenburg Richtung Gießen\nzwischen Hanauer Kreuz und Langenselbolder Dreieck\nGefahr durch ungesicherte Unfallstelle auf dem rechten Fahrstreifen, Personen auf der Fahrbahn, bitte vorsichtig fahren"
+          "value": "A45, A66 Aschaffenburg Richtung Gießen\nzwischen Hanauer Kreuz und Langenselbolder Dreieck\ndefektes Fahrzeug auf dem Standstreifen, Personen auf der Fahrbahn, bitte vorsichtig fahren"
         }
       ],
       "location": {
@@ -2106,12 +2106,9 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
-        {
-          "value": "Unfall"
-        },
         {
           "value": "Hindernis"
         },
@@ -2119,14 +2116,14 @@
           "value": "Hinweis"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-06T20:43:30.306Z"
+        "value": "2022-02-06T21:24:14.216Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2951,57 +2948,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/471116_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 471116
-      },
-      "description": [
-        {
-          "value": "B3 Babenhäuser Landstraße, Offenbach - Frankfurt\nzwischen Auffahrt Offenbacher Kreuz und Frankfurt\nin beiden Richtungen die Gefahr durch ein entgegenkommendes Fahrzeug besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B3 Babenhäuser Landstraße, Offenbach Richtung Frankfurt zwischen Auffahrt Offenbacher Kreuz und Frankfurt",
-        "streets": [
-          "B3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-06T21:20:39.077Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/448990_LMS-HE/54"
       },
       "dataProducer": {
@@ -3525,63 +3471,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/471108_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 471108
-      },
-      "description": [
-        {
-          "value": "B42 Wiesbaden Richtung Rüdesheim\nzwischen Geisenheim und Rüdesheim\nStraße geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B42"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B42 Wiesbaden Richtung Rüdesheim zwischen Geisenheim und Rüdesheim",
-        "streets": [
-          "B42"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-06T21:22:10.707Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
