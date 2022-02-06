@@ -598,7 +598,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbadener Kreuz und Wiesbaden/Niedernhausen\nbrennender PKW"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbadener Kreuz und Wiesbaden/Niedernhausen\nStraße wieder frei"
         }
       ],
       "location": {
@@ -630,11 +630,11 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-06T16:01:23.656Z"
+        "value": "2022-02-06T16:43:16.87Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -977,7 +977,7 @@
       },
       "description": [
         {
-          "value": "A5 Kassel Richtung Frankfurt\nzwischen Hattenbacher Dreieck und Alsfeld-Ost\nWasser auf der Fahrbahn, linker Fahrstreifen blockiert, bitte vorsichtig fahren"
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Hattenbacher Dreieck und Alsfeld-Ost\nStraße wieder frei"
         }
       ],
       "location": {
@@ -1015,7 +1015,7 @@
       "masterEventCategory": "Straßenzustand",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-06T15:57:51.033Z"
+        "value": "2022-02-06T16:42:38.835Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2308,6 +2308,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/471039_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 471039
+      },
+      "description": [
+        {
+          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Schiersteiner Kreuz und Wiesbaden-Frauenstein\nGefahr durch 1 Gegenstand auf allen Fahrstreifen (Müllsack)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Frankfurt Richtung Wiesbaden zwischen Schiersteiner Kreuz und Wiesbaden-Frauenstein",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-06T16:32:17.581Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/456754_LMS-HE/54"
       },
       "dataProducer": {
@@ -2373,17 +2424,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/471030_LMS-HE/54"
+        "value": "LMS/r_LMS/471036_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 471030
+        "value": 471036
       },
       "description": [
         {
-          "value": "A66 Rhein-Main-Schnellweg, Frankfurt Richtung Wiesbaden\nzwischen Hofheim am Taunus und Diedenbergen\nGefahr besteht nicht mehr"
+          "value": "A66 Frankfurt - Wiesbaden\nzwischen Eschborn und Frankfurt am Main-Höchst\nin beiden Richtungen Aquaplaninggefahr auf der gesamten Fahrbahn"
         }
       ],
       "location": {
@@ -2397,7 +2448,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A66 Rhein-Main-Schnellweg, Frankfurt Richtung Wiesbaden zwischen Hofheim am Taunus und Diedenbergen",
+        "description": "A66 Frankfurt Richtung Wiesbaden zwischen Eschborn und Frankfurt am Main-Höchst",
         "streets": [
           "A66"
         ]
@@ -2405,21 +2456,21 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Normal"
+        "value": "Dringend"
       },
       "eventCategory": [
         {
-          "value": "Hindernis"
+          "value": "Straßenzustand"
         }
       ],
-      "masterEventCategory": "Hindernis",
+      "masterEventCategory": "Straßenzustand",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-06T16:08:30.881Z"
+        "value": "2022-02-06T16:29:07.411Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Geändert"
+        "value": "Neu"
       }
     },
     {
@@ -6936,66 +6987,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/470949_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 470949
-      },
-      "description": [
-        {
-          "value": "L3068 Wasserkuppe, Obernhausen - Dietges\nzwischen B284 und Ende der Straße\nSchneeverwehungen, Gefahr durch mehrere liegengebliebene Fahrzeuge, beide Fahrtrichtungen gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren\n(ab Plateu / Flugfeld - Bereich der Wasserkuppe - Zufahrt nicht möglich)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3068"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Kreis Fulda, Wasserkuppe zwischen B284 und Ende der Straße",
-        "streets": [
-          "L3068"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Straßenzustand"
-        },
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Straßenzustand",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-06T11:42:26.669Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
