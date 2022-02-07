@@ -458,6 +458,63 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/471530_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 471530
+      },
+      "description": [
+        {
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Limburg-Süd und Bad Camberg\nUnfall, rechter Fahrstreifen gesperrt, Bergungsarbeiten"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Frankfurt zwischen Limburg-Süd und Bad Camberg",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Arbeitsstelle"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-07T17:19:01.227Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/461440_LMS-HE/54"
       },
       "dataProducer": {
@@ -1053,7 +1110,7 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Alsfeld-Ost und Hattenbacher Dreieck\nGefahr durch Reifenteile auf der Fahrbahn"
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Alsfeld-Ost und Hattenbacher Dreieck\nalle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -1075,7 +1132,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1085,11 +1142,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-07T16:45:32.048Z"
+        "value": "2022-02-07T17:24:56.811Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1365,7 +1422,7 @@
       },
       "description": [
         {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Kirchheim und Hattenbacher Dreieck\ndefektes Fahrzeug auf dem Standstreifen"
+          "value": "A7 Kassel Richtung Fulda\nzwischen Kirchheim und Hattenbacher Dreieck\nalle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -1397,7 +1454,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-07T17:11:11.784Z"
+        "value": "2022-02-07T17:25:31.741Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2312,7 +2369,7 @@
       },
       "description": [
         {
-          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Schiersteiner Kreuz und Wiesbaden-Frauenstein\nGefahr durch Gegenstände auf der Fahrbahn (ein Müllsack)"
+          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Schiersteiner Kreuz und Wiesbaden-Frauenstein\nalle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -2334,7 +2391,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2344,11 +2401,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-07T16:29:20.58Z"
+        "value": "2022-02-07T17:19:42.6Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2464,111 +2521,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-14T09:08:53.888Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/471501_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 471501
-      },
-      "description": [
-        {
-          "value": "A67 Mönchhof-Dreieck Richtung Darmstadt\nzwischen Rüsselsheimer Dreieck und Groß-Gerau\nUnfallstelle geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A67"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A67 Mönchhof-Dreieck Richtung Darmstadt zwischen Rüsselsheimer Dreieck und Groß-Gerau",
-        "streets": [
-          "A67"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-07T17:03:15.222Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/471525_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 471525
-      },
-      "description": [
-        {
-          "value": "A67 Mönchhof-Dreieck Richtung Darmstadt\nRüsselsheimer Dreieck Überleitung zur A60 Richtung Mainz\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A67"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A67 Mönchhof-Dreieck Richtung Darmstadt Rüsselsheimer Dreieck Überleitung zur A60 Richtung Mainz",
-        "streets": [
-          "A67"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-07T17:06:10.563Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
