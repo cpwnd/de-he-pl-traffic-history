@@ -1,9 +1,61 @@
 {
   "status": "OK",
   "cached": false,
-  "time": "1.562ms",
+  "time": "1.234ms",
   "version": "TIC",
   "data": [
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/471231_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 471231
+      },
+      "description": [
+        {
+          "value": "L3206, K77 Kalbach Richtung Neuhof-Süd\nzwischen Kreisverkehr Kalbch-Nieder-/Mittelkalbach und A66, Neuhof-Süd\nUnfall hinter einer Kurve"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3206, K77"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Kreis Fulda, L3206, K77 zwischen Kreisverkehr Kalbch-Nieder-/Mittelkalbach und A66, Neuhof-Süd",
+        "streets": [
+          "L3206",
+          "K77"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-07T04:52:05.456Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
     {
       "ticId": {
         "value": "LMS/r_LMS/471217_LMS-HE/54"
