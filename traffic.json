@@ -2433,6 +2433,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/471221_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 471221
+      },
+      "description": [
+        {
+          "value": "A66 Wiesbaden Richtung Frankfurt\nzwischen Krifteler Dreieck und Frankfurt am Main-Zeilsheim\nGefahr durch Gegenstände auf allen Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Wiesbaden Richtung Frankfurt zwischen Krifteler Dreieck und Frankfurt am Main-Zeilsheim",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-07T04:08:29.342Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/461537_LMS-HE/54"
       },
       "dataProducer": {
@@ -6765,57 +6816,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/471212_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 471212
-      },
-      "description": [
-        {
-          "value": "L3021 Brechen Richtung Weinbach\nzwischen Weinbach und Freienfels\nGefahr durch ein totes Tier (Wildschwein) auf allen Fahrstreifen"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3021"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Kreis Limburg-Weilburg, L3021 zwischen Weinbach und Freienfels",
-        "streets": [
-          "L3021"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-07T03:28:27.127Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/417423_LMS-HE/54"
       },
       "dataProducer": {
@@ -7684,6 +7684,66 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/471217_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 471217
+      },
+      "description": [
+        {
+          "value": "L3272 Lorch Richtung Geisenheim\nzwischen Abzweig nach Welterod und Presberg\nStraßenglätte, mehrere querstehende LKW, bis auf weiteres gesperrt für LKW, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3272"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Rheingau-Taunus-Kreis, L3272 zwischen Abzweig nach Welterod und Presberg",
+        "streets": [
+          "L3272"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Straßenzustand"
+        },
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Straßenzustand",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-07T04:00:06.069Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
