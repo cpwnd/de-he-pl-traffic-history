@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -454,6 +454,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/471202_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 471202
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Frankfurt am Main-Flughafen und Kelsterbach\nGefahr durch ein totes Tier auf dem linken und dem mittleren Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Köln zwischen Frankfurt am Main-Flughafen und Kelsterbach",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-07T02:10:48.792Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -926,7 +977,7 @@
       },
       "description": [
         {
-          "value": "A4 Bad Hersfeld Richtung Erfurt\nzwischen Bad Hersfeld und Friedewald\nSchneeglätte, überfrierende Nässe, mehrere querstehende LKW, Verkehrsbehinderung"
+          "value": "A4 Bad Hersfeld Richtung Erfurt\nzwischen Bad Hersfeld und Friedewald\nSchneeglätte, überfrierende Nässe, mehrere querstehende LKW, Verkehrsbehinderung\n(Hinweis für die Lkw Fahrer, bittte nur die rechte Spur benutzen)"
         }
       ],
       "location": {
@@ -967,11 +1018,11 @@
       "masterEventCategory": "Straßenzustand",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-07T01:42:05.862Z"
+        "value": "2022-02-07T02:02:46.317Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1545,11 +1596,11 @@
       "masterEventCategory": "Straßenzustand",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-07T01:27:53.7Z"
+        "value": "2022-02-07T02:06:05.903Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1810,63 +1861,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/471171_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 471171
-      },
-      "description": [
-        {
-          "value": "A7 Fulda Richtung Kassel\nzwischen Homberg (Efze) und Malsfeld\nUnfallstelle geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A7"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A7 Fulda Richtung Kassel zwischen Homberg (Efze) und Malsfeld",
-        "streets": [
-          "A7"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Straßenzustand"
-        },
-        {
-          "value": "Hinweis"
-        },
-        {
-          "value": "Unfall"
-        }
-      ],
-      "masterEventCategory": "Straßenzustand",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-07T01:44:42.16Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -3070,6 +3064,58 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/471199_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 471199
+      },
+      "description": [
+        {
+          "value": "B3, A661 Friedberg - Darmstadt\nzwischen Bad Vilbel und Offenbach-Taunusring\nin beiden Richtungen die Gefahr durch ein entgegenkommendes Fahrzeug besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B3, A661"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B3, A661 Friedberg Richtung Darmstadt zwischen Bad Vilbel und Offenbach-Taunusring",
+        "streets": [
+          "B3",
+          "A661"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-07T02:24:06.957Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/448990_LMS-HE/54"
       },
       "dataProducer": {
@@ -4178,57 +4224,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/471175_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 471175
-      },
-      "description": [
-        {
-          "value": "B54 Siegen - Limburg\nzwischen Langendernbach und Elbgrund\nin beiden Richtungen Hindernisse beseitigt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B54"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B54 Siegen Richtung Limburg zwischen Langendernbach und Elbgrund",
-        "streets": [
-          "B54"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-07T01:45:21.142Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -7604,6 +7599,63 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-11T13:29:01.228Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/471203_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 471203
+      },
+      "description": [
+        {
+          "value": "L3225 Großalmerode - Hessisch Lichtenau\nzwischen Rommerode und Friedrichsbrück\nin beiden Richtungen umgestürzte Bäume, Richtungsfahrbahn bis auf weiteres gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3225"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Werra-Meißner-Kreis, L3225 zwischen Rommerode und Friedrichsbrück",
+        "streets": [
+          "L3225"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-07T02:22:46.662Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
