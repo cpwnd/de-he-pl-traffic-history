@@ -642,6 +642,71 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/471574_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 471574
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Bad Camberg und Limburg-Süd\nBaustelle, rechter Fahrstreifen gesperrt, mittlerer Fahrstreifen gesperrt, von 07.02.2022 20:30 Uhr bis 08.02.2022 05:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Köln zwischen Bad Camberg und Limburg-Süd",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-02-07T19:30:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-02-08T04:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 07.02.2022 20:30 Uhr bis 08.02.2022 05:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-07T19:22:10.8Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/461444_LMS-HE/54"
       },
       "dataProducer": {
@@ -7280,7 +7345,7 @@
       },
       "description": [
         {
-          "value": "L3088 Marburg, Großseelheimer Straße\nzwischen Ortseingang und An der Schanze\nin beiden Richtungen Unfall, Richtungsfahrbahn gesperrt, Bergungsarbeiten, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+          "value": "L3088 Marburg, Großseelheimer Straße\nzwischen Ortseingang und An der Schanze\nin beiden Richtungen Unfallstelle geräumt"
         }
       ],
       "location": {
@@ -7321,11 +7386,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-07T18:46:15.493Z"
+        "value": "2022-02-07T19:38:52.4Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
