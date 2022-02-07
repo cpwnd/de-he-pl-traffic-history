@@ -4475,6 +4475,71 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/471572_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 471572
+      },
+      "description": [
+        {
+          "value": "B426 Höchst im Odenwald - Gernsheim\nLohbergtunnel\nin beiden Richtungen Bauarbeiten, Richtungsfahrbahn gesperrt, bis 08.02.2022 05:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B426"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B426 Höchst im Odenwald Richtung Gernsheim Lohbergtunnel",
+        "streets": [
+          "B426"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-02-07T19:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-02-08T04:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 07.02.2022 20:00 Uhr bis 08.02.2022 05:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-07T19:12:30.737Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/463278_LMS-HE/54"
       },
       "dataProducer": {
@@ -9752,67 +9817,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-21T09:15:16.362Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/471562_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 471562
-      },
-      "description": [
-        {
-          "value": "Frankfurt, Allerheiligenstraße bis Battonnstraße\nzwischen Allerheiligentor und Kurt-Schumacher-Straße\nBaustelle, rechter Fahrstreifen gesperrt, bis 18.02.2022 23:59 Uhr\n(Arbeiten an Versorgungsleitungen Teilsperrung der Fahrbahn in Richtung Süd, Teilsperrung der Fahrbahn in Richtung West, Vollsperrung der Gehwege in Richtung Süd, Vollsperrung der Gehwege in Richtung West)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": null
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Frankfurt, Allerheiligenstraße bis Battonnstraße zwischen Allerheiligentor und Kurt-Schumacher-Straße",
-        "streets": null
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-01-25T23:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-02-18T22:59:59Z"
-        },
-        "name": "Dauer",
-        "description": "von 26.01.2022 00:00 Uhr bis 18.02.2022 23:59 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-07T18:48:06.694Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
