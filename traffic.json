@@ -967,63 +967,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/471285_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 471285
-      },
-      "description": [
-        {
-          "value": "A5 Kassel Richtung Frankfurt\nzwischen Nordwestkreuz Frankfurt und Frankfurt am Main-Westhafen\nalle Unfallstellen geräumt, keine Verkehrsbehinderung mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Kassel Richtung Frankfurt zwischen Nordwestkreuz Frankfurt und Frankfurt am Main-Westhafen",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Stau"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-07T09:02:18.363Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/471338_LMS-HE/54"
       },
       "dataProducer": {
@@ -2228,6 +2171,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/471351_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 471351
+      },
+      "description": [
+        {
+          "value": "A49 Südtangente, Gießen Richtung Kassel\nzwischen Kassel-Niederzwehren und Kassel-Auestadion\nGefahr durch verlorene Ladung (ein Stein)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A49"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A49 Südtangente, Gießen Richtung Kassel zwischen Kassel-Niederzwehren und Kassel-Auestadion",
+        "streets": [
+          "A49"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-07T09:13:42.982Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -4451,6 +4445,63 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-10T22:59:00.417Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/471352_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 471352
+      },
+      "description": [
+        {
+          "value": "B455 Dorheimer Straße, Friedberg - Nidda\nin Höhe An der Hohl\nin beiden Richtungen Unfall, Richtungsfahrbahn blockiert, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B455"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B455 Dorheimer Straße, Friedberg Richtung Nidda in Höhe An der Hohl",
+        "streets": [
+          "B455"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-07T09:15:30.038Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
