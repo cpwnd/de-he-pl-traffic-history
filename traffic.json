@@ -598,7 +598,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Bad Camberg und Limburg-Süd\nBaustelle, linker Fahrstreifen gesperrt\n(zw km 110,85 bis km 110,75)"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Bad Camberg und Limburg-Süd\nBaustelle beseitigt"
         }
       ],
       "location": {
@@ -633,11 +633,11 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-07T20:52:37.012Z"
+        "value": "2022-02-07T23:05:19.647Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -9074,6 +9074,67 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/471590_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 471590
+      },
+      "description": [
+        {
+          "value": "Frankfurt, Gutleutstraße\nzwischen Hafenstraße und Baseler Platz\nBaustelle, rechter Fahrstreifen gesperrt, bis 18.02.2022 23:59 Uhr\n(Aufgrund von Arbeiten an Kanalleitungen Teilsperrung der Fahrbahn)\n"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": null
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, Gutleutstraße zwischen Hafenstraße und Baseler Platz",
+        "streets": null
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-02-07T23:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-02-18T22:59:59Z"
+        },
+        "name": "Dauer",
+        "description": "von 08.02.2022 00:00 Uhr bis 18.02.2022 23:59 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-07T23:00:01.379Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
