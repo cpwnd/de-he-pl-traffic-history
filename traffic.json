@@ -458,17 +458,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/471530_LMS-HE/54"
+        "value": "LMS/r_LMS/471554_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 471530
+        "value": 471554
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Limburg-Süd und Bad Camberg\nUnfallstelle geräumt"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Idstein und Wiesbaden/Niedernhausen\nBaustelle auf dem linken Fahrstreifen, linker Fahrstreifen gesperrt"
         }
       ],
       "location": {
@@ -482,7 +482,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A3 Köln Richtung Frankfurt zwischen Limburg-Süd und Bad Camberg",
+        "description": "A3 Köln Richtung Frankfurt zwischen Idstein und Wiesbaden/Niedernhausen",
         "streets": [
           "A3"
         ]
@@ -494,23 +494,20 @@
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Arbeitsstelle"
         },
         {
           "value": "Sperrung"
-        },
-        {
-          "value": "Arbeitsstelle"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-07T17:40:55.327Z"
+        "value": "2022-02-07T18:00:49.128Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Geändert"
+        "value": "Neu"
       }
     },
     {
@@ -525,7 +522,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Kelsterbach und Mönchhof-Dreieck\ndefektes Fahrzeug im Baustellenbereich"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Kelsterbach und Mönchhof-Dreieck\nalle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -557,7 +554,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-07T17:40:29.842Z"
+        "value": "2022-02-07T18:01:12.271Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1812,7 +1809,7 @@
       },
       "description": [
         {
-          "value": "A45 Gießen Richtung Aschaffenburg\nzwischen Wetzlar-Süd und Gießen-Lützellinden\nUnfall mit LKW, rechter Fahrstreifen blockiert, Stau"
+          "value": "A45 Gießen Richtung Aschaffenburg\nzwischen Wetzlar-Süd und Gießen-Lützellinden\nUnfall mit LKW, rechter Fahrstreifen gesperrt, Stau"
         }
       ],
       "location": {
@@ -1841,20 +1838,20 @@
           "value": "Unfall"
         },
         {
-          "value": "Störung"
+          "value": "Stau"
         },
         {
-          "value": "Stau"
+          "value": "Sperrung"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-07T17:32:30.557Z"
+        "value": "2022-02-07T18:15:47.978Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2973,11 +2970,11 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-07T12:47:58.614Z"
+        "value": "2022-02-07T18:03:46.994Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -8484,6 +8481,54 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-11-11T10:18:03.222Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/471552_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 471552
+      },
+      "description": [
+        {
+          "value": "Limburg an der Lahn\nDemonstration, Verkehrsbehinderung zu erwarten\n(Autokorso \"Montagsdemonstration\")"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": null
+          }
+        ],
+        "name": "Ort",
+        "description": "Limburg an der Lahn",
+        "streets": null
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Stau"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-07T17:59:32.537Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
