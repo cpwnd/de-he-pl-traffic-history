@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -963,6 +963,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/471285_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 471285
+      },
+      "description": [
+        {
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Nordwestkreuz Frankfurt und Frankfurt am Main-Westhafen\nUnfall auf dem rechten Fahrstreifen und dem Standstreifen, rechter Fahrstreifen blockiert"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Kassel Richtung Frankfurt zwischen Nordwestkreuz Frankfurt und Frankfurt am Main-Westhafen",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-07T07:14:19.526Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -2311,6 +2365,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/471282_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 471282
+      },
+      "description": [
+        {
+          "value": "A60 Rüsselsheim Richtung Mainz\nzwischen Rüsselsheimer Dreieck und Rüsselsheim-Königstädten\nGefahr durch defekten LKW auf dem rechten Fahrstreifen, rechter Fahrstreifen blockiert"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A60"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A60 Rüsselsheim Richtung Mainz zwischen Rüsselsheimer Dreieck und Rüsselsheim-Königstädten",
+        "streets": [
+          "A60"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-07T07:04:04.908Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/456754_LMS-HE/54"
       },
       "dataProducer": {
@@ -2877,17 +2985,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/471263_LMS-HE/54"
+        "value": "LMS/r_LMS/471281_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 471263
+        "value": 471281
       },
       "description": [
         {
-          "value": "A671 Wiesbaden Richtung Mainz\nzwischen Gustavsburg und Mainspitz-Dreieck\nUnfallstelle geräumt"
+          "value": "A671 Mainz Richtung Wiesbaden\nzwischen Mainz-Kastel und Wiesbaden-Amöneburg\nGefahr durch verlorene Ladung"
         }
       ],
       "location": {
@@ -2901,7 +3009,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A671 Wiesbaden Richtung Mainz zwischen Gustavsburg und Mainspitz-Dreieck",
+        "description": "A671 Mainz Richtung Wiesbaden zwischen Mainz-Kastel und Wiesbaden-Amöneburg",
         "streets": [
           "A671"
         ]
@@ -2909,24 +3017,21 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Normal"
+        "value": "Dringend"
       },
       "eventCategory": [
         {
-          "value": "Unfall"
-        },
-        {
-          "value": "Störung"
+          "value": "Hindernis"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-07T06:44:05.702Z"
+        "value": "2022-02-07T07:01:28.33Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Geändert"
+        "value": "Neu"
       }
     },
     {
@@ -4234,7 +4339,7 @@
       },
       "description": [
         {
-          "value": "B253 Biedenkopf - Battenberg\nzwischen Biedenkopf-Ludwigshütte und Sackpfeife\nin beiden Richtungen Straßenglätte, mehrere querstehende LKW, bis auf weiteres gesperrt für LKW, LKW wird empfohlen, das Gebiet weiträumig zu umfahren"
+          "value": "B253 Biedenkopf - Battenberg\nzwischen Biedenkopf-Ludwigshütte und Sackpfeife\nin beiden Richtungen Straßenverhältnisse haben sich wieder gebessert"
         }
       ],
       "location": {
@@ -4275,7 +4380,7 @@
       "masterEventCategory": "Straßenzustand",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-07T04:53:58.006Z"
+        "value": "2022-02-07T07:08:49.341Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -8038,7 +8143,7 @@
       },
       "description": [
         {
-          "value": "Hessen\nGefahr durch Straßenglätte, mehrere querstehende LKW, Verkehrsbehinderung\n(In den Höhenlagen ist verbreitet mit Straßenglätte durch überfrierende Nässe und Schneefall zu rechnen. Die Autobahnen und Bundesstraßen sind teilweise durch querstehende Lkw blockiert und es kommt zu Verkehrsbehinderungen. Die Autobahn- und Straßenmeistereien sind im Einsatz)"
+          "value": "Hessen\nStraßenverhältnisse haben sich wieder gebessert"
         }
       ],
       "location": {
@@ -8054,7 +8159,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -8070,7 +8175,7 @@
       "masterEventCategory": "Straßenzustand",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-07T04:53:43.042Z"
+        "value": "2022-02-07T07:09:41.82Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
