@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -259,7 +259,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln - Frankfurt\nzwischen Mönchhof-Dreieck und Kelsterbach\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
+          "value": "A3 Köln - Frankfurt\nzwischen Mönchhof-Dreieck und Kelsterbach\nin beiden Richtungen Gefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -281,7 +281,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -291,11 +291,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-07T12:21:02.639Z"
+        "value": "2022-02-07T12:55:32.476Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1406,6 +1406,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/471424_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 471424
+      },
+      "description": [
+        {
+          "value": "A7 Kassel Richtung Fulda\nzwischen Kirchheim und Hattenbacher Dreieck\nGefahr durch defektes Fahrzeug auf dem rechten Fahrstreifen, rechter Fahrstreifen blockiert"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Kassel Richtung Fulda zwischen Kirchheim und Hattenbacher Dreieck",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-07T12:31:53.83Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/468283_LMS-HE/54"
       },
       "dataProducer": {
@@ -1788,6 +1842,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-28T20:00:01.686Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/471438_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 471438
+      },
+      "description": [
+        {
+          "value": "A44 Kassel Richtung Dortmund\nzwischen Kassel-Bad Wilhelmshöhe und Zierenberg\nGefahr durch Gegenstände auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A44"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A44 Kassel Richtung Dortmund zwischen Kassel-Bad Wilhelmshöhe und Zierenberg",
+        "streets": [
+          "A44"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-07T12:51:03.261Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2302,6 +2407,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/471435_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 471435
+      },
+      "description": [
+        {
+          "value": "A60 Mainz Richtung Rüsselsheim\nzwischen Mainz-Laubenheim und Ausfahrt Ginsheim-Gustavsburg\nUnfall auf Brücken"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A60"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A60 Mainz Richtung Rüsselsheim zwischen Mainz-Laubenheim und Ausfahrt Ginsheim-Gustavsburg",
+        "streets": [
+          "A60"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-07T12:48:14.694Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/456754_LMS-HE/54"
       },
       "dataProducer": {
@@ -2421,17 +2577,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/471405_LMS-HE/54"
+        "value": "LMS/r_LMS/471422_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 471405
+        "value": 471422
       },
       "description": [
         {
-          "value": "A67 Mönchhof-Dreieck Richtung Darmstadt\nzwischen Groß-Gerau und Büttelborn\nGefahr besteht nicht mehr"
+          "value": "A67 Mannheim Richtung Darmstadt\nzwischen Viernheimer Dreieck und Lorsch\nBauarbeiten, linker Fahrstreifen gesperrt"
         }
       ],
       "location": {
@@ -2445,7 +2601,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A67 Mönchhof-Dreieck Richtung Darmstadt zwischen Groß-Gerau und Büttelborn",
+        "description": "A67 Mannheim Richtung Darmstadt zwischen Viernheimer Dreieck und Lorsch",
         "streets": [
           "A67"
         ]
@@ -2457,17 +2613,20 @@
       },
       "eventCategory": [
         {
-          "value": "Hindernis"
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
         }
       ],
-      "masterEventCategory": "Hindernis",
+      "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-07T12:11:12.618Z"
+        "value": "2022-02-07T12:30:21.013Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Geändert"
+        "value": "Neu"
       }
     },
     {
@@ -2591,6 +2750,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-06T13:00:00.462Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/471440_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 471440
+      },
+      "description": [
+        {
+          "value": "A67 Darmstadt Richtung Mönchhof-Dreieck\nzwischen Dreieck Darmstadt-Griesheim und Büttelborn\nReinigungsarbeiten auf dem rechten Fahrstreifen, rechter Fahrstreifen blockiert"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A67"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A67 Darmstadt Richtung Mönchhof-Dreieck zwischen Dreieck Darmstadt-Griesheim und Büttelborn",
+        "streets": [
+          "A67"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-07T12:54:49.919Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2919,17 +3129,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/471413_LMS-HE/54"
+        "value": "LMS/r_LMS/471431_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 471413
+        "value": 471431
       },
       "description": [
         {
-          "value": "A671 Wiesbaden Richtung Mainz\nzwischen Hochheim-Nord und Hochheim-Süd\nGefahr durch Gegenstände auf der Fahrbahn"
+          "value": "B3, L3100 Darmstadt Richtung Heidelberg\nzwischen B426, Darmstadt-Eberstadt-Süd und Bensheim\nDemonstration, Verkehrsbehinderung"
         }
       ],
       "location": {
@@ -2937,31 +3147,31 @@
           {
             "edge": {
               "sortRoadNumber": {
-                "value": "A671"
+                "value": "B3"
               }
             }
           }
         ],
         "name": "Ort",
-        "description": "A671 Wiesbaden Richtung Mainz zwischen Hochheim-Nord und Hochheim-Süd",
+        "description": "B3 Darmstadt Richtung Heidelberg zwischen B426, Darmstadt-Eberstadt-Süd und Bensheim",
         "streets": [
-          "A671"
+          "B3"
         ]
       },
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Hindernis"
+          "value": "Störung"
         }
       ],
-      "masterEventCategory": "Hindernis",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-07T12:12:34.63Z"
+        "value": "2022-02-07T12:47:58.614Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4370,7 +4580,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-07T12:21:31.875Z"
+        "value": "2022-02-07T12:32:31.175Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
