@@ -2185,7 +2185,7 @@
       },
       "description": [
         {
-          "value": "A49 Südtangente, Gießen Richtung Kassel\nzwischen Kassel-Niederzwehren und Kassel-Auestadion\nGefahr durch verlorene Ladung (ein Stein)"
+          "value": "A49 Südtangente, Gießen Richtung Kassel\nzwischen Kassel-Niederzwehren und Kassel-Auestadion\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -2207,7 +2207,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2217,11 +2217,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-07T09:13:42.982Z"
+        "value": "2022-02-07T09:36:29.662Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2482,7 +2482,7 @@
       },
       "description": [
         {
-          "value": "A66 Frankfurt Richtung Wiesbaden\nNordwestkreuz Frankfurt Überleitung zur A5 Richtung Frankfurt\nUnfall, Beschleunigungsstreifen blockiert"
+          "value": "A66 Frankfurt Richtung Wiesbaden\nNordwestkreuz Frankfurt Überleitung zur A5 Richtung Frankfurt\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -2517,11 +2517,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-07T08:57:46.19Z"
+        "value": "2022-02-07T09:31:29.683Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -9431,6 +9431,62 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/471357_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 471357
+      },
+      "description": [
+        {
+          "value": "Windecken, Kilianstädter Straße\nzwischen Eugen-Kaiser-Straße und Nidderau - Windecken\nin beiden Richtungen Unfall, Bergungsarbeiten, Richtungsfahrbahn gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": null
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Windecken, Kilianstädter Straße zwischen Eugen-Kaiser-Straße und Nidderau - Windecken",
+        "streets": null
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        },
+        {
+          "value": "Arbeitsstelle"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-07T09:36:05.51Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
