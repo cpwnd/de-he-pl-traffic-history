@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -916,6 +916,66 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/471190_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 471190
+      },
+      "description": [
+        {
+          "value": "A4 Bad Hersfeld Richtung Erfurt\nzwischen Bad Hersfeld und Friedewald\nSchneeglätte, überfrierende Nässe, mehrere querstehende LKW, Verkehrsbehinderung"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A4"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A4 Bad Hersfeld Richtung Erfurt zwischen Bad Hersfeld und Friedewald",
+        "streets": [
+          "A4"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Straßenzustand"
+        },
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Wetter"
+        }
+      ],
+      "masterEventCategory": "Straßenzustand",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-07T01:42:05.862Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/338932_LMS-HE/54"
       },
       "dataProducer": {
@@ -1434,6 +1494,66 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/471187_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 471187
+      },
+      "description": [
+        {
+          "value": "A7 Kassel - Würzburg\nzwischen Dreieck Kassel-Süd und Würzburg/Estenfeld\nin beiden Richtungen Gefahr durch Straßenglätte, mehrere querstehende LKW, Verkehrsbehinderung zu erwarten, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Kassel Richtung Würzburg zwischen Dreieck Kassel-Süd und Würzburg/Estenfeld",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Straßenzustand"
+        },
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Stau"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Straßenzustand",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-07T01:27:53.7Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/468285_LMS-HE/54"
       },
       "dataProducer": {
@@ -1704,7 +1824,7 @@
       },
       "description": [
         {
-          "value": "A7 Fulda Richtung Kassel\nzwischen Homberg (Efze) und Malsfeld\nGefahr durch ungesicherte Unfallstelle auf dem linken Fahrstreifen, Straßenglätte, bitte vorsichtig fahren"
+          "value": "A7 Fulda Richtung Kassel\nzwischen Homberg (Efze) und Malsfeld\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -1726,23 +1846,23 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
-        {
-          "value": "Unfall"
-        },
         {
           "value": "Straßenzustand"
         },
         {
           "value": "Hinweis"
+        },
+        {
+          "value": "Unfall"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Straßenzustand",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-07T00:58:19.29Z"
+        "value": "2022-02-07T01:44:42.16Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4062,6 +4182,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/471175_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 471175
+      },
+      "description": [
+        {
+          "value": "B54 Siegen - Limburg\nzwischen Langendernbach und Elbgrund\nin beiden Richtungen Hindernisse beseitigt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B54"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B54 Siegen Richtung Limburg zwischen Langendernbach und Elbgrund",
+        "streets": [
+          "B54"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-07T01:45:21.142Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/431962_LMS-HE/54"
       },
       "dataProducer": {
@@ -4108,6 +4279,66 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-25T03:58:34.243Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/471179_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 471179
+      },
+      "description": [
+        {
+          "value": "B253 Biedenkopf - Battenberg\nzwischen Biedenkopf-Ludwigshütte und Sackpfeife\nin beiden Richtungen Straßenglätte, mehrere querstehende LKW, bis auf weiteres gesperrt für LKW, LKW wird empfohlen, das Gebiet weiträumig zu umfahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B253"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B253 Biedenkopf Richtung Battenberg zwischen Biedenkopf-Ludwigshütte und Sackpfeife",
+        "streets": [
+          "B253"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Straßenzustand"
+        },
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Straßenzustand",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-07T01:21:13.372Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -7788,6 +8019,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/471188_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 471188
+      },
+      "description": [
+        {
+          "value": "Hessen\nGefahr durch Straßenglätte, mehrere querstehende LKW, Verkehrsbehinderung\n(In den Höhenlagen ist verbreitet mit Straßenglätte durch überfrierende Nässe und Schneefall zu rechnen. Die Autobahnen und Bundesstraßen sind teilweise durch querstehende Lkw blockiert und es kommt zu Verkehrsbehinderungen. Die Autobahn- und Straßenmeistereien sind im Einsatz)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": null
+          }
+        ],
+        "name": "Ort",
+        "description": "Hessen",
+        "streets": null
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Straßenzustand"
+        },
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Straßenzustand",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-07T01:47:06.962Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
