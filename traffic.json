@@ -523,6 +523,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/471267_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 471267
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Raunheim und Wiesbadener Kreuz\nGefahr durch defektes Fahrzeug auf dem Standstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Köln zwischen Raunheim und Wiesbadener Kreuz",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-07T06:33:53.866Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/457840_LMS-HE/54"
       },
       "dataProducer": {
@@ -1053,7 +1104,7 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Nordwestkreuz Frankfurt und Bad Homburger Kreuz\nGefahr durch Reifenteile auf der Fahrbahn"
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Nordwestkreuz Frankfurt und Bad Homburger Kreuz\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -1075,7 +1126,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1085,11 +1136,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-07T05:36:18.468Z"
+        "value": "2022-02-07T06:22:40.243Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1495,7 +1546,7 @@
       },
       "description": [
         {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Homberg (Efze) und Bad Hersfeld-West\nUnfall, querstehendes Fahrzeug, Personen auf der Fahrbahn\n(Pkw steht quer auf der Fahrbahn)"
+          "value": "A7 Kassel Richtung Fulda\nzwischen Homberg (Efze) und Bad Hersfeld-West\nUnfall, querstehendes Fahrzeug, Stau, Personen auf der Fahrbahn, Gasse für Rettungs- und Einsatzfahrzeuge bilden\n(Pkw steht quer auf der Fahrbahn)"
         }
       ],
       "location": {
@@ -1525,16 +1576,22 @@
         },
         {
           "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        },
+        {
+          "value": "Stau"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-07T06:07:27.508Z"
+        "value": "2022-02-07T06:32:34.364Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1549,7 +1606,7 @@
       },
       "description": [
         {
-          "value": "A7 Kassel - Würzburg\nzwischen Dreieck Kassel-Süd und Würzburg/Estenfeld\nin beiden Richtungen Gefahr durch Straßenglätte, Verkehrsbehinderung zu erwarten, bitte vorsichtig fahren"
+          "value": "A7 Kassel - Würzburg\nzwischen Dreieck Kassel-Süd und Würzburg/Estenfeld\nin beiden Richtungen Gefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -1571,7 +1628,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1587,7 +1644,7 @@
       "masterEventCategory": "Straßenzustand",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-07T04:53:30.214Z"
+        "value": "2022-02-07T06:31:15.328Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2876,7 +2933,7 @@
       },
       "description": [
         {
-          "value": "A661 Bad Homburg - Darmstadt\nzwischen Bad Homburg und Bad Homburger Kreuz\nin beiden Richtungen Gefahr durch defektes Fahrzeug auf dem rechten Fahrstreifen"
+          "value": "A661 Bad Homburg - Darmstadt\nzwischen Bad Homburg und Bad Homburger Kreuz\nin beiden Richtungen Gefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -2898,7 +2955,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2908,7 +2965,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-07T05:04:13.398Z"
+        "value": "2022-02-07T06:28:45.894Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
