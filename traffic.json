@@ -468,7 +468,7 @@
       },
       "description": [
         {
-          "value": "A3 Würzburg Richtung Frankfurt\nzwischen Obertshausen und Offenbach\nGefahr durch ungesicherte Unfallstelle"
+          "value": "A3 Würzburg Richtung Frankfurt\nzwischen Obertshausen und Offenbach\nUnfallaufnahme auf dem rechten Fahrstreifen und dem Standstreifen, rechter Fahrstreifen blockiert, ausgelaufene Flüssigkeiten auf der Fahrbahn, Fahrbahn von 3 auf zwei Fahrstreifen verengt"
         }
       ],
       "location": {
@@ -490,21 +490,24 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Störung"
+        },
+        {
+          "value": "Hindernis"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-08T06:48:48.106Z"
+        "value": "2022-02-08T07:21:35.785Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2856,6 +2859,63 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/471666_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 471666
+      },
+      "description": [
+        {
+          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Offenbach-Kaiserlei und Frankfurt am Main-Ost\nUnfall auf dem linken Fahrstreifen, linker Fahrstreifen blockiert, stockender Verkehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A661"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A661 Darmstadt Richtung Bad Homburg zwischen Offenbach-Kaiserlei und Frankfurt am Main-Ost",
+        "streets": [
+          "A661"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Stau"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-08T07:19:45.216Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
