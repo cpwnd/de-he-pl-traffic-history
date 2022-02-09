@@ -6,71 +6,6 @@
   "data": [
     {
       "ticId": {
-        "value": "LMS/r_LMS/462186_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 462186
-      },
-      "description": [
-        {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Mönchhof-Dreieck und Auffahrt Raunheim\nBaustelle, vorübergehende Begrenzung der Fahrbahnbreite auf 3,25 m, bis 30.06.2022 15:30 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Frankfurt Richtung Köln zwischen Mönchhof-Dreieck und Auffahrt Raunheim",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-01-07T07:58:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-06-30T13:30:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 07.01.2022 08:58 Uhr bis 30.06.2022 15:30 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Beschränkung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-07T07:58:00.322Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/461449_LMS-HE/54"
       },
       "dataProducer": {
@@ -132,6 +67,71 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/462186_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 462186
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Mönchhof-Dreieck und Auffahrt Raunheim\nBaustelle, vorübergehende Begrenzung der Fahrbahnbreite auf 3,25 m, bis 30.06.2022 15:30 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Köln zwischen Mönchhof-Dreieck und Auffahrt Raunheim",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-01-07T07:58:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-06-30T13:30:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 07.01.2022 08:58 Uhr bis 30.06.2022 15:30 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-07T07:58:00.322Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -588,60 +588,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/471899_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 471899
-      },
-      "description": [
-        {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbaden/Niedernhausen und Idstein\nalle Fahrbahnen geräumt, Stau, Staulänge abnehmend"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Frankfurt Richtung Köln zwischen Wiesbaden/Niedernhausen und Idstein",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Stau"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-09T08:21:03.556Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/461444_LMS-HE/54"
       },
       "dataProducer": {
@@ -970,57 +916,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/471970_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 471970
-      },
-      "description": [
-        {
-          "value": "A4 Bad Hersfeld Richtung Erfurt\nzwischen Wildeck-Hönebach und Wildeck-Obersuhl\nalle Fahrbahnen geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A4"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A4 Bad Hersfeld Richtung Erfurt zwischen Wildeck-Hönebach und Wildeck-Obersuhl",
-        "streets": [
-          "A4"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-09T09:42:12.949Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/338932_LMS-HE/54"
       },
       "dataProducer": {
@@ -1158,7 +1053,7 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Reiskirchener Dreieck und Grünberg\nReinigungsarbeiten, bitte vorsichtig fahren, linker Fahrstreifen gesperrt"
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Reiskirchener Dreieck und Grünberg\nStörung beseitigt"
         }
       ],
       "location": {
@@ -1196,7 +1091,7 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-09T09:17:09.002Z"
+        "value": "2022-02-09T10:20:57.769Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4974,57 +4869,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/471929_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 471929
-      },
-      "description": [
-        {
-          "value": "K687 zwischen Breithardt und Abzweig nach Adolfseck\nin beiden Richtungen Gefahr durch ein totes Tier (Fuchs) auf der Fahrbahn"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "K687"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Rheingau-Taunus-Kreis, K687 zwischen Breithardt und Abzweig nach Adolfseck",
-        "streets": [
-          "K687"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-09T06:31:19.466Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/420230_LMS-HE/54"
       },
       "dataProducer": {
@@ -5149,6 +4993,71 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/468923_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 468923
+      },
+      "description": [
+        {
+          "value": "Frankfurt, Bolongarostraße bis Mainzer Landstraße\nzwischen Ortseingang und Nieder Kirchweg\nBaustelle, Fahrbahnerneuerung, beide Fahrtrichtungen gesperrt, bis 18.03.2022 23:59 Uhr\nNied, Bolongarostraße zwischen Niddabrücke und Holzlachstraße, aufgrund von Deckenerneuerung Vollsperrung der Fahrbahn in Richtung Ost mit Umleitung über Mainzer Landstraße und Alt-Nied. Teilsperrung der Fahrbahn in Richtung West. Radfahrer und Fußgänger werden entlang der Baustelle geführt. Vom 31.01.2022 bis 18.03.2022."
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K803"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, Bolongarostraße bis Mainzer Landstraße zwischen Ortseingang und Nieder Kirchweg",
+        "streets": [
+          "K803"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-01-30T23:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-03-18T22:59:59Z"
+        },
+        "name": "Dauer",
+        "description": "von 31.01.2022 00:00 Uhr bis 18.03.2022 23:59 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-30T23:00:02.273Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/468920_LMS-HE/54"
       },
       "dataProducer": {
@@ -5225,71 +5134,6 @@
       "description": [
         {
           "value": "Frankfurt, Bolongarostraße bis Mainzer Landstraße\nzwischen Ortseingang und Nieder Kirchweg\nBaustelle, Fahrbahnerneuerung, beide Fahrtrichtungen gesperrt, bis 18.03.2022 23:59 Uhr\nNied, Bolongarostraße zwischen Niddabrücke und Holzlachstraße, aufgrund von Deckenerneuerung Vollsperrung der Fahrbahn in Richtung Ost, Teilsperrung der Fahrbahn in Richtung West vom 31.01.2022 bis 18.03.2022."
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "K803"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Frankfurt, Bolongarostraße bis Mainzer Landstraße zwischen Ortseingang und Nieder Kirchweg",
-        "streets": [
-          "K803"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-01-30T23:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-03-18T22:59:59Z"
-        },
-        "name": "Dauer",
-        "description": "von 31.01.2022 00:00 Uhr bis 18.03.2022 23:59 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-30T23:00:02.273Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/468923_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 468923
-      },
-      "description": [
-        {
-          "value": "Frankfurt, Bolongarostraße bis Mainzer Landstraße\nzwischen Ortseingang und Nieder Kirchweg\nBaustelle, Fahrbahnerneuerung, beide Fahrtrichtungen gesperrt, bis 18.03.2022 23:59 Uhr\nNied, Bolongarostraße zwischen Niddabrücke und Holzlachstraße, aufgrund von Deckenerneuerung Vollsperrung der Fahrbahn in Richtung Ost mit Umleitung über Mainzer Landstraße und Alt-Nied. Teilsperrung der Fahrbahn in Richtung West. Radfahrer und Fußgänger werden entlang der Baustelle geführt. Vom 31.01.2022 bis 18.03.2022."
         }
       ],
       "location": {
@@ -5474,71 +5318,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/422538_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 422538
-      },
-      "description": [
-        {
-          "value": "K810 Frankfurt, Eschersheimer Landstraße bis Eschenheimer Tor\nzwischen Bremer Straße und Eschenheimer Turm\nBaustelle, rechter Fahrstreifen gesperrt, bis 26.08.2022 23:59 Uhr\nWestend-Nord, Eschersheimer Landstraße 61, 63, Gervinusstraße, aufgrund einer Baustelle Teilsperrung der Fahrbahn, Teilsperrung der Gehwege, Vollsperrung der Gehwege vom 21.04.2021 bis 26.08.2022."
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "K810"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Frankfurt, Eschersheimer Landstraße bis Eschenheimer Tor zwischen Bremer Straße und Eschenheimer Turm",
-        "streets": [
-          "K810"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2021-04-20T22:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-08-26T21:59:59Z"
-        },
-        "name": "Dauer",
-        "description": "von 21.04.2021 00:00 Uhr bis 26.08.2022 23:59 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2021-09-14T09:17:57.67Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/422535_LMS-HE/54"
       },
       "dataProducer": {
@@ -5596,6 +5375,71 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-14T09:12:55.969Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/422538_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 422538
+      },
+      "description": [
+        {
+          "value": "K810 Frankfurt, Eschersheimer Landstraße bis Eschenheimer Tor\nzwischen Bremer Straße und Eschenheimer Turm\nBaustelle, rechter Fahrstreifen gesperrt, bis 26.08.2022 23:59 Uhr\nWestend-Nord, Eschersheimer Landstraße 61, 63, Gervinusstraße, aufgrund einer Baustelle Teilsperrung der Fahrbahn, Teilsperrung der Gehwege, Vollsperrung der Gehwege vom 21.04.2021 bis 26.08.2022."
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K810"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, Eschersheimer Landstraße bis Eschenheimer Tor zwischen Bremer Straße und Eschenheimer Turm",
+        "streets": [
+          "K810"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2021-04-20T22:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-08-26T21:59:59Z"
+        },
+        "name": "Dauer",
+        "description": "von 21.04.2021 00:00 Uhr bis 26.08.2022 23:59 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2021-09-14T09:17:57.67Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6056,72 +5900,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/332509_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 332509
-      },
-      "description": [
-        {
-          "value": "Frankfurt und Kreis Groß-Gerau, K823, K152\nzwischen Flughafen Frankfurt Tor 27 und Walldorf\nBaustelle, gesperrt, bis 30.05.2022 23:59 Uhr\nFlughafen, Airportring / Okrifteler Straße, aufgrund von Tunnelarbeiten Vollsperrung der Fahrbahn vom 15.10.2020 bis 30.05.2022."
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "K823, K152"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Frankfurt und Kreis Groß-Gerau, K823, K152 zwischen Flughafen Frankfurt Tor 27 und Walldorf",
-        "streets": [
-          "K823",
-          "K152"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2020-10-14T22:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-05-30T21:59:59Z"
-        },
-        "name": "Dauer",
-        "description": "von 15.10.2020 00:00 Uhr bis 30.05.2022 23:59 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2021-09-14T09:17:02.326Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/372790_LMS-HE/54"
       },
       "dataProducer": {
@@ -6180,6 +5958,72 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-14T09:13:12.111Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/332509_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 332509
+      },
+      "description": [
+        {
+          "value": "Frankfurt und Kreis Groß-Gerau, K823, K152\nzwischen Flughafen Frankfurt Tor 27 und Walldorf\nBaustelle, gesperrt, bis 30.05.2022 23:59 Uhr\nFlughafen, Airportring / Okrifteler Straße, aufgrund von Tunnelarbeiten Vollsperrung der Fahrbahn vom 15.10.2020 bis 30.05.2022."
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K823, K152"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt und Kreis Groß-Gerau, K823, K152 zwischen Flughafen Frankfurt Tor 27 und Walldorf",
+        "streets": [
+          "K823",
+          "K152"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2020-10-14T22:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-05-30T21:59:59Z"
+        },
+        "name": "Dauer",
+        "description": "von 15.10.2020 00:00 Uhr bis 30.05.2022 23:59 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2021-09-14T09:17:02.326Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6711,6 +6555,71 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/464723_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 464723
+      },
+      "description": [
+        {
+          "value": "Frankfurt, L3018\nzwischen A66, Frankfurt am Main-Zeilsheim und Sindlingen\nBaustelle, Fahrbahnverengung, bis 12.02.2022 23:59 Uhr\nZeilsheim, Alt-Zeilsheim 22, aufgrund von Arbeiten an Versorgungsleitungen Teilsperrung der Fahrbahn, Vollsperrung der Gehwege vom 17.01.2022 bis 12.02.2022."
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3018"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, L3018 zwischen A66, Frankfurt am Main-Zeilsheim und Sindlingen",
+        "streets": [
+          "L3018"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-01-16T23:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-02-12T22:59:59Z"
+        },
+        "name": "Dauer",
+        "description": "von 17.01.2022 00:00 Uhr bis 12.02.2022 23:59 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-16T23:00:01.413Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/464724_LMS-HE/54"
       },
       "dataProducer": {
@@ -6833,71 +6742,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-07T18:18:27.101Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/464723_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 464723
-      },
-      "description": [
-        {
-          "value": "Frankfurt, L3018\nzwischen A66, Frankfurt am Main-Zeilsheim und Sindlingen\nBaustelle, Fahrbahnverengung, bis 12.02.2022 23:59 Uhr\nZeilsheim, Alt-Zeilsheim 22, aufgrund von Arbeiten an Versorgungsleitungen Teilsperrung der Fahrbahn, Vollsperrung der Gehwege vom 17.01.2022 bis 12.02.2022."
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3018"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Frankfurt, L3018 zwischen A66, Frankfurt am Main-Zeilsheim und Sindlingen",
-        "streets": [
-          "L3018"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-01-16T23:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-02-12T22:59:59Z"
-        },
-        "name": "Dauer",
-        "description": "von 17.01.2022 00:00 Uhr bis 12.02.2022 23:59 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-16T23:00:01.413Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -7701,71 +7545,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/463438_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 463438
-      },
-      "description": [
-        {
-          "value": "Wetteraukreis, L3195\nzwischen Orleshausen und Calbach\nin beiden Richtungen Baustelle, Richtungsfahrbahn gesperrt, bis 01.04.2022 23:59 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3195"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Wetteraukreis, L3195 zwischen Orleshausen und Calbach",
-        "streets": [
-          "L3195"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-01-11T13:29:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-01T21:59:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 11.01.2022 14:29 Uhr bis 01.04.2022 23:59 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-11T13:29:01.228Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/463279_LMS-HE/54"
       },
       "dataProducer": {
@@ -7823,6 +7602,71 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-10T23:00:01.453Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/463438_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 463438
+      },
+      "description": [
+        {
+          "value": "Wetteraukreis, L3195\nzwischen Orleshausen und Calbach\nin beiden Richtungen Baustelle, Richtungsfahrbahn gesperrt, bis 01.04.2022 23:59 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3195"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Wetteraukreis, L3195 zwischen Orleshausen und Calbach",
+        "streets": [
+          "L3195"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-01-11T13:29:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-01T21:59:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 11.01.2022 14:29 Uhr bis 01.04.2022 23:59 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-11T13:29:01.228Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -8310,6 +8154,64 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_D__HE_FFM-IGLZ/210806733387_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 435604
+      },
+      "description": [
+        {
+          "value": "L3004 Richtung A661\nzwischen Ausfahrt Marie-Curie-Straße in Frankfurt und Überleitung A661, Frankfurt am Main-Heddernheim\nBaustelle, Fahrbahnerneuerung, rechter Fahrstreifen gesperrt, bis 29.10.2022 23:59 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": null
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, Straße zwischen Ausfahrt Marie-Curie-Straße in Frankfurt und Überleitung A661, Frankfurt am Main-Heddernheim",
+        "streets": null
+      },
+      "duration": {
+        "startTime": null,
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-10-29T21:59:59Z"
+        },
+        "name": "Dauer",
+        "description": "bis 29.10.2022 23:59 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2021-10-05T12:46:23.25Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_D__HE_FFM-IGLZ/210813857704_LMS-HE/54"
       },
       "dataProducer": {
@@ -8367,64 +8269,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_D__HE_FFM-IGLZ/210806733387_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 435604
-      },
-      "description": [
-        {
-          "value": "L3004 Richtung A661\nzwischen Ausfahrt Marie-Curie-Straße in Frankfurt und Überleitung A661, Frankfurt am Main-Heddernheim\nBaustelle, Fahrbahnerneuerung, rechter Fahrstreifen gesperrt, bis 29.10.2022 23:59 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": null
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Frankfurt, Straße zwischen Ausfahrt Marie-Curie-Straße in Frankfurt und Überleitung A661, Frankfurt am Main-Heddernheim",
-        "streets": null
-      },
-      "duration": {
-        "startTime": null,
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-10-29T21:59:59Z"
-        },
-        "name": "Dauer",
-        "description": "bis 29.10.2022 23:59 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2021-10-05T12:46:23.25Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
@@ -9097,17 +8941,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/464794_LMS-HE/54"
+        "value": "LMS/r_D__HE_FFM-IGLZ/210819369479_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 464794
+        "value": 471557
       },
       "description": [
         {
-          "value": "Oberbiel, Robert-Kling-Straße\nzwischen Hinterdorf und In der Au\nin beiden Richtungen Baustelle, Richtungsfahrbahn gesperrt, eine örtliche Umleitung ist eingerichtet, bis 18.02.2022 19:00 Uhr"
+          "value": "Frankfurt, Lyoner Straße\nzwischen Straßburger Straße und Goldsteinstraße\nFahrbahnverengung, Baustelle, bis 28.02.2022 23:59 Uhr"
         }
       ],
       "location": {
@@ -9119,20 +8963,20 @@
           }
         ],
         "name": "Ort",
-        "description": "Oberbiel, Robert-Kling-Straße zwischen Hinterdorf und In der Au",
+        "description": "Frankfurt, Lyoner Straße zwischen Straßburger Straße und Goldsteinstraße",
         "streets": null
       },
       "duration": {
         "startTime": {
           "name": "Startzeit",
-          "value": "2022-01-17T06:00:00Z"
+          "value": "2022-02-01T23:00:00Z"
         },
         "endTime": {
           "name": "Endzeit",
-          "value": "2022-02-18T18:00:00Z"
+          "value": "2022-02-28T22:59:59Z"
         },
         "name": "Dauer",
-        "description": "von 17.01.2022 07:00 Uhr bis 18.02.2022 19:00 Uhr"
+        "description": "von 02.02.2022 00:00 Uhr bis 28.02.2022 23:59 Uhr"
       },
       "urgency": {
         "name": "Dringlichkeit",
@@ -9143,16 +8987,13 @@
           "value": "Arbeitsstelle"
         },
         {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Hinweis"
+          "value": "Störung"
         }
       ],
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-17T06:00:01.396Z"
+        "value": "2022-02-07T18:28:24.607Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -9222,6 +9063,70 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/464794_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 464794
+      },
+      "description": [
+        {
+          "value": "Oberbiel, Robert-Kling-Straße\nzwischen Hinterdorf und In der Au\nin beiden Richtungen Baustelle, Richtungsfahrbahn gesperrt, eine örtliche Umleitung ist eingerichtet, bis 18.02.2022 19:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": null
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Oberbiel, Robert-Kling-Straße zwischen Hinterdorf und In der Au",
+        "streets": null
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-01-17T06:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-02-18T18:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 17.01.2022 07:00 Uhr bis 18.02.2022 19:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-01-17T06:00:01.396Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/429314_LMS-HE/54"
       },
       "dataProducer": {
@@ -9275,67 +9180,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-14T22:00:02.84Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_D__HE_FFM-IGLZ/210819369479_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 471557
-      },
-      "description": [
-        {
-          "value": "Frankfurt, Lyoner Straße\nzwischen Straßburger Straße und Goldsteinstraße\nFahrbahnverengung, Baustelle, bis 28.02.2022 23:59 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": null
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Frankfurt, Lyoner Straße zwischen Straßburger Straße und Goldsteinstraße",
-        "streets": null
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-02-01T23:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-02-28T22:59:59Z"
-        },
-        "name": "Dauer",
-        "description": "von 02.02.2022 00:00 Uhr bis 28.02.2022 23:59 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-07T18:28:24.607Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -9405,17 +9249,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_D__HE_FFM-IGLZ/210819466357_LMS-HE/54"
+        "value": "LMS/r_LMS/468997_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 471890
+        "value": 468997
       },
       "description": [
         {
-          "value": "Frankfurt, Neue Mainzer Straße\nzwischen Hofstraße und Junghofstraße\nWanderbaustelle, Fahrbahnverengung, bis 30.11.2027 23:59 Uhr\nInnenstadt, Neue Mainzer Straße 59, Junghofstraße 27, aufgrund von Abriss Gebäude Teilsperrung der Fahrbahn in Richtung Nord-Ost, Teilsperrung der Fahrbahn in Richtung Süd, Vollsperrung der Gehwege in Richtung Nord-Ost, Vollsperrung der Gehwege in Richtung Süd bis 30.11.2027."
+          "value": "Frankfurt, Neue Mainzer Straße\nzwischen Hofstraße und Junghofstraße\nWanderbaustelle, Fahrbahnverengung"
         }
       ],
       "location": {
@@ -9430,18 +9274,7 @@
         "description": "Frankfurt, Neue Mainzer Straße zwischen Hofstraße und Junghofstraße",
         "streets": null
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-01-30T23:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2027-11-30T22:59:59Z"
-        },
-        "name": "Dauer",
-        "description": "von 31.01.2022 00:00 Uhr bis 30.11.2027 23:59 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -9457,7 +9290,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-09T00:04:48.592Z"
+        "value": "2022-01-31T07:00:00.399Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -9527,17 +9360,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/468997_LMS-HE/54"
+        "value": "LMS/r_D__HE_FFM-IGLZ/210819466357_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 468997
+        "value": 471890
       },
       "description": [
         {
-          "value": "Frankfurt, Neue Mainzer Straße\nzwischen Hofstraße und Junghofstraße\nWanderbaustelle, Fahrbahnverengung"
+          "value": "Frankfurt, Neue Mainzer Straße\nzwischen Hofstraße und Junghofstraße\nWanderbaustelle, Fahrbahnverengung, bis 30.11.2027 23:59 Uhr\nInnenstadt, Neue Mainzer Straße 59, Junghofstraße 27, aufgrund von Abriss Gebäude Teilsperrung der Fahrbahn in Richtung Nord-Ost, Teilsperrung der Fahrbahn in Richtung Süd, Vollsperrung der Gehwege in Richtung Nord-Ost, Vollsperrung der Gehwege in Richtung Süd bis 30.11.2027."
         }
       ],
       "location": {
@@ -9552,7 +9385,18 @@
         "description": "Frankfurt, Neue Mainzer Straße zwischen Hofstraße und Junghofstraße",
         "streets": null
       },
-      "duration": null,
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-01-30T23:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2027-11-30T22:59:59Z"
+        },
+        "name": "Dauer",
+        "description": "von 31.01.2022 00:00 Uhr bis 30.11.2027 23:59 Uhr"
+      },
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -9568,7 +9412,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-31T07:00:00.399Z"
+        "value": "2022-02-09T00:04:48.592Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
