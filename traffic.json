@@ -136,60 +136,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/472082_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 472082
-      },
-      "description": [
-        {
-          "value": "A3 Frankfurt Richtung Würzburg\nzwischen Obertshausen und Hanau\nUnfallstelle geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Frankfurt Richtung Würzburg zwischen Obertshausen und Hanau",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Unfall"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-09T17:00:42.317Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/365984_LMS-HE/54"
       },
       "dataProducer": {
@@ -2747,17 +2693,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/472079_LMS-HE/54"
+        "value": "LMS/r_LMS/472084_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 472079
+        "value": 472084
       },
       "description": [
         {
-          "value": "A648, A66 Richtung Frankfurt\nzwischen Frankfurt am Main-Rödelheim und Nordwestkreuz Frankfurt\nUnfallstelle geräumt"
+          "value": "A643 Wiesbaden Richtung Mainz\nzwischen Schiersteiner Kreuz und Wiesbaden-Äppelallee\ndefekter PKW auf dem rechten Fahrstreifen, bitte vorsichtig fahren"
         }
       ],
       "location": {
@@ -2765,16 +2711,15 @@
           {
             "edge": {
               "sortRoadNumber": {
-                "value": "A648, A66"
+                "value": "A643"
               }
             }
           }
         ],
         "name": "Ort",
-        "description": "A648, A66 Richtung Frankfurt zwischen Frankfurt am Main-Rödelheim und Nordwestkreuz Frankfurt",
+        "description": "A643 Wiesbaden Richtung Mainz zwischen Schiersteiner Kreuz und Wiesbaden-Äppelallee",
         "streets": [
-          "A648",
-          "A66"
+          "A643"
         ]
       },
       "duration": null,
@@ -2784,17 +2729,20 @@
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-09T17:02:04.3Z"
+        "value": "2022-02-09T17:07:48.813Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Geändert"
+        "value": "Neu"
       }
     },
     {
