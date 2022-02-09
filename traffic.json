@@ -598,7 +598,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbaden/Niedernhausen und Idstein\nbrennender LKW auf dem rechten Fahrstreifen und dem Standstreifen, Löscharbeiten, Fahrbahn auf einen Fahrstreifen verengt, linker Fahrstreifen wieder befahrbar"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbaden/Niedernhausen und Idstein\nalle Fahrbahnen geräumt, Stau, Staulänge abnehmend"
         }
       ],
       "location": {
@@ -624,16 +624,16 @@
       },
       "eventCategory": [
         {
-          "value": "Störung"
+          "value": "Hindernis"
         },
         {
-          "value": "Sperrung"
+          "value": "Stau"
         }
       ],
-      "masterEventCategory": "Störung",
+      "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-09T03:38:37.726Z"
+        "value": "2022-02-09T08:21:03.556Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1391,57 +1391,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/471954_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 471954
-      },
-      "description": [
-        {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Hünfeld/Schlitz und Fulda-Nord\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A7"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A7 Kassel Richtung Fulda zwischen Hünfeld/Schlitz und Fulda-Nord",
-        "streets": [
-          "A7"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-09T08:14:57.335Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
