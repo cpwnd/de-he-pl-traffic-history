@@ -198,57 +198,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/472066_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 472066
-      },
-      "description": [
-        {
-          "value": "A3 Köln Richtung Würzburg\nzwischen Frankfurter Kreuz und Frankfurt am Main-Süd\nalle Fahrbahnen geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Köln Richtung Würzburg zwischen Frankfurter Kreuz und Frankfurt am Main-Süd",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-09T15:44:41.751Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/462180_LMS-HE/54"
       },
       "dataProducer": {
@@ -1745,17 +1694,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/472069_LMS-HE/54"
+        "value": "LMS/r_LMS/472074_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 472069
+        "value": 472074
       },
       "description": [
         {
-          "value": "A44 Kassel Richtung Dortmund\nzwischen Zierenberg und Breuna\nUnfall auf dem linken Fahrstreifen"
+          "value": "A7 Kassel Richtung Hannover\nzwischen Kassel-Ost und Kassel-Nord\nalle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -1763,15 +1712,15 @@
           {
             "edge": {
               "sortRoadNumber": {
-                "value": "A44"
+                "value": "A7"
               }
             }
           }
         ],
         "name": "Ort",
-        "description": "A44 Kassel Richtung Dortmund zwischen Zierenberg und Breuna",
+        "description": "A7 Kassel Richtung Hannover zwischen Kassel-Ost und Kassel-Nord",
         "streets": [
-          "A44"
+          "A7"
         ]
       },
       "duration": null,
@@ -1781,17 +1730,17 @@
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Hindernis"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-09T15:38:00.573Z"
+        "value": "2022-02-09T16:23:05.508Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3447,6 +3396,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/472073_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 472073
+      },
+      "description": [
+        {
+          "value": "B42 Nieder-Walluf\nzwischen Walluf und Wiesbaden-Frauenstein\nGefahr durch verlorene Ladung (ein Metallteil)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B42"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B42 Nieder-Walluf zwischen Walluf und Wiesbaden-Frauenstein",
+        "streets": [
+          "B42"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-09T15:59:52.171Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
