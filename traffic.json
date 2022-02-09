@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -6433,6 +6433,71 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_D__HE_FFM-IGLZ/210819570470_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 472106
+      },
+      "description": [
+        {
+          "value": "L3002 Wilhelmshöher Straße, Frankfurt-Bornheim Richtung Frankfurt am Main-Bergen-Enkheim\nzwischen Abzweig nach Bergen-Enkheim und Hofhausstraße in Frankfurt\nBaustelle, Fahrbahnverengung, bis 07.03.2022 23:59 Uhr\nSeckbach, Wilhelmshöher Straße 289, Kirchbergweg, aufgrund von Arbeiten an Versorgungsleitungen Teilsperrung der Fahrbahn, Teilsperrung der Fahrbahn, Teilsperrung der Grünanlagen bis 07.03.2022."
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3002"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, Wilhelmshöher Straße zwischen Abzweig nach Bergen-Enkheim und Hofhausstraße in Frankfurt",
+        "streets": [
+          "L3002"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-02-06T23:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-03-07T22:59:59Z"
+        },
+        "name": "Dauer",
+        "description": "von 07.02.2022 00:00 Uhr bis 07.03.2022 23:59 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-09T19:19:25.824Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/381018_LMS-HE/54"
       },
       "dataProducer": {
@@ -9193,6 +9258,67 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-14T22:00:02.84Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_D__HE_FFM-IGLZ/210819570538_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 472107
+      },
+      "description": [
+        {
+          "value": "Frankfurt, Lyoner Straße\nzwischen Straßburger Straße und Goldsteinstraße\nBaustelle, Fahrbahnverengung, bis 28.02.2022 23:59 Uhr\nSchwanheim, Lyoner Straße 13, aufgrund von Baustelleneinrichtungs- und Lagerfläche Teilsperrung der Fahrbahn, Vollsperrung der Gehwege (rechter Gehweg) in Richtung Ost bis 28.02.2022."
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": null
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, Lyoner Straße zwischen Straßburger Straße und Goldsteinstraße",
+        "streets": null
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-02-01T23:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-02-28T22:59:59Z"
+        },
+        "name": "Dauer",
+        "description": "von 02.02.2022 00:00 Uhr bis 28.02.2022 23:59 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-09T19:19:37.184Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
