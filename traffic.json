@@ -468,7 +468,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbaden/Niedernhausen und Wiesbadener Kreuz\nBaustelle, rechter Fahrstreifen gesperrt, bis 10.02.2022 ca. 04:00 Uhr"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbaden/Niedernhausen und Wiesbadener Kreuz\nBaustelle beseitigt"
         }
       ],
       "location": {
@@ -487,18 +487,7 @@
           "A3"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-02-09T19:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-02-10T03:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 09.02.2022 20:00 Uhr bis 10.02.2022 ca. 04:00 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -514,11 +503,11 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-09T19:43:03.62Z"
+        "value": "2022-02-10T03:05:38.608Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1027,122 +1016,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-15T20:00:04.312Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/472101_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 472101
-      },
-      "description": [
-        {
-          "value": "A5 Kassel Richtung Frankfurt\nReiskirchener Dreieck Überleitung zur A480 Richtung Gießen\nBauarbeiten, Richtungsfahrbahn gesperrt, bis 10.02.2022, Di und Mi zwischen 20:00 Uhr und 04:00 Uhr, empfohlene Umleitung: Richtung Gießen"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Kassel Richtung Frankfurt Reiskirchener Dreieck Überleitung zur A480 Richtung Gießen",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-02-08T19:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-02-10T03:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 08.02.2022 bis 10.02.2022, Di und Mi zwischen 20:00 Uhr und 04:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-09T19:00:01.31Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/472143_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 472143
-      },
-      "description": [
-        {
-          "value": "A5 Kassel Richtung Frankfurt\nzwischen Alsfeld-West und Homberg (Ohm)\nGefahr durch ein totes Tier auf der Fahrbahn"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Kassel Richtung Frankfurt zwischen Alsfeld-West und Homberg (Ohm)",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-10T02:04:06.217Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
