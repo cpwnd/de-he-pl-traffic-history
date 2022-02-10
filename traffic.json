@@ -1275,7 +1275,7 @@
       },
       "description": [
         {
-          "value": "A6 Mannheim Richtung Heilbronn\nzwischen Viernheimer Dreieck und Viernheimer Kreuz\nGefahr durch Reifenteile auf der Fahrbahn, defekter LKW auf dem Standstreifen"
+          "value": "A6 Mannheim Richtung Heilbronn\nzwischen Viernheimer Dreieck und Viernheimer Kreuz\ndefekter LKW auf dem Standstreifen"
         }
       ],
       "location": {
@@ -1297,7 +1297,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1307,11 +1307,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-10T16:51:57.922Z"
+        "value": "2022-02-10T18:05:40.256Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -7371,6 +7371,63 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/472374_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 472374
+      },
+      "description": [
+        {
+          "value": "L3134 zwischen Rockenberg und A5, Butzbach\nin beiden Richtungen Unfall, wegen Bergungsarbeiten gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3134"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Wetteraukreis, L3134 zwischen Rockenberg und A5, Butzbach",
+        "streets": [
+          "L3134"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-10T17:44:49.908Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
