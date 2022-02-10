@@ -1755,7 +1755,7 @@
       },
       "description": [
         {
-          "value": "A45 Gießen Richtung Aschaffenburg\nin Höhe Hammersbach\nGefahr durch ungesicherte Unfallstelle auf dem linken Fahrstreifen"
+          "value": "A45 Gießen Richtung Aschaffenburg\nin Höhe Hammersbach\nUnfallaufnahme"
         }
       ],
       "location": {
@@ -1777,21 +1777,21 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Störung"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-10T10:33:32.907Z"
+        "value": "2022-02-10T11:17:14.98Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2736,6 +2736,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-13T10:18:11.076Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/472257_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 472257
+      },
+      "description": [
+        {
+          "value": "A661 Bad Homburg Richtung Darmstadt\nOffenbacher Kreuz Überleitung zur A3 Richtung Frankfurt\nGefahr durch Personen auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A661"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A661 Bad Homburg Richtung Darmstadt Offenbacher Kreuz Überleitung zur A3 Richtung Frankfurt",
+        "streets": [
+          "A661"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-10T11:22:40.242Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3850,6 +3901,63 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/472261_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 472261
+      },
+      "description": [
+        {
+          "value": "B45 Neckarstraße, Michelstadt - Eberbach\nzwischen Erbach und Lauerbach\nin beiden Richtungen Unfall, Richtungsfahrbahn gesperrt, Rettungshubschrauber im Einsatz"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B45 Neckarstraße, Michelstadt Richtung Eberbach zwischen Erbach und Lauerbach",
+        "streets": [
+          "B45"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Information"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-10T11:26:21.009Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/409921_LMS-HE/54"
       },
       "dataProducer": {
@@ -4283,57 +4391,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-02-07T13:51:13.289Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/472245_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 472245
-      },
-      "description": [
-        {
-          "value": "B417 Diez - Wiesbaden\nzwischen Hünfelden-Mensfelden und Kirberg\nin beiden Richtungen Gefahr durch 1 Hund auf der Fahrbahn, Gefahr durch Personen auf der Fahrbahn\n(Es wird durch Passanten versucht den Hund einzufangen...)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B417"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B417 Diez Richtung Wiesbaden zwischen Hünfelden-Mensfelden und Kirberg",
-        "streets": [
-          "B417"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-10T10:19:33.877Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6932,6 +6989,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/472245_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 472245
+      },
+      "description": [
+        {
+          "value": "L3022 Waldbrunn-Ellar - Hühfelden-Kirberg\nzwischen Werschau und Dauborn\nin beiden Richtungen Gefahr durch 1 Hund auf der Fahrbahn, Gefahr durch Personen auf der Fahrbahn\n(Es wird durch Passanten versucht den Hund einzufangen. Hund könnte auch in der Feldgemarkung Richtung A3 laufen)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3022"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Kreis Limburg-Weilburg, L3022 zwischen Werschau und Dauborn",
+        "streets": [
+          "L3022"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-10T11:16:05.745Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
