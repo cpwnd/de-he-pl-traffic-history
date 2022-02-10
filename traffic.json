@@ -981,63 +981,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/472388_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 472388
-      },
-      "description": [
-        {
-          "value": "A5 Heidelberg Richtung Frankfurt\nzwischen Darmstädter Kreuz und Weiterstadt\nUnfall, rechter Fahrstreifen gesperrt, bitte vorsichtig fahren"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Heidelberg Richtung Frankfurt zwischen Darmstädter Kreuz und Weiterstadt",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-10T18:20:31.011Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/364835_LMS-HE/54"
       },
       "dataProducer": {
@@ -2478,6 +2421,71 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/472410_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 472410
+      },
+      "description": [
+        {
+          "value": "A66 Fulda Richtung Frankfurt\nEinfahrt Langenselbold\nBauarbeiten, Einfahrt gesperrt, bis 11.02.2022 05:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Fulda Richtung Frankfurt Einfahrt Langenselbold",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-02-10T20:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-02-11T04:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 10.02.2022 21:00 Uhr bis 11.02.2022 05:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Arbeitsstelle"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-10T20:00:01.3Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/397236_LMS-HE/54"
       },
       "dataProducer": {
@@ -2542,7 +2550,7 @@
       },
       "description": [
         {
-          "value": "A66 Wiesbaden Richtung Frankfurt\nzwischen Frankfurt am Main-Höchst und Eschborn\nGefahr durch ungesicherte Unfallstelle"
+          "value": "A66 Wiesbaden Richtung Frankfurt\nzwischen Frankfurt am Main-Höchst und Eschborn\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -2564,7 +2572,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2574,11 +2582,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-10T18:52:37.39Z"
+        "value": "2022-02-10T20:14:47.913Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2702,6 +2710,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-06T13:00:00.462Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/472412_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 472412
+      },
+      "description": [
+        {
+          "value": "A67 Darmstadt Richtung Mönchhof-Dreieck\nzwischen Rüsselsheim-Ost und Mönchhof-Dreieck\nGefahr durch ungesicherte Unfallstelle"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A67"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A67 Darmstadt Richtung Mönchhof-Dreieck zwischen Rüsselsheim-Ost und Mönchhof-Dreieck",
+        "streets": [
+          "A67"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-10T20:05:41.599Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
