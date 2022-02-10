@@ -2540,57 +2540,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/472400_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 472400
-      },
-      "description": [
-        {
-          "value": "A66 Wiesbaden Richtung Frankfurt\nzwischen Frankfurt am Main-Höchst und Eschborn\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A66"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A66 Wiesbaden Richtung Frankfurt zwischen Frankfurt am Main-Höchst und Eschborn",
-        "streets": [
-          "A66"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-10T20:14:47.913Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/461537_LMS-HE/54"
       },
       "dataProducer": {
@@ -2728,7 +2677,7 @@
       },
       "description": [
         {
-          "value": "A67 Darmstadt Richtung Mönchhof-Dreieck\nzwischen Rüsselsheim-Ost und Mönchhof-Dreieck\nGefahr durch ungesicherte Unfallstelle"
+          "value": "A67 Darmstadt Richtung Mönchhof-Dreieck\nzwischen Rüsselsheimer Dreieck und Rüsselsheim-Ost\nUnfallaufnahme, Fahrbahn auf einen Fahrstreifen verengt, bitte vorsichtig fahren"
         }
       ],
       "location": {
@@ -2742,7 +2691,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A67 Darmstadt Richtung Mönchhof-Dreieck zwischen Rüsselsheim-Ost und Mönchhof-Dreieck",
+        "description": "A67 Darmstadt Richtung Mönchhof-Dreieck zwischen Rüsselsheimer Dreieck und Rüsselsheim-Ost",
         "streets": [
           "A67"
         ]
@@ -2750,21 +2699,24 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Störung"
+        },
+        {
+          "value": "Hinweis"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-10T20:05:41.599Z"
+        "value": "2022-02-10T20:37:44.08Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -8874,7 +8826,7 @@
       },
       "description": [
         {
-          "value": "Wiesbaden\nVermisstenfahndung\n( Seit gestern, 09.02.2022, 23:00 Uhr wird der 21 jährige David DACH aus Kloppenheim vermisst. Herr Dach ist auf Medikamente und ärztliche Hilfe angewiesen. Er wird wie folgt beschrieben:\n184cm groß, sehr schlank und hat eine Glatze.\nEr ist bekleidet mit grauer Hose, grauer Jacke und Springerstiefeln.\nHerr DACH ist der deutschen Sprache nicht mächtig. Er spricht ausschließlich polnisch und englisch.\nBei Hinweisen auf die Person bitte Nachrich an das 4. Polizeirevier in Wiesbaden unter der Nr.: 0611 345 2440 oder den Notruf der Polizei unter der Nr 110.)"
+          "value": "Wiesbaden\nVermisstenfahndung eingestellt"
         }
       ],
       "location": {
@@ -8900,7 +8852,7 @@
       "masterEventCategory": "Information",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-10T15:22:56.077Z"
+        "value": "2022-02-10T20:39:48.138Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
