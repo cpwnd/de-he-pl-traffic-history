@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -1027,57 +1027,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-12-31T04:33:20.613Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/472103_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 472103
-      },
-      "description": [
-        {
-          "value": "A5 Darmstadt - Frankfurt\nzwischen Langen/Mörfelden und Zeppelinheim\nin beiden Richtungen Baustelle\n(Fahrbahnmarkierung in der Baustelle fehlt teilweise)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Darmstadt Richtung Frankfurt zwischen Langen/Mörfelden und Zeppelinheim",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-09T19:35:30.691Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4348,136 +4297,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-02-07T19:00:01.01Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/471568_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 471568
-      },
-      "description": [
-        {
-          "value": "B426 Höchst im Odenwald - Gernsheim\nLohbergtunnel\nin beiden Richtungen Wartungsarbeiten, Tunnel gesperrt, bis 11.02.2022, Mo - Do zwischen 20:00 Uhr und 05:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B426"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B426 Höchst im Odenwald Richtung Gernsheim Lohbergtunnel",
-        "streets": [
-          "B426"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-02-07T19:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-02-11T04:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 07.02.2022 bis 11.02.2022, Mo - Do zwischen 20:00 Uhr und 05:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-08T05:39:55.866Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/472102_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 472102
-      },
-      "description": [
-        {
-          "value": "B426 Höchst im Odenwald - Gernsheim\nLohbergtunnel\nin beiden Richtungen Wartungsarbeiten, Tunnel gesperrt, bis 11.02.2022, Mo - Do zwischen 20:00 Uhr und 05:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B426"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B426 Höchst im Odenwald Richtung Gernsheim Lohbergtunnel",
-        "streets": [
-          "B426"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-02-07T19:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-02-11T04:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 07.02.2022 bis 11.02.2022, Mo - Do zwischen 20:00 Uhr und 05:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-09T19:00:01.31Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
