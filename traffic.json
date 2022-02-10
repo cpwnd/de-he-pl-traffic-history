@@ -2275,7 +2275,7 @@
       },
       "description": [
         {
-          "value": "A66 Wiesbaden Richtung Frankfurt\nzwischen Schiersteiner Kreuz und Wiesbaden-Biebrich\nGefahr durch ein totes Tier auf dem mittleren Fahrstreifen"
+          "value": "A66 Wiesbaden Richtung Frankfurt\nzwischen Schiersteiner Kreuz und Wiesbaden-Biebrich\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -2297,7 +2297,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2307,11 +2307,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-10T07:07:40.624Z"
+        "value": "2022-02-10T08:15:46.449Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4048,6 +4048,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-25T16:00:00.732Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/472202_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 472202
+      },
+      "description": [
+        {
+          "value": "B49 Gießen Richtung Limburg\nzwischen Wetzlar-Garbenheim und Taubensteinbrücke in Wetzlar\nGefahr durch defekten LKW auf dem rechten Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B49"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B49 Gießen Richtung Limburg zwischen Wetzlar-Garbenheim und Taubensteinbrücke in Wetzlar",
+        "streets": [
+          "B49"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-10T08:03:48.443Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
