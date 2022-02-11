@@ -1704,7 +1704,7 @@
       },
       "description": [
         {
-          "value": "A44 Dortmund Richtung Kassel\nzwischen Diemelstadt und Warburg\nGefahr durch Personen auf der Fahrbahn, Gefahr durch unbeleuchtetes Fahrzeug auf der Fahrbahn, Gefahr durch defektes Fahrzeug"
+          "value": "A44 Dortmund Richtung Kassel\nzwischen Diemelstadt und Warburg\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -1726,7 +1726,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1736,11 +1736,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-11T04:33:37.912Z"
+        "value": "2022-02-11T05:20:30.279Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2120,6 +2120,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/472487_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 472487
+      },
+      "description": [
+        {
+          "value": "A49 Kassel Richtung Gießen\nzwischen Felsberg und Gudensberg\nGefahr durch einen Reifen auf dem linken Fahrstreifen, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A49"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A49 Kassel Richtung Gießen zwischen Felsberg und Gudensberg",
+        "streets": [
+          "A49"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-11T05:23:07.014Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -4236,6 +4290,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/471568_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 471568
+      },
+      "description": [
+        {
+          "value": "B426 Höchst im Odenwald - Gernsheim\nLohbergtunnel\nin beiden Richtungen Wartungsarbeiten beendet"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B426"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B426 Höchst im Odenwald Richtung Gernsheim Lohbergtunnel",
+        "streets": [
+          "B426"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-11T05:13:20.48Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
