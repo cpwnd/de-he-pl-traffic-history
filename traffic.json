@@ -649,7 +649,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbadener Kreuz und Raststätte Medenbach Ost\nGefahr durch ungesicherte Unfallstelle"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbadener Kreuz und Raststätte Medenbach Ost\nalle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -671,17 +671,17 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Arbeitsstelle"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-11T21:32:54.039Z"
+        "value": "2022-02-11T23:13:07.722Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1068,6 +1068,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/472790_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 472790
+      },
+      "description": [
+        {
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Bad Homburger Kreuz und Nordwestkreuz Frankfurt\nGefahr durch Reifenteile auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Kassel Richtung Frankfurt zwischen Bad Homburger Kreuz und Nordwestkreuz Frankfurt",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-11T23:14:46.361Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -1582,6 +1633,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-28T20:00:01.686Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/472789_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 472789
+      },
+      "description": [
+        {
+          "value": "A7 Kassel Richtung Fulda\nzwischen Homberg (Efze) und Bad Hersfeld-West\nGefahr durch Metallteile auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Kassel Richtung Fulda zwischen Homberg (Efze) und Bad Hersfeld-West",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-11T23:08:19.961Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3436,6 +3538,71 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-12-17T23:00:01.198Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_D__HE_FFM-IGLZ/210819569933_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 472104
+      },
+      "description": [
+        {
+          "value": "B43 Frankfurt, Schaumainkai\nzwischen Untermainbrücke und Holbeinstraße\nin beiden Richtungen Baustelle, gesperrt, von 12.02.2022 00:00 Uhr bis 13.02.2022 23:59 Uhr\nSachsenhausen-N., Schaumainkai 43, aufgrund von Kran-, Hebe- und Hubsteigerarbeiten Vollsperrung der Fahrbahn in Richtung Nord-Ost, Vollsperrung der Gehwege, Vollsperrung (beide Richtungen) vom 12.02.2022 bis 13.02.2022."
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B43"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B43 Frankfurt, Schaumainkai zwischen Untermainbrücke und Holbeinstraße",
+        "streets": [
+          "B43"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-02-11T23:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-02-13T22:59:59Z"
+        },
+        "name": "Dauer",
+        "description": "von 12.02.2022 00:00 Uhr bis 13.02.2022 23:59 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-09T19:19:09.258Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -9386,6 +9553,67 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_D__HE_FFM-IGLZ/210818354242_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 472500
+      },
+      "description": [
+        {
+          "value": "Frankfurt, Hanauer Landstraße\nzwischen Honsellstraße und A661, B40, B8, Frankfurt am Main-Ost\nBaustelle, Fahrbahn auf einen Fahrstreifen verengt, von 12.02.2022 00:00 Uhr bis 13.02.2022 23:59 Uhr\nOstend, Hanauer Landstraße, Ratsweg, aufgrund von Gleisbauarbeiten Teilsperrung der Fahrbahn im Ratswegkreisel in Fahrtrichtung Westen, Osten und Süden. Ortskundige werden gebeten den Bereich weiträumig zu umfahren. Vom 12.02.2022 bis 13.02.2022."
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": null
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, Hanauer Landstraße zwischen Honsellstraße und A661, B40, B8, Frankfurt am Main-Ost",
+        "streets": null
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-02-11T23:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-02-13T22:59:59Z"
+        },
+        "name": "Dauer",
+        "description": "von 12.02.2022 00:00 Uhr bis 13.02.2022 23:59 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-11T06:26:30.268Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
