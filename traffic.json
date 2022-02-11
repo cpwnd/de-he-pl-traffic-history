@@ -2750,6 +2750,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/472759_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 472759
+      },
+      "description": [
+        {
+          "value": "A643 Wiesbaden - Mainz\nzwischen Schiersteiner Kreuz und Dreieck Mainz\nin beiden Richtungen Achtung, Ihnen kommt ein Falschfahrer entgegen, nicht überholen, Vorsicht auf beiden Richtungsfahrbahnen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A643"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A643 Wiesbaden Richtung Mainz zwischen Schiersteiner Kreuz und Dreieck Mainz",
+        "streets": [
+          "A643"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Sehr dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-11T19:15:29.836Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/430914_LMS-HE/54"
       },
       "dataProducer": {
@@ -4229,57 +4280,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/472752_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 472752
-      },
-      "description": [
-        {
-          "value": "B455 Mainz-Kastel Richtung Königstein\nzwischen A671, Mainz-Kastel und A66, Wiesbaden-Erbenheim\nHindernisse beseitigt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B455"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B455 Mainz-Kastel Richtung Königstein zwischen A671, Mainz-Kastel und A66, Wiesbaden-Erbenheim",
-        "streets": [
-          "B455"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-11T18:58:41.288Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -7095,7 +7095,7 @@
       },
       "description": [
         {
-          "value": "L3170 zwischen Eitra und Abzweig nach Bodes\nin beiden Richtungen Unfall mit Verletzten, Richtungsfahrbahn gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+          "value": "L3170 zwischen Eitra und Abzweig nach Bodes\nin beiden Richtungen Unfallstelle geräumt"
         }
       ],
       "location": {
@@ -7133,11 +7133,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-11T18:13:39.549Z"
+        "value": "2022-02-11T19:17:44.722Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
