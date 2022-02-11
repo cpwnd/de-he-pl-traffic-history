@@ -1694,6 +1694,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/472534_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 472534
+      },
+      "description": [
+        {
+          "value": "A44 Kassel Richtung Dortmund\nzwischen Breuna und Warburg\nGefahr durch Gegenstände auf der Fahrbahn\n(eine Stange)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A44"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A44 Kassel Richtung Dortmund zwischen Breuna und Warburg",
+        "streets": [
+          "A44"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-11T07:53:06.684Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/398575_LMS-HE/54"
       },
       "dataProducer": {
@@ -3014,138 +3065,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-18T19:38:36.709Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/374119_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 374119
-      },
-      "description": [
-        {
-          "value": "B40, B8 Frankfurt, Adickesallee\nzwischen Eckenheimer Landstraße und Eschersheimer Landstraße\nBaustelle, rechter Fahrstreifen gesperrt, bis 31.03.2022 23:59 Uhr\nNordend-West, Adickesallee / Stichstraße, aufgrund von Baustelleneinrichtungs- und Lagerfläche Teilsperrung der Fahrbahn, Vollsperrung der Gehwege vom 06.04.2021 bis 31.03.2022."
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B40, B8"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B40, B8 Frankfurt, Adickesallee zwischen Eckenheimer Landstraße und Eschersheimer Landstraße",
-        "streets": [
-          "B40",
-          "B8"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2021-04-05T22:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-03-31T21:59:59Z"
-        },
-        "name": "Dauer",
-        "description": "von 06.04.2021 00:00 Uhr bis 31.03.2022 23:59 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2021-09-14T09:13:43.54Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/374115_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 374115
-      },
-      "description": [
-        {
-          "value": "B40, B8 Frankfurt, Adickesallee\nzwischen Eckenheimer Landstraße und Eschersheimer Landstraße\nBaustelle, rechter Fahrstreifen gesperrt, bis 31.03.2022 23:59 Uhr\nNordend-West, Adickesallee / Stichstraße, aufgrund von Baustelleneinrichtungs- und Lagerfläche Teilsperrung der Fahrbahn, Vollsperrung der Gehwege vom 06.04.2021 bis 31.03.2022."
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B40, B8"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B40, B8 Frankfurt, Adickesallee zwischen Eckenheimer Landstraße und Eschersheimer Landstraße",
-        "streets": [
-          "B40",
-          "B8"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2021-04-05T22:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-03-31T21:59:59Z"
-        },
-        "name": "Dauer",
-        "description": "von 06.04.2021 00:00 Uhr bis 31.03.2022 23:59 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2021-09-14T09:17:14.163Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -7512,6 +7431,69 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/472539_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 472539
+      },
+      "description": [
+        {
+          "value": "L3208 Rotenburg an der Fulda, Brücke der Städtepartnerschaften\nzwischen Untertor und Lindenstraße\nin beiden Richtungen Unfall, vorübergehende Begrenzung der Breite, gesperrt für LKW über 3,5 t, Stau, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3208"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Rotenburg an der Fulda, Brücke der Städtepartnerschaften zwischen Untertor und Lindenstraße",
+        "streets": [
+          "L3208"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Beschränkung"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Stau"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-11T08:08:57.012Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
