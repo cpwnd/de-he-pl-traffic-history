@@ -509,17 +509,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/472630_LMS-HE/54"
+        "value": "LMS/r_LMS/472644_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 472630
+        "value": 472644
       },
       "description": [
         {
-          "value": "A3 Würzburg Richtung Frankfurt\nzwischen Obertshausen und Offenbach\nGefahr durch Spanngurte auf der Fahrbahn"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Frankfurt am Main-Süd und Frankfurter Kreuz\nGefahr durch defektes Fahrzeug auf dem rechten Fahrstreifen"
         }
       ],
       "location": {
@@ -533,7 +533,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A3 Würzburg Richtung Frankfurt zwischen Obertshausen und Offenbach",
+        "description": "A3 Frankfurt Richtung Köln zwischen Frankfurt am Main-Süd und Frankfurter Kreuz",
         "streets": [
           "A3"
         ]
@@ -551,7 +551,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-11T12:18:46.96Z"
+        "value": "2022-02-11T13:05:15.402Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1068,6 +1068,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/472645_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 472645
+      },
+      "description": [
+        {
+          "value": "A5 Darmstadt Richtung Heidelberg\nzwischen Zwingenberg und Bensheim\nGefahr durch ungesicherte Unfallstelle auf dem linken Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Darmstadt Richtung Heidelberg zwischen Zwingenberg und Bensheim",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-11T13:06:10.051Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
