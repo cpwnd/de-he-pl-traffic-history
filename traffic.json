@@ -4301,71 +4301,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/468005_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 468005
-      },
-      "description": [
-        {
-          "value": "Kreis Fulda, K126\nzwischen Mittelaschenbach und Abzweig nach Reinhards\nin beiden Richtungen Baumfällarbeiten, Richtungsfahrbahn gesperrt, bis 11.02.2022 19:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "K126"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Kreis Fulda, K126 zwischen Mittelaschenbach und Abzweig nach Reinhards",
-        "streets": [
-          "K126"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-01-28T06:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-02-11T18:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 28.01.2022 07:00 Uhr bis 11.02.2022 19:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-28T06:00:01.222Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/463326_LMS-HE/54"
       },
       "dataProducer": {
@@ -7207,6 +7142,63 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-22T05:00:00.792Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/472745_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 472745
+      },
+      "description": [
+        {
+          "value": "L3170 zwischen Eitra und Abzweig nach Bodes\nin beiden Richtungen Unfall mit Verletzten, Richtungsfahrbahn gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3170"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Kreis Hersfeld-Rotenburg, L3170 zwischen Eitra und Abzweig nach Bodes",
+        "streets": [
+          "L3170"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-11T18:13:39.549Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
