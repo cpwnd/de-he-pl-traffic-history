@@ -458,6 +458,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/472774_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 472774
+      },
+      "description": [
+        {
+          "value": "A3 Würzburg Richtung Frankfurt\nzwischen Offenbach und Frankfurt am Main-Süd\nGefahr durch defektes Fahrzeug auf dem linken Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Würzburg Richtung Frankfurt zwischen Offenbach und Frankfurt am Main-Süd",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-11T21:08:50.461Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/461440_LMS-HE/54"
       },
       "dataProducer": {
@@ -2365,60 +2416,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-14T09:08:53.888Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/472734_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 472734
-      },
-      "description": [
-        {
-          "value": "A66 Frankfurt Richtung Fulda\nzwischen Überleitung Langenselbolder Dreieck und Langenselbold\nalle Fahrbahnen geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A66"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A66 Frankfurt Richtung Fulda zwischen Überleitung Langenselbolder Dreieck und Langenselbold",
-        "streets": [
-          "A66"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-11T20:31:48.524Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6707,7 +6704,7 @@
       },
       "description": [
         {
-          "value": "L3031, L3277 Aarbergen Richtung Bad Camberg\nzwischen Überleitung Auf dem Hohlenberg und Beuerbach\nUnfall"
+          "value": "L3031 Aarbergen Richtung Bad Camberg\nzwischen Abzweig nach Ohren und Abzweig nach Beuerbach\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -6715,16 +6712,15 @@
           {
             "edge": {
               "sortRoadNumber": {
-                "value": "L3031, L3277"
+                "value": "L3031"
               }
             }
           }
         ],
         "name": "Ort",
-        "description": "Rheingau-Taunus-Kreis, L3031, L3277 zwischen Überleitung Auf dem Hohlenberg und Beuerbach",
+        "description": "Rheingau-Taunus-Kreis, L3031 zwischen Abzweig nach Ohren und Abzweig nach Beuerbach",
         "streets": [
-          "L3031",
-          "L3277"
+          "L3031"
         ]
       },
       "duration": null,
@@ -6740,11 +6736,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-11T20:34:27.352Z"
+        "value": "2022-02-11T21:04:20.029Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
