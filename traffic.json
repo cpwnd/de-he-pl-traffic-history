@@ -458,17 +458,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/472774_LMS-HE/54"
+        "value": "LMS/r_LMS/472777_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 472774
+        "value": 472777
       },
       "description": [
         {
-          "value": "A3 Würzburg Richtung Frankfurt\nzwischen Offenbach und Frankfurt am Main-Süd\nGefahr durch defektes Fahrzeug auf dem linken Fahrstreifen"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Raststätte Medenbach West und Wiesbadener Kreuz\nBaustelle auf dem rechten und dem mittleren Fahrstreifen"
         }
       ],
       "location": {
@@ -482,7 +482,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A3 Würzburg Richtung Frankfurt zwischen Offenbach und Frankfurt am Main-Süd",
+        "description": "A3 Köln Richtung Frankfurt zwischen Raststätte Medenbach West und Wiesbadener Kreuz",
         "streets": [
           "A3"
         ]
@@ -490,17 +490,17 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Hindernis"
+          "value": "Arbeitsstelle"
         }
       ],
-      "masterEventCategory": "Hindernis",
+      "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-11T21:08:50.461Z"
+        "value": "2022-02-11T21:17:27.131Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -887,6 +887,59 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/472774_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 472774
+      },
+      "description": [
+        {
+          "value": "A3, B43, B44 Würzburg Richtung Offenbach\nzwischen Offenbacher Kreuz und Frankfurt am Main-Oberforsthaus\nGefahr durch defektes Fahrzeug auf dem linken Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3, B43, B44"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3, B43, B44 Würzburg Richtung Offenbach zwischen Offenbacher Kreuz und Frankfurt am Main-Oberforsthaus",
+        "streets": [
+          "A3",
+          "B43",
+          "B44"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-11T21:14:39.887Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -6686,57 +6739,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-14T09:11:10.46Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/472770_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 472770
-      },
-      "description": [
-        {
-          "value": "L3031 Aarbergen Richtung Bad Camberg\nzwischen Abzweig nach Ohren und Abzweig nach Beuerbach\nUnfallstelle geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3031"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Rheingau-Taunus-Kreis, L3031 zwischen Abzweig nach Ohren und Abzweig nach Beuerbach",
-        "streets": [
-          "L3031"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-11T21:04:20.029Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
