@@ -1694,6 +1694,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/472838_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 472838
+      },
+      "description": [
+        {
+          "value": "A7 Kassel Richtung Hannover\nzwischen Kassel-Nord und Hann. Münden/Lutterberg\nGefahr durch Gegenstände auf dem mittleren Fahrstreifen (eine Holzpalette)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Kassel Richtung Hannover zwischen Kassel-Nord und Hann. Münden/Lutterberg",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-12T08:14:00.097Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/398575_LMS-HE/54"
       },
       "dataProducer": {
@@ -2714,7 +2765,7 @@
       },
       "description": [
         {
-          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Kaiserleibrücke und Frankfurt am Main-Ost\nUnfallaufnahme auf dem rechten Fahrstreifen, Gefahr, rechter Fahrstreifen gesperrt, wegen Bergungsarbeiten gesperrt, Glatteisgefahr, erhöhte Unfallgefahr, fahren Sie bitte besonders vorsichtig\n(Zubringer auf die A 661 ab Offenbacher Kaiserlei bis auf weiteres wg. Bergungsarbeiten gesperrt)"
+          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Kaiserleibrücke und Frankfurt am Main-Ost\nGefahr durch Bergungsarbeiten, rechter Fahrstreifen gesperrt, fahren Sie bitte besonders vorsichtig"
         }
       ],
       "location": {
@@ -2740,25 +2791,19 @@
       },
       "eventCategory": [
         {
-          "value": "Störung"
-        },
-        {
           "value": "Sperrung"
-        },
-        {
-          "value": "Straßenzustand"
         },
         {
           "value": "Hinweis"
         },
         {
-          "value": "Information"
+          "value": "Arbeitsstelle"
         }
       ],
-      "masterEventCategory": "Störung",
+      "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-12T07:14:36.768Z"
+        "value": "2022-02-12T08:12:42.314Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -7874,7 +7919,7 @@
       },
       "description": [
         {
-          "value": "Odenwaldkreis\nGefahr von Straßenglätte, bitte vorsichtig fahren\n(im Bereich Oberzent, Bergstraße und Erbach, sowie insbesondere in den Höhenlagen ist weiträumig mit Straßenglätte zu rechnen. Fahren Sie bitte vorsichtig)"
+          "value": "Odenwaldkreis\nStraßenverhältnisse haben sich wieder gebessert"
         }
       ],
       "location": {
@@ -7890,7 +7935,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -7903,7 +7948,7 @@
       "masterEventCategory": "Straßenzustand",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-11T19:30:11.197Z"
+        "value": "2022-02-12T08:12:58.478Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
