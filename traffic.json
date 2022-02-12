@@ -588,6 +588,66 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/472921_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 472921
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Limburg-Nord und Diez\nStau zu erwarten, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, Rettungshubschrauber im Einsatz, Richtungsfahrbahn vorübergehend gesperrt\n(Sperrung A3 ab Höhe Diez Ri. Köln)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Köln zwischen Limburg-Nord und Diez",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Stau"
+        },
+        {
+          "value": "Hinweis"
+        },
+        {
+          "value": "Information"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Stau",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-12T13:33:53.486Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/461444_LMS-HE/54"
       },
       "dataProducer": {
@@ -9613,7 +9673,7 @@
       },
       "description": [
         {
-          "value": "Wasserkuppe\nin Höhe Abzweig nach Abtsroda\nhohe Besucherzahlen, Parkplatz besetzt, alle Zufahrtstraßen gesperrt, bis 12.02.2022\n( alle Parkplätze belegt / Zufahrt zur Wasserkuppe ist gesperrt )"
+          "value": "Wasserkuppe\nin Höhe Abzweig nach Abtsroda\nhohe Besucherzahlen, alle Parkplätze weitgehend besetzt, bis 12.02.2022\n( Zufahrt Waserkuppe wieder frei; dennoch alle Parkplätze stark ausgelastet)"
         }
       ],
       "location": {
@@ -9650,15 +9710,12 @@
         },
         {
           "value": "Parken"
-        },
-        {
-          "value": "Sperrung"
         }
       ],
       "masterEventCategory": "Information",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-12T09:39:37.982Z"
+        "value": "2022-02-12T13:40:50.026Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
