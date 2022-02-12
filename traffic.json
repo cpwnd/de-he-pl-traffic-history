@@ -1704,7 +1704,7 @@
       },
       "description": [
         {
-          "value": "A7 Kassel Richtung Hannover\nzwischen Kassel-Nord und Hann. Münden/Lutterberg\nUnfallaufnahme auf dem Standstreifen, Gefahr"
+          "value": "A7 Kassel Richtung Hannover\nzwischen Kassel-Nord und Hann. Münden/Lutterberg\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -1726,7 +1726,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1736,11 +1736,62 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-12T08:27:31.381Z"
+        "value": "2022-02-12T08:33:15.965Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/472843_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 472843
+      },
+      "description": [
+        {
+          "value": "A45 Gießen Richtung Aschaffenburg\nzwischen Florstadt und Altenstadt\nGefahr durch defektes Fahrzeug auf dem rechten Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A45 Gießen Richtung Aschaffenburg zwischen Florstadt und Altenstadt",
+        "streets": [
+          "A45"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-12T08:32:17.991Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
