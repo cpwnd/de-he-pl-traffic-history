@@ -2398,6 +2398,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/472979_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 472979
+      },
+      "description": [
+        {
+          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Eschborn und Frankfurt am Main-Höchst\nGefahr durch ein totes Tier auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Frankfurt Richtung Wiesbaden zwischen Eschborn und Frankfurt am Main-Höchst",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-12T23:01:10.194Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/397236_LMS-HE/54"
       },
       "dataProducer": {
@@ -4900,71 +4951,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/468925_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 468925
-      },
-      "description": [
-        {
-          "value": "Frankfurt, Mainzer Landstraße\nzwischen Waldschulstraße und Schmidtstraße\nBaustelle, rechter Fahrstreifen gesperrt, bis 12.02.2022 23:59 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "K803"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Frankfurt, Mainzer Landstraße zwischen Waldschulstraße und Schmidtstraße",
-        "streets": [
-          "K803"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-01-30T23:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-02-12T22:59:59Z"
-        },
-        "name": "Dauer",
-        "description": "von 31.01.2022 00:00 Uhr bis 12.02.2022 23:59 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-30T23:00:02.273Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/421738_LMS-HE/54"
       },
       "dataProducer": {
@@ -6328,136 +6314,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/464723_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 464723
-      },
-      "description": [
-        {
-          "value": "Frankfurt, L3018\nzwischen A66, Frankfurt am Main-Zeilsheim und Sindlingen\nBaustelle, Fahrbahnverengung, bis 12.02.2022 23:59 Uhr\nZeilsheim, Alt-Zeilsheim 22, aufgrund von Arbeiten an Versorgungsleitungen Teilsperrung der Fahrbahn, Vollsperrung der Gehwege vom 17.01.2022 bis 12.02.2022."
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3018"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Frankfurt, L3018 zwischen A66, Frankfurt am Main-Zeilsheim und Sindlingen",
-        "streets": [
-          "L3018"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-01-16T23:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-02-12T22:59:59Z"
-        },
-        "name": "Dauer",
-        "description": "von 17.01.2022 00:00 Uhr bis 12.02.2022 23:59 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-16T23:00:01.413Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/464724_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 464724
-      },
-      "description": [
-        {
-          "value": "Frankfurt, L3018\nzwischen A66, Frankfurt am Main-Zeilsheim und Sindlingen\nBaustelle, Fahrbahnverengung, bis 12.02.2022 23:59 Uhr\nZeilsheim, Alt-Zeilsheim 22, aufgrund von Arbeiten an Versorgungsleitungen Teilsperrung der Fahrbahn. Der Fahrverkehr wird wechselseitig mit einer Ampel an der Baustelle vorbei geführt. Teilsperrung der Gehwege vom 17.01.2022 bis 12.02.2022."
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3018"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Frankfurt, L3018 zwischen A66, Frankfurt am Main-Zeilsheim und Sindlingen",
-        "streets": [
-          "L3018"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-01-16T23:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-02-12T22:59:59Z"
-        },
-        "name": "Dauer",
-        "description": "von 17.01.2022 00:00 Uhr bis 12.02.2022 23:59 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-16T23:00:01.413Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
