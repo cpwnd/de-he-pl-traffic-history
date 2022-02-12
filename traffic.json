@@ -2714,7 +2714,7 @@
       },
       "description": [
         {
-          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Kaiserleibrücke und Frankfurt am Main-Ost\nGefahr durch Bergungsarbeiten, rechter Fahrstreifen gesperrt, fahren Sie bitte besonders vorsichtig"
+          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Kaiserleibrücke und Frankfurt am Main-Ost\nAufräumarbeiten auf dem rechten Fahrstreifen, rechter Fahrstreifen gesperrt, fahren Sie bitte besonders vorsichtig, bis 12.02.2022"
         }
       ],
       "location": {
@@ -2733,10 +2733,21 @@
           "A661"
         ]
       },
-      "duration": null,
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-02-12T06:45:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-02-12T22:59:00Z"
+        },
+        "name": "Dauer",
+        "description": "am 12.02.2022 ab 07:45 Uhr"
+      },
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2746,13 +2757,13 @@
           "value": "Hinweis"
         },
         {
-          "value": "Arbeitsstelle"
+          "value": "Störung"
         }
       ],
       "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-12T08:12:42.314Z"
+        "value": "2022-02-12T09:24:02.446Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -9530,6 +9541,67 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-21T09:15:16.362Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/472853_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 472853
+      },
+      "description": [
+        {
+          "value": "Wasserkuppe\nin Höhe Abzweig nach Abtsroda\nhohe Besucherzahlen, Parkplatz besetzt, Parkplatz zu 70 % besetzt, bis 12.02.2022\n( alle Parkplätze belegt, lediglich P 2 - bis 70 % ausgelastet) "
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": null
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Kreis Fulda, Wasserkuppe in Höhe Abzweig nach Abtsroda",
+        "streets": null
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-02-12T09:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-02-12T22:59:00Z"
+        },
+        "name": "Dauer",
+        "description": "am 12.02.2022 ab ca. 10:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Information"
+        },
+        {
+          "value": "Parken"
+        }
+      ],
+      "masterEventCategory": "Information",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-12T09:19:15.881Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
