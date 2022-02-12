@@ -2265,57 +2265,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/472819_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 472819
-      },
-      "description": [
-        {
-          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Wiesbaden-Erbenheim und Wiesbaden-Mainzer Straße\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A66"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A66 Frankfurt Richtung Wiesbaden zwischen Wiesbaden-Erbenheim und Wiesbaden-Mainzer Straße",
-        "streets": [
-          "A66"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-12T06:43:11.182Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/397236_LMS-HE/54"
       },
       "dataProducer": {
@@ -2362,60 +2311,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-14T09:08:53.888Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/472821_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 472821
-      },
-      "description": [
-        {
-          "value": "A67 Mannheim Richtung Darmstadt\nzwischen Viernheimer Dreieck und Lorsch\nHindernisse beseitigt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A67"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A67 Mannheim Richtung Darmstadt zwischen Viernheimer Dreieck und Lorsch",
-        "streets": [
-          "A67"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-12T06:38:30.381Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2819,7 +2714,7 @@
       },
       "description": [
         {
-          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Kaiserleibrücke und Frankfurt am Main-Ost\nGefahr durch ungesicherte Unfallstelle, Gefahr durch Fahrzeugteile auf der Fahrbahn, Glatteisgefahr, fahren Sie bitte besonders vorsichtig"
+          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Kaiserleibrücke und Frankfurt am Main-Ost\nUnfallaufnahme auf dem rechten Fahrstreifen, Gefahr, rechter Fahrstreifen gesperrt, wegen Bergungsarbeiten gesperrt, Glatteisgefahr, erhöhte Unfallgefahr, fahren Sie bitte besonders vorsichtig\n(Zubringer auf die A 661 ab Offenbacher Kaiserlei bis auf weiteres wg. Bergungsarbeiten gesperrt)"
         }
       ],
       "location": {
@@ -2845,22 +2740,25 @@
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Störung"
         },
         {
-          "value": "Hindernis"
+          "value": "Sperrung"
         },
         {
           "value": "Straßenzustand"
         },
         {
           "value": "Hinweis"
+        },
+        {
+          "value": "Information"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-12T06:42:20.591Z"
+        "value": "2022-02-12T07:14:36.768Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
