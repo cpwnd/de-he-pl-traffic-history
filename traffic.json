@@ -1628,7 +1628,7 @@
       },
       "description": [
         {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Homberg (Efze) und Bad Hersfeld-West\nGefahr durch Gegenstände auf der Fahrbahn (eine Stoßstange)"
+          "value": "A7 Kassel Richtung Fulda\nzwischen Homberg (Efze) und Bad Hersfeld-West\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -1650,7 +1650,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1660,11 +1660,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-13T10:19:59.667Z"
+        "value": "2022-02-13T10:59:12.53Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2546,57 +2546,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-14T09:08:53.888Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/473027_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 473027
-      },
-      "description": [
-        {
-          "value": "A66 Wiesbaden Richtung Frankfurt\nzwischen Frankfurt am Main-Höchst und Eschborn\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A66"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A66 Wiesbaden Richtung Frankfurt zwischen Frankfurt am Main-Höchst und Eschborn",
-        "streets": [
-          "A66"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-13T10:44:49.829Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6984,60 +6933,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/473013_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 473013
-      },
-      "description": [
-        {
-          "value": "L3065 Brensbach - Groß-Umstadt\nzwischen B426 in Lengfeld und Ausfahrt B45\nin beiden Richtungen Straße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3065"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Kreis Darmstadt-Dieburg, L3065 zwischen B426 in Lengfeld und Ausfahrt B45",
-        "streets": [
-          "L3065"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-13T10:41:50.273Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/464788_LMS-HE/54"
       },
       "dataProducer": {
@@ -8099,6 +7994,54 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-05T12:46:23.25Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/473035_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 473035
+      },
+      "description": [
+        {
+          "value": "Hoherodskopf\nalle Parkplätze besetzt, alle Zufahrtstraßen gesperrt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": null
+          }
+        ],
+        "name": "Ort",
+        "description": "Hoherodskopf",
+        "streets": null
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Parken"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Parken",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-13T10:57:16.905Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
