@@ -598,7 +598,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Bad Camberg und Limburg-Süd\nGefahr durch Personen auf der Fahrbahn, Gefahr durch defektes Fahrzeug auf dem Standstreifen\n125394"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Bad Camberg und Limburg-Süd\nalle Fahrbahnen wieder frei"
         }
       ],
       "location": {
@@ -620,7 +620,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -630,11 +630,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-13T12:50:31.013Z"
+        "value": "2022-02-13T14:39:00.805Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1755,7 +1755,7 @@
       },
       "description": [
         {
-          "value": "A7 Fulda Richtung Kassel\nzwischen Kirchheimer Dreieck und Bad Hersfeld-West\nGefahr durch 1 defektes Fahrzeug auf dem Standstreifen, Gefahr durch 1 Person auf der Fahrbahn"
+          "value": "A7 Fulda Richtung Kassel\nzwischen Kirchheimer Dreieck und Bad Hersfeld-West\nGefahr durch 1 defektes Fahrzeug auf dem Standstreifen im Kurvenbereich"
         }
       ],
       "location": {
@@ -1787,11 +1787,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-13T13:43:53.285Z"
+        "value": "2022-02-13T14:30:13.496Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3062,6 +3062,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/473074_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 473074
+      },
+      "description": [
+        {
+          "value": "B38 Reichelsheim Richtung Kreuz Weinheim\nzwischen Mörlenbach und Saukopftunnel\nGefahr durch 1 defektes Fahrzeug"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B38"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B38 Reichelsheim Richtung Kreuz Weinheim zwischen Mörlenbach und Saukopftunnel",
+        "streets": [
+          "B38"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-13T14:34:48.372Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_D__HE_FFM-IGLZ/210817370733_LMS-HE/54"
       },
       "dataProducer": {
@@ -4155,63 +4206,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/473018_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 473018
-      },
-      "description": [
-        {
-          "value": "B275 Usingen - Bad Schwalbach\nzwischen B275 und Reichenbach\nin beiden Richtungen Straße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B275"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B275 Usingen Richtung Bad Schwalbach zwischen B275 und Reichenbach",
-        "streets": [
-          "B275"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-13T14:19:54.379Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -6617,7 +6611,7 @@
       },
       "description": [
         {
-          "value": "L3044 Driedorf - Löhnberg\nzwischen Obershausen und Niedershausen\nin beiden Richtungen Gefahr durch 1 Person auf der Fahrbahn"
+          "value": "L3044 Driedorf - Löhnberg\nzwischen Obershausen und Niedershausen\nin beiden Richtungen Gefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -6639,7 +6633,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -6649,11 +6643,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-13T14:15:39.711Z"
+        "value": "2022-02-13T14:43:36.267Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
