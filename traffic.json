@@ -861,7 +861,7 @@
       },
       "description": [
         {
-          "value": "A4 Bad Hersfeld Richtung Erfurt\nzwischen Kirchheimer Dreieck und Bad Hersfeld\nUnfall, rechter Fahrstreifen blockiert"
+          "value": "A4 Bad Hersfeld Richtung Erfurt\nzwischen Kirchheimer Dreieck und Bad Hersfeld\nStau, vorausgegangener Unfall, Unfallstelle geräumt"
         }
       ],
       "location": {
@@ -887,16 +887,16 @@
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Stau"
         },
         {
-          "value": "Störung"
+          "value": "Unfall"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Stau",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-13T16:19:03.959Z"
+        "value": "2022-02-13T19:31:40.17Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2754,57 +2754,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/473129_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 473129
-      },
-      "description": [
-        {
-          "value": "A661 Bad Homburg - Darmstadt\nzwischen Oberursel und Bad Homburger Kreuz\nin beiden Richtungen Gefahr durch Wildschweine auf der Fahrbahn"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A661"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A661 Bad Homburg Richtung Darmstadt zwischen Oberursel und Bad Homburger Kreuz",
-        "streets": [
-          "A661"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-13T19:05:32.921Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
