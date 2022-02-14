@@ -916,6 +916,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/473313_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 473313
+      },
+      "description": [
+        {
+          "value": "A5 Darmstadt Richtung Heidelberg\nzwischen Darmstadt-Eberstadt und Seeheim-Jugenheim\nGefahr besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Darmstadt Richtung Heidelberg zwischen Darmstadt-Eberstadt und Seeheim-Jugenheim",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-14T12:47:21.727Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/338932_LMS-HE/54"
       },
       "dataProducer": {
@@ -4121,6 +4172,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/473319_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 473319
+      },
+      "description": [
+        {
+          "value": "B453 Biedenkopf - Dautphetal\nzwischen Biedenkopf-Eckelshausen und Dautphe\nin beiden Richtungen Unfall mit LKW, Ölspur, empfohlene Umleitungen: Richtung Dautphetal über Eckelshausen, B62, Friedensdorf, Damshausen, Diedenshausen, Sinkershausen und Bellnhausen, Richtung Biedenkopf über Dautphe, Friedensdorf, B62 und Eckelshausen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B453"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B453 Biedenkopf Richtung Dautphetal zwischen Biedenkopf-Eckelshausen und Dautphe",
+        "streets": [
+          "B453"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-14T12:46:43.952Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -8262,64 +8367,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/473290_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 473290
-      },
-      "description": [
-        {
-          "value": "Wiesbaden, Waldstraße bis Marktplatz\nzwischen Dostojewskistraße und Schlossplatz\nDemonstration um 13:00 Uhr, Verkehrsbehinderung, bis 14.02.2022 17:00 Uhr\n(Aufzug geplant von 13:00 bis 17:00 Uhr)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": null
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Wiesbaden, Waldstraße bis Marktplatz zwischen Dostojewskistraße und Schlossplatz",
-        "streets": null
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-02-14T11:20:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-02-14T16:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "am 14.02.2022 von 12:20 Uhr bis 17:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-14T11:20:01.629Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
