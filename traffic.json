@@ -588,6 +588,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/473233_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 473233
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt - Köln\nzwischen Bad Camberg und Limburg-Süd\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Köln zwischen Bad Camberg und Limburg-Süd",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-14T08:16:07.014Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/461444_LMS-HE/54"
       },
       "dataProducer": {
@@ -1300,6 +1351,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/473223_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 473223
+      },
+      "description": [
+        {
+          "value": "A7 Kassel Richtung Fulda\nzwischen Niederaula und Hünfeld/Schlitz\nGefahr besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Kassel Richtung Fulda zwischen Niederaula und Hünfeld/Schlitz",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-14T08:16:21.046Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -2210,7 +2312,7 @@
       },
       "description": [
         {
-          "value": "A60 Mainz Richtung Rüsselsheim\nzwischen Mainz-Laubenheim und Ausfahrt Ginsheim-Gustavsburg\nUnfall auf dem rechten Fahrstreifen"
+          "value": "A60 Mainz Richtung Rüsselsheim\nzwischen Mainz-Laubenheim und Ausfahrt Ginsheim-Gustavsburg\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -2242,11 +2344,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-14T07:16:05.073Z"
+        "value": "2022-02-14T08:06:42.974Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2261,7 +2363,7 @@
       },
       "description": [
         {
-          "value": "A60 Rüsselsheim Richtung Mainz\nzwischen Rüsselsheimer Dreieck und Mainspitz-Dreieck\nUnfallaufnahme, Bergungsarbeiten, 8 km Stau"
+          "value": "A60 Rüsselsheim Richtung Mainz\nzwischen Rüsselsheimer Dreieck und Mainspitz-Dreieck\nVerkehrsstörung besteht nicht mehr"
         }
       ],
       "location": {
@@ -2287,19 +2389,16 @@
       },
       "eventCategory": [
         {
-          "value": "Störung"
-        },
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
           "value": "Stau"
+        },
+        {
+          "value": "Unfall"
         }
       ],
-      "masterEventCategory": "Störung",
+      "masterEventCategory": "Stau",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-14T07:10:15.69Z"
+        "value": "2022-02-14T08:07:13.929Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6580,7 +6679,7 @@
       },
       "description": [
         {
-          "value": "L3053 Butzbach - Wetzlar\nzwischen Hermannstein und Anschluss A480/L3053\nin beiden Richtungen Unfall mit LKW, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren\n(Fahrbahn aktuell offen, muss aber zur Bergung des LKW wieder gesperrt werden)"
+          "value": "L3053 Butzbach - Wetzlar\nzwischen Hermannstein und Anschluss A480/L3053\nin beiden Richtungen Bergungsarbeiten, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, Richtungsfahrbahn gesperrt, Unfall mit LKW"
         }
       ],
       "location": {
@@ -6610,12 +6709,18 @@
         },
         {
           "value": "Hinweis"
+        },
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-14T07:11:29.382Z"
+        "value": "2022-02-14T07:59:11.382Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
