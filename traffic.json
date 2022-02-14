@@ -588,57 +588,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/473370_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 473370
-      },
-      "description": [
-        {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Bad Camberg und Limburg-Süd\nGefahr durch verlorene Ladung (ein Metallteil)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Frankfurt Richtung Köln zwischen Bad Camberg und Limburg-Süd",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-14T15:39:42.659Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/461444_LMS-HE/54"
       },
       "dataProducer": {
@@ -967,17 +916,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/473347_LMS-HE/54"
+        "value": "LMS/r_LMS/473375_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 473347
+        "value": 473375
       },
       "description": [
         {
-          "value": "A4 Bad Hersfeld Richtung Erfurt\nin Höhe Herleshausen\nBergungsarbeiten, Aufräumarbeiten"
+          "value": "A5 Heidelberg Richtung Darmstadt\nzwischen Zwingenberg und Seeheim-Jugenheim\nGefahr durch Spanngurte auf der Fahrbahn"
         }
       ],
       "location": {
@@ -985,38 +934,35 @@
           {
             "edge": {
               "sortRoadNumber": {
-                "value": "A4"
+                "value": "A5"
               }
             }
           }
         ],
         "name": "Ort",
-        "description": "A4 Bad Hersfeld Richtung Erfurt in Höhe Herleshausen",
+        "description": "A5 Heidelberg Richtung Darmstadt zwischen Zwingenberg und Seeheim-Jugenheim",
         "streets": [
-          "A4"
+          "A5"
         ]
       },
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Normal"
+        "value": "Dringend"
       },
       "eventCategory": [
         {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Störung"
+          "value": "Hindernis"
         }
       ],
-      "masterEventCategory": "Arbeitsstelle",
+      "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-14T15:35:11.848Z"
+        "value": "2022-02-14T16:04:21.361Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Geändert"
+        "value": "Neu"
       }
     },
     {
@@ -1144,6 +1090,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/473378_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 473378
+      },
+      "description": [
+        {
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Alsfeld-Ost und Hattenbacher Dreieck\nGegenstände auf dem linken und dem mittleren Fahrstreifen (mehrere Plastikteile)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Frankfurt Richtung Kassel zwischen Alsfeld-Ost und Hattenbacher Dreieck",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-14T16:25:01.174Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -2811,7 +2808,7 @@
       },
       "description": [
         {
-          "value": "A661 Richtung Bad Homburg\nzwischen Einfahrt Frankfurt am Main-Eckenheim und Frankfurt am Main-Heddernheim\nUnfall auf dem linken Fahrstreifen, linker Fahrstreifen blockiert"
+          "value": "A661 Richtung Bad Homburg\nzwischen Einfahrt Frankfurt am Main-Eckenheim und Frankfurt am Main-Heddernheim\nalle Unfallstellen geräumt, keine Verkehrsbehinderung mehr"
         }
       ],
       "location": {
@@ -2846,11 +2843,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-14T15:32:27.544Z"
+        "value": "2022-02-14T16:26:09.332Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
