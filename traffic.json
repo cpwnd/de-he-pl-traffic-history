@@ -851,6 +851,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/473427_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 473427
+      },
+      "description": [
+        {
+          "value": "A4 Erfurt Richtung Bad Hersfeld\nzwischen Wildeck-Hönebach und Friedewald\nGefahr durch defekten LKW auf dem rechten Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A4"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A4 Erfurt Richtung Bad Hersfeld zwischen Wildeck-Hönebach und Friedewald",
+        "streets": [
+          "A4"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-14T20:30:51.06Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/438866_LMS-HE/54"
       },
       "dataProducer": {
@@ -963,57 +1014,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/473417_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 473417
-      },
-      "description": [
-        {
-          "value": "A5 Heidelberg - Darmstadt\nzwischen Bensheim und Zwingenberg\nin beiden Richtungen Gefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Heidelberg Richtung Darmstadt zwischen Bensheim und Zwingenberg",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-14T20:18:38.384Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -3595,7 +3595,7 @@
       },
       "description": [
         {
-          "value": "B43, B44 Mörfelder Landstraße, Offenbach - Frankfurt Flughafen\nzwischen Frankfurt am Main-Oberforsthaus und A3, Frankfurt am Main-Süd\nin beiden Richtungen brennendes Fahrzeug, Sichtbehinderung durch Rauch\n( in Höhe des Stadions ) "
+          "value": "B43, B44 Mörfelder Landstraße, Offenbach - Frankfurt Flughafen\nzwischen Frankfurt am Main-Oberforsthaus und A3, Frankfurt am Main-Süd\nin beiden Richtungen die Sicht hat sich verbessert"
         }
       ],
       "location": {
@@ -3628,11 +3628,11 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-14T19:42:20.56Z"
+        "value": "2022-02-14T20:40:39.114Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4490,7 +4490,7 @@
       },
       "description": [
         {
-          "value": "K461 Niedertiefenbacher Weg\nzwischen Abzweig nach Niedertiefenbach und Dehrn\nGefahr durch Personen auf der Fahrbahn"
+          "value": "K461 Niedertiefenbacher Weg\nzwischen Abzweig nach Niedertiefenbach und Dehrn\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -4512,7 +4512,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -4522,7 +4522,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-14T19:48:25.062Z"
+        "value": "2022-02-14T20:40:27.581Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
