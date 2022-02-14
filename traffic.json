@@ -5392,60 +5392,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_D__HE_FFM-IGLZ/210813253278_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 454857
-      },
-      "description": [
-        {
-          "value": "K821 In der Römerstadt, Frankfurt am Main-Rödelheim Richtung Frankfurt-Berkersheim\nzwischen Alt-Praunheim in Frankfurt und Rosa-Luxemburg-Straße\nBaustelle beseitigt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "K821"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Frankfurt, In der Römerstadt zwischen Alt-Praunheim in Frankfurt und Rosa-Luxemburg-Straße",
-        "streets": [
-          "K821"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-14T14:10:39.942Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_D__HE_FFM-IGLZ/210818154442_LMS-HE/54"
       },
       "dataProducer": {
@@ -6224,6 +6170,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/473343_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 473343
+      },
+      "description": [
+        {
+          "value": "L3014 Schwalbach am Taunus, Limesspange\nzwischen Marktplatz und Ortsausgang\nGefahr durch Gegenstände auf der Fahrbahn\n(ein Koffer)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3014"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Schwalbach am Taunus, Limesspange zwischen Marktplatz und Ortsausgang",
+        "streets": [
+          "L3014"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-14T14:28:22.309Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
