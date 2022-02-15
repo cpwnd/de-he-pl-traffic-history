@@ -1043,6 +1043,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/473804_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 473804
+      },
+      "description": [
+        {
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Alsfeld-Ost und Hattenbacher Dreieck\ndefekter PKW auf dem rechten Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Frankfurt Richtung Kassel zwischen Alsfeld-Ost und Hattenbacher Dreieck",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-15T17:05:14.001Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/335177_LMS-HE/54"
       },
       "dataProducer": {
@@ -2275,7 +2326,7 @@
       },
       "description": [
         {
-          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Wiesbaden-Erbenheim und Wiesbaden-Mainzer Straße\nUnfallaufnahme, Gefahr"
+          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Wiesbaden-Erbenheim und Wiesbaden-Mainzer Straße\nalle Unfallstellen geräumt, keine Verkehrsbehinderung mehr"
         }
       ],
       "location": {
@@ -2297,7 +2348,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2307,11 +2358,11 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-15T16:47:53.831Z"
+        "value": "2022-02-15T17:11:01.141Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2747,57 +2798,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-13T10:36:16.465Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/473795_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 473795
-      },
-      "description": [
-        {
-          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Frankfurt-Eckenheim und Preungesheimer Dreieck\nalle Fahrbahnen wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A661"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A661 Bad Homburg Richtung Darmstadt zwischen Frankfurt-Eckenheim und Preungesheimer Dreieck",
-        "streets": [
-          "A661"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-15T16:45:11.949Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
