@@ -1498,7 +1498,7 @@
       },
       "description": [
         {
-          "value": "A7 Hannover Richtung Kassel\nzwischen Kassel-Nord und Kassel-Ost\nUnfall mit Bus, Gefahr durch Personen auf der Fahrbahn, brennendes Fahrzeug, Gasse für Rettungs- und Einsatzfahrzeuge bilden, Richtungsfahrbahn gesperrt, 9 km Stau\n(ab AS Kassel-Nord Richtungsfahrbahn gesperrt)"
+          "value": "A7 Hannover Richtung Kassel\nzwischen Kassel-Nord und Kassel-Ost\nUnfall mit Bus, Gefahr durch Personen auf der Fahrbahn, Gasse für Rettungs- und Einsatzfahrzeuge bilden, 9 km Stau, Verkehr wird an der Unfallstelle vorbeigeführt, rechter Fahrstreifen wieder befahrbar\n(ab AS Kassel-Nord Richtungsfahrbahn gesperrt)"
         }
       ],
       "location": {
@@ -1530,22 +1530,22 @@
           "value": "Hindernis"
         },
         {
-          "value": "Störung"
-        },
-        {
           "value": "Hinweis"
         },
         {
-          "value": "Sperrung"
+          "value": "Stau"
         },
         {
-          "value": "Stau"
+          "value": "Störung"
+        },
+        {
+          "value": "Sperrung"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-15T14:16:11.404Z"
+        "value": "2022-02-15T14:40:18.025Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2190,7 +2190,7 @@
       },
       "description": [
         {
-          "value": "A45 Gießen Richtung Hagen\nzwischen Dillenburg und Haiger/Burbach\nUnfall, defekter PKW auf dem Standstreifen"
+          "value": "A45 Gießen Richtung Hagen\nzwischen Dillenburg und Haiger/Burbach\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -2225,11 +2225,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-15T14:27:22.345Z"
+        "value": "2022-02-15T14:41:00.321Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2418,6 +2418,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-29T09:00:02.365Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/473741_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 473741
+      },
+      "description": [
+        {
+          "value": "A60 Rüsselsheim Richtung Mainz\nzwischen Ginsheim-Gustavsburg und Mainz-Laubenheim\nGefahr durch ungesicherte Unfallstelle auf dem rechten Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A60"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A60 Rüsselsheim Richtung Mainz zwischen Ginsheim-Gustavsburg und Mainz-Laubenheim",
+        "streets": [
+          "A60"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-15T14:34:51.363Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4361,7 +4412,7 @@
       },
       "description": [
         {
-          "value": "Werra-Meißner-Kreis, K12\nzwischen Aue und B249\nBaustelle, Richtungsfahrbahn gesperrt, eine örtliche Umleitung ist eingerichtet, bis 01.03.2022 18:00 Uhr"
+          "value": "K12 zwischen Aue und B249\nBaustelle, Richtungsfahrbahn gesperrt, eine örtliche Umleitung ist eingerichtet, bis 01.04.2022 Mitternacht"
         }
       ],
       "location": {
@@ -4387,10 +4438,10 @@
         },
         "endTime": {
           "name": "Endzeit",
-          "value": "2022-03-01T17:00:00Z"
+          "value": "2022-04-01T21:59:00Z"
         },
         "name": "Dauer",
-        "description": "von 03.12.2021 10:44 Uhr bis 01.03.2022 18:00 Uhr"
+        "description": "von 03.12.2021 10:44 Uhr bis 01.04.2022 Mitternacht"
       },
       "urgency": {
         "name": "Dringlichkeit",
@@ -4410,11 +4461,11 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2021-12-03T09:44:00.251Z"
+        "value": "2022-02-15T14:42:16.856Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
