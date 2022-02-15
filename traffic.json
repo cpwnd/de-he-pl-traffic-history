@@ -208,7 +208,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Würzburg\nzwischen Frankfurt am Main-Süd und Offenbacher Kreuz\nUnfall auf dem rechten Fahrstreifen, Unfall mit LKW"
+          "value": "A3 Frankfurt Richtung Würzburg\nzwischen Frankfurt am Main-Süd und Offenbacher Kreuz\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -240,11 +240,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-15T12:55:30.146Z"
+        "value": "2022-02-15T13:22:09.744Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -977,7 +977,7 @@
       },
       "description": [
         {
-          "value": "A5 Kassel Richtung Frankfurt\nzwischen Ober-Mörlen und Friedberg\nGefahr durch Spanngurte auf der Fahrbahn"
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Ober-Mörlen und Friedberg\nStraße wieder frei"
         }
       ],
       "location": {
@@ -999,7 +999,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1009,11 +1009,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-15T13:13:21.476Z"
+        "value": "2022-02-15T13:22:44.591Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1028,7 +1028,7 @@
       },
       "description": [
         {
-          "value": "A5 Kassel Richtung Frankfurt\nzwischen Gambacher Kreuz und Butzbach\ndefekter PKW, rechter Fahrstreifen blockiert"
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Gambacher Kreuz und Butzbach\nStraße wieder frei"
         }
       ],
       "location": {
@@ -1063,11 +1063,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-15T12:48:33.577Z"
+        "value": "2022-02-15T13:17:45.39Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1275,7 +1275,7 @@
       },
       "description": [
         {
-          "value": "A6 Mannheim Richtung Heilbronn\nzwischen Mannheim-Sandhofen und Viernheimer Dreieck\n1 defekter LKW auf dem rechten Fahrstreifen"
+          "value": "A6 Mannheim Richtung Heilbronn\nzwischen Mannheim-Sandhofen und Viernheimer Dreieck\nStraße wieder frei"
         }
       ],
       "location": {
@@ -1307,11 +1307,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-15T12:38:22.803Z"
+        "value": "2022-02-15T13:22:18.994Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1633,6 +1633,66 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-28T20:00:01.686Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/473722_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 473722
+      },
+      "description": [
+        {
+          "value": "A7 Hannover Richtung Kassel\nzwischen Kassel-Nord und Kassel-Ost\nUnfall mit Bus, Gefahr durch Personen auf der Fahrbahn, brennendes Fahrzeug, bitte vorsichtig fahren, Gasse für Rettungs- und Einsatzfahrzeuge bilden"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Hannover Richtung Kassel zwischen Kassel-Nord und Kassel-Ost",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-15T13:24:31.412Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2522,6 +2582,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/473719_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 473719
+      },
+      "description": [
+        {
+          "value": "A67 Darmstadt Richtung Mannheim\nzwischen Gernsheim und Lorsch\nGefahr durch Gegenstände auf dem rechten Fahrstreifen\n(Baggerschaufel)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A67"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A67 Darmstadt Richtung Mannheim zwischen Gernsheim und Lorsch",
+        "streets": [
+          "A67"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-15T13:16:13.5Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
