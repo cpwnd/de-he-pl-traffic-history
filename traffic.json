@@ -2373,57 +2373,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/473577_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 473577
-      },
-      "description": [
-        {
-          "value": "A66 Frankfurt Richtung Fulda\nzwischen Bad Soden-Salmünster und Steinau a. d. Straße\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A66"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A66 Frankfurt Richtung Fulda zwischen Bad Soden-Salmünster und Steinau a. d. Straße",
-        "streets": [
-          "A66"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-15T10:16:47.757Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/461537_LMS-HE/54"
       },
       "dataProducer": {
@@ -6560,7 +6509,7 @@
       },
       "description": [
         {
-          "value": "L3041 Neu Anspach - Köppern\nzwischen Neu-Anspach und Abzweig nach Bad Homburg vor der Höhe\nin beiden Richtungen Unfallaufnahme, Bergungsarbeiten"
+          "value": "L3041 Neu Anspach - Köppern\nzwischen Neu-Anspach und Abzweig nach Bad Homburg vor der Höhe\nin beiden Richtungen Straße geräumt"
         }
       ],
       "location": {
@@ -6595,7 +6544,7 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-15T10:23:38.618Z"
+        "value": "2022-02-15T10:29:38.58Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -8716,6 +8665,62 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-14T22:00:02.84Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/473602_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 473602
+      },
+      "description": [
+        {
+          "value": "Walldorf, Farmstraße\nzwischen Langstraße und Ende der Straße\nbeide Fahrtrichtungen gesperrt, Unfall, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, Unfallaufnahme"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": null
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Walldorf, Farmstraße zwischen Langstraße und Ende der Straße",
+        "streets": null
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hinweis"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-15T10:29:16.789Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
