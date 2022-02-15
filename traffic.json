@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -2383,7 +2383,7 @@
       },
       "description": [
         {
-          "value": "A66 Frankfurt Richtung Fulda\nzwischen Bad Soden-Salmünster und Steinau a. d. Straße\nGefahr durch ungesicherte Unfallstelle, Unfall, Gefahr durch auslaufendes Öl, Unfall mit LKW"
+          "value": "A66 Frankfurt Richtung Fulda\nzwischen Bad Soden-Salmünster und Steinau a. d. Straße\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -2405,7 +2405,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2415,11 +2415,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-15T08:58:29.427Z"
+        "value": "2022-02-15T10:16:47.757Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3057,6 +3057,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-11-19T11:33:19.495Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/473591_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 473591
+      },
+      "description": [
+        {
+          "value": "B8 Bad Camberg - Königstein\nzwischen Esch und Glashütten-Oberems\nin beiden Richtungen Gefahr durch 1 totes Tier (Reh) auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B8"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B8 Bad Camberg Richtung Königstein zwischen Esch und Glashütten-Oberems",
+        "streets": [
+          "B8"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-15T09:48:01.857Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
