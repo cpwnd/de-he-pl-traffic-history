@@ -588,6 +588,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/473674_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 473674
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Limburg-Süd und Ausfahrt Limburg-Nord\nStraße wieder frei"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Köln zwischen Limburg-Süd und Ausfahrt Limburg-Nord",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-15T11:04:05.458Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/461444_LMS-HE/54"
       },
       "dataProducer": {
@@ -1101,6 +1152,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-14T09:12:55.969Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/473612_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 473612
+      },
+      "description": [
+        {
+          "value": "A6 Mannheim Richtung Heilbronn\nzwischen Viernheimer Dreieck und Viernheimer Kreuz\nungesicherte Unfallstelle, defekter PKW\n(defekter PKW ohen Warnblinklicht in der Überleitung zur B38 nach MA-Käfertal)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A6"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A6 Mannheim Richtung Heilbronn zwischen Viernheimer Dreieck und Viernheimer Kreuz",
+        "streets": [
+          "A6"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-15T10:45:15.286Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2210,7 +2315,7 @@
       },
       "description": [
         {
-          "value": "A60 Mainz Richtung Rüsselsheim\nzwischen Mainspitz-Dreieck und Bischofsheim\ndefekter LKW auf dem rechten Fahrstreifen, ungesicherte Unfallstelle\n130492/SH"
+          "value": "A60 Mainz Richtung Rüsselsheim\nzwischen Mainspitz-Dreieck und Bischofsheim\ndefekter LKW auf dem rechten Fahrstreifen\n130492/SH"
         }
       ],
       "location": {
@@ -2237,19 +2342,16 @@
       "eventCategory": [
         {
           "value": "Hindernis"
-        },
-        {
-          "value": "Unfall"
         }
       ],
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-15T09:06:04.768Z"
+        "value": "2022-02-15T10:45:42.544Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3024,7 +3126,7 @@
       },
       "description": [
         {
-          "value": "B8 Bad Camberg - Königstein\nzwischen Esch und Glashütten-Oberems\nin beiden Richtungen Gefahr durch 1 totes Tier (Reh) auf der Fahrbahn"
+          "value": "B8 Bad Camberg - Königstein\nzwischen Esch und Glashütten-Oberems\nin beiden Richtungen Straße wieder frei"
         }
       ],
       "location": {
@@ -3046,7 +3148,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -3056,11 +3158,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-15T09:48:01.857Z"
+        "value": "2022-02-15T11:09:25.633Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -6491,60 +6593,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-14T09:11:10.46Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/473587_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 473587
-      },
-      "description": [
-        {
-          "value": "L3041 Neu Anspach - Köppern\nzwischen Neu-Anspach und Abzweig nach Bad Homburg vor der Höhe\nin beiden Richtungen Straße geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3041"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Hochtaunuskreis, L3041 zwischen Neu-Anspach und Abzweig nach Bad Homburg vor der Höhe",
-        "streets": [
-          "L3041"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Arbeitsstelle"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-15T10:29:38.58Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
