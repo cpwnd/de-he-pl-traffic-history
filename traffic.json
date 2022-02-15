@@ -851,57 +851,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/473813_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 473813
-      },
-      "description": [
-        {
-          "value": "A4 Erfurt - Bad Hersfeld\nzwischen Wildeck-Obersuhl und Wildeck-Hönebach\nin beiden Richtungen Gefahr durch mehrere Rehe auf der Fahrbahn"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A4"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A4 Erfurt Richtung Bad Hersfeld zwischen Wildeck-Obersuhl und Wildeck-Hönebach",
-        "streets": [
-          "A4"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-15T18:19:59.59Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/438866_LMS-HE/54"
       },
       "dataProducer": {
@@ -1347,6 +1296,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-11-01T04:00:01.895Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/473827_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 473827
+      },
+      "description": [
+        {
+          "value": "A7 Kassel Richtung Fulda\nzwischen Hattenbacher Dreieck und Niederaula\nUnfall mit LKW, rechter Fahrstreifen blockiert"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Kassel Richtung Fulda zwischen Hattenbacher Dreieck und Niederaula",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-15T19:01:23.567Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2251,6 +2254,68 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/473814_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 473814
+      },
+      "description": [
+        {
+          "value": "A60 Rüsselsheim Richtung Mainz\nzwischen Bischofsheim und Mainspitz-Dreieck\nBaustelle auf dem linken und dem mittleren Fahrstreifen, von 15.02.2022 20:00 Uhr bis 16.02.2022 ca. 05:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A60"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A60 Rüsselsheim Richtung Mainz zwischen Bischofsheim und Mainspitz-Dreieck",
+        "streets": [
+          "A60"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-02-15T19:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-02-16T04:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 15.02.2022 20:00 Uhr bis 16.02.2022 ca. 05:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-15T18:30:10.86Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/456754_LMS-HE/54"
       },
       "dataProducer": {
@@ -2954,7 +3019,7 @@
       },
       "description": [
         {
-          "value": "B3 Marburg Richtung Gießen\nzwischen Weimar-Nord und Weimar-Süd\ndefekter LKW auf dem Standstreifen"
+          "value": "B3 Marburg Richtung Gießen\nzwischen Weimar-Nord und Weimar-Süd\nStraße wieder frei"
         }
       ],
       "location": {
@@ -2986,11 +3051,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-15T18:13:15.44Z"
+        "value": "2022-02-15T18:59:15.159Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3072,7 +3137,7 @@
       },
       "description": [
         {
-          "value": "B40 Frankfurt am Main-Griesheim Richtung Kriftel\nzwischen Sindlinger Mainbrücke und Krifteler Dreieck\nGefahr durch ungesicherte Unfallstelle\nHöhe Abfahrt Hattersheim"
+          "value": "B40 Frankfurt am Main-Griesheim Richtung Kriftel\nzwischen Sindlinger Mainbrücke und Krifteler Dreieck\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -3094,7 +3159,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -3104,11 +3169,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-15T18:01:31.406Z"
+        "value": "2022-02-15T18:57:37.94Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
