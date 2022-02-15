@@ -1499,6 +1499,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/473867_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 473867
+      },
+      "description": [
+        {
+          "value": "A7 Würzburg Richtung Fulda\nzwischen Bad Brückenau-Volkers und Dreieck Fulda\nGefahr durch ungesicherte Unfallstelle"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Würzburg Richtung Fulda zwischen Bad Brückenau-Volkers und Dreieck Fulda",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-15T23:07:56.638Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/443927_LMS-HE/54"
       },
       "dataProducer": {
@@ -3393,71 +3444,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-12-17T23:00:01.198Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/461010_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 461010
-      },
-      "description": [
-        {
-          "value": "B43 Frankfurt, Sachsenhäuserufer bis Schaumainkai\nzwischen Alte Brücke und Untermainbrücke\nWanderbaustelle, Fahrbahnverengung, bis 15.02.2022 23:59 Uhr\nSachsenhausen-N., Schaumainkai, Alte Brücke, Dürerstraße, Sachsenhäuser Ufer, aufgrund von Baumpflegearbeiten Teilsperrung der Fahrbahn vom 03.01.2022 bis 15.02.2022."
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B43"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B43 Frankfurt, Sachsenhäuserufer bis Schaumainkai zwischen Alte Brücke und Untermainbrücke",
-        "streets": [
-          "B43"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-01-02T23:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-02-15T22:59:59Z"
-        },
-        "name": "Dauer",
-        "description": "von 03.01.2022 00:00 Uhr bis 15.02.2022 23:59 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-02T23:00:00.991Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6298,17 +6284,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_D__HE_FFM-IGLZ/210816268883_LMS-HE/54"
+        "value": "LMS/r_LMS/473866_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 462398
+        "value": 473866
       },
       "description": [
         {
-          "value": "L3018 Hofheim am Taunus Richtung Frankfurt-Sindlingen\nzwischen A66, Frankfurt am Main-Zeilsheim und Sindlingen\nWanderbaustelle, Fahrbahnverengung, von 10.01.2022 00:00 Uhr bis 15.02.2022 23:59 Uhr\nZeilsheim, Sindlinger Bahnstraße, West-Höchster Straße, aufgrund von Baumpflegearbeiten Teilsperrung der Fahrbahn, Teilsperrung der Fahrbahn vom 10.01.2022 bis 15.02.2022."
+          "value": "Frankfurt, L3018\nzwischen A66, Frankfurt am Main-Zeilsheim und Zeilsheim\nBaustelle, Fahrbahnverengung, bis 16.03.2022 23:59 Uhr"
         }
       ],
       "location": {
@@ -6322,7 +6308,7 @@
           }
         ],
         "name": "Ort",
-        "description": "Frankfurt, L3018 zwischen A66, Frankfurt am Main-Zeilsheim und Sindlingen",
+        "description": "Frankfurt, L3018 zwischen A66, Frankfurt am Main-Zeilsheim und Zeilsheim",
         "streets": [
           "L3018"
         ]
@@ -6330,14 +6316,14 @@
       "duration": {
         "startTime": {
           "name": "Startzeit",
-          "value": "2022-01-09T23:00:00Z"
+          "value": "2022-02-15T23:00:00Z"
         },
         "endTime": {
           "name": "Endzeit",
-          "value": "2022-02-15T22:59:59Z"
+          "value": "2022-03-16T22:59:59Z"
         },
         "name": "Dauer",
-        "description": "von 10.01.2022 00:00 Uhr bis 15.02.2022 23:59 Uhr"
+        "description": "von 16.02.2022 00:00 Uhr bis 16.03.2022 23:59 Uhr"
       },
       "urgency": {
         "name": "Dringlichkeit",
@@ -6354,7 +6340,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-07T18:18:27.101Z"
+        "value": "2022-02-15T23:00:00.98Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -8106,67 +8092,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_D__HE_FFM-IGLZ/210818155357_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 467483
-      },
-      "description": [
-        {
-          "value": "Frankfurt, Homburger Landstraße bis Marbachweg\nzwischen B3, Friedberger Landstraße und Gießener Straße\nBaustelle, Fahrbahnverengung, von 01.02.2022 00:00 Uhr bis 15.02.2022 23:59 Uhr\nPreungesheim, Homburger Landstraße 4, aufgrund einer Baustelle Teilsperrung der Radwege, Teilsperrung der Gehwege vom 01.02.2022 bis 15.02.2022."
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": null
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Frankfurt, Homburger Landstraße bis Marbachweg zwischen B3, Friedberger Landstraße und Gießener Straße",
-        "streets": null
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-01-31T23:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-02-15T22:59:59Z"
-        },
-        "name": "Dauer",
-        "description": "von 01.02.2022 00:00 Uhr bis 15.02.2022 23:59 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-26T14:47:08.61Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
