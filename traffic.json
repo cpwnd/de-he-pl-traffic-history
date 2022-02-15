@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -2326,7 +2326,7 @@
       },
       "description": [
         {
-          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Wiesbaden-Biebrich und Schiersteiner Kreuz\nGefahr durch Gegenstände auf der Fahrbahn (ein Reifenmantel)"
+          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Wiesbaden-Biebrich und Schiersteiner Kreuz\nHindernisse beseitigt"
         }
       ],
       "location": {
@@ -2348,7 +2348,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2358,11 +2358,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-15T20:06:53.691Z"
+        "value": "2022-02-15T20:35:10.674Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3838,6 +3838,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/473845_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 473845
+      },
+      "description": [
+        {
+          "value": "B45 Dieburg Richtung Hanau\nzwischen Rodgau-Dudenhofen und Rodgau-Jügesheim\nUnfall auf dem linken Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B45 Dieburg Richtung Hanau zwischen Rodgau-Dudenhofen und Rodgau-Jügesheim",
+        "streets": [
+          "B45"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-15T20:41:24.633Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
