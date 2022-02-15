@@ -1097,6 +1097,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/473729_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 473729
+      },
+      "description": [
+        {
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Bad Nauheim und Butzbach\nStraße wieder frei"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Frankfurt Richtung Kassel zwischen Bad Nauheim und Butzbach",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-15T14:09:02.882Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/335177_LMS-HE/54"
       },
       "dataProducer": {
@@ -1498,7 +1549,7 @@
       },
       "description": [
         {
-          "value": "A7 Hannover Richtung Kassel\nzwischen Kassel-Nord und Kassel-Ost\nUnfall mit Bus, Gefahr durch Personen auf der Fahrbahn, brennendes Fahrzeug, Gasse für Rettungs- und Einsatzfahrzeuge bilden, Richtungsfahrbahn gesperrt\n(ab AS Kassel-Nord Richtungsfahrbahn gesperrt)"
+          "value": "A7 Hannover Richtung Kassel\nzwischen Kassel-Nord und Kassel-Ost\nUnfall mit Bus, Gefahr durch Personen auf der Fahrbahn, brennendes Fahrzeug, Gasse für Rettungs- und Einsatzfahrzeuge bilden, Richtungsfahrbahn gesperrt, Stau\n(ab AS Kassel-Nord Richtungsfahrbahn gesperrt)"
         }
       ],
       "location": {
@@ -1537,12 +1588,15 @@
         },
         {
           "value": "Sperrung"
+        },
+        {
+          "value": "Stau"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-15T13:35:44.547Z"
+        "value": "2022-02-15T13:52:54.335Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2428,57 +2482,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-14T09:08:53.888Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/473719_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 473719
-      },
-      "description": [
-        {
-          "value": "A67 Darmstadt Richtung Mannheim\nzwischen Gernsheim und Lorsch\nHindernisse beseitigt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A67"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A67 Darmstadt Richtung Mannheim zwischen Gernsheim und Lorsch",
-        "streets": [
-          "A67"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-15T13:42:21.174Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -8004,67 +8007,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/463085_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 463085
-      },
-      "description": [
-        {
-          "value": "Frankfurt, Wilhelm-Epstein-Straße bis Am Dornbusch\nzwischen Ginnheimer Stadtweg und Eschersheimer Landstraße\nBaustelle, Fahrbahnverengung, bis 15.02.2022 15:00 Uhr\nDornbusch, Wilhelm-Epstein-Straße 95, aufgrund von Arbeiten an Kanalleitungen Teilsperrung der Fahrbahn, Vollsperrung der Gehwege vom 10.01.2022 bis 15.02.2022 zwischen 09:00 und 15:00 Uhr."
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": null
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Frankfurt, Wilhelm-Epstein-Straße bis Am Dornbusch zwischen Ginnheimer Stadtweg und Eschersheimer Landstraße",
-        "streets": null
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-01-10T08:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-02-15T14:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 10.01.2022 09:00 Uhr bis 15.02.2022 15:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-10T08:00:00.398Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
