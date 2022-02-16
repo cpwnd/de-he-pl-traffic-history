@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -198,17 +198,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/474214_LMS-HE/54"
+        "value": "LMS/r_LMS/474241_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 474214
+        "value": 474241
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Kelsterbach und Frankfurter Kreuz\nStraße wieder frei"
+          "value": "A3 Frankfurt Richtung Würzburg\nOffenbacher Kreuz Überleitung zur A661 Richtung Darmstadt\nStraße wieder frei"
         }
       ],
       "location": {
@@ -222,7 +222,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A3 Köln Richtung Frankfurt zwischen Kelsterbach und Frankfurter Kreuz",
+        "description": "A3 Frankfurt Richtung Würzburg Offenbacher Kreuz Überleitung zur A661 Richtung Darmstadt",
         "streets": [
           "A3"
         ]
@@ -240,7 +240,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-16T19:31:15.859Z"
+        "value": "2022-02-16T20:00:03.409Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -501,6 +501,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-04T14:57:19.111Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/474247_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 474247
+      },
+      "description": [
+        {
+          "value": "A3 Köln Richtung Frankfurt\nin Höhe Bad Camberg\n1 defekter LKW auf dem Beschleunigungsstreifen, unbeleuchtetes Fahrzeug auf dem Beschleunigungsstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Frankfurt in Höhe Bad Camberg",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-16T20:14:37.173Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -963,60 +1017,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/474237_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 474237
-      },
-      "description": [
-        {
-          "value": "A5 Frankfurt Richtung Darmstadt\nFrankfurter Kreuz Überleitung zur A3\nStraße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Frankfurt Richtung Darmstadt Frankfurter Kreuz Überleitung zur A3",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-16T19:36:00.943Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -2811,57 +2811,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/474239_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 474239
-      },
-      "description": [
-        {
-          "value": "A661 Bad Homburg Richtung Darmstadt\nOffenbacher Kreuz Überleitung zur A3 Richtung Frankfurt\nStraße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A661"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A661 Bad Homburg Richtung Darmstadt Offenbacher Kreuz Überleitung zur A3 Richtung Frankfurt",
-        "streets": [
-          "A661"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-16T19:33:03.285Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/430914_LMS-HE/54"
       },
       "dataProducer": {
@@ -4028,57 +3977,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/474170_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 474170
-      },
-      "description": [
-        {
-          "value": "B49 Limburg Richtung Gießen\nzwischen Dorlar und B429, Gießen-Lahnfeld\nStraße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B49"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B49 Limburg Richtung Gießen zwischen Dorlar und B429, Gießen-Lahnfeld",
-        "streets": [
-          "B49"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-16T19:36:33.426Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/431962_LMS-HE/54"
       },
       "dataProducer": {
@@ -4323,123 +4221,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-10T22:59:00.417Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/474120_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 474120
-      },
-      "description": [
-        {
-          "value": "B454 Schwalmstadt Richtung Kirchhain\nzwischen Wiera und Abzweig nach Momberg\nalle Unfallstellen geräumt, keine Verkehrsbehinderung mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B454"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B454 Schwalmstadt Richtung Kirchhain zwischen Wiera und Abzweig nach Momberg",
-        "streets": [
-          "B454"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-16T19:36:19.387Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/474222_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 474222
-      },
-      "description": [
-        {
-          "value": "B521 Frankfurt - Büdingen\nzwischen Vilbeler Landstraße und Bergen Enkheim Hanauer Weg\nUnfall mit mehreren Fahrzeugen, beide Fahrtrichtungen gesperrt, Unfallaufnahme, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, Gasse für Rettungs- und Einsatzfahrzeuge bilden"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B521"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B521 Frankfurt Richtung Büdingen zwischen Vilbeler Landstraße und Bergen Enkheim Hanauer Weg",
-        "streets": [
-          "B521"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-16T18:23:12.336Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
