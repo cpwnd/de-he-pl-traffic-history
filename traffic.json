@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -1758,7 +1758,7 @@
       },
       "description": [
         {
-          "value": "A44 Dortmund Richtung Kassel\nzwischen Warburg und Breuna\nUnfall mit mehreren Fahrzeugen, bitte vorsichtig fahren, Richtungsfahrbahn gesperrt, LKW wird empfohlen, das Gebiet weiträumig zu umfahren, empfohlene Umleitung: U73\n(Abschleppdienst ist vor Ort)"
+          "value": "A44 Dortmund Richtung Kassel\nzwischen Warburg und Breuna\nUnfallstelle geräumt, Staulänge abnehmend, empfohlene Umleitung: U73"
         }
       ],
       "location": {
@@ -1787,16 +1787,13 @@
           "value": "Unfall"
         },
         {
-          "value": "Hinweis"
-        },
-        {
-          "value": "Sperrung"
+          "value": "Stau"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-16T09:32:49.087Z"
+        "value": "2022-02-16T09:50:43.751Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3011,7 +3008,7 @@
       },
       "description": [
         {
-          "value": "A661 Darmstadt - Bad Homburg\nzwischen Bad Homburger Kreuz und Oberursel\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn auf der rechten Seite"
+          "value": "A661 Darmstadt - Bad Homburg\nzwischen Bad Homburger Kreuz und Oberursel\nin beiden Richtungen Gefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -3033,7 +3030,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -3043,11 +3040,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-16T09:36:14.844Z"
+        "value": "2022-02-16T10:11:05.88Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3242,6 +3239,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/474031_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 474031
+      },
+      "description": [
+        {
+          "value": "B27 Eschwege - Bad Hersfeld\nzwischen Sontra und Bebra\nin beiden Richtungen Gefahr durch Ölspur, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B27"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B27 Eschwege Richtung Bad Hersfeld zwischen Sontra und Bebra",
+        "streets": [
+          "B27"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-16T09:54:23.47Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -5110,6 +5161,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-14T09:16:21.938Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/474029_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 474029
+      },
+      "description": [
+        {
+          "value": "K808 Frankfurt, Elektronstraße bis Eichenstraße\nzwischen Autogenstraße und Waldschulstraße\nin beiden Richtungen Bahnübergang gesperrt, Bauarbeiten\n(für ca. 30 Min.)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K808"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, Elektronstraße bis Eichenstraße zwischen Autogenstraße und Waldschulstraße",
+        "streets": [
+          "K808"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Arbeitsstelle"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-16T09:47:59.449Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -7358,7 +7463,7 @@
       },
       "description": [
         {
-          "value": "L3247 zwischen Herleshausen und Frauenborn\nBaustelle, halbseitig gesperrt, vorübergehende Regelung durch provisorische Ampelanlagen, eine örtliche Umleitung ist eingerichtet, vorübergehende Begrenzung der Fahrbahnbreite auf 3,75 m, bis 25.02.2022 ca. 18:00 Uhr"
+          "value": "L3247 zwischen Herleshausen und Frauenborn\nBaustelle, halbseitig gesperrt, vorübergehende Regelung durch provisorische Ampelanlagen, eine örtliche Umleitung ist eingerichtet, vorübergehende Begrenzung der Fahrbahnbreite auf 3,75 m, bis 07.03.2022 ca. 20:00 Uhr"
         }
       ],
       "location": {
@@ -7378,16 +7483,13 @@
         ]
       },
       "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2021-11-29T15:59:00Z"
-        },
+        "startTime": null,
         "endTime": {
           "name": "Endzeit",
-          "value": "2022-02-25T17:00:00Z"
+          "value": "2022-03-07T19:00:00Z"
         },
         "name": "Dauer",
-        "description": "von 29.11.2021 16:59 Uhr bis 25.02.2022 ca. 18:00 Uhr"
+        "description": "bis 07.03.2022 ca. 20:00 Uhr"
       },
       "urgency": {
         "name": "Dringlichkeit",
@@ -7413,7 +7515,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-31T23:09:53.66Z"
+        "value": "2022-02-16T10:05:13.696Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -9018,6 +9120,70 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-21T09:15:16.362Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/473996_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 473996
+      },
+      "description": [
+        {
+          "value": "Offenbach am Main, Kaiserstraße\nzwischen Berliner Straße und Frankfurter Straße\nWasserrohrbruch, Richtungsfahrbahn gesperrt, Verkehrsbehinderung, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, eine örtliche Umleitung ist eingerichtet, von 16.02.2022 11:00 Uhr bis 19.02.2022 20:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": null
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Offenbach am Main, Kaiserstraße zwischen Berliner Straße und Frankfurter Straße",
+        "streets": null
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-02-16T10:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-02-19T19:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 16.02.2022 11:00 Uhr bis 19.02.2022 20:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-16T09:31:38.806Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
