@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -1085,7 +1085,7 @@
       },
       "description": [
         {
-          "value": "A5 Kassel Richtung Frankfurt\nzwischen Friedberg und Bad Homburger Kreuz\nUnfall, linker Fahrstreifen blockiert, ungesicherte Unfallstelle, bitte vorsichtig fahren, Gasse für Rettungs- und Einsatzfahrzeuge bilden, Gefahr durch Personen auf der Fahrbahn, rechter Fahrstreifen blockiert"
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Friedberg und Bad Homburger Kreuz\nStraße wieder frei"
         }
       ],
       "location": {
@@ -1107,7 +1107,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1126,7 +1126,7 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-16T16:56:13.038Z"
+        "value": "2022-02-16T19:14:28.71Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2925,6 +2925,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/474239_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 474239
+      },
+      "description": [
+        {
+          "value": "A661 Bad Homburg Richtung Darmstadt\nOffenbacher Kreuz Überleitung zur A3 Richtung Frankfurt\nGefahr durch Gegenstände auf der Fahrbahn (Fahrzeugteile)\n(Abdeckkasten eines LKW)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A661"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A661 Bad Homburg Richtung Darmstadt Offenbacher Kreuz Überleitung zur A3 Richtung Frankfurt",
+        "streets": [
+          "A661"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-16T19:21:13.72Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/430914_LMS-HE/54"
       },
       "dataProducer": {
@@ -3059,7 +3110,7 @@
       },
       "description": [
         {
-          "value": "B3 Offenbach Richtung Darmstadt\nzwischen Arheilgen und B42, Anschluss B3\nUnfall, beide Fahrtrichtungen gesperrt\n134971/SH"
+          "value": "B3 Offenbach Richtung Darmstadt\nzwischen Arheilgen und B42, Anschluss B3\nwieder offen"
         }
       ],
       "location": {
@@ -3094,11 +3145,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-16T17:13:27.858Z"
+        "value": "2022-02-16T19:22:33.972Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
