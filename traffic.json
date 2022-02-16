@@ -3006,7 +3006,7 @@
       },
       "description": [
         {
-          "value": "A661 Darmstadt - Bad Homburg\nzwischen Offenbach-Taunusring und Offenbach-Kaiserlei\nin beiden Richtungen 1 Hund auf der Fahrbahn"
+          "value": "A661 Darmstadt - Bad Homburg\nzwischen Offenbach-Taunusring und Offenbach-Kaiserlei\nin beiden Richtungen Gefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -3038,11 +3038,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-16T18:17:40.815Z"
+        "value": "2022-02-16T18:21:22.025Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4561,6 +4561,66 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/474222_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 474222
+      },
+      "description": [
+        {
+          "value": "B521 Frankfurt - Büdingen\nzwischen Vilbeler Landstraße und Bergen Enkheim Hanauer Weg\nUnfall mit mehreren Fahrzeugen, beide Fahrtrichtungen gesperrt, Unfallaufnahme, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, Gasse für Rettungs- und Einsatzfahrzeuge bilden"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B521"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B521 Frankfurt Richtung Büdingen zwischen Vilbeler Landstraße und Bergen Enkheim Hanauer Weg",
+        "streets": [
+          "B521"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-16T18:23:12.336Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
