@@ -1053,7 +1053,7 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Friedberg und Ober-Mörlen\nGefahr durch ungesicherte Unfallstelle auf dem linken Fahrstreifen"
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Friedberg und Ober-Mörlen\nlinker Fahrstreifen blockiert, bitte vorsichtig fahren, Unfall auf dem linken Fahrstreifen"
         }
       ],
       "location": {
@@ -1075,21 +1075,27 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Hinweis"
+        },
         {
           "value": "Unfall"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-16T21:25:56.717Z"
+        "value": "2022-02-16T21:40:50.917Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
