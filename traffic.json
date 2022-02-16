@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -512,6 +512,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/473975_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 473975
+      },
+      "description": [
+        {
+          "value": "A3 Würzburg Richtung Frankfurt\nAusfahrt Frankfurt am Main-Süd\nUnfall in der Überleitung, Stau"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Würzburg Richtung Frankfurt Ausfahrt Frankfurt am Main-Süd",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Stau"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-16T08:28:46.079Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/473948_LMS-HE/54"
       },
       "dataProducer": {
@@ -1016,6 +1070,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-15T20:00:04.312Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/473972_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 473972
+      },
+      "description": [
+        {
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Bad Homburger Kreuz und Nordwestkreuz Frankfurt\nGefahr durch verlorene Ladung (ein Holzbrett)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Kassel Richtung Frankfurt zwischen Bad Homburger Kreuz und Nordwestkreuz Frankfurt",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-16T08:22:50.883Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1983,7 +2088,7 @@
       },
       "description": [
         {
-          "value": "A45 Hagen Richtung Gießen\nzwischen Herborn-Süd und Ehringshausen\nBaustelle, vorübergehende Begrenzung der Fahrbahnbreite auf 6,70 m, bis 02.03.2022 Mitternacht"
+          "value": "A45 Hagen Richtung Gießen\nzwischen Herborn-Süd und Ehringshausen\nBaustelle, vorübergehende Begrenzung der Fahrbahnbreite auf 6,70 m, bis 31.03.2022 Mitternacht"
         }
       ],
       "location": {
@@ -2003,16 +2108,13 @@
         ]
       },
       "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2021-12-03T09:08:00Z"
-        },
+        "startTime": null,
         "endTime": {
           "name": "Endzeit",
-          "value": "2022-03-02T22:59:00Z"
+          "value": "2022-03-31T21:59:00Z"
         },
         "name": "Dauer",
-        "description": "von 03.12.2021 10:08 Uhr bis 02.03.2022 Mitternacht"
+        "description": "bis 31.03.2022 Mitternacht"
       },
       "urgency": {
         "name": "Dringlichkeit",
@@ -2029,7 +2131,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-31T23:10:13.083Z"
+        "value": "2022-02-16T08:21:25.806Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2164,7 +2266,7 @@
       },
       "description": [
         {
-          "value": "A45 Gießen Richtung Hagen\nzwischen Ehringshausen und Herborn-Süd\nBaustelle, vorübergehende Begrenzung der Fahrbahnbreite auf 6,25 m, bis 02.03.2022 Mitternacht"
+          "value": "A45 Gießen Richtung Hagen\nzwischen Ehringshausen und Herborn-Süd\nBaustelle, vorübergehende Begrenzung der Fahrbahnbreite auf 7,50 m, bis 31.03.2022 Mitternacht"
         }
       ],
       "location": {
@@ -2184,16 +2286,13 @@
         ]
       },
       "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2021-11-01T06:00:00Z"
-        },
+        "startTime": null,
         "endTime": {
           "name": "Endzeit",
-          "value": "2022-03-02T22:59:00Z"
+          "value": "2022-03-31T21:59:00Z"
         },
         "name": "Dauer",
-        "description": "von 01.11.2021 07:00 Uhr bis 02.03.2022 Mitternacht"
+        "description": "bis 31.03.2022 Mitternacht"
       },
       "urgency": {
         "name": "Dringlichkeit",
@@ -2210,7 +2309,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-31T23:11:29.17Z"
+        "value": "2022-02-16T08:24:44.451Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
