@@ -986,7 +986,7 @@
       },
       "description": [
         {
-          "value": "A5 Kassel Richtung Frankfurt\nzwischen Gambacher Kreuz und Butzbach\nGefahr durch Gegenstände auf der Fahrbahn\n(unbekannter Gewgenstand)"
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Gambacher Kreuz und Butzbach\nStraße wieder frei"
         }
       ],
       "location": {
@@ -1008,7 +1008,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1018,11 +1018,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-16T23:19:28.157Z"
+        "value": "2022-02-16T23:40:02.249Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1602,6 +1602,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-28T20:00:01.686Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/474285_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 474285
+      },
+      "description": [
+        {
+          "value": "A7 Würzburg Richtung Fulda\nzwischen Bad Brückenau-Volkers und Dreieck Fulda\nGefahr durch Gegenstände auf der Fahrbahn (ein Plastikteil)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Würzburg Richtung Fulda zwischen Bad Brückenau-Volkers und Dreieck Fulda",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-16T23:37:14.85Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2926,57 +2977,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/474281_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 474281
-      },
-      "description": [
-        {
-          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Frankfurt am Main-Heddernheim und Frankfurt-Eckenheim\nGefahr durch Gegenstände auf der Fahrbahn\n(unbekannter Gegenstand)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A661"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A661 Bad Homburg Richtung Darmstadt zwischen Frankfurt am Main-Heddernheim und Frankfurt-Eckenheim",
-        "streets": [
-          "A661"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-16T23:20:50.386Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
