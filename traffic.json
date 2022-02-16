@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "3ms",
   "version": "TIC",
   "data": [
     {
@@ -1420,6 +1420,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/474151_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 474151
+      },
+      "description": [
+        {
+          "value": "A7 Kassel Richtung Fulda\nin Höhe Kirchheimer Dreieck\nGefahr durch defekten LKW auf dem rechten Fahrstreifen im Baustellenbereich"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Kassel Richtung Fulda in Höhe Kirchheimer Dreieck",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-16T14:57:42.927Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/468280_LMS-HE/54"
       },
       "dataProducer": {
@@ -2535,57 +2586,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/474126_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 474126
-      },
-      "description": [
-        {
-          "value": "A67 Darmstadt Richtung Mannheim\nzwischen Lorsch und Viernheimer Dreieck\nGefahr durch Reifenteile auf der Fahrbahn"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A67"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A67 Darmstadt Richtung Mannheim zwischen Lorsch und Viernheimer Dreieck",
-        "streets": [
-          "A67"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-16T13:54:31.769Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
@@ -4341,7 +4341,7 @@
       },
       "description": [
         {
-          "value": "B454 Schwalmstadt Richtung Kirchhain\nzwischen Wiera und Abzweig nach Momberg\nUnfall, Vollsperrung, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+          "value": "B454 Schwalmstadt Richtung Kirchhain\nzwischen Wiera und Abzweig nach Momberg\nUnfall, Verkehr wird an der Unfallstelle vorbeigeführt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
         }
       ],
       "location": {
@@ -4370,7 +4370,7 @@
           "value": "Unfall"
         },
         {
-          "value": "Sperrung"
+          "value": "Störung"
         },
         {
           "value": "Hinweis"
@@ -4379,11 +4379,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-16T13:38:27.827Z"
+        "value": "2022-02-16T15:00:51.306Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4448,57 +4448,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-02-15T14:42:16.856Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/473891_D  SH LMS-SH"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 473891
-      },
-      "description": [
-        {
-          "value": "K75 Kanalfähre Brunsbüttel\nin beiden Richtungen kein Zeitverlust mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "K75"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Kreis Dithmarschen, K75 Kanalfähre Brunsbüttel",
-        "streets": [
-          "K75"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Zeitverlust"
-        }
-      ],
-      "masterEventCategory": "Zeitverlust",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-16T11:36:49.881Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -5207,6 +5156,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/474029_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 474029
+      },
+      "description": [
+        {
+          "value": "K808 Frankfurt, Elektronstraße bis Eichenstraße\nzwischen Autogenstraße und Waldschulstraße\nin beiden Richtungen Bahnübergang gesperrt, Bauarbeiten"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K808"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, Elektronstraße bis Eichenstraße zwischen Autogenstraße und Waldschulstraße",
+        "streets": [
+          "K808"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Arbeitsstelle"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-16T14:59:21.55Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -7902,6 +7905,59 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-05T12:46:23.25Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/474158_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 474158
+      },
+      "description": [
+        {
+          "value": "Hessen\nWetterwarnung, orkanartige Böen, bis 17.02.2022 18:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": null
+          }
+        ],
+        "name": "Ort",
+        "description": "Hessen",
+        "streets": null
+      },
+      "duration": {
+        "startTime": null,
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-02-17T17:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "bis 17.02.2022 18:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Wetter"
+        }
+      ],
+      "masterEventCategory": "Wetter",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-16T15:06:55.887Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
