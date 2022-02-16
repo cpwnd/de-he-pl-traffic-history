@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "3ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -926,7 +926,7 @@
       },
       "description": [
         {
-          "value": "A4 Bad Hersfeld Richtung Erfurt\nin Höhe Wommen\nUnfall auf dem linken Fahrstreifen"
+          "value": "A4 Bad Hersfeld Richtung Erfurt\nin Höhe Wommen\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -958,11 +958,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-16T14:27:14.397Z"
+        "value": "2022-02-16T15:29:43.428Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1806,7 +1806,7 @@
       },
       "description": [
         {
-          "value": "A44 Kassel Richtung Dortmund\nzwischen Zierenberg und Breuna\nGefahr durch verlorene Ladung (ein Plastikteil)"
+          "value": "A44 Kassel Richtung Dortmund\nzwischen Zierenberg und Breuna\nStraße wieder frei"
         }
       ],
       "location": {
@@ -1828,7 +1828,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1838,11 +1838,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-16T14:31:17.387Z"
+        "value": "2022-02-16T15:24:06.438Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2362,7 +2362,7 @@
       },
       "description": [
         {
-          "value": "A49 Gießen Richtung Kassel\nzwischen Wabern und Fritzlar\nUnfall, Reinigungsarbeiten, Verkehr wird an der Unfallstelle vorbeigeführt"
+          "value": "A49 Gießen Richtung Kassel\nzwischen Wabern und Fritzlar\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -2397,7 +2397,7 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-16T14:43:39.006Z"
+        "value": "2022-02-16T15:24:40.91Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4079,6 +4079,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/474170_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 474170
+      },
+      "description": [
+        {
+          "value": "B49 Limburg Richtung Gießen\nzwischen Dorlar und B429, Gießen-Lahnfeld\nGefahr durch defektes Fahrzeug auf dem rechten Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B49"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B49 Limburg Richtung Gießen zwischen Dorlar und B429, Gießen-Lahnfeld",
+        "streets": [
+          "B49"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-16T15:28:45.545Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/431962_LMS-HE/54"
       },
       "dataProducer": {
@@ -5170,7 +5221,7 @@
       },
       "description": [
         {
-          "value": "K808 Frankfurt, Elektronstraße bis Eichenstraße\nzwischen Autogenstraße und Waldschulstraße\nin beiden Richtungen Bahnübergang gesperrt, Bauarbeiten"
+          "value": "K808 Frankfurt, Elektronstraße bis Eichenstraße\nzwischen Autogenstraße und Waldschulstraße\nin beiden Richtungen Baustelle beseitigt"
         }
       ],
       "location": {
@@ -5205,7 +5256,7 @@
       "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-16T14:59:21.55Z"
+        "value": "2022-02-16T15:37:31.21Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
