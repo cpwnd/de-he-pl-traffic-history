@@ -1078,6 +1078,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/473983_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 473983
+      },
+      "description": [
+        {
+          "value": "A5 Europabrücke Frankfurt, Frankfurt Richtung Darmstadt\nzwischen Frankfurt am Main-Westhafen und Frankfurt-Niederrad\nGefahr besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Europabrücke Frankfurt, Frankfurt Richtung Darmstadt zwischen Frankfurt am Main-Westhafen und Frankfurt-Niederrad",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-16T09:08:46.089Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/473972_LMS-HE/54"
       },
       "dataProducer": {
@@ -2285,7 +2336,7 @@
       },
       "description": [
         {
-          "value": "A45 Gießen Richtung Hagen\nzwischen Wetzlar-Süd und Wetzlar-Ost\nGefahr durch verlorene Ladung (mehrere Metallteile)"
+          "value": "A45 Gießen Richtung Hagen\nzwischen Wetzlar-Süd und Wetzlar-Ost\nStraße wieder frei"
         }
       ],
       "location": {
@@ -2307,7 +2358,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2317,11 +2368,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-16T08:01:31.417Z"
+        "value": "2022-02-16T09:11:52.735Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2720,7 +2771,7 @@
       },
       "description": [
         {
-          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Frankfurt am Main-Höchst und Kelkheim\n1 brennender LKW auf dem Standstreifen, Rettungsfahrzeuge im Einsatz, bitte vorsichtig fahren, linker Fahrstreifen wieder befahrbar, Fahrbahn von 4 auf einen Fahrstreifen verengt"
+          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Frankfurt am Main-Höchst und Kelkheim\nlinker Fahrstreifen wieder befahrbar, Fahrbahn von 4 auf einen Fahrstreifen verengt, Reinigungsarbeiten"
         }
       ],
       "location": {
@@ -2746,22 +2797,16 @@
       },
       "eventCategory": [
         {
-          "value": "Störung"
-        },
-        {
-          "value": "Information"
-        },
-        {
-          "value": "Hinweis"
-        },
-        {
           "value": "Sperrung"
+        },
+        {
+          "value": "Störung"
         }
       ],
-      "masterEventCategory": "Störung",
+      "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-16T07:21:28.805Z"
+        "value": "2022-02-16T08:47:06.512Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -8086,51 +8131,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/473798_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 473798
-      },
-      "description": [
-        {
-          "value": "Hainburg\nVermisstenfahndung\nSeit dem 15.02.22 , 12.00 Uhr wird die 42 jährige Frau Yvonne Schlegel aus Hainburg vermisst.\nDie Vermisste ist 160 cm groß,, hat rote Haare, die seitlich rasiert sind und trägt schwarze Haare zum Zopf gebunden. Bekleidung: schwarze Jacke und schwarze Hose. Sachdienliche Hinweise zum Aufenthalt der Vermissten an die Polizei Seligenstadt unter der Tel.Nr.: 06182 89300 oder an die Polizei in Südosthessen unter110."
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": null
-          }
-        ],
-        "name": "Ort",
-        "description": "Hainburg",
-        "streets": null
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Information"
-        }
-      ],
-      "masterEventCategory": "Information",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-15T17:51:56.574Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
