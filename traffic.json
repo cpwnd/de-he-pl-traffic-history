@@ -916,57 +916,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/474493_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 474493
-      },
-      "description": [
-        {
-          "value": "A5 Kassel Richtung Frankfurt\nzwischen Westkreuz Frankfurt und Frankfurt am Main-Westhafen\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Kassel Richtung Frankfurt zwischen Westkreuz Frankfurt und Frankfurt am Main-Westhafen",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-17T07:05:47.966Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/474359_LMS-HE/54"
       },
       "dataProducer": {
@@ -1099,7 +1048,7 @@
       },
       "description": [
         {
-          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Weiterstadt und Langen/Mörfelden\nGefahr durch Gegenstände auf der Fahrbahn, linker Fahrstreifen blockiert\n(Baustellenbeschilderung ragt in die linke Fahrbahn)"
+          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Weiterstadt und Langen/Mörfelden\nalle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -1121,7 +1070,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1134,11 +1083,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-17T06:54:05.695Z"
+        "value": "2022-02-17T07:17:41.478Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -6875,6 +6824,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-22T10:38:52.455Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/474520_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 474520
+      },
+      "description": [
+        {
+          "value": "L3006 Frankfurt-Sindlingen Richtung Eschborn\nzwischen Eschborn und A648, A66, Eschborn\nGefahr durch Gegenstände auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3006"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt und Main-Taunus-Kreis, L3006 zwischen Eschborn und A648, A66, Eschborn",
+        "streets": [
+          "L3006"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-17T07:24:58.848Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
