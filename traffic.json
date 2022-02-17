@@ -2641,17 +2641,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/435760_LMS-HE/54"
+        "value": "LMS/r_LMS/474821_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 435760
+        "value": 474821
       },
       "description": [
         {
-          "value": "A480 Wetzlar Richtung Wetzlar-Blasbach\nin Höhe Wetzlarer Kreuz\nBaustelle, Fahrbahnverengung, maximale Fahrbahnbreite von 6,75 m, bis 26.02.2022 Mitternacht"
+          "value": "A480 Wetzlar-Blasbach Richtung Wetzlar\nzwischen Wetzlarer Kreuz und Ausfahrt Aßlar\nBaustelle, Fahrbahnverengung, maximale Fahrbahnbreite von 3,95 m, bis 04.03.2022 Mitternacht"
         }
       ],
       "location": {
@@ -2665,22 +2665,19 @@
           }
         ],
         "name": "Ort",
-        "description": "A480 Wetzlar Richtung Wetzlar-Blasbach in Höhe Wetzlarer Kreuz",
+        "description": "A480 Wetzlar-Blasbach Richtung Wetzlar zwischen Wetzlarer Kreuz und Ausfahrt Aßlar",
         "streets": [
           "A480"
         ]
       },
       "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2021-12-19T23:00:00Z"
-        },
+        "startTime": null,
         "endTime": {
           "name": "Endzeit",
-          "value": "2022-02-26T22:59:00Z"
+          "value": "2022-03-04T22:59:00Z"
         },
         "name": "Dauer",
-        "description": "von 20.12.2021 Mitternacht bis 26.02.2022 Mitternacht"
+        "description": "bis 04.03.2022 Mitternacht"
       },
       "urgency": {
         "name": "Dringlichkeit",
@@ -2697,7 +2694,69 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-13T10:18:11.076Z"
+        "value": "2022-02-17T14:55:37.094Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/435760_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 435760
+      },
+      "description": [
+        {
+          "value": "A480 Wetzlar Richtung Wetzlar-Blasbach\nzwischen Aßlar und Wetzlarer Kreuz\nBaustelle, Fahrbahnverengung, maximale Fahrbahnbreite von 6,75 m, bis 04.03.2022 Mitternacht"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A480"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A480 Wetzlar Richtung Wetzlar-Blasbach zwischen Aßlar und Wetzlarer Kreuz",
+        "streets": [
+          "A480"
+        ]
+      },
+      "duration": {
+        "startTime": null,
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-03-04T22:59:00Z"
+        },
+        "name": "Dauer",
+        "description": "bis 04.03.2022 Mitternacht"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-17T14:54:06.661Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3988,6 +4047,71 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/474809_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 474809
+      },
+      "description": [
+        {
+          "value": "B251 Kassel - Korbach\nzwischen Ippinghausen und Freienhagen\nin beiden Richtungen umgestürzte Bäume, Richtungsfahrbahn gesperrt, von 17.02.2022 16:00 Uhr bis 18.02.2022 ca. 17:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B251"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B251 Kassel Richtung Korbach zwischen Ippinghausen und Freienhagen",
+        "streets": [
+          "B251"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-02-17T15:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-02-18T16:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 17.02.2022 16:00 Uhr bis 18.02.2022 ca. 17:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-17T14:35:39.255Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/445126_LMS-HE/54"
       },
       "dataProducer": {
@@ -4114,60 +4238,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/474568_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 474568
-      },
-      "description": [
-        {
-          "value": "B417 zwischen B54/Fischzucht und Wiesbaden\nin beiden Richtungen umgestürzte Bäume, Richtungsfahrbahn blockiert"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B417"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B417 Richtung Wiesbaden zwischen B54/Fischzucht und Wiesbaden",
-        "streets": [
-          "B417"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-17T13:05:16.768Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -7342,71 +7412,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-11T13:29:01.228Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/474691_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 474691
-      },
-      "description": [
-        {
-          "value": "L3212 Liebenau - Hofgeismar\nzwischen Niedermeiser und Hofgeismar\nin beiden Richtungen umgestürzter LKW, Bergungsarbeiten, Richtungsfahrbahn gesperrt, bis 17.02.2022 ca. 16:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3212"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Kreis Kassel, L3212 zwischen Niedermeiser und Hofgeismar",
-        "streets": [
-          "L3212"
-        ]
-      },
-      "duration": {
-        "startTime": null,
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-02-17T15:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "bis 17.02.2022 ca. 16:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-17T11:20:03.744Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
