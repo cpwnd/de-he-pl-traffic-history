@@ -1,22 +1,186 @@
 {
   "status": "OK",
   "cached": false,
-  "time": "1.677ms",
+  "time": "1.040ms",
   "version": "TIC",
   "data": [
     {
       "ticId": {
-        "value": "LMS/r_LMS/474695_LMS-HE/54"
+        "value": "LMS/r_LMS/474730_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 474695
+        "value": 474730
       },
       "description": [
         {
-          "value": "A45 Aschaffenburg Richtung Gießen\nzwischen Altenstadt und Florstadt\nalle Fahrbahnen geräumt"
+          "value": "K707 zwischen Abzweig nach Eschenhahn und Am Rügert\nin beiden Richtungen Baumfällarbeiten, Richtungsfahrbahn gesperrt, bis 18.02.2022 15:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K707"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Rheingau-Taunus-Kreis, K707 zwischen Abzweig nach Eschenhahn und Am Rügert",
+        "streets": [
+          "K707"
+        ]
+      },
+      "duration": {
+        "startTime": null,
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-02-18T14:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "bis 18.02.2022 15:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-17T12:28:00.116Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/474722_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 474722
+      },
+      "description": [
+        {
+          "value": "B8 Königstein Richtung Frankfurt\nzwischen Bad Soden am Taunus und Sulzbach (Taunus)\nGefahr durch Gegenstände auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B8"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B8 Königstein Richtung Frankfurt zwischen Bad Soden am Taunus und Sulzbach (Taunus)",
+        "streets": [
+          "B8"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-17T12:12:13.988Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/474719_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 474719
+      },
+      "description": [
+        {
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Bad Camberg und Idstein\nGefahr durch Reifenteile auf der Fahrbahn, defekter LKW auf dem Standstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Frankfurt zwischen Bad Camberg und Idstein",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-17T12:07:01.62Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/474711_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 474711
+      },
+      "description": [
+        {
+          "value": "A45 Aschaffenburg Richtung Gießen\nzwischen Langenselbold-West und Hammersbach\nUnfall, Richtungsfahrbahn blockiert, Polizei und Rettungswagen sind vor Ort, Stau, empfohlene Umleitung: Richtung Gießen über Ravolzhausen, Rüdigheim, Hirzbacher Höfe, Marköbel und Langen-Bergheim"
         }
       ],
       "location": {
@@ -30,7 +194,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A45 Aschaffenburg Richtung Gießen zwischen Altenstadt und Florstadt",
+        "description": "A45 Aschaffenburg Richtung Gießen zwischen Langenselbold-West und Hammersbach",
         "streets": [
           "A45"
         ]
@@ -42,17 +206,26 @@
       },
       "eventCategory": [
         {
-          "value": "Hindernis"
+          "value": "Unfall"
+        },
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Information"
+        },
+        {
+          "value": "Stau"
         }
       ],
-      "masterEventCategory": "Hindernis",
+      "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-17T11:40:05.938Z"
+        "value": "2022-02-17T11:58:40.266Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Geändert"
+        "value": "Neu"
       }
     },
     {
@@ -118,57 +291,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/474690_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 474690
-      },
-      "description": [
-        {
-          "value": "A5 Frankfurt Richtung Darmstadt\nzwischen Frankfurt-Niederrad und Frankfurt\nStraße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Frankfurt Richtung Darmstadt zwischen Frankfurt-Niederrad und Frankfurt",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-17T11:45:53.689Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -270,114 +392,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-02-17T10:45:34.616Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/474631_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 474631
-      },
-      "description": [
-        {
-          "value": "B47 Michelstadt - Amorbach\nzwischen Erbach und Abzweig nach Ernsbach\nin beiden Richtungen mehrere umgestürzte Bäume, Richtungsfahrbahn gesperrt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B47"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B47 Michelstadt Richtung Amorbach zwischen Erbach und Abzweig nach Ernsbach",
-        "streets": [
-          "B47"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-17T10:13:57.287Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/474618_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 474618
-      },
-      "description": [
-        {
-          "value": "B40 zwischen Frankfurt-Sindlingen und Krifteler Dreieck\ndefekter LKW, Richtungsfahrbahn blockiert"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B40"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B40 zwischen Frankfurt-Sindlingen und Krifteler Dreieck",
-        "streets": [
-          "B40"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-17T09:54:13.374Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -733,7 +747,7 @@
       },
       "description": [
         {
-          "value": "A5 Kassel Richtung Frankfurt\nzwischen Friedberg und Bad Homburger Kreuz\nUnfall mit LKW, Richtungsfahrbahn blockiert, umgestürzter LKW, LKW wird empfohlen, das Gebiet weiträumig zu umfahren, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, Gasse für Rettungs- und Einsatzfahrzeuge bilden"
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Friedberg und Bad Homburger Kreuz\nUnfallstelle geräumt, alle Fahrbahnen wieder frei, Staulänge abnehmend"
         }
       ],
       "location": {
@@ -762,20 +776,20 @@
           "value": "Unfall"
         },
         {
-          "value": "Störung"
+          "value": "Sperrung"
         },
         {
-          "value": "Hinweis"
+          "value": "Stau"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-17T04:05:45.46Z"
+        "value": "2022-02-17T11:50:14.961Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -790,7 +804,7 @@
       },
       "description": [
         {
-          "value": "B456 Usingen - Oberursel\nzwischen Usingen und Abzweig nach Köppern\nin beiden Richtungen umgestürzte Bäume"
+          "value": "B456 Usingen - Oberursel\nzwischen Usingen und Abzweig nach Köppern\nin beiden Richtungen alle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -822,7 +836,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-17T03:44:06.465Z"
+        "value": "2022-02-17T12:17:34.026Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
