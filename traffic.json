@@ -1,9 +1,63 @@
 {
   "status": "OK",
   "cached": false,
-  "time": "1.050ms",
+  "time": "1.106ms",
   "version": "TIC",
   "data": [
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/474325_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 474325
+      },
+      "description": [
+        {
+          "value": "L3041 Köppern Richtung Neu Anspach\nzwischen Köppern und An den Linden\numgestürzte Bäume, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3041"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Wetteraukreis und Hochtaunuskreis, L3041 zwischen Köppern und An den Linden",
+        "streets": [
+          "L3041"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-17T02:36:01.97Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
     {
       "ticId": {
         "value": "LMS/r_LMS/474317_LMS-HE/54"
@@ -16,7 +70,7 @@
       },
       "description": [
         {
-          "value": "A7 Hannover Richtung Kassel\nKreuz Kassel-Mitte Überleitung zur A49 Richtung Kassel\nGefahr durch Gegenstände auf der Fahrbahn\n(VK-Schild ragt in Fahrbahn)"
+          "value": "A7 Hannover Richtung Kassel\nKreuz Kassel-Mitte Überleitung zur A49 Richtung Kassel\nStraße wieder frei"
         }
       ],
       "location": {
@@ -38,7 +92,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -48,11 +102,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-17T02:11:51.731Z"
+        "value": "2022-02-17T02:36:35.776Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -104,57 +158,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/474315_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 474315
-      },
-      "description": [
-        {
-          "value": "B456 Weilburg - Oberursel\nzwischen Grävenwiesbach und Usingen\nin beiden Richtungen Straße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B456"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B456 Weilburg Richtung Oberursel zwischen Grävenwiesbach und Usingen",
-        "streets": [
-          "B456"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-17T02:25:58.611Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -212,57 +215,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/474292_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 474292
-      },
-      "description": [
-        {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Frankfurt am Main-Flughafen und Kelsterbach\nUnfallstelle geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Frankfurt Richtung Köln zwischen Frankfurt am Main-Flughafen und Kelsterbach",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-17T02:24:15.733Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
