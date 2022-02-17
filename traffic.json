@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -1422,7 +1422,7 @@
       },
       "description": [
         {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Niederaula und Hünfeld/Schlitz\nGefahr durch Gegenstände auf der Fahrbahn, Unfall"
+          "value": "A7 Kassel Richtung Fulda\nzwischen Niederaula und Hünfeld/Schlitz\nStraße wieder frei"
         }
       ],
       "location": {
@@ -1444,7 +1444,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1457,7 +1457,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-17T03:41:56.811Z"
+        "value": "2022-02-17T05:04:23.254Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2309,7 +2309,7 @@
       },
       "description": [
         {
-          "value": "A49 Kassel - Gießen\nzwischen Gudensberg und Fritzlar\nin beiden Richtungen Gefahr durch umgestürzte Bäume\n(umgestürzter Baum ragt in den rechten Fahrstreifen )"
+          "value": "A49 Kassel - Gießen\nzwischen Gudensberg und Fritzlar\nin beiden Richtungen Straße wieder frei"
         }
       ],
       "location": {
@@ -2331,7 +2331,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2341,11 +2341,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-17T04:28:15.15Z"
+        "value": "2022-02-17T05:07:57.045Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4315,6 +4315,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-02-07T13:51:13.289Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/474382_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 474382
+      },
+      "description": [
+        {
+          "value": "B260 Lahnstein Richtung Wiesbaden\nzwischen Abzweig nach Ramschied und Wambach\nRichtungsfahrbahn blockiert"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B260"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B260 Lahnstein Richtung Wiesbaden zwischen Abzweig nach Ramschied und Wambach",
+        "streets": [
+          "B260"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-17T04:51:28.229Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6868,60 +6919,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-14T09:11:10.46Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/474325_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 474325
-      },
-      "description": [
-        {
-          "value": "L3041 Köppern Richtung Neu Anspach\nzwischen Köppern und An den Linden\nStörung beseitigt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3041"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Wetteraukreis und Hochtaunuskreis, L3041 zwischen Köppern und An den Linden",
-        "streets": [
-          "L3041"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-17T04:45:11.177Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
