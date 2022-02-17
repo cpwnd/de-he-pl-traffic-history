@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -1043,57 +1043,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/474737_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 474737
-      },
-      "description": [
-        {
-          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Zeppelinheim und Frankfurter Kreuz\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Darmstadt Richtung Frankfurt zwischen Zeppelinheim und Frankfurter Kreuz",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-17T13:31:59.874Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/474777_LMS-HE/54"
       },
       "dataProducer": {
@@ -1981,66 +1930,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/474711_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 474711
-      },
-      "description": [
-        {
-          "value": "A45 Aschaffenburg Richtung Gießen\nzwischen Langenselbold-West und Hammersbach\nUnfall, Polizei und Rettungswagen sind vor Ort, Stau, rechter Fahrstreifen blockiert, Fahrbahn von 2 auf einen Fahrstreifen verengt, empfohlene Umleitung: Richtung Gießen über Ravolzhausen, Rüdigheim, Hirzbacher Höfe, Marköbel und Langen-Bergheim"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A45"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A45 Aschaffenburg Richtung Gießen zwischen Langenselbold-West und Hammersbach",
-        "streets": [
-          "A45"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Information"
-        },
-        {
-          "value": "Stau"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-17T13:07:57.203Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -2940,7 +2829,7 @@
       },
       "description": [
         {
-          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Frankfurt am Main-Ost und Frankfurt-Friedberger Landstraße\ndefekter PKW am Tunnelausgang"
+          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Frankfurt am Main-Ost und Frankfurt-Friedberger Landstraße\nalle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -2972,11 +2861,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-17T13:28:01.372Z"
+        "value": "2022-02-17T14:03:59.885Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -8156,65 +8045,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/474158_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 474158
-      },
-      "description": [
-        {
-          "value": "Hessen\nWetterwarnung, orkanartige Böen, umgestürzte Bäume, Aquaplaninggefahr, bis 17.02.2022 18:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": null
-          }
-        ],
-        "name": "Ort",
-        "description": "Hessen",
-        "streets": null
-      },
-      "duration": {
-        "startTime": null,
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-02-17T17:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "bis 17.02.2022 18:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Wetter"
-        },
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Straßenzustand"
-        }
-      ],
-      "masterEventCategory": "Wetter",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-17T12:51:26.05Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
