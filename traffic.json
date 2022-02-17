@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -2321,6 +2321,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/474886_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 474886
+      },
+      "description": [
+        {
+          "value": "A60 Mainz Richtung Rüsselsheim\nzwischen Rüsselsheim-Mitte und Rüsselsheim-Königstädten\nUnfall mit 5 Fahrzeugen, Gefahr durch ungesicherte Unfallstelle, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A60"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A60 Mainz Richtung Rüsselsheim zwischen Rüsselsheim-Mitte und Rüsselsheim-Königstädten",
+        "streets": [
+          "A60"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-17T17:41:22.598Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/474876_LMS-HE/54"
       },
       "dataProducer": {
@@ -2331,7 +2385,7 @@
       },
       "description": [
         {
-          "value": "A60 Rüsselsheim Richtung Mainz\nzwischen Rüsselsheim-Mitte und Bischofsheim\nGefahr durch Gegenstände auf der Fahrbahn"
+          "value": "A60 Rüsselsheim Richtung Mainz\nzwischen Rüsselsheim-Mitte und Bischofsheim\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -2353,7 +2407,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2363,11 +2417,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-17T16:58:06.308Z"
+        "value": "2022-02-17T17:43:47.465Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4355,6 +4409,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/474887_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 474887
+      },
+      "description": [
+        {
+          "value": "K128 zwischen Ausfahrt B26, Roßdorf-Gundernhausen und Dieburg\nVollsperrung, Baumfällarbeiten\n(Baumarbeiten wegen drohendem Astbrüchen)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K128"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Kreis Darmstadt-Dieburg, K128 zwischen Ausfahrt B26, Roßdorf-Gundernhausen und Dieburg",
+        "streets": [
+          "K128"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Arbeitsstelle"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-17T17:43:23.304Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
