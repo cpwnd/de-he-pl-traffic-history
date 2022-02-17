@@ -1361,6 +1361,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/474375_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 474375
+      },
+      "description": [
+        {
+          "value": "A7 Kassel Richtung Fulda\nzwischen Niederaula und Hünfeld/Schlitz\nGefahr durch Gegenstände auf der Fahrbahn\n(ein Baum ragt inden rechten Fahrstreifen )"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Kassel Richtung Fulda zwischen Niederaula und Hünfeld/Schlitz",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-17T04:37:51.055Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/474335_LMS-HE/54"
       },
       "dataProducer": {
@@ -6835,7 +6886,7 @@
       },
       "description": [
         {
-          "value": "L3041 Köppern Richtung Neu Anspach\nzwischen Köppern und An den Linden\numgestürzte Bäume, bitte vorsichtig fahren"
+          "value": "L3041 Köppern Richtung Neu Anspach\nzwischen Köppern und An den Linden\nStörung beseitigt"
         }
       ],
       "location": {
@@ -6870,7 +6921,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-17T03:42:28.703Z"
+        "value": "2022-02-17T04:45:11.177Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -8918,6 +8969,64 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-17T06:00:01.396Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/474377_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 474377
+      },
+      "description": [
+        {
+          "value": "Vitrolles-Ring, Mörfelden - Kelsterbach\nzwischen B486, Am Schwimmbad und Mörfelden\nUnfall mit Verletzten, beide Fahrtrichtungen gesperrt, bis 17.02.2022 07:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": null
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Kreis Groß-Gerau, Vitrolles-Ring zwischen B486, Am Schwimmbad und Mörfelden",
+        "streets": null
+      },
+      "duration": {
+        "startTime": null,
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-02-17T06:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "bis 17.02.2022 07:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-17T04:39:41.975Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
