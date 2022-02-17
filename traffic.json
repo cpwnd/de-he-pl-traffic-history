@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -916,17 +916,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/474310_LMS-HE/54"
+        "value": "LMS/r_LMS/474359_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 474310
+        "value": 474359
       },
       "description": [
         {
-          "value": "A4 Bad Hersfeld Richtung Erfurt\nzwischen Wildeck-Hönebach und Wildeck-Obersuhl\nWettersituation hat sich gebessert"
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Friedberg und Bad Homburger Kreuz\nUnfall mit LKW, Richtungsfahrbahn blockiert, umgestürzter LKW, LKW wird empfohlen, das Gebiet weiträumig zu umfahren, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, Gasse für Rettungs- und Einsatzfahrzeuge bilden"
         }
       ],
       "location": {
@@ -934,15 +934,15 @@
           {
             "edge": {
               "sortRoadNumber": {
-                "value": "A4"
+                "value": "A5"
               }
             }
           }
         ],
         "name": "Ort",
-        "description": "A4 Bad Hersfeld Richtung Erfurt zwischen Wildeck-Hönebach und Wildeck-Obersuhl",
+        "description": "A5 Kassel Richtung Frankfurt zwischen Friedberg und Bad Homburger Kreuz",
         "streets": [
-          "A4"
+          "A5"
         ]
       },
       "duration": null,
@@ -952,19 +952,70 @@
       },
       "eventCategory": [
         {
-          "value": "Wetter"
+          "value": "Unfall"
         },
         {
-          "value": "Straßenzustand"
+          "value": "Störung"
         },
         {
           "value": "Hinweis"
         }
       ],
-      "masterEventCategory": "Wetter",
+      "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-17T03:45:13.665Z"
+        "value": "2022-02-17T04:05:45.46Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/474357_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 474357
+      },
+      "description": [
+        {
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Butzbach und Bad Nauheim\nStraße wieder frei"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Kassel Richtung Frankfurt zwischen Butzbach und Bad Nauheim",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-17T04:19:36.157Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1815,7 +1866,7 @@
       },
       "description": [
         {
-          "value": "A44 Dortmund Richtung Kassel\nzwischen Breuna und Zierenberg\nGefahr durch Gegenstände auf der Fahrbahn\n(Plastikteile)"
+          "value": "A44 Dortmund Richtung Kassel\nzwischen Breuna und Zierenberg\nStraße wieder frei"
         }
       ],
       "location": {
@@ -1837,7 +1888,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1847,7 +1898,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-17T03:43:16.753Z"
+        "value": "2022-02-17T04:14:38.764Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3178,6 +3229,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-11-19T11:33:19.495Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/474351_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 474351
+      },
+      "description": [
+        {
+          "value": "B8 Bad Camberg - Königstein\nzwischen Glashütten-Oberems und Abzweig nach Schloßborn\nin beiden Richtungen Richtungsfahrbahn gesperrt, umgestürzte Bäume"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B8"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B8 Bad Camberg Richtung Königstein zwischen Glashütten-Oberems und Abzweig nach Schloßborn",
+        "streets": [
+          "B8"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-17T03:47:13.752Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4603,6 +4708,63 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/474363_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 474363
+      },
+      "description": [
+        {
+          "value": "K612 zwischen Egenroth und Niedermeilingen\numgestürzte Bäume, beide Fahrtrichtungen gesperrt, blockiert"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K612"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Rheingau-Taunus-Kreis, K612 zwischen Egenroth und Niedermeilingen",
+        "streets": [
+          "K612"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-17T04:11:13.815Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/464725_LMS-HE/54"
       },
       "dataProducer": {
@@ -4721,6 +4883,63 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/474361_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 474361
+      },
+      "description": [
+        {
+          "value": "K694 zwischen Breithardt und B54\numgestürzte Bäume, blockiert, beide Fahrtrichtungen gesperrt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K694"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Rheingau-Taunus-Kreis, K694 zwischen Breithardt und B54",
+        "streets": [
+          "K694"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-17T04:10:12.949Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -6541,6 +6760,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/474365_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 474365
+      },
+      "description": [
+        {
+          "value": "L3025 Weilrod - Eselsheck\nzwischen Schmitten und Niederreifenberg\nin beiden Richtungen umgestürzte Bäume"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3025"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Hochtaunuskreis, L3025 zwischen Schmitten und Niederreifenberg",
+        "streets": [
+          "L3025"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-17T04:12:40.917Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/417423_LMS-HE/54"
       },
       "dataProducer": {
@@ -6738,7 +7008,7 @@
       },
       "description": [
         {
-          "value": "L3053 Wetzlar - Bischoffen\nzwischen Anschluss A480/L3053 und Hohensolms\nbeide Fahrtrichtungen gesperrt, defekter LKW"
+          "value": "L3053 Wetzlar - Bischoffen\nzwischen Anschluss A480/L3053 und Hohensolms\nbeide Fahrtrichtungen gesperrt, defekter LKW, umgestürzte Bäume"
         }
       ],
       "location": {
@@ -6773,11 +7043,11 @@
       "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-17T03:15:28.429Z"
+        "value": "2022-02-17T03:46:14.894Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
