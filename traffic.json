@@ -983,7 +983,7 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Darmstadt\nzwischen Zeppelinheim und Langen/Mörfelden\ndefekter LKW auf dem Standstreifen, Gefahr durch Gegenstände auf der Fahrbahn"
+          "value": "A5 Frankfurt Richtung Darmstadt\nzwischen Zeppelinheim und Langen/Mörfelden\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -1005,7 +1005,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1015,11 +1015,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-17T16:19:32.291Z"
+        "value": "2022-02-17T16:41:59.632Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1227,7 +1227,7 @@
       },
       "description": [
         {
-          "value": "A6 Heilbronn Richtung Kaiserslautern\nzwischen Viernheimer Dreieck und Mannheim-Sandhofen\nGefahr durch ungesicherte Unfallstelle"
+          "value": "A6 Heilbronn Richtung Kaiserslautern\nzwischen Viernheimer Dreieck und Mannheim-Sandhofen\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -1249,7 +1249,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1259,11 +1259,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-17T16:21:07.845Z"
+        "value": "2022-02-17T16:48:40.817Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4144,6 +4144,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/474867_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 474867
+      },
+      "description": [
+        {
+          "value": "B62 Alsfeld - Marburg\nzwischen Überleitung Kirchhain-Ost und Kirchhain-Mitte\nBahnschranke außer Betrieb, beide Fahrtrichtungen gesperrt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B62"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B62 Alsfeld Richtung Marburg zwischen Überleitung Kirchhain-Ost und Kirchhain-Mitte",
+        "streets": [
+          "B62"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-17T16:47:25.466Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/474809_LMS-HE/54"
       },
       "dataProducer": {
@@ -4154,7 +4208,7 @@
       },
       "description": [
         {
-          "value": "B251 Kassel - Korbach\nzwischen Ippinghausen und Freienhagen\nin beiden Richtungen umgestürzte Bäume, Richtungsfahrbahn gesperrt, von 17.02.2022 16:00 Uhr bis 18.02.2022 ca. 17:00 Uhr"
+          "value": "B251 Kassel - Korbach\nzwischen Ippinghausen und Freienhagen\nin beiden Richtungen alle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -4173,18 +4227,7 @@
           "B251"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-02-17T15:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-02-18T16:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 17.02.2022 16:00 Uhr bis 18.02.2022 ca. 17:00 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -4200,7 +4243,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-17T14:35:39.255Z"
+        "value": "2022-02-17T16:44:18.582Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6860,63 +6903,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/474573_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 474573
-      },
-      "description": [
-        {
-          "value": "L3052 Hohenahr - Braunfels\nzwischen Ehringshausen und Leun\nUnfall, beide Fahrtrichtungen gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3052"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Lahn-Dill-Kreis, L3052 zwischen Ehringshausen und Leun",
-        "streets": [
-          "L3052"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-17T13:01:50.61Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/426280_LMS-HE/54"
       },
       "dataProducer": {
@@ -7513,6 +7499,63 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/474691_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 474691
+      },
+      "description": [
+        {
+          "value": "L3212 Liebenau - Hofgeismar\nzwischen Niedermeiser und Hofgeismar\nin beiden Richtungen Unfallstelle geräumt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3212"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Kreis Kassel, L3212 zwischen Niedermeiser und Hofgeismar",
+        "streets": [
+          "L3212"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-17T16:45:31.576Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
