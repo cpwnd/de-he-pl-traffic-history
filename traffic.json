@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -926,7 +926,7 @@
       },
       "description": [
         {
-          "value": "A4 Bad Hersfeld Richtung Erfurt\nzwischen Wildeck-Hönebach und Wildeck-Obersuhl\nstarker Regen, Aquaplaninggefahr, bitte vorsichtig fahren"
+          "value": "A4 Bad Hersfeld Richtung Erfurt\nzwischen Wildeck-Hönebach und Wildeck-Obersuhl\nWettersituation hat sich gebessert"
         }
       ],
       "location": {
@@ -948,7 +948,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -964,11 +964,11 @@
       "masterEventCategory": "Wetter",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-17T01:32:38.68Z"
+        "value": "2022-02-17T03:45:13.665Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1406,11 +1406,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-17T03:11:22.399Z"
+        "value": "2022-02-17T03:41:56.811Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1801,6 +1801,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/474344_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 474344
+      },
+      "description": [
+        {
+          "value": "A44 Dortmund Richtung Kassel\nzwischen Breuna und Zierenberg\nGefahr durch Gegenstände auf der Fahrbahn\n(Plastikteile)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A44"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A44 Dortmund Richtung Kassel zwischen Breuna und Zierenberg",
+        "streets": [
+          "A44"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-17T03:43:16.753Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -4235,6 +4286,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/474350_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 474350
+      },
+      "description": [
+        {
+          "value": "B456 Usingen - Oberursel\nzwischen Usingen und Abzweig nach Köppern\nin beiden Richtungen umgestürzte Bäume"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B456"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B456 Usingen Richtung Oberursel zwischen Usingen und Abzweig nach Köppern",
+        "streets": [
+          "B456"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-17T03:44:06.465Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/453254_LMS-HE/54"
       },
       "dataProducer": {
@@ -6549,11 +6651,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-17T02:36:01.97Z"
+        "value": "2022-02-17T03:42:28.703Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -7824,7 +7926,7 @@
       },
       "description": [
         {
-          "value": "Hessen\nWetterwarnung, orkanartige Böen, bis 17.02.2022 18:00 Uhr"
+          "value": "Hessen\nWetterwarnung, orkanartige Böen, umgestürzte Bäume, Aquaplaninggefahr, bis 17.02.2022 18:00 Uhr"
         }
       ],
       "location": {
@@ -7848,21 +7950,27 @@
       },
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Normal"
+        "value": "Dringend"
       },
       "eventCategory": [
         {
           "value": "Wetter"
+        },
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Straßenzustand"
         }
       ],
       "masterEventCategory": "Wetter",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-16T15:06:55.887Z"
+        "value": "2022-02-17T03:44:55.309Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
