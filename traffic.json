@@ -1907,63 +1907,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/475002_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475002
-      },
-      "description": [
-        {
-          "value": "A7 Fulda Richtung Kassel\nzwischen Homberg (Efze) und Malsfeld\nStraßenschäden auf dem rechten Fahrstreifen, Reparaturarbeiten, Fahrbahn auf einen Fahrstreifen verengt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A7"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A7 Fulda Richtung Kassel zwischen Homberg (Efze) und Malsfeld",
-        "streets": [
-          "A7"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Straßenzustand"
-        },
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Straßenzustand",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T10:13:00.672Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/475114_LMS-HE/54"
       },
       "dataProducer": {
@@ -2700,6 +2643,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/475173_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 475173
+      },
+      "description": [
+        {
+          "value": "A66 Rhein-Main-Schnellweg, Frankfurt Richtung Wiesbaden\nzwischen Hofheim am Taunus und Diedenbergen\nGefahr durch Reifenteile auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Rhein-Main-Schnellweg, Frankfurt Richtung Wiesbaden zwischen Hofheim am Taunus und Diedenbergen",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-18T13:46:20.958Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -3458,57 +3452,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/475168_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475168
-      },
-      "description": [
-        {
-          "value": "B26 Aschaffenburg - Darmstadt\nzwischen Groß-Zimmern und Abzweig nach Traisa\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B26"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B26 Aschaffenburg Richtung Darmstadt zwischen Groß-Zimmern und Abzweig nach Traisa",
-        "streets": [
-          "B26"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T13:38:51.266Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_D__HE_FFM-IGLZ/210817370733_LMS-HE/54"
       },
       "dataProducer": {
@@ -3847,7 +3790,7 @@
       },
       "description": [
         {
-          "value": "B42A, B42 Richtung Rüdesheim\nzwischen Oestrich und Geisenheim"
+          "value": "B42A, B42 Richtung Rüdesheim\nzwischen Oestrich und Geisenheim\nUnfall, Richtungsfahrbahn gesperrt, Polizei regelt den Verkehr"
         }
       ],
       "location": {
@@ -3872,15 +3815,25 @@
         "name": "Dringlichkeit",
         "value": "Normal"
       },
-      "eventCategory": null,
-      "masterEventCategory": null,
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Information"
+        }
+      ],
+      "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T13:41:27.086Z"
+        "value": "2022-02-18T13:42:07.018Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -7773,61 +7726,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-02-16T10:05:13.696Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/474456_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 474456
-      },
-      "description": [
-        {
-          "value": "L3276, L3004 Römerturm - Schmitten\nzwischen Abzweig nach Niederreifenberg und Abzweig nach Dorfweil\nin beiden Richtungen mehrere umgestürzte Bäume, Richtungsfahrbahn blockiert"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3276, L3004"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Hochtaunuskreis, L3276, L3004 zwischen Abzweig nach Niederreifenberg und Abzweig nach Dorfweil",
-        "streets": [
-          "L3276",
-          "L3004"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-17T12:59:53.527Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
