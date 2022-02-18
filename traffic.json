@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -786,6 +786,50 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/475292_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 475292
+      },
+      "description": [
+        {
+          "value": "A4 Erfurt Richtung Bad Hersfeld\nAusfahrt Herleshausen\n(Auf- und Abfahrt der A4, AS Herleshausen in Fahrtrichtung Kirchheim gesperrt. Zufahrt zum Parkplatz Burgberg gesperrt. Sperrung bis voraussichtlich Vormittag des 19.02.2022)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A4"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A4 Erfurt Richtung Bad Hersfeld Ausfahrt Herleshausen",
+        "streets": [
+          "A4"
+        ]
+      },
+      "duration": null,
+      "urgency": null,
+      "eventCategory": null,
+      "masterEventCategory": null,
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-18T20:26:57.668Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/438867_LMS-HE/54"
       },
       "dataProducer": {
@@ -847,57 +891,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/475292_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475292
-      },
-      "description": [
-        {
-          "value": "A4 Erfurt Richtung Bad Hersfeld\nzwischen Eisenach-West und Herleshausen\nRichtungsfahrbahn gesperrt\n(aufgrund von Verkehrschildern einer Schilderbrücke, welche auf Fahrbahn zu stürzen drohen. Ebenfalls Parkplatz Burgberg gesperrt. Sperrung bis voraussichtlich Vormittag des 19.02.2022)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A4"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A4 Erfurt Richtung Bad Hersfeld zwischen Eisenach-West und Herleshausen",
-        "streets": [
-          "A4"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Sperrung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T19:04:44.691Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -2612,7 +2605,7 @@
       },
       "description": [
         {
-          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Wiesbaden-Nordenstadt und Wiesbaden-Erbenheim\nGefahr durch Metallteile auf der Fahrbahn"
+          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Wiesbaden-Nordenstadt und Wiesbaden-Erbenheim\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -2634,7 +2627,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2644,11 +2637,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T20:02:44.751Z"
+        "value": "2022-02-18T20:24:46.71Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3584,60 +3577,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/475415_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475415
-      },
-      "description": [
-        {
-          "value": "B8 Königstein Richtung Bad Camberg\nzwischen B455, Kreisverkehr Königstein in Königstein im Taunus und Eselsheck\nStörung beseitigt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B8"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B8 Königstein Richtung Bad Camberg zwischen B455, Kreisverkehr Königstein in Königstein im Taunus und Eselsheck",
-        "streets": [
-          "B8"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Arbeitsstelle"
-        }
-      ],
-      "masterEventCategory": "Sperrung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T20:04:47.842Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -5007,6 +4946,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/475434_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 475434
+      },
+      "description": [
+        {
+          "value": "B487 Hessisch-Lichtenau - Melsungen\nzwischen Mörshausen und Adelshausen\nbeide Fahrtrichtungen gesperrt, Gefahr durch Gegenstände auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B487"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B487 Hessisch-Lichtenau Richtung Melsungen zwischen Mörshausen und Adelshausen",
+        "streets": [
+          "B487"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-18T20:23:55.094Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/475404_LMS-HE/54"
       },
       "dataProducer": {
@@ -5308,6 +5301,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-10T23:00:01.453Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/475439_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 475439
+      },
+      "description": [
+        {
+          "value": "K352 zwischen Weidenhausen und Wetzlar\nin beiden Richtungen Gefahr durch umgestürzte Bäume, Sturmschäden, Richtungsfahrbahn gesperrt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K352"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Lahn-Dill-Kreis, K352 zwischen Weidenhausen und Wetzlar",
+        "streets": [
+          "K352"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-18T20:18:39.253Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -9365,7 +9412,7 @@
       },
       "description": [
         {
-          "value": "Marburg, Sonnenblickallee\nzwischen Beltershäuser Straße und In der Badestube\numgestürzte Bäume, Richtungsfahrbahn gesperrt"
+          "value": "Marburg, Sonnenblickallee\nzwischen Beltershäuser Straße und In der Badestube\nStraße wieder frei"
         }
       ],
       "location": {
@@ -9396,11 +9443,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T19:52:45.159Z"
+        "value": "2022-02-18T20:26:10.648Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
