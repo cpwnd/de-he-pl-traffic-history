@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -598,7 +598,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Bad Camberg und Limburg-Süd\nGefahr durch Metallteile auf der Fahrbahn"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Bad Camberg und Limburg-Süd\nStraße geräumt"
         }
       ],
       "location": {
@@ -620,7 +620,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -630,11 +630,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T15:27:36.567Z"
+        "value": "2022-02-18T15:44:06.512Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -967,17 +967,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/475207_LMS-HE/54"
+        "value": "LMS/r_LMS/475218_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 475207
+        "value": 475218
       },
       "description": [
         {
-          "value": "A5 Kassel Richtung Frankfurt\nzwischen Bad Nauheim und Ober-Mörlen\nStraße wieder frei"
+          "value": "A5 Darmstadt Richtung Heidelberg\nzwischen Darmstädter Kreuz und Darmstadt-Eberstadt\nGefahr durch Gegenstände auf der Fahrbahn (eine Metallstange)"
         }
       ],
       "location": {
@@ -991,7 +991,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A5 Kassel Richtung Frankfurt zwischen Bad Nauheim und Ober-Mörlen",
+        "description": "A5 Darmstadt Richtung Heidelberg zwischen Darmstädter Kreuz und Darmstadt-Eberstadt",
         "streets": [
           "A5"
         ]
@@ -999,7 +999,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Normal"
+        "value": "Dringend"
       },
       "eventCategory": [
         {
@@ -1009,11 +1009,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T15:20:47.217Z"
+        "value": "2022-02-18T15:46:12.819Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Geändert"
+        "value": "Neu"
       }
     },
     {
@@ -1662,57 +1662,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/475208_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475208
-      },
-      "description": [
-        {
-          "value": "A7 Fulda Richtung Kassel\nzwischen Niederaula und Hattenbacher Dreieck\nStraße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A7"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A7 Fulda Richtung Kassel zwischen Niederaula und Hattenbacher Dreieck",
-        "streets": [
-          "A7"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T15:21:16.313Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -2713,57 +2662,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/475200_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475200
-      },
-      "description": [
-        {
-          "value": "A67 Darmstadt Richtung Mönchhof-Dreieck\nzwischen Rüsselsheim-Ost und Mönchhof-Dreieck\nStraße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A67"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A67 Darmstadt Richtung Mönchhof-Dreieck zwischen Rüsselsheim-Ost und Mönchhof-Dreieck",
-        "streets": [
-          "A67"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T15:28:43.297Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -8195,7 +8093,7 @@
       },
       "description": [
         {
-          "value": "Idstein\nGefahr durch verschmutzte Fahrbahn, Gefahr durch Ölspur\n(mehrere Straßen im Stadtgebiet betroffen)"
+          "value": "Idstein\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -8211,7 +8109,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -8224,11 +8122,11 @@
       "masterEventCategory": "Straßenzustand",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T11:11:32.425Z"
+        "value": "2022-02-18T15:34:45.88Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
