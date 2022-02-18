@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -1087,6 +1087,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/475447_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 475447
+      },
+      "description": [
+        {
+          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Zeppelinheim und Frankfurter Kreuz\nGefahr durch Gegenstände auf der Fahrbahn (mehrere Leitbaken)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Darmstadt Richtung Frankfurt zwischen Zeppelinheim und Frankfurter Kreuz",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-18T20:30:41.593Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/335177_LMS-HE/54"
       },
       "dataProducer": {
@@ -1358,7 +1409,7 @@
       },
       "description": [
         {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Kirchheim und Hattenbacher Dreieck\nGefahr durch defektes Fahrzeug auf dem linken Fahrstreifen, Gefahr durch Personen auf der Fahrbahn, bitte vorsichtig fahren, Richtungsfahrbahn gesperrt\n(Kurzzeitige Sperrung wegen Bergungsarbeiten)"
+          "value": "A7 Kassel Richtung Fulda\nzwischen Kirchheim und Hattenbacher Dreieck\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -1380,7 +1431,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1396,7 +1447,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T19:57:19.143Z"
+        "value": "2022-02-18T20:36:03.981Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2595,57 +2646,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/475422_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475422
-      },
-      "description": [
-        {
-          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Wiesbaden-Nordenstadt und Wiesbaden-Erbenheim\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A66"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A66 Frankfurt Richtung Wiesbaden zwischen Wiesbaden-Nordenstadt und Wiesbaden-Erbenheim",
-        "streets": [
-          "A66"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T20:24:46.71Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/397236_LMS-HE/54"
       },
       "dataProducer": {
@@ -3332,7 +3332,7 @@
       },
       "description": [
         {
-          "value": "A671 Wiesbaden Richtung Mainz\nzwischen Hochheim-Süd und Gustavsburg\nNachtbaustelle, rechter Fahrstreifen gesperrt, von 18.02.2022 ca. 21:00 Uhr bis 19.02.2022 ca. 05:00 Uhr"
+          "value": "A671 Wiesbaden Richtung Mainz\nzwischen Hochheim-Süd und Gustavsburg\nNachtbaustelle, rechter Fahrstreifen gesperrt, bis 19.02.2022 ca. 05:00 Uhr"
         }
       ],
       "location": {
@@ -3378,11 +3378,11 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T19:04:21.731Z"
+        "value": "2022-02-18T20:40:34.25Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4991,11 +4991,11 @@
       "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T20:23:55.094Z"
+        "value": "2022-02-18T20:39:30.623Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -8731,6 +8731,51 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/475446_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 475446
+      },
+      "description": [
+        {
+          "value": "Großer Feldberg\nGefahr durch Sturmschäden, Gefahr durch umgestürzte Bäume\n(Im gesamten Feldberggebiet kommt es aufgrund umgestürzter Bäume zu Fahrbahnsperrungen. Bitte das Gebiet meiden und weiträumig umfahren.)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": null
+          }
+        ],
+        "name": "Ort",
+        "description": "Großer Feldberg",
+        "streets": null
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-18T20:29:22.147Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_D__HE_FFM-IGLZ/210806733387_LMS-HE/54"
       },
       "dataProducer": {
@@ -9394,56 +9439,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-11-22T13:59:08.434Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/475408_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475408
-      },
-      "description": [
-        {
-          "value": "Marburg, Sonnenblickallee\nzwischen Beltershäuser Straße und In der Badestube\nStraße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": null
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Marburg, Sonnenblickallee zwischen Beltershäuser Straße und In der Badestube",
-        "streets": null
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T20:26:10.648Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
