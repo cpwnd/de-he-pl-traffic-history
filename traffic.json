@@ -2289,7 +2289,7 @@
       },
       "description": [
         {
-          "value": "A45 Hagen Richtung Gießen\nzwischen Wilnsdorf und Haiger/Burbach\nGefahr durch Gegenstände auf der Fahrbahn im Baustellenbereich\n(mehrere große Äste)"
+          "value": "A45 Hagen Richtung Gießen\nzwischen Wilnsdorf und Haiger/Burbach\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -2311,7 +2311,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2321,11 +2321,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T19:40:36.559Z"
+        "value": "2022-02-18T23:17:28.124Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2384,6 +2384,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-02-16T08:32:53.415Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/475540_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 475540
+      },
+      "description": [
+        {
+          "value": "A45 Gießen Richtung Hagen\nzwischen Gießen-Lützellinden und Wetzlar-Süd\nGefahr durch defektes Fahrzeug, Gefahr durch Personen auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A45 Gießen Richtung Hagen zwischen Gießen-Lützellinden und Wetzlar-Süd",
+        "streets": [
+          "A45"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-18T23:15:34.99Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3150,6 +3201,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/475544_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 475544
+      },
+      "description": [
+        {
+          "value": "A480 Reiskirchen Richtung Gießen\nzwischen Reiskirchener Dreieck und Gießener Nordkreuz\nGefahr durch Fahrzeugteile auf der Fahrbahn, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A480"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A480 Reiskirchen Richtung Gießen zwischen Reiskirchener Dreieck und Gießener Nordkreuz",
+        "streets": [
+          "A480"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-18T23:19:33.714Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/435760_LMS-HE/54"
       },
       "dataProducer": {
@@ -3321,6 +3426,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/475539_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 475539
+      },
+      "description": [
+        {
+          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Frankfurt-Friedberger Landstraße und Frankfurt am Main-Ost\nGefahr durch ungesicherte Unfallstelle"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A661"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A661 Bad Homburg Richtung Darmstadt zwischen Frankfurt-Friedberger Landstraße und Frankfurt am Main-Ost",
+        "streets": [
+          "A661"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-18T23:14:52.5Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -9226,6 +9382,34 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/475538_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 475538
+      },
+      "description": null,
+      "location": null,
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": null,
+      "masterEventCategory": null,
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-18T23:14:05.881Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
