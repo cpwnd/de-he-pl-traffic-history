@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -926,7 +926,7 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Darmstadt\nzwischen Langen/Mörfelden und Weiterstadt\nVollsperrung, Unfall, Bergungsarbeiten, empfohlene Umleitung: U37"
+          "value": "A5 Frankfurt Richtung Darmstadt\nzwischen Langen/Mörfelden und Weiterstadt\nUnfall, Bergungsarbeiten, Verkehr wird an der Unfallstelle vorbeigeführt"
         }
       ],
       "location": {
@@ -952,19 +952,19 @@
       },
       "eventCategory": [
         {
-          "value": "Sperrung"
-        },
-        {
           "value": "Unfall"
         },
         {
           "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
         }
       ],
-      "masterEventCategory": "Sperrung",
+      "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T02:44:14.762Z"
+        "value": "2022-02-18T03:03:41.304Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2619,6 +2619,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-06T13:00:00.462Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/475011_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 475011
+      },
+      "description": [
+        {
+          "value": "A67 Darmstadt Richtung Mönchhof-Dreieck\nzwischen Rüsselsheimer Dreieck und Rüsselsheim-Ost\nGefahr durch ungesicherte Unfallstelle im Baustellenbereich"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A67"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A67 Darmstadt Richtung Mönchhof-Dreieck zwischen Rüsselsheimer Dreieck und Rüsselsheim-Ost",
+        "streets": [
+          "A67"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-18T03:10:16.82Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
