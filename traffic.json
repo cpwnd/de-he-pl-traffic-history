@@ -926,7 +926,7 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Darmstadt\nzwischen Langen/Mörfelden und Weiterstadt\nGefahr durch 1 ungesicherte Unfallstelle"
+          "value": "A5 Frankfurt Richtung Darmstadt\nzwischen Langen/Mörfelden und Weiterstadt\nVollsperrung, Unfall, Bergungsarbeiten, empfohlene Umleitung: U37"
         }
       ],
       "location": {
@@ -948,21 +948,27 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
+          "value": "Sperrung"
+        },
+        {
           "value": "Unfall"
+        },
+        {
+          "value": "Arbeitsstelle"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T02:11:45.766Z"
+        "value": "2022-02-18T02:44:14.762Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
