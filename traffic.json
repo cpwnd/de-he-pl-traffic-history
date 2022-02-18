@@ -976,57 +976,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/475103_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475103
-      },
-      "description": [
-        {
-          "value": "A5 Kassel - Frankfurt\nzwischen Homberg (Ohm) und Grünberg\nin beiden Richtungen Gefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Kassel Richtung Frankfurt zwischen Homberg (Ohm) und Grünberg",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T11:02:46Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/338932_LMS-HE/54"
       },
       "dataProducer": {
@@ -8268,6 +8217,54 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/475106_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 475106
+      },
+      "description": [
+        {
+          "value": "Idstein\nGefahr durch verschmutzte Fahrbahn, Gefahr durch Ölspur\n(mehrere Straßen im Stadtgebiet betroffen)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": null
+          }
+        ],
+        "name": "Ort",
+        "description": "Idstein",
+        "streets": null
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Straßenzustand"
+        },
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Straßenzustand",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-18T11:11:32.425Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
