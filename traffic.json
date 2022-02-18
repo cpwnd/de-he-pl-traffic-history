@@ -509,6 +509,136 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/475505_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 475505
+      },
+      "description": [
+        {
+          "value": "A3 Würzburg Richtung Frankfurt\nAusfahrt Offenbach\nBaustelle, Ausfahrt gesperrt, bis 19.02.2022 02:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Würzburg Richtung Frankfurt Ausfahrt Offenbach",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-02-18T22:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-02-19T01:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 18.02.2022 23:00 Uhr bis 19.02.2022 02:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-18T22:00:00.868Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/475506_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 475506
+      },
+      "description": [
+        {
+          "value": "A3 Würzburg Richtung Frankfurt\nin Höhe Offenbach\nBaustelle, vorübergehende Begrenzung der Fahrbahnbreite auf 3,25 m, bis 19.02.2022 02:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Würzburg Richtung Frankfurt in Höhe Offenbach",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-02-18T22:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-02-19T01:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 18.02.2022 23:00 Uhr bis 19.02.2022 02:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-18T22:00:00.868Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/461440_LMS-HE/54"
       },
       "dataProducer": {
@@ -1003,57 +1133,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-15T20:00:04.312Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/475473_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475473
-      },
-      "description": [
-        {
-          "value": "A5 Heidelberg Richtung Darmstadt\nzwischen Bensheim und Zwingenberg\nGefahr durch Personen auf der Fahrbahn, Gefahr durch defektes Fahrzeug auf dem Standstreifen"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Heidelberg Richtung Darmstadt zwischen Bensheim und Zwingenberg",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T21:02:56.94Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4474,58 +4553,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/475417_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475417
-      },
-      "description": [
-        {
-          "value": "B54, B49 Limburg Richtung Gießen\nzwischen B8, Limburg-Nord in Limburg an der Lahn und A3, Limburg-Nord\nGefahr durch ein totes Tier (Dachs) auf der Fahrbahn\n(unter der Autobahnbrücke)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B54, B49"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B54, B49 Limburg Richtung Gießen zwischen B8, Limburg-Nord in Limburg an der Lahn und A3, Limburg-Nord",
-        "streets": [
-          "B54",
-          "B49"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T20:01:08.76Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/475308_LMS-HE/54"
       },
       "dataProducer": {
@@ -5109,6 +5136,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/475501_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 475501
+      },
+      "description": [
+        {
+          "value": "K73 zwischen Abzweig nach Sinkershausen und Diedenshausen\nin beiden Richtungen Gefahr durch umgestürzte Bäume, Richtungsfahrbahn gesperrt\n(bis morgen früh)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K73"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Kreis Marburg-Biedenkopf, K73 zwischen Abzweig nach Sinkershausen und Diedenshausen",
+        "streets": [
+          "K73"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-18T21:44:13.359Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
