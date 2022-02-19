@@ -4451,60 +4451,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/475248_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475248
-      },
-      "description": [
-        {
-          "value": "B453 Gladenbach Richtung Dautphetal\nzwischen Abzweig nach Bellnhausen und Abzweig nach Herzhausen\nStraße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B453"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B453 Gladenbach Richtung Dautphetal zwischen Abzweig nach Bellnhausen und Abzweig nach Herzhausen",
-        "streets": [
-          "B453"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-19T08:11:13.777Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/475434_LMS-HE/54"
       },
       "dataProducer": {
@@ -6805,7 +6751,7 @@
       },
       "description": [
         {
-          "value": "L3020 Heuchelheim - Limburg\nzwischen Abzweig nach Hasselbach und Abzweig nach Gaudernbach\nin beiden Richtungen Gefahr durch umgestürzte Bäume, Richtungsfahrbahn gesperrt\n(Bis in die Morgenstunden gesperrt.)"
+          "value": "L3020 Heuchelheim - Limburg\nzwischen Abzweig nach Hasselbach und Abzweig nach Gaudernbach\nin beiden Richtungen Straße wieder frei"
         }
       ],
       "location": {
@@ -6827,7 +6773,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -6840,11 +6786,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-19T00:37:11.723Z"
+        "value": "2022-02-19T08:29:32.949Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -8140,6 +8086,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/475472_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 475472
+      },
+      "description": [
+        {
+          "value": "L3342 zwischen Mengsberg und Lischeid\nin beiden Richtungen Straße wieder frei"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3342"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Kreis Marburg-Biedenkopf und Schwalm-Eder-Kreis, L3342 zwischen Mengsberg und Lischeid",
+        "streets": [
+          "L3342"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-19T08:22:36.318Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/464792_LMS-HE/54"
       },
       "dataProducer": {
@@ -9210,6 +9210,59 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/464794_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 464794
+      },
+      "description": [
+        {
+          "value": "Oberbiel, Robert-Kling-Straße\nzwischen Hinterdorf und In der Au\nin beiden Richtungen Straße wieder frei"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": null
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Oberbiel, Robert-Kling-Straße zwischen Hinterdorf und In der Au",
+        "streets": null
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-19T08:22:47.274Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
