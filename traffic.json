@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -1738,6 +1738,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/475917_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 475917
+      },
+      "description": [
+        {
+          "value": "A44 Dortmund Richtung Kassel\nzwischen Kassel-Bad Wilhelmshöhe und Kreuz Kassel-West\nGefahr durch ungesicherte Unfallstelle auf dem Standstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A44"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A44 Dortmund Richtung Kassel zwischen Kassel-Bad Wilhelmshöhe und Kreuz Kassel-West",
+        "streets": [
+          "A44"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-19T14:28:56.947Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/473977_LMS-HE/54"
       },
       "dataProducer": {
@@ -2943,7 +2994,7 @@
       },
       "description": [
         {
-          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Frankfurt am Main-Heddernheim und Frankfurt am M.-Nieder-Eschbach\nGefahr durch ungesicherte Unfallstelle"
+          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Frankfurt am Main-Heddernheim und Frankfurt am M.-Nieder-Eschbach\nGefahr durch ungesicherte Unfallstelle, Gegenstände auf der Fahrbahn"
         }
       ],
       "location": {
@@ -2970,16 +3021,19 @@
       "eventCategory": [
         {
           "value": "Unfall"
+        },
+        {
+          "value": "Hindernis"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-19T14:02:57.489Z"
+        "value": "2022-02-19T14:29:19.584Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3178,57 +3232,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/475913_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475913
-      },
-      "description": [
-        {
-          "value": "B26 Aschaffenburg Richtung Darmstadt\nzwischen Groß-Zimmern und Roßdorf-Gundernhausen\nStraße geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B26"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B26 Aschaffenburg Richtung Darmstadt zwischen Groß-Zimmern und Roßdorf-Gundernhausen",
-        "streets": [
-          "B26"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-19T14:11:54.708Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/475906_LMS-HE/54"
       },
       "dataProducer": {
@@ -3277,11 +3280,11 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-19T14:02:12.705Z"
+        "value": "2022-02-19T14:32:00.088Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -7831,114 +7834,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/475263_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475263
-      },
-      "description": [
-        {
-          "value": "L3270 zwischen Bodenrod und Michelbach\nin beiden Richtungen Straße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3270"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Wetteraukreis und Hochtaunuskreis, L3270 zwischen Bodenrod und Michelbach",
-        "streets": [
-          "L3270"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-19T14:17:19.82Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/475905_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475905
-      },
-      "description": [
-        {
-          "value": "L3277 zwischen Wallrabenstein und Abzweig nach Wallbach\nStraße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3277"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Rheingau-Taunus-Kreis, L3277 zwischen Wallrabenstein und Abzweig nach Wallbach",
-        "streets": [
-          "L3277"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-19T14:19:20.122Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/471257_LMS-HE/54"
       },
       "dataProducer": {
@@ -8120,11 +8015,11 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-19T14:04:58.704Z"
+        "value": "2022-02-19T14:36:40.187Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
