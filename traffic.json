@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -1748,7 +1748,7 @@
       },
       "description": [
         {
-          "value": "A7 Fulda Richtung Kassel\nzwischen Homberg (Efze) und Malsfeld\nGefahr durch Gegenstände auf der Fahrbahn (ein Plastikteil), Gefahr durch Personen auf der Fahrbahn"
+          "value": "A7 Fulda Richtung Kassel\nzwischen Homberg (Efze) und Malsfeld\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -1770,7 +1770,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1780,7 +1780,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-19T13:03:05.894Z"
+        "value": "2022-02-19T13:33:11.977Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4126,6 +4126,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-02-18T18:49:44.118Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/475901_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 475901
+      },
+      "description": [
+        {
+          "value": "B251 Kassel - Korbach\nzwischen Ippinghausen und Freienhagen\nin beiden Richtungen Richtungsfahrbahn gesperrt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B251"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B251 Kassel Richtung Korbach zwischen Ippinghausen und Freienhagen",
+        "streets": [
+          "B251"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-19T13:35:34.454Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
