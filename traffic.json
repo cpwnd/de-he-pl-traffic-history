@@ -855,7 +855,7 @@
       },
       "description": [
         {
-          "value": "A4 Erfurt Richtung Bad Hersfeld\nzwischen Friedewald und Bad Hersfeld\nGefahr durch defekten LKW auf dem Verzögerungsstreifen, Gefahr durch Ölspur"
+          "value": "A4 Erfurt Richtung Bad Hersfeld\nzwischen Friedewald und Bad Hersfeld\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -877,7 +877,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -887,7 +887,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-19T19:30:28.658Z"
+        "value": "2022-02-19T20:38:32.771Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3173,6 +3173,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/476013_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 476013
+      },
+      "description": [
+        {
+          "value": "B3 Gießen - Marburg\nzwischen A485, Gießener Nordkreuz und Lollar-Nord/Staufenberg\nin beiden Richtungen die Gefahr durch ein entgegenkommendes Fahrzeug besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B3 Gießen Richtung Marburg zwischen A485, Gießener Nordkreuz und Lollar-Nord/Staufenberg",
+        "streets": [
+          "B3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-19T20:42:26.227Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
