@@ -458,6 +458,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/475941_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 475941
+      },
+      "description": [
+        {
+          "value": "A3 Köln - Frankfurt\nzwischen Bad Camberg und Idstein\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Frankfurt zwischen Bad Camberg und Idstein",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-19T15:34:11.275Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/461440_LMS-HE/54"
       },
       "dataProducer": {
@@ -796,7 +847,7 @@
       },
       "description": [
         {
-          "value": "A4 Erfurt Richtung Bad Hersfeld\nAusfahrt Herleshausen\n(Auf- und Abfahrt der A4, AS Herleshausen in Fahrtrichtung Kirchheim gesperrt. Zufahrt zum Parkplatz Burgberg gesperrt. Sperrung bis voraussichtlich Vormittag des 19.02.2022)"
+          "value": "A4 Erfurt Richtung Bad Hersfeld\nAusfahrt Herleshausen\nSturmschäden, Anschlussstelle blockiert, bis 21.02.2022 20:00 Uhr\n(Auf- und Abfahrt der A4, AS Herleshausen in Fahrtrichtung Kirchheim gesperrt. Zufahrt zum Parkplatz Burgberg gesperrt. Sperrung voraussichtlich bis zum Abend des 21.02.2022)"
         }
       ],
       "location": {
@@ -815,13 +866,28 @@
           "A4"
         ]
       },
-      "duration": null,
-      "urgency": null,
-      "eventCategory": null,
-      "masterEventCategory": null,
+      "duration": {
+        "startTime": null,
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-02-21T19:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "bis 21.02.2022 20:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T20:26:57.668Z"
+        "value": "2022-02-19T15:41:37.545Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2809,57 +2875,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/475926_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475926
-      },
-      "description": [
-        {
-          "value": "A648 Wiesbadener Straße, Eschborn - Frankfurt\nzwischen Westkreuz Frankfurt und Frankfurt am Main-Biegweg\nin beiden Richtungen Straße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A648"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A648 Wiesbadener Straße, Eschborn Richtung Frankfurt zwischen Westkreuz Frankfurt und Frankfurt am Main-Biegweg",
-        "streets": [
-          "A648"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-19T15:24:36.028Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/430914_LMS-HE/54"
       },
       "dataProducer": {
@@ -3229,63 +3244,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/475906_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475906
-      },
-      "description": [
-        {
-          "value": "B27 Fulda Richtung Bad Hersfeld\nzwischen Leipziger Straße in Fulda und Michelsrombacher Straße\nStraße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B27"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B27 Fulda Richtung Bad Hersfeld zwischen Leipziger Straße in Fulda und Michelsrombacher Straße",
-        "streets": [
-          "B27"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-19T15:24:04.007Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_D__HE_FFM-IGLZ/210817370733_LMS-HE/54"
       },
       "dataProducer": {
@@ -3606,6 +3564,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-12-17T23:00:01.198Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/475942_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 475942
+      },
+      "description": [
+        {
+          "value": "B42 Wiesbaden Richtung Rüdesheim\nzwischen Walluf in Nieder-Walluf und Eltville am Rhein\nGefahr durch Fahrradfahrer auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B42"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B42 Wiesbaden Richtung Rüdesheim zwischen Walluf in Nieder-Walluf und Eltville am Rhein",
+        "streets": [
+          "B42"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-19T15:35:53.547Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -7041,60 +7050,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/475903_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475903
-      },
-      "description": [
-        {
-          "value": "L3063 Steeden, Steedener Hauptstraße\nzwischen Am Heiligen Haus und Langenbergstraße\nin beiden Richtungen wieder offen"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3063"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Steeden, Steedener Hauptstraße zwischen Am Heiligen Haus und Langenbergstraße",
-        "streets": [
-          "L3063"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-19T15:18:33.879Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/426280_LMS-HE/54"
       },
       "dataProducer": {
@@ -8476,7 +8431,7 @@
       },
       "description": [
         {
-          "value": "Gießen\nDemonstration\n(In der Zeit von 12:00 Uhr bis 18:30 Uhr kommt es im Innenstadtbreich von Gießen, insbesondere auf dem Anlagenring, auf Grund von mehreren Demonstrationen zu Verkehrsbehinderungen. Verkehrsteilnehmer werden gebeten den Bereich zu umfahren.)"
+          "value": "Gießen\nVeranstaltung beendet"
         }
       ],
       "location": {
@@ -8502,52 +8457,7 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-19T09:15:30.695Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/475892_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475892
-      },
-      "description": [
-        {
-          "value": "Hanau\nInformation über Veranstaltung aufgehoben"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": null
-          }
-        ],
-        "name": "Ort",
-        "description": "Hanau",
-        "streets": null
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Organisiertes Ereignis"
-        }
-      ],
-      "masterEventCategory": "Organisiertes Ereignis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-19T15:26:12.106Z"
+        "value": "2022-02-19T15:33:27.753Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
