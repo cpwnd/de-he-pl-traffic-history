@@ -468,7 +468,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln - Frankfurt\nzwischen Bad Camberg und Idstein\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
+          "value": "A3 Köln - Frankfurt\nzwischen Bad Camberg und Idstein\nin beiden Richtungen Gefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -490,7 +490,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -500,11 +500,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-19T15:34:11.275Z"
+        "value": "2022-02-19T16:08:59.756Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2493,6 +2493,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/475947_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 475947
+      },
+      "description": [
+        {
+          "value": "A67 Darmstadt Richtung Mannheim\nzwischen Lorsch und Viernheimer Dreieck\nGefahr durch ungesicherte Unfallstelle auf dem Standstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A67"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A67 Darmstadt Richtung Mannheim zwischen Lorsch und Viernheimer Dreieck",
+        "streets": [
+          "A67"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-19T15:51:48.462Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/461537_LMS-HE/54"
       },
       "dataProducer": {
@@ -2991,57 +3042,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-12-20T14:44:37.366Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/475939_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475939
-      },
-      "description": [
-        {
-          "value": "A661 Darmstadt - Bad Homburg\nzwischen Preungesheimer Dreieck und Frankfurt-Eckenheim\nin beiden Richtungen Gefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A661"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A661 Darmstadt Richtung Bad Homburg zwischen Preungesheimer Dreieck und Frankfurt-Eckenheim",
-        "streets": [
-          "A661"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-19T15:29:00.038Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3564,57 +3564,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-12-17T23:00:01.198Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/475942_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475942
-      },
-      "description": [
-        {
-          "value": "B42 Wiesbaden Richtung Rüdesheim\nzwischen Walluf in Nieder-Walluf und Eltville am Rhein\nGefahr durch Fahrradfahrer auf der Fahrbahn"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B42"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B42 Wiesbaden Richtung Rüdesheim zwischen Walluf in Nieder-Walluf und Eltville am Rhein",
-        "streets": [
-          "B42"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-19T15:35:53.547Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4618,60 +4567,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/475345_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475345
-      },
-      "description": [
-        {
-          "value": "K117 zwischen Einfahrt K117 und B252\nin beiden Richtungen Gefahr durch Gegenstände auf der Fahrbahn, Richtungsfahrbahn gesperrt\n(umgestürzte Bäume)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "K117"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Kreis Waldeck-Frankenberg, K117 zwischen Einfahrt K117 und B252",
-        "streets": [
-          "K117"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Sperrung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T18:46:59.419Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
@@ -8193,7 +8088,7 @@
       },
       "description": [
         {
-          "value": "L3455 zwischen Springen und Kemel\nGefahr durch umgestürzte Bäume, Richtungsfahrbahn gesperrt"
+          "value": "L3455 zwischen Springen und Kemel\nStraße wieder frei"
         }
       ],
       "location": {
@@ -8215,7 +8110,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -8228,11 +8123,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-19T08:09:44.236Z"
+        "value": "2022-02-19T16:07:47.857Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -8413,51 +8308,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-12-14T15:08:09.05Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/475769_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475769
-      },
-      "description": [
-        {
-          "value": "Gießen\nVeranstaltung beendet"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": null
-          }
-        ],
-        "name": "Ort",
-        "description": "Gießen",
-        "streets": null
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-19T15:33:27.753Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
