@@ -458,57 +458,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/475476_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475476
-      },
-      "description": [
-        {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbadener Kreuz und Mönchhof-Dreieck\nalle Fahrbahnen geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Köln Richtung Frankfurt zwischen Wiesbadener Kreuz und Mönchhof-Dreieck",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-19T00:59:23.841Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/475520_LMS-HE/54"
       },
       "dataProducer": {
@@ -1128,57 +1077,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-12-31T04:33:20.613Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/475447_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475447
-      },
-      "description": [
-        {
-          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Langen/Mörfelden und Zeppelinheim\nGefahr durch Gegenstände auf der Fahrbahn (mehrere Leitbaken)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Darmstadt Richtung Frankfurt zwischen Langen/Mörfelden und Zeppelinheim",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T21:07:29.625Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3268,17 +3166,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/475364_LMS-HE/54"
+        "value": "LMS/r_LMS/475589_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 475364
+        "value": 475589
       },
       "description": [
         {
-          "value": "A671 Wiesbaden Richtung Mainz\nzwischen Hochheim-Süd und Gustavsburg\nNachtbaustelle, rechter Fahrstreifen gesperrt, bis 19.02.2022 ca. 05:00 Uhr"
+          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Bad Homburger Kreuz und Bad Homburg\nStraße wieder frei"
         }
       ],
       "location": {
@@ -3286,45 +3184,34 @@
           {
             "edge": {
               "sortRoadNumber": {
-                "value": "A671"
+                "value": "A661"
               }
             }
           }
         ],
         "name": "Ort",
-        "description": "A671 Wiesbaden Richtung Mainz zwischen Hochheim-Süd und Gustavsburg",
+        "description": "A661 Darmstadt Richtung Bad Homburg zwischen Bad Homburger Kreuz und Bad Homburg",
         "streets": [
-          "A671"
+          "A661"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-02-18T20:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-02-19T04:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 18.02.2022 ca. 21:00 Uhr bis 19.02.2022 ca. 05:00 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Arbeitsstelle"
+          "value": "Hindernis"
         },
         {
-          "value": "Sperrung"
+          "value": "Hinweis"
         }
       ],
-      "masterEventCategory": "Arbeitsstelle",
+      "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T20:40:34.25Z"
+        "value": "2022-02-19T01:55:09.347Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4836,6 +4723,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/475599_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 475599
+      },
+      "description": [
+        {
+          "value": "B457 Licher Straße, Gießen - Nidda\nzwischen Gießen und Gießen Gewerbegebiet Europaviertel\nin beiden Richtungen Gefahr durch umgestürzte Bäume, Richtungsfahrbahn gesperrt\n(Bis in die Morgenstunden gesperrt.)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B457"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B457 Licher Straße, Gießen Richtung Nidda zwischen Gießen und Gießen Gewerbegebiet Europaviertel",
+        "streets": [
+          "B457"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-19T02:03:27.004Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
