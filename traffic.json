@@ -468,7 +468,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbadener Kreuz und Mönchhof-Dreieck\nGefahr durch defektes Fahrzeug auf dem Standstreifen\n(kurz nach Raunheim)"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbadener Kreuz und Mönchhof-Dreieck\nalle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -490,7 +490,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -500,11 +500,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T21:13:49.261Z"
+        "value": "2022-02-19T00:59:23.841Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -519,7 +519,7 @@
       },
       "description": [
         {
-          "value": "A3 Würzburg Richtung Frankfurt\nzwischen Hanau und Offenbach\nGefahr durch ungesicherte Unfallstelle, fahren Sie bitte besonders vorsichtig, rechter Fahrstreifen blockiert, mittlerer Fahrstreifen blockiert, Rettungsfahrzeuge im Einsatz, Richtungsfahrbahn gesperrt, empfohlene Umleitung: Richtung Frankfurt über Heusenstamm, Gravenbruch, Neu-Isenburg und B44"
+          "value": "A3 Würzburg Richtung Frankfurt\nzwischen Hanau und Offenbach\nGefahr durch ungesicherte Unfallstelle, fahren Sie bitte besonders vorsichtig, rechter Fahrstreifen blockiert, mittlerer Fahrstreifen blockiert, Rettungsfahrzeuge im Einsatz, empfohlene Umleitung: Richtung Frankfurt über Heusenstamm, Gravenbruch, Neu-Isenburg und B44"
         }
       ],
       "location": {
@@ -555,149 +555,16 @@
         },
         {
           "value": "Information"
-        },
-        {
-          "value": "Sperrung"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T23:03:59.168Z"
+        "value": "2022-02-19T00:15:07.048Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/475505_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475505
-      },
-      "description": [
-        {
-          "value": "A3 Würzburg Richtung Frankfurt\nAusfahrt Offenbach\nBaustelle, Ausfahrt gesperrt, bis 19.02.2022 02:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Würzburg Richtung Frankfurt Ausfahrt Offenbach",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-02-18T22:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-02-19T01:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 18.02.2022 23:00 Uhr bis 19.02.2022 02:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T22:00:00.868Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/475506_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475506
-      },
-      "description": [
-        {
-          "value": "A3 Würzburg Richtung Frankfurt\nin Höhe Offenbach\nBaustelle, vorübergehende Begrenzung der Fahrbahnbreite auf 3,25 m, bis 19.02.2022 02:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Würzburg Richtung Frankfurt in Höhe Offenbach",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-02-18T22:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-02-19T01:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 18.02.2022 23:00 Uhr bis 19.02.2022 02:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Beschränkung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T22:00:00.868Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
@@ -2341,57 +2208,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/475540_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475540
-      },
-      "description": [
-        {
-          "value": "A45 Gießen Richtung Hagen\nzwischen Gießen-Lützellinden und Wetzlar-Süd\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A45"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A45 Gießen Richtung Hagen zwischen Gießen-Lützellinden und Wetzlar-Süd",
-        "streets": [
-          "A45"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T23:35:07.704Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/443952_LMS-HE/54"
       },
       "dataProducer": {
@@ -3150,60 +2966,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/475544_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475544
-      },
-      "description": [
-        {
-          "value": "A480 Reiskirchen Richtung Gießen\nzwischen Reiskirchener Dreieck und Gießener Nordkreuz\nGefahr durch Fahrzeugteile auf der Fahrbahn, bitte vorsichtig fahren"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A480"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A480 Reiskirchen Richtung Gießen zwischen Reiskirchener Dreieck und Gießener Nordkreuz",
-        "streets": [
-          "A480"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T23:19:33.714Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/435760_LMS-HE/54"
       },
       "dataProducer": {
@@ -3371,57 +3133,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-13T10:36:16.465Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/475539_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475539
-      },
-      "description": [
-        {
-          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Frankfurt-Friedberger Landstraße und Frankfurt am Main-Ost\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A661"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A661 Bad Homburg Richtung Darmstadt zwischen Frankfurt-Friedberger Landstraße und Frankfurt am Main-Ost",
-        "streets": [
-          "A661"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T23:33:40.624Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -5351,6 +5062,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-02-18T21:44:13.359Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/475561_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 475561
+      },
+      "description": [
+        {
+          "value": "K109 zwischen B253 in Ludwigshütte und Abzweig nach Wallau (Lahn)\nin beiden Richtungen Gefahr durch umgestürzte Bäume, Richtungsfahrbahn gesperrt\n(Sperrung voraussichtlich bis in die Morgenstunden)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K109"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Kreis Marburg-Biedenkopf, K109 zwischen B253 in Ludwigshütte und Abzweig nach Wallau (Lahn)",
+        "streets": [
+          "K109"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-19T00:10:23.316Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -7527,6 +7292,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/475570_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 475570
+      },
+      "description": [
+        {
+          "value": "L3020 Heuchelheim - Limburg\nzwischen Abzweig nach Hasselbach und Abzweig nach Gaudernbach\nin beiden Richtungen Gefahr durch umgestürzte Bäume, Richtungsfahrbahn gesperrt\n(Bis in die Morgenstunden gesperrt.)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3020"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Kreis Limburg-Weilburg, L3020 zwischen Abzweig nach Hasselbach und Abzweig nach Gaudernbach",
+        "streets": [
+          "L3020"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-19T00:37:11.723Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/468922_LMS-HE/54"
       },
       "dataProducer": {
@@ -7646,6 +7465,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-26T11:10:32.156Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/475576_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 475576
+      },
+      "description": [
+        {
+          "value": "L3022 Waldbrunn-Ellar Richtung Hühfelden-Kirberg\nzwischen Ellar und Steinbach\nGefahr durch umgestürzte Bäume, Richtungsfahrbahn gesperrt\n(Bis in die Morgenstunden gesperrt.)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3022"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Kreis Limburg-Weilburg, L3022 zwischen Ellar und Steinbach",
+        "streets": [
+          "L3022"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-19T00:43:52.676Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -9071,65 +8944,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/475351_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475351
-      },
-      "description": [
-        {
-          "value": "Kreis Gießen\nUnwetterwarnung, Gefahr durch umgestürzte Bäume, bis 19.02.2022 ca. 01:00 Uhr\n(Gefahr von orkanartigen Böen)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": null
-          }
-        ],
-        "name": "Ort",
-        "description": "Kreis Gießen",
-        "streets": null
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-02-18T18:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-02-19T00:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 18.02.2022 19:00 Uhr bis 19.02.2022 ca. 01:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Wetter"
-        },
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Wetter",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T18:54:09.146Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_D__HE_FFM-IGLZ/210813857704_LMS-HE/54"
       },
       "dataProducer": {
@@ -9187,54 +9001,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/475352_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475352
-      },
-      "description": [
-        {
-          "value": "Kreis Kassel\nUnwetterwarnung, Gefahr durch umgestürzte Bäume\n(Gefahr von orkanartigen Böen)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": null
-          }
-        ],
-        "name": "Ort",
-        "description": "Kreis Kassel",
-        "streets": null
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Wetter"
-        },
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Wetter",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T18:54:57.391Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
@@ -9331,34 +9097,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/475538_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475538
-      },
-      "description": null,
-      "location": null,
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": null,
-      "masterEventCategory": null,
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-18T23:14:05.881Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
