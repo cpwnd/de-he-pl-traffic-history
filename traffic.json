@@ -975,6 +975,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/476145_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 476145
+      },
+      "description": [
+        {
+          "value": "A5 Darmstadt - Heidelberg\nzwischen Weiterstadt und Dreieck Darmstadt\nin beiden Richtungen Gefahr besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Darmstadt Richtung Heidelberg zwischen Weiterstadt und Dreieck Darmstadt",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-20T12:49:57.172Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/338932_LMS-HE/54"
       },
       "dataProducer": {
@@ -2493,57 +2544,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/476139_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 476139
-      },
-      "description": [
-        {
-          "value": "A66 Frankfurt Richtung Fulda\nzwischen Hanau-Nord und Erlensee\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A66"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A66 Frankfurt Richtung Fulda zwischen Hanau-Nord und Erlensee",
-        "streets": [
-          "A66"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-20T12:12:26.391Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/461537_LMS-HE/54"
       },
       "dataProducer": {
@@ -3060,7 +3060,7 @@
       },
       "description": [
         {
-          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Frankfurt am M.-Nieder-Eschbach und Bad Homburger Kreuz\nUnfall, Polizei ist vor Ort"
+          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Frankfurt am M.-Nieder-Eschbach und Bad Homburger Kreuz\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -3095,7 +3095,7 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-20T11:45:04.818Z"
+        "value": "2022-02-20T12:50:21.781Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6390,7 +6390,7 @@
       },
       "description": [
         {
-          "value": "L3004 Kanonenstraße, Frankfurt - Schmitten\nzwischen Abzweig nach Schmitten und Hegewiese\nbeide Fahrtrichtungen gesperrt, Baumfällarbeiten"
+          "value": "L3004 Kanonenstraße, Frankfurt - Schmitten\nzwischen Abzweig nach Schmitten und Hegewiese\nin beiden Richtungen Straße wieder frei"
         }
       ],
       "location": {
@@ -6425,11 +6425,11 @@
       "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-20T11:55:13.185Z"
+        "value": "2022-02-20T12:41:58.011Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
