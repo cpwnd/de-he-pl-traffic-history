@@ -2493,6 +2493,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/476139_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 476139
+      },
+      "description": [
+        {
+          "value": "A66 Frankfurt Richtung Fulda\nzwischen Hanau-Nord und Erlensee\nGefahr besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Frankfurt Richtung Fulda zwischen Hanau-Nord und Erlensee",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-20T12:12:26.391Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/461537_LMS-HE/54"
       },
       "dataProducer": {
@@ -3009,7 +3060,7 @@
       },
       "description": [
         {
-          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Frankfurt am M.-Nieder-Eschbach und Bad Homburger Kreuz\nGefahr durch ungesicherte Unfallstelle auf dem linken Fahrstreifen, linker Fahrstreifen blockiert, bitte vorsichtig fahren"
+          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Frankfurt am M.-Nieder-Eschbach und Bad Homburger Kreuz\nUnfall, Polizei ist vor Ort"
         }
       ],
       "location": {
@@ -3031,27 +3082,24 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
           "value": "Unfall"
         },
         {
-          "value": "Hinweis"
-        },
-        {
-          "value": "Störung"
+          "value": "Information"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-20T11:08:39.299Z"
+        "value": "2022-02-20T11:45:04.818Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -6332,6 +6380,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/476137_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 476137
+      },
+      "description": [
+        {
+          "value": "L3004 Kanonenstraße, Frankfurt - Schmitten\nzwischen Abzweig nach Schmitten und Hegewiese\nbeide Fahrtrichtungen gesperrt, Baumfällarbeiten"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3004"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Hochtaunuskreis, Kanonenstraße zwischen Abzweig nach Schmitten und Hegewiese",
+        "streets": [
+          "L3004"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Arbeitsstelle"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-20T11:55:13.185Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS-HE/r_D__HE_FFM-IGLZ/210766944341_LMS-HE/54"
       },
       "dataProducer": {
@@ -8096,54 +8198,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-12-14T15:08:09.05Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/475432_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475432
-      },
-      "description": [
-        {
-          "value": "Reinhardswald\nStraße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": null
-          }
-        ],
-        "name": "Ort",
-        "description": "Reinhardswald",
-        "streets": null
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-20T11:35:05.37Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
