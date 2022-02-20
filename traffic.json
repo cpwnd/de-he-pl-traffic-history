@@ -985,7 +985,7 @@
       },
       "description": [
         {
-          "value": "A5 Kassel Richtung Frankfurt\nzwischen Bad Homburger Kreuz und Nordwestkreuz Frankfurt\nGefahr durch ungesicherte Unfallstelle auf allen Fahrstreifen, Gefahr durch Personen auf der Fahrbahn, bitte vorsichtig fahren\n(Fahrzeuge stehen links und rechts)"
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Bad Homburger Kreuz und Nordwestkreuz Frankfurt\nschwerer Unfall, Richtungsfahrbahn blockiert, Verkehr wird über den Standstreifen geleitet"
         }
       ],
       "location": {
@@ -1007,23 +1007,20 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
           "value": "Unfall"
         },
         {
-          "value": "Hinweis"
-        },
-        {
-          "value": "Hindernis"
+          "value": "Störung"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-20T09:27:01.755Z"
+        "value": "2022-02-20T10:05:01.366Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1151,6 +1148,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-20T14:33:29.607Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/476118_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 476118
+      },
+      "description": [
+        {
+          "value": "A5 Frankfurt - Kassel\nzwischen Homberg (Ohm) und Alsfeld-West\nin beiden Richtungen 1 Hund auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Frankfurt Richtung Kassel zwischen Homberg (Ohm) und Alsfeld-West",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-20T10:07:20.24Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4205,57 +4253,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/475901_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 475901
-      },
-      "description": [
-        {
-          "value": "B251 Kassel - Korbach\nzwischen Ippinghausen und Freienhagen\nin beiden Richtungen Richtungsfahrbahn gesperrt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B251"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B251 Kassel Richtung Korbach zwischen Ippinghausen und Freienhagen",
-        "streets": [
-          "B251"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Sperrung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-19T13:35:34.454Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
