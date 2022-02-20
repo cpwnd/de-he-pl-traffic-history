@@ -2004,6 +2004,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/476227_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 476227
+      },
+      "description": [
+        {
+          "value": "A45 Gießen Richtung Hagen\nzwischen Wetzlar-Süd und Wetzlar-Ost\nGefahr durch ungesicherte Unfallstelle auf dem linken Fahrstreifen, linker Fahrstreifen blockiert"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A45 Gießen Richtung Hagen zwischen Wetzlar-Süd und Wetzlar-Ost",
+        "streets": [
+          "A45"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-20T18:31:18.153Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/443952_LMS-HE/54"
       },
       "dataProducer": {
@@ -3071,57 +3125,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/476224_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 476224
-      },
-      "description": [
-        {
-          "value": "B3 Kassel - Marburg\nzwischen Schönstadt und Chausseehaus\nin beiden Richtungen Gefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B3 Kassel Richtung Marburg zwischen Schönstadt und Chausseehaus",
-        "streets": [
-          "B3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-20T18:18:01.477Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
