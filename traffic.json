@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -1753,6 +1753,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/476272_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 476272
+      },
+      "description": [
+        {
+          "value": "A7 Fulda Richtung Kassel\nzwischen Bad Hersfeld-West und Homberg (Efze)\nGefahr durch defekten LKW auf dem rechten Fahrstreifen, fahren Sie bitte besonders vorsichtig"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Fulda Richtung Kassel zwischen Bad Hersfeld-West und Homberg (Efze)",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-20T23:38:55.364Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/473977_LMS-HE/54"
       },
       "dataProducer": {
@@ -1996,6 +2050,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-02-16T08:32:53.415Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/476271_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 476271
+      },
+      "description": [
+        {
+          "value": "A45 Gießen Richtung Hagen\nzwischen Gießen-Lützellinden und Wetzlar-Süd\ndefekter PKW auf dem rechten Fahrstreifen im Baustellenbereich, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A45 Gießen Richtung Hagen zwischen Gießen-Lützellinden und Wetzlar-Süd",
+        "streets": [
+          "A45"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-20T23:37:11.161Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2958,7 +3066,7 @@
       },
       "description": [
         {
-          "value": "A661 Darmstadt - Bad Homburg\nzwischen Frankfurt-Friedberger Landstraße und Frankfurt am Main-Heddernheim\nin beiden Richtungen Achtung, Ihnen kommt ein Falschfahrer entgegen, nicht überholen, Vorsicht auf beiden Richtungsfahrbahnen"
+          "value": "A661 Darmstadt - Bad Homburg\nzwischen Frankfurt-Friedberger Landstraße und Frankfurt am Main-Heddernheim\nin beiden Richtungen die Gefahr durch ein entgegenkommendes Fahrzeug besteht nicht mehr"
         }
       ],
       "location": {
@@ -2980,7 +3088,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Sehr dringend"
+        "value": "Dringend"
       },
       "eventCategory": [
         {
@@ -2990,11 +3098,11 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-20T23:21:40.816Z"
+        "value": "2022-02-20T23:32:36.455Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3794,7 +3902,7 @@
       },
       "description": [
         {
-          "value": "B45 Hanau - Dieburg\nzwischen Rodgau-Dudenhofen und Rodgau-Niederroden in Nieder-Roden\nin beiden Richtungen umgestürzte Bäume, Richtungsfahrbahn gesperrt"
+          "value": "B45 Hanau - Dieburg\nzwischen Rodgau-Dudenhofen und Rodgau-Niederroden in Nieder-Roden\nin beiden Richtungen Verkehrsstörung besteht nicht mehr"
         }
       ],
       "location": {
@@ -3829,11 +3937,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-20T22:59:47.029Z"
+        "value": "2022-02-20T23:31:57.629Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4087,6 +4195,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-25T16:00:00.732Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/476269_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 476269
+      },
+      "description": [
+        {
+          "value": "B49, K125 Alsfeld - Gießen\nzwischen Romrod und Groß-Felda\nin beiden Richtungen Gefahr durch umgestürzte Bäume, Richtungsfahrbahn gesperrt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B49"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B49 Alsfeld Richtung Gießen zwischen Romrod und Groß-Felda",
+        "streets": [
+          "B49"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-20T23:31:20.106Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
