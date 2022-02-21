@@ -1434,6 +1434,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/476698_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 476698
+      },
+      "description": [
+        {
+          "value": "A7 Kassel Richtung Fulda\nzwischen Bad Hersfeld-West und Kirchheimer Dreieck\nGefahr durch Metallteile auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Kassel Richtung Fulda zwischen Bad Hersfeld-West und Kirchheimer Dreieck",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-21T15:32:57.002Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/468285_LMS-HE/54"
       },
       "dataProducer": {
@@ -2775,7 +2826,7 @@
       },
       "description": [
         {
-          "value": "A648 Wiesbadener Straße, Frankfurt Richtung Eschborn\nzwischen Westkreuz Frankfurt und Frankfurt am Main-Rödelheim\nGefahr durch eine Plane auf der Fahrbahn"
+          "value": "A648 Wiesbadener Straße, Frankfurt Richtung Eschborn\nzwischen Westkreuz Frankfurt und Frankfurt am Main-Rödelheim\nalle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -2797,7 +2848,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2807,11 +2858,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-21T14:59:01.639Z"
+        "value": "2022-02-21T15:21:16.654Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3992,7 +4043,7 @@
       },
       "description": [
         {
-          "value": "B49, K125 Alsfeld - Gießen\nzwischen Romrod und Groß-Felda\nin beiden Richtungen Gefahr durch umgestürzte Bäume, Richtungsfahrbahn gesperrt"
+          "value": "B49, K125 Alsfeld - Gießen\nzwischen Romrod und Groß-Felda\nin beiden Richtungen alle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -4014,7 +4065,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -4027,11 +4078,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-20T23:31:20.106Z"
+        "value": "2022-02-21T15:20:08.916Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4488,63 +4539,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/476651_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 476651
-      },
-      "description": [
-        {
-          "value": "K111 zwischen Kegelbahn und Römershausen\nin beiden Richtungen Unfallstelle geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "K111"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Kreis Marburg-Biedenkopf, K111 zwischen Kegelbahn und Römershausen",
-        "streets": [
-          "K111"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-21T15:04:26.386Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
