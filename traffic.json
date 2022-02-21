@@ -847,7 +847,7 @@
       },
       "description": [
         {
-          "value": "A4 Erfurt Richtung Bad Hersfeld\nzwischen Friedewald und Bad Hersfeld\ndefekter PKW auf dem rechten Fahrstreifen hinter einer Kurve"
+          "value": "A4 Erfurt Richtung Bad Hersfeld\nzwischen Friedewald und Bad Hersfeld\nStraße geräumt"
         }
       ],
       "location": {
@@ -879,11 +879,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-21T11:28:49.05Z"
+        "value": "2022-02-21T13:36:50.274Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2929,60 +2929,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/476593_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 476593
-      },
-      "description": [
-        {
-          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Frankfurt am M.-Nieder-Eschbach und Frankfurt am Main-Heddernheim\nUnfallstelle geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A661"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A661 Bad Homburg Richtung Darmstadt zwischen Frankfurt am M.-Nieder-Eschbach und Frankfurt am Main-Heddernheim",
-        "streets": [
-          "A661"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-21T13:20:52.416Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/430911_LMS-HE/54"
       },
       "dataProducer": {
@@ -4575,6 +4521,63 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-02-21T05:00:01.076Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/476651_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 476651
+      },
+      "description": [
+        {
+          "value": "K111 zwischen Kegelbahn und Römershausen\nUnfall, Bergungsarbeiten, beide Fahrtrichtungen gesperrt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K111"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Kreis Marburg-Biedenkopf, K111 zwischen Kegelbahn und Römershausen",
+        "streets": [
+          "K111"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-21T13:42:00.528Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6912,60 +6915,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-02-04T19:32:43.153Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/476624_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 476624
-      },
-      "description": [
-        {
-          "value": "L3054 Weilmünster Richtung Gießen\nin Höhe Abzweig nach Rohnstadt\nStraße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3054"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Kreis Limburg-Weilburg, L3054 in Höhe Abzweig nach Rohnstadt",
-        "streets": [
-          "L3054"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Arbeitsstelle"
-        }
-      ],
-      "masterEventCategory": "Sperrung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-21T13:15:32.805Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
