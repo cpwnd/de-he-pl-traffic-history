@@ -1820,7 +1820,7 @@
       },
       "description": [
         {
-          "value": "A45 Hagen Richtung Gießen\nzwischen Herborn-Süd und Ehringshausen\ndefekter PKW auf dem rechten Fahrstreifen im Baustellenbereich"
+          "value": "A45 Hagen Richtung Gießen\nzwischen Herborn-Süd und Ehringshausen\nalle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -1852,11 +1852,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-21T05:30:41.279Z"
+        "value": "2022-02-21T07:08:08.677Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4391,6 +4391,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-10T22:59:00.417Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/476439_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 476439
+      },
+      "description": [
+        {
+          "value": "B456 Usingen Richtung Oberursel\nzwischen Ausfahrt Wehrheim und Bad Homburg vor der Höhe\nUnfall, Richtungsfahrbahn gesperrt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B456"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B456 Usingen Richtung Oberursel zwischen Ausfahrt Wehrheim und Bad Homburg vor der Höhe",
+        "streets": [
+          "B456"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-21T06:53:35.323Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -8384,6 +8438,54 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-02-21T06:04:46.821Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/476445_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 476445
+      },
+      "description": [
+        {
+          "value": "Hessen\nSchneefall in Höhenlagen, bitte vorsichtig fahren\n( Bereich Nord- , Ost- und Mittelhessen )"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": null
+          }
+        ],
+        "name": "Ort",
+        "description": "Hessen",
+        "streets": null
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Wetter"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Wetter",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-21T07:07:48.077Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
