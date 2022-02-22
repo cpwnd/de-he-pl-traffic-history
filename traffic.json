@@ -1037,7 +1037,7 @@
       },
       "description": [
         {
-          "value": "A5 Kassel Richtung Frankfurt\nzwischen Alsfeld-West und Homberg (Ohm)\nGefahr durch ungesicherte Unfallstelle, linker Fahrstreifen blockiert, bitte vorsichtig fahren, rechte Parallelfahrbahn blockiert, Standstreifen mitbenutzen"
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Alsfeld-West und Homberg (Ohm)\nStraße wieder frei"
         }
       ],
       "location": {
@@ -1059,23 +1059,23 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
           "value": "Unfall"
         },
         {
-          "value": "Störung"
+          "value": "Hinweis"
         },
         {
-          "value": "Hinweis"
+          "value": "Sperrung"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-22T18:39:42.116Z"
+        "value": "2022-02-22T19:05:28.441Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1598,6 +1598,66 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/477169_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 477169
+      },
+      "description": [
+        {
+          "value": "A7 Kassel - Fulda\nzwischen Guxhagen und Melsungen\nin beiden Richtungen Unfall mit Gefahrguttransporter, Richtungsfahrbahn gesperrt, Sichtbehinderung durch Rauch, eine örtliche Umleitung ist eingerichtet"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Kassel Richtung Fulda zwischen Guxhagen und Melsungen",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-22T19:11:27.767Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -2432,57 +2492,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/477157_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 477157
-      },
-      "description": [
-        {
-          "value": "A60 Rüsselsheim Richtung Mainz\nzwischen Rüsselsheimer Dreieck und Ausfahrt Rüsselsheim-Königstädten\ndefekter LKW auf dem Verzögerungsstreifen"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A60"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A60 Rüsselsheim Richtung Mainz zwischen Rüsselsheimer Dreieck und Ausfahrt Rüsselsheim-Königstädten",
-        "streets": [
-          "A60"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-22T18:01:37.945Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/477150_LMS-HE/54"
       },
       "dataProducer": {
@@ -2525,11 +2534,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-22T17:42:26.759Z"
+        "value": "2022-02-22T18:47:20.168Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2544,7 +2553,7 @@
       },
       "description": [
         {
-          "value": "A60 Rüsselsheim Richtung Mainz\nzwischen Mainspitz-Dreieck und Ginsheim-Gustavsburg\nGefahr durch defektes Fahrzeug auf dem Beschleunigungsstreifen"
+          "value": "A60 Rüsselsheim Richtung Mainz\nzwischen Mainspitz-Dreieck und Ginsheim-Gustavsburg\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -2566,7 +2575,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2576,7 +2585,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-22T18:10:12.698Z"
+        "value": "2022-02-22T19:01:29.881Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2704,57 +2713,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/477152_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 477152
-      },
-      "description": [
-        {
-          "value": "A67 Darmstadt Richtung Mönchhof-Dreieck\nzwischen Rastplatz Büttelborn und Ausfahrt Büttelborn\nGefahr durch ungesicherte Unfallstelle auf dem Verzögerungsstreifen"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A67"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A67 Darmstadt Richtung Mönchhof-Dreieck zwischen Rastplatz Büttelborn und Ausfahrt Büttelborn",
-        "streets": [
-          "A67"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-22T17:45:18.748Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/477133_LMS-HE/54"
       },
       "dataProducer": {
@@ -2765,7 +2723,7 @@
       },
       "description": [
         {
-          "value": "A67 Mönchhof-Dreieck Richtung Darmstadt\nzwischen Mönchhof-Dreieck und Rüsselsheim-Ost\nGefahr durch ungesicherte Unfallstelle auf dem linken Fahrstreifen"
+          "value": "A67 Mönchhof-Dreieck Richtung Darmstadt\nzwischen Mönchhof-Dreieck und Rüsselsheim-Ost\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -2787,7 +2745,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2797,11 +2755,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-22T16:53:55.798Z"
+        "value": "2022-02-22T19:02:18.465Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
