@@ -590,7 +590,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbadener Kreuz und Wiesbaden/Niedernhausen\nBaustelle, vorübergehende Begrenzung der Fahrbahnbreite auf 9,10 m, bis 28.02.2022 15:30 Uhr"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbadener Kreuz und Wiesbaden/Niedernhausen\nBaustelle, vorübergehende Begrenzung der Fahrbahnbreite auf 9,10 m, bis 10.03.2022 15:30 Uhr"
         }
       ],
       "location": {
@@ -610,16 +610,13 @@
         ]
       },
       "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2021-12-20T11:32:00Z"
-        },
+        "startTime": null,
         "endTime": {
           "name": "Endzeit",
-          "value": "2022-02-28T14:30:00Z"
+          "value": "2022-03-10T14:30:00Z"
         },
         "name": "Dauer",
-        "description": "von 20.12.2021 12:32 Uhr bis 28.02.2022 15:30 Uhr"
+        "description": "bis 10.03.2022 15:30 Uhr"
       },
       "urgency": {
         "name": "Dringlichkeit",
@@ -636,11 +633,11 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2021-12-20T11:32:01.08Z"
+        "value": "2022-02-22T14:36:18.327Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1811,57 +1808,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/477076_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 477076
-      },
-      "description": [
-        {
-          "value": "A7 Fulda Richtung Kassel\nzwischen Bad Hersfeld-West und Homberg (Efze)\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A7"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A7 Fulda Richtung Kassel zwischen Bad Hersfeld-West und Homberg (Efze)",
-        "streets": [
-          "A7"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-22T14:26:05.35Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/473977_LMS-HE/54"
       },
       "dataProducer": {
@@ -2123,7 +2069,7 @@
       },
       "description": [
         {
-          "value": "A45 Aschaffenburg Richtung Gießen\nzwischen Gießener Südkreuz und Gießen-Lützellinden\nUnfallaufnahme, Bergungsarbeiten"
+          "value": "A45 Aschaffenburg Richtung Gießen\nzwischen Gießener Südkreuz und Gießen-Lützellinden\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -2158,7 +2104,7 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-22T14:19:01.491Z"
+        "value": "2022-02-22T14:33:49.578Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -7960,60 +7906,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/476375_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 476375
-      },
-      "description": [
-        {
-          "value": "L3455 zwischen Springen und Abzweig nach Geroldstein\nin beiden Richtungen Straße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3455"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Rheingau-Taunus-Kreis, L3455 zwischen Springen und Abzweig nach Geroldstein",
-        "streets": [
-          "L3455"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Sperrung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-22T14:19:55.618Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_D__HE_FFM-IGLZ/210806733387_LMS-HE/54"
       },
       "dataProducer": {
@@ -9206,56 +9098,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-21T09:15:16.362Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/476917_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 476917
-      },
-      "description": [
-        {
-          "value": "Frankfurt, Schweizer Straße\nzwischen Gartenstraße und Museumsufer\nBaustelle beseitigt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": null
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Frankfurt, Schweizer Straße zwischen Gartenstraße und Museumsufer",
-        "streets": null
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-22T14:16:03.991Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
