@@ -458,6 +458,63 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/476977_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 476977
+      },
+      "description": [
+        {
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbaden/Niedernhausen und Wiesbadener Kreuz\nBaumfällarbeiten, rechter Fahrstreifen gesperrt, mittlerer Fahrstreifen gesperrt, Stau"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Frankfurt zwischen Wiesbaden/Niedernhausen und Wiesbadener Kreuz",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Stau"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-22T10:43:50.11Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/461440_LMS-HE/54"
       },
       "dataProducer": {
@@ -1152,6 +1209,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-14T09:12:55.969Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/476979_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 476979
+      },
+      "description": [
+        {
+          "value": "A6 Mannheim Richtung Heilbronn\nzwischen Mannheim-Sandhofen und Viernheimer Dreieck\nGefahr durch Spanngurte auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A6"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A6 Mannheim Richtung Heilbronn zwischen Mannheim-Sandhofen und Viernheimer Dreieck",
+        "streets": [
+          "A6"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-22T10:46:18.933Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
