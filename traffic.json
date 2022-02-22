@@ -572,6 +572,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/477176_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 477176
+      },
+      "description": [
+        {
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Limburg-Nord und Limburg-Süd\nUnfall mit LKW, rechter Fahrstreifen blockiert, Standstreifen blockiert"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Frankfurt zwischen Limburg-Nord und Limburg-Süd",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-22T19:23:29.733Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/461440_LMS-HE/54"
       },
       "dataProducer": {
@@ -1023,63 +1077,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/477143_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 477143
-      },
-      "description": [
-        {
-          "value": "A5 Kassel Richtung Frankfurt\nzwischen Alsfeld-West und Homberg (Ohm)\nStraße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Kassel Richtung Frankfurt zwischen Alsfeld-West und Homberg (Ohm)",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Hinweis"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-22T19:05:28.441Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -1612,7 +1609,7 @@
       },
       "description": [
         {
-          "value": "A7 Kassel - Fulda\nzwischen Guxhagen und Melsungen\nin beiden Richtungen Unfall mit Gefahrguttransporter, Richtungsfahrbahn gesperrt, Sichtbehinderung durch Rauch, eine örtliche Umleitung ist eingerichtet"
+          "value": "A7 Kassel - Fulda\nzwischen Guxhagen und Melsungen\nin beiden Richtungen Unfall mit Gefahrguttransporter, Richtungsfahrbahn gesperrt, Sichtbehinderung durch Rauch, eine örtliche Umleitung ist eingerichtet, Anwohner werden gebeten, Fenster und Türen geschlossen zu halten, empfohlene Umleitungen: U39, U50"
         }
       ],
       "location": {
@@ -1638,10 +1635,10 @@
       },
       "eventCategory": [
         {
-          "value": "Sperrung"
+          "value": "Unfall"
         },
         {
-          "value": "Unfall"
+          "value": "Sperrung"
         },
         {
           "value": "Störung"
@@ -1650,10 +1647,10 @@
           "value": "Hinweis"
         }
       ],
-      "masterEventCategory": "Sperrung",
+      "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-22T19:11:27.767Z"
+        "value": "2022-02-22T19:22:04.741Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2543,57 +2540,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/477148_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 477148
-      },
-      "description": [
-        {
-          "value": "A60 Rüsselsheim Richtung Mainz\nzwischen Mainspitz-Dreieck und Ginsheim-Gustavsburg\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A60"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A60 Rüsselsheim Richtung Mainz zwischen Mainspitz-Dreieck und Ginsheim-Gustavsburg",
-        "streets": [
-          "A60"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-22T19:01:29.881Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/456754_LMS-HE/54"
       },
       "dataProducer": {
@@ -2705,57 +2651,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-14T09:08:53.888Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/477133_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 477133
-      },
-      "description": [
-        {
-          "value": "A67 Mönchhof-Dreieck Richtung Darmstadt\nzwischen Mönchhof-Dreieck und Rüsselsheim-Ost\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A67"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A67 Mönchhof-Dreieck Richtung Darmstadt zwischen Mönchhof-Dreieck und Rüsselsheim-Ost",
-        "streets": [
-          "A67"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-22T19:02:18.465Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
