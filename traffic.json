@@ -515,6 +515,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/477000_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 477000
+      },
+      "description": [
+        {
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Idstein und Wiesbaden/Niedernhausen\nGefahr durch ungesicherte Unfallstelle auf dem linken Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Frankfurt zwischen Idstein und Wiesbaden/Niedernhausen",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-22T11:15:02.057Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/461440_LMS-HE/54"
       },
       "dataProducer": {
@@ -1176,7 +1227,7 @@
       },
       "description": [
         {
-          "value": "A6 Mannheim Richtung Heilbronn\nzwischen Mannheim-Sandhofen und Viernheimer Dreieck\nGefahr durch Spanngurte auf der Fahrbahn"
+          "value": "A6 Mannheim Richtung Heilbronn\nzwischen Mannheim-Sandhofen und Viernheimer Dreieck\nVerkehrsbehinderung beseitigt"
         }
       ],
       "location": {
@@ -1198,7 +1249,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1208,11 +1259,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-22T10:46:18.933Z"
+        "value": "2022-02-22T11:18:02.62Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2255,7 +2306,7 @@
       },
       "description": [
         {
-          "value": "A49 Kassel Richtung Gießen\nzwischen Borken (Hessen) und Neuental\n1 umgestürzter Baum, rechter Fahrstreifen blockiert"
+          "value": "A49 Kassel Richtung Gießen\nzwischen Borken (Hessen) und Neuental\nalle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -2290,11 +2341,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-22T10:59:45.592Z"
+        "value": "2022-02-22T11:15:33.298Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2501,7 +2552,7 @@
       },
       "description": [
         {
-          "value": "A66 Rhein-Main-Schnellweg, Frankfurt Richtung Wiesbaden\nzwischen Wiesbadener Kreuz und Wallau\nUnfall auf dem rechten Fahrstreifen, rechter Fahrstreifen blockiert, Verzögerungsstreifen blockiert"
+          "value": "A66 Rhein-Main-Schnellweg, Frankfurt Richtung Wiesbaden\nzwischen Wiesbadener Kreuz und Wallau\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -2536,11 +2587,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-22T07:55:48.086Z"
+        "value": "2022-02-22T11:16:08.555Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3053,7 +3104,7 @@
       },
       "description": [
         {
-          "value": "A661 Bad Homburg Richtung Darmstadt\nin Höhe Frankfurt am Main-Heddernheim\nGefahr durch Personen auf der Fahrbahn, Unfall"
+          "value": "A661 Bad Homburg Richtung Darmstadt\nin Höhe Frankfurt am Main-Heddernheim\nUnfallaufnahme, Bergungsarbeiten"
         }
       ],
       "location": {
@@ -3075,24 +3126,24 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Hindernis"
+          "value": "Störung"
         },
         {
-          "value": "Unfall"
+          "value": "Arbeitsstelle"
         }
       ],
-      "masterEventCategory": "Hindernis",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-22T10:09:27.041Z"
+        "value": "2022-02-22T11:17:35.457Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3282,63 +3333,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/476911_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 476911
-      },
-      "description": [
-        {
-          "value": "B3 Göttingen - Kassel\nzwischen Wilhelmshausen und Abzweig nach Knickhagen\nin beiden Richtungen alle Fahrbahnen wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B3 Göttingen Richtung Kassel zwischen Wilhelmshausen und Abzweig nach Knickhagen",
-        "streets": [
-          "B3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-22T11:00:58.384Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
