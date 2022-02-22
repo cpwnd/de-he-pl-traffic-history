@@ -1,9 +1,60 @@
 {
   "status": "OK",
   "cached": false,
-  "time": "848ms",
+  "time": "1.194ms",
   "version": "TIC",
   "data": [
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/476845_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 476845
+      },
+      "description": [
+        {
+          "value": "A67 Darmstadt Richtung Mönchhof-Dreieck\nzwischen Groß-Gerau und Rüsselsheimer Dreieck\nGefahr durch defektes Fahrzeug auf dem Standstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A67"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A67 Darmstadt Richtung Mönchhof-Dreieck zwischen Groß-Gerau und Rüsselsheimer Dreieck",
+        "streets": [
+          "A67"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-22T04:45:03.546Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
     {
       "ticId": {
         "value": "LMS/r_LMS/476378_LMS-HE/54"
