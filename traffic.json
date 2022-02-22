@@ -913,17 +913,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/477058_LMS-HE/54"
+        "value": "LMS/r_LMS/477116_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 477058
+        "value": 477116
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Darmstadt\nzwischen Frankfurt-Niederrad und Frankfurt am Main-Flughafen-Nord\nUnfallstelle geräumt, Staulänge abnehmend"
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Bad Homburger Kreuz und Nordwestkreuz Frankfurt\nGefahr durch defektes Fahrzeug, Gefahr durch Personen auf der Fahrbahn"
         }
       ],
       "location": {
@@ -937,7 +937,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A5 Frankfurt Richtung Darmstadt zwischen Frankfurt-Niederrad und Frankfurt am Main-Flughafen-Nord",
+        "description": "A5 Kassel Richtung Frankfurt zwischen Bad Homburger Kreuz und Nordwestkreuz Frankfurt",
         "streets": [
           "A5"
         ]
@@ -945,74 +945,17 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Normal"
+        "value": "Dringend"
       },
       "eventCategory": [
         {
-          "value": "Unfall"
-        },
-        {
-          "value": "Stau"
+          "value": "Hindernis"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-22T15:03:37.541Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/477093_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 477093
-      },
-      "description": [
-        {
-          "value": "A5 Kassel Richtung Frankfurt\nzwischen Alsfeld-West und Homberg (Ohm)\nUnfall, 4 km Stau"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Kassel Richtung Frankfurt zwischen Alsfeld-West und Homberg (Ohm)",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Stau"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-22T15:08:33.12Z"
+        "value": "2022-02-22T16:23:16.033Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4094,6 +4037,63 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/477113_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 477113
+      },
+      "description": [
+        {
+          "value": "B49 Gießen\nzwischen Abzweig nach Gießen und Abzweig nach Annerod\nin beiden Richtungen Unfall, wieder offen, Stau zu erwarten"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B49"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B49 Gießen zwischen Abzweig nach Gießen und Abzweig nach Annerod",
+        "streets": [
+          "B49"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Stau"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-22T16:25:44.557Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
