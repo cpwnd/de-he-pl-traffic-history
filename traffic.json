@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -923,7 +923,7 @@
       },
       "description": [
         {
-          "value": "A5 Kassel Richtung Frankfurt\nzwischen Bad Homburger Kreuz und Nordwestkreuz Frankfurt\nGefahr durch defektes Fahrzeug, Gefahr durch Personen auf der Fahrbahn"
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Bad Homburger Kreuz und Nordwestkreuz Frankfurt\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -945,7 +945,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -955,11 +955,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-22T16:23:16.033Z"
+        "value": "2022-02-22T16:41:21.884Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2431,6 +2431,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/477133_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 477133
+      },
+      "description": [
+        {
+          "value": "A67 Mönchhof-Dreieck Richtung Darmstadt\nzwischen Mönchhof-Dreieck und Rüsselsheim-Ost\nGefahr durch ungesicherte Unfallstelle auf dem linken Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A67"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A67 Mönchhof-Dreieck Richtung Darmstadt zwischen Mönchhof-Dreieck und Rüsselsheim-Ost",
+        "streets": [
+          "A67"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-22T16:53:55.798Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/461537_LMS-HE/54"
       },
       "dataProducer": {
@@ -3185,6 +3236,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-11-19T11:33:19.495Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_ARD-PROD/r_ARD-PROD/502393_TIC-ARD-PROD/1_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 477128
+      },
+      "description": [
+        {
+          "value": "B7 Hessisch-Lichtenau Richtung Eisenach\nzwischen Creuzburg und Lengröden\nUnfall"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B7 Hessisch-Lichtenau Richtung Eisenach zwischen Creuzburg und Lengröden",
+        "streets": [
+          "B7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-22T16:46:31.653Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4051,7 +4153,7 @@
       },
       "description": [
         {
-          "value": "B49 Gießen\nzwischen Abzweig nach Gießen und Abzweig nach Annerod\nin beiden Richtungen Unfall, wieder offen, Stau zu erwarten"
+          "value": "B49 Gießen\nzwischen Abzweig nach Gießen und Abzweig nach Annerod\nin beiden Richtungen Unfallstelle geräumt"
         }
       ],
       "location": {
@@ -4089,7 +4191,7 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-22T16:25:44.557Z"
+        "value": "2022-02-22T16:48:09.26Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
