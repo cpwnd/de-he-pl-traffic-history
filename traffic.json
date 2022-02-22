@@ -1811,6 +1811,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/477076_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 477076
+      },
+      "description": [
+        {
+          "value": "A7 Fulda Richtung Kassel\nzwischen Bad Hersfeld-West und Homberg (Efze)\nGefahr besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Fulda Richtung Kassel zwischen Bad Hersfeld-West und Homberg (Efze)",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-22T14:26:05.35Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/473977_LMS-HE/54"
       },
       "dataProducer": {
@@ -2072,7 +2123,7 @@
       },
       "description": [
         {
-          "value": "A45 Aschaffenburg Richtung Gießen\nzwischen Gießener Südkreuz und Gießen-Lützellinden\nGefahr durch ungesicherte Unfallstelle auf dem linken Fahrstreifen"
+          "value": "A45 Aschaffenburg Richtung Gießen\nzwischen Gießener Südkreuz und Gießen-Lützellinden\nUnfallaufnahme, Bergungsarbeiten"
         }
       ],
       "location": {
@@ -2094,21 +2145,24 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Störung"
+        },
+        {
+          "value": "Arbeitsstelle"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-22T14:04:26.402Z"
+        "value": "2022-02-22T14:19:01.491Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -7916,7 +7970,7 @@
       },
       "description": [
         {
-          "value": "L3455 zwischen Springen und Abzweig nach Geroldstein\nbeide Fahrtrichtungen gesperrt, umgestürzte Bäume"
+          "value": "L3455 zwischen Springen und Abzweig nach Geroldstein\nin beiden Richtungen Straße wieder frei"
         }
       ],
       "location": {
@@ -7951,7 +8005,7 @@
       "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-21T16:22:20.634Z"
+        "value": "2022-02-22T14:19:55.618Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -9152,6 +9206,56 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-21T09:15:16.362Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/476917_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 476917
+      },
+      "description": [
+        {
+          "value": "Frankfurt, Schweizer Straße\nzwischen Gartenstraße und Museumsufer\nBaustelle beseitigt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": null
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, Schweizer Straße zwischen Gartenstraße und Museumsufer",
+        "streets": null
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-22T14:16:03.991Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
