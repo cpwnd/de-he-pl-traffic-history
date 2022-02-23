@@ -1606,7 +1606,7 @@
       },
       "description": [
         {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Kreuz Kassel-Mitte und Melsungen\nBergungsarbeiten, Aufräumarbeiten, Richtungsfahrbahn gesperrt, eine örtliche Umleitung ist eingerichtet, der Umleitungsbeschilderung folgen, 12 km Stau, empfohlene Umleitungen: U26, U48, U50, A49 - Wabern - B253 - B254 - B323 - Homberg/Efze - AS Homberg/Efze auf die A7\n(Es wird dringend aufgefordert, die empfohlene Umleitung zu nutzen. Navigationssystem führen LKW auf Strecken, welche aufgrund der Durchfahrtshöhe nicht für LKW geeignet sind.)"
+          "value": "A7 Kassel Richtung Fulda\nzwischen Kreuz Kassel-Mitte und Melsungen\nUnfallstelle geräumt, Staulänge abnehmend"
         }
       ],
       "location": {
@@ -1632,25 +1632,16 @@
       },
       "eventCategory": [
         {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Hinweis"
+          "value": "Unfall"
         },
         {
           "value": "Stau"
         }
       ],
-      "masterEventCategory": "Arbeitsstelle",
+      "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-23T08:12:35.822Z"
+        "value": "2022-02-23T09:12:53.488Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3172,6 +3163,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/477323_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 477323
+      },
+      "description": [
+        {
+          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Frankfurt am Main-Heddernheim und Frankfurt am M.-Nieder-Eschbach\nGefahr durch Gegenstände auf der Fahrbahn, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A661"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A661 Darmstadt Richtung Bad Homburg zwischen Frankfurt am Main-Heddernheim und Frankfurt am M.-Nieder-Eschbach",
+        "streets": [
+          "A661"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-23T08:53:23.158Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
