@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -146,7 +146,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Würzburg\nzwischen Seligenstadt und Seligenstädter Dreieck\nbrennendes Fahrzeug auf dem Standstreifen, Sichtbehinderung"
+          "value": "A3 Frankfurt Richtung Würzburg\nzwischen Seligenstadt und Seligenstädter Dreieck\nbrennendes Fahrzeug auf dem Standstreifen, Sichtbehinderung, Richtungsfahrbahn gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, Staugefahr"
         }
       ],
       "location": {
@@ -173,16 +173,25 @@
       "eventCategory": [
         {
           "value": "Störung"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        },
+        {
+          "value": "Stau"
         }
       ],
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-23T10:05:55.128Z"
+        "value": "2022-02-23T10:42:05.765Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -519,7 +528,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbaden/Niedernhausen und Wiesbadener Kreuz\nUnfallaufnahme, Bergungsarbeiten"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbaden/Niedernhausen und Wiesbadener Kreuz\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -554,7 +563,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-23T10:08:30.982Z"
+        "value": "2022-02-23T10:36:28.956Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
