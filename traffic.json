@@ -1027,6 +1027,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/477357_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 477357
+      },
+      "description": [
+        {
+          "value": "A5 Frankfurt Richtung Darmstadt\nzwischen Frankfurt-Niederrad und Frankfurt am Main-Flughafen-Nord\nGefahr durch ungesicherte Unfallstelle auf dem rechten Fahrstreifen, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Frankfurt Richtung Darmstadt zwischen Frankfurt-Niederrad und Frankfurt am Main-Flughafen-Nord",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-23T11:18:50.517Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/338932_LMS-HE/54"
       },
       "dataProducer": {
@@ -1164,7 +1218,7 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Friedberg und Ober-Mörlen\nGefahr durch Gegenstände auf der Fahrbahn (Fahrzeugteile), bitte vorsichtig fahren"
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Friedberg und Ober-Mörlen\nalle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -1186,7 +1240,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1199,11 +1253,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-23T11:05:21.776Z"
+        "value": "2022-02-23T11:19:07.736Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1913,57 +1967,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-02-16T08:33:00.869Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/477349_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 477349
-      },
-      "description": [
-        {
-          "value": "A45 Hagen Richtung Gießen\nzwischen Wetzlar-Ost und Wetzlar-Süd\nalle Fahrbahnen geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A45"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A45 Hagen Richtung Gießen zwischen Wetzlar-Ost und Wetzlar-Süd",
-        "streets": [
-          "A45"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-23T11:07:10.697Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
