@@ -595,7 +595,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Limburg-Nord und Diez\nUnfallaufnahme, linker Fahrstreifen gesperrt, bitte vorsichtig fahren"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Limburg-Nord und Diez\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -633,7 +633,7 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-23T05:36:54.521Z"
+        "value": "2022-02-23T07:24:58.557Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2097,6 +2097,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-31T04:00:01.833Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/477292_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 477292
+      },
+      "description": [
+        {
+          "value": "A45 Aschaffenburg Richtung Gießen\nzwischen Altenstadt und Florstadt\ndefekter PKW auf dem rechten Fahrstreifen und dem Standstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A45 Aschaffenburg Richtung Gießen zwischen Altenstadt und Florstadt",
+        "streets": [
+          "A45"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-23T07:15:40.78Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
