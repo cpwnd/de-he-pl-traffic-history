@@ -146,7 +146,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Würzburg\nzwischen Seligenstadt und Seligenstädter Dreieck\nbrennendes Fahrzeug auf dem Standstreifen, Sichtbehinderung, Richtungsfahrbahn gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, Staugefahr"
+          "value": "A3 Frankfurt Richtung Würzburg\nzwischen Seligenstadt und Seligenstädter Dreieck\nBergungsarbeiten, bitte vorsichtig fahren, Staugefahr"
         }
       ],
       "location": {
@@ -172,22 +172,19 @@
       },
       "eventCategory": [
         {
-          "value": "Störung"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Hinweis"
+          "value": "Arbeitsstelle"
         },
         {
           "value": "Stau"
+        },
+        {
+          "value": "Hinweis"
         }
       ],
-      "masterEventCategory": "Störung",
+      "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-23T10:42:05.765Z"
+        "value": "2022-02-23T11:43:44.333Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -645,60 +642,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/477305_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 477305
-      },
-      "description": [
-        {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Idstein und Bad Camberg\nReinigungsarbeiten, rechter Fahrstreifen gesperrt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Frankfurt Richtung Köln zwischen Idstein und Bad Camberg",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-23T07:51:07.079Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/461444_LMS-HE/54"
       },
       "dataProducer": {
@@ -1037,7 +980,7 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Darmstadt\nzwischen Frankfurt-Niederrad und Frankfurt am Main-Flughafen-Nord\nUnfallaufnahme, rechter Fahrstreifen gesperrt, bitte vorsichtig fahren"
+          "value": "A5 Frankfurt Richtung Darmstadt\nzwischen Frankfurt-Niederrad und Frankfurt am Main-Flughafen-Nord\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -1075,7 +1018,7 @@
       "masterEventCategory": "Hinweis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-23T11:31:46.851Z"
+        "value": "2022-02-23T12:25:17.915Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1207,60 +1150,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/477359_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 477359
-      },
-      "description": [
-        {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Grünberg und Homberg (Ohm)\nGefahr durch Personen auf der Fahrbahn, bitte vorsichtig fahren"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Frankfurt Richtung Kassel zwischen Grünberg und Homberg (Ohm)",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-23T11:27:07.389Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
@@ -1970,6 +1859,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-02-16T08:33:00.869Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/477363_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 477363
+      },
+      "description": [
+        {
+          "value": "A45 Gießen Richtung Aschaffenburg\nzwischen Wetzlar-Süd und Gießen-Lützellinden\nalle Fahrbahnen geräumt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A45 Gießen Richtung Aschaffenburg zwischen Wetzlar-Süd und Gießen-Lützellinden",
+        "streets": [
+          "A45"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-23T12:12:03.965Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4215,60 +4155,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/477328_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 477328
-      },
-      "description": [
-        {
-          "value": "B49 Limburg Richtung Gießen\nAusfahrt Gießen-Lahnfeld\nAusfahrt wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B49"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B49 Limburg Richtung Gießen Ausfahrt Gießen-Lahnfeld",
-        "streets": [
-          "B49"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Arbeitsstelle"
-        }
-      ],
-      "masterEventCategory": "Sperrung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-23T11:33:37.099Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/431962_LMS-HE/54"
       },
       "dataProducer": {
@@ -6008,17 +5894,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/477297_LMS-HE/54"
+        "value": "LMS/r_LMS/477376_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 477297
+        "value": 477376
       },
       "description": [
         {
-          "value": "K823 Airportring\nzwischen Frankfurt am Main und Färberstraße\nStraße wieder frei"
+          "value": "K823 Frankfurt am Main, Flughafen Frankfurt Tor 23 bis Airportring\nzwischen Ende der Straße und Airportring\nPersonen auf der Fahrbahn, bitte vorsichtig fahren, Staugefahr\n(zwischen Tor 23 und Tor 25)"
         }
       ],
       "location": {
@@ -6032,7 +5918,7 @@
           }
         ],
         "name": "Ort",
-        "description": "Frankfurt, Airportring zwischen Frankfurt am Main und Färberstraße",
+        "description": "Frankfurt am Main, Flughafen Frankfurt Tor 23 bis Airportring zwischen Ende der Straße und Airportring",
         "streets": [
           "K823"
         ]
@@ -6044,20 +5930,23 @@
       },
       "eventCategory": [
         {
-          "value": "Störung"
+          "value": "Hindernis"
         },
         {
-          "value": "Sperrung"
+          "value": "Hinweis"
+        },
+        {
+          "value": "Stau"
         }
       ],
-      "masterEventCategory": "Störung",
+      "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-23T11:38:09.322Z"
+        "value": "2022-02-23T12:24:19.173Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Geändert"
+        "value": "Neu"
       }
     },
     {
