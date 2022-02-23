@@ -1037,7 +1037,7 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Darmstadt\nzwischen Frankfurt-Niederrad und Frankfurt am Main-Flughafen-Nord\nGefahr durch ungesicherte Unfallstelle auf dem rechten Fahrstreifen, bitte vorsichtig fahren"
+          "value": "A5 Frankfurt Richtung Darmstadt\nzwischen Frankfurt-Niederrad und Frankfurt am Main-Flughafen-Nord\nUnfallaufnahme, rechter Fahrstreifen gesperrt, bitte vorsichtig fahren"
         }
       ],
       "location": {
@@ -1059,24 +1059,27 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Hinweis"
         },
         {
-          "value": "Hinweis"
+          "value": "Störung"
+        },
+        {
+          "value": "Sperrung"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Hinweis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-23T11:18:50.517Z"
+        "value": "2022-02-23T11:31:46.851Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1208,17 +1211,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/477355_LMS-HE/54"
+        "value": "LMS/r_LMS/477359_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 477355
+        "value": 477359
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Friedberg und Ober-Mörlen\nalle Fahrbahnen geräumt"
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Grünberg und Homberg (Ohm)\nGefahr durch Personen auf der Fahrbahn, bitte vorsichtig fahren"
         }
       ],
       "location": {
@@ -1232,7 +1235,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A5 Frankfurt Richtung Kassel zwischen Friedberg und Ober-Mörlen",
+        "description": "A5 Frankfurt Richtung Kassel zwischen Grünberg und Homberg (Ohm)",
         "streets": [
           "A5"
         ]
@@ -1240,7 +1243,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Normal"
+        "value": "Dringend"
       },
       "eventCategory": [
         {
@@ -1253,11 +1256,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-23T11:19:07.736Z"
+        "value": "2022-02-23T11:27:07.389Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Geändert"
+        "value": "Neu"
       }
     },
     {
@@ -4222,7 +4225,7 @@
       },
       "description": [
         {
-          "value": "B49 Limburg Richtung Gießen\nAusfahrt Gießen-Lahnfeld\nAusfahrt gesperrt, Bauarbeiten, empfohlene Umleitung: Richtung Wettenberg"
+          "value": "B49 Limburg Richtung Gießen\nAusfahrt Gießen-Lahnfeld\nAusfahrt wieder frei"
         }
       ],
       "location": {
@@ -4257,7 +4260,7 @@
       "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-23T09:28:30.24Z"
+        "value": "2022-02-23T11:33:37.099Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6015,7 +6018,7 @@
       },
       "description": [
         {
-          "value": "K823 Airportring\nzwischen Frankfurt am Main und Färberstraße\nDemonstration, Verkehrsbehinderung, Richtungsfahrbahn gesperrt\n(Richtungsfahrbahn zwischen Tor 23 und Tor 25 gesperrt) "
+          "value": "K823 Airportring\nzwischen Frankfurt am Main und Färberstraße\nStraße wieder frei"
         }
       ],
       "location": {
@@ -6050,7 +6053,7 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-23T09:41:28.614Z"
+        "value": "2022-02-23T11:38:09.322Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
