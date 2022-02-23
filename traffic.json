@@ -2488,6 +2488,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/477413_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 477413
+      },
+      "description": [
+        {
+          "value": "A66 Rhein-Main-Schnellweg, Wiesbaden Richtung Frankfurt\nzwischen Wallau und Wiesbadener Kreuz\nGefahr durch ungesicherte Unfallstelle, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Rhein-Main-Schnellweg, Wiesbaden Richtung Frankfurt zwischen Wallau und Wiesbadener Kreuz",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-23T14:20:48.539Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/461537_LMS-HE/54"
       },
       "dataProducer": {
@@ -2931,7 +2985,7 @@
       },
       "description": [
         {
-          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Kaiserleibrücke und Ausfahrt Frankfurt am Main-Ost\nGefahr durch defektes Fahrzeug auf dem Verzögerungsstreifen, Stau"
+          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Kaiserleibrücke und Ausfahrt Frankfurt am Main-Ost\nalle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -2953,7 +3007,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2966,11 +3020,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-23T14:13:30.565Z"
+        "value": "2022-02-23T14:28:08.921Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3347,6 +3401,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-11-19T11:33:19.495Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/477412_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 477412
+      },
+      "description": [
+        {
+          "value": "B38 Darmstadt Richtung Reichelsheim\nRoßdorf Überleitung zur B26 Richtung Aschaffenburg\nRollsplitt, fahren Sie bitte besonders vorsichtig"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B38"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B38 Darmstadt Richtung Reichelsheim Roßdorf Überleitung zur B26 Richtung Aschaffenburg",
+        "streets": [
+          "B38"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-02-23T14:19:17.331Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
