@@ -457,7 +457,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Diez und Limburg-Nord\nquerstehender LKW, Verkehr wird über den Standstreifen geleitet, Stau"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Diez und Limburg-Nord\nBergungsarbeiten, Stau, rechter Fahrstreifen blockiert, Standstreifen blockiert, Fahrbahn von 3 auf zwei Fahrstreifen verengt"
         }
       ],
       "location": {
@@ -483,23 +483,23 @@
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Stau"
         },
         {
           "value": "Störung"
         },
         {
-          "value": "Stau"
+          "value": "Arbeitsstelle"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Stau",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-15T12:49:17.236Z"
+        "value": "2022-03-15T13:49:48.779Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -634,57 +634,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/482205_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 482205
-      },
-      "description": [
-        {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbadener Kreuz und Wiesbaden/Niedernhausen\nUnfallstelle geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Frankfurt Richtung Köln zwischen Wiesbadener Kreuz und Wiesbaden/Niedernhausen",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-15T13:19:27.072Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/482188_LMS-HE/54"
       },
       "dataProducer": {
@@ -695,7 +644,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbadener Kreuz und Wiesbaden/Niedernhausen\nstockender Verkehr vor der Baustelle"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Ausfahrt Raunheim und Wiesbaden/Niedernhausen\n10 km Stau"
         }
       ],
       "location": {
@@ -709,7 +658,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A3 Frankfurt Richtung Köln zwischen Wiesbadener Kreuz und Wiesbaden/Niedernhausen",
+        "description": "A3 Frankfurt Richtung Köln zwischen Ausfahrt Raunheim und Wiesbaden/Niedernhausen",
         "streets": [
           "A3"
         ]
@@ -727,7 +676,7 @@
       "masterEventCategory": "Stau",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-15T12:24:01.789Z"
+        "value": "2022-03-15T13:33:38.576Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4432,60 +4381,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/482128_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 482128
-      },
-      "description": [
-        {
-          "value": "B43A Hanauer Kreuz Richtung Obertshausen\nzwischen Hanau-Steinheim und Überleitung B45, Hanau-Klein-Auheim\nVerkehr hat sich normalisiert"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B43A"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B43A Hanauer Kreuz Richtung Obertshausen zwischen Hanau-Steinheim und Überleitung B45, Hanau-Klein-Auheim",
-        "streets": [
-          "B43A"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Stau"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-15T13:21:16.935Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/478587_LMS-HE/54"
       },
       "dataProducer": {
@@ -5598,57 +5493,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/482212_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 482212
-      },
-      "description": [
-        {
-          "value": "B417, L3470 Richtung Wiesbaden\nzwischen Wehen und B54/Fischzucht\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B417"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B417 Richtung Wiesbaden zwischen Wehen und B54/Fischzucht",
-        "streets": [
-          "B417"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-15T13:17:03.23Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
