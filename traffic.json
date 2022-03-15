@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "3ms",
   "version": "TIC",
   "data": [
     {
@@ -2794,6 +2794,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-29T09:00:02.365Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/482127_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482127
+      },
+      "description": [
+        {
+          "value": "A66 Frankfurt - Wiesbaden\nzwischen Schiersteiner Kreuz und Wiesbaden-Frauenstein\nin beiden Richtungen Personen auf dem Standstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Frankfurt Richtung Wiesbaden zwischen Schiersteiner Kreuz und Wiesbaden-Frauenstein",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-15T06:35:30.297Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
