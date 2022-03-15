@@ -1158,7 +1158,7 @@
       },
       "description": [
         {
-          "value": "A5 Kassel Richtung Frankfurt\nzwischen Bad Homburger Kreuz und Nordwestkreuz Frankfurt\nUnfall, rechter Fahrstreifen blockiert"
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Bad Homburger Kreuz und Nordwestkreuz Frankfurt\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -1193,11 +1193,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-15T16:05:11.473Z"
+        "value": "2022-03-15T17:06:54.999Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1212,7 +1212,7 @@
       },
       "description": [
         {
-          "value": "A5 Heidelberg Richtung Darmstadt\nzwischen Bensheim und Zwingenberg\nGefahr durch verlorene Ladung (Fahrzeugteile)"
+          "value": "A5 Heidelberg Richtung Darmstadt\nzwischen Bensheim und Zwingenberg\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -1234,7 +1234,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1244,11 +1244,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-15T16:27:10.601Z"
+        "value": "2022-03-15T17:13:57.202Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1380,6 +1380,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/482269_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482269
+      },
+      "description": [
+        {
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Butzbach und Gambacher Kreuz\nGefahr durch Gegenstände auf dem rechten Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Frankfurt Richtung Kassel zwischen Butzbach und Gambacher Kreuz",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-15T17:12:36.895Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/335177_LMS-HE/54"
       },
       "dataProducer": {
@@ -1456,7 +1507,7 @@
       },
       "description": [
         {
-          "value": "A7 Fulda Richtung Kassel\nzwischen Malsfeld und Ausfahrt Melsungen\nleichte Verzögerungen\nauf dem Abbiegestreifen Ausfahrt Melsungen"
+          "value": "A7 Fulda Richtung Kassel\nzwischen Malsfeld und Ausfahrt Melsungen\nkein Zeitverlust mehr"
         }
       ],
       "location": {
@@ -1488,11 +1539,11 @@
       "masterEventCategory": "Zeitverlust",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-15T16:45:34.292Z"
+        "value": "2022-03-15T17:04:53.822Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2896,7 +2947,7 @@
       },
       "description": [
         {
-          "value": "A49 Gießen Richtung Kassel\nzwischen Borken (Hessen) und Wabern\nUnfallaufnahme, Richtungsfahrbahn gesperrt"
+          "value": "A49 Gießen Richtung Kassel\nzwischen Borken (Hessen) und Wabern\nUnfallaufnahme, Richtungsfahrbahn gesperrt, Rettungshubschrauber im Einsatz"
         }
       ],
       "location": {
@@ -2926,16 +2977,19 @@
         },
         {
           "value": "Sperrung"
+        },
+        {
+          "value": "Information"
         }
       ],
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-15T16:53:35.109Z"
+        "value": "2022-03-15T17:00:48.125Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3080,7 +3134,7 @@
       },
       "description": [
         {
-          "value": "A66 Fulda Richtung Frankfurt\nzwischen Neuhof-Nord und Neuhof-Süd\nGefahr durch Gegenstände auf der Fahrbahn"
+          "value": "A66 Fulda Richtung Frankfurt\nzwischen Neuhof-Nord und Neuhof-Süd\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -3102,7 +3156,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -3112,11 +3166,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-15T16:33:03.496Z"
+        "value": "2022-03-15T17:06:09.84Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3875,6 +3929,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/482267_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482267
+      },
+      "description": [
+        {
+          "value": "A671 Richtung Wiesbaden\nzwischen Auffahrt Gustavsburg und Hochheim-Süd\nGefahr durch ungesicherte Unfallstelle, Gefahr durch Personen auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A671"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A671 Richtung Wiesbaden zwischen Auffahrt Gustavsburg und Hochheim-Süd",
+        "streets": [
+          "A671"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-15T16:59:39.135Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
