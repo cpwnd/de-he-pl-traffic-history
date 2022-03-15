@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "3ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -4420,6 +4420,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-31T23:00:01.774Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/482128_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482128
+      },
+      "description": [
+        {
+          "value": "B43A Hanauer Kreuz Richtung Obertshausen\nzwischen Hanau-Steinheim und Überleitung B45, Hanau-Klein-Auheim\nTagesbaustelle, Staulänge zunehmend"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B43A"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B43A Hanauer Kreuz Richtung Obertshausen zwischen Hanau-Steinheim und Überleitung B45, Hanau-Klein-Auheim",
+        "streets": [
+          "B43A"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Stau"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-15T06:38:56.98Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
