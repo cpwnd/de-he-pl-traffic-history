@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -1039,6 +1039,69 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/482147_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482147
+      },
+      "description": [
+        {
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Bad Homburger Kreuz und Nordwestkreuz Frankfurt\nmehrere Unfälle mit mehreren Fahrzeugen, Stau, Richtungsfahrbahn blockiert, Gasse für Rettungs- und Einsatzfahrzeuge bilden, Rettungsfahrzeuge im Einsatz, empfohlene Umleitung: U32"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Kassel Richtung Frankfurt zwischen Bad Homburger Kreuz und Nordwestkreuz Frankfurt",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Stau"
+        },
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Hinweis"
+        },
+        {
+          "value": "Information"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-15T07:51:19.307Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -2579,7 +2642,7 @@
       },
       "description": [
         {
-          "value": "A45, A66 Aschaffenburg Richtung Gießen\nzwischen Hanauer Kreuz und Langenselbolder Dreieck\nGefahr durch defekten LKW auf dem rechten Fahrstreifen, Gefahr durch unbeleuchtetes Fahrzeug auf der Fahrbahn"
+          "value": "A45, A66 Aschaffenburg Richtung Gießen\nzwischen Hanauer Kreuz und Langenselbolder Dreieck\nalle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -2602,7 +2665,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2612,11 +2675,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-15T04:37:19.129Z"
+        "value": "2022-03-15T08:07:02.292Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4142,6 +4205,71 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-13T23:00:04.455Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/482154_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482154
+      },
+      "description": [
+        {
+          "value": "B43 Querspange-Kelsterbach, Kreisel Unterschweinstiege Richtung Querspange Kelsterbach\nin Höhe Flughafen-West\nBauarbeiten, gesperrt, bis 18.03.2022, Di - Do zwischen 09:00 Uhr und 15:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B43"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B43 Querspange-Kelsterbach, Kreisel Unterschweinstiege Richtung Querspange Kelsterbach in Höhe Flughafen-West",
+        "streets": [
+          "B43"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-15T08:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-03-18T14:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 15.03.2022 bis 18.03.2022, Di - Do zwischen 09:00 Uhr und 15:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-15T08:00:01.259Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
