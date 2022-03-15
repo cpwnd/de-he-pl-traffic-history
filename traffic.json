@@ -2993,6 +2993,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/482234_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482234
+      },
+      "description": [
+        {
+          "value": "A66 Frankfurt Richtung Fulda\nzwischen Bad Soden-Salmünster und Steinau a. d. Straße\nAquaplaninggefahr, bitte vorsichtig fahren\n(rechter Fahrstreifen z.T. unter Wasser)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Frankfurt Richtung Fulda zwischen Bad Soden-Salmünster und Steinau a. d. Straße",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Straßenzustand"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Straßenzustand",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-15T15:11:41.298Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/482228_LMS-HE/54"
       },
       "dataProducer": {
@@ -5439,77 +5493,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/482135_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 482135
-      },
-      "description": [
-        {
-          "value": "B457 Gelnhausen Richtung Nidda\nzwischen Bleichenbach und Selters\nBauarbeiten, vorübergehende Begrenzung der Fahrbahnbreite auf 2,75 m, vorübergehende Regelung durch provisorische Ampelanlagen, halbseitig gesperrt, bis 16.03.2022, Di und Mi zwischen 08:00 Uhr und 16:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B457"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B457 Gelnhausen Richtung Nidda zwischen Bleichenbach und Selters",
-        "streets": [
-          "B457"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-15T07:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-03-16T15:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 15.03.2022 bis 16.03.2022, Di und Mi zwischen 08:00 Uhr und 16:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Beschränkung"
-        },
-        {
-          "value": "Information"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-15T07:00:00.575Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
