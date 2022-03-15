@@ -1275,57 +1275,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/482269_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 482269
-      },
-      "description": [
-        {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Butzbach und Gambacher Kreuz\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Frankfurt Richtung Kassel zwischen Butzbach und Gambacher Kreuz",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-15T17:21:13.119Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/335177_LMS-HE/54"
       },
       "dataProducer": {
@@ -1836,6 +1785,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-28T20:00:01.686Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/482273_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482273
+      },
+      "description": [
+        {
+          "value": "A7 Würzburg Richtung Fulda\nzwischen Bad Brückenau-Volkers und Dreieck Fulda\nGefahr durch Gegenstände auf der Fahrbahn (ein Holzklotz)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Würzburg Richtung Fulda zwischen Bad Brückenau-Volkers und Dreieck Fulda",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-15T17:39:54.015Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2791,7 +2791,7 @@
       },
       "description": [
         {
-          "value": "A49 Gießen Richtung Kassel\nzwischen Borken (Hessen) und Wabern\nUnfallaufnahme, Richtungsfahrbahn gesperrt, Rettungshubschrauber im Einsatz"
+          "value": "A49 Gießen Richtung Kassel\nzwischen Borken (Hessen) und Wabern\nUnfallaufnahme, Richtungsfahrbahn gesperrt"
         }
       ],
       "location": {
@@ -2821,15 +2821,12 @@
         },
         {
           "value": "Sperrung"
-        },
-        {
-          "value": "Information"
         }
       ],
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-15T17:00:48.125Z"
+        "value": "2022-03-15T17:40:39.849Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
