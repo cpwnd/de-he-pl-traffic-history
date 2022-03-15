@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -1053,7 +1053,7 @@
       },
       "description": [
         {
-          "value": "A5 Kassel Richtung Frankfurt\nzwischen Friedberg und Bad Homburger Kreuz\nGefahr durch ungesicherte Unfallstelle auf dem linken und dem mittleren Fahrstreifen, Gefahr durch Personen auf der Fahrbahn"
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Friedberg und Bad Homburger Kreuz\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -1075,7 +1075,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1088,7 +1088,7 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-15T05:37:46.34Z"
+        "value": "2022-03-15T07:03:44.516Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1216,6 +1216,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-09T13:56:08.225Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/482131_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482131
+      },
+      "description": [
+        {
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Alsfeld-Ost und Hattenbacher Dreieck\nStraße geräumt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Frankfurt Richtung Kassel zwischen Alsfeld-Ost und Hattenbacher Dreieck",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-15T07:08:53.48Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2118,6 +2169,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/482133_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482133
+      },
+      "description": [
+        {
+          "value": "A7 Fulda Richtung Kassel\nzwischen Bad Hersfeld-West und Homberg (Efze)\nHindernisse beseitigt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Fulda Richtung Kassel zwischen Bad Hersfeld-West und Homberg (Efze)",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-15T07:09:37.779Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/479631_LMS-HE/54"
       },
       "dataProducer": {
@@ -2802,57 +2904,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/482127_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 482127
-      },
-      "description": [
-        {
-          "value": "A66 Frankfurt - Wiesbaden\nzwischen Schiersteiner Kreuz und Wiesbaden-Frauenstein\nin beiden Richtungen Personen auf dem Standstreifen"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A66"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A66 Frankfurt Richtung Wiesbaden zwischen Schiersteiner Kreuz und Wiesbaden-Frauenstein",
-        "streets": [
-          "A66"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-15T06:35:30.297Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/456754_LMS-HE/54"
       },
       "dataProducer": {
@@ -2914,63 +2965,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/482099_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 482099
-      },
-      "description": [
-        {
-          "value": "A66 Fulda Richtung Frankfurt\nzwischen Flieden und Schlüchtern-Süd\nGefahr durch ungesicherte Unfallstelle, Gefahr durch Gegenstände auf der Fahrbahn, bitte vorsichtig fahren"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A66"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A66 Fulda Richtung Frankfurt zwischen Flieden und Schlüchtern-Süd",
-        "streets": [
-          "A66"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-15T04:25:16.106Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
@@ -3539,57 +3533,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-01T08:30:00.349Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/482117_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 482117
-      },
-      "description": [
-        {
-          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Frankfurt am M.-Nieder-Eschbach und Bad Homburger Kreuz\nGefahr durch defektes Fahrzeug auf dem Abbiegestreifen"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A661"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A661 Darmstadt Richtung Bad Homburg zwischen Frankfurt am M.-Nieder-Eschbach und Bad Homburger Kreuz",
-        "streets": [
-          "A661"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-15T06:04:11.054Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -5659,6 +5602,77 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/482135_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482135
+      },
+      "description": [
+        {
+          "value": "B457 Gelnhausen Richtung Nidda\nzwischen Bleichenbach und Selters\nBauarbeiten, vorübergehende Begrenzung der Fahrbahnbreite auf 2,75 m, vorübergehende Regelung durch provisorische Ampelanlagen, halbseitig gesperrt, bis 16.03.2022, Di und Mi zwischen 08:00 Uhr und 16:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B457"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B457 Gelnhausen Richtung Nidda zwischen Bleichenbach und Selters",
+        "streets": [
+          "B457"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-15T07:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-03-16T15:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 15.03.2022 bis 16.03.2022, Di und Mi zwischen 08:00 Uhr und 16:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Beschränkung"
+        },
+        {
+          "value": "Information"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-15T07:00:00.575Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
