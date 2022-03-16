@@ -2130,7 +2130,7 @@
       },
       "description": [
         {
-          "value": "A44 Dortmund Richtung Kassel\nzwischen Zierenberg und Kreuz Kassel-West\nBaustelle, stockender Verkehr, Fahrbahn auf einen Fahrstreifen verengt"
+          "value": "A44 Dortmund Richtung Kassel\nzwischen Zierenberg und Kreuz Kassel-West\nVerkehrsstörung besteht nicht mehr"
         }
       ],
       "location": {
@@ -2168,11 +2168,11 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-16T06:38:38.047Z"
+        "value": "2022-03-16T08:22:14.077Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -7856,6 +7856,74 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/482400_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482400
+      },
+      "description": [
+        {
+          "value": "L2306 Altenhaßlau, Unterfrankenstraße\nzwischen Von-Carlshausen-Allee und Ortsausgang\nBauarbeiten, vorübergehende Begrenzung der Fahrbahnbreite auf 3 m, vorübergehende Regelung durch provisorische Ampelanlagen, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, bis 22.04.2022 20:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L2306"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Altenhaßlau, Unterfrankenstraße zwischen Von-Carlshausen-Allee und Ortsausgang",
+        "streets": [
+          "L2306"
+        ]
+      },
+      "duration": {
+        "startTime": null,
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-22T18:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "bis 22.04.2022 20:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Beschränkung"
+        },
+        {
+          "value": "Information"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-16T08:24:43.815Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_D__HE_FFM-IGLZ/210807565498_LMS-HE/54"
       },
       "dataProducer": {
@@ -8834,60 +8902,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/482344_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 482344
-      },
-      "description": [
-        {
-          "value": "L3144 zwischen Brauerschwend und Wallenrod\nPolizeiermittlung beendet"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3144"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Vogelsbergkreis, L3144 zwischen Brauerschwend und Wallenrod",
-        "streets": [
-          "L3144"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-16T08:06:19.767Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
