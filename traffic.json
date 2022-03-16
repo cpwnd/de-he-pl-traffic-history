@@ -471,7 +471,7 @@
       },
       "description": [
         {
-          "value": "A3 Würzburg Richtung Frankfurt\nzwischen Offenbach und Frankfurt am Main-Süd\ndefektes Fahrzeug auf dem linken Fahrstreifen, Polizei ist vor Ort, Vorsicht beim Überholen"
+          "value": "A3 Würzburg Richtung Frankfurt\nzwischen Offenbach und Frankfurt am Main-Süd\nStraße wieder frei"
         }
       ],
       "location": {
@@ -509,7 +509,7 @@
       "masterEventCategory": "Hinweis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-16T06:11:57.24Z"
+        "value": "2022-03-16T06:39:36.78Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -691,6 +691,66 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-14T08:30:01.673Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/482371_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482371
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Limburg-Nord und Diez\nGefahr durch defektes Fahrzeug, mittlerer Fahrstreifen blockiert, Polizei ist benachrichtigt, fahren Sie bitte besonders vorsichtig"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Köln zwischen Limburg-Nord und Diez",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Information"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-16T06:49:01.531Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2169,6 +2229,63 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-03T16:02:45.746Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/482368_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482368
+      },
+      "description": [
+        {
+          "value": "A44 Dortmund Richtung Kassel\nzwischen Zierenberg und Kreuz Kassel-West\nBaustelle, stockender Verkehr, Fahrbahn auf einen Fahrstreifen verengt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A44"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A44 Dortmund Richtung Kassel zwischen Zierenberg und Kreuz Kassel-West",
+        "streets": [
+          "A44"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Stau"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-16T06:38:38.047Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -8428,63 +8545,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/482335_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 482335
-      },
-      "description": [
-        {
-          "value": "L3042 Dautphetal - Herborn\nzwischen Hirzenhain Bahnhof und Abzweig nach Eibach\nin beiden Richtungen wieder offen"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3042"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Lahn-Dill-Kreis, L3042 zwischen Hirzenhain Bahnhof und Abzweig nach Eibach",
-        "streets": [
-          "L3042"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Straßenzustand"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-16T06:29:31.595Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/461648_LMS-HE/54"
       },
       "dataProducer": {
@@ -11460,6 +11520,53 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-13T23:00:04.455Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/482367_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482367
+      },
+      "description": [
+        {
+          "value": "Sandplacken, Römerturm - Schmitten\nzwischen Hochtaunusstraße und Abzweig nach Oberreifenberg\nin beiden Richtungen Straßenglätte"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": null
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Hochtaunuskreis, Sandplacken zwischen Hochtaunusstraße und Abzweig nach Oberreifenberg",
+        "streets": null
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Straßenzustand"
+        }
+      ],
+      "masterEventCategory": "Straßenzustand",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-16T06:38:46.846Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
