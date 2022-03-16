@@ -1231,7 +1231,7 @@
       },
       "description": [
         {
-          "value": "A5 Europabrücke Frankfurt, Frankfurt Richtung Kassel\nzwischen Frankfurt-Niederrad und Frankfurt am Main-Westhafen\nGefahr durch ungesicherte Unfallstelle, Gefahr durch Personen auf der Fahrbahn, Richtungsfahrbahn blockiert"
+          "value": "A5 Europabrücke Frankfurt, Frankfurt Richtung Kassel\nzwischen Frankfurt-Niederrad und Frankfurt am Main-Westhafen\n2 linke Fahrstreifen gesperrt, Unfallaufnahme"
         }
       ],
       "location": {
@@ -1253,23 +1253,20 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Unfall"
-        },
-        {
-          "value": "Hindernis"
+          "value": "Sperrung"
         },
         {
           "value": "Störung"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-16T19:46:37.489Z"
+        "value": "2022-03-16T21:53:29.644Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -5771,71 +5768,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-09T12:24:23.362Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/482277_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 482277
-      },
-      "description": [
-        {
-          "value": "Schwalm-Eder-Kreis, K61\nzwischen Oberurff-Schiffelborn und Bergfreiheit\nin beiden Richtungen Krötenwanderung, Richtungsfahrbahn gesperrt, bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "K61"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Schwalm-Eder-Kreis, K61 zwischen Oberurff-Schiffelborn und Bergfreiheit",
-        "streets": [
-          "K61"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-01T18:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-30T05:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 01.03.2022 bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Information"
-        }
-      ],
-      "masterEventCategory": "Sperrung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-15T18:00:01.294Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
