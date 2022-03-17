@@ -518,6 +518,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/482677_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482677
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Frankfurt am Main-Süd und Frankfurter Kreuz\nGefahr durch Reifenteile auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Köln zwischen Frankfurt am Main-Süd und Frankfurter Kreuz",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-17T13:17:10.49Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/461440_LMS-HE/54"
       },
       "dataProducer": {
@@ -2771,7 +2822,7 @@
       },
       "description": [
         {
-          "value": "A60 Mainz Richtung Rüsselsheim\nzwischen Mainspitz-Dreieck und Bischofsheim\nUnfall, Stau, Stauende liegt im Kurvenbereich"
+          "value": "A60 Mainz Richtung Rüsselsheim\nzwischen Mainspitz-Dreieck und Bischofsheim\nUnfall auf dem linken und dem mittleren Fahrstreifen, Stau, Stauende liegt im Kurvenbereich, Fahrbahn von 3 auf einen Fahrstreifen verengt"
         }
       ],
       "location": {
@@ -2801,16 +2852,19 @@
         },
         {
           "value": "Stau"
+        },
+        {
+          "value": "Störung"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-17T12:58:06.128Z"
+        "value": "2022-03-17T13:11:32.103Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3060,6 +3114,111 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/482676_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482676
+      },
+      "description": [
+        {
+          "value": "A66 Wiesbaden Richtung Frankfurt\nEinfahrt Frankfurt am Main-Zeilsheim\nGefahr durch defektes Fahrzeug im Kurvenbereich, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Wiesbaden Richtung Frankfurt Einfahrt Frankfurt am Main-Zeilsheim",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-17T13:17:37.178Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/482680_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482680
+      },
+      "description": [
+        {
+          "value": "A66 Wiesbaden Richtung Frankfurt\nzwischen Frankfurt am Main-Zeilsheim und Kelkheim\ndefekter PKW auf dem rechten Fahrstreifen\n(Pkw mit Pferdeanhänger - incl. Pferde)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Wiesbaden Richtung Frankfurt zwischen Frankfurt am Main-Zeilsheim und Kelkheim",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-17T13:26:35.787Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -7744,6 +7903,71 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/482668_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482668
+      },
+      "description": [
+        {
+          "value": "L562 zwischen Sandershausen und Landwehrhagen\nin beiden Richtungen Fahrbahnerneuerung, Richtungsfahrbahn gesperrt, der Umleitungsbeschilderung folgen, bis 15.04.2022 20:00 Uhr, empfohlene Umleitungen: Richtung Kassel, Richtung Hann.-Münden\n(Bitte folgen sie unbedingt der ausgeschilderten Umleitung)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L562"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Kreis Kassel, L562 zwischen Sandershausen und Landwehrhagen",
+        "streets": [
+          "L562"
+        ]
+      },
+      "duration": {
+        "startTime": null,
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-15T18:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "bis 15.04.2022 20:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-17T13:04:03.676Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/482400_LMS-HE/54"
       },
       "dataProducer": {
@@ -8517,6 +8741,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-12-17T17:58:17.589Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/482678_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482678
+      },
+      "description": [
+        {
+          "value": "L3103 Seeheim-Jugenheim - Bensheim\nzwischen B3 und Seeheim-Jugenheim\nin beiden Richtungen Achtung, Personen werfen Gegenstände auf die Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3103"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Kreis Darmstadt-Dieburg, L3103 zwischen B3 und Seeheim-Jugenheim",
+        "streets": [
+          "L3103"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Sehr dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-17T13:22:29.723Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
