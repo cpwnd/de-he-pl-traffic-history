@@ -396,6 +396,71 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/482752_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482752
+      },
+      "description": [
+        {
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Limburg-Süd und Bad Camberg\nNachtbaustelle, rechter Fahrstreifen gesperrt, von 17.03.2022 22:00 Uhr bis 18.03.2022 05:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Frankfurt zwischen Limburg-Süd und Bad Camberg",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-17T21:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-03-18T04:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 17.03.2022 22:00 Uhr bis 18.03.2022 05:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-17T20:10:03.105Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/478197_LMS-HE/54"
       },
       "dataProducer": {
@@ -1100,6 +1165,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-17T19:31:15.643Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/482754_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482754
+      },
+      "description": [
+        {
+          "value": "A5 Frankfurt Richtung Darmstadt\nin Höhe Frankfurt-Niederrad\nUnfall auf dem rechten Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Frankfurt Richtung Darmstadt in Höhe Frankfurt-Niederrad",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-17T20:59:09.957Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -11078,67 +11194,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-14T09:17:30.404Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/482714_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 482714
-      },
-      "description": [
-        {
-          "value": "Frankfurt, Otto-Fleck-Schneise\nzwischen Im Herzen von Europa und Flughafenstraße\nFußballspiel, Verkehrsbehinderung zu erwarten, bis 17.03.2022 22:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": null
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Frankfurt, Otto-Fleck-Schneise zwischen Im Herzen von Europa und Flughafenstraße",
-        "streets": null
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-17T16:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-03-17T21:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "am 17.03.2022 von 17:00 Uhr bis 22:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Organisiertes Ereignis"
-        },
-        {
-          "value": "Stau"
-        }
-      ],
-      "masterEventCategory": "Organisiertes Ereignis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-17T16:00:01.036Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
