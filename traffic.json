@@ -184,7 +184,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-17T12:21:34.81Z"
+        "value": "2022-03-17T13:34:33.32Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -453,6 +453,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/482682_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482682
+      },
+      "description": [
+        {
+          "value": "A3 zwischen Limburg-Süd und Bad Camberg\nin beiden Richtungen Gefahr durch Personen auf dem Standstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Richtung Köln zwischen Limburg-Süd und Bad Camberg",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-17T13:42:54.6Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/478197_LMS-HE/54"
       },
       "dataProducer": {
@@ -528,7 +579,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Frankfurt am Main-Süd und Frankfurter Kreuz\nGefahr durch Reifenteile auf der Fahrbahn"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Frankfurt am Main-Süd und Frankfurter Kreuz\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -550,7 +601,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -560,11 +611,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-17T13:17:10.49Z"
+        "value": "2022-03-17T13:39:20.624Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1936,7 +1987,7 @@
       },
       "description": [
         {
-          "value": "A7 Fulda Richtung Kassel\nzwischen Kirchheim und Kirchheimer Dreieck\nAnschlussstelle gesperrt, Baustelle, Reparaturarbeiten, bis 17.03.2022 14:30 Uhr\n(Anschlussstelle Kirchheim in FR Norden aufgrund Reparaturarbeiten bis 14:30h) gesperrt)"
+          "value": "A7 Fulda Richtung Kassel\nzwischen Kirchheim und Kirchheimer Dreieck\nAnschlussstelle gesperrt, Baustelle, Reparaturarbeiten\n(Anschlussstelle Kirchheim in FR Norden aufgrund Reparaturarbeiten bis 14:30h) gesperrt)"
         }
       ],
       "location": {
@@ -1955,18 +2006,7 @@
           "A7"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-17T10:30:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-03-17T13:30:00Z"
-        },
-        "name": "Dauer",
-        "description": "am 17.03.2022 von 11:30 Uhr bis 14:30 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -1982,11 +2022,11 @@
       "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-17T10:39:53.333Z"
+        "value": "2022-03-17T13:36:01.983Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3110,60 +3150,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-14T09:08:53.888Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/482676_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 482676
-      },
-      "description": [
-        {
-          "value": "A66 Wiesbaden Richtung Frankfurt\nEinfahrt Frankfurt am Main-Zeilsheim\nGefahr durch defektes Fahrzeug im Kurvenbereich, bitte vorsichtig fahren"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A66"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A66 Wiesbaden Richtung Frankfurt Einfahrt Frankfurt am Main-Zeilsheim",
-        "streets": [
-          "A66"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-17T13:17:37.178Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -8759,7 +8745,7 @@
       },
       "description": [
         {
-          "value": "L3103 Seeheim-Jugenheim - Bensheim\nzwischen B3 und Seeheim-Jugenheim\nin beiden Richtungen Achtung, Personen werfen Gegenstände auf die Fahrbahn"
+          "value": "L3103 Seeheim-Jugenheim - Bensheim\nzwischen B3 und Seeheim-Jugenheim\nin beiden Richtungen Gefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -8781,7 +8767,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Sehr dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -8791,7 +8777,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-17T13:22:29.723Z"
+        "value": "2022-03-17T13:47:40.61Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
