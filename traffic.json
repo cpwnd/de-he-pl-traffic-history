@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -146,7 +146,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln - Frankfurt\nzwischen Kelsterbach und Frankfurter Kreuz\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
+          "value": "A3 Köln - Frankfurt\nzwischen Kelsterbach und Frankfurter Kreuz\nin beiden Richtungen Gefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -168,6 +168,57 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-17T08:06:08.324Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/482602_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482602
+      },
+      "description": [
+        {
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Mönchhof-Dreieck und Kelsterbach\nGefahr durch verlorene Ladung (mehrere Kanthölzer)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Frankfurt zwischen Mönchhof-Dreieck und Kelsterbach",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
         "value": "Dringend"
       },
       "eventCategory": [
@@ -178,7 +229,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-17T07:26:09.213Z"
+        "value": "2022-03-17T08:05:54.651Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1104,7 +1155,7 @@
       },
       "description": [
         {
-          "value": "A5 Darmstadt Richtung Heidelberg\nzwischen Dreieck Darmstadt und Darmstädter Kreuz\nUnfallaufnahme im Baustellenbereich, Fahrbahn auf einen Fahrstreifen verengt, Stau zu erwarten"
+          "value": "A5 Darmstadt Richtung Heidelberg\nzwischen Dreieck Darmstadt und Darmstädter Kreuz\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -1139,7 +1190,7 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-17T06:02:25.606Z"
+        "value": "2022-03-17T08:06:22.683Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4146,6 +4197,71 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/482598_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482598
+      },
+      "description": [
+        {
+          "value": "B43 Querspange-Kelsterbach, Kreisel Unterschweinstiege Richtung Querspange Kelsterbach\nin Höhe Flughafen-West\nBauarbeiten, gesperrt, bis 18.03.2022, Di - Do zwischen 09:00 Uhr und 15:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B43"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B43 Querspange-Kelsterbach, Kreisel Unterschweinstiege Richtung Querspange Kelsterbach in Höhe Flughafen-West",
+        "streets": [
+          "B43"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-15T08:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-03-18T14:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 15.03.2022 bis 18.03.2022, Di - Do zwischen 09:00 Uhr und 15:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-17T08:00:01.723Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/443904_LMS-HE/54"
       },
       "dataProducer": {
@@ -5916,6 +6032,71 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-01T05:00:01.439Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/482599_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482599
+      },
+      "description": [
+        {
+          "value": "Main-Kinzig-Kreis, Fasaneriestraße\nzwischen Überleitung Hanau-Klein-Auheim und Klein-Auheim\nin beiden Richtungen Bauarbeiten, halbseitig gesperrt, bis 25.03.2022, Mo - Fr zwischen 09:00 Uhr und 16:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K200"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Main-Kinzig-Kreis, Fasaneriestraße zwischen Überleitung Hanau-Klein-Auheim und Klein-Auheim",
+        "streets": [
+          "K200"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-17T08:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-03-25T15:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 17.03.2022 bis 25.03.2022, Mo - Fr zwischen 09:00 Uhr und 16:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-17T08:00:01.723Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -8976,6 +9157,71 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-12-12T23:00:01.683Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/482597_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482597
+      },
+      "description": [
+        {
+          "value": "Frankfurt, L3266\nzwischen Höchst und Frankfurt am Main-Höchst in Unterliederbach\nBaustelle, rechter Fahrstreifen gesperrt, bis 31.03.2022, Mo - Fr zwischen 09:00 Uhr und 15:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3266"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, L3266 zwischen Höchst und Frankfurt am Main-Höchst in Unterliederbach",
+        "streets": [
+          "L3266"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-16T23:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-03-31T21:59:59Z"
+        },
+        "name": "Dauer",
+        "description": "vom 17.03.2022 bis 31.03.2022, Mo - Fr zwischen 09:00 Uhr und 15:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-17T08:00:01.723Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
