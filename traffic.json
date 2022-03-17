@@ -1043,17 +1043,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/482524_LMS-HE/54"
+        "value": "LMS/r_LMS/482560_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 482524
+        "value": 482560
       },
       "description": [
         {
-          "value": "A5 Darmstadt Richtung Heidelberg\nzwischen Seeheim-Jugenheim und Zwingenberg\nWanderbaustelle auf dem linken Fahrstreifen"
+          "value": "A5 Darmstadt Richtung Heidelberg\nzwischen Dreieck Darmstadt und Darmstädter Kreuz\nUnfallaufnahme im Baustellenbereich, Fahrbahn auf einen Fahrstreifen verengt, Stau zu erwarten"
         }
       ],
       "location": {
@@ -1067,7 +1067,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A5 Darmstadt Richtung Heidelberg zwischen Seeheim-Jugenheim und Zwingenberg",
+        "description": "A5 Darmstadt Richtung Heidelberg zwischen Dreieck Darmstadt und Darmstädter Kreuz",
         "streets": [
           "A5"
         ]
@@ -1079,17 +1079,20 @@
       },
       "eventCategory": [
         {
-          "value": "Arbeitsstelle"
+          "value": "Störung"
+        },
+        {
+          "value": "Stau"
         }
       ],
-      "masterEventCategory": "Arbeitsstelle",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-16T18:45:32.911Z"
+        "value": "2022-03-17T04:12:52.717Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2935,60 +2938,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/482522_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 482522
-      },
-      "description": [
-        {
-          "value": "A67 Darmstadt Richtung Mannheim\nzwischen Pfungstadt und Gernsheim\nBauarbeiten, rechter Fahrstreifen blockiert"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A67"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A67 Darmstadt Richtung Mannheim zwischen Pfungstadt und Gernsheim",
-        "streets": [
-          "A67"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-16T18:44:27.672Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
@@ -6248,6 +6197,63 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/482561_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482561
+      },
+      "description": [
+        {
+          "value": "K634 zwischen Hallgarten und Abzweig nach Hattenheim\nbeide Fahrtrichtungen bis auf weiteres gesperrt, Unfall, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, empfohlene Umleitung: über B42A, Oestrich und Hallgarten"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K634"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Rheingau-Taunus-Kreis, K634 zwischen Hallgarten und Abzweig nach Hattenheim",
+        "streets": [
+          "K634"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-17T04:08:31.202Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
