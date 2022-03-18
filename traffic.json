@@ -3721,6 +3721,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/482916_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482916
+      },
+      "description": [
+        {
+          "value": "B40 Frankfurt, Schwanheimer Brücke\nzwischen Frankfurt und Frankfurt am Main-Schwanheim\nGefahr besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B40"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B40 Frankfurt, Schwanheimer Brücke zwischen Frankfurt und Frankfurt am Main-Schwanheim",
+        "streets": [
+          "B40"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-18T15:23:06.985Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_D__HE_FFM-IGLZ/210817370733_LMS-HE/54"
       },
       "dataProducer": {
@@ -6094,7 +6145,7 @@
       },
       "description": [
         {
-          "value": "Main-Kinzig-Kreis, Fasaneriestraße\nzwischen Überleitung Hanau-Klein-Auheim und Klein-Auheim\nin beiden Richtungen Bauarbeiten, halbseitig gesperrt, bis 25.03.2022, Mo - Fr zwischen 09:00 Uhr und 16:00 Uhr"
+          "value": "K200 Fasaneriestraße\nzwischen Überleitung Hanau-Klein-Auheim und Klein-Auheim\nin beiden Richtungen Baustelle beseitigt"
         }
       ],
       "location": {
@@ -6113,18 +6164,7 @@
           "K200"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-17T08:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-03-25T15:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 17.03.2022 bis 25.03.2022, Mo - Fr zwischen 09:00 Uhr und 16:00 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -6140,11 +6180,11 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-18T08:00:01.537Z"
+        "value": "2022-03-18T15:21:05.087Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
