@@ -3705,57 +3705,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/482809_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 482809
-      },
-      "description": [
-        {
-          "value": "B40 zwischen Frankfurt-Sindlingen und Krifteler Dreieck\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B40"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B40 zwischen Frankfurt-Sindlingen und Krifteler Dreieck",
-        "streets": [
-          "B40"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-18T07:26:26.873Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_D__HE_FFM-IGLZ/210817370733_LMS-HE/54"
       },
       "dataProducer": {
@@ -6046,6 +5995,71 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-01T05:00:01.439Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/482818_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482818
+      },
+      "description": [
+        {
+          "value": "Main-Kinzig-Kreis, Fasaneriestraße\nzwischen Überleitung Hanau-Klein-Auheim und Klein-Auheim\nin beiden Richtungen Bauarbeiten, halbseitig gesperrt, bis 25.03.2022, Mo - Fr zwischen 09:00 Uhr und 16:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K200"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Main-Kinzig-Kreis, Fasaneriestraße zwischen Überleitung Hanau-Klein-Auheim und Klein-Auheim",
+        "streets": [
+          "K200"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-17T08:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-03-25T15:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 17.03.2022 bis 25.03.2022, Mo - Fr zwischen 09:00 Uhr und 16:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-18T08:00:01.537Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -9111,6 +9125,71 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-12-12T23:00:01.683Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/482817_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482817
+      },
+      "description": [
+        {
+          "value": "Frankfurt, L3266\nzwischen Höchst und Frankfurt am Main-Höchst in Unterliederbach\nBaustelle, rechter Fahrstreifen gesperrt, bis 31.03.2022, Mo - Fr zwischen 09:00 Uhr und 15:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3266"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, L3266 zwischen Höchst und Frankfurt am Main-Höchst in Unterliederbach",
+        "streets": [
+          "L3266"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-16T23:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-03-31T21:59:59Z"
+        },
+        "name": "Dauer",
+        "description": "vom 17.03.2022 bis 31.03.2022, Mo - Fr zwischen 09:00 Uhr und 15:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-18T08:00:01.537Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
