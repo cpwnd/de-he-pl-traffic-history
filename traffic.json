@@ -406,7 +406,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbaden/Niedernhausen und Wiesbadener Kreuz\nNachtbaustelle, rechter Fahrstreifen gesperrt, mittlerer Fahrstreifen gesperrt, bis 18.03.2022 05:00 Uhr"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbaden/Niedernhausen und Wiesbadener Kreuz\nalle Fahrbahnen wieder frei"
         }
       ],
       "location": {
@@ -425,18 +425,7 @@
           "A3"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-17T21:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-03-18T04:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 17.03.2022 22:00 Uhr bis 18.03.2022 05:00 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -452,7 +441,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-17T21:24:38.073Z"
+        "value": "2022-03-18T03:40:08.175Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1169,6 +1158,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/482749_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482749
+      },
+      "description": [
+        {
+          "value": "A5 Heidelberg Richtung Darmstadt\nzwischen Bensheim und Zwingenberg\nalle Fahrbahnen wieder frei"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Heidelberg Richtung Darmstadt zwischen Bensheim und Zwingenberg",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-18T03:42:18.195Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
