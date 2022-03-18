@@ -3015,57 +3015,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/482779_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 482779
-      },
-      "description": [
-        {
-          "value": "A67 Darmstadt Richtung Mönchhof-Dreieck\nzwischen Rüsselsheim-Ost und Mönchhof-Dreieck\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A67"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A67 Darmstadt Richtung Mönchhof-Dreieck zwischen Rüsselsheim-Ost und Mönchhof-Dreieck",
-        "streets": [
-          "A67"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-18T05:40:55.634Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/461453_LMS-HE/54"
       },
       "dataProducer": {
@@ -3972,7 +3921,7 @@
       },
       "description": [
         {
-          "value": "B42 Wiesbaden Richtung Rüdesheim\nzwischen Eltville Kiedricher Straße und Marktstraße\nUnfall, Gefahr durch Fahrzeugteile auf der Fahrbahn"
+          "value": "B42 Wiesbaden Richtung Rüdesheim\nzwischen Eltville Kiedricher Straße und Marktstraße\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -3994,7 +3943,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -4007,11 +3956,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-18T05:06:37.795Z"
+        "value": "2022-03-18T06:15:34.029Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4474,6 +4423,71 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/482781_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482781
+      },
+      "description": [
+        {
+          "value": "B45 Offenbach Richtung Hanau\nzwischen Einfahrt Rodgau-Hainhausen und Weiskirchen\nBaustelle, Grünpflege, Richtungsfahrbahn gesperrt, bis 18.03.2022 19:00 Uhr\n(B45 nicht gesperrt)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B45 Offenbach Richtung Hanau zwischen Einfahrt Rodgau-Hainhausen und Weiskirchen",
+        "streets": [
+          "B45"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-18T06:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-03-18T18:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "am 18.03.2022 von 07:00 Uhr bis 19:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-18T06:15:18.981Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/409921_LMS-HE/54"
       },
       "dataProducer": {
@@ -4525,6 +4539,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-12-22T11:38:19.234Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/482780_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482780
+      },
+      "description": [
+        {
+          "value": "B45 Dieburg Richtung Hanau\nAusfahrt Rodgau-Hainhausen\nwieder offen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B45 Dieburg Richtung Hanau Ausfahrt Rodgau-Hainhausen",
+        "streets": [
+          "B45"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-18T06:12:20.118Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -5398,7 +5466,7 @@
       },
       "description": [
         {
-          "value": "K11 zwischen Ober-Wöllstadt und Abzweig nach Ober-Wöllstadt\nin beiden Richtungen brennendes Fahrzeug, Rauch, Richtungsfahrbahn gesperrt"
+          "value": "K11 zwischen Ober-Wöllstadt und Abzweig nach Ober-Wöllstadt\nRichtungsfahrbahn gesperrt, Aufräumarbeiten"
         }
       ],
       "location": {
@@ -5424,20 +5492,20 @@
       },
       "eventCategory": [
         {
-          "value": "Störung"
+          "value": "Sperrung"
         },
         {
-          "value": "Sperrung"
+          "value": "Störung"
         }
       ],
-      "masterEventCategory": "Störung",
+      "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-18T05:04:52.416Z"
+        "value": "2022-03-18T06:13:55.129Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -5786,7 +5854,7 @@
       },
       "description": [
         {
-          "value": "Schwalm-Eder-Kreis, K61\nzwischen Oberurff-Schiffelborn und Bergfreiheit\nin beiden Richtungen Krötenwanderung, Richtungsfahrbahn gesperrt, bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
+          "value": "K61 zwischen Oberurff-Schiffelborn und Bergfreiheit\nin beiden Richtungen wieder offen"
         }
       ],
       "location": {
@@ -5805,18 +5873,7 @@
           "K61"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-01T18:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-30T05:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 01.03.2022 bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -5832,72 +5889,7 @@
       "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-17T18:00:00.407Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/481692_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 481692
-      },
-      "description": [
-        {
-          "value": "K61 zwischen Oberurff-Schiffelborn und Bergfreiheit\nin beiden Richtungen Richtungsfahrbahn gesperrt, Krötenwanderung, bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "K61"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Schwalm-Eder-Kreis, K61 zwischen Oberurff-Schiffelborn und Bergfreiheit",
-        "streets": [
-          "K61"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-01T18:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-30T05:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 01.03.2022 bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Information"
-        }
-      ],
-      "masterEventCategory": "Sperrung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-13T21:04:41.417Z"
+        "value": "2022-03-18T06:14:50.775Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -10214,7 +10206,7 @@
       },
       "description": [
         {
-          "value": "Zwischen Überleitung B26, Dieburger Dreieck und Ausfahrt B45, Dieburg-Nord\nUnfallaufnahme"
+          "value": "Zwischen Überleitung B26, Dieburger Dreieck und Ausfahrt B45, Dieburg-Nord\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -10242,7 +10234,7 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-18T04:40:10.869Z"
+        "value": "2022-03-18T06:14:06.82Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
