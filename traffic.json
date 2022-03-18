@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -3654,6 +3654,73 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_D__HE_FFM-IGLZ/210823237649_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482845
+      },
+      "description": [
+        {
+          "value": "B3, B40, B8 Frankfurt, Rothschildallee bis Habsburgerallee\nzwischen Friedberger Landstraße und Wittelsbacher Allee\nBaustelle, Fahrbahnverengung, bis 02.05.2022 23:59 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B3, B40, B8"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B3, B40, B8 Frankfurt, Rothschildallee bis Habsburgerallee zwischen Friedberger Landstraße und Wittelsbacher Allee",
+        "streets": [
+          "B3",
+          "B40",
+          "B8"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-10T23:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-05-02T21:59:59Z"
+        },
+        "name": "Dauer",
+        "description": "von 11.03.2022 00:00 Uhr bis 02.05.2022 23:59 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-18T10:04:37.93Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_D__HE_FFM-IGLZ/210817370733_LMS-HE/54"
       },
       "dataProducer": {
@@ -4106,17 +4173,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/482832_LMS-HE/54"
+        "value": "LMS/r_D__HE_FFM-IGLZ/210823236769_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 482832
+        "value": 482844
       },
       "description": [
         {
-          "value": "B43A Großauheim\nin Höhe Hanau-Hafen\nBaustelle, bis 18.03.2022 ca. 11:30 Uhr"
+          "value": "B43 Gerbermühlstraße, Frankfurt Flughafen Richtung Offenbach\nzwischen B3, Siemensstraße in Frankfurt und Osthafenbrücke\nBaustelle, Fahrbahnverengung, bis 15.10.2022 23:59 Uhr"
         }
       ],
       "location": {
@@ -4124,25 +4191,28 @@
           {
             "edge": {
               "sortRoadNumber": {
-                "value": "B43A"
+                "value": "B43"
               }
             }
           }
         ],
         "name": "Ort",
-        "description": "B43A Großauheim in Höhe Hanau-Hafen",
+        "description": "B43 Gerbermühlstraße, Frankfurt Flughafen Richtung Offenbach zwischen B3, Siemensstraße in Frankfurt und Osthafenbrücke",
         "streets": [
-          "B43A"
+          "B43"
         ]
       },
       "duration": {
-        "startTime": null,
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-02-28T23:00:00Z"
+        },
         "endTime": {
           "name": "Endzeit",
-          "value": "2022-03-18T10:30:00Z"
+          "value": "2022-10-15T21:59:59Z"
         },
         "name": "Dauer",
-        "description": "bis 18.03.2022 ca. 11:30 Uhr"
+        "description": "von 01.03.2022 00:00 Uhr bis 15.10.2022 23:59 Uhr"
       },
       "urgency": {
         "name": "Dringlichkeit",
@@ -4151,12 +4221,15 @@
       "eventCategory": [
         {
           "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
         }
       ],
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-18T09:03:47.498Z"
+        "value": "2022-03-18T10:03:27.836Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -11622,6 +11695,67 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_D__HE_FFM-IGLZ/210823235569_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482842
+      },
+      "description": [
+        {
+          "value": "Am Römerhof Richtung AS Frankfurt Rebstock Messeausfahrt\nzwischen Güterplatz und Am Römerhof\nBaustelle, Fahrbahnverengung, bis 31.03.2023 23:59 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": null
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, Straße zwischen Güterplatz und Am Römerhof",
+        "streets": null
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-02-16T23:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2023-03-31T21:59:59Z"
+        },
+        "name": "Dauer",
+        "description": "von 17.02.2022 00:00 Uhr bis 31.03.2023 23:59 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-18T10:00:19.125Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
