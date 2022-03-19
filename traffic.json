@@ -4958,7 +4958,7 @@
       },
       "description": [
         {
-          "value": "B49 Gießen Richtung Limburg\nzwischen Merenberg-West und Heckholzhausen Ost\nPersonen auf der Fahrbahn, bitte vorsichtig fahren"
+          "value": "B49 Gießen Richtung Limburg\nzwischen Merenberg-West und Heckholzhausen Ost\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -4993,11 +4993,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T11:09:57.782Z"
+        "value": "2022-03-19T11:34:23.55Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -5196,6 +5196,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/483086_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483086
+      },
+      "description": [
+        {
+          "value": "B49 Limburg Richtung Gießen\nzwischen Merenberg-West und Merenberg-Ost\nGegenstände auf der Fahrbahn, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B49"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B49 Limburg Richtung Gießen zwischen Merenberg-West und Merenberg-Ost",
+        "streets": [
+          "B49"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-19T11:45:01.023Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -8326,66 +8380,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-12-17T17:58:17.589Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/483075_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 483075
-      },
-      "description": [
-        {
-          "value": "L3099 Ober-Ramstadt - Fürth\nzwischen Am Kolmbach und Glattbach\nin beiden Richtungen Unfallstelle geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3099"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Kreis Bergstraße, L3099 zwischen Am Kolmbach und Glattbach",
-        "streets": [
-          "L3099"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Information"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T11:23:55.977Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
