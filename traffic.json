@@ -1053,7 +1053,7 @@
       },
       "description": [
         {
-          "value": "A5 Darmstadt Richtung Heidelberg\nzwischen Seeheim-Jugenheim und Zwingenberg\nGegenstände auf der Fahrbahn (eine Stoßstange), bitte vorsichtig fahren"
+          "value": "A5 Darmstadt Richtung Heidelberg\nzwischen Seeheim-Jugenheim und Zwingenberg\nGegenstände auf der Fahrbahn, bitte vorsichtig fahren"
         }
       ],
       "location": {
@@ -1088,11 +1088,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T09:12:17.719Z"
+        "value": "2022-03-19T09:14:12.615Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2808,6 +2808,63 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-19T05:00:00.755Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/483056_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483056
+      },
+      "description": [
+        {
+          "value": "A45 Gießen Richtung Hagen\nzwischen Wetzlarer Kreuz und Ehringshausen\nUnfallaufnahme auf dem linken Fahrstreifen, linker Fahrstreifen gesperrt, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A45 Gießen Richtung Hagen zwischen Wetzlarer Kreuz und Ehringshausen",
+        "streets": [
+          "A45"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Hinweis"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-19T09:20:28.762Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
