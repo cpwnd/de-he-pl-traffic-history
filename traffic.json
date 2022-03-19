@@ -2463,7 +2463,7 @@
       },
       "description": [
         {
-          "value": "A45 Gießen Richtung Hagen\nzwischen Gießen-Lützellinden und Wetzlar-Süd\nUnfall mit mehreren Fahrzeugen auf allen Fahrstreifen, Gefahr durch Personen auf der Fahrbahn, links fahren, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+          "value": "A45 Gießen Richtung Hagen\nzwischen Gießen-Lützellinden und Wetzlar-Süd\nUnfall mit mehreren Fahrzeugen auf allen Fahrstreifen, rechter Fahrstreifen gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
         }
       ],
       "location": {
@@ -2485,23 +2485,23 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
           "value": "Unfall"
         },
         {
-          "value": "Hindernis"
+          "value": "Hinweis"
         },
         {
-          "value": "Hinweis"
+          "value": "Sperrung"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T19:55:23.092Z"
+        "value": "2022-03-19T20:55:26.879Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3017,6 +3017,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/483165_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483165
+      },
+      "description": [
+        {
+          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Krifteler Dreieck und Hattersheim\nGefahr durch 1 Gegenstand auf dem rechten Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Frankfurt Richtung Wiesbaden zwischen Krifteler Dreieck und Hattersheim",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-19T21:02:02.153Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -3593,6 +3644,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/483163_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483163
+      },
+      "description": [
+        {
+          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Frankfurt am Main-Ost und Offenbach-Kaiserlei\nGefahr durch ungesicherte Unfallstelle auf dem mittleren Fahrstreifen, fahren Sie bitte besonders vorsichtig"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A661"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A661 Bad Homburg Richtung Darmstadt zwischen Frankfurt am Main-Ost und Offenbach-Kaiserlei",
+        "streets": [
+          "A661"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-19T20:57:19.537Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/430914_LMS-HE/54"
       },
       "dataProducer": {
@@ -3665,7 +3770,7 @@
       },
       "description": [
         {
-          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Ausfahrt Frankfurt am Main-Eckenheim und Preungesheimer Dreieck\nGefahr durch ungesicherte Unfallstelle auf dem rechten Fahrstreifen, Fahrstreifen gesperrt auf der rechten Seite"
+          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Ausfahrt Frankfurt am Main-Eckenheim und Preungesheimer Dreieck\nBergungsarbeiten, Fahrstreifen gesperrt auf der rechten Seite"
         }
       ],
       "location": {
@@ -3687,24 +3792,24 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Sperrung"
         },
         {
-          "value": "Sperrung"
+          "value": "Arbeitsstelle"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T19:43:47.082Z"
+        "value": "2022-03-19T20:54:23.342Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -7340,6 +7445,71 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-14T09:15:18.767Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_D__HE_FFM-IGLZ/210823335483_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483166
+      },
+      "description": [
+        {
+          "value": "K821 In der Römerstadt, Frankfurt am Main-Rödelheim Richtung Frankfurt-Berkersheim\nzwischen Alt-Praunheim in Frankfurt und Rosa-Luxemburg-Straße\nBaustelle, rechter Fahrstreifen gesperrt, bis 31.05.2022 23:59 Uhr\n(Heddernheim,In der Römerstadt 207-151, aufgrund einer Baustelle Teilsperrung der Fahrbahn, Vollsperrung der Gehwege  bis 31.05.2022.)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K821"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, In der Römerstadt zwischen Alt-Praunheim in Frankfurt und Rosa-Luxemburg-Straße",
+        "streets": [
+          "K821"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2021-10-17T22:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-05-31T21:59:59Z"
+        },
+        "name": "Dauer",
+        "description": "von 18.10.2021 00:00 Uhr bis 31.05.2022 23:59 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-19T21:07:56.758Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
