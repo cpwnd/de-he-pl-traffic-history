@@ -1173,6 +1173,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/483103_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483103
+      },
+      "description": [
+        {
+          "value": "A5 Heidelberg Richtung Darmstadt\nzwischen Darmstadt-Eberstadt und Darmstädter Kreuz\nStraße geräumt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Heidelberg Richtung Darmstadt zwischen Darmstadt-Eberstadt und Darmstädter Kreuz",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-19T14:05:37.149Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/338932_LMS-HE/54"
       },
       "dataProducer": {
@@ -1310,7 +1364,7 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Homberg (Ohm) und Alsfeld-West\ndefekter PKW auf dem rechten Fahrstreifen im Baustellenbereich, bitte vorsichtig fahren"
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Homberg (Ohm) und Alsfeld-West\ndefekter PKW auf dem rechten Fahrstreifen im Baustellenbereich, Stau, bitte vorsichtig fahren"
         }
       ],
       "location": {
@@ -1340,16 +1394,19 @@
         },
         {
           "value": "Hinweis"
+        },
+        {
+          "value": "Stau"
         }
       ],
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T13:37:55.506Z"
+        "value": "2022-03-19T14:11:26.754Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3776,7 +3833,7 @@
       },
       "description": [
         {
-          "value": "A648 Wiesbadener Straße, Frankfurt Richtung Eschborn\nAusfahrt Eschborn\nungesicherte Unfallstelle, bitte vorsichtig fahren"
+          "value": "A648 Wiesbadener Straße, Frankfurt Richtung Eschborn\nAusfahrt Eschborn\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -3811,7 +3868,7 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T13:24:08.422Z"
+        "value": "2022-03-19T14:00:23.44Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -9939,6 +9996,68 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-10T11:14:43.328Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/483104_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483104
+      },
+      "description": [
+        {
+          "value": "Kassel\nVeranstaltung, Verkehrsbehinderung, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, bis 19.03.2022 18:00 Uhr\n(Anlässlich einer Versammlung und eines Aufzuges im Stadtgebiet von Kassel kommt es insbesondere im Bereich des Innenstadtrings und der Hölländischen Straße zu zeitweisen Verkehrsbehinderungen. Davon ist auch der ÖPNV betroffen.)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": null
+          }
+        ],
+        "name": "Ort",
+        "description": "Kassel",
+        "streets": null
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-18T23:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-03-19T17:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "am 19.03.2022 bis 18:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Organisiertes Ereignis"
+        },
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Organisiertes Ereignis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-19T13:58:20.567Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
