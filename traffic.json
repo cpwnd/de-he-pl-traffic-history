@@ -4038,6 +4038,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/483117_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483117
+      },
+      "description": [
+        {
+          "value": "B8 Sodener Straße, Frankfurt Richtung Königstein\nin Höhe Ortseingang\nUnfallaufnahme, Verkehrsbehinderung, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B8"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B8 Sodener Straße, Frankfurt Richtung Königstein in Höhe Ortseingang",
+        "streets": [
+          "B8"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-19T15:20:50.523Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_D__HE_FFM-IGLZ/210817370733_LMS-HE/54"
       },
       "dataProducer": {
@@ -9792,7 +9846,7 @@
       },
       "description": [
         {
-          "value": "Kassel\nVeranstaltung, Verkehrsbehinderung, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, bis 19.03.2022 18:00 Uhr\n(Anlässlich einer Versammlung und eines Aufzuges im Stadtgebiet von Kassel kommt es insbesondere im Bereich des Innenstadtrings und der Hölländischen Straße zu zeitweisen Verkehrsbehinderungen. Davon ist auch der ÖPNV betroffen.)"
+          "value": "Kassel\nVeranstaltung beendet"
         }
       ],
       "location": {
@@ -9805,18 +9859,7 @@
         "description": "Kassel",
         "streets": null
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-18T23:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-03-19T17:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "am 19.03.2022 bis 18:00 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -9835,7 +9878,7 @@
       "masterEventCategory": "Organisiertes Ereignis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T13:58:20.567Z"
+        "value": "2022-03-19T15:25:59.302Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
