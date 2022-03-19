@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -1351,6 +1351,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/483072_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483072
+      },
+      "description": [
+        {
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Bad Homburger Kreuz und Friedberg\nGegenstände auf der Fahrbahn, bitte vorsichtig fahren\n(Warnbake auf der Fahrspur)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Frankfurt Richtung Kassel zwischen Bad Homburger Kreuz und Friedberg",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-19T10:28:16.585Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/335177_LMS-HE/54"
       },
       "dataProducer": {
@@ -1926,66 +1980,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/483027_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 483027
-      },
-      "description": [
-        {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Malsfeld und Homberg (Efze)\nBergungsarbeiten, Reinigungsarbeiten, Fahrbahn auf zwei Fahrstreifen verengt, Stau, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A7"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A7 Kassel Richtung Fulda zwischen Malsfeld und Homberg (Efze)",
-        "streets": [
-          "A7"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Stau"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T09:49:49.384Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/468285_LMS-HE/54"
       },
       "dataProducer": {
@@ -2380,7 +2374,7 @@
       },
       "description": [
         {
-          "value": "A7 Fulda Richtung Kassel\nzwischen Homberg (Efze) und Malsfeld\nGefahr durch Gegenstände auf der Fahrbahn, bitte vorsichtig fahren\n(mehrere große Säcke befinde sich auf der Fahrbahn)"
+          "value": "A7 Fulda Richtung Kassel\nzwischen Homberg (Efze) und Malsfeld\nStraße wieder frei"
         }
       ],
       "location": {
@@ -2402,7 +2396,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2415,11 +2409,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T10:02:15.73Z"
+        "value": "2022-03-19T10:31:17.34Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2496,7 +2490,7 @@
       },
       "description": [
         {
-          "value": "A44 Kassel Richtung Dortmund\nzwischen Breuna und Warburg\nGefahr durch Gegenstände auf der Fahrbahn, bitte vorsichtig fahren"
+          "value": "A44 Kassel Richtung Dortmund\nzwischen Breuna und Warburg\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -2518,7 +2512,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2531,11 +2525,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T10:05:43.41Z"
+        "value": "2022-03-19T10:25:36.408Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2804,7 +2798,7 @@
       },
       "description": [
         {
-          "value": "A45 Gießen Richtung Hagen\nzwischen Gießen-Lützellinden und Wetzlar-Süd\nPersonen auf der Fahrbahn, bitte vorsichtig fahren"
+          "value": "A45 Gießen Richtung Hagen\nzwischen Gießen-Lützellinden und Wetzlar-Süd\nStraße wieder frei"
         }
       ],
       "location": {
@@ -2839,11 +2833,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T09:57:33.678Z"
+        "value": "2022-03-19T10:24:43.158Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3429,7 +3423,7 @@
       },
       "description": [
         {
-          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Wiesbaden-Nordenstadt und Wiesbaden-Erbenheim\nGefahr durch mehrere Füchse auf der Fahrbahn, bitte vorsichtig fahren"
+          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Wiesbaden-Nordenstadt und Wiesbaden-Erbenheim\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -3451,7 +3445,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -3464,11 +3458,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T09:59:41.749Z"
+        "value": "2022-03-19T10:29:52.135Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3649,6 +3643,61 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-14T09:08:53.888Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/483070_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483070
+      },
+      "description": [
+        {
+          "value": "A66, A45 Frankfurt Richtung Fulda\nzwischen Hanauer Kreuz und Gelnhausen-Ost\nStraße wieder frei"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66, A45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66, A45 Frankfurt Richtung Fulda zwischen Hanauer Kreuz und Gelnhausen-Ost",
+        "streets": [
+          "A66",
+          "A45"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-19T10:30:23.972Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
