@@ -1043,63 +1043,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/483120_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 483120
-      },
-      "description": [
-        {
-          "value": "A5 Frankfurt Richtung Darmstadt\nzwischen Zeppelinheim und Langen/Mörfelden\nalle Unfallstellen geräumt, keine Verkehrsbehinderung mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Frankfurt Richtung Darmstadt zwischen Zeppelinheim und Langen/Mörfelden",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hinweis"
-        },
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hinweis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T16:13:08.172Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/482982_LMS-HE/54"
       },
       "dataProducer": {
@@ -1291,6 +1234,114 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/483135_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483135
+      },
+      "description": [
+        {
+          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Weiterstadt und Langen/Mörfelden\nAchtung, Personen werfen Gegenstände auf die Fahrbahn, fahren Sie bitte besonders vorsichtig\n(letzte Brücke vor der AS Langen)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Darmstadt Richtung Frankfurt zwischen Weiterstadt und Langen/Mörfelden",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Sehr dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-19T16:39:13.434Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/483133_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483133
+      },
+      "description": [
+        {
+          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Langen/Mörfelden und Zeppelinheim\nUnfall im Baustellenbereich, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Darmstadt Richtung Frankfurt zwischen Langen/Mörfelden und Zeppelinheim",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-19T16:32:09.08Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -3147,7 +3198,7 @@
       },
       "description": [
         {
-          "value": "A66 Fulda Richtung Frankfurt\nzwischen Steinau a. d. Straße und Bad Soden-Salmünster\nUnfallaufnahme, Bergungsarbeiten, Verkehrsbehinderung, bitte vorsichtig fahren"
+          "value": "A66 Fulda Richtung Frankfurt\nzwischen Steinau a. d. Straße und Bad Soden-Salmünster\nUnfallaufnahme auf dem rechten Fahrstreifen, Bergungsarbeiten, Verkehrsbehinderung, bitte vorsichtig fahren, Fahrstreifen gesperrt auf der rechten Seite"
         }
       ],
       "location": {
@@ -3180,12 +3231,15 @@
         },
         {
           "value": "Hinweis"
+        },
+        {
+          "value": "Sperrung"
         }
       ],
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T16:17:24.943Z"
+        "value": "2022-03-19T16:44:00.751Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3388,7 +3442,7 @@
       },
       "description": [
         {
-          "value": "A67 Darmstadt Richtung Mannheim\nzwischen Dreieck Darmstadt-Griesheim und Darmstädter Kreuz\ndefekter LKW auf dem Standstreifen, bitte vorsichtig fahren"
+          "value": "A67 Darmstadt Richtung Mannheim\nzwischen Dreieck Darmstadt-Griesheim und Darmstädter Kreuz\nStraße wieder frei"
         }
       ],
       "location": {
@@ -3423,7 +3477,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T12:24:11.797Z"
+        "value": "2022-03-19T16:34:36.305Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4256,6 +4310,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/483136_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483136
+      },
+      "description": [
+        {
+          "value": "B26 Aschaffenburg - Darmstadt\nzwischen B38, Roßdorf und Hanauer Straße in Darmstadt\nin beiden Richtungen Gefahr durch 1 Person auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B26"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B26 Aschaffenburg Richtung Darmstadt zwischen B38, Roßdorf und Hanauer Straße in Darmstadt",
+        "streets": [
+          "B26"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-19T16:46:50.426Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
