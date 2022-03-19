@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -3031,7 +3031,7 @@
       },
       "description": [
         {
-          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Krifteler Dreieck und Hattersheim\nGefahr durch 1 Gegenstand auf dem rechten Fahrstreifen"
+          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Krifteler Dreieck und Hattersheim\nHindernisse beseitigt"
         }
       ],
       "location": {
@@ -3053,7 +3053,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -3063,11 +3063,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T21:02:02.153Z"
+        "value": "2022-03-19T21:24:54.523Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3770,7 +3770,7 @@
       },
       "description": [
         {
-          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Ausfahrt Frankfurt am Main-Eckenheim und Preungesheimer Dreieck\nBergungsarbeiten, Fahrstreifen gesperrt auf der rechten Seite"
+          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Ausfahrt Frankfurt am Main-Eckenheim und Preungesheimer Dreieck\nBergungsarbeiten, Richtungsfahrbahn gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren\n(ab AS Eckenheim)"
         }
       ],
       "location": {
@@ -3796,16 +3796,19 @@
       },
       "eventCategory": [
         {
+          "value": "Arbeitsstelle"
+        },
+        {
           "value": "Sperrung"
         },
         {
-          "value": "Arbeitsstelle"
+          "value": "Hinweis"
         }
       ],
-      "masterEventCategory": "Sperrung",
+      "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T20:54:23.342Z"
+        "value": "2022-03-19T21:21:16.591Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
