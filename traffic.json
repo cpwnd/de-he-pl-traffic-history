@@ -1248,7 +1248,7 @@
       },
       "description": [
         {
-          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Weiterstadt und Langen/Mörfelden\nAchtung, Personen werfen Gegenstände auf die Fahrbahn, fahren Sie bitte besonders vorsichtig\n(letzte Brücke vor der AS Langen)"
+          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Weiterstadt und Langen/Mörfelden\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -1270,7 +1270,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Sehr dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1283,7 +1283,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T16:39:13.434Z"
+        "value": "2022-03-19T17:13:34.223Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1661,71 +1661,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-11-01T04:00:01.895Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/483020_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 483020
-      },
-      "description": [
-        {
-          "value": "A7 Erfurt Richtung Bad Hersfeld\nAusfahrt Kirchheim\nBauarbeiten, Ausfahrt gesperrt, bis 19.03.2022 18:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A7"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A7 Erfurt Richtung Bad Hersfeld Ausfahrt Kirchheim",
-        "streets": [
-          "A7"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-19T06:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-03-19T17:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "am 19.03.2022 von 07:00 Uhr bis 18:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Arbeitsstelle"
-        }
-      ],
-      "masterEventCategory": "Sperrung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T06:00:01.585Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3147,7 +3082,7 @@
       },
       "description": [
         {
-          "value": "A66 Rhein-Main-Schnellweg, Frankfurt Richtung Wiesbaden\nzwischen Hofheim am Taunus und Diedenbergen\nGefahr durch ungesicherte Unfallstelle"
+          "value": "A66 Rhein-Main-Schnellweg, Frankfurt Richtung Wiesbaden\nzwischen Hofheim am Taunus und Diedenbergen\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -3169,7 +3104,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -3179,11 +3114,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T16:11:02.4Z"
+        "value": "2022-03-19T17:09:06.966Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3424,60 +3359,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-14T09:08:53.888Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/483088_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 483088
-      },
-      "description": [
-        {
-          "value": "A67 Darmstadt Richtung Mannheim\nzwischen Dreieck Darmstadt-Griesheim und Darmstädter Kreuz\nStraße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A67"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A67 Darmstadt Richtung Mannheim zwischen Dreieck Darmstadt-Griesheim und Darmstädter Kreuz",
-        "streets": [
-          "A67"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T16:34:36.305Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4267,7 +4148,7 @@
       },
       "description": [
         {
-          "value": "B8 Sodener Straße, Frankfurt Richtung Königstein\nzwischen Abzweig nach Neuenhain und Königstein im Taunus\nUnfallaufnahme, Bergungsarbeiten, Verkehrsbehinderung, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+          "value": "B8 Sodener Straße, Frankfurt Richtung Königstein\nzwischen Abzweig nach Neuenhain und Königstein im Taunus\nalle Unfallstellen geräumt, keine Verkehrsbehinderung mehr"
         }
       ],
       "location": {
@@ -4305,7 +4186,7 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T15:32:36.083Z"
+        "value": "2022-03-19T17:11:26.702Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4324,7 +4205,7 @@
       },
       "description": [
         {
-          "value": "B26 Aschaffenburg - Darmstadt\nzwischen B38, Roßdorf und Hanauer Straße in Darmstadt\nin beiden Richtungen Gefahr durch 1 Person auf der Fahrbahn"
+          "value": "B26 Aschaffenburg - Darmstadt\nzwischen B38, Roßdorf und Hanauer Straße in Darmstadt\nin beiden Richtungen Gefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -4346,7 +4227,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -4356,11 +4237,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T16:46:50.426Z"
+        "value": "2022-03-19T17:13:13.31Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -10101,6 +9982,49 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-10T11:14:43.328Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/483139_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483139
+      },
+      "description": [
+        {
+          "value": "bis 20.03.2022 18:00 Uhr\nSeit  Samstag den 19.03.2022 wird der 11 jährige  Duarte Filipe SILVA aus Wiesbaden vermisst. Der Vermisste ist ca. 168 cm groß, kräftige Gestalt, kurze braune Haare. Er trägt einen schwarzen Pullover, schwarze Trainingshose und schwarze Schuhe. Sachdienliche Hinweise zum Aufenthaltsort des Vermissten an das 1. Polizeireiver-Wiesbaden unter der Tel.: 0611-3452140 oder jede andere Polizeidienststelle (Quelle: Polizeipräsidium Westhessen)."
+        }
+      ],
+      "location": null,
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-19T17:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-03-20T17:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 19.03.2022 18:00 Uhr bis 20.03.2022 18:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": null,
+      "masterEventCategory": null,
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-19T17:08:38.929Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
