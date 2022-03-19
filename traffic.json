@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -526,6 +526,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/483065_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483065
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt - Köln\nzwischen Wiesbaden/Niedernhausen und Idstein\nin beiden Richtungen Kinder auf der Fahrbahn, Gefahr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Köln zwischen Wiesbaden/Niedernhausen und Idstein",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Sehr dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-19T10:06:42.151Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/481932_LMS-HE/54"
       },
       "dataProducer": {
@@ -1039,60 +1090,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/483055_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 483055
-      },
-      "description": [
-        {
-          "value": "A5 Darmstadt Richtung Heidelberg\nzwischen Seeheim-Jugenheim und Zwingenberg\nStraße geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Darmstadt Richtung Heidelberg zwischen Seeheim-Jugenheim und Zwingenberg",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T09:31:34.918Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -1939,7 +1936,7 @@
       },
       "description": [
         {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Malsfeld und Homberg (Efze)\nUnfallaufnahme, Bergungsarbeiten, Fahrbahn auf zwei Fahrstreifen verengt, Stau, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+          "value": "A7 Kassel Richtung Fulda\nzwischen Malsfeld und Homberg (Efze)\nBergungsarbeiten, Reinigungsarbeiten, Fahrbahn auf zwei Fahrstreifen verengt, Stau, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
         }
       ],
       "location": {
@@ -1965,10 +1962,10 @@
       },
       "eventCategory": [
         {
-          "value": "Störung"
+          "value": "Arbeitsstelle"
         },
         {
-          "value": "Arbeitsstelle"
+          "value": "Störung"
         },
         {
           "value": "Stau"
@@ -1977,10 +1974,10 @@
           "value": "Hinweis"
         }
       ],
-      "masterEventCategory": "Störung",
+      "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T09:39:36.176Z"
+        "value": "2022-03-19T09:49:49.384Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2373,6 +2370,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/483064_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483064
+      },
+      "description": [
+        {
+          "value": "A7 Fulda Richtung Kassel\nzwischen Homberg (Efze) und Malsfeld\nGefahr durch Gegenstände auf der Fahrbahn, bitte vorsichtig fahren\n(mehrere große Säcke befinde sich auf der Fahrbahn)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Fulda Richtung Kassel zwischen Homberg (Efze) und Malsfeld",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-19T10:02:15.73Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/479631_LMS-HE/54"
       },
       "dataProducer": {
@@ -2427,6 +2478,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-03T16:02:45.746Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/483066_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483066
+      },
+      "description": [
+        {
+          "value": "A44 Kassel Richtung Dortmund\nzwischen Breuna und Warburg\nGefahr durch Gegenstände auf der Fahrbahn, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A44"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A44 Kassel Richtung Dortmund zwischen Breuna und Warburg",
+        "streets": [
+          "A44"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-19T10:05:43.41Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2681,6 +2786,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-31T04:00:01.833Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/483062_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483062
+      },
+      "description": [
+        {
+          "value": "A45 Gießen Richtung Hagen\nzwischen Gießen-Lützellinden und Wetzlar-Süd\nPersonen auf der Fahrbahn, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A45 Gießen Richtung Hagen zwischen Gießen-Lützellinden und Wetzlar-Süd",
+        "streets": [
+          "A45"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-19T09:57:33.678Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3256,6 +3415,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/483063_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483063
+      },
+      "description": [
+        {
+          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Wiesbaden-Nordenstadt und Wiesbaden-Erbenheim\nGefahr durch mehrere Füchse auf der Fahrbahn, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Frankfurt Richtung Wiesbaden zwischen Wiesbaden-Nordenstadt und Wiesbaden-Erbenheim",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-19T09:59:41.749Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -3886,60 +4099,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-13T10:36:16.465Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/483052_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 483052
-      },
-      "description": [
-        {
-          "value": "A661 Bad Homburg Richtung Darmstadt\nEinfahrt Bad Homburg\nUnfallaufnahme, bitte vorsichtig fahren"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A661"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A661 Bad Homburg Richtung Darmstadt Einfahrt Bad Homburg",
-        "streets": [
-          "A661"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T09:11:00.408Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
