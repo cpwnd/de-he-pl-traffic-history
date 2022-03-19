@@ -406,7 +406,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Limburg-Süd und Bad Camberg\nNachtbaustelle auf einer Länge von 5 km, linker Fahrstreifen gesperrt, mittlerer Fahrstreifen gesperrt"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Limburg-Süd und Bad Camberg\nBaustelle beseitigt"
         }
       ],
       "location": {
@@ -441,7 +441,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T04:19:23.097Z"
+        "value": "2022-03-19T06:35:18.231Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1097,60 +1097,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/483021_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 483021
-      },
-      "description": [
-        {
-          "value": "A5 Europabrücke Frankfurt, Frankfurt Richtung Darmstadt\nzwischen Frankfurt am Main-Westhafen und Frankfurt-Niederrad\nalle Fahrbahnen geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Europabrücke Frankfurt, Frankfurt Richtung Darmstadt zwischen Frankfurt am Main-Westhafen und Frankfurt-Niederrad",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T06:25:39.308Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/482982_LMS-HE/54"
       },
       "dataProducer": {
@@ -1418,7 +1364,7 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Nordwestkreuz Frankfurt und Bad Homburger Kreuz\ndefekter LKW, bitte vorsichtig fahren"
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Nordwestkreuz Frankfurt und Bad Homburger Kreuz\ndefekter LKW, Polizei ist vor Ort, Bergungsarbeiten, bitte vorsichtig fahren"
         }
       ],
       "location": {
@@ -1448,16 +1394,22 @@
         },
         {
           "value": "Hinweis"
+        },
+        {
+          "value": "Information"
+        },
+        {
+          "value": "Arbeitsstelle"
         }
       ],
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T06:12:46.647Z"
+        "value": "2022-03-19T06:35:59.454Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1788,6 +1740,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/483026_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483026
+      },
+      "description": [
+        {
+          "value": "A7 Kassel Richtung Fulda\nzwischen Kirchheimer Dreieck und Kirchheim\nBaustelle, Instandsetzungsarbeiten\n(Aufgrund einer Tagesbaustelle ist die Abfahrt der AS Kirchheim gesperrt)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Kassel Richtung Fulda zwischen Kirchheimer Dreieck und Kirchheim",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-19T06:40:10.35Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/468283_LMS-HE/54"
       },
       "dataProducer": {
@@ -1972,6 +1975,63 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-28T20:00:01.686Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/483027_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483027
+      },
+      "description": [
+        {
+          "value": "A7 Kassel Richtung Fulda\nzwischen Malsfeld und Homberg (Efze)\nUnfallaufnahme, Rettungshubschrauber im Einsatz, Richtungsfahrbahn gesperrt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Kassel Richtung Fulda zwischen Malsfeld und Homberg (Efze)",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Information"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-19T06:44:40.692Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
