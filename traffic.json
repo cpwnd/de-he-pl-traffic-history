@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -1238,60 +1238,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/483135_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 483135
-      },
-      "description": [
-        {
-          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Weiterstadt und Langen/Mörfelden\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Darmstadt Richtung Frankfurt zwischen Weiterstadt und Langen/Mörfelden",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T17:13:34.223Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/483133_LMS-HE/54"
       },
       "dataProducer": {
@@ -1302,7 +1248,7 @@
       },
       "description": [
         {
-          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Langen/Mörfelden und Zeppelinheim\nUnfall im Baustellenbereich, bitte vorsichtig fahren"
+          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Langen/Mörfelden und Zeppelinheim\nalle Unfallstellen geräumt, keine Verkehrsbehinderung mehr"
         }
       ],
       "location": {
@@ -1332,16 +1278,19 @@
         },
         {
           "value": "Hinweis"
+        },
+        {
+          "value": "Sperrung"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T16:32:09.08Z"
+        "value": "2022-03-19T17:21:29.949Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3072,57 +3021,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/483127_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 483127
-      },
-      "description": [
-        {
-          "value": "A66 Rhein-Main-Schnellweg, Frankfurt Richtung Wiesbaden\nzwischen Hofheim am Taunus und Diedenbergen\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A66"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A66 Rhein-Main-Schnellweg, Frankfurt Richtung Wiesbaden zwischen Hofheim am Taunus und Diedenbergen",
-        "streets": [
-          "A66"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T17:09:06.966Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/483124_LMS-HE/54"
       },
       "dataProducer": {
@@ -4130,114 +4028,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-18T10:04:37.93Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/483117_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 483117
-      },
-      "description": [
-        {
-          "value": "B8 Sodener Straße, Frankfurt Richtung Königstein\nzwischen Abzweig nach Neuenhain und Königstein im Taunus\nalle Unfallstellen geräumt, keine Verkehrsbehinderung mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B8"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B8 Sodener Straße, Frankfurt Richtung Königstein zwischen Abzweig nach Neuenhain und Königstein im Taunus",
-        "streets": [
-          "B8"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Hinweis"
-        },
-        {
-          "value": "Arbeitsstelle"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T17:11:26.702Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/483136_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 483136
-      },
-      "description": [
-        {
-          "value": "B26 Aschaffenburg - Darmstadt\nzwischen B38, Roßdorf und Hanauer Straße in Darmstadt\nin beiden Richtungen Gefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B26"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B26 Aschaffenburg Richtung Darmstadt zwischen B38, Roßdorf und Hanauer Straße in Darmstadt",
-        "streets": [
-          "B26"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T17:13:13.31Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -10024,7 +9814,7 @@
       "masterEventCategory": null,
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T17:08:38.929Z"
+        "value": "2022-03-19T17:14:16.094Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
