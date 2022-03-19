@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -2463,7 +2463,7 @@
       },
       "description": [
         {
-          "value": "A45 Gießen Richtung Hagen\nzwischen Gießen-Lützellinden und Wetzlar-Süd\nUnfall mit mehreren Fahrzeugen auf allen Fahrstreifen, rechter Fahrstreifen gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+          "value": "A45 Gießen Richtung Hagen\nzwischen Gießen-Lützellinden und Wetzlar-Süd\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -2501,7 +2501,7 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T20:55:26.879Z"
+        "value": "2022-03-19T21:32:24.34Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3013,57 +3013,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-12T14:31:18.473Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/483165_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 483165
-      },
-      "description": [
-        {
-          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Krifteler Dreieck und Hattersheim\nHindernisse beseitigt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A66"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A66 Frankfurt Richtung Wiesbaden zwischen Krifteler Dreieck und Hattersheim",
-        "streets": [
-          "A66"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T21:24:54.523Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3654,7 +3603,7 @@
       },
       "description": [
         {
-          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Frankfurt am Main-Ost und Offenbach-Kaiserlei\nGefahr durch ungesicherte Unfallstelle auf dem mittleren Fahrstreifen, fahren Sie bitte besonders vorsichtig"
+          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Frankfurt am Main-Ost und Offenbach-Kaiserlei\nungesicherte Unfallstelle auf dem mittleren Fahrstreifen, fahren Sie bitte besonders vorsichtig"
         }
       ],
       "location": {
@@ -3676,20 +3625,20 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Hinweis"
         },
         {
-          "value": "Hinweis"
+          "value": "Unfall"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Hinweis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T20:57:19.537Z"
+        "value": "2022-03-19T21:39:30.076Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3770,7 +3719,7 @@
       },
       "description": [
         {
-          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Ausfahrt Frankfurt am Main-Eckenheim und Preungesheimer Dreieck\nBergungsarbeiten, Richtungsfahrbahn gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren\n(ab AS Eckenheim)"
+          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Ausfahrt Frankfurt am Main-Eckenheim und Preungesheimer Dreieck\nBergungsarbeiten, Fahrbahn auf einen Fahrstreifen verengt\n(ab AS Eckenheim)"
         }
       ],
       "location": {
@@ -3799,16 +3748,13 @@
           "value": "Arbeitsstelle"
         },
         {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Hinweis"
+          "value": "Störung"
         }
       ],
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T21:21:16.591Z"
+        "value": "2022-03-19T21:42:12.576Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3937,6 +3883,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/483169_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483169
+      },
+      "description": [
+        {
+          "value": "B3 Offenbach - Darmstadt\nzwischen Wixhausen und Arheilgen\nin beiden Richtungen Gefahr durch 1 Person auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B3 Offenbach Richtung Darmstadt zwischen Wixhausen und Arheilgen",
+        "streets": [
+          "B3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-19T21:38:02.024Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
