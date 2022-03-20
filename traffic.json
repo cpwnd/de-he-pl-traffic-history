@@ -1300,6 +1300,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/483366_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483366
+      },
+      "description": [
+        {
+          "value": "A5 Darmstadt - Frankfurt\nzwischen Zeppelinheim und Frankfurter Kreuz\nin beiden Richtungen Straße wieder frei"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Darmstadt Richtung Frankfurt zwischen Zeppelinheim und Frankfurter Kreuz",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-20T23:04:29.439Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/335177_LMS-HE/54"
       },
       "dataProducer": {
@@ -6785,6 +6836,71 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/483367_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483367
+      },
+      "description": [
+        {
+          "value": "Frankfurt, Rödelheimer Straße bis Ginnheimer Landstraße\nzwischen Schloßstraße und Wilhelm-Epstein-Straße\nBaustelle, gesperrt, bis 25.03.2022 23:59 Uhr\nBockenheim, Appelsgasse Ecke Rödelheimer Straße 7 - 9, aufgrund von Baustelleneinrichtungs- und Lagerfläche Vollsperrung der Fahrbahn in Richtung Nord-West, Teilsperrung der Fahrbahn, Vollsperrung der Gehwege (rechter Gehweg), Vollsperrung der Gehwege (rechter Gehweg) in Richtung Süd-Ost vom 21.03.2022 bis 25.03.2022."
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K809"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, Rödelheimer Straße bis Ginnheimer Landstraße zwischen Schloßstraße und Wilhelm-Epstein-Straße",
+        "streets": [
+          "K809"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-20T23:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-03-25T22:59:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 21.03.2022 00:00 Uhr bis 25.03.2022 23:59 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-20T23:00:01.276Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/422535_LMS-HE/54"
       },
       "dataProducer": {
@@ -9483,6 +9599,71 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-15T04:00:01.451Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/483368_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483368
+      },
+      "description": [
+        {
+          "value": "Frankfurt, Heerstraße bis Guerickestraße\nzwischen Ziegelei-Allee und Rödelheim-West\nWanderbaustelle, Fahrbahnverengung, bis 25.03.2022 23:59 Uhr\nRödelheim, Guerickestraße 7, aufgrund von Baumpflegearbeiten Teilsperrung der Fahrbahn vom 21.03.2022 bis 25.03.2022."
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3440"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, Heerstraße bis Guerickestraße zwischen Ziegelei-Allee und Rödelheim-West",
+        "streets": [
+          "L3440"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-20T23:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-03-25T22:59:59Z"
+        },
+        "name": "Dauer",
+        "description": "von 21.03.2022 00:00 Uhr bis 25.03.2022 23:59 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-20T23:00:01.276Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
