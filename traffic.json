@@ -1300,6 +1300,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/483277_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483277
+      },
+      "description": [
+        {
+          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Frankfurt am Main-Flughafen-Nord und Frankfurt-Niederrad\nGefahr besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Darmstadt Richtung Frankfurt zwischen Frankfurt am Main-Flughafen-Nord und Frankfurt-Niederrad",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-20T12:50:59.752Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/335177_LMS-HE/54"
       },
       "dataProducer": {
@@ -9235,7 +9286,7 @@
       },
       "description": [
         {
-          "value": "L3374 zwischen Bad Schwalbach und B260\nBergungsarbeiten, beide Fahrtrichtungen gesperrt, vorausgegangener Unfall"
+          "value": "L3374 zwischen Bad Schwalbach und B260\nBergungsarbeiten, vorausgegangener Unfall, Polizei regelt den Verkehr"
         }
       ],
       "location": {
@@ -9264,20 +9315,20 @@
           "value": "Arbeitsstelle"
         },
         {
-          "value": "Sperrung"
+          "value": "Unfall"
         },
         {
-          "value": "Unfall"
+          "value": "Information"
         }
       ],
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-20T12:27:13.628Z"
+        "value": "2022-03-20T12:38:20.892Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
