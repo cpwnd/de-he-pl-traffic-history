@@ -2956,6 +2956,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/483313_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483313
+      },
+      "description": [
+        {
+          "value": "A60 Rüsselsheim - Mainz\nzwischen Mainspitz-Dreieck und Ginsheim-Gustavsburg\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A60"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A60 Rüsselsheim Richtung Mainz zwischen Mainspitz-Dreieck und Ginsheim-Gustavsburg",
+        "streets": [
+          "A60"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-20T15:41:29.683Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/456754_LMS-HE/54"
       },
       "dataProducer": {
@@ -4297,7 +4348,7 @@
       },
       "description": [
         {
-          "value": "B42 Koblenz - Wiesbaden\nzwischen Assmannshausen und Rüdesheim\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
+          "value": "B42 Koblenz - Wiesbaden\nzwischen Assmannshausen und Rüdesheim\nin beiden Richtungen Gefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -4319,7 +4370,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -4329,11 +4380,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-20T15:28:35.737Z"
+        "value": "2022-03-20T15:44:50.365Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -7922,6 +7973,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-14T09:13:43.54Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/483314_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483314
+      },
+      "description": [
+        {
+          "value": "L3005 Eschborn\nzwischen Ortseingang und Elly-Beinhorn-Straße\nBergungsarbeiten, Richtungsfahrbahn bis auf weiteres gesperrt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3005"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "L3005 Eschborn zwischen Ortseingang und Elly-Beinhorn-Straße",
+        "streets": [
+          "L3005"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-20T15:43:40.76Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
