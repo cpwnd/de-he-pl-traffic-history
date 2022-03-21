@@ -396,6 +396,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/483627_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483627
+      },
+      "description": [
+        {
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Limburg-Süd und Bad Camberg\nGefahr durch einen Reifen auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Frankfurt zwischen Limburg-Süd und Bad Camberg",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-21T18:53:01.628Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/478197_LMS-HE/54"
       },
       "dataProducer": {
@@ -2960,7 +3011,7 @@
       },
       "description": [
         {
-          "value": "A60 Rüsselsheim Richtung Mainz\nMainspitz-Dreieck Überleitung zur A671 Richtung Wiesbaden\nGefahr durch defektes Fahrzeug auf dem rechten Fahrstreifen, Gefahr durch Personen auf der Fahrbahn"
+          "value": "A60 Rüsselsheim Richtung Mainz\nMainspitz-Dreieck Überleitung zur A671 Richtung Wiesbaden\nBergungsarbeiten"
         }
       ],
       "location": {
@@ -2982,21 +3033,21 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Hindernis"
+          "value": "Arbeitsstelle"
         }
       ],
-      "masterEventCategory": "Hindernis",
+      "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-21T18:30:55.621Z"
+        "value": "2022-03-21T18:53:36.952Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -5581,7 +5632,7 @@
       },
       "description": [
         {
-          "value": "B49 Limburg - Gießen\nzwischen Merenberg-West und Merenberg-Ost\nin beiden Richtungen freilaufende Tiere (Pferde), fahren Sie bitte besonders vorsichtig"
+          "value": "B49 Limburg - Gießen\nzwischen Merenberg-West und Merenberg-Ost\nin beiden Richtungen Gefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -5616,11 +5667,11 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-21T18:34:55.68Z"
+        "value": "2022-03-21T18:47:53.032Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
