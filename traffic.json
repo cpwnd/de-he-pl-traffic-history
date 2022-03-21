@@ -1366,6 +1366,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/483477_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483477
+      },
+      "description": [
+        {
+          "value": "A7 Fulda Richtung Würzburg\nzwischen Dreieck Fulda und Bad Brückenau-Volkers\nGefahr durch defekten LKW auf dem rechten Fahrstreifen und dem Standstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Fulda Richtung Würzburg zwischen Dreieck Fulda und Bad Brückenau-Volkers",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-21T09:12:05.524Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/450370_LMS-HE/54"
       },
       "dataProducer": {
@@ -2209,7 +2260,7 @@
       },
       "description": [
         {
-          "value": "A44 Dortmund Richtung Kassel\nzwischen Zierenberg und Kassel-Bad Wilhelmshöhe\nGefahr durch ungesicherte Unfallstelle, Gefahr durch Fahrzeugteile auf der Fahrbahn"
+          "value": "A44 Dortmund Richtung Kassel\nzwischen Zierenberg und Kassel-Bad Wilhelmshöhe\ndefektes Fahrzeug auf dem Standstreifen, Staulänge abnehmend"
         }
       ],
       "location": {
@@ -2231,24 +2282,24 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Hindernis"
         },
         {
-          "value": "Hindernis"
+          "value": "Stau"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-21T08:42:25.76Z"
+        "value": "2022-03-21T09:13:20.921Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -9146,6 +9197,63 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/483473_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483473
+      },
+      "description": [
+        {
+          "value": "L3073 Ulrichstein - Frankenberg (Eder)\nzwischen Nieder-Ofleiden und Schweinsberg\nin beiden Richtungen Brand, Löscharbeiten, Richtungsfahrbahn gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren\n(Scheunenbrand)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3073"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Vogelsbergkreis und Kreis Marburg-Biedenkopf, L3073 zwischen Nieder-Ofleiden und Schweinsberg",
+        "streets": [
+          "L3073"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-21T08:55:20.478Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
