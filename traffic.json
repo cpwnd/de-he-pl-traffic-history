@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -128,6 +128,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-07T07:58:00.322Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/483543_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483543
+      },
+      "description": [
+        {
+          "value": "A3 Köln - Frankfurt\nzwischen Kelsterbach und Frankfurt am Main-Flughafen\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Frankfurt zwischen Kelsterbach und Frankfurt am Main-Flughafen",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-21T13:22:17.593Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -438,11 +489,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-21T11:58:51.874Z"
+        "value": "2022-03-21T13:10:55.768Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -573,6 +624,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/483544_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483544
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Idstein und Bad Camberg\nGefahr durch verlorene Ladung (ein Plastikteil)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Köln zwischen Idstein und Bad Camberg",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-21T13:24:49.345Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -3263,7 +3365,7 @@
       },
       "description": [
         {
-          "value": "A66 Frankfurt Richtung Fulda\nzwischen Erlensee und Hanauer Kreuz\nUnfall, Richtungsfahrbahn gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, empfohlene Umleitung: Richtung Fulda über Hanau, Rückingen, A45 und Langenselbold"
+          "value": "A66 Frankfurt Richtung Fulda\nzwischen Erlensee und Hanauer Kreuz\nUnfall, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, Fahrbahn von 3 auf einen Fahrstreifen verengt, empfohlene Umleitung: Richtung Fulda über Hanau, Rückingen, A45 und Langenselbold"
         }
       ],
       "location": {
@@ -3292,20 +3394,20 @@
           "value": "Unfall"
         },
         {
-          "value": "Sperrung"
+          "value": "Hinweis"
         },
         {
-          "value": "Hinweis"
+          "value": "Störung"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-21T12:24:23.876Z"
+        "value": "2022-03-21T13:27:44Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4268,57 +4370,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-18T10:04:37.93Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/483538_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 483538
-      },
-      "description": [
-        {
-          "value": "B26 Richtung Darmstadt\nzwischen Dieburger Dreieck und Groß-Zimmern\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B26"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B26 Richtung Darmstadt zwischen Dieburger Dreieck und Groß-Zimmern",
-        "streets": [
-          "B26"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-21T13:04:07.887Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6686,11 +6737,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-21T12:02:38.245Z"
+        "value": "2022-03-21T13:12:21.64Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -10735,11 +10786,11 @@
       "masterEventCategory": "Hinweis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-21T10:53:31.709Z"
+        "value": "2022-03-21T13:11:42.06Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
