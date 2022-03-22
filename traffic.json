@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -132,60 +132,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/483777_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 483777
-      },
-      "description": [
-        {
-          "value": "A3 Frankfurt Richtung Würzburg\nOffenbacher Kreuz Überleitung zur A661 Richtung Darmstadt\nalle Fahrbahnen geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Frankfurt Richtung Würzburg Offenbacher Kreuz Überleitung zur A661 Richtung Darmstadt",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-22T10:40:29.077Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -1420,6 +1366,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/483784_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483784
+      },
+      "description": [
+        {
+          "value": "A6 Mannheim Richtung Heilbronn\nzwischen Viernheimer Dreieck und Viernheimer Kreuz\nGefahr durch Reifenteile auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A6"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A6 Mannheim Richtung Heilbronn zwischen Viernheimer Dreieck und Viernheimer Kreuz",
+        "streets": [
+          "A6"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-22T11:04:41.297Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/450370_LMS-HE/54"
       },
       "dataProducer": {
@@ -1817,7 +1814,7 @@
       },
       "description": [
         {
-          "value": "A7 Kassel Richtung Fulda\nDreieck Kassel-Süd Überleitung zur A44 Richtung Dortmund\numgestürzter LKW, Verkehrsbehinderung"
+          "value": "A7 Kassel Richtung Fulda\nDreieck Kassel-Süd Überleitung zur A44 Richtung Dortmund\nVerkehrsbehinderung, Reifenschaden"
         }
       ],
       "location": {
@@ -1843,20 +1840,20 @@
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Störung"
         },
         {
-          "value": "Störung"
+          "value": "Information"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-22T10:32:39.57Z"
+        "value": "2022-03-22T11:00:46.877Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3450,7 +3447,7 @@
       },
       "description": [
         {
-          "value": "A67 Mönchhof-Dreieck Richtung Mannheim\nzwischen Büttelborn und Dreieck Darmstadt-Griesheim\nGefahr durch Gegenstände auf der Fahrbahn"
+          "value": "A67 Mönchhof-Dreieck Richtung Mannheim\nzwischen Büttelborn und Dreieck Darmstadt-Griesheim\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -3472,7 +3469,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -3482,7 +3479,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-22T10:21:54.306Z"
+        "value": "2022-03-22T11:13:12.307Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3879,6 +3876,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/483783_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483783
+      },
+      "description": [
+        {
+          "value": "A643 Wiesbaden - Mainz\nzwischen Schiersteiner Kreuz und Wiesbaden-Äppelallee\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A643"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A643 Wiesbaden Richtung Mainz zwischen Schiersteiner Kreuz und Wiesbaden-Äppelallee",
+        "streets": [
+          "A643"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-22T11:03:55.992Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/430914_LMS-HE/54"
       },
       "dataProducer": {
@@ -3999,57 +4047,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/483772_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 483772
-      },
-      "description": [
-        {
-          "value": "A661 Darmstadt - Bad Homburg\nzwischen Frankfurt am Main-Ost und Frankfurt-Friedberger Landstraße\nin beiden Richtungen Gefahr durch 1 Hund auf der Fahrbahn"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A661"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A661 Darmstadt Richtung Bad Homburg zwischen Frankfurt am Main-Ost und Frankfurt-Friedberger Landstraße",
-        "streets": [
-          "A661"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-22T10:24:52.209Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
@@ -12006,59 +12003,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-11-05T06:39:19.803Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/483660_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 483660
-      },
-      "description": [
-        {
-          "value": "Wiesbaden, Sandbachstraße bis Poststraße\nzwischen Venatorstraße und Schwarzgasse\nbis auf weiteres gesperrt, Aufräumarbeiten, Feuerwehreinsatz, empfohlene Umleitung: Umleitung Ri. Bierstädter Höhe via Igstadter Straße, Oberlinstraße und Wolfsfeld"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": null
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Wiesbaden, Sandbachstraße bis Poststraße zwischen Venatorstraße und Schwarzgasse",
-        "streets": null
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Information"
-        }
-      ],
-      "masterEventCategory": "Sperrung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-22T08:38:45.959Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
