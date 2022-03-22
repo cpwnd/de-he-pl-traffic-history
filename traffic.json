@@ -406,7 +406,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Idstein und Wiesbaden/Niedernhausen\nUnfall, Standstreifen blockiert"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Idstein und Wiesbaden/Niedernhausen\nalle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -432,74 +432,20 @@
       },
       "eventCategory": [
         {
-          "value": "Unfall"
-        },
-        {
           "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-22T11:48:23.952Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/483820_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 483820
-      },
-      "description": [
-        {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Limburg-Süd und Bad Camberg\nGefahr durch defektes Fahrzeug, rechter Fahrstreifen gesperrt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Köln Richtung Frankfurt zwischen Limburg-Süd und Bad Camberg",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
         },
         {
-          "value": "Sperrung"
+          "value": "Arbeitsstelle"
         }
       ],
-      "masterEventCategory": "Hindernis",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-22T13:18:20.624Z"
+        "value": "2022-03-22T14:12:39.886Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -561,108 +507,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-10T11:11:40.484Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/483825_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 483825
-      },
-      "description": [
-        {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Kelsterbach und Mönchhof-Dreieck\nStraße geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Frankfurt Richtung Köln zwischen Kelsterbach und Mönchhof-Dreieck",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-22T13:40:57.342Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/483822_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 483822
-      },
-      "description": [
-        {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Kelsterbach und Mönchhof-Dreieck\nGefahr durch Gegenstände auf dem rechten Fahrstreifen (ein Spanngurt)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Frankfurt Richtung Köln zwischen Kelsterbach und Mönchhof-Dreieck",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-22T13:21:39.451Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1263,7 +1107,7 @@
       },
       "description": [
         {
-          "value": "A5 Darmstadt Richtung Heidelberg\nzwischen Darmstädter Kreuz und Darmstadt-Eberstadt\nGefahr durch ungesicherte Unfallstelle"
+          "value": "A5 Darmstadt Richtung Heidelberg\nzwischen Darmstädter Kreuz und Darmstadt-Eberstadt\nUnfallaufnahme, Bergungsarbeiten"
         }
       ],
       "location": {
@@ -1285,21 +1129,24 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Störung"
+        },
+        {
+          "value": "Arbeitsstelle"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-22T13:06:59.258Z"
+        "value": "2022-03-22T13:57:31.42Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2014,17 +1861,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/483775_LMS-HE/54"
+        "value": "LMS/r_LMS/483839_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 483775
+        "value": 483839
       },
       "description": [
         {
-          "value": "A7 Kassel Richtung Fulda\nDreieck Kassel-Süd Überleitung zur A44 Richtung Dortmund\nVerkehrsbehinderung, Reifenschaden"
+          "value": "A7 Kassel Richtung Fulda\nzwischen Guxhagen und Melsungen\nGefahr durch Spanngurte auf der Fahrbahn"
         }
       ],
       "location": {
@@ -2038,7 +1885,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A7 Kassel Richtung Fulda Dreieck Kassel-Süd Überleitung zur A44 Richtung Dortmund",
+        "description": "A7 Kassel Richtung Fulda zwischen Guxhagen und Melsungen",
         "streets": [
           "A7"
         ]
@@ -2046,24 +1893,21 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Normal"
+        "value": "Dringend"
       },
       "eventCategory": [
         {
-          "value": "Störung"
-        },
-        {
-          "value": "Information"
+          "value": "Hindernis"
         }
       ],
-      "masterEventCategory": "Störung",
+      "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-22T11:00:46.877Z"
+        "value": "2022-03-22T14:05:59.226Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Geändert"
+        "value": "Neu"
       }
     },
     {
@@ -2452,60 +2296,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/483733_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 483733
-      },
-      "description": [
-        {
-          "value": "A7 Fulda Richtung Kassel\nzwischen Homberg (Efze) und Malsfeld\nStraße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A7"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A7 Fulda Richtung Kassel zwischen Homberg (Efze) und Malsfeld",
-        "streets": [
-          "A7"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-22T13:37:32.751Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/479631_LMS-HE/54"
       },
       "dataProducer": {
@@ -2610,7 +2400,7 @@
       "masterEventCategory": "Information",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-22T12:26:58.379Z"
+        "value": "2022-03-22T13:59:32.1Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4530,6 +4320,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/483838_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483838
+      },
+      "description": [
+        {
+          "value": "B27 Bad Hersfeld Richtung Fulda\nin Höhe Abzweig nach Rhina\nBrand, Sichtbehinderung, Vollsperrung\n(aufgrund eines Böschungsbrand an den Bahngleisen in Höhe Rhina ist die B 27 in Höhe Rhina aktuell nicht befahrbar)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B27"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B27 Bad Hersfeld Richtung Fulda in Höhe Abzweig nach Rhina",
+        "streets": [
+          "B27"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-22T14:07:05.932Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -8091,7 +7935,7 @@
       },
       "description": [
         {
-          "value": "Frankfurt, Mörfelder Landstraße\nzwischen Wendelsplatz und Frankfurt\nBaustelle, Arbeiten an Wasserleitungen, Fahrbahnverengung, bis 16.04.2022, Mo - Fr zwischen 09:00 Uhr und 15:00 Uhr"
+          "value": "K816 Frankfurt, Mörfelder Landstraße\nzwischen Wendelsplatz und Frankfurt\nBaustelle beseitigt"
         }
       ],
       "location": {
@@ -8110,18 +7954,7 @@
           "K816"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-21T08:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-16T13:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 21.03.2022 bis 16.04.2022, Mo - Fr zwischen 09:00 Uhr und 15:00 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -8137,11 +7970,11 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-22T08:00:02.072Z"
+        "value": "2022-03-22T14:06:24.794Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -10061,7 +9894,7 @@
       },
       "description": [
         {
-          "value": "Frankfurt, L3266\nzwischen Höchst und Frankfurt am Main-Höchst in Unterliederbach\nBaustelle, rechter Fahrstreifen gesperrt, bis 31.03.2022, Mo - Fr zwischen 09:00 Uhr und 15:00 Uhr"
+          "value": "L3266 Altstadt Richtung Unterliederbach\nzwischen Höchst und Frankfurt am Main-Höchst in Unterliederbach\nBaustelle beseitigt"
         }
       ],
       "location": {
@@ -10080,18 +9913,7 @@
           "L3266"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-16T23:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-03-31T21:59:59Z"
-        },
-        "name": "Dauer",
-        "description": "vom 17.03.2022 bis 31.03.2022, Mo - Fr zwischen 09:00 Uhr und 15:00 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -10107,11 +9929,11 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-22T08:00:02.072Z"
+        "value": "2022-03-22T14:06:17.667Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
