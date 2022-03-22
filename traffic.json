@@ -8271,6 +8271,71 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/483936_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483936
+      },
+      "description": [
+        {
+          "value": "Frankfurt, Mörfelder Landstraße\nzwischen Stresemannallee und Schweizer Straße\nBaustelle, Arbeiten an Erdkabeln, gesperrt, bis 26.03.2022 23:59 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K816"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, Mörfelder Landstraße zwischen Stresemannallee und Schweizer Straße",
+        "streets": [
+          "K816"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-22T23:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-03-26T22:59:59Z"
+        },
+        "name": "Dauer",
+        "description": "von 23.03.2022 00:00 Uhr bis 26.03.2022 23:59 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-22T23:00:00.688Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_D__HE_FFM-IGLZ/210797057531_LMS-HE/54"
       },
       "dataProducer": {
