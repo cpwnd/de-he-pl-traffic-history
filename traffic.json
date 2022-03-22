@@ -1094,6 +1094,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/483748_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483748
+      },
+      "description": [
+        {
+          "value": "A5 Frankfurt Richtung Darmstadt\nzwischen Zeppelinheim und Langen/Mörfelden\nbrennendes Fahrzeug auf dem rechten Fahrstreifen und dem Standstreifen, Rettungsfahrzeuge im Einsatz"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Frankfurt Richtung Darmstadt zwischen Zeppelinheim und Langen/Mörfelden",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Information"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-22T09:16:39.33Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/483383_LMS-HE/54"
       },
       "dataProducer": {
@@ -1679,7 +1733,7 @@
       },
       "description": [
         {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Kirchheim und Hattenbacher Dreieck\nBergungsarbeiten, Aufräumarbeiten, Verkehrsbehinderung"
+          "value": "A7 Kassel Richtung Fulda\nzwischen Kirchheim und Hattenbacher Dreieck\nStraße wieder frei"
         }
       ],
       "location": {
@@ -1714,7 +1768,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-22T09:09:16.172Z"
+        "value": "2022-03-22T09:20:27.6Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2806,7 +2860,7 @@
       },
       "description": [
         {
-          "value": "A45 Gießen Richtung Hagen\nzwischen Wetzlarer Kreuz und Ehringshausen\nGefahr durch verlorene Ladung (eine Metallstange)"
+          "value": "A45 Gießen Richtung Hagen\nzwischen Wetzlarer Kreuz und Ehringshausen\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -2828,7 +2882,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2838,11 +2892,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-22T08:53:44.319Z"
+        "value": "2022-03-22T09:20:02.02Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
