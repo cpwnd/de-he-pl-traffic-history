@@ -604,7 +604,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbadener Kreuz und Wiesbaden/Niedernhausen\ndefekter PKW auf dem Standstreifen, Gefahr durch unbeleuchtetes Fahrzeug auf der Fahrbahn"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbadener Kreuz und Wiesbaden/Niedernhausen\nStraße wieder frei"
         }
       ],
       "location": {
@@ -626,7 +626,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -636,11 +636,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-23T18:26:27.068Z"
+        "value": "2022-03-23T20:13:46.608Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1154,57 +1154,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-15T20:00:04.312Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/484176_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 484176
-      },
-      "description": [
-        {
-          "value": "A4 Bad Hersfeld Richtung Erfurt\nzwischen Friedewald und Wildeck-Hönebach\nGefahr durch defektes Fahrzeug auf dem rechten Fahrstreifen"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A4"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A4 Bad Hersfeld Richtung Erfurt zwischen Friedewald und Wildeck-Hönebach",
-        "streets": [
-          "A4"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-23T15:38:38.842Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2684,7 +2633,7 @@
       },
       "description": [
         {
-          "value": "A45 Aschaffenburg Richtung Gießen\nzwischen Gießener Südkreuz und Gießen-Lützellinden\nGefahr durch defekten LKW auf dem rechten Fahrstreifen\nbei km 172,5"
+          "value": "A45 Aschaffenburg Richtung Gießen\nzwischen Gießener Südkreuz und Gießen-Lützellinden\nStraße wieder frei"
         }
       ],
       "location": {
@@ -2706,7 +2655,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2716,11 +2665,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-23T17:12:01.196Z"
+        "value": "2022-03-23T20:16:40.796Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3163,6 +3112,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-29T09:00:02.365Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/484223_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484223
+      },
+      "description": [
+        {
+          "value": "A60 Rüsselsheim Richtung Mainz\nAusfahrt Rüsselsheim-Mitte\nGefahr durch ungesicherte Unfallstelle in Anschlussstellen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A60"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A60 Rüsselsheim Richtung Mainz Ausfahrt Rüsselsheim-Mitte",
+        "streets": [
+          "A60"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-23T19:48:06.224Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -9319,7 +9319,7 @@
       },
       "description": [
         {
-          "value": "L3006 Höchst, Bolongarostraße\nzwischen Brüningstraße und Ortsausgang\nHausbrand, Richtungsfahrbahn gesperrt\n(Aufgrund eines Gebäudebrands ist die Bolongarostraße komplett gesperrt)"
+          "value": "L3006 Höchst, Bolongarostraße\nzwischen Brüningstraße und Ortsausgang\nStraße wieder frei"
         }
       ],
       "location": {
@@ -9354,11 +9354,11 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-23T18:05:35.547Z"
+        "value": "2022-03-23T20:07:27.024Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
