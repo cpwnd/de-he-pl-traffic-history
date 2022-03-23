@@ -1378,7 +1378,7 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Bad Homburger Kreuz und Friedberg\nGefahr durch ungesicherte Unfallstelle, mittlerer Fahrstreifen blockiert, rechter Fahrstreifen blockiert"
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Bad Homburger Kreuz und Friedberg\nrechter Fahrstreifen blockiert, Unfall, Zeitverlust für Schwerverkehr, bitte vorsichtig fahren"
         }
       ],
       "location": {
@@ -1400,24 +1400,30 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
+        {
+          "value": "Störung"
+        },
         {
           "value": "Unfall"
         },
         {
-          "value": "Störung"
+          "value": "Zeitverlust"
+        },
+        {
+          "value": "Hinweis"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-23T20:21:30.618Z"
+        "value": "2022-03-23T22:08:57.016Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1432,7 +1438,7 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Bad Homburger Kreuz und Friedberg\nGefahr durch ungesicherte Unfallstelle auf dem mittleren Fahrstreifen, Gefahr durch Personen auf der Fahrbahn, bitte vorsichtig fahren, Unfall mit mehreren Fahrzeugen"
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Bad Homburger Kreuz und Friedberg\nalle Fahrbahnen wieder frei"
         }
       ],
       "location": {
@@ -1454,23 +1460,23 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
+        {
+          "value": "Hinweis"
+        },
         {
           "value": "Unfall"
         },
         {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
+          "value": "Sperrung"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Hinweis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-23T21:15:06.432Z"
+        "value": "2022-03-23T22:08:04.551Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
