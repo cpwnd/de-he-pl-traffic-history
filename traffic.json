@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -392,6 +392,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/484172_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484172
+      },
+      "description": [
+        {
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbaden/Niedernhausen und Wiesbadener Kreuz\nGefahr durch defektes Fahrzeug"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Frankfurt zwischen Wiesbaden/Niedernhausen und Wiesbadener Kreuz",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-23T15:33:11.371Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -2050,7 +2101,7 @@
       },
       "description": [
         {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Bad Hersfeld-West und Kirchheimer Dreieck\nGefahr durch Gegenstände auf der Fahrbahn"
+          "value": "A7 Kassel Richtung Fulda\nzwischen Bad Hersfeld-West und Kirchheimer Dreieck\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -2072,7 +2123,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2082,11 +2133,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-23T15:11:17.495Z"
+        "value": "2022-03-23T15:28:30.093Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3355,7 +3406,7 @@
       },
       "description": [
         {
-          "value": "A60 Rüsselsheim Richtung Mainz\nzwischen Bischofsheim und Mainspitz-Dreieck\nGefahr durch ungesicherte Unfallstelle auf dem linken Fahrstreifen, bitte vorsichtig fahren"
+          "value": "A60 Rüsselsheim Richtung Mainz\nzwischen Bischofsheim und Mainspitz-Dreieck\nGefahr durch ungesicherte Unfallstelle auf dem linken Fahrstreifen, bitte vorsichtig fahren, linker Fahrstreifen gesperrt"
         }
       ],
       "location": {
@@ -3385,16 +3436,19 @@
         },
         {
           "value": "Hinweis"
+        },
+        {
+          "value": "Sperrung"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-23T15:05:19.634Z"
+        "value": "2022-03-23T15:30:51.45Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3525,7 +3579,7 @@
       },
       "description": [
         {
-          "value": "A66 Fulda Richtung Frankfurt\nzwischen Steinau a. d. Straße und Bad Soden-Salmünster\nGefahr durch Reifenteile auf der Fahrbahn, rechter Fahrstreifen blockiert, defekter LKW auf dem Standstreifen"
+          "value": "A66 Fulda Richtung Frankfurt\nzwischen Steinau a. d. Straße und Bad Soden-Salmünster\nFahrstreifenblockierung beseitigt"
         }
       ],
       "location": {
@@ -3547,7 +3601,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -3560,7 +3614,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-23T13:01:45.477Z"
+        "value": "2022-03-23T15:33:59.88Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -5051,7 +5105,7 @@
       },
       "description": [
         {
-          "value": "B43 Rüsselsheim - Wiesbaden\nzwischen Rüsselsheim und Bischofsheim\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
+          "value": "B43 Rüsselsheim - Wiesbaden\nzwischen Rüsselsheim und Bischofsheim\nin beiden Richtungen Straße wieder frei"
         }
       ],
       "location": {
@@ -5073,7 +5127,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -5083,11 +5137,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-23T14:58:14.576Z"
+        "value": "2022-03-23T15:26:53.761Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
