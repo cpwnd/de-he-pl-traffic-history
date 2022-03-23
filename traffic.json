@@ -136,17 +136,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/484095_LMS-HE/54"
+        "value": "LMS/r_LMS/484101_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 484095
+        "value": 484101
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Würzburg\nzwischen Frankfurt am Main-Süd und Offenbacher Kreuz\nGefahr durch Gegenstände auf der Fahrbahn (eine Metallstange)"
+          "value": "A3 Köln - Frankfurt\nzwischen Mönchhof-Dreieck und Frankfurt am Main-Flughafen\nin beiden Richtungen Gefahr durch Gegenstände auf der Fahrbahn, defekter PKW"
         }
       ],
       "location": {
@@ -160,7 +160,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A3 Frankfurt Richtung Würzburg zwischen Frankfurt am Main-Süd und Offenbacher Kreuz",
+        "description": "A3 Köln Richtung Frankfurt zwischen Mönchhof-Dreieck und Frankfurt am Main-Flughafen",
         "streets": [
           "A3"
         ]
@@ -178,11 +178,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-23T13:00:13.37Z"
+        "value": "2022-03-23T13:28:22.669Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -309,6 +309,63 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-04T14:55:08.653Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/484102_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484102
+      },
+      "description": [
+        {
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Raunheim und Kelsterbach\nGefahr durch Gegenstände auf der Fahrbahn, Gefahr durch ungesicherte Unfallstelle, defekter PKW, fahren Sie bitte besonders vorsichtig"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Frankfurt zwischen Raunheim und Kelsterbach",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-23T13:26:13.523Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1982,6 +2039,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/484099_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484099
+      },
+      "description": [
+        {
+          "value": "A7 Kassel Richtung Fulda\nzwischen Homberg (Efze) und Bad Hersfeld-West\nGefahr durch Gegenstände auf der Fahrbahn (mehrere Spanngurte)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Kassel Richtung Fulda zwischen Homberg (Efze) und Bad Hersfeld-West",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-23T13:09:49.384Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
