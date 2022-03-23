@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -667,7 +667,7 @@
       },
       "description": [
         {
-          "value": "A3, A5 Richtung Frankfurt\nzwischen Frankfurt am Main-Süd und Frankfurt am Main-Flughafen-Nord\nGefahr durch Gegenstände auf der Fahrbahn"
+          "value": "A3, A5 Richtung Frankfurt\nzwischen Frankfurt am Main-Süd und Frankfurt am Main-Flughafen-Nord\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -690,7 +690,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -700,7 +700,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-23T06:47:50.867Z"
+        "value": "2022-03-23T07:12:03.524Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2232,6 +2232,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-28T20:00:01.686Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/483992_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483992
+      },
+      "description": [
+        {
+          "value": "A7 Fulda Richtung Kassel\nzwischen Melsungen und Guxhagen\nGefahr durch Metallteile auf der Fahrbahn, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Fulda Richtung Kassel zwischen Melsungen und Guxhagen",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-23T07:06:30.836Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
