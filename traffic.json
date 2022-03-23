@@ -136,6 +136,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/484095_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484095
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Würzburg\nzwischen Frankfurt am Main-Süd und Offenbacher Kreuz\nGefahr durch Gegenstände auf der Fahrbahn (eine Metallstange)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Würzburg zwischen Frankfurt am Main-Süd und Offenbacher Kreuz",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-23T13:00:13.37Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/462180_LMS-HE/54"
       },
       "dataProducer": {
@@ -1368,6 +1419,63 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/484098_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484098
+      },
+      "description": [
+        {
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Friedberg und Ober-Mörlen\nGefahr durch ungesicherte Unfallstelle, bitte vorsichtig fahren, Gefahr durch Gegenstände auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Frankfurt Richtung Kassel zwischen Friedberg und Ober-Mörlen",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hinweis"
+        },
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-23T13:02:29.71Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/335177_LMS-HE/54"
       },
       "dataProducer": {
@@ -1831,7 +1939,7 @@
       },
       "description": [
         {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Bad Hersfeld-West und Kirchheimer Dreieck\nbrennender PKW, bitte vorsichtig fahren, mittlerer Fahrstreifen gesperrt, rechter Fahrstreifen gesperrt"
+          "value": "A7 Kassel Richtung Fulda\nzwischen Bad Hersfeld-West und Kirchheimer Dreieck\nbrennender PKW, bitte vorsichtig fahren, rechter Fahrstreifen gesperrt"
         }
       ],
       "location": {
@@ -1869,7 +1977,7 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-23T12:05:48.886Z"
+        "value": "2022-03-23T12:31:17.932Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3201,7 +3309,7 @@
       },
       "description": [
         {
-          "value": "A66 Fulda Richtung Frankfurt\nzwischen Steinau a. d. Straße und Bad Soden-Salmünster\nGefahr durch Reifenteile auf der Fahrbahn"
+          "value": "A66 Fulda Richtung Frankfurt\nzwischen Steinau a. d. Straße und Bad Soden-Salmünster\nGefahr durch Reifenteile auf der Fahrbahn, rechter Fahrstreifen blockiert, defekter LKW auf dem Standstreifen"
         }
       ],
       "location": {
@@ -3228,16 +3336,19 @@
       "eventCategory": [
         {
           "value": "Hindernis"
+        },
+        {
+          "value": "Störung"
         }
       ],
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-23T12:00:59.723Z"
+        "value": "2022-03-23T13:01:45.477Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -6155,6 +6266,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-11T07:37:39.624Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/484094_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484094
+      },
+      "description": [
+        {
+          "value": "B426 Obernburg - Höchst im Odenwald\nzwischen Abzweig nach Rai-Breitenbach und Höchst im Odenwald\nin beiden Richtungen Unfallaufnahme, Richtungsfahrbahn gesperrt, empfohlene Umleitung: Richtung Höchst im Odenwald über Rai-Breitenbach, Rimhorn und Höchst im Odenwald\n(Umleitungsstrecke von Höchst kommend über Sandbach und Neustadt)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B426"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B426 Obernburg Richtung Höchst im Odenwald zwischen Abzweig nach Rai-Breitenbach und Höchst im Odenwald",
+        "streets": [
+          "B426"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-23T13:07:47.408Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
