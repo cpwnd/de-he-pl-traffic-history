@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "5ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -3093,7 +3093,7 @@
       },
       "description": [
         {
-          "value": "A66 Fulda Richtung Frankfurt\nzwischen Neuhof-Nord und Neuhof-Süd\nBaustelle, vorübergehende Begrenzung der Fahrbahnbreite auf 5,95 m, Fahrbahnausbesserung, von 08.03.2022 15:30 Uhr bis 24.03.2022 15:30 Uhr"
+          "value": "A66 Fulda Richtung Frankfurt\nzwischen Neuhof-Nord und Neuhof-Süd\nBaustelle, vorübergehende Begrenzung der Fahrbahnbreite auf 5,95 m, Fahrbahnausbesserung, bis 06.04.2022 15:30 Uhr"
         }
       ],
       "location": {
@@ -3119,10 +3119,10 @@
         },
         "endTime": {
           "name": "Endzeit",
-          "value": "2022-03-24T14:30:00Z"
+          "value": "2022-04-06T13:30:00Z"
         },
         "name": "Dauer",
-        "description": "von 08.03.2022 15:30 Uhr bis 24.03.2022 15:30 Uhr"
+        "description": "von 08.03.2022 15:30 Uhr bis 06.04.2022 15:30 Uhr"
       },
       "urgency": {
         "name": "Dringlichkeit",
@@ -3139,11 +3139,11 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-02T16:49:54.617Z"
+        "value": "2022-03-23T23:30:44.567Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3259,60 +3259,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-14T09:08:53.888Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/484242_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 484242
-      },
-      "description": [
-        {
-          "value": "A66 Wiesbaden Richtung Frankfurt\nzwischen Frankfurt am Main-Höchst und Eschborn\nStraße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A66"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A66 Wiesbaden Richtung Frankfurt zwischen Frankfurt am Main-Höchst und Eschborn",
-        "streets": [
-          "A66"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-23T23:18:28.506Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
