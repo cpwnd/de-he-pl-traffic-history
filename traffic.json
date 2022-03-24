@@ -536,7 +536,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbadener Kreuz und Wiesbaden/Niedernhausen\nBaustelle, Richtungsfahrbahn bis auf weiteres gesperrt, der Umleitungsbeschilderung folgen, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbadener Kreuz und Wiesbaden/Niedernhausen\nBaustelle, Fahrbahnausbesserung, Richtungsfahrbahn bis auf weiteres gesperrt, der Umleitungsbeschilderung folgen"
         }
       ],
       "location": {
@@ -562,19 +562,19 @@
       },
       "eventCategory": [
         {
+          "value": "Arbeitsstelle"
+        },
+        {
           "value": "Sperrung"
         },
         {
           "value": "Hinweis"
-        },
-        {
-          "value": "Arbeitsstelle"
         }
       ],
-      "masterEventCategory": "Sperrung",
+      "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-24T04:24:53.8Z"
+        "value": "2022-03-24T05:20:11.666Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1853,6 +1853,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-28T20:00:01.686Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/484263_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484263
+      },
+      "description": [
+        {
+          "value": "A7 Kassel Richtung Fulda\nzwischen Malsfeld und Homberg (Efze)\ndefekter LKW auf dem Standstreifen, bitte vorsichtig fahren\n(Ein Teil des Aufliegers soll in den rechten Fahrstreifen ragen)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Kassel Richtung Fulda zwischen Malsfeld und Homberg (Efze)",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-24T05:22:56.162Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
