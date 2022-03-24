@@ -3388,6 +3388,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/484284_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484284
+      },
+      "description": [
+        {
+          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Krifteler Dreieck und Hattersheim\nGefahr durch Gegenstände auf der Fahrbahn\n(Radkappe)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Frankfurt Richtung Wiesbaden zwischen Krifteler Dreieck und Hattersheim",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-24T06:48:34.074Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/479359_LMS-HE/54"
       },
       "dataProducer": {
@@ -8083,6 +8134,71 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-02-27T23:00:02.903Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_D__HE_FFM-IGLZ/210821031921_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484283
+      },
+      "description": [
+        {
+          "value": "K810 Frankfurt, Eschersheimer Landstraße\nzwischen Am Dornbusch und Hügelstraße\nBaustelle, Arbeiten an Wasserleitungen, rechter Fahrstreifen gesperrt, bis 22.04.2022 23:59 Uhr\nDornbusch, Eschersheimer Landstraße 280, aufgrund von Arbeiten an Wasserleitungen Teilsperrung der Fahrbahn, Teilsperrung der Gehwege bis 22.04.2022."
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K810"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, Eschersheimer Landstraße zwischen Am Dornbusch und Hügelstraße",
+        "streets": [
+          "K810"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-02-27T23:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-22T21:59:59Z"
+        },
+        "name": "Dauer",
+        "description": "von 28.02.2022 00:00 Uhr bis 22.04.2022 23:59 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-24T06:39:04.056Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
