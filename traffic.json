@@ -7124,6 +7124,71 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/484511_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484511
+      },
+      "description": [
+        {
+          "value": "Fasaneriestraße\nzwischen B45, Hanau-Fasanerie und Klein-Auheim\nin beiden Richtungen Bauarbeiten, halbseitig gesperrt, bis 01.07.2022 Mitternacht"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K200"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Fasaneriestraße zwischen B45, Hanau-Fasanerie und Klein-Auheim",
+        "streets": [
+          "K200"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-24T23:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-07-01T21:59:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 25.03.2022 Mitternacht bis 01.07.2022 Mitternacht"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-24T23:00:00.729Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/463326_LMS-HE/54"
       },
       "dataProducer": {
@@ -9657,63 +9722,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-22T05:00:00.792Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/484481_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 484481
-      },
-      "description": [
-        {
-          "value": "L3176 zwischen Fraurombach und Abzweig nach Sandlofs\nUnfall, beide Fahrtrichtungen gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3176"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Vogelsbergkreis, L3176 zwischen Fraurombach und Abzweig nach Sandlofs",
-        "streets": [
-          "L3176"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-24T19:23:07.491Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
