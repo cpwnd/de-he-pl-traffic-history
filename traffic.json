@@ -1810,17 +1810,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/484312_LMS-HE/54"
+        "value": "LMS/r_LMS/484317_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 484312
+        "value": 484317
       },
       "description": [
         {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Dreieck Kassel-Süd und Guxhagen\nGefahr besteht nicht mehr"
+          "value": "A7 Kassel Richtung Fulda\nzwischen Bad Hersfeld-West und Kirchheimer Dreieck\nGefahr durch 1 defektes Fahrzeug auf dem Standstreifen im Kurvenbereich"
         }
       ],
       "location": {
@@ -1834,7 +1834,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A7 Kassel Richtung Fulda zwischen Dreieck Kassel-Süd und Guxhagen",
+        "description": "A7 Kassel Richtung Fulda zwischen Bad Hersfeld-West und Kirchheimer Dreieck",
         "streets": [
           "A7"
         ]
@@ -1842,7 +1842,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Normal"
+        "value": "Dringend"
       },
       "eventCategory": [
         {
@@ -1852,11 +1852,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-24T08:29:07.124Z"
+        "value": "2022-03-24T08:46:07.547Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Geändert"
+        "value": "Neu"
       }
     },
     {
@@ -4007,6 +4007,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/484318_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484318
+      },
+      "description": [
+        {
+          "value": "A661 Darmstadt - Bad Homburg\nin Höhe Offenbach-Taunusring\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A661"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A661 Darmstadt Richtung Bad Homburg in Höhe Offenbach-Taunusring",
+        "streets": [
+          "A661"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-24T08:43:40.762Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
