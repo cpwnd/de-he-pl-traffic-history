@@ -1183,7 +1183,7 @@
       },
       "description": [
         {
-          "value": "A5 Heidelberg Richtung Darmstadt\nzwischen Zwingenberg und Seeheim-Jugenheim\nBaustelle, linker Fahrstreifen gesperrt"
+          "value": "A5 Heidelberg Richtung Darmstadt\nzwischen Zwingenberg und Seeheim-Jugenheim\nBaustelle, linker Fahrstreifen gesperrt, bis 25.03.2022 ca. 06:00 Uhr"
         }
       ],
       "location": {
@@ -1202,7 +1202,15 @@
           "A5"
         ]
       },
-      "duration": null,
+      "duration": {
+        "startTime": null,
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-03-25T05:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "bis 25.03.2022 ca. 06:00 Uhr"
+      },
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -1218,11 +1226,11 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-24T19:08:24.338Z"
+        "value": "2022-03-24T19:16:00.996Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1416,6 +1424,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/484479_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484479
+      },
+      "description": [
+        {
+          "value": "A6 Heilbronn Richtung Kaiserslautern\nzwischen Viernheimer Dreieck und Mannheim-Sandhofen\nMarkierungsarbeiten, linker Fahrstreifen gesperrt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A6"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A6 Heilbronn Richtung Kaiserslautern zwischen Viernheimer Dreieck und Mannheim-Sandhofen",
+        "streets": [
+          "A6"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Arbeitsstelle"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-24T19:14:38.007Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -3198,7 +3260,7 @@
       },
       "description": [
         {
-          "value": "A67 Darmstadt Richtung Mannheim\nzwischen Lorsch und Viernheimer Dreieck\nBaustelle, rechter Fahrstreifen gesperrt"
+          "value": "A67 Darmstadt Richtung Mannheim\nzwischen Lorsch und Viernheimer Dreieck\nBaustelle, rechter Fahrstreifen gesperrt, bis 25.03.2022 ca. 06:00 Uhr"
         }
       ],
       "location": {
@@ -3217,7 +3279,15 @@
           "A67"
         ]
       },
-      "duration": null,
+      "duration": {
+        "startTime": null,
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-03-25T05:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "bis 25.03.2022 ca. 06:00 Uhr"
+      },
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -3233,11 +3303,11 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-24T19:09:56.818Z"
+        "value": "2022-03-24T19:15:15.314Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4998,7 +5068,7 @@
       },
       "description": [
         {
-          "value": "B45 Hanau Richtung Dieburg\nin Höhe Dieburg-Nord\nBergungsarbeiten, vorausgegangener Unfall, rechter Fahrstreifen gesperrt"
+          "value": "B45 Hanau Richtung Dieburg\nin Höhe Dieburg-Nord\nStraße wieder frei"
         }
       ],
       "location": {
@@ -5036,7 +5106,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-24T18:28:56.624Z"
+        "value": "2022-03-24T19:13:15.369Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -5590,7 +5660,7 @@
       },
       "description": [
         {
-          "value": "B49 Limburg - Gießen\nzwischen A45, Wetzlar-Ost und B429, Gießen-Lahnfeld\nin beiden Richtungen Achtung, Personen werfen Gegenstände auf die Fahrbahn\n(Es werden Gegenstände von einer Brücke geworfen)"
+          "value": "B49 Limburg - Gießen\nzwischen A45, Wetzlar-Ost und B429, Gießen-Lahnfeld\nin beiden Richtungen Gefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -5612,7 +5682,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Sehr dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -5622,11 +5692,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-24T19:02:55.958Z"
+        "value": "2022-03-24T19:19:19.98Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
