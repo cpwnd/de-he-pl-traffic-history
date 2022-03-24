@@ -396,108 +396,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/484257_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 484257
-      },
-      "description": [
-        {
-          "value": "A3 Köln Richtung Frankfurt\nin Höhe Raststätte Medenbach West\nTankstelle wieder geöffnet"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Köln Richtung Frankfurt in Höhe Raststätte Medenbach West",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Sperrung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-24T05:28:04.261Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/484264_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 484264
-      },
-      "description": [
-        {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Limburg-Süd und Bad Camberg\nGefahr durch Reifenteile auf der Fahrbahn, defekter LKW auf dem Standstreifen"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Köln Richtung Frankfurt zwischen Limburg-Süd und Bad Camberg",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-24T05:35:48.025Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/478197_LMS-HE/54"
       },
       "dataProducer": {
@@ -624,6 +522,111 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/484269_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484269
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Raunheim und Wiesbadener Kreuz\n2 km Stau\n(Ursache: Sperrung der A3 ab dem AK Wiesbaden in Fahrtrichtung Köln)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Köln zwischen Raunheim und Wiesbadener Kreuz",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Stau"
+        }
+      ],
+      "masterEventCategory": "Stau",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-24T05:57:32.29Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/484274_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484274
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Köln\nWiesbadener Kreuz Überleitung zur A66 Richtung Wiesbaden\nUnfall, bitte vorsichtig fahren\n244927"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Köln Wiesbadener Kreuz Überleitung zur A66 Richtung Wiesbaden",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-24T06:17:54.241Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -1137,6 +1140,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/484277_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484277
+      },
+      "description": [
+        {
+          "value": "A4 Erfurt Richtung Bad Hersfeld\nzwischen Wommen und Wildeck-Obersuhl\nGefahr durch Reifenteile auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A4"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A4 Erfurt Richtung Bad Hersfeld zwischen Wommen und Wildeck-Obersuhl",
+        "streets": [
+          "A4"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-24T06:21:25.237Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/438866_LMS-HE/54"
       },
       "dataProducer": {
@@ -1194,57 +1248,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-15T20:00:04.312Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/484261_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 484261
-      },
-      "description": [
-        {
-          "value": "A5 Frankfurt Richtung Darmstadt\nzwischen Frankfurter Kreuz und Zeppelinheim\nGefahr durch defektes Fahrzeug, Gefahr durch Gegenstände auf der Fahrbahn"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Frankfurt Richtung Darmstadt zwischen Frankfurter Kreuz und Zeppelinheim",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-24T05:03:19.371Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1963,60 +1966,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/484263_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 484263
-      },
-      "description": [
-        {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Malsfeld und Homberg (Efze)\ndefekter LKW auf dem Standstreifen, bitte vorsichtig fahren\n(Ein Teil des Aufliegers soll in den rechten Fahrstreifen ragen)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A7"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A7 Kassel Richtung Fulda zwischen Malsfeld und Homberg (Efze)",
-        "streets": [
-          "A7"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-24T05:22:56.162Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/468285_LMS-HE/54"
       },
       "dataProducer": {
@@ -2401,6 +2350,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/484265_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484265
+      },
+      "description": [
+        {
+          "value": "A7 Fulda Richtung Hannover\nzwischen Raststätte Kassel Ost und Kreuz Kassel-Mitte\nStraße wieder frei"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Fulda Richtung Hannover zwischen Raststätte Kassel Ost und Kreuz Kassel-Mitte",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-24T06:19:25.362Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/479631_LMS-HE/54"
       },
       "dataProducer": {
@@ -2455,6 +2455,61 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-03T16:02:45.746Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/484273_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484273
+      },
+      "description": [
+        {
+          "value": "A7, A5 Fulda Richtung Kassel\nzwischen Hattenbacher Dreieck und Kirchheim\nGefahr durch Metallteile auf dem rechten und dem mittleren Fahrstreifen, bitte vorsichtig fahren\n244920"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7, A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7, A5 Fulda Richtung Kassel zwischen Hattenbacher Dreieck und Kirchheim",
+        "streets": [
+          "A7",
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-24T06:10:04.404Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3079,6 +3134,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-11-12T05:07:04.209Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/484266_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484266
+      },
+      "description": [
+        {
+          "value": "A49 Südtangente, Kassel Richtung Gießen\nzwischen Kassel-Industriepark und Kassel-Waldau\nHindernisse beseitigt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A49"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A49 Südtangente, Kassel Richtung Gießen zwischen Kassel-Industriepark und Kassel-Waldau",
+        "streets": [
+          "A49"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-24T06:18:59.931Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6737,266 +6843,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/483888_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 483888
-      },
-      "description": [
-        {
-          "value": "K61 zwischen Oberurff-Schiffelborn und Bergfreiheit\nin beiden Richtungen Richtungsfahrbahn gesperrt, Krötenwanderung, bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "K61"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Schwalm-Eder-Kreis, K61 zwischen Oberurff-Schiffelborn und Bergfreiheit",
-        "streets": [
-          "K61"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-01T18:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-30T05:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 01.03.2022 bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Information"
-        }
-      ],
-      "masterEventCategory": "Sperrung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-23T16:49:51.361Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/484214_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 484214
-      },
-      "description": [
-        {
-          "value": "Schwalm-Eder-Kreis, K61\nzwischen Oberurff-Schiffelborn und Bergfreiheit\nin beiden Richtungen Krötenwanderung, Richtungsfahrbahn gesperrt, bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "K61"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Schwalm-Eder-Kreis, K61 zwischen Oberurff-Schiffelborn und Bergfreiheit",
-        "streets": [
-          "K61"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-01T18:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-30T05:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 01.03.2022 bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Information"
-        }
-      ],
-      "masterEventCategory": "Sperrung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-23T18:00:00.591Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/481692_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 481692
-      },
-      "description": [
-        {
-          "value": "K61 zwischen Oberurff-Schiffelborn und Bergfreiheit\nin beiden Richtungen Richtungsfahrbahn gesperrt, Krötenwanderung, bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "K61"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Schwalm-Eder-Kreis, K61 zwischen Oberurff-Schiffelborn und Bergfreiheit",
-        "streets": [
-          "K61"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-01T18:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-30T05:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 01.03.2022 bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Information"
-        }
-      ],
-      "masterEventCategory": "Sperrung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-13T21:04:41.417Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/483345_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 483345
-      },
-      "description": [
-        {
-          "value": "K61 zwischen Oberurff-Schiffelborn und Bergfreiheit\nin beiden Richtungen Richtungsfahrbahn gesperrt, Krötenwanderung, bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "K61"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Schwalm-Eder-Kreis, K61 zwischen Oberurff-Schiffelborn und Bergfreiheit",
-        "streets": [
-          "K61"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-01T18:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-30T05:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 01.03.2022 bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Information"
-        }
-      ],
-      "masterEventCategory": "Sperrung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-21T06:07:54.539Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
