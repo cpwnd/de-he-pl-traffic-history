@@ -396,17 +396,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/484332_LMS-HE/54"
+        "value": "LMS/r_LMS/484344_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 484332
+        "value": 484344
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Bad Camberg und Idstein\nGefahr besteht nicht mehr"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbaden/Niedernhausen und Wiesbadener Kreuz\nGefahr durch 1 langsam fahrendes Fahrzeug"
         }
       ],
       "location": {
@@ -420,7 +420,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A3 Köln Richtung Frankfurt zwischen Bad Camberg und Idstein",
+        "description": "A3 Köln Richtung Frankfurt zwischen Wiesbaden/Niedernhausen und Wiesbadener Kreuz",
         "streets": [
           "A3"
         ]
@@ -428,21 +428,21 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Normal"
+        "value": "Dringend"
       },
       "eventCategory": [
         {
-          "value": "Hindernis"
+          "value": "Störung"
         }
       ],
-      "masterEventCategory": "Hindernis",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-24T09:45:51.841Z"
+        "value": "2022-03-24T10:03:34.885Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Geändert"
+        "value": "Neu"
       }
     },
     {
@@ -742,6 +742,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-14T08:30:01.673Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/484348_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484348
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Limburg-Nord und Diez\nGefahr durch Gegenstände auf dem mittleren Fahrstreifen\n(Unterbodenschutz)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Köln zwischen Limburg-Nord und Diez",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-24T10:15:50.331Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2394,6 +2445,108 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/484346_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484346
+      },
+      "description": [
+        {
+          "value": "A7 Fulda Richtung Kassel\nin Höhe Rastplatz Fuchsrain\nGefahr durch Reifenteile auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Fulda Richtung Kassel in Höhe Rastplatz Fuchsrain",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-24T10:14:10.393Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/484342_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484342
+      },
+      "description": [
+        {
+          "value": "A7 Fulda Richtung Kassel\nzwischen Melsungen und Guxhagen\nGefahr besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Fulda Richtung Kassel zwischen Melsungen und Guxhagen",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-24T10:18:49.74Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -4484,6 +4637,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/484338_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484338
+      },
+      "description": [
+        {
+          "value": "B27 Fulda, Berliner Straße\nin Höhe Künzell\ndefekter LKW\n(Kurz vor der AS-Petersberger Straße und Künzeller Straße wird die zeispurige Fahrbahn einspurig durch Warnbarken geregelt. Bitte rechtzeitig  rechts einordnen."
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B27"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B27 Fulda, Berliner Straße in Höhe Künzell",
+        "streets": [
+          "B27"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-24T09:55:32.874Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -9882,7 +10086,7 @@
       },
       "description": [
         {
-          "value": "L3138 Gonterskirchen, Hauptstraße\nzwischen Marburger Straße und Mittelgasse\nin beiden Richtungen Baustelle, Richtungsfahrbahn gesperrt, eine Umleitung ist eingerichtet, bis 31.03.2022 18:00 Uhr"
+          "value": "L3138 Gonterskirchen, Hauptstraße\nzwischen Marburger Straße und Mittelgasse\nin beiden Richtungen Baustelle, Richtungsfahrbahn gesperrt, eine Umleitung ist eingerichtet, bis 14.04.2022 Mitternacht"
         }
       ],
       "location": {
@@ -9905,10 +10109,10 @@
         "startTime": null,
         "endTime": {
           "name": "Endzeit",
-          "value": "2022-03-31T16:00:00Z"
+          "value": "2022-04-14T21:59:00Z"
         },
         "name": "Dauer",
-        "description": "bis 31.03.2022 18:00 Uhr"
+        "description": "bis 14.04.2022 Mitternacht"
       },
       "urgency": {
         "name": "Dringlichkeit",
@@ -9928,7 +10132,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2021-10-08T10:10:57.446Z"
+        "value": "2022-03-24T10:10:38.55Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
