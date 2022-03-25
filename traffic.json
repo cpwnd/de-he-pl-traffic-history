@@ -526,57 +526,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/484646_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 484646
-      },
-      "description": [
-        {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbadener Kreuz und Wiesbaden/Niedernhausen\nGefahr durch ungesicherte Unfallstelle auf dem rechten Fahrstreifen"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Frankfurt Richtung Köln zwischen Wiesbadener Kreuz und Wiesbaden/Niedernhausen",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-25T12:23:28.325Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/481932_LMS-HE/54"
       },
       "dataProducer": {
@@ -1906,17 +1855,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/484607_LMS-HE/54"
+        "value": "LMS/r_LMS/484670_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 484607
+        "value": 484670
       },
       "description": [
         {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Guxhagen und Melsungen\ndefekter LKW auf dem rechten Fahrstreifen"
+          "value": "A7 Hannover Richtung Kassel\nAusfahrt Kassel-Ost\nUnfall mit LKW, Bergungsarbeiten, Richtungsfahrbahn blockiert"
         }
       ],
       "location": {
@@ -1930,7 +1879,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A7 Kassel Richtung Fulda zwischen Guxhagen und Melsungen",
+        "description": "A7 Hannover Richtung Kassel Ausfahrt Kassel-Ost",
         "streets": [
           "A7"
         ]
@@ -1942,13 +1891,19 @@
       },
       "eventCategory": [
         {
-          "value": "Hindernis"
+          "value": "Unfall"
+        },
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
         }
       ],
-      "masterEventCategory": "Hindernis",
+      "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-25T10:29:16.551Z"
+        "value": "2022-03-25T13:23:42.705Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2403,6 +2358,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/484675_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484675
+      },
+      "description": [
+        {
+          "value": "A44 Dortmund Richtung Kassel\nzwischen Breuna und Zierenberg\ndefekter PKW auf dem Standstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A44"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A44 Dortmund Richtung Kassel zwischen Breuna und Zierenberg",
+        "streets": [
+          "A44"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-25T13:31:56.063Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/483806_LMS-HE/54"
       },
       "dataProducer": {
@@ -2526,7 +2532,7 @@
       },
       "description": [
         {
-          "value": "A45 Hagen Richtung Gießen\nzwischen Wetzlarer Kreuz und Wetzlar-Ost\nBauarbeiten, vorübergehende Begrenzung der Fahrbahnbreite auf 6,95 m, bis 27.03.2022 06:00 Uhr"
+          "value": "A45 Hagen Richtung Gießen\nzwischen Wetzlarer Kreuz und Wetzlar-Ost\nBauarbeiten, vorübergehende Begrenzung der Fahrbahnbreite auf 6,95 m, bis 31.03.2022"
         }
       ],
       "location": {
@@ -2546,16 +2552,13 @@
         ]
       },
       "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-19T05:00:00Z"
-        },
+        "startTime": null,
         "endTime": {
           "name": "Endzeit",
-          "value": "2022-03-27T04:00:00Z"
+          "value": "2022-03-31T21:59:00Z"
         },
         "name": "Dauer",
-        "description": "von 19.03.2022 06:00 Uhr bis 27.03.2022 06:00 Uhr"
+        "description": "bis 31.03.2022"
       },
       "urgency": {
         "name": "Dringlichkeit",
@@ -2572,11 +2575,11 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T05:00:00.755Z"
+        "value": "2022-03-25T13:15:23.011Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2780,7 +2783,7 @@
       },
       "description": [
         {
-          "value": "A45 Gießen Richtung Hagen\nzwischen Wetzlar-Ost und Blasbach Talbrücke\nBauarbeiten, vorübergehende Begrenzung der Fahrbahnbreite auf 11,25 m, bis 27.03.2022 06:00 Uhr"
+          "value": "A45 Gießen Richtung Hagen\nzwischen Wetzlar-Ost und Blasbach Talbrücke\nBauarbeiten, vorübergehende Begrenzung der Fahrbahnbreite auf 11,25 m, bis 31.03.2022"
         }
       ],
       "location": {
@@ -2800,16 +2803,13 @@
         ]
       },
       "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-19T05:00:00Z"
-        },
+        "startTime": null,
         "endTime": {
           "name": "Endzeit",
-          "value": "2022-03-27T04:00:00Z"
+          "value": "2022-03-31T21:59:00Z"
         },
         "name": "Dauer",
-        "description": "von 19.03.2022 06:00 Uhr bis 27.03.2022 06:00 Uhr"
+        "description": "bis 31.03.2022"
       },
       "urgency": {
         "name": "Dringlichkeit",
@@ -2826,11 +2826,11 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-19T05:00:00.755Z"
+        "value": "2022-03-25T13:16:33.699Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3330,6 +3330,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-14T09:08:53.888Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/484673_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484673
+      },
+      "description": [
+        {
+          "value": "A66 Wiesbaden Richtung Frankfurt\nzwischen Raststätte Wiesbaden-Erbenheim und Wiesbaden-Nordenstadt\nVerkehrsbehinderung beseitigt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Wiesbaden Richtung Frankfurt zwischen Raststätte Wiesbaden-Erbenheim und Wiesbaden-Nordenstadt",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-25T13:36:58.178Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4042,6 +4093,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/484666_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484666
+      },
+      "description": [
+        {
+          "value": "A671 Mainz Richtung Wiesbaden\nzwischen Gustavsburg und Hochheim-Süd\nGefahr durch Gegenstände auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A671"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A671 Mainz Richtung Wiesbaden zwischen Gustavsburg und Hochheim-Süd",
+        "streets": [
+          "A671"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-25T13:15:30.063Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/381701_LMS-HE/54"
       },
       "dataProducer": {
@@ -4557,117 +4659,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/484621_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 484621
-      },
-      "description": [
-        {
-          "value": "B42 Wiesbaden Richtung Rüdesheim\nzwischen Übergang von der A66 und Eltville Erbacher Straße in Eltville am Rhein\nStau, Gasse für Rettungs- und Einsatzfahrzeuge bilden\nwegen der Vollsperrung infolge des Unfalls bei Eltville-Erbach\n"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B42"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B42 Wiesbaden Richtung Rüdesheim zwischen Übergang von der A66 und Eltville Erbacher Straße in Eltville am Rhein",
-        "streets": [
-          "B42"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Stau"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Stau",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-25T11:19:51.43Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/484572_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 484572
-      },
-      "description": [
-        {
-          "value": "B42 Wiesbaden - Rüdesheim\nzwischen Eltville Erbacher Straße in Eltville am Rhein und Hattenheim\nbeide Fahrtrichtungen bis auf weiteres gesperrt, Unfall, Polizei regelt den Verkehr, empfohlene Umleitungen: Richtung Rüdesheim über Erbach, Richtung Wiesbaden ab Hattenheim-Ost über Erbach"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B42"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B42 Wiesbaden Richtung Rüdesheim zwischen Eltville Erbacher Straße in Eltville am Rhein und Hattenheim",
-        "streets": [
-          "B42"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Information"
-        }
-      ],
-      "masterEventCategory": "Sperrung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-25T08:18:09.607Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
@@ -6105,6 +6096,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-02-07T13:51:13.289Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/484668_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484668
+      },
+      "description": [
+        {
+          "value": "B426 Höchst im Odenwald Richtung Gernsheim\nzwischen K138/B426 und Abzweig nach Nieder-Beerbach\nBergungsarbeiten, vorausgegangener Unfall"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B426"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B426 Höchst im Odenwald Richtung Gernsheim zwischen K138/B426 und Abzweig nach Nieder-Beerbach",
+        "streets": [
+          "B426"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-25T13:19:08.559Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -11365,6 +11410,65 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-12-14T15:08:09.05Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/484591_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484591
+      },
+      "description": [
+        {
+          "value": "Wiesbaden\nDemonstration um 14:30 Uhr, Verkehrsbehinderung zu erwarten, am 25.03.2022 von ca. 14:30 Uhr bis ca. 17:00 Uhr\n(\"Fridays For Future\"  Demonstration in der  Wiesbadener Innenstadtbereich)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": null
+          }
+        ],
+        "name": "Ort",
+        "description": "Wiesbaden",
+        "streets": null
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-25T13:30:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-03-25T16:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "am 25.03.2022 von ca. 14:30 Uhr bis ca. 17:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Stau"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-25T09:47:59.239Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
