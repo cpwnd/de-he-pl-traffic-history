@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -641,7 +641,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbadener Kreuz und Wiesbaden/Niedernhausen\nGefahr durch Gegenstände auf dem linken Fahrstreifen"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbadener Kreuz und Wiesbaden/Niedernhausen\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -663,7 +663,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -673,11 +673,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-25T07:20:04.305Z"
+        "value": "2022-03-25T07:36:10.114Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1518,60 +1518,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/484479_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 484479
-      },
-      "description": [
-        {
-          "value": "A6 Heilbronn Richtung Kaiserslautern\nzwischen Viernheimer Dreieck und Mannheim-Sandhofen\nalle Fahrbahnen wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A6"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A6 Heilbronn Richtung Kaiserslautern zwischen Viernheimer Dreieck und Mannheim-Sandhofen",
-        "streets": [
-          "A6"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Arbeitsstelle"
-        }
-      ],
-      "masterEventCategory": "Sperrung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-25T07:24:31.839Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -2851,7 +2797,7 @@
       },
       "description": [
         {
-          "value": "A45 Gießen Richtung Hagen\nzwischen Ehringshausen und Herborn-Süd\nGefahr durch Metallteile auf dem mittleren Fahrstreifen"
+          "value": "A45 Gießen Richtung Hagen\nzwischen Ehringshausen und Herborn-Süd\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -2873,7 +2819,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2883,11 +2829,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-25T07:23:50.545Z"
+        "value": "2022-03-25T07:31:51.384Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3695,6 +3641,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-06T13:00:00.462Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/484563_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484563
+      },
+      "description": [
+        {
+          "value": "A67 Darmstadt - Mönchhof-Dreieck\nzwischen Rüsselsheim-Ost und Mönchhof-Dreieck\nin beiden Richtungen freilaufende Tiere (Rehe)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A67"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A67 Darmstadt Richtung Mönchhof-Dreieck zwischen Rüsselsheim-Ost und Mönchhof-Dreieck",
+        "streets": [
+          "A67"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-25T07:38:51.69Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
