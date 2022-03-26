@@ -2569,6 +2569,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/484787_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484787
+      },
+      "description": [
+        {
+          "value": "A44 Dortmund Richtung Kassel\nDreieck Kassel-Süd Überleitung zur A7 Richtung Fulda\nGefahr durch defekten LKW in der Überleitung"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A44"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A44 Dortmund Richtung Kassel Dreieck Kassel-Süd Überleitung zur A7 Richtung Fulda",
+        "streets": [
+          "A44"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-26T03:33:42.513Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/477663_LMS-HE/54"
       },
       "dataProducer": {
@@ -3273,7 +3324,7 @@
       },
       "description": [
         {
-          "value": "A60 Mainz Richtung Rüsselsheim\nzwischen Bischofsheim und Rüsselsheim-Mitte\nNachtbaustelle, rechter Fahrstreifen gesperrt, Fahrbahn auf einen Fahrstreifen verengt, bis 26.03.2022 ca. 06:00 Uhr"
+          "value": "A60 Mainz Richtung Rüsselsheim\nzwischen Bischofsheim und Rüsselsheim-Mitte\nBaustelle beseitigt"
         }
       ],
       "location": {
@@ -3292,15 +3343,7 @@
           "A60"
         ]
       },
-      "duration": {
-        "startTime": null,
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-03-26T05:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "bis 26.03.2022 ca. 06:00 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -3319,7 +3362,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-25T23:01:14.853Z"
+        "value": "2022-03-26T03:46:45.565Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4781,60 +4824,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-12-03T09:20:20.585Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/484782_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 484782
-      },
-      "description": [
-        {
-          "value": "B42 Rüdesheim Richtung Wiesbaden\nin Höhe Walluf\nGefahr durch defektes Fahrzeug, bitte vorsichtig fahren"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B42"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B42 Rüdesheim Richtung Wiesbaden in Höhe Walluf",
-        "streets": [
-          "B42"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-26T03:03:02.419Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -10030,63 +10019,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-25T23:02:48.556Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/484779_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 484779
-      },
-      "description": [
-        {
-          "value": "L3274 Idstein - Hohenstein\nzwischen Niederlibbach und Abzweig nach Wingsbach\nin beiden Richtungen Straße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3274"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Rheingau-Taunus-Kreis, L3274 zwischen Niederlibbach und Abzweig nach Wingsbach",
-        "streets": [
-          "L3274"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Information"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-26T03:18:55.948Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
