@@ -2072,6 +2072,71 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/484783_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484783
+      },
+      "description": [
+        {
+          "value": "A7 Fulda Richtung Kassel\nAusfahrt Kirchheim\nBauarbeiten, gesperrt, bis 26.03.2022 20:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Fulda Richtung Kassel Ausfahrt Kirchheim",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-26T03:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-03-26T19:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "am 26.03.2022 von 04:00 Uhr bis 20:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-26T03:00:01.141Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/463060_LMS-HE/54"
       },
       "dataProducer": {
@@ -2129,6 +2194,71 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-10T07:00:01.983Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/484784_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484784
+      },
+      "description": [
+        {
+          "value": "A7 Fulda Richtung Kassel\nEinfahrt Kirchheim\nBauarbeiten, gesperrt, bis 26.03.2022 20:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Fulda Richtung Kassel Einfahrt Kirchheim",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-26T03:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-03-26T19:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "am 26.03.2022 von 04:00 Uhr bis 20:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-26T03:00:01.141Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4621,7 +4751,7 @@
       },
       "description": [
         {
-          "value": "B42 Rüdesheim Richtung Wiesbaden\nin Höhe Walluf\nUnfall, Gefahr durch Fahrzeugteile auf der Fahrbahn"
+          "value": "B42 Rüdesheim Richtung Wiesbaden\nin Höhe Walluf\nGefahr durch defektes Fahrzeug, bitte vorsichtig fahren"
         }
       ],
       "location": {
@@ -4647,20 +4777,20 @@
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Hindernis"
         },
         {
-          "value": "Hindernis"
+          "value": "Hinweis"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-26T02:27:55.578Z"
+        "value": "2022-03-26T03:03:02.419Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -5633,60 +5763,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-25T03:58:34.243Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/484734_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 484734
-      },
-      "description": [
-        {
-          "value": "B54 Limburg Richtung Siegen\nzwischen Abzweig nach Hangenmeilingen und Dorchheim\nNachtbaustelle, Fahrbahn auf einen Fahrstreifen verengt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B54"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B54 Limburg Richtung Siegen zwischen Abzweig nach Hangenmeilingen und Dorchheim",
-        "streets": [
-          "B54"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Arbeitsstelle"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-26T00:14:22.684Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
