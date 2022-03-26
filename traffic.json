@@ -2757,57 +2757,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/484886_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 484886
-      },
-      "description": [
-        {
-          "value": "A45 Hagen Richtung Gießen\nzwischen Ehringshausen und Wetzlarer Kreuz\nGefahr durch Ölspur, defektes Fahrzeug"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A45"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A45 Hagen Richtung Gießen zwischen Ehringshausen und Wetzlarer Kreuz",
-        "streets": [
-          "A45"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-26T14:39:45.548Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/443951_LMS-HE/54"
       },
       "dataProducer": {
@@ -9352,6 +9301,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-12-17T17:58:17.589Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/484887_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484887
+      },
+      "description": [
+        {
+          "value": "L3077 Rauschenberg, Westender Straße bis Bahnhofstraße\nzwischen Albert-Schweitzer-Straße und Schmaleichertorstraße\nin beiden Richtungen Polizeieinsatz, Richtungsfahrbahn gesperrt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3077"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Rauschenberg, Westender Straße bis Bahnhofstraße zwischen Albert-Schweitzer-Straße und Schmaleichertorstraße",
+        "streets": [
+          "L3077"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Information"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Information",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-26T15:15:13.064Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
