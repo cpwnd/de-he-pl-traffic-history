@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -392,57 +392,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/484811_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 484811
-      },
-      "description": [
-        {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Diez und Limburg-Nord\nGefahr durch Metallteile auf der Fahrbahn"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Köln Richtung Frankfurt zwischen Diez und Limburg-Nord",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-26T07:16:48.992Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
@@ -3323,7 +3272,7 @@
       },
       "description": [
         {
-          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Schiersteiner Kreuz und Wiesbaden-Frauenstein\nGefahr durch verlorene Ladung (mehrere Steine), Richtungsfahrbahn gesperrt, Reinigungsarbeiten\n(verlorener Bauschutt, Kehrmaschine im Einsatz)"
+          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Schiersteiner Kreuz und Wiesbaden-Frauenstein\nGefahr durch verlorene Ladung (mehrere Steine), Richtungsfahrbahn gesperrt, Reinigungsarbeiten\n(verlorener Bauschutt, Kehrmaschine im Einsatz, Verkehr wird Schiersteiner Kreuz auf die A643 Rtg Mainz abgeleitet)"
         }
       ],
       "location": {
@@ -3361,7 +3310,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-26T07:43:08.838Z"
+        "value": "2022-03-26T08:02:43.897Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4250,6 +4199,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-12-20T14:44:37.366Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/484817_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484817
+      },
+      "description": [
+        {
+          "value": "A671 Mainz Richtung Wiesbaden\nzwischen Gustavsburg und Hochheim-Süd\nGefahr durch Personen auf der Fahrbahn\n(Örtlichkeit korrigiert)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A671"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A671 Mainz Richtung Wiesbaden zwischen Gustavsburg und Hochheim-Süd",
+        "streets": [
+          "A671"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-26T08:11:59.077Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
