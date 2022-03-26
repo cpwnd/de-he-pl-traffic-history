@@ -1118,7 +1118,7 @@
       },
       "description": [
         {
-          "value": "A5 Kassel Richtung Frankfurt\nzwischen Friedberg und Bad Homburger Kreuz\nBauarbeiten, vorübergehende Begrenzung der Fahrbahnbreite auf 7,50 m, am 26.03.2022 von 13:00 Uhr bis 21:00 Uhr"
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Friedberg und Bad Homburger Kreuz\nvorübergehende Begrenzung der Breite besteht nicht mehr"
         }
       ],
       "location": {
@@ -1137,18 +1137,7 @@
           "A5"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-26T12:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-03-26T20:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "am 26.03.2022 von 13:00 Uhr bis 21:00 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -1164,7 +1153,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-21T03:19:59.805Z"
+        "value": "2022-03-26T20:13:47.241Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1234,6 +1223,71 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/482986_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 482986
+      },
+      "description": [
+        {
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Friedberg und Bad Homburger Kreuz\nBauarbeiten, vorübergehende Begrenzung der Fahrbahnbreite auf 3,75 m, von 26.03.2022 21:00 Uhr bis 27.03.2022 10:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Kassel Richtung Frankfurt zwischen Friedberg und Bad Homburger Kreuz",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-26T20:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-03-27T08:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 26.03.2022 21:00 Uhr bis 27.03.2022 10:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-21T03:20:18.148Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -1425,57 +1479,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-12-31T04:33:20.613Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/484931_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 484931
-      },
-      "description": [
-        {
-          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Weiterstadt und Langen/Mörfelden\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Darmstadt Richtung Frankfurt zwischen Weiterstadt und Langen/Mörfelden",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-26T19:34:31.227Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2437,61 +2440,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-03T16:02:45.746Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/484799_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 484799
-      },
-      "description": [
-        {
-          "value": "A7, A5 Fulda Richtung Kassel\nzwischen Hattenbacher Dreieck und Kirchheim\nBaustelle, Anschlussstelle gesperrt\n(Auf- und Abfahrt AS Kirchheim bis 20 Uhr wegen Bauarbeiten gesperrt, Zufahrt zur Tankstelle weiterhin möglich!"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A7, A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A7, A5 Fulda Richtung Kassel zwischen Hattenbacher Dreieck und Kirchheim",
-        "streets": [
-          "A7",
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-26T05:32:36.865Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -10745,7 +10693,7 @@
       },
       "description": [
         {
-          "value": "Frankfurt\nDemonstration, Verkehrsbehinderung zu erwarten, bis 26.03.2022 ca. 21:00 Uhr\n(Wegen mehreren Demonstrationen in der Zeit von 14.00 Uhr bis 20.00 Uhr kommt es im Bereich der Innenstadt Frankfurt zu Verkehrsbehinderungen. Hierdurch kann es auch im Bereich des öffentlichen Nahverkehrs zu Behinderungen und Verspätungen kommen (Straßenbahn und Buslinien). Der U-/S-Bahnverkehr ist davon nicht betroffen. Fahrzeugführer werden gebeten, die Innenstadt weitläufig zu umfahren.)"
+          "value": "Frankfurt\nVeranstaltung beendet"
         }
       ],
       "location": {
@@ -10758,18 +10706,7 @@
         "description": "Frankfurt",
         "streets": null
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-26T12:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-03-26T20:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "am 26.03.2022 von ca. 13:00 Uhr bis ca. 21:00 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -10785,7 +10722,7 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-26T13:20:01.715Z"
+        "value": "2022-03-26T20:14:11.663Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -12425,6 +12362,56 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-02-28T05:00:02.78Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/484933_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484933
+      },
+      "description": [
+        {
+          "value": "Bebra, Friedrichstraße\nin Höhe Malerweg\nBrand, Rauch, Anwohner werden gebeten, Fenster und Türen geschlossen zu halten"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": null
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Bebra, Friedrichstraße in Höhe Malerweg",
+        "streets": null
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-26T20:13:15.19Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
