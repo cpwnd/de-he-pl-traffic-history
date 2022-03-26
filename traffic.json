@@ -136,57 +136,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/484785_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 484785
-      },
-      "description": [
-        {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Mönchhof-Dreieck und Kelsterbach\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Köln Richtung Frankfurt zwischen Mönchhof-Dreieck und Kelsterbach",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-26T04:36:36.042Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/462180_LMS-HE/54"
       },
       "dataProducer": {
@@ -1217,60 +1166,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/484790_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 484790
-      },
-      "description": [
-        {
-          "value": "A5 Darmstadt Richtung Heidelberg\nzwischen Heppenheim und Hemsbach\nStraße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Darmstadt Richtung Heidelberg zwischen Heppenheim und Hemsbach",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-26T04:39:20.485Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -2685,6 +2580,71 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/484795_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484795
+      },
+      "description": [
+        {
+          "value": "A45 Hagen Richtung Gießen\nzwischen Wetzlarer Kreuz und Wetzlar-Ost\nBauarbeiten, vorübergehende Begrenzung der Fahrbahnbreite auf 7,50 m, bis 31.03.2022 20:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A45 Hagen Richtung Gießen zwischen Wetzlarer Kreuz und Wetzlar-Ost",
+        "streets": [
+          "A45"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-26T05:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-03-31T18:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 26.03.2022 06:00 Uhr bis 31.03.2022 20:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-26T05:00:01.655Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/443951_LMS-HE/54"
       },
       "dataProducer": {
@@ -2866,6 +2826,71 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-02-24T11:32:03.974Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/484796_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484796
+      },
+      "description": [
+        {
+          "value": "A45 Gießen Richtung Hagen\nzwischen Wetzlar-Ost und Blasbach Talbrücke\nBauarbeiten, vorübergehende Begrenzung der Fahrbahnbreite auf 7,20 m, bis 31.03.2022 20:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A45 Gießen Richtung Hagen zwischen Wetzlar-Ost und Blasbach Talbrücke",
+        "streets": [
+          "A45"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-26T05:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-03-31T18:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 26.03.2022 06:00 Uhr bis 31.03.2022 20:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-26T05:00:01.655Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4139,6 +4164,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/484794_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484794
+      },
+      "description": [
+        {
+          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Frankfurt-Friedberger Landstraße und Preungesheimer Dreieck\nGefahr durch ein totes Tier auf der Fahrbahn\n(Fuchs)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A661"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A661 Darmstadt Richtung Bad Homburg zwischen Frankfurt-Friedberger Landstraße und Preungesheimer Dreieck",
+        "streets": [
+          "A661"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-26T04:59:53.123Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
