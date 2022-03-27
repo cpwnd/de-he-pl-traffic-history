@@ -1310,7 +1310,7 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Fernwald und Reiskirchen\nGefahr durch ungesicherte Unfallstelle, Unfall mit Verletzten, Fahrstreifen blockiert, verschmutzte Fahrbahn, Polizei ist benachrichtigt, bitte vorsichtig fahren"
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Fernwald und Reiskirchen\nUnfall, linker Fahrstreifen wieder befahrbar"
         }
       ],
       "location": {
@@ -1332,33 +1332,24 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
           "value": "Unfall"
         },
         {
-          "value": "Straßenzustand"
-        },
-        {
-          "value": "Information"
-        },
-        {
-          "value": "Hinweis"
-        },
-        {
-          "value": "Störung"
+          "value": "Sperrung"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-27T19:15:03.114Z"
+        "value": "2022-03-27T19:31:28.531Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3904,63 +3895,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-21T14:04:25.477Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/485062_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 485062
-      },
-      "description": [
-        {
-          "value": "A661 Darmstadt Richtung Bad Homburg\nin Höhe Offenbach-Taunusring\nUnfallstelle geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A661"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A661 Darmstadt Richtung Bad Homburg in Höhe Offenbach-Taunusring",
-        "streets": [
-          "A661"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Information"
-        },
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Arbeitsstelle"
-        }
-      ],
-      "masterEventCategory": "Information",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-27T19:16:34.632Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
