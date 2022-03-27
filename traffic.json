@@ -136,60 +136,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/484974_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 484974
-      },
-      "description": [
-        {
-          "value": "A3 Köln Richtung Würzburg\nzwischen Frankfurter Kreuz und Frankfurt am Main-Süd\nlangsam fahren, Unfallaufnahme, Gefahr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Köln Richtung Würzburg zwischen Frankfurter Kreuz und Frankfurt am Main-Süd",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hinweis"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Hinweis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-27T08:03:02.982Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/462180_LMS-HE/54"
       },
       "dataProducer": {
@@ -1024,6 +970,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-15T20:00:04.312Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/484983_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484983
+      },
+      "description": [
+        {
+          "value": "A4 Erfurt Richtung Bad Hersfeld\nzwischen Wildeck-Hönebach und Friedewald\nGefahr durch defektes Fahrzeug auf dem rechten Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A4"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A4 Erfurt Richtung Bad Hersfeld zwischen Wildeck-Hönebach und Friedewald",
+        "streets": [
+          "A4"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-27T08:51:11.044Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
