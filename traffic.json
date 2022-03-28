@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -132,57 +132,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/485157_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 485157
-      },
-      "description": [
-        {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Kelsterbach und Frankfurter Kreuz\nUnfallstelle geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Köln Richtung Frankfurt zwischen Kelsterbach und Frankfurter Kreuz",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-28T07:16:56.861Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -1804,6 +1753,71 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/485160_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485160
+      },
+      "description": [
+        {
+          "value": "A7 Kassel Richtung Fulda\nzwischen Kreuz Kassel-Mitte und Dreieck Kassel-Süd\nFahrbahnausbesserung, Fahrbahnverengung, maximale Fahrbahnbreite von 8,65 m, bis 13.06.2022 05:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Kassel Richtung Fulda zwischen Kreuz Kassel-Mitte und Dreieck Kassel-Süd",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-28T07:30:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-06-13T03:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 28.03.2022 09:30 Uhr bis 13.06.2022 05:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-28T07:30:02.791Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/468285_LMS-HE/54"
       },
       "dataProducer": {
@@ -2180,6 +2194,136 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-28T20:00:01.686Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/485165_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485165
+      },
+      "description": [
+        {
+          "value": "A7 Fulda Richtung Kassel\nDreieck Kassel-Süd Überleitung zur A44 Richtung Dortmund\nFahrbahnausbesserung, Fahrbahnverengung, maximale Fahrbahnbreite von 3,25 m, bis 13.06.2022 05:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Fulda Richtung Kassel Dreieck Kassel-Süd Überleitung zur A44 Richtung Dortmund",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-28T07:30:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-06-13T03:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 28.03.2022 09:30 Uhr bis 13.06.2022 05:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-28T07:30:02.791Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/485161_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485161
+      },
+      "description": [
+        {
+          "value": "A7 Fulda Richtung Hannover\nzwischen Dreieck Kassel-Süd und Kreuz Kassel-Mitte\nFahrbahnausbesserung, Fahrbahnverengung, maximale Fahrbahnbreite von 6,50 m, bis 13.06.2022 05:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Fulda Richtung Hannover zwischen Dreieck Kassel-Süd und Kreuz Kassel-Mitte",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-28T07:30:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-06-13T03:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 28.03.2022 09:30 Uhr bis 13.06.2022 05:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-28T07:30:02.791Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2943,6 +3087,201 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/485163_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485163
+      },
+      "description": [
+        {
+          "value": "A49 Südtangente, Gießen Richtung Kassel\nKreuz Kassel-Mitte Überleitung zur A7 Richtung Fulda\nFahrbahnausbesserung, Fahrbahnverengung, maximale Fahrbahnbreite von 3,50 m, bis 13.06.2022 05:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A49"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A49 Südtangente, Gießen Richtung Kassel Kreuz Kassel-Mitte Überleitung zur A7 Richtung Fulda",
+        "streets": [
+          "A49"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-28T07:30:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-06-13T03:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 28.03.2022 09:30 Uhr bis 13.06.2022 05:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-28T07:30:02.791Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/485164_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485164
+      },
+      "description": [
+        {
+          "value": "A49 Kassel Richtung Gießen\nin Höhe Kreuz Kassel-Mitte\nFahrbahnausbesserung, Fahrbahnverengung, maximale Fahrbahnbreite von 3,75 m, bis 13.06.2022 05:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A49"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A49 Kassel Richtung Gießen in Höhe Kreuz Kassel-Mitte",
+        "streets": [
+          "A49"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-28T07:30:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-06-13T03:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 28.03.2022 09:30 Uhr bis 13.06.2022 05:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-28T07:30:02.791Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/485162_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485162
+      },
+      "description": [
+        {
+          "value": "A49 Südtangente, Gießen Richtung Kassel\nKreuz Kassel-Mitte Überleitung zur A7 Richtung Hannover\nFahrbahnausbesserung, Fahrbahnverengung, maximale Fahrbahnbreite von 3,80 m, bis 13.06.2022 05:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A49"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A49 Südtangente, Gießen Richtung Kassel Kreuz Kassel-Mitte Überleitung zur A7 Richtung Hannover",
+        "streets": [
+          "A49"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-28T07:30:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-06-13T03:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 28.03.2022 09:30 Uhr bis 13.06.2022 05:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-28T07:30:02.791Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -4220,6 +4559,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/485167_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485167
+      },
+      "description": [
+        {
+          "value": "B8 Limburg Richtung Altenkirchen\nzwischen Elz und Malmeneich\nBaumfällarbeiten, mehrfach kurzfristige Sperrungen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B8"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B8 Limburg Richtung Altenkirchen zwischen Elz und Malmeneich",
+        "streets": [
+          "B8"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-28T07:37:37.235Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
