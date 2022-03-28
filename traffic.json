@@ -526,6 +526,71 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/485294_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485294
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbadener Kreuz und Wiesbaden/Niedernhausen\nBauarbeiten, rechter Fahrstreifen gesperrt, mittlerer Fahrstreifen gesperrt, bis 29.03.2022 06:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Köln zwischen Wiesbadener Kreuz und Wiesbaden/Niedernhausen",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-28T18:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-03-29T04:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 28.03.2022 20:00 Uhr bis 29.03.2022 06:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-28T18:18:02.643Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/481932_LMS-HE/54"
       },
       "dataProducer": {
@@ -1165,6 +1230,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-21T03:00:01.216Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/485282_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485282
+      },
+      "description": [
+        {
+          "value": "A5 Heidelberg Richtung Darmstadt\nzwischen Darmstadt-Eberstadt und Darmstädter Kreuz\nUnfall, rechter Fahrstreifen blockiert"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Heidelberg Richtung Darmstadt zwischen Darmstadt-Eberstadt und Darmstädter Kreuz",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-28T17:54:05.068Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4301,60 +4420,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/485277_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 485277
-      },
-      "description": [
-        {
-          "value": "A671 Mainz Richtung Wiesbaden\nzwischen Mainz-Kastel und Wiesbaden-Amöneburg\nGefahr durch ungesicherte Unfallstelle auf dem Standstreifen, Gefahr durch Gegenstände auf der Fahrbahn (Fahrzeugteile)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A671"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A671 Mainz Richtung Wiesbaden zwischen Mainz-Kastel und Wiesbaden-Amöneburg",
-        "streets": [
-          "A671"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-28T16:54:12.837Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/381701_LMS-HE/54"
       },
       "dataProducer": {
@@ -5270,6 +5335,68 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/485285_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485285
+      },
+      "description": [
+        {
+          "value": "B45 Hanau Richtung Dieburg\nzwischen Rodgau-Niederroden in Nieder-Roden und B459, Rödermark-Ober-Roden\nvorübergehende Begrenzung der Fahrbahnbreite auf 6,10 m, bis 16.07.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B45 Hanau Richtung Dieburg zwischen Rodgau-Niederroden in Nieder-Roden und B459, Rödermark-Ober-Roden",
+        "streets": [
+          "B45"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-28T18:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-07-16T03:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 28.03.2022 bis 16.07.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Beschränkung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-28T18:00:02.579Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/409921_LMS-HE/54"
       },
       "dataProducer": {
@@ -5325,6 +5452,77 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/485284_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485284
+      },
+      "description": [
+        {
+          "value": "B45 Dieburg Richtung Hanau\nzwischen B459, Rödermark-Ober-Roden und Rodgau-Niederroden in Nieder-Roden\nBauarbeiten, vorübergehende Begrenzung der Fahrbahnbreite auf 3 m, Richtungsfahrbahn gesperrt, Verkehr wird über die Gegenfahrbahn geleitet, Fahrbahn auf einen Fahrstreifen verengt, bis 21.04.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B45 Dieburg Richtung Hanau zwischen B459, Rödermark-Ober-Roden und Rodgau-Niederroden in Nieder-Roden",
+        "streets": [
+          "B45"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-28T18:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-21T03:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 28.03.2022 bis 21.04.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-28T18:00:02.579Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -6073,7 +6271,7 @@
       },
       "description": [
         {
-          "value": "B457 Gelnhausen - Nidda\nzwischen Bleichenbach und Ortenberg-Selters\nin beiden Richtungen Bauarbeiten, halbseitig gesperrt, vorübergehende Regelung durch provisorische Ampelanlagen, vorübergehende Begrenzung der Fahrbahnbreite auf 2,75 m, bis 08.04.2022, Mo - Fr zwischen 07:00 Uhr und 07:00 Uhr"
+          "value": "B457 Gelnhausen - Nidda\nzwischen Bleichenbach und Ortenberg-Selters\nin beiden Richtungen Baustelle beseitigt"
         }
       ],
       "location": {
@@ -6092,18 +6290,7 @@
           "B457"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-21T06:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-08T15:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 21.03.2022 bis 08.04.2022, Mo - Fr zwischen 07:00 Uhr und 07:00 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -6125,7 +6312,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-28T06:23:01.55Z"
+        "value": "2022-03-28T18:15:01.681Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -8244,6 +8431,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/485155_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485155
+      },
+      "description": [
+        {
+          "value": "K816 Frankfurt, Mörfelder Landstraße\nzwischen Wendelsplatz und Frankfurt\nBaustelle beseitigt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K816"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, Mörfelder Landstraße zwischen Wendelsplatz und Frankfurt",
+        "streets": [
+          "K816"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-28T18:15:37.344Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/471142_LMS-HE/54"
       },
       "dataProducer": {
@@ -10138,6 +10379,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-25T23:02:48.556Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/485153_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485153
+      },
+      "description": [
+        {
+          "value": "L3266 Altstadt Richtung Unterliederbach\nzwischen Höchst und Frankfurt am Main-Höchst in Unterliederbach\nBaustelle beseitigt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3266"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, L3266 zwischen Höchst und Frankfurt am Main-Höchst in Unterliederbach",
+        "streets": [
+          "L3266"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-28T18:18:41.406Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
