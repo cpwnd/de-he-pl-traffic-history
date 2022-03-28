@@ -1299,7 +1299,7 @@
       },
       "description": [
         {
-          "value": "A5 Darmstadt - Frankfurt\nin Höhe Zeppelinheim\nin beiden Richtungen Baustelle, geänderte Verkehrsführung im Baustellenbereich, vorübergehende Begrenzung der Fahrbahnbreite auf 12,50 m, bis 11.04.2022 ca. 05:00 Uhr"
+          "value": "A5 Darmstadt - Frankfurt\nin Höhe Zeppelinheim\nin beiden Richtungen Baustelle, geänderte Verkehrsführung im Baustellenbereich, vorübergehende Begrenzung der Fahrbahnbreite auf 12,50 m, bis 25.04.2022 ca. 05:00 Uhr"
         }
       ],
       "location": {
@@ -1322,10 +1322,10 @@
         "startTime": null,
         "endTime": {
           "name": "Endzeit",
-          "value": "2022-04-11T03:00:00Z"
+          "value": "2022-04-25T03:00:00Z"
         },
         "name": "Dauer",
-        "description": "bis 11.04.2022 ca. 05:00 Uhr"
+        "description": "bis 25.04.2022 ca. 05:00 Uhr"
       },
       "urgency": {
         "name": "Dringlichkeit",
@@ -1342,7 +1342,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-09T13:56:08.225Z"
+        "value": "2022-03-28T13:39:39.318Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2445,17 +2445,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/485200_LMS-HE/54"
+        "value": "LMS/r_LMS/485241_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 485200
+        "value": 485241
       },
       "description": [
         {
-          "value": "A45 Gießen Richtung Aschaffenburg\nzwischen Hammersbach und Langenselbold-West\nStraße geräumt"
+          "value": "A44 Dortmund Richtung Kassel\nzwischen Breuna und Zierenberg\nGefahr durch Reifenteile auf der Fahrbahn"
         }
       ],
       "location": {
@@ -2463,41 +2463,35 @@
           {
             "edge": {
               "sortRoadNumber": {
-                "value": "A45"
+                "value": "A44"
               }
             }
           }
         ],
         "name": "Ort",
-        "description": "A45 Gießen Richtung Aschaffenburg zwischen Hammersbach und Langenselbold-West",
+        "description": "A44 Dortmund Richtung Kassel zwischen Breuna und Zierenberg",
         "streets": [
-          "A45"
+          "A44"
         ]
       },
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Normal"
+        "value": "Dringend"
       },
       "eventCategory": [
         {
           "value": "Hindernis"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Hinweis"
         }
       ],
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-28T13:07:01.948Z"
+        "value": "2022-03-28T13:33:53.496Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Geändert"
+        "value": "Neu"
       }
     },
     {
@@ -4946,7 +4940,7 @@
       },
       "description": [
         {
-          "value": "B40, B8 Frankfurt, Ratswegbrücke bis Hanauer Landstraße\nzwischen Ratswegbrücke und A661, Frankfurt am Main-Ost\nbis auf weiteres Baustelle, Stau, stockender Verkehr, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+          "value": "B40, B8 Frankfurt, Ratswegbrücke bis Hanauer Landstraße\nzwischen Ratswegbrücke und A661, Frankfurt am Main-Ost\nbis auf weiteres Baustelle, Stau, stockender Verkehr, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, bis 28.03.2022"
         }
       ],
       "location": {
@@ -4966,7 +4960,18 @@
           "B8"
         ]
       },
-      "duration": null,
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-28T10:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-03-28T21:59:00Z"
+        },
+        "name": "Dauer",
+        "description": "am 28.03.2022 ab 12:00 Uhr"
+      },
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -4985,7 +4990,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-28T12:06:33.264Z"
+        "value": "2022-03-28T13:21:06.282Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6167,60 +6172,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-02-07T13:51:13.289Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/485193_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 485193
-      },
-      "description": [
-        {
-          "value": "B455 Königstein Richtung Oberursel\nzwischen Kronberg und Abzweig nach Oberhöchstadt\nBaumfällarbeiten, Stau, stockender Verkehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B455"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B455 Königstein Richtung Oberursel zwischen Kronberg und Abzweig nach Oberhöchstadt",
-        "streets": [
-          "B455"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Stau"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-28T10:09:58.761Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -9382,6 +9333,58 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-22T10:38:52.455Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/485234_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485234
+      },
+      "description": [
+        {
+          "value": "L3006, L3005 zwischen Eschborn-Ost und A5, A66, Nordwestkreuz Frankfurt am Main\nin beiden Richtungen Gefahr durch 1 Person auf der Fahrbahn auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3006, L3005"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Main-Taunus-Kreis und Frankfurt, L3006, L3005 zwischen Eschborn-Ost und A5, A66, Nordwestkreuz Frankfurt am Main",
+        "streets": [
+          "L3006",
+          "L3005"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-28T13:17:14.35Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
