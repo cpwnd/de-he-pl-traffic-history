@@ -1300,6 +1300,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/485268_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485268
+      },
+      "description": [
+        {
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Homberg (Ohm) und Alsfeld-West\nGefahr durch defektes Fahrzeug auf dem rechten Fahrstreifen und dem Standstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Frankfurt Richtung Kassel zwischen Homberg (Ohm) und Alsfeld-West",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-28T15:44:14.791Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/335177_LMS-HE/54"
       },
       "dataProducer": {
@@ -3423,7 +3474,7 @@
       },
       "description": [
         {
-          "value": "A60 Mainz Richtung Rüsselsheim\nzwischen Mainspitz-Dreieck und Bischofsheim\nGefahr durch verlorene Ladung (ein Plastikteil), Polizei ist benachrichtigt, bitte vorsichtig fahren"
+          "value": "A60 Mainz Richtung Rüsselsheim\nzwischen Mainspitz-Dreieck und Bischofsheim\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -3445,7 +3496,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -3461,11 +3512,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-28T15:18:24.66Z"
+        "value": "2022-03-28T15:38:49.221Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4612,6 +4663,63 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-18T10:04:37.93Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/485267_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485267
+      },
+      "description": [
+        {
+          "value": "B26 Darmstadt Richtung Aschaffenburg\nzwischen B38, Roßdorf und Groß-Zimmern\nGefahr durch ungesicherte Unfallstelle auf dem linken Fahrstreifen, Gefahr durch Personen auf der Fahrbahn, Richtungsfahrbahn gesperrt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B26"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B26 Darmstadt Richtung Aschaffenburg zwischen B38, Roßdorf und Groß-Zimmern",
+        "streets": [
+          "B26"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-28T15:45:25.134Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
