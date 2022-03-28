@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -396,108 +396,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/485216_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 485216
-      },
-      "description": [
-        {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbaden/Niedernhausen und Wiesbadener Kreuz\nGefahr durch Gegenstände auf dem linken und dem mittleren Fahrstreifen"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Köln Richtung Frankfurt zwischen Wiesbaden/Niedernhausen und Wiesbadener Kreuz",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-28T11:41:55.414Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/485211_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 485211
-      },
-      "description": [
-        {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Idstein und Wiesbaden/Niedernhausen\nGefahr durch Gegenstände auf der Fahrbahn (mehrere Spanngurte)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Köln Richtung Frankfurt zwischen Idstein und Wiesbaden/Niedernhausen",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-28T11:25:20.537Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/478197_LMS-HE/54"
       },
       "dataProducer": {
@@ -555,57 +453,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-10T11:11:40.484Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/485210_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 485210
-      },
-      "description": [
-        {
-          "value": "A3 Richtung Köln\nzwischen Frankfurter Kreuz und Kelsterbach\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Richtung Köln zwischen Frankfurter Kreuz und Kelsterbach",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-28T11:41:47.241Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2557,7 +2404,7 @@
       },
       "description": [
         {
-          "value": "A45 Gießen Richtung Aschaffenburg\nzwischen Hammersbach und Langenselbold-West\nGefahr durch Gegenstände auf der Fahrbahn, rechter Fahrstreifen gesperrt\n(Lkw hat Ladung verloren)"
+          "value": "A45 Gießen Richtung Aschaffenburg\nzwischen Hammersbach und Langenselbold-West\nGefahr durch Gegenstände auf der Fahrbahn, Anschlussstelle vorübergehend gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, bis 28.03.2022 15:00 Uhr\n(AS / Zufahrt Hammersbach in Richtung Aschaffenburg - gesperrt)"
         }
       ],
       "location": {
@@ -2576,7 +2423,18 @@
           "A45"
         ]
       },
-      "duration": null,
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-28T12:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-03-28T13:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "am 28.03.2022 von 14:00 Uhr bis 15:00 Uhr"
+      },
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Dringend"
@@ -2587,12 +2445,15 @@
         },
         {
           "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
         }
       ],
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-28T11:06:47.895Z"
+        "value": "2022-03-28T12:00:24.15Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3098,57 +2959,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-25T13:16:33.699Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/485205_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 485205
-      },
-      "description": [
-        {
-          "value": "A45 Gießen Richtung Hagen\nzwischen Ehringshausen und Herborn-Süd\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A45"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A45 Gießen Richtung Hagen zwischen Ehringshausen und Herborn-Süd",
-        "streets": [
-          "A45"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-28T11:39:59.321Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3916,57 +3726,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/485217_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 485217
-      },
-      "description": [
-        {
-          "value": "A67 Darmstadt - Mannheim\nzwischen Darmstädter Kreuz und Pfungstadt\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A67"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A67 Darmstadt Richtung Mannheim zwischen Darmstädter Kreuz und Pfungstadt",
-        "streets": [
-          "A67"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-28T11:42:49.191Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
@@ -5147,7 +4906,7 @@
       },
       "description": [
         {
-          "value": "B40, B8 Frankfurt, Ratswegbrücke bis Hanauer Landstraße\nzwischen Ratswegbrücke und A661, Frankfurt am Main-Ost\nBaustelle, Stau, stockender Verkehr, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+          "value": "B40, B8 Frankfurt, Ratswegbrücke bis Hanauer Landstraße\nzwischen Ratswegbrücke und A661, Frankfurt am Main-Ost\nbis auf weiteres Baustelle, Stau, stockender Verkehr, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
         }
       ],
       "location": {
@@ -5177,20 +4936,20 @@
           "value": "Arbeitsstelle"
         },
         {
-          "value": "Hinweis"
+          "value": "Stau"
         },
         {
-          "value": "Stau"
+          "value": "Hinweis"
         }
       ],
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-28T10:41:16.159Z"
+        "value": "2022-03-28T12:06:33.264Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -5315,63 +5074,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-02-28T23:00:03.696Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/485214_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 485214
-      },
-      "description": [
-        {
-          "value": "B42 Assmannshausen\nin Höhe Rheinuferstraße\nUnfall, beide Fahrtrichtungen gesperrt, Rettungshubschrauber im Einsatz"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B42"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B42 Assmannshausen in Höhe Rheinuferstraße",
-        "streets": [
-          "B42"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Information"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-28T11:33:49.507Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -5691,57 +5393,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-12-22T11:38:19.234Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/485207_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 485207
-      },
-      "description": [
-        {
-          "value": "B45 Höchst im Odenwald - Groß-Umstadt\nzwischen Kreisverkehr Höchst im Odenwald und Abzweig nach Hetschbach\nin beiden Richtungen Gefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B45"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B45 Höchst im Odenwald Richtung Groß-Umstadt zwischen Kreisverkehr Höchst im Odenwald und Abzweig nach Hetschbach",
-        "streets": [
-          "B45"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-28T11:41:24.989Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
