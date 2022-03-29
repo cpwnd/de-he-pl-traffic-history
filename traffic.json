@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -1169,57 +1169,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/485419_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 485419
-      },
-      "description": [
-        {
-          "value": "A5 Heidelberg Richtung Darmstadt\nzwischen Zwingenberg und Seeheim-Jugenheim\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Heidelberg Richtung Darmstadt zwischen Zwingenberg und Seeheim-Jugenheim",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-29T09:06:19.77Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -6360,6 +6309,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/485426_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485426
+      },
+      "description": [
+        {
+          "value": "B254 Kassel - Alsfeld\nzwischen B454, Kreisverkehr Schwalmstadt-Trutzhain und Röllshausen\nin beiden Richtungen 1 freilaufendes Tier (Rind)\n(flüchtiger Schlachtbulle droht auf die B254 zu laufen) "
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B254"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B254 Kassel Richtung Alsfeld zwischen B454, Kreisverkehr Schwalmstadt-Trutzhain und Röllshausen",
+        "streets": [
+          "B254"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-29T09:27:31.337Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/471458_LMS-HE/54"
       },
       "dataProducer": {
@@ -11367,7 +11367,7 @@
       },
       "description": [
         {
-          "value": "Langen (Hessen)\nTelefonnetz gestört\n(Die Polizeistation Langen ist derzeit telefonisch nicht über die Amtsleitung zu erreichen. Es wird gebeten die Nr. 110 zu wählen. An der Fehlerbehebung wird gearbeitet) "
+          "value": "Langen (Hessen)\nStörung beseitigt"
         }
       ],
       "location": {
@@ -11393,7 +11393,7 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-29T09:03:30.889Z"
+        "value": "2022-03-29T09:30:06.602Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
