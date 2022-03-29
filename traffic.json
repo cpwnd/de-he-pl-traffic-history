@@ -571,11 +571,11 @@
       "masterEventCategory": "Stau",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-29T11:32:28.64Z"
+        "value": "2022-03-29T13:40:33.864Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -655,7 +655,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Bad Camberg und Limburg-Süd\nGefahr durch defekten LKW auf dem rechten Fahrstreifen vor der Baustelle"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Bad Camberg und Limburg-Süd\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -677,7 +677,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -687,11 +687,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-29T11:34:24.524Z"
+        "value": "2022-03-29T13:38:09.981Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1158,7 +1158,7 @@
       },
       "description": [
         {
-          "value": "A4 Bad Hersfeld Richtung Erfurt\nAusfahrt Friedewald\nGefahr durch defekten LKW in der Überleitung"
+          "value": "A4 Bad Hersfeld Richtung Erfurt\nAusfahrt Friedewald\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -1180,7 +1180,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1190,7 +1190,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-29T12:03:56.753Z"
+        "value": "2022-03-29T13:38:43.833Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1567,7 +1567,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-29T08:23:00.275Z"
+        "value": "2022-03-29T13:39:26.188Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -8453,6 +8453,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/485377_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485377
+      },
+      "description": [
+        {
+          "value": "K816 Frankfurt, Mörfelder Landstraße\nzwischen Wendelsplatz und Frankfurt\nBaustelle beseitigt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K816"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, Mörfelder Landstraße zwischen Wendelsplatz und Frankfurt",
+        "streets": [
+          "K816"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-29T13:40:57.828Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/471142_LMS-HE/54"
       },
       "dataProducer": {
@@ -10415,6 +10469,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-25T23:02:48.556Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/485376_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485376
+      },
+      "description": [
+        {
+          "value": "L3266 Altstadt Richtung Unterliederbach\nzwischen Höchst und Frankfurt am Main-Höchst in Unterliederbach\nBaustelle beseitigt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3266"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, L3266 zwischen Höchst und Frankfurt am Main-Höchst in Unterliederbach",
+        "streets": [
+          "L3266"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-29T13:40:44.309Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
