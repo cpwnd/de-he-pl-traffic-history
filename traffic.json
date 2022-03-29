@@ -1227,6 +1227,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/485560_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485560
+      },
+      "description": [
+        {
+          "value": "A5 Heidelberg Richtung Darmstadt\nzwischen Darmstadt-Eberstadt und Darmstädter Kreuz\nBaustelle, linker Fahrstreifen gesperrt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Heidelberg Richtung Darmstadt zwischen Darmstadt-Eberstadt und Darmstädter Kreuz",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-29T18:56:42.37Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/338932_LMS-HE/54"
       },
       "dataProducer": {
@@ -3907,7 +3961,7 @@
       },
       "description": [
         {
-          "value": "A67 Mannheim Richtung Darmstadt\nEinfahrt Lorsch\nBergungsarbeiten, Unfallaufnahme, Richtungsfahrbahn gesperrt\n(Auffahrt zur A67 in Fahrtrichtung Darmstadt von der B47 aus Richtung Worms kommend.)"
+          "value": "A67 Mannheim Richtung Darmstadt\nEinfahrt Lorsch\nalle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -3945,7 +3999,61 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-29T18:25:18.593Z"
+        "value": "2022-03-29T18:59:15.825Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/485556_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485556
+      },
+      "description": [
+        {
+          "value": "A67 Mannheim Richtung Darmstadt\nzwischen Pfungstadt und Darmstädter Kreuz\nGefahr durch Fahrradfahrer auf der Fahrbahn, fahren Sie bitte besonders vorsichtig"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A67"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A67 Mannheim Richtung Darmstadt zwischen Pfungstadt und Darmstädter Kreuz",
+        "streets": [
+          "A67"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-29T18:52:40.224Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4073,57 +4181,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-06T13:00:00.462Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/485552_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 485552
-      },
-      "description": [
-        {
-          "value": "A67 Darmstadt Richtung Mönchhof-Dreieck\nzwischen Rüsselsheim-Ost und Mönchhof-Dreieck\nGefahr durch ungesicherte Unfallstelle"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A67"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A67 Darmstadt Richtung Mönchhof-Dreieck zwischen Rüsselsheim-Ost und Mönchhof-Dreieck",
-        "streets": [
-          "A67"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-29T18:37:40.627Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6803,6 +6860,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/485558_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485558
+      },
+      "description": [
+        {
+          "value": "B455 Wiesbaden, Siegfriedring\nzwischen B54, Berliner Straße und Ortsausgang\nin beiden Richtungen Gefahr besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B455"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B455 Wiesbaden, Siegfriedring zwischen B54, Berliner Straße und Ortsausgang",
+        "streets": [
+          "B455"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-29T18:58:01.549Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -10303,7 +10411,7 @@
       },
       "description": [
         {
-          "value": "L3111 zwischen Lorsch und Abzweig nach Heppenheim (Bergstraße)\nUnfall, beide Fahrtrichtungen gesperrt, empfohlene Umleitungen: Richtung Gernsheim über Heppenheim (Bergstraße), B460 und Lorsch, Richtung Gernsheim über Lorsch, B460 und Heppenheim (Bergstraße)"
+          "value": "L3111 zwischen Lorsch und Abzweig nach Heppenheim (Bergstraße)\nin beiden Richtungen Straße wieder frei"
         }
       ],
       "location": {
@@ -10338,7 +10446,7 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-29T15:29:52.933Z"
+        "value": "2022-03-29T19:09:11.043Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
