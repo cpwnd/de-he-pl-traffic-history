@@ -406,7 +406,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Bad Camberg und Idstein\nGefahr durch Gegenstände auf der Fahrbahn"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Bad Camberg und Idstein\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -428,7 +428,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -438,11 +438,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-29T07:08:50.964Z"
+        "value": "2022-03-29T08:22:16.066Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -652,7 +652,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Bad Camberg und Limburg-Süd\ndefekter Schwertransport, rechter Fahrstreifen blockiert, Standstreifen blockiert"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Bad Camberg und Limburg-Süd\ndefekter Schwertransport, Gefahr, rechter Fahrstreifen blockiert, Standstreifen blockiert, Stau, Stauende liegt hinter einer Kuppe"
         }
       ],
       "location": {
@@ -674,20 +674,26 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Normal"
+        "value": "Dringend"
       },
       "eventCategory": [
         {
           "value": "Hindernis"
         },
         {
+          "value": "Hinweis"
+        },
+        {
           "value": "Störung"
+        },
+        {
+          "value": "Stau"
         }
       ],
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-29T06:47:37.717Z"
+        "value": "2022-03-29T07:49:28.337Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1343,57 +1349,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/485388_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 485388
-      },
-      "description": [
-        {
-          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Weiterstadt und Langen/Mörfelden\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Darmstadt Richtung Frankfurt zwischen Weiterstadt und Langen/Mörfelden",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-29T07:36:05.245Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/364835_LMS-HE/54"
       },
       "dataProducer": {
@@ -1448,6 +1403,63 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-28T13:39:39.318Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/485397_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485397
+      },
+      "description": [
+        {
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Friedberg und Ober-Mörlen\nUnfall auf dem rechten und dem mittleren Fahrstreifen, Gefahr durch Fahrzeugteile auf der Fahrbahn, rechter Fahrstreifen blockiert, mittlerer Fahrstreifen blockiert"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Frankfurt Richtung Kassel zwischen Friedberg und Ober-Mörlen",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-29T07:55:02.557Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1567,7 +1579,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-29T07:10:59.085Z"
+        "value": "2022-03-29T08:23:00.275Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3807,57 +3819,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/485381_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 485381
-      },
-      "description": [
-        {
-          "value": "A66 Wiesbaden Richtung Frankfurt\nzwischen Eschborner Dreieck und Nordwestkreuz Frankfurt\nUnfallaufnahme auf dem Standstreifen"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A66"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A66 Wiesbaden Richtung Frankfurt zwischen Eschborner Dreieck und Nordwestkreuz Frankfurt",
-        "streets": [
-          "A66"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-29T07:07:26.701Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/483465_LMS-HE/54"
       },
       "dataProducer": {
@@ -4376,60 +4337,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/485364_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 485364
-      },
-      "description": [
-        {
-          "value": "A485 Gießener Ring, Gießener Nordkreuz Richtung Langgöns\nzwischen Ausfahrt Gießener Nordkreuz und Gießen-Wieseck\nVerkehrsstörung besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A485"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A485 Gießener Ring, Gießener Nordkreuz Richtung Langgöns zwischen Ausfahrt Gießener Nordkreuz und Gießen-Wieseck",
-        "streets": [
-          "A485"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Arbeitsstelle"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-29T07:35:35.065Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/430914_LMS-HE/54"
       },
       "dataProducer": {
@@ -4616,17 +4523,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/485390_LMS-HE/54"
+        "value": "LMS/r_LMS/485412_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 485390
+        "value": 485412
       },
       "description": [
         {
-          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Frankfurt-Friedberger Landstraße und Preungesheimer Dreieck\nUnfallstelle geräumt"
+          "value": "A671 Mainz - Wiesbaden\nzwischen Mainz-Kastel und Wiesbaden-Amöneburg\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
         }
       ],
       "location": {
@@ -4634,38 +4541,35 @@
           {
             "edge": {
               "sortRoadNumber": {
-                "value": "A661"
+                "value": "A671"
               }
             }
           }
         ],
         "name": "Ort",
-        "description": "A661 Darmstadt Richtung Bad Homburg zwischen Frankfurt-Friedberger Landstraße und Preungesheimer Dreieck",
+        "description": "A671 Mainz Richtung Wiesbaden zwischen Mainz-Kastel und Wiesbaden-Amöneburg",
         "streets": [
-          "A661"
+          "A671"
         ]
       },
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Normal"
+        "value": "Dringend"
       },
       "eventCategory": [
         {
-          "value": "Unfall"
-        },
-        {
-          "value": "Störung"
+          "value": "Hindernis"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-29T07:34:45.767Z"
+        "value": "2022-03-29T08:26:11.901Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Geändert"
+        "value": "Neu"
       }
     },
     {
@@ -5003,6 +4907,133 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/485399_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485399
+      },
+      "description": [
+        {
+          "value": "B40 Mainzer Landstraße Richtung Kriftel\nzwischen Frankfurt am Main-Schwanheim und Sindlinger Mainbrücke\nFahrbahnerneuerung, vorübergehende Begrenzung der Fahrbahnbreite auf 6 m, bis 19.04.2022 18:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B40"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B40 Mainzer Landstraße Richtung Kriftel zwischen Frankfurt am Main-Schwanheim und Sindlinger Mainbrücke",
+        "streets": [
+          "B40"
+        ]
+      },
+      "duration": {
+        "startTime": null,
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-19T16:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "bis 19.04.2022 18:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-29T07:50:49.198Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/485396_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485396
+      },
+      "description": [
+        {
+          "value": "B40 Kriftel Richtung Mainzer Landstraße\nzwischen Sindlinger Mainbrücke und Frankfurt am Main-Schwanheim\nFahrbahnerneuerung, Fahrbahn auf einen Fahrstreifen verengt, vorübergehende Begrenzung der Fahrbahnbreite auf 3,25 m, bis 19.04.2022 18:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B40"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B40 Kriftel Richtung Mainzer Landstraße zwischen Sindlinger Mainbrücke und Frankfurt am Main-Schwanheim",
+        "streets": [
+          "B40"
+        ]
+      },
+      "duration": {
+        "startTime": null,
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-19T16:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "bis 19.04.2022 18:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-29T07:50:43.129Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_D__HE_FFM-IGLZ/210817370733_LMS-HE/54"
       },
       "dataProducer": {
@@ -5335,7 +5366,7 @@
       },
       "description": [
         {
-          "value": "B43 Richtung Frankfurt Flughafen\nzwischen Auffahrt B40, Schwanheimer Knoten und Flughafen-West\nFahrbahnerneuerung, Fahrbahn auf einen Fahrstreifen verengt, vorübergehende Begrenzung der Fahrbahnbreite auf 3,25 m, bis 02.04.2022 20:00 Uhr"
+          "value": "B43 Richtung Frankfurt Flughafen\nzwischen Auffahrt B40, Schwanheimer Knoten und Flughafen-West\nFahrbahnerneuerung, Fahrbahn auf einen Fahrstreifen verengt, vorübergehende Begrenzung der Fahrbahnbreite auf 3,25 m, bis 19.04.2022 20:00 Uhr"
         }
       ],
       "location": {
@@ -5358,10 +5389,10 @@
         "startTime": null,
         "endTime": {
           "name": "Endzeit",
-          "value": "2022-04-02T18:00:00Z"
+          "value": "2022-04-19T18:00:00Z"
         },
         "name": "Dauer",
-        "description": "bis 02.04.2022 20:00 Uhr"
+        "description": "bis 19.04.2022 20:00 Uhr"
       },
       "urgency": {
         "name": "Dringlichkeit",
@@ -5381,11 +5412,11 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-29T07:39:30.969Z"
+        "value": "2022-03-29T07:52:49.473Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -5400,7 +5431,7 @@
       },
       "description": [
         {
-          "value": "B43 Frankfurt Flughafen Richtung Schwanheimer Knoten\nzwischen Flughafen-West und Auffahrt B40, Schwanheimer Knoten\nFahrbahnerneuerung, vorübergehende Begrenzung der Fahrbahnbreite auf 6,25 m, bis 02.04.2022 20:00 Uhr"
+          "value": "B43 Frankfurt Flughafen Richtung Schwanheimer Knoten\nzwischen Flughafen-West und Auffahrt B40, Schwanheimer Knoten\nFahrbahnerneuerung, vorübergehende Begrenzung der Fahrbahnbreite auf 6,25 m, bis 19.04.2022 20:00 Uhr"
         }
       ],
       "location": {
@@ -5423,10 +5454,10 @@
         "startTime": null,
         "endTime": {
           "name": "Endzeit",
-          "value": "2022-04-02T18:00:00Z"
+          "value": "2022-04-19T18:00:00Z"
         },
         "name": "Dauer",
-        "description": "bis 02.04.2022 20:00 Uhr"
+        "description": "bis 19.04.2022 20:00 Uhr"
       },
       "urgency": {
         "name": "Dringlichkeit",
@@ -5443,11 +5474,11 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-29T07:40:35.835Z"
+        "value": "2022-03-29T07:52:03.387Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
