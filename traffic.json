@@ -396,6 +396,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/485382_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485382
+      },
+      "description": [
+        {
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Bad Camberg und Idstein\nGefahr durch Gegenstände auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Frankfurt zwischen Bad Camberg und Idstein",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-29T07:08:50.964Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/478197_LMS-HE/54"
       },
       "dataProducer": {
@@ -1097,17 +1148,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/485369_LMS-HE/54"
+        "value": "LMS/r_LMS/485383_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 485369
+        "value": 485383
       },
       "description": [
         {
-          "value": "A5 Kassel Richtung Frankfurt\nzwischen Westkreuz Frankfurt und Frankfurt am Main-Westhafen\nGefahr besteht nicht mehr"
+          "value": "A5 Darmstadt Richtung Heidelberg\nzwischen Darmstädter Kreuz und Darmstadt-Eberstadt\nGefahr durch Reifenteile auf der Fahrbahn"
         }
       ],
       "location": {
@@ -1121,7 +1172,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A5 Kassel Richtung Frankfurt zwischen Westkreuz Frankfurt und Frankfurt am Main-Westhafen",
+        "description": "A5 Darmstadt Richtung Heidelberg zwischen Darmstädter Kreuz und Darmstadt-Eberstadt",
         "streets": [
           "A5"
         ]
@@ -1129,7 +1180,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Normal"
+        "value": "Dringend"
       },
       "eventCategory": [
         {
@@ -1139,11 +1190,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-29T06:42:00.976Z"
+        "value": "2022-03-29T07:10:15.948Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Geändert"
+        "value": "Neu"
       }
     },
     {
@@ -1481,7 +1532,7 @@
       },
       "description": [
         {
-          "value": "A7 Fulda Richtung Kassel\nzwischen Dreieck Fulda und Ausfahrt Fulda-Mitte\nAusfahrt blockiert, verlorene Ladung"
+          "value": "A7 Fulda Richtung Kassel\nzwischen Dreieck Fulda und Ausfahrt Fulda-Mitte\nverlorene Ladung, Verkehrsbehinderung"
         }
       ],
       "location": {
@@ -1508,16 +1559,19 @@
       "eventCategory": [
         {
           "value": "Hindernis"
+        },
+        {
+          "value": "Störung"
         }
       ],
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-29T06:39:08.528Z"
+        "value": "2022-03-29T07:10:59.085Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3800,6 +3854,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/485381_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485381
+      },
+      "description": [
+        {
+          "value": "A66 Wiesbaden Richtung Frankfurt\nzwischen Eschborner Dreieck und Nordwestkreuz Frankfurt\nUnfallaufnahme auf dem Standstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Wiesbaden Richtung Frankfurt zwischen Eschborner Dreieck und Nordwestkreuz Frankfurt",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-29T07:07:26.701Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -6944,60 +7049,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/485278_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 485278
-      },
-      "description": [
-        {
-          "value": "K61 zwischen Oberurff-Schiffelborn und Bergfreiheit\nin beiden Richtungen wieder offen"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "K61"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Schwalm-Eder-Kreis, K61 zwischen Oberurff-Schiffelborn und Bergfreiheit",
-        "streets": [
-          "K61"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Information"
-        }
-      ],
-      "masterEventCategory": "Sperrung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-29T06:46:13.572Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/483393_LMS-HE/54"
       },
       "dataProducer": {
@@ -8300,6 +8351,136 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/485377_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485377
+      },
+      "description": [
+        {
+          "value": "Frankfurt, Mörfelder Landstraße\nzwischen Wendelsplatz und Frankfurt\nBaustelle, Arbeiten an Wasserleitungen, Fahrbahnverengung, bis 16.04.2022, Mo - Fr zwischen 09:00 Uhr und 15:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K816"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, Mörfelder Landstraße zwischen Wendelsplatz und Frankfurt",
+        "streets": [
+          "K816"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-21T08:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-16T13:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 21.03.2022 bis 16.04.2022, Mo - Fr zwischen 09:00 Uhr und 15:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-29T07:00:01.304Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/484014_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484014
+      },
+      "description": [
+        {
+          "value": "K816 Frankfurt, Mörfelder Landstraße\nzwischen Wendelsplatz und Frankfurt\nBaustelle, Arbeiten an Wasserleitungen, Fahrbahnverengung, bis 16.04.2022, Mo - Fr zwischen 09:00 Uhr und 15:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K816"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, Mörfelder Landstraße zwischen Wendelsplatz und Frankfurt",
+        "streets": [
+          "K816"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-21T08:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-16T13:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 21.03.2022 bis 16.04.2022, Mo - Fr zwischen 09:00 Uhr und 15:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-23T14:03:22.861Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -10270,6 +10451,136 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/484012_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484012
+      },
+      "description": [
+        {
+          "value": "L3266 Altstadt Richtung Unterliederbach\nzwischen Höchst und Frankfurt am Main-Höchst in Unterliederbach\nBaustelle, rechter Fahrstreifen gesperrt, bis 31.03.2022, Mo - Fr zwischen 09:00 Uhr und 15:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3266"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, L3266 zwischen Höchst und Frankfurt am Main-Höchst in Unterliederbach",
+        "streets": [
+          "L3266"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-16T23:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-03-31T21:59:59Z"
+        },
+        "name": "Dauer",
+        "description": "vom 17.03.2022 bis 31.03.2022, Mo - Fr zwischen 09:00 Uhr und 15:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-23T14:03:18.564Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/485376_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485376
+      },
+      "description": [
+        {
+          "value": "Frankfurt, L3266\nzwischen Höchst und Frankfurt am Main-Höchst in Unterliederbach\nBaustelle, rechter Fahrstreifen gesperrt, bis 31.03.2022, Mo - Fr zwischen 09:00 Uhr und 15:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3266"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, L3266 zwischen Höchst und Frankfurt am Main-Höchst in Unterliederbach",
+        "streets": [
+          "L3266"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-16T23:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-03-31T21:59:59Z"
+        },
+        "name": "Dauer",
+        "description": "vom 17.03.2022 bis 31.03.2022, Mo - Fr zwischen 09:00 Uhr und 15:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-29T07:00:01.304Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
