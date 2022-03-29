@@ -1861,6 +1861,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/485562_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485562
+      },
+      "description": [
+        {
+          "value": "A7 Kassel Richtung Fulda\nzwischen Guxhagen und Melsungen\nGefahr durch Gegenstände auf der Fahrbahn, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Kassel Richtung Fulda zwischen Guxhagen und Melsungen",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-29T19:14:05.525Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/485160_LMS-HE/54"
       },
       "dataProducer": {
@@ -3951,63 +4005,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/485548_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 485548
-      },
-      "description": [
-        {
-          "value": "A67 Mannheim Richtung Darmstadt\nEinfahrt Lorsch\nalle Fahrbahnen geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A67"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A67 Mannheim Richtung Darmstadt Einfahrt Lorsch",
-        "streets": [
-          "A67"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-29T18:59:15.825Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/485556_LMS-HE/54"
       },
       "dataProducer": {
@@ -4018,7 +4015,7 @@
       },
       "description": [
         {
-          "value": "A67 Mannheim Richtung Darmstadt\nzwischen Pfungstadt und Darmstädter Kreuz\nGefahr durch Fahrradfahrer auf der Fahrbahn, fahren Sie bitte besonders vorsichtig"
+          "value": "A67 Mannheim Richtung Darmstadt\nzwischen Pfungstadt und Darmstädter Kreuz\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -4040,7 +4037,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -4053,11 +4050,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-29T18:52:40.224Z"
+        "value": "2022-03-29T19:22:44.347Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -6860,57 +6857,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/485558_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 485558
-      },
-      "description": [
-        {
-          "value": "B455 Wiesbaden, Siegfriedring\nzwischen B54, Berliner Straße und Ortsausgang\nin beiden Richtungen Gefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B455"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B455 Wiesbaden, Siegfriedring zwischen B54, Berliner Straße und Ortsausgang",
-        "streets": [
-          "B455"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-29T18:58:01.549Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
