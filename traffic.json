@@ -461,6 +461,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/485468_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485468
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Frankfurter Kreuz und Frankfurt am Main-Flughafen\nGefahr besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Köln zwischen Frankfurter Kreuz und Frankfurt am Main-Flughafen",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-29T12:29:55.194Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/461440_LMS-HE/54"
       },
       "dataProducer": {
@@ -1158,7 +1209,7 @@
       },
       "description": [
         {
-          "value": "A4 Bad Hersfeld Richtung Erfurt\nzwischen Bad Hersfeld und Friedewald\nGefahr durch defekten LKW auf dem rechten Fahrstreifen und dem Standstreifen"
+          "value": "A4 Bad Hersfeld Richtung Erfurt\nAusfahrt Friedewald\nGefahr durch defekten LKW in der Überleitung"
         }
       ],
       "location": {
@@ -1172,7 +1223,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A4 Bad Hersfeld Richtung Erfurt zwischen Bad Hersfeld und Friedewald",
+        "description": "A4 Bad Hersfeld Richtung Erfurt Ausfahrt Friedewald",
         "streets": [
           "A4"
         ]
@@ -1190,11 +1241,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-29T10:31:27.378Z"
+        "value": "2022-03-29T12:03:56.753Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1955,60 +2006,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-28T20:00:01.686Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/485460_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 485460
-      },
-      "description": [
-        {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Homberg (Efze) und Bad Hersfeld-West\nGefahr durch defekten LKW auf dem Standstreifen, Reifenschaden, Gefahr durch Personen auf der Fahrbahn"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A7"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A7 Kassel Richtung Fulda zwischen Homberg (Efze) und Bad Hersfeld-West",
-        "streets": [
-          "A7"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Information"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-29T11:44:47.406Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6251,6 +6248,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/485478_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485478
+      },
+      "description": [
+        {
+          "value": "B62 Alsfeld Richtung Biedenkopf\nin Höhe B3, Cölbe Bürgeln\nGefahr durch Gegenstände auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B62"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B62 Alsfeld Richtung Biedenkopf in Höhe B3, Cölbe Bürgeln",
+        "streets": [
+          "B62"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-29T12:29:26.501Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
