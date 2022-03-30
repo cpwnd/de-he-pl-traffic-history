@@ -1043,6 +1043,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/485630_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485630
+      },
+      "description": [
+        {
+          "value": "A5 Darmstadt Richtung Heidelberg\nzwischen Weiterstadt und Dreieck Darmstadt\nGefahr durch ungesicherte Unfallstelle auf dem Abbiegestreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Darmstadt Richtung Heidelberg zwischen Weiterstadt und Dreieck Darmstadt",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-30T05:28:54.313Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/483383_LMS-HE/54"
       },
       "dataProducer": {
@@ -1292,57 +1343,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-28T13:39:39.318Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/485615_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 485615
-      },
-      "description": [
-        {
-          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Frankfurter Kreuz und Frankfurt-Niederrad\nUnfallstelle geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Darmstadt Richtung Frankfurt zwischen Frankfurter Kreuz und Frankfurt-Niederrad",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-30T05:11:21.413Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3011,7 +3011,7 @@
       },
       "description": [
         {
-          "value": "A45 Gießen Richtung Hagen\nzwischen Wetzlar-Ost und Wetzlarer Kreuz\nBergungsarbeiten, linker Fahrstreifen wieder befahrbar, Stau, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren\n(Rückstau bis zur B49)"
+          "value": "A45 Gießen Richtung Hagen\nzwischen Wetzlar-Ost und Wetzlarer Kreuz\nBergungsarbeiten, linker Fahrstreifen wieder befahrbar, 5 km Stau, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren\n(Rückstau bis zur B49, in Verlängerung bis zur B429)"
         }
       ],
       "location": {
@@ -3052,7 +3052,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-30T04:17:39.781Z"
+        "value": "2022-03-30T05:18:20.541Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6161,57 +6161,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/485622_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 485622
-      },
-      "description": [
-        {
-          "value": "B49 Limburg Richtung Gießen\nzwischen A45, Wetzlar-Ost und B429, Gießen-Lahnfeld\nalle Fahrbahnen geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B49"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B49 Limburg Richtung Gießen zwischen A45, Wetzlar-Ost und B429, Gießen-Lahnfeld",
-        "streets": [
-          "B49"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-30T05:11:55.529Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/431962_LMS-HE/54"
       },
       "dataProducer": {
@@ -6656,7 +6605,7 @@
       },
       "description": [
         {
-          "value": "B417 Platter Straße, Diez Richtung Wiesbaden\nzwischen B54/Fischzucht und Wiesbaden\nGefahr durch ungesicherte Unfallstelle"
+          "value": "B417 Platter Straße, Diez Richtung Wiesbaden\nzwischen B54/Fischzucht und Wiesbaden\nalle Unfallstellen geräumt, keine Verkehrsbehinderung mehr"
         }
       ],
       "location": {
@@ -6678,7 +6627,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -6688,11 +6637,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-30T04:48:00.765Z"
+        "value": "2022-03-30T05:18:58.618Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
