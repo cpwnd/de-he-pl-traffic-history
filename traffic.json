@@ -1094,6 +1094,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/485610_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485610
+      },
+      "description": [
+        {
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Bad Homburger Kreuz und Nordwestkreuz Frankfurt\ndefekter LKW auf dem rechten Fahrstreifen und dem Standstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Kassel Richtung Frankfurt zwischen Bad Homburger Kreuz und Nordwestkreuz Frankfurt",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-30T03:57:46.669Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/483383_LMS-HE/54"
       },
       "dataProducer": {
@@ -2960,7 +3011,7 @@
       },
       "description": [
         {
-          "value": "A45 Gießen Richtung Hagen\nzwischen Wetzlar-Ost und Wetzlarer Kreuz\nBergungsarbeiten, linker Fahrstreifen wieder befahrbar"
+          "value": "A45 Gießen Richtung Hagen\nzwischen Wetzlar-Ost und Wetzlarer Kreuz\nBergungsarbeiten, linker Fahrstreifen wieder befahrbar, Stau, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren\n(Rückstau bis zur B49)"
         }
       ],
       "location": {
@@ -2990,12 +3041,18 @@
         },
         {
           "value": "Sperrung"
+        },
+        {
+          "value": "Stau"
+        },
+        {
+          "value": "Hinweis"
         }
       ],
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-30T03:50:56.228Z"
+        "value": "2022-03-30T04:17:39.781Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -9880,6 +9937,71 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-25T23:02:10.851Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/485094_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485094
+      },
+      "description": [
+        {
+          "value": "L3064 Mühlheim am Main Richtung Obertshausen\nzwischen Lämmerspiel und Hausen\nBaustelle, Brückenarbeiten, Richtungsfahrbahn gesperrt, von 30.03.2022 06:00 Uhr bis 31.12.2022 20:00 Uhr, empfohlene Umleitung: Umleitung"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3064"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Kreis Offenbach, L3064 zwischen Lämmerspiel und Hausen",
+        "streets": [
+          "L3064"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-30T04:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-12-31T19:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 30.03.2022 06:00 Uhr bis 31.12.2022 20:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-28T04:14:41.195Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
