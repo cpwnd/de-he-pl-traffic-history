@@ -406,7 +406,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Idstein und Wiesbaden/Niedernhausen\nGefahr durch verlorene Ladung (ein Kantholz)"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Idstein und Wiesbaden/Niedernhausen\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -428,7 +428,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -438,26 +438,26 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-30T14:25:21.205Z"
+        "value": "2022-03-30T14:33:38.688Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/485702_LMS-HE/54"
+        "value": "LMS/r_LMS/485773_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 485702
+        "value": 485773
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Bad Camberg und Idstein\nStraße wieder frei"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Limburg-Süd und Bad Camberg\ndefekter LKW auf dem Standstreifen"
         }
       ],
       "location": {
@@ -471,7 +471,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A3 Köln Richtung Frankfurt zwischen Bad Camberg und Idstein",
+        "description": "A3 Köln Richtung Frankfurt zwischen Limburg-Süd und Bad Camberg",
         "streets": [
           "A3"
         ]
@@ -489,11 +489,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-30T14:19:04.146Z"
+        "value": "2022-03-30T14:32:07.713Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Geändert"
+        "value": "Neu"
       }
     },
     {
@@ -1180,6 +1180,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-15T20:00:04.312Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/485777_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485777
+      },
+      "description": [
+        {
+          "value": "A4 Erfurt Richtung Bad Hersfeld\nzwischen Wildeck-Hönebach und Friedewald\nGefahr durch Reifenteile auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A4"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A4 Erfurt Richtung Bad Hersfeld zwischen Wildeck-Hönebach und Friedewald",
+        "streets": [
+          "A4"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-30T14:45:13.977Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4873,7 +4924,7 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-30T14:19:32.85Z"
+        "value": "2022-03-30T14:34:54.359Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6057,17 +6108,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/485763_LMS-HE/54"
+        "value": "LMS/r_LMS/485775_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 485763
+        "value": 485775
       },
       "description": [
         {
-          "value": "B49 Gießen - Limburg\nzwischen Beselich-Obertiefenbach-West und Einfahrt Rastplatz B49, Limburg an der Lahn\nin beiden Richtungen Straße wieder frei"
+          "value": "B49 Gießen Richtung Limburg\nzwischen Heckholzhausen West und Beselich-Obertiefenbach-Mitte\nGefahr durch verlorene Ladung (mehrere Plastikteile)"
         }
       ],
       "location": {
@@ -6081,7 +6132,7 @@
           }
         ],
         "name": "Ort",
-        "description": "B49 Gießen Richtung Limburg zwischen Beselich-Obertiefenbach-West und Einfahrt Rastplatz B49, Limburg an der Lahn",
+        "description": "B49 Gießen Richtung Limburg zwischen Heckholzhausen West und Beselich-Obertiefenbach-Mitte",
         "streets": [
           "B49"
         ]
@@ -6089,7 +6140,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Normal"
+        "value": "Dringend"
       },
       "eventCategory": [
         {
@@ -6099,11 +6150,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-30T14:19:48.726Z"
+        "value": "2022-03-30T14:44:23.462Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Geändert"
+        "value": "Neu"
       }
     },
     {
