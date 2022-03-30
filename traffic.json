@@ -2317,7 +2317,7 @@
       },
       "description": [
         {
-          "value": "A7 Fulda Richtung Kassel\nzwischen Bad Hersfeld-West und Homberg (Efze)\nGefahr durch Metallteile auf der Fahrbahn"
+          "value": "A7 Fulda Richtung Kassel\nzwischen Bad Hersfeld-West und Homberg (Efze)\nHindernisse beseitigt"
         }
       ],
       "location": {
@@ -2339,7 +2339,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2349,11 +2349,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-30T09:27:09.942Z"
+        "value": "2022-03-30T09:44:17.525Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3786,6 +3786,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-29T09:00:02.365Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/485691_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485691
+      },
+      "description": [
+        {
+          "value": "A60 Mainz Richtung Rüsselsheim\nzwischen Bischofsheim und Rüsselsheim-Mitte\nGefahr durch defekten LKW auf dem rechten Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A60"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A60 Mainz Richtung Rüsselsheim zwischen Bischofsheim und Rüsselsheim-Mitte",
+        "streets": [
+          "A60"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-30T09:43:36.492Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
