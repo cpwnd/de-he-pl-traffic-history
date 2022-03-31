@@ -2583,6 +2583,68 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/485966_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485966
+      },
+      "description": [
+        {
+          "value": "A45 Hagen Richtung Gießen\nzwischen Ehringshausen und Wetzlarer Kreuz\nBauarbeiten, vorübergehende Begrenzung der Fahrbahnbreite auf 6,75 m, bis 27.04.2022 15:30 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A45 Hagen Richtung Gießen zwischen Ehringshausen und Wetzlarer Kreuz",
+        "streets": [
+          "A45"
+        ]
+      },
+      "duration": {
+        "startTime": null,
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-27T13:30:00Z"
+        },
+        "name": "Dauer",
+        "description": "bis 27.04.2022 15:30 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-31T08:25:54.883Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/443951_LMS-HE/54"
       },
       "dataProducer": {
@@ -2895,6 +2957,68 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/485968_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485968
+      },
+      "description": [
+        {
+          "value": "A45 Gießen Richtung Hagen\nzwischen Wetzlarer Kreuz und Ehringshausen\nBauarbeiten, vorübergehende Begrenzung der Fahrbahnbreite auf 6,25 m, bis 27.04.2022 15:30 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A45 Gießen Richtung Hagen zwischen Wetzlarer Kreuz und Ehringshausen",
+        "streets": [
+          "A45"
+        ]
+      },
+      "duration": {
+        "startTime": null,
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-27T13:30:00Z"
+        },
+        "name": "Dauer",
+        "description": "bis 27.04.2022 15:30 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-31T08:25:47.867Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -3485,7 +3609,7 @@
       },
       "description": [
         {
-          "value": "A60 Mainz Richtung Rüsselsheim\nzwischen Bischofsheim und Rüsselsheim-Königstädten\nGegenstände auf der Fahrbahn"
+          "value": "A60 Mainz Richtung Rüsselsheim\nzwischen Bischofsheim und Rüsselsheim-Königstädten\nGegenstände auf der Fahrbahn, 2 defekte LKW auf dem Standstreifen"
         }
       ],
       "location": {
@@ -3517,7 +3641,58 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-31T08:09:34.637Z"
+        "value": "2022-03-31T08:35:24.54Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/485967_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485967
+      },
+      "description": [
+        {
+          "value": "A60 Mainz Richtung Rüsselsheim\nzwischen Mainz-Laubenheim und Ausfahrt Ginsheim-Gustavsburg\n1 Gegenstand auf der Fahrbahn\n(Plastikteil)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A60"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A60 Mainz Richtung Rüsselsheim zwischen Mainz-Laubenheim und Ausfahrt Ginsheim-Gustavsburg",
+        "streets": [
+          "A60"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-31T08:27:15.887Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4686,7 +4861,7 @@
       },
       "description": [
         {
-          "value": "B27 Witzenhausen - Eschwege\nzwischen Abzweig nach Albungen und Strahlshausen\nin beiden Richtungen Unfallrekonstruktion, Richtungsfahrbahn gesperrt, empfohlene Umleitungen: Richtung Norden ab Oetmannshausen über B7 und A7, Richtung Süden ab Hedemünden über A7 bis Kassel und B7"
+          "value": "B27 Witzenhausen - Eschwege\nzwischen Abzweig nach Albungen und Strahlshausen\nin beiden Richtungen wieder offen"
         }
       ],
       "location": {
@@ -4721,11 +4896,11 @@
       "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-31T07:25:39.387Z"
+        "value": "2022-03-31T08:31:14.664Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
