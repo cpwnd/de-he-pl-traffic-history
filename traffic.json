@@ -136,6 +136,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/486081_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486081
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Würzburg\nzwischen Frankfurt am Main-Süd und Offenbacher Kreuz\nUnfall auf dem mittleren Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Würzburg zwischen Frankfurt am Main-Süd und Offenbacher Kreuz",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-31T15:04:24.77Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/462180_LMS-HE/54"
       },
       "dataProducer": {
@@ -2448,57 +2499,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/486072_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 486072
-      },
-      "description": [
-        {
-          "value": "A44 Kassel Richtung Dortmund\nzwischen Kassel-Bad Wilhelmshöhe und Zierenberg\nGefahr durch Metallteile auf der Fahrbahn"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A44"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A44 Kassel Richtung Dortmund zwischen Kassel-Bad Wilhelmshöhe und Zierenberg",
-        "streets": [
-          "A44"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-31T14:39:41.186Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/477663_LMS-HE/54"
       },
       "dataProducer": {
@@ -2571,7 +2571,7 @@
       },
       "description": [
         {
-          "value": "A45 Hagen Richtung Gießen\nzwischen Wetzlarer Kreuz und Wetzlar-Ost\nBauarbeiten, vorübergehende Begrenzung der Fahrbahnbreite auf 6,95 m, bis 31.03.2022"
+          "value": "A45 Hagen Richtung Gießen\nzwischen Wetzlarer Kreuz und Wetzlar-Ost\nBaustelle beseitigt"
         }
       ],
       "location": {
@@ -2590,15 +2590,7 @@
           "A45"
         ]
       },
-      "duration": {
-        "startTime": null,
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-03-31T21:59:00Z"
-        },
-        "name": "Dauer",
-        "description": "bis 31.03.2022"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -2614,7 +2606,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-25T13:15:23.011Z"
+        "value": "2022-03-31T15:12:06.172Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3014,7 +3006,7 @@
       },
       "description": [
         {
-          "value": "A45 Gießen Richtung Hagen\nzwischen Wetzlar-Ost und Blasbach Talbrücke\nBauarbeiten, vorübergehende Begrenzung der Fahrbahnbreite auf 11,25 m, bis 31.03.2022"
+          "value": "A45 Gießen Richtung Hagen\nzwischen Wetzlar-Ost und Blasbach Talbrücke\nBaustelle beseitigt"
         }
       ],
       "location": {
@@ -3033,15 +3025,7 @@
           "A45"
         ]
       },
-      "duration": {
-        "startTime": null,
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-03-31T21:59:00Z"
-        },
-        "name": "Dauer",
-        "description": "bis 31.03.2022"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -3057,7 +3041,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-25T13:16:33.699Z"
+        "value": "2022-03-31T15:11:53.593Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3395,7 +3379,7 @@
       },
       "description": [
         {
-          "value": "A49 Kassel Richtung Gießen\nzwischen Felsberg und Gudensberg\nGefahr durch ungesicherte Unfallstelle, Gefahr durch Fahrzeugteile auf der Fahrbahn"
+          "value": "A49 Kassel Richtung Gießen\nzwischen Felsberg und Gudensberg\nUnfallaufnahme, rechter Fahrstreifen gesperrt, Standstreifen gesperrt"
         }
       ],
       "location": {
@@ -3417,24 +3401,24 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Störung"
         },
         {
-          "value": "Hindernis"
+          "value": "Sperrung"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-31T14:40:58.418Z"
+        "value": "2022-03-31T15:13:52.236Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4464,7 +4448,7 @@
       },
       "description": [
         {
-          "value": "A643 Schiersteiner Brücke, Mainz Richtung Wiesbaden\nzwischen Mainz-Mombach und Wiesbaden-Äppelallee\nGefahr durch defektes Fahrzeug auf dem rechten Fahrstreifen"
+          "value": "A643 Schiersteiner Brücke, Mainz Richtung Wiesbaden\nzwischen Mainz-Mombach und Wiesbaden-Äppelallee\nGefahr durch defektes Fahrzeug auf dem rechten Fahrstreifen, rechter Fahrstreifen blockiert"
         }
       ],
       "location": {
@@ -4491,16 +4475,19 @@
       "eventCategory": [
         {
           "value": "Hindernis"
+        },
+        {
+          "value": "Störung"
         }
       ],
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-31T14:36:58.884Z"
+        "value": "2022-03-31T15:12:38.456Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4563,57 +4550,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/486059_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 486059
-      },
-      "description": [
-        {
-          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Frankfurt-Eckenheim und Preungesheimer Dreieck\nGefahr durch defektes Fahrzeug auf dem rechten Fahrstreifen"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A661"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A661 Bad Homburg Richtung Darmstadt zwischen Frankfurt-Eckenheim und Preungesheimer Dreieck",
-        "streets": [
-          "A661"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-31T13:55:01.391Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
@@ -4738,57 +4674,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/486067_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 486067
-      },
-      "description": [
-        {
-          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Frankfurt-Eckenheim und Frankfurt am Main-Heddernheim\nGefahr durch ungesicherte Unfallstelle\n(kurz vor AS Heddernheim)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A661"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A661 Darmstadt Richtung Bad Homburg zwischen Frankfurt-Eckenheim und Frankfurt am Main-Heddernheim",
-        "streets": [
-          "A661"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-31T14:16:28.262Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
