@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -518,57 +518,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-04T14:58:05.381Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/486040_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 486040
-      },
-      "description": [
-        {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Raunheim und Wiesbadener Kreuz\nStraße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Frankfurt Richtung Köln zwischen Raunheim und Wiesbadener Kreuz",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-31T13:03:39.108Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1216,6 +1165,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-21T03:00:01.216Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/486055_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486055
+      },
+      "description": [
+        {
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Homberg (Ohm) und Reiskirchener Dreieck\nBaustelle, 3 km Stau"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Kassel Richtung Frankfurt zwischen Homberg (Ohm) und Reiskirchener Dreieck",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Stau"
+        },
+        {
+          "value": "Arbeitsstelle"
+        }
+      ],
+      "masterEventCategory": "Stau",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-31T13:37:43.139Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2253,57 +2256,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/486037_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 486037
-      },
-      "description": [
-        {
-          "value": "A7 Fulda Richtung Kassel\nzwischen Guxhagen und Raststätte Kassel Ost\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A7"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A7 Fulda Richtung Kassel zwischen Guxhagen und Raststätte Kassel Ost",
-        "streets": [
-          "A7"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-31T13:03:13.145Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/485165_LMS-HE/54"
       },
       "dataProducer": {
@@ -2434,57 +2386,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/486043_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 486043
-      },
-      "description": [
-        {
-          "value": "A7 Kassel Richtung Hannover\nzwischen Kreuz Kassel-Mitte und Kassel-Ost\nHindernisse beseitigt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A7"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A7 Kassel Richtung Hannover zwischen Kreuz Kassel-Mitte und Kassel-Ost",
-        "streets": [
-          "A7"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-31T13:12:33.378Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/479631_LMS-HE/54"
       },
       "dataProducer": {
@@ -2539,6 +2440,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-03T16:02:45.746Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/486054_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486054
+      },
+      "description": [
+        {
+          "value": "A45 Gießen Richtung Aschaffenburg\nzwischen Wölfersheim und Florstadt\nGefahr durch 1 Gegenstand auf der Fahrbahn\n(Kindersitz)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A45 Gießen Richtung Aschaffenburg zwischen Wölfersheim und Florstadt",
+        "streets": [
+          "A45"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-31T13:35:48.057Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3762,7 +3714,7 @@
       },
       "description": [
         {
-          "value": "A66 Frankfurt Richtung Wiesbaden\nEinfahrt Wiesbaden-Mainzer Straße\nEinfahrt gesperrt, Bauarbeiten, bis 31.03.2022 15:30 Uhr"
+          "value": "A66 Frankfurt Richtung Wiesbaden\nEinfahrt Wiesbaden-Mainzer Straße\nBaustelle beseitigt"
         }
       ],
       "location": {
@@ -3781,18 +3733,7 @@
           "A66"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2021-12-15T19:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-03-31T13:30:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 15.12.2021 20:00 Uhr bis 31.03.2022 15:30 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -3808,7 +3749,7 @@
       "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-12T14:31:18.473Z"
+        "value": "2022-03-31T13:34:20.75Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4501,6 +4442,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/486050_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486050
+      },
+      "description": [
+        {
+          "value": "A648 Wiesbadener Straße, Eschborn - Frankfurt\nzwischen Frankfurt am Main-Rebstock und Katharinenkreisel\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A648"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A648 Wiesbadener Straße, Eschborn Richtung Frankfurt zwischen Frankfurt am Main-Rebstock und Katharinenkreisel",
+        "streets": [
+          "A648"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-31T13:22:56.893Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -8633,60 +8625,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/485933_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 485933
-      },
-      "description": [
-        {
-          "value": "K816 Frankfurt, Mörfelder Landstraße\nzwischen Wendelsplatz und Frankfurt\nBaustelle beseitigt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "K816"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Frankfurt, Mörfelder Landstraße zwischen Wendelsplatz und Frankfurt",
-        "streets": [
-          "K816"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-31T13:04:39.577Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/471142_LMS-HE/54"
       },
       "dataProducer": {
@@ -9797,6 +9735,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/486053_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486053
+      },
+      "description": [
+        {
+          "value": "L3017 Eppstein - Flörsheim\nzwischen Abzweig nach Wallau und Wallau\nin beiden Richtungen 1 Person auf der Fahrbahn\n(Mann versucht Autos anzuhalten)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3017"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Wiesbaden und Main-Taunus-Kreis, L3017 zwischen Abzweig nach Wallau und Wallau",
+        "streets": [
+          "L3017"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-31T13:32:47.415Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/417423_LMS-HE/54"
       },
       "dataProducer": {
@@ -10714,60 +10703,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-25T23:02:48.556Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/485932_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 485932
-      },
-      "description": [
-        {
-          "value": "L3266 Altstadt Richtung Unterliederbach\nzwischen Höchst und Frankfurt am Main-Höchst in Unterliederbach\nBaustelle beseitigt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3266"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Frankfurt, L3266 zwischen Höchst und Frankfurt am Main-Höchst in Unterliederbach",
-        "streets": [
-          "L3266"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-31T13:04:27.951Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
