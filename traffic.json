@@ -1053,7 +1053,7 @@
       },
       "description": [
         {
-          "value": "A4 Bad Hersfeld Richtung Erfurt\nzwischen Bad Hersfeld und Friedewald\nUnfall im Baustellenbereich, Fahrbahn auf einen Fahrstreifen verengt"
+          "value": "A4 Bad Hersfeld Richtung Erfurt\nzwischen Bad Hersfeld und Friedewald\nFahrbahnbeschränkung besteht nicht mehr"
         }
       ],
       "location": {
@@ -1088,11 +1088,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-31T17:22:20.966Z"
+        "value": "2022-03-31T18:27:25.548Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1237,7 +1237,7 @@
       },
       "description": [
         {
-          "value": "A5 Kassel Richtung Frankfurt\nzwischen Homberg (Ohm) und Reiskirchener Dreieck\nBaustelle, 3 km Stau"
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Homberg (Ohm) und Reiskirchener Dreieck\nVerkehr hat sich normalisiert"
         }
       ],
       "location": {
@@ -1272,11 +1272,11 @@
       "masterEventCategory": "Stau",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-31T13:37:43.139Z"
+        "value": "2022-03-31T18:25:55.967Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3453,57 +3453,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/486111_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 486111
-      },
-      "description": [
-        {
-          "value": "A66 Fulda - Frankfurt\nzwischen Bad Orb/Wächtersbach und Gelnhausen-Ost\nin beiden Richtungen Gefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A66"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A66 Fulda Richtung Frankfurt zwischen Bad Orb/Wächtersbach und Gelnhausen-Ost",
-        "streets": [
-          "A66"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-31T18:08:42.126Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/479359_LMS-HE/54"
       },
       "dataProducer": {
@@ -3753,6 +3702,71 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/486120_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486120
+      },
+      "description": [
+        {
+          "value": "A67 Darmstadt Richtung Mannheim\nzwischen Pfungstadt und Gernsheim\nWanderbaustelle, Fahrbahn auf zwei Fahrstreifen verengt, bis 01.04.2022 ca. 06:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A67"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A67 Darmstadt Richtung Mannheim zwischen Pfungstadt und Gernsheim",
+        "streets": [
+          "A67"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-31T18:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-01T04:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 31.03.2022 ca. 20:00 Uhr bis 01.04.2022 ca. 06:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-31T18:22:10.007Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/483464_LMS-HE/54"
       },
       "dataProducer": {
@@ -3814,6 +3828,71 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/486119_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486119
+      },
+      "description": [
+        {
+          "value": "A67 Mannheim Richtung Darmstadt\nzwischen Lorsch und Gernsheim\nNachtbaustelle, Fahrbahn auf einen Fahrstreifen verengt, bis 01.04.2022 ca. 06:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A67"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A67 Mannheim Richtung Darmstadt zwischen Lorsch und Gernsheim",
+        "streets": [
+          "A67"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-31T18:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-01T04:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 31.03.2022 ca. 20:00 Uhr bis 01.04.2022 ca. 06:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-31T18:20:31.158Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -4264,6 +4343,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/486123_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486123
+      },
+      "description": [
+        {
+          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Frankfurt am M.-Nieder-Eschbach und Frankfurt am Main-Heddernheim\nGefahr durch defektes Fahrzeug"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A661"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A661 Bad Homburg Richtung Darmstadt zwischen Frankfurt am M.-Nieder-Eschbach und Frankfurt am Main-Heddernheim",
+        "streets": [
+          "A661"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-31T18:32:27.947Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
