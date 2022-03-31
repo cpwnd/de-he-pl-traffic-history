@@ -1292,57 +1292,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/486061_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 486061
-      },
-      "description": [
-        {
-          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Weiterstadt und Langen/Mörfelden\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Darmstadt Richtung Frankfurt zwischen Weiterstadt und Langen/Mörfelden",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-31T14:17:51.124Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/364835_LMS-HE/54"
       },
       "dataProducer": {
@@ -2499,6 +2448,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/486072_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486072
+      },
+      "description": [
+        {
+          "value": "A44 Kassel Richtung Dortmund\nzwischen Kassel-Bad Wilhelmshöhe und Zierenberg\nGefahr durch Metallteile auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A44"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A44 Kassel Richtung Dortmund zwischen Kassel-Bad Wilhelmshöhe und Zierenberg",
+        "streets": [
+          "A44"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-31T14:39:41.186Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/477663_LMS-HE/54"
       },
       "dataProducer": {
@@ -3385,6 +3385,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/486073_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486073
+      },
+      "description": [
+        {
+          "value": "A49 Kassel Richtung Gießen\nzwischen Felsberg und Gudensberg\nGefahr durch ungesicherte Unfallstelle, Gefahr durch Fahrzeugteile auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A49"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A49 Kassel Richtung Gießen zwischen Felsberg und Gudensberg",
+        "streets": [
+          "A49"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-31T14:40:58.418Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/485164_LMS-HE/54"
       },
       "dataProducer": {
@@ -3714,7 +3768,7 @@
       },
       "description": [
         {
-          "value": "A66 Fulda Richtung Frankfurt\nzwischen Steinau a. d. Straße und Bad Soden-Salmünster\ndefektes Fahrzeug auf dem Langsamfahrstreifen\n(Sattelzug mit geladenem Traktor auf der Abfahrtsspur)"
+          "value": "A66 Fulda Richtung Frankfurt\nzwischen Steinau a. d. Straße und Bad Soden-Salmünster\ndefektes Fahrzeug auf dem Langsamfahrstreifen, bis 31.03.2022 ca. 20:00 Uhr\n(Sattelzug mit geladenem Traktor auf der Abfahrtsspur)"
         }
       ],
       "location": {
@@ -3733,7 +3787,15 @@
           "A66"
         ]
       },
-      "duration": null,
+      "duration": {
+        "startTime": null,
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-03-31T18:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "bis 31.03.2022 ca. 20:00 Uhr"
+      },
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -3746,11 +3808,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-31T09:44:02.014Z"
+        "value": "2022-03-31T14:37:59.511Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4392,6 +4454,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/486071_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486071
+      },
+      "description": [
+        {
+          "value": "A643 Schiersteiner Brücke, Mainz Richtung Wiesbaden\nzwischen Mainz-Mombach und Wiesbaden-Äppelallee\nGefahr durch defektes Fahrzeug auf dem rechten Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A643"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A643 Schiersteiner Brücke, Mainz Richtung Wiesbaden zwischen Mainz-Mombach und Wiesbaden-Äppelallee",
+        "streets": [
+          "A643"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-31T14:36:58.884Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/430914_LMS-HE/54"
       },
       "dataProducer": {
@@ -5009,57 +5122,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/486060_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 486060
-      },
-      "description": [
-        {
-          "value": "B40 Kriftel - Frankfurt am Main-Griesheim\nzwischen Frankfurt am Main-Sindlingen und Auffahrt Schwanheimer Knoten\nin beiden Richtungen Straße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B40"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B40 Kriftel Richtung Frankfurt am Main-Griesheim zwischen Frankfurt am Main-Sindlingen und Auffahrt Schwanheimer Knoten",
-        "streets": [
-          "B40"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-31T14:22:11.281Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -9840,57 +9902,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-14T09:11:10.46Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/486064_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 486064
-      },
-      "description": [
-        {
-          "value": "L3039 Wiesbaden-Breckenheim - Wiesbaden-Bierstadt\nzwischen Breckenheim und Kreisverkehr L3028/L3039\nin beiden Richtungen Gefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3039"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Wiesbaden, L3039 zwischen Breckenheim und Kreisverkehr L3028/L3039",
-        "streets": [
-          "L3039"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-31T14:21:12.271Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
