@@ -3599,57 +3599,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/485948_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 485948
-      },
-      "description": [
-        {
-          "value": "A60 Mainz Richtung Rüsselsheim\nzwischen Bischofsheim und Rüsselsheim-Königstädten\nGegenstände auf der Fahrbahn, 2 defekte LKW auf dem Standstreifen"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A60"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A60 Mainz Richtung Rüsselsheim zwischen Bischofsheim und Rüsselsheim-Königstädten",
-        "streets": [
-          "A60"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-31T08:35:24.54Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/485967_LMS-HE/54"
       },
       "dataProducer": {
@@ -4851,17 +4800,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/485942"
+        "value": "LMS/r_LMS/485979_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 485940
+        "value": 485979
       },
       "description": [
         {
-          "value": "B27 Witzenhausen - Eschwege\nzwischen Abzweig nach Albungen und Strahlshausen\nin beiden Richtungen wieder offen"
+          "value": "B26 Darmstadt, Rheinstraße\nzwischen Darmstadt und Grafenstraße\nPolizeiermittlung, gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren\n(Verkehr Neckarstraße Rtg Citytunnel und Teile des Luisenplatz ebenfalls betroffen)"
         }
       ],
       "location": {
@@ -4869,15 +4818,15 @@
           {
             "edge": {
               "sortRoadNumber": {
-                "value": "B27"
+                "value": "B26"
               }
             }
           }
         ],
         "name": "Ort",
-        "description": "B27 Witzenhausen Richtung Eschwege zwischen Abzweig nach Albungen und Strahlshausen",
+        "description": "B26 Darmstadt, Rheinstraße zwischen Darmstadt und Grafenstraße",
         "streets": [
-          "B27"
+          "B26"
         ]
       },
       "duration": null,
@@ -4887,20 +4836,23 @@
       },
       "eventCategory": [
         {
+          "value": "Störung"
+        },
+        {
           "value": "Sperrung"
         },
         {
-          "value": "Störung"
+          "value": "Hinweis"
         }
       ],
-      "masterEventCategory": "Sperrung",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-31T08:31:14.664Z"
+        "value": "2022-03-31T09:07:09.283Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Geändert"
+        "value": "Neu"
       }
     },
     {
