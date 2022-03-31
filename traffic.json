@@ -406,7 +406,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Idstein und Wiesbaden/Niedernhausen\ndefekter PKW auf dem Standstreifen"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Idstein und Wiesbaden/Niedernhausen\nStraße wieder frei"
         }
       ],
       "location": {
@@ -438,11 +438,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-31T04:54:06.253Z"
+        "value": "2022-03-31T05:37:48.799Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3601,7 +3601,7 @@
       },
       "description": [
         {
-          "value": "A66 Fulda Richtung Frankfurt\nzwischen Maintal-Bischofsheim und Frankfurt am Main-Bergen-Enkheim\nGefahr durch ein totes Tier auf der Fahrbahn"
+          "value": "A66 Fulda Richtung Frankfurt\nzwischen Maintal-Bischofsheim und Frankfurt am Main-Bergen-Enkheim\nStraße geräumt"
         }
       ],
       "location": {
@@ -3623,7 +3623,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -3633,11 +3633,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-31T04:58:45.816Z"
+        "value": "2022-03-31T05:30:02.495Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4457,6 +4457,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-12-20T14:44:37.366Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/485895_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485895
+      },
+      "description": [
+        {
+          "value": "A661 Darmstadt - Bad Homburg\nzwischen Bad Homburger Kreuz und Bad Homburg\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn in Anschlussstellen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A661"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A661 Darmstadt Richtung Bad Homburg zwischen Bad Homburger Kreuz und Bad Homburg",
+        "streets": [
+          "A661"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-31T05:40:59.007Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6423,57 +6474,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/485872_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 485872
-      },
-      "description": [
-        {
-          "value": "B260 Lahnstein Richtung Wiesbaden\nzwischen Schlangenbad und Martinsthal\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B260"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B260 Lahnstein Richtung Wiesbaden zwischen Schlangenbad und Martinsthal",
-        "streets": [
-          "B260"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-31T05:14:07.587Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
