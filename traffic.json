@@ -4950,72 +4950,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/374122_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 374122
-      },
-      "description": [
-        {
-          "value": "B40, B8 Frankfurt, Adickesallee\nzwischen Eckenheimer Landstraße und Eschersheimer Landstraße\nBaustelle, rechter Fahrstreifen gesperrt, bis 31.03.2022 23:59 Uhr\nNordend-West, Adickesallee / Stichstraße, aufgrund von Baustelleneinrichtungs- und Lagerfläche Teilsperrung der Fahrbahn, Vollsperrung der Gehwege vom 06.04.2021 bis 31.03.2022."
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B40, B8"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B40, B8 Frankfurt, Adickesallee zwischen Eckenheimer Landstraße und Eschersheimer Landstraße",
-        "streets": [
-          "B40",
-          "B8"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2021-04-05T22:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-03-31T21:59:59Z"
-        },
-        "name": "Dauer",
-        "description": "von 06.04.2021 00:00 Uhr bis 31.03.2022 23:59 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2021-09-14T09:18:17.519Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_D__HE_FFM-IGLZ/210793756714_LMS-HE/54"
       },
       "dataProducer": {
@@ -5589,6 +5523,72 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-14T09:14:50.886Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/486147_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486147
+      },
+      "description": [
+        {
+          "value": "B44, B8 Frankfurt\nzwischen Katharinenkreisel und Senckenberganlage\nBaustelle, rechter Fahrstreifen gesperrt, bis 25.04.2022 23:59 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B44, B8"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B44, B8 Frankfurt zwischen Katharinenkreisel und Senckenberganlage",
+        "streets": [
+          "B44",
+          "B8"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-31T22:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-25T21:59:59Z"
+        },
+        "name": "Dauer",
+        "description": "von 01.04.2022 00:00 Uhr bis 25.04.2022 23:59 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-31T22:00:01.446Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -9554,71 +9554,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/381018_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 381018
-      },
-      "description": [
-        {
-          "value": "Frankfurt, Neebstraße bis Wilhelmshöher Straße\nzwischen Heidestraße und Hofhausstraße\nBaustelle, Fahrbahnerneuerung, beide Fahrtrichtungen gesperrt, bis 31.03.2022 23:59 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3002"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Frankfurt, Neebstraße bis Wilhelmshöher Straße zwischen Heidestraße und Hofhausstraße",
-        "streets": [
-          "L3002"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2021-04-30T22:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-03-31T21:59:59Z"
-        },
-        "name": "Dauer",
-        "description": "von 01.05.2021 00:00 Uhr bis 31.03.2022 23:59 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2021-09-14T09:13:43.54Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_D__HE_FFM-IGLZ/210818354313_LMS-HE/54"
       },
       "dataProducer": {
@@ -11652,7 +11587,7 @@
       },
       "description": [
         {
-          "value": "Frankfurt, Hanauer Landstraße\nzwischen Ostbahnhof und Obermainanlage\nBaustelle, rechter Fahrstreifen gesperrt, von 06.12.2021 00:00 Uhr bis 31.03.2022 23:59 Uhr\nOstend, Hanauer Landstraße 57, aufgrund von Baustelleneinrichtungs- und Lagerfläche Teilsperrung der Fahrbahn, Vollsperrung der Gehwege, Vollsperrung der Parkstreifen vom 06.12.2021 bis 31.03.2022."
+          "value": "Frankfurt, Hanauer Landstraße\nzwischen Ostbahnhof und Obermainanlage\nBaustelle beseitigt"
         }
       ],
       "location": {
@@ -11667,18 +11602,7 @@
         "description": "Frankfurt, Hanauer Landstraße zwischen Ostbahnhof und Obermainanlage",
         "streets": null
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2021-12-05T23:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-03-31T21:59:59Z"
-        },
-        "name": "Dauer",
-        "description": "von 06.12.2021 00:00 Uhr bis 31.03.2022 23:59 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -11694,7 +11618,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2021-11-24T16:11:42.109Z"
+        "value": "2022-03-31T22:04:26.356Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -13088,67 +13012,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/446313_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 446313
-      },
-      "description": [
-        {
-          "value": "Frankfurt, Bleichstraße\nzwischen Petersstraße und Elefantengasse\nBaustelle, rechter Fahrstreifen gesperrt, bis 31.03.2022 23:59 Uhr\nNordend-West, Blumenstraße 2, Eschenheimer Anlage 30, aufgrund von Baustelleneinrichtungs- und Lagerfläche Teilsperrung der Fahrbahn in Richtung Süd vom 29.10.2021 bis 31.03.2022."
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": null
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Frankfurt, Bleichstraße zwischen Petersstraße und Elefantengasse",
-        "streets": null
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2021-10-28T22:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-03-31T21:59:59Z"
-        },
-        "name": "Dauer",
-        "description": "von 29.10.2021 00:00 Uhr bis 31.03.2022 23:59 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2021-11-09T10:28:27.857Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
