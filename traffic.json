@@ -1,9 +1,117 @@
 {
   "status": "OK",
   "cached": false,
-  "time": "1.799ms",
+  "time": "2.914ms",
   "version": "TIC",
   "data": [
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/486276_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486276
+      },
+      "description": [
+        {
+          "value": "A7 Kassel Richtung Fulda\nzwischen Homberg (Efze) und Bad Hersfeld-West\nGefahr durch Gegenstände auf der Fahrbahn\n(ein \"Lübecker Hütchen\")"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Kassel Richtung Fulda zwischen Homberg (Efze) und Bad Hersfeld-West",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-01T09:25:09.881Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/486275_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486275
+      },
+      "description": [
+        {
+          "value": "L3169 zwischen Rothenkirchen und Abzweig nach Burghaun\nin beiden Richtungen Unfall mit Verletzten, Bergungsarbeiten, Richtungsfahrbahn gesperrt, empfohlene Umleitungen: über Rothenkirchen, B27, Gruben und Burghaun, über Burghaun, Gruben, B27 und Rothenkirchen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3169"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Kreis Fulda, L3169 zwischen Rothenkirchen und Abzweig nach Burghaun",
+        "streets": [
+          "L3169"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-01T09:26:26.315Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
     {
       "ticId": {
         "value": "LMS/r_LMS/486273_LMS-HE/54"
@@ -16,7 +124,7 @@
       },
       "description": [
         {
-          "value": "A7 Fulda Richtung Kassel\nzwischen Guxhagen und Dreieck Kassel-Süd\nUnfall, Richtungsfahrbahn gesperrt, Rettungshubschrauber im Einsatz"
+          "value": "A7 Fulda Richtung Kassel\nzwischen Guxhagen und Dreieck Kassel-Süd\nBergungsarbeiten, rechter Fahrstreifen gesperrt"
         }
       ],
       "location": {
@@ -42,23 +150,20 @@
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Arbeitsstelle"
         },
         {
           "value": "Sperrung"
-        },
-        {
-          "value": "Information"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-01T09:01:33.267Z"
+        "value": "2022-04-01T09:27:34.639Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
