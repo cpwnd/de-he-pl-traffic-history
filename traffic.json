@@ -1104,7 +1104,7 @@
       },
       "description": [
         {
-          "value": "A5 Kassel - Frankfurt\nzwischen Nordwestkreuz Frankfurt und Westkreuz Frankfurt\nin beiden Richtungen Gefahr durch ungesicherte Unfallstelle"
+          "value": "A5 Kassel - Frankfurt\nzwischen Nordwestkreuz Frankfurt und Westkreuz Frankfurt\nin beiden Richtungen Unfallstelle geräumt"
         }
       ],
       "location": {
@@ -1126,7 +1126,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1136,11 +1136,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-01T17:34:35.003Z"
+        "value": "2022-04-01T18:34:38.947Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4677,7 +4677,7 @@
       },
       "description": [
         {
-          "value": "A671 Wiesbaden Richtung Mainz\nzwischen Gustavsburg und Mainspitz-Dreieck\nGefahr durch Gegenstände auf der Fahrbahn (mehrere Reifen), rechter Fahrstreifen gesperrt"
+          "value": "A671 Wiesbaden Richtung Mainz\nzwischen Gustavsburg und Mainspitz-Dreieck\nStraße wieder frei"
         }
       ],
       "location": {
@@ -4699,7 +4699,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -4712,7 +4712,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-01T17:13:58.749Z"
+        "value": "2022-04-01T18:35:59.695Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4851,6 +4851,66 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/486447_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486447
+      },
+      "description": [
+        {
+          "value": "B3 Marburg - Kassel\nzwischen Gilserberg und Abzweig nach Schönau\nin beiden Richtungen Unfall, Bergungsarbeiten, Richtungsfahrbahn gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B3 Marburg Richtung Kassel zwischen Gilserberg und Abzweig nach Schönau",
+        "streets": [
+          "B3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-01T18:21:48.949Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_D__HE_FFM-IGLZ/210823237649_LMS-HE/54"
       },
       "dataProducer": {
@@ -4918,60 +4978,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/486428_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 486428
-      },
-      "description": [
-        {
-          "value": "B26 Darmstadt, Landgraf-Georg-Straße bis Hanauer Straße\nzwischen Fiedlerweg und Ortsausgang\nStraße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B26"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B26 Darmstadt, Landgraf-Georg-Straße bis Hanauer Straße zwischen Fiedlerweg und Ortsausgang",
-        "streets": [
-          "B26"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-01T18:04:32.058Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/486444_LMS-HE/54"
       },
       "dataProducer": {
@@ -4982,7 +4988,7 @@
       },
       "description": [
         {
-          "value": "B27 Fulda - Bad Hersfeld\nzwischen Petersberg-Marbach und Abzweig nach Marbach\nin beiden Richtungen Bergungsarbeiten, Richtungsfahrbahn gesperrt"
+          "value": "B27 Fulda - Bad Hersfeld\nzwischen Petersberg-Marbach und Abzweig nach Marbach\nin beiden Richtungen wieder offen"
         }
       ],
       "location": {
@@ -5017,11 +5023,11 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-01T18:12:32.395Z"
+        "value": "2022-04-01T18:26:42.6Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -6242,57 +6248,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/486415_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 486415
-      },
-      "description": [
-        {
-          "value": "B45 Hanau Richtung Dieburg\nzwischen B448, Hainburg-Obertshausen und A3, Hanau\nungesicherte Unfallstelle"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B45"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B45 Hanau Richtung Dieburg zwischen B448, Hainburg-Obertshausen und A3, Hanau",
-        "streets": [
-          "B45"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-01T16:45:34.002Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
@@ -10522,7 +10477,7 @@
       },
       "description": [
         {
-          "value": "L3092 Panoramastraße\nzwischen Abzweig nach Marburg und Marburg\nin beiden Richtungen ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, Richtungsfahrbahn gesperrt, Hindernis auf der Fahrbahn"
+          "value": "L3092 Panoramastraße\nzwischen Abzweig nach Marburg und Marburg\nin beiden Richtungen wieder offen"
         }
       ],
       "location": {
@@ -10560,11 +10515,11 @@
       "masterEventCategory": "Hinweis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-01T18:00:17.812Z"
+        "value": "2022-04-01T18:32:44.245Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -12027,7 +11982,7 @@
       },
       "description": [
         {
-          "value": "Hochtaunuskreis\nStraßenglätte, bitte vorsichtig fahren, Schneeräumfahrzeuge im Einsatz\n(In der Höhenlagen des Hochtaunuskreis, insbesondere rund um den Feldberg kommt es zu Fahrbahnglätte - Räum- und Streufahrzeuge im Einsatz)"
+          "value": "Hochtaunuskreis\nSchnee geräumt"
         }
       ],
       "location": {
@@ -12059,11 +12014,11 @@
       "masterEventCategory": "Straßenzustand",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-01T14:59:53.2Z"
+        "value": "2022-04-01T18:35:09.302Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -12139,7 +12094,7 @@
       },
       "description": [
         {
-          "value": "Odenwaldkreis\nStraßenglätte, bitte vorsichtig fahren, Schneeräumfahrzeuge im Einsatz\n(Es kommt aufgrund des Schneefalles zu teilweise extremer Straßenglätte im Bereich der Höhenlagen.)"
+          "value": "Odenwaldkreis\nSchnee geräumt"
         }
       ],
       "location": {
@@ -12171,7 +12126,7 @@
       "masterEventCategory": "Straßenzustand",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-01T17:16:07.03Z"
+        "value": "2022-04-01T18:34:19.095Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -12342,6 +12297,54 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-10T11:14:43.328Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/486448_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486448
+      },
+      "description": [
+        {
+          "value": "Hessen\nStraßenglätte, bitte vorsichtig fahren\n(In ganz Hessen ist mit Straßenglätte zu rechnen, insbesondere die Höhenlagen sind betroffen.)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": null
+          }
+        ],
+        "name": "Ort",
+        "description": "Hessen",
+        "streets": null
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Straßenzustand"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Straßenzustand",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-01T18:29:58.652Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
