@@ -978,6 +978,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/486477_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486477
+      },
+      "description": [
+        {
+          "value": "A4 Erfurt Richtung Bad Hersfeld\nin Höhe Rastplatz Seulingswald\nParkplatz geschlossen\n(querstehendes Fahrzeuggespann)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A4"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A4 Erfurt Richtung Bad Hersfeld in Höhe Rastplatz Seulingswald",
+        "streets": [
+          "A4"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Parken"
+        }
+      ],
+      "masterEventCategory": "Parken",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-01T22:05:11.178Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/438866_LMS-HE/54"
       },
       "dataProducer": {
@@ -1238,60 +1289,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/486394_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 486394
-      },
-      "description": [
-        {
-          "value": "A5 Heidelberg Richtung Darmstadt\nzwischen Darmstadt-Eberstadt und Darmstädter Kreuz\nalle Fahrbahnen geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Heidelberg Richtung Darmstadt zwischen Darmstadt-Eberstadt und Darmstädter Kreuz",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-01T16:29:08.471Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/338932_LMS-HE/54"
       },
       "dataProducer": {
@@ -1411,6 +1408,63 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-28T13:39:39.318Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/486476_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486476
+      },
+      "description": [
+        {
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Rastplatz Limes und Alsfeld-Ost\nGefahr durch ungesicherte Unfallstelle, fahren Sie bitte besonders vorsichtig, Polizei ist benachrichtigt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Frankfurt Richtung Kassel zwischen Rastplatz Limes und Alsfeld-Ost",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hinweis"
+        },
+        {
+          "value": "Information"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-01T22:09:58.71Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2331,7 +2385,7 @@
       },
       "description": [
         {
-          "value": "A7 Fulda Richtung Kassel\nzwischen Bad Hersfeld-West und Homberg (Efze)\nGefahr durch ungesicherte Unfallstelle auf dem rechten Fahrstreifen und dem Standstreifen"
+          "value": "A7 Fulda Richtung Kassel\nzwischen Bad Hersfeld-West und Homberg (Efze)\nUnfallaufnahme im Kurvenbereich, bitte vorsichtig fahren"
         }
       ],
       "location": {
@@ -2353,21 +2407,24 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Störung"
+        },
+        {
+          "value": "Hinweis"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-01T21:15:39.854Z"
+        "value": "2022-04-01T21:56:05.252Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4532,7 +4589,7 @@
       },
       "description": [
         {
-          "value": "B3 Frankfurt, Dreieichstraße\nzwischen B43, Deutschherrnufer und Darmstädter Landstraße\nBaustelle, rechter Fahrstreifen gesperrt, bis 01.04.2022 23:59 Uhr\nSachsenhausen-N., Dreieichstraße 6, aufgrund von Baustelleneinrichtungs- und Lagerfläche Teilsperrung der Fahrbahn in Richtung Süd vom 04.05.2021 bis 01.04.2022."
+          "value": "B3 Frankfurt, Dreieichstraße\nzwischen B43, Deutschherrnufer und Darmstädter Landstraße\nBaustelle beseitigt"
         }
       ],
       "location": {
@@ -4551,18 +4608,7 @@
           "B3"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2021-05-03T22:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-01T21:59:59Z"
-        },
-        "name": "Dauer",
-        "description": "von 04.05.2021 00:00 Uhr bis 01.04.2022 23:59 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -4578,11 +4624,11 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2021-09-14T09:12:34.474Z"
+        "value": "2022-04-01T22:06:49.4Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -6001,7 +6047,7 @@
       },
       "description": [
         {
-          "value": "B45 Hanau - Dieburg\nzwischen Rodgau-Hainhausen und Nieder-Roden\nin beiden Richtungen Fahrbahnerneuerung, geänderte Verkehrsführung, bis 01.04.2022 Mitternacht"
+          "value": "B45 Hanau - Dieburg\nzwischen Rodgau-Hainhausen und Nieder-Roden\nin beiden Richtungen wieder normale Verkehrsführung"
         }
       ],
       "location": {
@@ -6020,15 +6066,7 @@
           "B45"
         ]
       },
-      "duration": {
-        "startTime": null,
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-01T21:59:00Z"
-        },
-        "name": "Dauer",
-        "description": "bis 01.04.2022 Mitternacht"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -6041,7 +6079,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2021-12-22T11:38:19.234Z"
+        "value": "2022-04-01T22:07:14.051Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -7208,7 +7246,7 @@
       },
       "description": [
         {
-          "value": "K12 zwischen Aue und B249\nBaustelle, Richtungsfahrbahn gesperrt, eine örtliche Umleitung ist eingerichtet, bis 01.04.2022 Mitternacht"
+          "value": "K12 zwischen Aue und B249\nBaustelle beseitigt"
         }
       ],
       "location": {
@@ -7227,18 +7265,7 @@
           "K12"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2021-12-03T09:44:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-01T21:59:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 03.12.2021 10:44 Uhr bis 01.04.2022 Mitternacht"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -7257,7 +7284,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-02T03:39:40.766Z"
+        "value": "2022-04-01T22:06:58.722Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -8134,17 +8161,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/463280_LMS-HE/54"
+        "value": "LMS/r_LMS/463326_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 463280
+        "value": 463326
       },
       "description": [
         {
-          "value": "Wetteraukreis, K229\nzwischen Orleshausen und Düdelsheim\nBaustelle, Richtungsfahrbahn gesperrt, bis 01.04.2022 23:59 Uhr"
+          "value": "K229 zwischen Orleshausen und Düdelsheim\nin beiden Richtungen wieder offen"
         }
       ],
       "location": {
@@ -8163,18 +8190,64 @@
           "K229"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-01-10T23:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-01T21:59:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 11.01.2022 00:00 Uhr bis 01.04.2022 23:59 Uhr"
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
       },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-01T22:07:44.724Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/463280_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 463280
+      },
+      "description": [
+        {
+          "value": "K229 zwischen Orleshausen und Düdelsheim\nBaustelle beseitigt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K229"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Wetteraukreis, K229 zwischen Orleshausen und Düdelsheim",
+        "streets": [
+          "K229"
+        ]
+      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -8190,11 +8263,11 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-10T23:00:01.453Z"
+        "value": "2022-04-01T22:06:53.012Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -8961,6 +9034,71 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/486475_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486475
+      },
+      "description": [
+        {
+          "value": "Frankfurt und Offenbach am Main, Offenbacher Landstraße\nzwischen B3 in Frankfurt und Offenbach am Main\nin beiden Richtungen Baustelle, Fahrbahnverengung, bis 15.04.2022 23:59 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K816"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt und Offenbach am Main, Offenbacher Landstraße zwischen B3 in Frankfurt und Offenbach am Main",
+        "streets": [
+          "K816"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-01T22:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-15T21:59:59Z"
+        },
+        "name": "Dauer",
+        "description": "von 02.04.2022 00:00 Uhr bis 15.04.2022 23:59 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-01T22:00:02.367Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -10802,7 +10940,72 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-28T09:22:06.503Z"
+        "value": "2022-04-01T22:07:20.442Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/463438_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 463438
+      },
+      "description": [
+        {
+          "value": "L3195 Steinau - Maintal-Dörnigheim\nzwischen Orleshausen und Calbach\nin beiden Richtungen Baustelle, Richtungsfahrbahn gesperrt, bis 06.04.2022 Mitternacht"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3195"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Wetteraukreis, L3195 zwischen Orleshausen und Calbach",
+        "streets": [
+          "L3195"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-01T22:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-06T21:59:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 02.04.2022 Mitternacht bis 06.04.2022 Mitternacht"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-01T22:07:07.738Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -10869,63 +11072,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/486451_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 486451
-      },
-      "description": [
-        {
-          "value": "L3273 Idstein-Heftrich Richtung Taunusstein-Neuhof\nzwischen Niederseelbach und Engenhahn\nUnfall, Bergungsarbeiten, Richtungsfahrbahn gesperrt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3273"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Rheingau-Taunus-Kreis, L3273 zwischen Niederseelbach und Engenhahn",
-        "streets": [
-          "L3273"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-01T18:46:15.284Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
