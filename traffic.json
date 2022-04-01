@@ -136,6 +136,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/486432_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486432
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Würzburg\nzwischen Offenbach und Obertshausen\ndefekter PKW auf dem Standstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Würzburg zwischen Offenbach und Obertshausen",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-01T17:51:32.511Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/462180_LMS-HE/54"
       },
       "dataProducer": {
@@ -3688,6 +3739,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/486433_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486433
+      },
+      "description": [
+        {
+          "value": "A66 Wiesbaden Richtung Frankfurt\nzwischen Frankfurt am Main-Zeilsheim und Kelkheim\nRichtungsfahrbahn gesperrt, Unfallaufnahme"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Wiesbaden Richtung Frankfurt zwischen Frankfurt am Main-Zeilsheim und Kelkheim",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-01T18:13:31.901Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/486175_LMS-HE/54"
       },
       "dataProducer": {
@@ -4823,7 +4928,7 @@
       },
       "description": [
         {
-          "value": "B26 Darmstadt, Landgraf-Georg-Straße bis Hanauer Straße\nzwischen Fiedlerweg und Ortsausgang\nGefahr durch defekten LKW, Verkehrsbehinderung"
+          "value": "B26 Darmstadt, Landgraf-Georg-Straße bis Hanauer Straße\nzwischen Fiedlerweg und Ortsausgang\nStraße wieder frei"
         }
       ],
       "location": {
@@ -4845,7 +4950,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -4858,7 +4963,61 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-01T17:29:14.842Z"
+        "value": "2022-04-01T18:04:32.058Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/486444_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486444
+      },
+      "description": [
+        {
+          "value": "B27 Fulda - Bad Hersfeld\nzwischen Petersberg-Marbach und Abzweig nach Marbach\nin beiden Richtungen Bergungsarbeiten, Richtungsfahrbahn gesperrt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B27"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B27 Fulda Richtung Bad Hersfeld zwischen Petersberg-Marbach und Abzweig nach Marbach",
+        "streets": [
+          "B27"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-01T18:12:32.395Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -5513,6 +5672,71 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_D__HE_FFM-IGLZ/210824671496_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486435
+      },
+      "description": [
+        {
+          "value": "B43 Frankfurt, Gartenstraße\nzwischen Dürerstraße und Schweizer Straße\nBaustelle, gesperrt, bis 15.07.2022 23:59 Uhr\nSachsenhausen-N., Gartenstraße 31, aufgrund von Baustelleneinrichtungs- und Lagerfläche Vollsperrung der Fahrbahn in Richtung Süd-West bis 15.07.2022."
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B43"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B43 Frankfurt, Gartenstraße zwischen Dürerstraße und Schweizer Straße",
+        "streets": [
+          "B43"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-20T23:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-07-15T21:59:59Z"
+        },
+        "name": "Dauer",
+        "description": "von 21.03.2022 00:00 Uhr bis 15.07.2022 23:59 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-01T17:56:33.425Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/443904_LMS-HE/54"
       },
       "dataProducer": {
@@ -5635,6 +5859,71 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-18T10:03:27.836Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_D__HE_FFM-IGLZ/210824671626_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486441
+      },
+      "description": [
+        {
+          "value": "B44 Frankfurt, Düsseldorfer Straße bis Baseler Straße\nzwischen Platz der Republik und Baseler Platz\nBaustelle, gesperrt, bis 31.10.2022 23:59 Uhr\nGallus, Düsseldorfer Straße / Mainzer Landstraße, aufgrund von Tunnelarbeiten Vollsperrung der Fahrbahn in Richtung Süd vom 12.04.2021 bis 31.10.2022."
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B44"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B44 Frankfurt, Düsseldorfer Straße bis Baseler Straße zwischen Platz der Republik und Baseler Platz",
+        "streets": [
+          "B44"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2021-04-11T22:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-10-31T22:59:59Z"
+        },
+        "name": "Dauer",
+        "description": "von 12.04.2021 00:00 Uhr bis 31.10.2022 23:59 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-01T18:01:03.742Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -5774,6 +6063,130 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/486438_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486438
+      },
+      "description": [
+        {
+          "value": "B45 Hanau Richtung Dieburg\nzwischen Rodgau-Niederroden in Nieder-Roden und B459, Rödermark-Ober-Roden\nvorübergehende Begrenzung der Fahrbahnbreite auf 6,10 m, bis 16.07.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B45 Hanau Richtung Dieburg zwischen Rodgau-Niederroden in Nieder-Roden und B459, Rödermark-Ober-Roden",
+        "streets": [
+          "B45"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-28T18:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-07-16T03:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 28.03.2022 bis 16.07.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Beschränkung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-01T18:00:01.905Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/485285_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485285
+      },
+      "description": [
+        {
+          "value": "B45 Hanau Richtung Dieburg\nzwischen Rodgau-Niederroden in Nieder-Roden und B459, Rödermark-Ober-Roden\nvorübergehende Begrenzung der Fahrbahnbreite auf 6,10 m, bis 16.07.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B45 Hanau Richtung Dieburg zwischen Rodgau-Niederroden in Nieder-Roden und B459, Rödermark-Ober-Roden",
+        "streets": [
+          "B45"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-28T18:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-07-16T03:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 28.03.2022 bis 16.07.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Beschränkung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-29T03:02:42.125Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/409921_LMS-HE/54"
       },
       "dataProducer": {
@@ -5880,6 +6293,148 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/486437_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486437
+      },
+      "description": [
+        {
+          "value": "B45 Dieburg Richtung Hanau\nzwischen B459, Rödermark-Ober-Roden und Rodgau-Niederroden in Nieder-Roden\nBauarbeiten, vorübergehende Begrenzung der Fahrbahnbreite auf 3 m, Richtungsfahrbahn gesperrt, Verkehr wird über die Gegenfahrbahn geleitet, Fahrbahn auf einen Fahrstreifen verengt, bis 21.04.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B45 Dieburg Richtung Hanau zwischen B459, Rödermark-Ober-Roden und Rodgau-Niederroden in Nieder-Roden",
+        "streets": [
+          "B45"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-28T18:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-21T03:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 28.03.2022 bis 21.04.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-01T18:00:01.905Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/485284_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485284
+      },
+      "description": [
+        {
+          "value": "B45 Dieburg Richtung Hanau\nzwischen B459, Rödermark-Ober-Roden und Rodgau-Niederroden in Nieder-Roden\nBauarbeiten, Richtungsfahrbahn gesperrt, Verkehr wird über die Gegenfahrbahn geleitet, Fahrbahn auf einen Fahrstreifen verengt, vorübergehende Begrenzung der Fahrbahnbreite auf 3 m, bis 21.04.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B45 Dieburg Richtung Hanau zwischen B459, Rödermark-Ober-Roden und Rodgau-Niederroden in Nieder-Roden",
+        "streets": [
+          "B45"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-28T18:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-21T03:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 28.03.2022 bis 21.04.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-29T03:02:32.671Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -9957,6 +10512,63 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/486436_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486436
+      },
+      "description": [
+        {
+          "value": "L3092 Panoramastraße\nzwischen Abzweig nach Marburg und Marburg\nin beiden Richtungen ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, Richtungsfahrbahn gesperrt, Hindernis auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3092"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Kreis Marburg-Biedenkopf, Panoramastraße zwischen Abzweig nach Marburg und Marburg",
+        "streets": [
+          "L3092"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hinweis"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hinweis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-01T18:00:17.812Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/464788_LMS-HE/54"
       },
       "dataProducer": {
@@ -11280,6 +11892,70 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/486440_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486440
+      },
+      "description": [
+        {
+          "value": "Main-Taunus-Kreis\nin Höhe B8, Sulzbach (Taunus)\nBauarbeiten, vorübergehende Begrenzung der Fahrbahnbreite auf 3 m, Fahrbahn von 2 auf einen Fahrstreifen verengt, bis 11.04.2022, zwischen Fr 20:00 Uhr und Mo 05:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": null
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Main-Taunus-Kreis, in Höhe B8, Sulzbach (Taunus)",
+        "streets": null
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-01T18:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-11T03:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 01.04.2022 bis 11.04.2022, zwischen Fr 20:00 Uhr und Mo 05:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-01T18:00:01.905Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_D__HE_FFM-IGLZ/210813857704_LMS-HE/54"
       },
       "dataProducer": {
@@ -11384,6 +12060,67 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-01T14:59:53.2Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/486439_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486439
+      },
+      "description": [
+        {
+          "value": "Main-Taunus-Kreis\nin Höhe B8, Sulzbach (Taunus)\nBauarbeiten, Richtungsfahrbahn gesperrt, bis 11.04.2022, zwischen Fr 20:00 Uhr und Mo 05:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": null
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Main-Taunus-Kreis, in Höhe B8, Sulzbach (Taunus)",
+        "streets": null
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-01T18:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-11T03:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 01.04.2022 bis 11.04.2022, zwischen Fr 20:00 Uhr und Mo 05:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-01T18:00:01.905Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
