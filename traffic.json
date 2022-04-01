@@ -1366,6 +1366,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/486322_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486322
+      },
+      "description": [
+        {
+          "value": "A6 Mannheim Richtung Heilbronn\nzwischen Viernheimer Dreieck und Viernheimer Kreuz\nUnfall auf dem linken Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A6"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A6 Mannheim Richtung Heilbronn zwischen Viernheimer Dreieck und Viernheimer Kreuz",
+        "streets": [
+          "A6"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-01T11:50:29.152Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/450370_LMS-HE/54"
       },
       "dataProducer": {
@@ -2386,57 +2437,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-03T16:02:45.746Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/486309_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 486309
-      },
-      "description": [
-        {
-          "value": "A44 Kassel Richtung Eisenach\nzwischen Hessisch Lichtenau-Ost und Waldkappel\nGefahr durch Spanngurte auf der Fahrbahn"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A44"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A44 Kassel Richtung Eisenach zwischen Hessisch Lichtenau-Ost und Waldkappel",
-        "streets": [
-          "A44"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-01T11:06:20.039Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
