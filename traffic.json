@@ -3409,7 +3409,7 @@
       },
       "description": [
         {
-          "value": "A60 Rüsselsheim - Mainz\nzwischen Mainspitz-Dreieck und Mainz-Laubenheim\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
+          "value": "A60 Rüsselsheim - Mainz\nzwischen Mainspitz-Dreieck und Mainz-Laubenheim\nin beiden Richtungen Straße wieder frei"
         }
       ],
       "location": {
@@ -3431,7 +3431,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -3441,11 +3441,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-01T16:28:46.412Z"
+        "value": "2022-04-01T17:08:50.695Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3760,7 +3760,7 @@
       },
       "description": [
         {
-          "value": "A67 Darmstadt Richtung Mannheim\nzwischen Gernsheim und Lorsch\nUnfall, Gefahr durch Gegenstände auf allen Fahrstreifen (Fahrzeugteile)"
+          "value": "A67 Darmstadt Richtung Mannheim\nzwischen Gernsheim und Lorsch\nStraße wieder frei"
         }
       ],
       "location": {
@@ -3782,7 +3782,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -3795,11 +3795,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-01T16:03:57.421Z"
+        "value": "2022-04-01T17:17:19.513Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4572,7 +4572,7 @@
       },
       "description": [
         {
-          "value": "A671 Wiesbaden Richtung Mainz\nzwischen Gustavsburg und Mainspitz-Dreieck\nGefahr durch Gegenstände auf der Fahrbahn (mehrere Reifen)"
+          "value": "A671 Wiesbaden Richtung Mainz\nzwischen Gustavsburg und Mainspitz-Dreieck\nGefahr durch Gegenstände auf der Fahrbahn (mehrere Reifen), rechter Fahrstreifen gesperrt"
         }
       ],
       "location": {
@@ -4599,16 +4599,19 @@
       "eventCategory": [
         {
           "value": "Hindernis"
+        },
+        {
+          "value": "Sperrung"
         }
       ],
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-01T15:57:55.546Z"
+        "value": "2022-04-01T17:13:58.749Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -5819,6 +5822,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-01T16:45:34.002Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/486423_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486423
+      },
+      "description": [
+        {
+          "value": "B47 Michelstadt - Amorbach\nzwischen Abzweig nach Ernsbach und Michelstadt-Eulbach\nin beiden Richtungen Richtungsfahrbahn gesperrt, Bergungsarbeiten"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B47"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B47 Michelstadt Richtung Amorbach zwischen Abzweig nach Ernsbach und Michelstadt-Eulbach",
+        "streets": [
+          "B47"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Arbeitsstelle"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-01T17:08:30.485Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -11331,6 +11388,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/486424_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486424
+      },
+      "description": [
+        {
+          "value": "Odenwaldkreis\nStraßenglätte, bitte vorsichtig fahren, Schneeräumfahrzeuge im Einsatz\n(Es kommt aufgrund des Schneefalles zu teilweise extremer Straßenglätte im Bereich der Höhenlagen.)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": null
+          }
+        ],
+        "name": "Ort",
+        "description": "Odenwaldkreis",
+        "streets": null
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Straßenzustand"
+        },
+        {
+          "value": "Hinweis"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Straßenzustand",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-01T17:16:07.03Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
