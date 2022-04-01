@@ -3749,7 +3749,7 @@
       },
       "description": [
         {
-          "value": "A66 Wiesbaden Richtung Frankfurt\nzwischen Frankfurt am Main-Zeilsheim und Kelkheim\nRichtungsfahrbahn gesperrt, Unfallaufnahme"
+          "value": "A66 Wiesbaden Richtung Frankfurt\nzwischen Frankfurt am Main-Zeilsheim und Kelkheim\nUnfallaufnahme, rechter Fahrstreifen wieder befahrbar, linker Fahrstreifen gesperrt"
         }
       ],
       "location": {
@@ -3775,16 +3775,16 @@
       },
       "eventCategory": [
         {
-          "value": "Sperrung"
+          "value": "Störung"
         },
         {
-          "value": "Störung"
+          "value": "Sperrung"
         }
       ],
-      "masterEventCategory": "Sperrung",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-01T18:13:31.901Z"
+        "value": "2022-04-01T18:47:15.427Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4970,60 +4970,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-18T10:04:37.93Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/486444_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 486444
-      },
-      "description": [
-        {
-          "value": "B27 Fulda - Bad Hersfeld\nzwischen Petersberg-Marbach und Abzweig nach Marbach\nin beiden Richtungen wieder offen"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B27"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B27 Fulda Richtung Bad Hersfeld zwischen Petersberg-Marbach und Abzweig nach Marbach",
-        "streets": [
-          "B27"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-01T18:26:42.6Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6404,7 +6350,7 @@
       },
       "description": [
         {
-          "value": "B47 Michelstadt - Amorbach\nzwischen Abzweig nach Ernsbach und Michelstadt-Eulbach\nin beiden Richtungen Richtungsfahrbahn gesperrt, Bergungsarbeiten"
+          "value": "B47 Michelstadt - Amorbach\nzwischen Abzweig nach Ernsbach und Michelstadt-Eulbach\nin beiden Richtungen Straße wieder frei"
         }
       ],
       "location": {
@@ -6439,11 +6385,11 @@
       "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-01T17:08:30.485Z"
+        "value": "2022-04-01T18:36:20.976Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -11182,6 +11128,63 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/486451_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486451
+      },
+      "description": [
+        {
+          "value": "L3273 Idstein-Heftrich Richtung Taunusstein-Neuhof\nzwischen Niederseelbach und Engenhahn\nUnfall, Bergungsarbeiten, Richtungsfahrbahn gesperrt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3273"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Rheingau-Taunus-Kreis, L3273 zwischen Niederseelbach und Engenhahn",
+        "streets": [
+          "L3273"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-01T18:46:15.284Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
