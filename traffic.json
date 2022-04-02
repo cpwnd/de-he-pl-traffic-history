@@ -1375,7 +1375,7 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Alsfeld-Ost und Hattenbacher Dreieck\nUnfall mit 2 LKW, Richtungsfahrbahn gesperrt, Bergungsarbeiten, empfohlene Umleitungen: U45, U31"
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Alsfeld-Ost und Hattenbacher Dreieck\nUnfall mit 2 LKW, Richtungsfahrbahn gesperrt, Bergungsarbeiten, linker Fahrstreifen wieder befahrbar, empfohlene Umleitungen: U45, U31"
         }
       ],
       "location": {
@@ -1404,16 +1404,16 @@
           "value": "Unfall"
         },
         {
-          "value": "Arbeitsstelle"
+          "value": "Sperrung"
         },
         {
-          "value": "Sperrung"
+          "value": "Arbeitsstelle"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-02T15:41:02.889Z"
+        "value": "2022-04-02T17:15:29.164Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1610,6 +1610,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-12-20T08:35:01.143Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/486669_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486669
+      },
+      "description": [
+        {
+          "value": "A7 Kassel - Fulda\nzwischen Fulda-Nord und Fulda-Mitte\nin beiden Richtungen Gefahr durch 2 Hunde auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Kassel Richtung Fulda zwischen Fulda-Nord und Fulda-Mitte",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-02T17:07:46.406Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -5704,7 +5755,7 @@
       },
       "description": [
         {
-          "value": "B45 Dieburg Richtung Höchst im Odenwald\nzwischen Groß-Umstadt und Wiebelsbach\nUnfall, Richtungsfahrbahn gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+          "value": "B45 Dieburg Richtung Höchst im Odenwald\nzwischen Groß-Umstadt und Wiebelsbach\nUnfall, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, Fahrbahn auf einen Fahrstreifen verengt"
         }
       ],
       "location": {
@@ -5733,20 +5784,20 @@
           "value": "Unfall"
         },
         {
-          "value": "Sperrung"
+          "value": "Hinweis"
         },
         {
-          "value": "Hinweis"
+          "value": "Störung"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-02T16:18:24.17Z"
+        "value": "2022-04-02T16:52:51.192Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -7006,6 +7057,71 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-09T12:24:23.362Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/486668_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486668
+      },
+      "description": [
+        {
+          "value": "Schwalm-Eder-Kreis, K61\nzwischen Oberurff-Schiffelborn und Bergfreiheit\nin beiden Richtungen Krötenwanderung, Richtungsfahrbahn gesperrt, bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K61"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Schwalm-Eder-Kreis, K61 zwischen Oberurff-Schiffelborn und Bergfreiheit",
+        "streets": [
+          "K61"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-01T18:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-30T05:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 01.03.2022 bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Information"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-02T17:00:00.483Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -10094,6 +10210,63 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/486638_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486638
+      },
+      "description": [
+        {
+          "value": "L3193 Langenselbold - Büdingen\nzwischen Altwiedermus und Lorbach\nin beiden Richtungen alle Unfallstellen geräumt, keine Verkehrsbehinderung mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3193"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Main-Kinzig-Kreis und Wetteraukreis, L3193 zwischen Altwiedermus und Lorbach",
+        "streets": [
+          "L3193"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-02T17:11:29.566Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
