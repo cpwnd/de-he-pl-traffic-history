@@ -1032,6 +1032,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/486540_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486540
+      },
+      "description": [
+        {
+          "value": "A4 Bad Hersfeld Richtung Erfurt\nzwischen Kirchheimer Dreieck und Bad Hersfeld\nStau auf dem rechten Fahrstreifen\n(LKW Stau)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A4"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A4 Bad Hersfeld Richtung Erfurt zwischen Kirchheimer Dreieck und Bad Hersfeld",
+        "streets": [
+          "A4"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Stau"
+        }
+      ],
+      "masterEventCategory": "Stau",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-02T06:50:08.932Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/438866_LMS-HE/54"
       },
       "dataProducer": {
@@ -1411,111 +1462,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-28T13:39:39.318Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/486526_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 486526
-      },
-      "description": [
-        {
-          "value": "A5 Europabrücke Frankfurt, Frankfurt Richtung Kassel\nzwischen Frankfurt-Niederrad und Frankfurt am Main-Westhafen\nUnfallstelle geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Europabrücke Frankfurt, Frankfurt Richtung Kassel zwischen Frankfurt-Niederrad und Frankfurt am Main-Westhafen",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-02T06:45:45.689Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/486536_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 486536
-      },
-      "description": [
-        {
-          "value": "A5 Frankfurt Richtung Kassel\nin Höhe Nordwestkreuz Frankfurt\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Frankfurt Richtung Kassel in Höhe Nordwestkreuz Frankfurt",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-02T06:46:27.413Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3785,57 +3731,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/486530_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 486530
-      },
-      "description": [
-        {
-          "value": "A60 Rüsselsheim Richtung Mainz\nzwischen Bischofsheim und Mainspitz-Dreieck\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A60"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A60 Rüsselsheim Richtung Mainz zwischen Bischofsheim und Mainspitz-Dreieck",
-        "streets": [
-          "A60"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-02T06:39:28.081Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/486176_LMS-HE/54"
       },
       "dataProducer": {
@@ -5502,60 +5397,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/486539_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 486539
-      },
-      "description": [
-        {
-          "value": "B43 Offenbach Richtung Frankfurt Flughafen\nAusfahrt Terminal 1\nUnfall, rechter Fahrstreifen blockiert"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B43"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B43 Offenbach Richtung Frankfurt Flughafen Ausfahrt Terminal 1",
-        "streets": [
-          "B43"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-02T06:48:17.141Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/481871_LMS-HE/54"
       },
       "dataProducer": {
@@ -6811,6 +6652,63 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/486541_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486541
+      },
+      "description": [
+        {
+          "value": "B417 Mainzer Landstraße, Wiesbaden Richtung Diez\nzwischen Abzweig nach Ketternschwalbach und Kirberg\nUnfall mit 1 LKW, Richtungsfahrbahn blockiert, LKW wird empfohlen, das Gebiet weiträumig zu umfahren\n(LKW können die Unfallstelle nicht passieren)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B417"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B417 Mainzer Landstraße, Wiesbaden Richtung Diez zwischen Abzweig nach Ketternschwalbach und Kirberg",
+        "streets": [
+          "B417"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-02T06:54:03.203Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/477347_LMS-HE/54"
       },
       "dataProducer": {
@@ -7271,6 +7169,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/486422_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486422
+      },
+      "description": [
+        {
+          "value": "K61 zwischen Oberurff-Schiffelborn und Bergfreiheit\nin beiden Richtungen Straße wieder frei"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K61"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Schwalm-Eder-Kreis, K61 zwischen Oberurff-Schiffelborn und Bergfreiheit",
+        "streets": [
+          "K61"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Information"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-02T07:08:20.015Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -9698,7 +9650,7 @@
       },
       "description": [
         {
-          "value": "L3048 Fronhausen - Kirchhain\nin Höhe Abzweig nach Wittelsberg\nin beiden Richtungen Gefahr durch 2 Pferde auf der Fahrbahn"
+          "value": "L3048 Fronhausen - Kirchhain\nin Höhe Abzweig nach Wittelsberg\nin beiden Richtungen Gefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -9720,7 +9672,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -9730,11 +9682,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-01T23:16:58.466Z"
+        "value": "2022-04-02T07:10:29.899Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
