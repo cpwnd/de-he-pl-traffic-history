@@ -1672,6 +1672,63 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/486647_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486647
+      },
+      "description": [
+        {
+          "value": "A7 Kassel Richtung Fulda\nzwischen Hünfeld/Schlitz und Fulda-Nord\nGefahr besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Kassel Richtung Fulda zwischen Hünfeld/Schlitz und Fulda-Nord",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Stau"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-02T14:38:52.279Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/443925_LMS-HE/54"
       },
       "dataProducer": {
@@ -4535,66 +4592,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/486557_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 486557
-      },
-      "description": [
-        {
-          "value": "B3 Marburg - Kassel\nzwischen Wohratal - Halsdorf und Lischeid\nin beiden Richtungen alle Unfallstellen geräumt, keine Verkehrsbehinderung mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B3 Marburg Richtung Kassel zwischen Wohratal - Halsdorf und Lischeid",
-        "streets": [
-          "B3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-02T14:20:14.437Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -7697,7 +7694,7 @@
       },
       "description": [
         {
-          "value": "K700 zwischen Bleidenstadt und Watzhahn\nin beiden Richtungen Gefahr durch 2 Pferde auf der Fahrbahn"
+          "value": "K700 zwischen Bleidenstadt und Watzhahn\nin beiden Richtungen Gefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -7719,7 +7716,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -7729,7 +7726,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-02T13:55:06.772Z"
+        "value": "2022-04-02T14:31:15.827Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -10176,7 +10173,7 @@
       },
       "description": [
         {
-          "value": "L3193 Langenselbold - Büdingen\nzwischen Altwiedermus und Lorbach\nin beiden Richtungen Richtungsfahrbahn gesperrt, Unfall, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+          "value": "L3193 Langenselbold - Büdingen\nzwischen Altwiedermus und Lorbach\nin beiden Richtungen Richtungsfahrbahn gesperrt, Unfall, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, bis 02.04.2022 ca. 18:30 Uhr"
         }
       ],
       "location": {
@@ -10195,7 +10192,15 @@
           "L3193"
         ]
       },
-      "duration": null,
+      "duration": {
+        "startTime": null,
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-02T16:30:00Z"
+        },
+        "name": "Dauer",
+        "description": "bis 02.04.2022 ca. 18:30 Uhr"
+      },
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -10205,16 +10210,16 @@
           "value": "Sperrung"
         },
         {
-          "value": "Hinweis"
+          "value": "Unfall"
         },
         {
-          "value": "Unfall"
+          "value": "Hinweis"
         }
       ],
       "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-02T13:07:39.394Z"
+        "value": "2022-04-02T14:35:10.405Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
