@@ -1053,7 +1053,7 @@
       },
       "description": [
         {
-          "value": "A5 Kassel Richtung Frankfurt\nzwischen Bad Homburger Kreuz und Nordwestkreuz Frankfurt\nUnfall, Standstreifen blockiert"
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Bad Homburger Kreuz und Nordwestkreuz Frankfurt\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -1088,7 +1088,7 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-02T11:08:00.362Z"
+        "value": "2022-04-02T11:22:12.36Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6556,63 +6556,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/486541_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 486541
-      },
-      "description": [
-        {
-          "value": "B417 Mainzer Landstraße, Wiesbaden Richtung Diez\nzwischen Abzweig nach Ketternschwalbach und Kirberg\nalle Unfallstellen geräumt, keine Verkehrsbehinderung mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B417"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B417 Mainzer Landstraße, Wiesbaden Richtung Diez zwischen Abzweig nach Ketternschwalbach und Kirberg",
-        "streets": [
-          "B417"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-02T11:06:05.935Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/486598_LMS-HE/54"
       },
       "dataProducer": {
@@ -10150,6 +10093,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-25T03:00:02.24Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/486615_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486615
+      },
+      "description": [
+        {
+          "value": "L3187 zwischen Dorn-Assenheim und B275, Berghof\nUnfall, beide Fahrtrichtungen gesperrt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3187"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Wetteraukreis, L3187 zwischen Dorn-Assenheim und B275, Berghof",
+        "streets": [
+          "L3187"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-02T11:18:32.746Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
