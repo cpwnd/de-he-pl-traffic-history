@@ -1628,7 +1628,7 @@
       },
       "description": [
         {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Hünfeld/Schlitz und Fulda-Nord\nStau, Unfallstelle geräumt"
+          "value": "A7 Kassel Richtung Fulda\nzwischen Hünfeld/Schlitz und Fulda-Nord\nrechter Fahrstreifen gesperrt, Reinigungsarbeiten"
         }
       ],
       "location": {
@@ -1654,16 +1654,16 @@
       },
       "eventCategory": [
         {
-          "value": "Stau"
+          "value": "Sperrung"
         },
         {
-          "value": "Unfall"
+          "value": "Störung"
         }
       ],
-      "masterEventCategory": "Stau",
+      "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-02T09:29:16.247Z"
+        "value": "2022-04-02T10:04:10.403Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4288,57 +4288,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/486570_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 486570
-      },
-      "description": [
-        {
-          "value": "A648 Wiesbadener Straße, Frankfurt Richtung Eschborn\nzwischen Westkreuz Frankfurt und Frankfurt am Main-Rödelheim\nUnfall"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A648"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A648 Wiesbadener Straße, Frankfurt Richtung Eschborn zwischen Westkreuz Frankfurt und Frankfurt am Main-Rödelheim",
-        "streets": [
-          "A648"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-02T09:34:05.195Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/430914_LMS-HE/54"
       },
       "dataProducer": {
@@ -4713,57 +4662,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/486577_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 486577
-      },
-      "description": [
-        {
-          "value": "B8 Frankfurt - Königstein\nzwischen Bad Soden am Taunus und Ausfahrt Kelkheim (Taunus)\nin beiden Richtungen Gefahr durch Wildschweine auf der Fahrbahn"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B8"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B8 Frankfurt Richtung Königstein zwischen Bad Soden am Taunus und Ausfahrt Kelkheim (Taunus)",
-        "streets": [
-          "B8"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-02T09:32:39.261Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
