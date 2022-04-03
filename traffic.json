@@ -1694,17 +1694,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/486741_LMS-HE/54"
+        "value": "LMS/r_LMS/486744_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 486741
+        "value": 486744
       },
       "description": [
         {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Hattenbacher Dreieck und Niederaula\nGefahr durch Gegenstände auf der Fahrbahn (ein Spanngurt), bitte vorsichtig fahren"
+          "value": "A7 Kassel Richtung Fulda\nzwischen Kirchheimer Dreieck und Kirchheim\nGefahr durch Gegenstände auf der Fahrbahn\n(Stahlplatte) "
         }
       ],
       "location": {
@@ -1718,7 +1718,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A7 Kassel Richtung Fulda zwischen Hattenbacher Dreieck und Niederaula",
+        "description": "A7 Kassel Richtung Fulda zwischen Kirchheimer Dreieck und Kirchheim",
         "streets": [
           "A7"
         ]
@@ -1731,15 +1731,12 @@
       "eventCategory": [
         {
           "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
         }
       ],
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-03T07:44:52.569Z"
+        "value": "2022-04-03T08:10:31.4Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3907,6 +3904,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/486745_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486745
+      },
+      "description": [
+        {
+          "value": "A67 Mannheim - Darmstadt\nzwischen Gernsheim und Pfungstadt\nin beiden Richtungen Gefahr durch 1 Hund auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A67"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A67 Mannheim Richtung Darmstadt zwischen Gernsheim und Pfungstadt",
+        "streets": [
+          "A67"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-03T08:18:28.356Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
