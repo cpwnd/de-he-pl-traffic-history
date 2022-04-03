@@ -396,60 +396,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/486822_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 486822
-      },
-      "description": [
-        {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbadener Kreuz und Raunheim\nStraße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Köln Richtung Frankfurt zwischen Wiesbadener Kreuz und Raunheim",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-03T14:22:52.595Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/478197_LMS-HE/54"
       },
       "dataProducer": {
@@ -1211,6 +1157,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-02T20:00:01.466Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/486827_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486827
+      },
+      "description": [
+        {
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Friedberg und Bad Homburger Kreuz\nGefahr durch ungesicherte Unfallstelle auf dem linken Fahrstreifen, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Kassel Richtung Frankfurt zwischen Friedberg und Bad Homburger Kreuz",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-03T14:43:04.059Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
