@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -1158,7 +1158,7 @@
       },
       "description": [
         {
-          "value": "A5 Heidelberg Richtung Darmstadt\nzwischen Hemsbach und Heppenheim\nWanderbaustelle, rechter Fahrstreifen gesperrt"
+          "value": "A5 Darmstadt Richtung Heidelberg\nzwischen Heppenheim und Kreuz Weinheim\nWanderbaustelle, rechter Fahrstreifen gesperrt"
         }
       ],
       "location": {
@@ -1172,7 +1172,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A5 Heidelberg Richtung Darmstadt zwischen Hemsbach und Heppenheim",
+        "description": "A5 Darmstadt Richtung Heidelberg zwischen Heppenheim und Kreuz Weinheim",
         "streets": [
           "A5"
         ]
@@ -1193,7 +1193,7 @@
       "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-04T09:54:07.321Z"
+        "value": "2022-04-04T12:11:52.223Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3231,57 +3231,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/487090_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 487090
-      },
-      "description": [
-        {
-          "value": "A49 Kassel Richtung Gießen\nzwischen Gudensberg und Fritzlar\nGefahr durch Gegenstände auf der Fahrbahn"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A49"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A49 Kassel Richtung Gießen zwischen Gudensberg und Fritzlar",
-        "streets": [
-          "A49"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-04T11:30:39.958Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/485162_LMS-HE/54"
       },
       "dataProducer": {
@@ -3662,6 +3611,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/487107_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487107
+      },
+      "description": [
+        {
+          "value": "A66 Wiesbaden Richtung Frankfurt\nSchiersteiner Kreuz Überleitung zur A643 Richtung Mainz\nGefahr durch verlorene Ladung (ein Metallteil)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Wiesbaden Richtung Frankfurt Schiersteiner Kreuz Überleitung zur A643 Richtung Mainz",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-04T11:59:48.42Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -4671,6 +4671,63 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/487104_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487104
+      },
+      "description": [
+        {
+          "value": "B27 Eschwege - Göttingen\nzwischen Unterrieden und B80\nin beiden Richtungen Unfall mit LKW, Richtungsfahrbahn blockiert, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B27"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B27 Eschwege Richtung Göttingen zwischen Unterrieden und B80",
+        "streets": [
+          "B27"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-04T11:55:50.579Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -6370,6 +6427,64 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/487105_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487105
+      },
+      "description": [
+        {
+          "value": "B80, B27 Witzenhausen - Göttingen\nzwischen Unterrieden und Ausfahrt Eichenberg-Bahnhof\nin beiden Richtungen Unfall mit LKW, Richtungsfahrbahn blockiert, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B80, B27"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B80, B27 Witzenhausen Richtung Göttingen zwischen Unterrieden und Ausfahrt Eichenberg-Bahnhof",
+        "streets": [
+          "B80",
+          "B27"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-04T11:56:28.833Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/486940_LMS-HE/54"
       },
       "dataProducer": {
@@ -6759,6 +6874,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/487106_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487106
+      },
+      "description": [
+        {
+          "value": "B455 Königstein Richtung Mainz-Kastel\nzwischen A66, Wiesbaden-Erbenheim und A671, Mainz-Kastel\nGefahr besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B455"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B455 Königstein Richtung Mainz-Kastel zwischen A66, Wiesbaden-Erbenheim und A671, Mainz-Kastel",
+        "streets": [
+          "B455"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-04T12:18:18.813Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
