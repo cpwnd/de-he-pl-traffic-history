@@ -1606,7 +1606,7 @@
       },
       "description": [
         {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Kirchheimer Dreieck und Kirchheim\nUnfall auf dem rechten und dem mittleren Fahrstreifen, rechter Fahrstreifen gesperrt, mittlerer Fahrstreifen gesperrt, Rettungsfahrzeuge im Einsatz"
+          "value": "A7 Kassel Richtung Fulda\nzwischen Kirchheimer Dreieck und Kirchheim\nBergungsarbeiten, rechter Fahrstreifen gesperrt, mittlerer Fahrstreifen gesperrt"
         }
       ],
       "location": {
@@ -1632,19 +1632,16 @@
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Arbeitsstelle"
         },
         {
           "value": "Sperrung"
-        },
-        {
-          "value": "Information"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-04T12:38:44.34Z"
+        "value": "2022-04-04T13:57:21.726Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1855,7 +1852,7 @@
       },
       "description": [
         {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Bad Hersfeld-West und Kirchheimer Dreieck\nUnfall, Richtungsfahrbahn gesperrt, Rettungshubschrauber im Einsatz, Gasse für Rettungs- und Einsatzfahrzeuge bilden"
+          "value": "A7 Kassel Richtung Fulda\nzwischen Bad Hersfeld-West und Kirchheimer Dreieck\nBergungsarbeiten, Unfallaufnahme, Richtungsfahrbahn gesperrt, Gasse für Rettungs- und Einsatzfahrzeuge bilden"
         }
       ],
       "location": {
@@ -1881,26 +1878,26 @@
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
         },
         {
           "value": "Sperrung"
         },
         {
-          "value": "Information"
-        },
-        {
           "value": "Hinweis"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-04T12:52:27.399Z"
+        "value": "2022-04-04T13:54:22.234Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2476,57 +2473,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-28T07:30:02.791Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/487138_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 487138
-      },
-      "description": [
-        {
-          "value": "A7 Kassel Richtung Hannover\nzwischen Kreuz Kassel-Mitte und Kassel-Ost\nGefahr durch defektes Fahrzeug auf dem rechten Fahrstreifen\n(kein Seitenstreifen vorhanden)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A7"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A7 Kassel Richtung Hannover zwischen Kreuz Kassel-Mitte und Kassel-Ost",
-        "streets": [
-          "A7"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-04T13:28:26.75Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -5022,6 +4968,58 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/487150_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487150
+      },
+      "description": [
+        {
+          "value": "B40, B8 Frankfurter Landstraße, Frankfurt - Hanau\nzwischen Abzweig nach Fechenheim und Am Kreuzstein\nin beiden Richtungen Richtungsfahrbahn gesperrt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B40, B8"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B40, B8 Frankfurter Landstraße, Frankfurt Richtung Hanau zwischen Abzweig nach Fechenheim und Am Kreuzstein",
+        "streets": [
+          "B40",
+          "B8"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-04T14:14:37.519Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/478867_LMS-HE/54"
       },
       "dataProducer": {
@@ -5715,7 +5713,7 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-04T09:31:50.509Z"
+        "value": "2022-04-04T13:55:06.715Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6721,57 +6719,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/487131_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 487131
-      },
-      "description": [
-        {
-          "value": "B455 Richtung Mainz-Kastel\nzwischen Einfahrt Wiesbaden-Erbenheim-Nord und A66, Wiesbaden-Erbenheim\nGefahr durch Gegenstände auf der Fahrbahn\n( eine Leiter)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B455"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B455 Richtung Mainz-Kastel zwischen Einfahrt Wiesbaden-Erbenheim-Nord und A66, Wiesbaden-Erbenheim",
-        "streets": [
-          "B455"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-04T13:07:45.995Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/483412_LMS-HE/54"
       },
       "dataProducer": {
@@ -6977,6 +6924,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-04T05:08:17.553Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/487152_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487152
+      },
+      "description": [
+        {
+          "value": "B486 zwischen Abzweig nach Urberach und Auffahrt Eppertshausener Dreieck\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B486"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B486 Richtung Eppertshausen zwischen Abzweig nach Urberach und Auffahrt Eppertshausener Dreieck",
+        "streets": [
+          "B486"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-04T14:15:42.909Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
