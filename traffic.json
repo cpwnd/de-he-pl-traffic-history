@@ -536,7 +536,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbadener Kreuz und Wiesbaden/Niedernhausen\nUnfallaufnahme"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbadener Kreuz und Wiesbaden/Niedernhausen\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -568,7 +568,7 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-04T15:17:43.252Z"
+        "value": "2022-04-04T15:36:47.494Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1374,6 +1374,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/487178_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487178
+      },
+      "description": [
+        {
+          "value": "A5 Darmstadt - Frankfurt\nzwischen Frankfurt am Main-Flughafen-Nord und Frankfurt-Niederrad\nin beiden Richtungen Gefahr durch 1 Person auf dem Standstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Darmstadt Richtung Frankfurt zwischen Frankfurt am Main-Flughafen-Nord und Frankfurt-Niederrad",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-04T15:46:57.425Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/335177_LMS-HE/54"
       },
       "dataProducer": {
@@ -1891,7 +1942,7 @@
       },
       "description": [
         {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Bad Hersfeld-West und Kirchheimer Dreieck\nBergungsarbeiten, Unfallaufnahme, rechter Fahrstreifen gesperrt"
+          "value": "A7 Kassel Richtung Fulda\nzwischen Bad Hersfeld-West und Kirchheimer Dreieck\nStraße wieder frei"
         }
       ],
       "location": {
@@ -1929,7 +1980,58 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-04T15:13:11.974Z"
+        "value": "2022-04-04T15:38:39.084Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/487177_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487177
+      },
+      "description": [
+        {
+          "value": "A7 Kassel Richtung Fulda\nzwischen Homberg (Efze) und Bad Hersfeld-West\n1 defekter LKW auf dem mittleren Fahrstreifen, Gefahr durch Personen auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Kassel Richtung Fulda zwischen Homberg (Efze) und Bad Hersfeld-West",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-04T15:44:32.262Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -5004,58 +5106,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/487150_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 487150
-      },
-      "description": [
-        {
-          "value": "B40, B8 Frankfurter Landstraße, Frankfurt - Hanau\nzwischen Abzweig nach Fechenheim und Am Kreuzstein\nin beiden Richtungen Straße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B40, B8"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B40, B8 Frankfurter Landstraße, Frankfurt Richtung Hanau zwischen Abzweig nach Fechenheim und Am Kreuzstein",
-        "streets": [
-          "B40",
-          "B8"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Sperrung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-04T15:29:58.435Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/478867_LMS-HE/54"
       },
       "dataProducer": {
@@ -5765,7 +5815,7 @@
       },
       "description": [
         {
-          "value": "B45 Michelstadt, Frankfurter Straße\nin Höhe B47, Bahnhofstraße\nAmpelanlage außer Betrieb, Gefahr, auf Geschwindigkeitsbeschränkung achten"
+          "value": "B45 Michelstadt, Frankfurter Straße\nin Höhe B47, Bahnhofstraße\nAmpelanlage wieder in Betrieb"
         }
       ],
       "location": {
@@ -5787,7 +5837,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -5800,7 +5850,7 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-04T15:12:01.206Z"
+        "value": "2022-04-04T15:47:31.735Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
