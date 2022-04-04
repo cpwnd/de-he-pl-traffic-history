@@ -1023,7 +1023,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-04T09:17:21.328Z"
+        "value": "2022-04-04T10:29:51.586Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2382,7 +2382,7 @@
       },
       "description": [
         {
-          "value": "A44 Dortmund Richtung Kassel\nzwischen Zierenberg und Kassel-Bad Wilhelmshöhe\nGefahr durch verlorene Ladung (ein Holzteil)"
+          "value": "A44 Dortmund Richtung Kassel\nzwischen Zierenberg und Kassel-Bad Wilhelmshöhe\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -2404,7 +2404,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2414,11 +2414,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-04T10:08:25.121Z"
+        "value": "2022-04-04T10:20:49.366Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3550,6 +3550,63 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-14T09:08:53.888Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/487053_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487053
+      },
+      "description": [
+        {
+          "value": "A66 Frankfurt Richtung Fulda\nHanauer Kreuz Überleitung zur B43A\nUnfall mit Verletzten, Fahrbahn von 2 auf einen Fahrstreifen verengt, Rettungshubschrauber im Einsatz"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Frankfurt Richtung Fulda Hanauer Kreuz Überleitung zur B43A",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Information"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-04T10:26:27.713Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -5292,6 +5349,120 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-18T10:03:27.836Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/487057_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487057
+      },
+      "description": [
+        {
+          "value": "B43A zwischen Hanauer Kreuz und Hanau-Wolfgang\nRettungshubschrauber im Einsatz, Richtungsfahrbahn blockiert, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B43A"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B43A zwischen Hanauer Kreuz und Hanau-Wolfgang",
+        "streets": [
+          "B43A"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Information"
+        },
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Information",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-04T10:33:46.319Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/487059_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487059
+      },
+      "description": [
+        {
+          "value": "B43A zwischen Hanauer Kreuz und Hanau-Wolfgang\nRettungshubschrauber im Einsatz, Richtungsfahrbahn blockiert, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B43A"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B43A zwischen Hanauer Kreuz und Hanau-Wolfgang",
+        "streets": [
+          "B43A"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Information"
+        },
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Information",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-04T10:34:08.242Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
