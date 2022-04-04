@@ -1,22 +1,22 @@
 {
   "status": "OK",
   "cached": false,
-  "time": "1.354ms",
+  "time": "1.357ms",
   "version": "TIC",
   "data": [
     {
       "ticId": {
-        "value": "LMS/r_LMS/487216_LMS-HE/54"
+        "value": "LMS/r_LMS/487223_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 487216
+        "value": 487223
       },
       "description": [
         {
-          "value": "A7 Fulda Richtung Kassel\nzwischen Guxhagen und Dreieck Kassel-Süd\nStraße wieder frei"
+          "value": "A7 Kassel Richtung Fulda\nzwischen Dreieck Kassel-Süd und Guxhagen\nGefahr durch Gegenstände auf dem mittleren Fahrstreifen"
         }
       ],
       "location": {
@@ -30,7 +30,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A7 Fulda Richtung Kassel zwischen Guxhagen und Dreieck Kassel-Süd",
+        "description": "A7 Kassel Richtung Fulda zwischen Dreieck Kassel-Süd und Guxhagen",
         "streets": [
           "A7"
         ]
@@ -38,7 +38,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Normal"
+        "value": "Dringend"
       },
       "eventCategory": [
         {
@@ -48,11 +48,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-04T17:13:07.989Z"
+        "value": "2022-04-04T17:29:56.177Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Geändert"
+        "value": "Neu"
       }
     },
     {
@@ -393,60 +393,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-04T13:13:58.946Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/487001_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 487001
-      },
-      "description": [
-        {
-          "value": "A4 Erfurt Richtung Bad Hersfeld\nzwischen Friedewald und Bad Hersfeld\nStraße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A4"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A4 Erfurt Richtung Bad Hersfeld zwischen Friedewald und Bad Hersfeld",
-        "streets": [
-          "A4"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-04T17:17:28.158Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
