@@ -913,6 +913,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/487266_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487266
+      },
+      "description": [
+        {
+          "value": "A4 Erfurt Richtung Bad Hersfeld\nzwischen Bad Hersfeld und Kirchheimer Dreieck\nGefahr durch Gegenstände auf dem linken Fahrstreifen (eine Stoßstange)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A4"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A4 Erfurt Richtung Bad Hersfeld zwischen Bad Hersfeld und Kirchheimer Dreieck",
+        "streets": [
+          "A4"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-05T01:03:17.598Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/438867_LMS-HE/54"
       },
       "dataProducer": {
@@ -1435,7 +1486,7 @@
       },
       "description": [
         {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Hattenbacher Dreieck und Niederaula\nUnfallaufnahme, Gefahr"
+          "value": "A7 Kassel Richtung Fulda\nzwischen Hattenbacher Dreieck und Niederaula\nUnfallaufnahme, Gefahr, rechter Fahrstreifen gesperrt, Bergungsarbeiten"
         }
       ],
       "location": {
@@ -1462,12 +1513,18 @@
       "eventCategory": [
         {
           "value": "Störung"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Arbeitsstelle"
         }
       ],
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-04T21:12:57.271Z"
+        "value": "2022-04-05T00:23:44.815Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -11769,51 +11826,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/487234_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 487234
-      },
-      "description": [
-        {
-          "value": "Hanau\nVermisstenfahndung\nSeit dem 04.04.2022, 13.00 Uhr wird der 12-jährige Tduy Loung aus Hanau vermißt. Beschreibung: 155 cm groß, schlanke Gestalt,kurze, dunkle Haare. Bekleidung : dunkelblaue Jacke,dunkle Jeans,schwarz-weiße Nike-Schuhe. Weiter führt er einen roten Schulrucksack mit . Sachdienliche Hinweise zum Aufenthalt des Vermißten an die Polizeistation Hanau I unter der Tel.-Nr. 06181 - 100120 oder an jede andere Polizeidienststelle.\n( Quelle : Polizeipräsidium Südosthessen ) "
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": null
-          }
-        ],
-        "name": "Ort",
-        "description": "Hanau",
-        "streets": null
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Information"
-        }
-      ],
-      "masterEventCategory": "Information",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-04T18:14:18.587Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
