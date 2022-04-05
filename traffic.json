@@ -536,7 +536,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Mönchhof-Dreieck und Raunheim\ndefekter LKW auf dem rechten Fahrstreifen und dem Standstreifen"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Mönchhof-Dreieck und Raunheim\ndefekter LKW auf dem rechten Fahrstreifen und dem Standstreifen, rechter Fahrstreifen gesperrt"
         }
       ],
       "location": {
@@ -563,16 +563,19 @@
       "eventCategory": [
         {
           "value": "Hindernis"
+        },
+        {
+          "value": "Sperrung"
         }
       ],
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-05T03:02:24.028Z"
+        "value": "2022-04-05T04:02:41.293Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1215,6 +1218,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/487283_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487283
+      },
+      "description": [
+        {
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Alsfeld-Ost und Hattenbacher Dreieck\nUnfallaufnahme auf dem Standstreifen, defekter LKW"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Frankfurt Richtung Kassel zwischen Alsfeld-Ost und Hattenbacher Dreieck",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-05T04:21:10.187Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/335177_LMS-HE/54"
       },
       "dataProducer": {
@@ -1486,7 +1543,7 @@
       },
       "description": [
         {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Hattenbacher Dreieck und Niederaula\nUnfallaufnahme, Gefahr, rechter Fahrstreifen gesperrt, Bergungsarbeiten"
+          "value": "A7 Kassel Richtung Fulda\nzwischen Hattenbacher Dreieck und Niederaula\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -1508,7 +1565,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1524,7 +1581,7 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-05T00:23:44.815Z"
+        "value": "2022-04-05T04:08:17.122Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1768,6 +1825,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-05T03:46:11.54Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/487282_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487282
+      },
+      "description": [
+        {
+          "value": "A7 Kassel Richtung Fulda\nzwischen Malsfeld und Homberg (Efze)\nGefahr durch Metallteile auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Kassel Richtung Fulda zwischen Malsfeld und Homberg (Efze)",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-05T04:04:58.02Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
