@@ -396,6 +396,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/487335_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487335
+      },
+      "description": [
+        {
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbadener Kreuz und Raunheim\nGegenstände auf der Fahrbahn\n(Kleidungsstücke)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Frankfurt zwischen Wiesbadener Kreuz und Raunheim",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-05T06:42:45.319Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/478197_LMS-HE/54"
       },
       "dataProducer": {
@@ -4216,57 +4267,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/487320_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 487320
-      },
-      "description": [
-        {
-          "value": "A671 Wiesbaden Richtung Mainz\nzwischen Mainz-Kastel und Hochheim-Nord\nHindernisse beseitigt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A671"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A671 Wiesbaden Richtung Mainz zwischen Mainz-Kastel und Hochheim-Nord",
-        "streets": [
-          "A671"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-05T06:30:18.714Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/487319_LMS-HE/54"
       },
       "dataProducer": {
@@ -6868,7 +6868,7 @@
       },
       "description": [
         {
-          "value": "B457 Gelnhausen - Nidda\nzwischen Bleichenbach und Ortenberg-Selters\nin beiden Richtungen Bauarbeiten, vorübergehende Regelung durch provisorische Ampelanlagen, vorübergehende Begrenzung der Fahrbahnbreite auf 2,75 m, halbseitig gesperrt, bis 08.04.2022, Mo - Fr zwischen 07:00 Uhr und 07:00 Uhr"
+          "value": "B457 Gelnhausen - Nidda\nzwischen Bleichenbach und Ortenberg-Selters\nin beiden Richtungen Bauarbeiten, halbseitig gesperrt, vorübergehende Regelung durch provisorische Ampelanlagen, vorübergehende Begrenzung der Fahrbahnbreite auf 2,75 m, bis 08.04.2022, Mo - Fr zwischen 07:00 Uhr und 17:00 Uhr"
         }
       ],
       "location": {
@@ -6897,7 +6897,7 @@
           "value": "2022-04-08T15:00:00Z"
         },
         "name": "Dauer",
-        "description": "vom 21.03.2022 bis 08.04.2022, Mo - Fr zwischen 07:00 Uhr und 07:00 Uhr"
+        "description": "vom 21.03.2022 bis 08.04.2022, Mo - Fr zwischen 07:00 Uhr und 17:00 Uhr"
       },
       "urgency": {
         "name": "Dringlichkeit",
@@ -6920,11 +6920,11 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-05T05:00:00.815Z"
+        "value": "2022-04-05T06:47:51.876Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -11415,7 +11415,7 @@
       },
       "description": [
         {
-          "value": "L3482 Wiesbaden, Äppelallee\nin Höhe Wiesbaden-Äppelallee\nVerkehrsbehinderung\n(Ampelanlage durch Unfall umgeknickt)"
+          "value": "L3482 Wiesbaden, Äppelallee\nin Höhe Wiesbaden-Äppelallee\nVerkehrsbehinderung beseitigt"
         }
       ],
       "location": {
@@ -11447,11 +11447,11 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-05T04:27:08.214Z"
+        "value": "2022-04-05T06:46:30.037Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
