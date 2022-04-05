@@ -1164,6 +1164,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/487507_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487507
+      },
+      "description": [
+        {
+          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Zeppelinheim und Frankfurter Kreuz\nGefahr durch defektes Fahrzeug auf dem rechten Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Darmstadt Richtung Frankfurt zwischen Zeppelinheim und Frankfurter Kreuz",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-05T15:48:30.668Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/487488_LMS-HE/54"
       },
       "dataProducer": {
@@ -9348,57 +9399,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/487483_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 487483
-      },
-      "description": [
-        {
-          "value": "L3005 Eschborn Richtung Frankfurt\nzwischen Abzweig nach Niederhöchstadt und Eschborn\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3005"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Main-Taunus-Kreis, L3005 zwischen Abzweig nach Niederhöchstadt und Eschborn",
-        "streets": [
-          "L3005"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-05T15:30:37.46Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_D__HE_FFM-IGLZ/210818354313_LMS-HE/54"
       },
       "dataProducer": {
@@ -10467,7 +10467,7 @@
       },
       "description": [
         {
-          "value": "L3188, L3189 Echzell Richtung Ronneburg\nzwischen Florstadt und B521\nUnfall, Polizei und Rettungswagen sind vor Ort, gesperrt\n(Kreuzungsbereich L3189/L3188 wegen Unfallaufnahme gesperrt, ortskundige Verkehrsteilnehmer werden gebeten, den Kreuzungsbereich \"Stammheimer Kreuz\" umfahren)"
+          "value": "L3188, L3189 Echzell Richtung Ronneburg\nzwischen Florstadt und B521\nalle Unfallstellen geräumt, keine Verkehrsbehinderung mehr"
         }
       ],
       "location": {
@@ -10506,11 +10506,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-05T14:27:22.274Z"
+        "value": "2022-04-05T15:48:55.698Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
