@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "3ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -2304,6 +2304,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-03T16:02:45.746Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/487355_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487355
+      },
+      "description": [
+        {
+          "value": "A44 Dortmund Richtung Kassel\nzwischen Zierenberg und Kassel-Bad Wilhelmshöhe\nBaustelle, Fahrbahn auf einen Fahrstreifen verengt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A44"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A44 Dortmund Richtung Kassel zwischen Zierenberg und Kassel-Bad Wilhelmshöhe",
+        "streets": [
+          "A44"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-05T07:40:25.779Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -5258,7 +5312,7 @@
       },
       "description": [
         {
-          "value": "B43A Obertshausen Richtung Hanauer Kreuz\nzwischen Überleitung B45, Hanau-Klein-Auheim und Hanau-Hafen in Großauheim\nGefahr durch defektes Fahrzeug auf dem linken Fahrstreifen"
+          "value": "B43A Obertshausen Richtung Hanauer Kreuz\nzwischen Überleitung B45, Hanau-Klein-Auheim und Hanau-Hafen in Großauheim\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -5280,7 +5334,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -5290,11 +5344,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-05T06:25:56.219Z"
+        "value": "2022-04-05T07:43:05.508Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -5629,6 +5683,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-21T06:00:02.354Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/487352_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487352
+      },
+      "description": [
+        {
+          "value": "B47 Bensheim - Worms\nzwischen Lorsch-Ost und Bürstadt\nin beiden Richtungen Achtung, Ihnen kommt ein Falschfahrer entgegen, nicht überholen, Vorsicht auf beiden Richtungsfahrbahnen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B47"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B47 Bensheim Richtung Worms zwischen Lorsch-Ost und Bürstadt",
+        "streets": [
+          "B47"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Sehr dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-05T07:30:34.894Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
