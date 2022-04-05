@@ -1291,7 +1291,7 @@
       },
       "description": [
         {
-          "value": "A6 Mannheim - Heilbronn\nzwischen Viernheimer Dreieck und Viernheimer Kreuz\nin beiden Richtungen Gefahr durch 1 Person auf der Fahrbahn"
+          "value": "A6 Mannheim - Heilbronn\nzwischen Viernheimer Dreieck und Viernheimer Kreuz\nin beiden Richtungen Gefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -1313,7 +1313,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1323,11 +1323,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-05T13:51:32.084Z"
+        "value": "2022-04-05T14:33:09.85Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -6499,7 +6499,7 @@
       },
       "description": [
         {
-          "value": "B453 Dautphetal Richtung Gladenbach\nzwischen Mornshausen und Gladenbach\nÖlspur"
+          "value": "B453 Dautphetal Richtung Gladenbach\nzwischen Mornshausen und Gladenbach\nFahrbedingungen haben sich gebessert"
         }
       ],
       "location": {
@@ -6531,11 +6531,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-05T12:41:30.431Z"
+        "value": "2022-04-05T14:33:57.405Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -10432,6 +10432,64 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-25T03:00:02.24Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/487470_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487470
+      },
+      "description": [
+        {
+          "value": "L3188, L3189 Echzell Richtung Ronneburg\nzwischen Florstadt und B521\nUnfall, Polizei und Rettungswagen sind vor Ort, gesperrt\n(Kreuzungsbereich L3189/L3188 wegen Unfallaufnahme gesperrt, ortskundige Verkehrsteilnehmer werden gebeten, den Kreuzungsbereich \"Stammheimer Kreuz\" umfahren)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3188, L3189"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Wetteraukreis, L3188, L3189 zwischen Florstadt und B521",
+        "streets": [
+          "L3188",
+          "L3189"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Information"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-05T14:27:22.274Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
