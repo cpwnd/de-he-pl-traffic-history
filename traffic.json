@@ -406,7 +406,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Limburg-Nord und Limburg-Süd\nGefahr durch 1 Gegenstand auf der Fahrbahn\n(ein 2-3 Meter langer Druckschlauch)"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Limburg-Nord und Limburg-Süd\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -428,7 +428,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -438,11 +438,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-05T14:35:33.979Z"
+        "value": "2022-04-05T15:14:04.192Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1215,17 +1215,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/487469_LMS-HE/54"
+        "value": "LMS/r_LMS/487488_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 487469
+        "value": 487488
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Kassel\nNordwestkreuz Frankfurt Überleitung zur A66 Richtung Frankfurt\nAnschlussstelle wieder frei"
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Nordwestkreuz Frankfurt und Bad Homburger Kreuz\nGefahr durch verlorene Ladung auf dem Standstreifen\n(größeres Gummiteil auf dem freigegebenen Standstreifen)"
         }
       ],
       "location": {
@@ -1239,7 +1239,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A5 Frankfurt Richtung Kassel Nordwestkreuz Frankfurt Überleitung zur A66 Richtung Frankfurt",
+        "description": "A5 Frankfurt Richtung Kassel zwischen Nordwestkreuz Frankfurt und Bad Homburger Kreuz",
         "streets": [
           "A5"
         ]
@@ -1247,7 +1247,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Normal"
+        "value": "Dringend"
       },
       "eventCategory": [
         {
@@ -1257,11 +1257,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-05T14:42:30.262Z"
+        "value": "2022-04-05T15:07:44.414Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Geändert"
+        "value": "Neu"
       }
     },
     {
@@ -2360,6 +2360,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/487481_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487481
+      },
+      "description": [
+        {
+          "value": "A44 Dortmund Richtung Kassel\nzwischen Diemelstadt und Warburg\nGefahr durch 1 Spanngurt auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A44"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A44 Dortmund Richtung Kassel zwischen Diemelstadt und Warburg",
+        "streets": [
+          "A44"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-05T14:56:41.483Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/477663_LMS-HE/54"
       },
       "dataProducer": {
@@ -2603,6 +2654,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-31T04:00:01.833Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/487478_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487478
+      },
+      "description": [
+        {
+          "value": "A45 Aschaffenburg Richtung Gießen\nzwischen Münzenberg und Gambacher Kreuz\nFahrzeug verunglückt, rechter Fahrstreifen gesperrt\n(LKW in Abfahrt in Böschung gefahren)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A45 Aschaffenburg Richtung Gießen zwischen Münzenberg und Gambacher Kreuz",
+        "streets": [
+          "A45"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-05T14:53:14.284Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2988,6 +3093,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/487493_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487493
+      },
+      "description": [
+        {
+          "value": "A49 Kassel Richtung Gießen\nzwischen Edermünde und Felsberg\nGefahr besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A49"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A49 Kassel Richtung Gießen zwischen Edermünde und Felsberg",
+        "streets": [
+          "A49"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-05T15:20:06.936Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -3491,6 +3647,108 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/487492_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487492
+      },
+      "description": [
+        {
+          "value": "A66 Wiesbaden Richtung Frankfurt\nzwischen Wiesbaden-Mainzer Straße und Wiesbaden-Erbenheim\nGefahr besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Wiesbaden Richtung Frankfurt zwischen Wiesbaden-Mainzer Straße und Wiesbaden-Erbenheim",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-05T15:14:33.417Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/487497_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487497
+      },
+      "description": [
+        {
+          "value": "A66 Wiesbaden Richtung Frankfurt\nzwischen Frankfurt am Main-L.-Landmann-Str. und Frankfurt am Main-Miquelallee\ndefekter PKW auf dem Standstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Wiesbaden Richtung Frankfurt zwischen Frankfurt am Main-L.-Landmann-Str. und Frankfurt am Main-Miquelallee",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-05T15:21:46.995Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -6631,148 +6889,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/486952_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 486952
-      },
-      "description": [
-        {
-          "value": "B457 Gelnhausen - Nidda\nzwischen Bleichenbach und Ortenberg-Selters\nin beiden Richtungen Bauarbeiten, halbseitig gesperrt, vorübergehende Regelung durch provisorische Ampelanlagen, vorübergehende Begrenzung der Fahrbahnbreite auf 2,75 m, bis 08.04.2022, Mo - Fr zwischen 07:00 Uhr und 17:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B457"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B457 Gelnhausen Richtung Nidda zwischen Bleichenbach und Ortenberg-Selters",
-        "streets": [
-          "B457"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-21T06:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-08T15:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 21.03.2022 bis 08.04.2022, Mo - Fr zwischen 07:00 Uhr und 17:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Information"
-        },
-        {
-          "value": "Beschränkung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-05T07:50:11.68Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/487299_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 487299
-      },
-      "description": [
-        {
-          "value": "B457 Gelnhausen - Nidda\nzwischen Bleichenbach und Ortenberg-Selters\nin beiden Richtungen Bauarbeiten, halbseitig gesperrt, vorübergehende Regelung durch provisorische Ampelanlagen, vorübergehende Begrenzung der Fahrbahnbreite auf 2,75 m, bis 08.04.2022, Mo - Fr zwischen 07:00 Uhr und 17:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B457"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B457 Gelnhausen Richtung Nidda zwischen Bleichenbach und Ortenberg-Selters",
-        "streets": [
-          "B457"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-21T06:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-08T15:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 21.03.2022 bis 08.04.2022, Mo - Fr zwischen 07:00 Uhr und 17:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Information"
-        },
-        {
-          "value": "Beschränkung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-05T06:47:51.876Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/477347_LMS-HE/54"
       },
       "dataProducer": {
@@ -8283,63 +8399,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/487474_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 487474
-      },
-      "description": [
-        {
-          "value": "K810 Frankfurt, Eschersheimer Landstraße\nzwischen Bremer Straße und B40, B8, Adickesallee\nUnfallaufnahme, Richtungsfahrbahn gesperrt, Polizei und Rettungswagen sind vor Ort"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "K810"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Frankfurt, Eschersheimer Landstraße zwischen Bremer Straße und B40, B8, Adickesallee",
-        "streets": [
-          "K810"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Information"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-05T14:40:17.017Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_D__HE_FFM-IGLZ/210821031921_LMS-HE/54"
       },
       "dataProducer": {
@@ -9380,6 +9439,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-24T14:00:10.636Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/487483_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487483
+      },
+      "description": [
+        {
+          "value": "L3005 Eschborn Richtung Frankfurt\nzwischen Abzweig nach Niederhöchstadt und Eschborn\nGefahr durch Gegenstände auf der Fahrbahn (ein Stein)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3005"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Main-Taunus-Kreis, L3005 zwischen Abzweig nach Niederhöchstadt und Eschborn",
+        "streets": [
+          "L3005"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-05T15:01:33.07Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
