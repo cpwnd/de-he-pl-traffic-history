@@ -406,7 +406,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbadener Kreuz und Raunheim\nGegenstände auf der Fahrbahn\n(Kleidungsstücke)"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbadener Kreuz und Raunheim\nStraße wieder frei"
         }
       ],
       "location": {
@@ -438,7 +438,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-05T06:42:45.319Z"
+        "value": "2022-04-05T07:06:10.068Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4325,57 +4325,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/487327_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 487327
-      },
-      "description": [
-        {
-          "value": "B3 Marburg Richtung Gießen\nzwischen Weimar-Nord und Lollar-Nord/Staufenberg\nStraße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B3 Marburg Richtung Gießen zwischen Weimar-Nord und Lollar-Nord/Staufenberg",
-        "streets": [
-          "B3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-05T06:33:42.794Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -8569,6 +8518,136 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/484014_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 484014
+      },
+      "description": [
+        {
+          "value": "K816 Frankfurt, Mörfelder Landstraße\nzwischen Wendelsplatz und Frankfurt\nBaustelle, Arbeiten an Wasserleitungen, Fahrbahnverengung, bis 16.04.2022, Mo - Fr zwischen 09:00 Uhr und 15:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K816"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, Mörfelder Landstraße zwischen Wendelsplatz und Frankfurt",
+        "streets": [
+          "K816"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-21T08:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-16T13:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 21.03.2022 bis 16.04.2022, Mo - Fr zwischen 09:00 Uhr und 15:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-23T14:03:22.861Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/487344_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487344
+      },
+      "description": [
+        {
+          "value": "Frankfurt, Mörfelder Landstraße\nzwischen Wendelsplatz und Frankfurt\nBaustelle, Arbeiten an Wasserleitungen, Fahrbahnverengung, bis 16.04.2022, Mo - Fr zwischen 09:00 Uhr und 15:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K816"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, Mörfelder Landstraße zwischen Wendelsplatz und Frankfurt",
+        "streets": [
+          "K816"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-21T08:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-16T13:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 21.03.2022 bis 16.04.2022, Mo - Fr zwischen 09:00 Uhr und 15:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-05T07:00:00.913Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/471142_LMS-HE/54"
       },
       "dataProducer": {
@@ -11405,57 +11484,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/487289_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 487289
-      },
-      "description": [
-        {
-          "value": "L3482 Wiesbaden, Äppelallee\nin Höhe Wiesbaden-Äppelallee\nVerkehrsbehinderung beseitigt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3482"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Wiesbaden, Äppelallee in Höhe Wiesbaden-Äppelallee",
-        "streets": [
-          "L3482"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-05T06:46:30.037Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_D__HE_FFM-IGLZ/210806733387_LMS-HE/54"
       },
       "dataProducer": {
@@ -11750,42 +11778,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-01T18:00:01.905Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/487330_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 487330
-      },
-      "description": [
-        {
-          "value": "Gefahr durch Fahrzeugteile auf der Fahrbahn"
-        }
-      ],
-      "location": null,
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-05T06:29:55.854Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
