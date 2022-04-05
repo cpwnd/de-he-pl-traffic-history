@@ -1047,7 +1047,7 @@
       },
       "description": [
         {
-          "value": "A5 Kassel Richtung Frankfurt\nzwischen Reiskirchen und Fernwald\nBergungsarbeiten auf dem rechten Fahrstreifen und dem Standstreifen\n(verunfallter LKW ragt in den rechten FS)"
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Reiskirchen und Fernwald\nVerkehrsstörung besteht nicht mehr"
         }
       ],
       "location": {
@@ -1079,7 +1079,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-05T10:05:41.686Z"
+        "value": "2022-04-05T13:26:43.927Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3324,7 +3324,7 @@
       },
       "description": [
         {
-          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Nordwestkreuz Frankfurt und Eschborner Dreieck\nGefahr durch defekten LKW auf dem mittleren Fahrstreifen, bitte vorsichtig fahren"
+          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Nordwestkreuz Frankfurt und Eschborner Dreieck\nStraße wieder frei"
         }
       ],
       "location": {
@@ -3346,7 +3346,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -3359,11 +3359,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-05T13:01:08.315Z"
+        "value": "2022-04-05T13:25:06.188Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4379,6 +4379,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/487455_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487455
+      },
+      "description": [
+        {
+          "value": "B3 Marburg Richtung Gießen\nzwischen Fronhausen-Bellnhausen und Staufenberg-Süd\nHindernisse beseitigt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B3 Marburg Richtung Gießen zwischen Fronhausen-Bellnhausen und Staufenberg-Süd",
+        "streets": [
+          "B3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-05T13:29:15.802Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
