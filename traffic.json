@@ -396,6 +396,71 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/487866_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487866
+      },
+      "description": [
+        {
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbadener Kreuz und Raunheim\nNachtbaustelle, rechter Fahrstreifen gesperrt, mittlerer Fahrstreifen gesperrt, von 06.04.2022 22:00 Uhr bis 07.04.2022 ca. 05:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Frankfurt zwischen Wiesbadener Kreuz und Raunheim",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-06T20:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-07T03:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 06.04.2022 22:00 Uhr bis 07.04.2022 ca. 05:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-06T19:14:59.598Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/487867_LMS-HE/54"
       },
       "dataProducer": {
@@ -1112,7 +1177,7 @@
       },
       "description": [
         {
-          "value": "A4 Bad Hersfeld Richtung Erfurt\nzwischen Bad Hersfeld und Friedewald\ndefekter PKW hinter einer Kurve"
+          "value": "A4 Bad Hersfeld Richtung Erfurt\nzwischen Bad Hersfeld und Friedewald\nStraße wieder frei"
         }
       ],
       "location": {
@@ -1144,11 +1209,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-06T19:40:58.474Z"
+        "value": "2022-04-06T20:04:45.169Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1356,7 +1421,7 @@
       },
       "description": [
         {
-          "value": "A6 Heilbronn Richtung Kaiserslautern\nzwischen Viernheimer Dreieck und Mannheim-Sandhofen\nGasse für Rettungs- und Einsatzfahrzeuge bilden, Unfall, vorübergehend wegen Bergungsarbeiten gesperrt, Richtungsfahrbahn gesperrt, Polizei regelt den Verkehr, am 06.04.2022 von 18:00 Uhr bis ca. 22:00 Uhr\n(keine Umleitungsempfehlung möglich)"
+          "value": "A6 Heilbronn Richtung Kaiserslautern\nzwischen Viernheimer Dreieck und Mannheim-Sandhofen\nStraße wieder frei"
         }
       ],
       "location": {
@@ -1375,18 +1440,7 @@
           "A6"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-04-06T16:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-06T20:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "am 06.04.2022 von 18:00 Uhr bis ca. 22:00 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -1408,7 +1462,7 @@
       "masterEventCategory": "Hinweis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-06T15:15:47.057Z"
+        "value": "2022-04-06T20:09:57.075Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -5953,7 +6007,7 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-06T19:01:06.801Z"
+        "value": "2022-04-06T20:10:12.466Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
