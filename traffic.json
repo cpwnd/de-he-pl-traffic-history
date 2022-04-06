@@ -1787,6 +1787,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/487674_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487674
+      },
+      "description": [
+        {
+          "value": "A7 Kassel Richtung Fulda\nzwischen Homberg (Efze) und Bad Hersfeld-West\nGefahr durch Holzteile auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Kassel Richtung Fulda zwischen Homberg (Efze) und Bad Hersfeld-West",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-06T08:40:07.486Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/485160_LMS-HE/54"
       },
       "dataProducer": {
@@ -3389,7 +3440,7 @@
       },
       "description": [
         {
-          "value": "A66 Richtung Wiesbaden\nzwischen Ausfahrt Wiesbaden-Nordenstadt und Wiesbaden-Erbenheim\nGefahr durch Gegenstände auf der Fahrbahn"
+          "value": "A66 Frankfurt Richtung Wiesbaden\nin Höhe Wiesbaden-Nordenstadt\nGegenstände auf der Fahrbahn, Beschleunigungsstreifen gesperrt"
         }
       ],
       "location": {
@@ -3403,7 +3454,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A66 Richtung Wiesbaden zwischen Ausfahrt Wiesbaden-Nordenstadt und Wiesbaden-Erbenheim",
+        "description": "A66 Frankfurt Richtung Wiesbaden in Höhe Wiesbaden-Nordenstadt",
         "streets": [
           "A66"
         ]
@@ -3411,17 +3462,20 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
           "value": "Hindernis"
+        },
+        {
+          "value": "Sperrung"
         }
       ],
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-06T08:21:36.941Z"
+        "value": "2022-04-06T08:41:24.82Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
