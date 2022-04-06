@@ -146,7 +146,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Mönchhof-Dreieck und Kelsterbach\nUnfall mit mehreren LKW, rechter Fahrstreifen blockiert, mittlerer Fahrstreifen blockiert, Fahrbahn von 3 auf einen Fahrstreifen verengt"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Mönchhof-Dreieck und Kelsterbach\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -181,11 +181,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-06T07:05:54.394Z"
+        "value": "2022-04-06T09:34:47.981Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4360,6 +4360,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/487687_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487687
+      },
+      "description": [
+        {
+          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Frankfurt-Eckenheim und Preungesheimer Dreieck\nGefahr durch Gegenstände auf der Fahrbahn\n(ein Eimer)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A661"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A661 Bad Homburg Richtung Darmstadt zwischen Frankfurt-Eckenheim und Preungesheimer Dreieck",
+        "streets": [
+          "A661"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-06T09:33:46.464Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
