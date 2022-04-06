@@ -396,57 +396,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/487782_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 487782
-      },
-      "description": [
-        {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbadener Kreuz und Raunheim\nStraße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Köln Richtung Frankfurt zwischen Wiesbadener Kreuz und Raunheim",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-06T16:11:45.169Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/478197_LMS-HE/54"
       },
       "dataProducer": {
@@ -964,68 +913,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/487762_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 487762
-      },
-      "description": [
-        {
-          "value": "A4 Erfurt Richtung Bad Hersfeld\nzwischen Bad Hersfeld und Kirchheimer Dreieck\nWanderbaustelle, am 06.04.2022 von 17:00 Uhr bis ca. 20:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A4"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A4 Erfurt Richtung Bad Hersfeld zwischen Bad Hersfeld und Kirchheimer Dreieck",
-        "streets": [
-          "A4"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-04-06T15:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-06T18:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "am 06.04.2022 von 17:00 Uhr bis ca. 20:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-06T14:37:10.302Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/438867_LMS-HE/54"
       },
       "dataProducer": {
@@ -1160,7 +1047,7 @@
       },
       "description": [
         {
-          "value": "A4 Bad Hersfeld Richtung Erfurt\nzwischen Gerstungen und Wommen\nUnfall mit mehreren Fahrzeugen auf dem rechten Fahrstreifen"
+          "value": "A4 Bad Hersfeld Richtung Erfurt\nzwischen Gerstungen und Wommen\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -1192,11 +1079,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-06T15:02:43.95Z"
+        "value": "2022-04-06T17:01:36.646Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -5554,6 +5441,63 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/487814_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487814
+      },
+      "description": [
+        {
+          "value": "B45 Dieburg - Hanau\nzwischen Rodgau-Jügesheim und Weiskirchen\nschwerer Unfall, Gasse für Rettungs- und Einsatzfahrzeuge bilden, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, beide Fahrtrichtungen gesperrt\n(Umleitungsempfehlung über die A3)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B45 Dieburg Richtung Hanau zwischen Rodgau-Jügesheim und Weiskirchen",
+        "streets": [
+          "B45"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hinweis"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-06T16:33:10.856Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/483409_LMS-HE/54"
       },
       "dataProducer": {
@@ -7081,6 +7025,71 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-07T05:00:00.965Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/487837_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487837
+      },
+      "description": [
+        {
+          "value": "Schwalm-Eder-Kreis, K61\nzwischen Oberurff-Schiffelborn und Bergfreiheit\nin beiden Richtungen Krötenwanderung, Richtungsfahrbahn gesperrt, bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K61"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Schwalm-Eder-Kreis, K61 zwischen Oberurff-Schiffelborn und Bergfreiheit",
+        "streets": [
+          "K61"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-01T18:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-30T05:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 01.03.2022 bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Information"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-06T17:00:01.072Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -9190,7 +9199,7 @@
       },
       "description": [
         {
-          "value": "L3004 Frankfurt, Rosa-Luxemburg-Straße bis Zeppelinallee\nzwischen Einfahrt Rosa-Luxemburg-Straße und Ludolfusstraße\nUnfall, rechter Fahrstreifen wieder befahrbar, linker Fahrstreifen gesperrt"
+          "value": "L3004 Frankfurt, Rosa-Luxemburg-Straße bis Zeppelinallee\nzwischen Einfahrt Rosa-Luxemburg-Straße und Ludolfusstraße\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -9225,7 +9234,7 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-06T14:53:16.604Z"
+        "value": "2022-04-06T17:01:13.755Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -11464,7 +11473,7 @@
       },
       "description": [
         {
-          "value": "Brensbach\nBrand, Anwohner werden gebeten, Fenster und Türen geschlossen zu halten, Trinkwasserverschmutzung\n(dringende Empfehlung: Trinkwasser muss bis in die Abendstunden vor Verzehr abgekocht werden, Strom wird ebenfalls bis in die Abendstunden abgestellt)"
+          "value": "Brensbach\nTrinkwasserverschmutzung\n(dringende Empfehlung: Trinkwasser muss bis in die Abendstunden vor Verzehr abgekocht werden, Strom wird ebenfalls bis in die Abendstunden abgestellt)"
         }
       ],
       "location": {
@@ -11484,19 +11493,13 @@
       },
       "eventCategory": [
         {
-          "value": "Störung"
-        },
-        {
-          "value": "Hinweis"
-        },
-        {
           "value": "Information"
         }
       ],
-      "masterEventCategory": "Störung",
+      "masterEventCategory": "Information",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-06T15:45:33.767Z"
+        "value": "2022-04-06T16:59:14.169Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
