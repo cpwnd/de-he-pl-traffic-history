@@ -1435,7 +1435,7 @@
       },
       "description": [
         {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Niederaula und Hünfeld/Schlitz\ndefekter LKW auf dem rechten Fahrstreifen"
+          "value": "A7 Kassel Richtung Fulda\nzwischen Niederaula und Hünfeld/Schlitz\nAnschlussstelle wieder frei"
         }
       ],
       "location": {
@@ -1467,11 +1467,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-06T03:57:40.28Z"
+        "value": "2022-04-06T05:01:07.873Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -5441,6 +5441,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/487556_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487556
+      },
+      "description": [
+        {
+          "value": "B45 Hanau Richtung Dieburg\nzwischen Rodgau-Niederroden in Nieder-Roden und B459, Rödermark-Ober-Roden\nvorübergehende Begrenzung der Breite besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B45 Hanau Richtung Dieburg zwischen Rodgau-Niederroden in Nieder-Roden und B459, Rödermark-Ober-Roden",
+        "streets": [
+          "B45"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Beschränkung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-06T05:01:27.737Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/483409_LMS-HE/54"
       },
       "dataProducer": {
@@ -6580,6 +6631,208 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/487613_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487613
+      },
+      "description": [
+        {
+          "value": "B457 Gelnhausen - Nidda\nzwischen Bleichenbach und Ortenberg-Selters\nin beiden Richtungen Baustelle beseitigt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B457"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B457 Gelnhausen Richtung Nidda zwischen Bleichenbach und Ortenberg-Selters",
+        "streets": [
+          "B457"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Information"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-06T05:01:49.729Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/486952_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486952
+      },
+      "description": [
+        {
+          "value": "B457 Gelnhausen - Nidda\nzwischen Bleichenbach und Ortenberg-Selters\nin beiden Richtungen Bauarbeiten, halbseitig gesperrt, vorübergehende Regelung durch provisorische Ampelanlagen, vorübergehende Begrenzung der Fahrbahnbreite auf 2,75 m, bis 08.04.2022, Mo - Fr zwischen 07:00 Uhr und 17:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B457"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B457 Gelnhausen Richtung Nidda zwischen Bleichenbach und Ortenberg-Selters",
+        "streets": [
+          "B457"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-21T06:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-08T15:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 21.03.2022 bis 08.04.2022, Mo - Fr zwischen 07:00 Uhr und 17:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Information"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-05T07:50:11.68Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/487299_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487299
+      },
+      "description": [
+        {
+          "value": "B457 Gelnhausen - Nidda\nzwischen Bleichenbach und Ortenberg-Selters\nin beiden Richtungen Bauarbeiten, halbseitig gesperrt, vorübergehende Regelung durch provisorische Ampelanlagen, vorübergehende Begrenzung der Fahrbahnbreite auf 2,75 m, bis 08.04.2022, Mo - Fr zwischen 07:00 Uhr und 17:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B457"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B457 Gelnhausen Richtung Nidda zwischen Bleichenbach und Ortenberg-Selters",
+        "streets": [
+          "B457"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-21T06:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-08T15:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 21.03.2022 bis 08.04.2022, Mo - Fr zwischen 07:00 Uhr und 17:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Information"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-05T06:47:51.876Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/477347_LMS-HE/54"
       },
       "dataProducer": {
@@ -7057,7 +7310,7 @@
       },
       "description": [
         {
-          "value": "Schwalm-Eder-Kreis, K61\nzwischen Oberurff-Schiffelborn und Bergfreiheit\nin beiden Richtungen Krötenwanderung, Richtungsfahrbahn gesperrt, bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
+          "value": "K61 zwischen Oberurff-Schiffelborn und Bergfreiheit\nin beiden Richtungen Straße wieder frei"
         }
       ],
       "location": {
@@ -7076,18 +7329,7 @@
           "K61"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-01T18:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-30T05:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 01.03.2022 bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -7103,11 +7345,11 @@
       "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-05T17:00:00.818Z"
+        "value": "2022-04-06T05:01:40.815Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
