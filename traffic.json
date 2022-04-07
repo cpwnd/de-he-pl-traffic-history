@@ -590,7 +590,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt - Köln\nzwischen Wiesbaden/Niedernhausen und Idstein\nin beiden Richtungen Aquaplaninggefahr"
+          "value": "A3 Frankfurt - Köln\nzwischen Wiesbaden/Niedernhausen und Idstein\nin beiden Richtungen Gefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -612,7 +612,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -622,11 +622,11 @@
       "masterEventCategory": "Straßenzustand",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-07T12:55:07.257Z"
+        "value": "2022-04-07T14:25:55.689Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1330,7 +1330,7 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Homberg (Ohm) und Alsfeld-West\nGefahr durch ungesicherte Unfallstelle auf dem rechten Fahrstreifen"
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Homberg (Ohm) und Alsfeld-West\nUnfall auf dem rechten Fahrstreifen"
         }
       ],
       "location": {
@@ -1352,7 +1352,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1362,11 +1362,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-07T13:53:41.207Z"
+        "value": "2022-04-07T14:27:12.504Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3767,6 +3767,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/488246_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 488246
+      },
+      "description": [
+        {
+          "value": "A67 Darmstadt Richtung Mannheim\nzwischen Darmstädter Kreuz und Pfungstadt\nGefahr durch ungesicherte Unfallstelle auf dem linken Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A67"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A67 Darmstadt Richtung Mannheim zwischen Darmstädter Kreuz und Pfungstadt",
+        "streets": [
+          "A67"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-07T14:28:46.679Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/483464_LMS-HE/54"
       },
       "dataProducer": {
@@ -4278,6 +4329,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/488241_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 488241
+      },
+      "description": [
+        {
+          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Frankfurt-Friedberger Landstraße und Frankfurt am Main-Ost\nGefahr durch defektes Fahrzeug auf dem linken Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A661"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A661 Bad Homburg Richtung Darmstadt zwischen Frankfurt-Friedberger Landstraße und Frankfurt am Main-Ost",
+        "streets": [
+          "A661"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-07T14:19:42.799Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -11738,7 +11840,7 @@
       "masterEventCategory": "Information",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-07T03:09:42.843Z"
+        "value": "2022-04-07T14:21:09.297Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
