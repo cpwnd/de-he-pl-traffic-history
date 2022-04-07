@@ -536,7 +536,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Raunheim und Wiesbadener Kreuz\nGefahr durch Gegenstände auf der Fahrbahn\n(unbekannte Gegenstände)"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Raunheim und Wiesbadener Kreuz\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -558,7 +558,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -568,11 +568,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-07T04:54:22.015Z"
+        "value": "2022-04-07T06:11:34.894Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1080,57 +1080,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-04T14:47:17.093Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/487955_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 487955
-      },
-      "description": [
-        {
-          "value": "A5 Kassel Richtung Frankfurt\nzwischen Friedberg und Bad Homburger Kreuz\nGefahr durch Gegenstände auf der Fahrbahn (ein Holzbrett)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Kassel Richtung Frankfurt zwischen Friedberg und Bad Homburger Kreuz",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-07T05:28:30.537Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3420,6 +3369,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/487958_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487958
+      },
+      "description": [
+        {
+          "value": "A66 Wiesbaden Richtung Frankfurt\nzwischen Hattersheim und Krifteler Dreieck\ndefekter PKW auf dem Standstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Wiesbaden Richtung Frankfurt zwischen Hattersheim und Krifteler Dreieck",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-07T05:53:34.896Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -11591,6 +11591,62 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/487928_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487928
+      },
+      "description": [
+        {
+          "value": "Hessen\nUnwetterwarnung, am 07.04.2022 von 08:00 Uhr bis ca. 21:00 Uhr\n(Es besteht die Gefahr des Auftretens von orkanartiger Böen Stufe 3 von 4. Quelle: DWD / Vorhersagezentrale Offenbach)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": null
+          }
+        ],
+        "name": "Ort",
+        "description": "Hessen",
+        "streets": null
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-07T06:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-07T19:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "am 07.04.2022 von 08:00 Uhr bis ca. 21:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Wetter"
+        }
+      ],
+      "masterEventCategory": "Wetter",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-07T04:21:47.601Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
