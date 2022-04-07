@@ -577,6 +577,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/487940_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487940
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Raunheim und Wiesbadener Kreuz\nGefahr durch Gegenstände auf der Fahrbahn\n(unbekannte Gegenstände)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Köln zwischen Raunheim und Wiesbadener Kreuz",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-07T04:54:22.015Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/481932_LMS-HE/54"
       },
       "dataProducer": {
@@ -5370,6 +5421,77 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/483410_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 483410
+      },
+      "description": [
+        {
+          "value": "B47 Nibelungenstraße, Bensheim Richtung Michelstadt\nzwischen Gadernheim und Abzweig nach Knoden\nBauarbeiten, halbseitig gesperrt, vorübergehende Regelung durch provisorische Ampelanlagen, vorübergehende Begrenzung der Fahrbahnbreite auf 3,25 m, von 07.04.2022 07:00 Uhr bis 27.04.2022 18:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B47"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B47 Nibelungenstraße, Bensheim Richtung Michelstadt zwischen Gadernheim und Abzweig nach Knoden",
+        "streets": [
+          "B47"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-07T05:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-27T16:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 07.04.2022 07:00 Uhr bis 27.04.2022 18:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Information"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-06T19:00:54.862Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/483409_LMS-HE/54"
       },
       "dataProducer": {
@@ -6296,6 +6418,142 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/487948_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487948
+      },
+      "description": [
+        {
+          "value": "B323 Remsfeld\nzwischen Kreisverkehr Anschlussstelle Homberg (Efze) und Kreisverkehr Bahnhofstraße\nin beiden Richtungen vorübergehende Begrenzung der Fahrbahnbreite auf 3,05 m, halbseitig gesperrt, bis 19.04.2022 16:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B323"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B323 Remsfeld zwischen Kreisverkehr Anschlussstelle Homberg (Efze) und Kreisverkehr Bahnhofstraße",
+        "streets": [
+          "B323"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-07T05:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-19T14:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 07.04.2022 07:00 Uhr bis 19.04.2022 16:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-07T05:00:01.4Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/487946_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487946
+      },
+      "description": [
+        {
+          "value": "B457 Gelnhausen - Nidda\nzwischen Bleichenbach und Ortenberg-Selters\nin beiden Richtungen Bauarbeiten, vorübergehende Regelung durch provisorische Ampelanlagen, vorübergehende Begrenzung der Fahrbahnbreite auf 2,75 m, halbseitig gesperrt, bis 08.04.2022, Mo - Fr zwischen 07:00 Uhr und 07:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B457"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B457 Gelnhausen Richtung Nidda zwischen Bleichenbach und Ortenberg-Selters",
+        "streets": [
+          "B457"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-21T06:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-08T15:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 21.03.2022 bis 08.04.2022, Mo - Fr zwischen 07:00 Uhr und 07:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Information"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-07T05:00:01.4Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/483412_LMS-HE/54"
       },
       "dataProducer": {
@@ -6430,6 +6688,148 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-23T16:50:04.698Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/486952_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486952
+      },
+      "description": [
+        {
+          "value": "B457 Gelnhausen - Nidda\nzwischen Bleichenbach und Ortenberg-Selters\nin beiden Richtungen Bauarbeiten, halbseitig gesperrt, vorübergehende Regelung durch provisorische Ampelanlagen, vorübergehende Begrenzung der Fahrbahnbreite auf 2,75 m, bis 08.04.2022, Mo - Fr zwischen 07:00 Uhr und 17:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B457"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B457 Gelnhausen Richtung Nidda zwischen Bleichenbach und Ortenberg-Selters",
+        "streets": [
+          "B457"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-21T06:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-08T15:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 21.03.2022 bis 08.04.2022, Mo - Fr zwischen 07:00 Uhr und 17:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Information"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-05T07:50:11.68Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/487299_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487299
+      },
+      "description": [
+        {
+          "value": "B457 Gelnhausen - Nidda\nzwischen Bleichenbach und Ortenberg-Selters\nin beiden Richtungen Bauarbeiten, halbseitig gesperrt, vorübergehende Regelung durch provisorische Ampelanlagen, vorübergehende Begrenzung der Fahrbahnbreite auf 2,75 m, bis 08.04.2022, Mo - Fr zwischen 07:00 Uhr und 17:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B457"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B457 Gelnhausen Richtung Nidda zwischen Bleichenbach und Ortenberg-Selters",
+        "streets": [
+          "B457"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-21T06:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-08T15:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 21.03.2022 bis 08.04.2022, Mo - Fr zwischen 07:00 Uhr und 17:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Information"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-05T06:47:51.876Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6915,7 +7315,7 @@
       },
       "description": [
         {
-          "value": "Schwalm-Eder-Kreis, K61\nzwischen Oberurff-Schiffelborn und Bergfreiheit\nin beiden Richtungen Krötenwanderung, Richtungsfahrbahn gesperrt, bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
+          "value": "K61 zwischen Oberurff-Schiffelborn und Bergfreiheit\nin beiden Richtungen Straße wieder frei"
         }
       ],
       "location": {
@@ -6934,18 +7334,7 @@
           "K61"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-01T18:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-30T05:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 01.03.2022 bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -6961,11 +7350,11 @@
       "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-06T17:00:01.072Z"
+        "value": "2022-04-07T05:03:20.369Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
