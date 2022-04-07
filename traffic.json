@@ -471,7 +471,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt - Köln\nzwischen Frankfurt am Main-Flughafen und Kelsterbach\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
+          "value": "A3 Frankfurt - Köln\nzwischen Frankfurt am Main-Flughafen und Kelsterbach\nin beiden Richtungen Gefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -493,7 +493,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -503,11 +503,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-07T16:04:23.48Z"
+        "value": "2022-04-07T17:03:43.929Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1152,7 +1152,7 @@
       },
       "description": [
         {
-          "value": "A4 Bad Hersfeld Richtung Erfurt\nzwischen Bad Hersfeld und Friedewald\nGefahr durch ungesicherte Unfallstelle auf dem rechten Fahrstreifen, rechter Fahrstreifen blockiert"
+          "value": "A4 Bad Hersfeld Richtung Erfurt\nzwischen Bad Hersfeld und Friedewald\nUnfallaufnahme, Bergungsarbeiten, rechter Fahrstreifen blockiert"
         }
       ],
       "location": {
@@ -1174,24 +1174,24 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Störung"
         },
         {
-          "value": "Störung"
+          "value": "Arbeitsstelle"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-07T16:08:23.84Z"
+        "value": "2022-04-07T17:16:35.387Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2478,7 +2478,7 @@
       },
       "description": [
         {
-          "value": "A45 Gießen - Aschaffenburg\nzwischen Hammersbach und Langenselbold-West\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
+          "value": "A45 Gießen - Aschaffenburg\nzwischen Hammersbach und Langenselbold-West\nin beiden Richtungen Gefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -2500,7 +2500,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2510,7 +2510,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-07T16:47:17.014Z"
+        "value": "2022-04-07T17:03:03.778Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3525,111 +3525,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/488315_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 488315
-      },
-      "description": [
-        {
-          "value": "A66 Fulda Richtung Frankfurt\nzwischen Bad Orb/Wächtersbach und Gelnhausen-Ost\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A66"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A66 Fulda Richtung Frankfurt zwischen Bad Orb/Wächtersbach und Gelnhausen-Ost",
-        "streets": [
-          "A66"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-07T16:45:52.538Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/488268_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 488268
-      },
-      "description": [
-        {
-          "value": "A66 Fulda Richtung Frankfurt\nzwischen Bad Orb/Wächtersbach und Gelnhausen-Ost\nalle Fahrbahnen geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A66"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A66 Fulda Richtung Frankfurt zwischen Bad Orb/Wächtersbach und Gelnhausen-Ost",
-        "streets": [
-          "A66"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-07T16:42:05.835Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -5746,7 +5641,7 @@
       },
       "description": [
         {
-          "value": "B45 Hanau Richtung Dieburg\nzwischen Münster und Dieburg-Nord\nUnfall mit mehreren Fahrzeugen, Rettungsfahrzeuge im Einsatz, Richtungsfahrbahn blockiert, Gasse für Rettungs- und Einsatzfahrzeuge bilden, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+          "value": "B45 Hanau Richtung Dieburg\nzwischen Münster und Dieburg-Nord\nUnfall mit mehreren Fahrzeugen, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, linker Fahrstreifen gesperrt"
         }
       ],
       "location": {
@@ -5775,19 +5670,16 @@
           "value": "Unfall"
         },
         {
-          "value": "Information"
-        },
-        {
-          "value": "Störung"
-        },
-        {
           "value": "Hinweis"
+        },
+        {
+          "value": "Sperrung"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-07T15:57:42.646Z"
+        "value": "2022-04-07T16:58:04.993Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -7136,57 +7028,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/488311_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 488311
-      },
-      "description": [
-        {
-          "value": "B519 Königstein - Rüsselsheim\nzwischen Kelkheim-Münster und Liederbach am Taunus\nin beiden Richtungen Gefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B519"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B519 Königstein Richtung Rüsselsheim zwischen Kelkheim-Münster und Liederbach am Taunus",
-        "streets": [
-          "B519"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-07T16:52:38.934Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/477348_LMS-HE/54"
       },
       "dataProducer": {
@@ -7581,6 +7422,71 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-07T05:00:00.965Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/488356_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 488356
+      },
+      "description": [
+        {
+          "value": "Schwalm-Eder-Kreis, K61\nzwischen Oberurff-Schiffelborn und Bergfreiheit\nin beiden Richtungen Krötenwanderung, Richtungsfahrbahn gesperrt, bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K61"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Schwalm-Eder-Kreis, K61 zwischen Oberurff-Schiffelborn und Bergfreiheit",
+        "streets": [
+          "K61"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-01T18:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-30T05:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 01.03.2022 bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Information"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-07T17:00:01.161Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -11783,7 +11689,7 @@
       },
       "description": [
         {
-          "value": "Brensbach\nTrinkwasserverschmutzung\n(dringende Empfehlung: Trinkwasser muss vor Verzehr abgekocht werden, nach Brand könnte Schaummittel in den Untergrund eingesickert sein)"
+          "value": "Brensbach\nTrinkwasserverschmutzung, bis 12.04.2022 ca. 18:00 Uhr\n(dringende Empfehlung: Trinkwasser muss vor Verzehr abgekocht werden, nach Brand könnte Schaummittel in den Untergrund eingesickert sein)"
         }
       ],
       "location": {
@@ -11796,7 +11702,15 @@
         "description": "Brensbach",
         "streets": null
       },
-      "duration": null,
+      "duration": {
+        "startTime": null,
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-12T16:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "bis 12.04.2022 ca. 18:00 Uhr"
+      },
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Dringend"
@@ -11809,7 +11723,7 @@
       "masterEventCategory": "Information",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-07T14:21:09.297Z"
+        "value": "2022-04-07T17:06:26.885Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -11889,7 +11803,7 @@
       },
       "description": [
         {
-          "value": "Hessen\nUnwetterwarnung, am 07.04.2022 von 08:00 Uhr bis ca. 21:00 Uhr\n(Es besteht die Gefahr des Auftretens von orkanartiger Böen Stufe 3 von 4. Quelle: DWD / Vorhersagezentrale Offenbach)"
+          "value": "Hessen\nUnwetterwarnung aufgehoben"
         }
       ],
       "location": {
@@ -11902,18 +11816,7 @@
         "description": "Hessen",
         "streets": null
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-04-07T06:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-07T19:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "am 07.04.2022 von 08:00 Uhr bis ca. 21:00 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -11926,7 +11829,7 @@
       "masterEventCategory": "Wetter",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-07T04:21:47.601Z"
+        "value": "2022-04-07T17:08:14.855Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
