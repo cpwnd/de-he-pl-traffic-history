@@ -580,57 +580,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/488157_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 488157
-      },
-      "description": [
-        {
-          "value": "A3 Frankfurt - Köln\nzwischen Wiesbaden/Niedernhausen und Idstein\nin beiden Richtungen Gefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Frankfurt Richtung Köln zwischen Wiesbaden/Niedernhausen und Idstein",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Straßenzustand"
-        }
-      ],
-      "masterEventCategory": "Straßenzustand",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-07T14:25:55.689Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/481932_LMS-HE/54"
       },
       "dataProducer": {
@@ -1330,7 +1279,7 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Homberg (Ohm) und Alsfeld-West\nUnfall auf dem rechten Fahrstreifen"
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Homberg (Ohm) und Alsfeld-West\nUnfall, rechter Fahrstreifen gesperrt, mittlerer Fahrstreifen gesperrt"
         }
       ],
       "location": {
@@ -1357,12 +1306,15 @@
       "eventCategory": [
         {
           "value": "Unfall"
+        },
+        {
+          "value": "Sperrung"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-07T14:27:12.504Z"
+        "value": "2022-04-07T14:36:25.915Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3475,6 +3427,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/488268_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 488268
+      },
+      "description": [
+        {
+          "value": "A66 Fulda Richtung Frankfurt\nzwischen Bad Orb/Wächtersbach und Gelnhausen-Ost\nUnfall auf dem linken Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Fulda Richtung Frankfurt zwischen Bad Orb/Wächtersbach und Gelnhausen-Ost",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-07T14:48:58.883Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/397236_LMS-HE/54"
       },
       "dataProducer": {
@@ -3525,60 +3528,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/488188_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 488188
-      },
-      "description": [
-        {
-          "value": "A66 Wiesbaden Richtung Frankfurt\nzwischen Frankfurt am Main-L.-Landmann-Str. und Frankfurt am Main-Miquelallee\nUnfall, rechter Fahrstreifen blockiert"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A66"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A66 Wiesbaden Richtung Frankfurt zwischen Frankfurt am Main-L.-Landmann-Str. und Frankfurt am Main-Miquelallee",
-        "streets": [
-          "A66"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-07T13:30:26.186Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
@@ -3777,7 +3726,7 @@
       },
       "description": [
         {
-          "value": "A67 Darmstadt Richtung Mannheim\nzwischen Darmstädter Kreuz und Pfungstadt\nGefahr durch ungesicherte Unfallstelle auf dem linken Fahrstreifen"
+          "value": "A67 Darmstadt Richtung Mannheim\nzwischen Darmstädter Kreuz und Pfungstadt\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -3799,7 +3748,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -3809,11 +3758,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-07T14:28:46.679Z"
+        "value": "2022-04-07T14:47:31.951Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4504,6 +4453,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/488257_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 488257
+      },
+      "description": [
+        {
+          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Bad Homburger Kreuz und Bad Homburg\nGefahr durch Gegenstände auf der Fahrbahn\n(ein Blumentopf)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A661"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A661 Darmstadt Richtung Bad Homburg zwischen Bad Homburger Kreuz und Bad Homburg",
+        "streets": [
+          "A661"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-07T14:41:24.523Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -12020,54 +12020,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/487973_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 487973
-      },
-      "description": [
-        {
-          "value": "Holzhausen\nLöscharbeiten, Anwohner werden gebeten, Fenster und Türen geschlossen zu halten"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": null
-          }
-        ],
-        "name": "Ort",
-        "description": "Holzhausen",
-        "streets": null
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-07T06:57:46.184Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
