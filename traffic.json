@@ -396,68 +396,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/488397_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 488397
-      },
-      "description": [
-        {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbadener Kreuz und Raunheim\nBaustelle, rechter Fahrstreifen gesperrt, mittlerer Fahrstreifen gesperrt, bis 08.04.2022 ca. 05:15 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Köln Richtung Frankfurt zwischen Wiesbadener Kreuz und Raunheim",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": {
-        "startTime": null,
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-08T03:15:00Z"
-        },
-        "name": "Dauer",
-        "description": "bis 08.04.2022 ca. 05:15 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-07T19:22:44.989Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/478197_LMS-HE/54"
       },
       "dataProducer": {
@@ -6249,6 +6187,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/488448_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 488448
+      },
+      "description": [
+        {
+          "value": "B49 Limburg Richtung Gießen\nzwischen Beselich-Obertiefenbach-West und Beselich-Obertiefenbach-Ost\nGefahr durch 1 Gegenstand auf dem linken Fahrstreifen\n(gr. Stein)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B49"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B49 Limburg Richtung Gießen zwischen Beselich-Obertiefenbach-West und Beselich-Obertiefenbach-Ost",
+        "streets": [
+          "B49"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-08T02:39:10.435Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
