@@ -146,7 +146,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Würzburg\nzwischen Offenbacher Kreuz und Offenbach\nUnfall auf dem linken Fahrstreifen"
+          "value": "A3 Frankfurt Richtung Würzburg\nzwischen Offenbacher Kreuz und Offenbach\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -178,7 +178,7 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-08T15:00:36.34Z"
+        "value": "2022-04-08T16:26:21.025Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4070,57 +4070,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/488698_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 488698
-      },
-      "description": [
-        {
-          "value": "A661 Bad Homburg Richtung Darmstadt\nAusfahrt zum Rastplatz Buchrain\ndefekter PKW auf dem Verzögerungsstreifen"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A661"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A661 Bad Homburg Richtung Darmstadt Ausfahrt zum Rastplatz Buchrain",
-        "streets": [
-          "A661"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-08T14:14:27.892Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/430914_LMS-HE/54"
       },
       "dataProducer": {
@@ -5136,6 +5085,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-13T23:00:04.455Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/488731_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 488731
+      },
+      "description": [
+        {
+          "value": "B43 Wiesbaden - Rüsselsheim\nzwischen Gustavsburg-Mainzer Straße und Bischofsheim\nin beiden Richtungen Gefahr durch Hunde auf der Fahrbahn, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B43"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B43 Wiesbaden Richtung Rüsselsheim zwischen Gustavsburg-Mainzer Straße und Bischofsheim",
+        "streets": [
+          "B43"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-08T16:14:41.997Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -10513,71 +10516,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/471257_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 471257
-      },
-      "description": [
-        {
-          "value": "L3318 Otzberg - Michelstadt\nzwischen Nieder-Kinzig und Abzweig nach Gumpersberg\nin beiden Richtungen Baustelle, Richtungsfahrbahn gesperrt, eine örtliche Umleitung ist eingerichtet, bis 20.05.2022 18:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3318"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Odenwaldkreis, L3318 zwischen Nieder-Kinzig und Abzweig nach Gumpersberg",
-        "streets": [
-          "L3318"
-        ]
-      },
-      "duration": {
-        "startTime": null,
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-05-20T16:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "bis 20.05.2022 18:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-15T09:11:18.197Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
