@@ -1918,6 +1918,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/488790_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 488790
+      },
+      "description": [
+        {
+          "value": "A7 Würzburg Richtung Fulda\nzwischen Bad Brückenau-Volkers und Dreieck Fulda\nGefahr durch unbeleuchtetes Fahrzeug auf dem Standstreifen, Personen auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Würzburg Richtung Fulda zwischen Bad Brückenau-Volkers und Dreieck Fulda",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-08T18:35:53.357Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/443927_LMS-HE/54"
       },
       "dataProducer": {
@@ -5217,7 +5268,7 @@
       },
       "description": [
         {
-          "value": "B43 Wiesbaden - Rüsselsheim\nzwischen Gustavsburg-Mainzer Straße und Bischofsheim\nin beiden Richtungen Gefahr durch Hunde auf der Fahrbahn, bitte vorsichtig fahren"
+          "value": "B43 Wiesbaden - Rüsselsheim\nzwischen Gustavsburg-Mainzer Straße und Bischofsheim\nin beiden Richtungen Straße wieder frei"
         }
       ],
       "location": {
@@ -5239,7 +5290,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -5252,11 +5303,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-08T16:14:41.997Z"
+        "value": "2022-04-08T18:40:13.587Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -7645,63 +7696,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/480292_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 480292
-      },
-      "description": [
-        {
-          "value": "K53 zwischen Dirlos und Wisselsroder Straße\nin beiden Richtungen Störung beseitigt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "K53"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Kreis Fulda, K53 zwischen Dirlos und Wisselsroder Straße",
-        "streets": [
-          "K53"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-08T18:12:41.467Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/488755_LMS-HE/54"
       },
       "dataProducer": {
@@ -7832,64 +7826,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/480288_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 480288
-      },
-      "description": [
-        {
-          "value": "K133, L3477 zwischen Wembach und Groß-Bieberau\nin beiden Richtungen Baustelle beseitigt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "K133, L3477"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Kreis Darmstadt-Dieburg, K133, L3477 zwischen Wembach und Groß-Bieberau",
-        "streets": [
-          "K133",
-          "L3477"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Information"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-08T18:12:37.217Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -10912,7 +10848,7 @@
       },
       "description": [
         {
-          "value": "L3181 zwischen Rommerz und Hauswurz\nin beiden Richtungen Unfall, Richtungsfahrbahn gesperrt"
+          "value": "L3181 zwischen Rommerz und Hauswurz\nin beiden Richtungen Unfallstelle geräumt"
         }
       ],
       "location": {
@@ -10947,7 +10883,7 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-08T15:08:23.689Z"
+        "value": "2022-04-08T18:39:34.319Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
