@@ -1037,57 +1037,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/488794_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 488794
-      },
-      "description": [
-        {
-          "value": "A5 Kassel Richtung Frankfurt\nzwischen Bad Homburger Kreuz und Nordwestkreuz Frankfurt\nUnfallstelle geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Kassel Richtung Frankfurt zwischen Bad Homburger Kreuz und Nordwestkreuz Frankfurt",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-08T21:08:17.923Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/338932_LMS-HE/54"
       },
       "dataProducer": {
@@ -1472,60 +1421,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/488829_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 488829
-      },
-      "description": [
-        {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Niederaula und Hünfeld/Schlitz\nStraße geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A7"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A7 Kassel Richtung Fulda zwischen Niederaula und Hünfeld/Schlitz",
-        "streets": [
-          "A7"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-08T21:06:43.519Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -5097,7 +4992,7 @@
       },
       "description": [
         {
-          "value": "B43 Wiesbaden - Rüsselsheim\nzwischen Gustavsburg-Mainzer Straße und Bischofsheim\nin beiden Richtungen Achtung, Personen werfen Gegenstände auf die Fahrbahn"
+          "value": "B43 Wiesbaden - Rüsselsheim\nzwischen A671, Gustavsburg und Opel AG-Mainzer Straße\nin beiden Richtungen Gefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -5111,7 +5006,7 @@
           }
         ],
         "name": "Ort",
-        "description": "B43 Wiesbaden Richtung Rüsselsheim zwischen Gustavsburg-Mainzer Straße und Bischofsheim",
+        "description": "B43 Wiesbaden Richtung Rüsselsheim zwischen A671, Gustavsburg und Opel AG-Mainzer Straße",
         "streets": [
           "B43"
         ]
@@ -5119,7 +5014,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Sehr dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -5129,11 +5024,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-08T20:50:53.957Z"
+        "value": "2022-04-08T21:29:15.362Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -12007,7 +11902,7 @@
       },
       "description": [
         {
-          "value": "Odenwaldkreis\nGefahr von Straßenglätte, Schneefall, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren\n(Vereinzeln kommt es im Gebiet aufgrund umgestürzter Bäume zu Straßensperrugnen.)"
+          "value": "Odenwaldkreis\nGefahr von Straßenglätte, erhöhte Unfallgefahr, Schneefall, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren\n(Im gesamten Odenwaldkreis kam es aufgrund umgestürzter Bäume und Straßenglätte zu unzähligen Verkehrsunfällen und Straßensperrungen. Es wird dringend empfohlen unnötige Fahrten und Spaziergänge zu vermeiden.)"
         }
       ],
       "location": {
@@ -12034,16 +11929,19 @@
         },
         {
           "value": "Hinweis"
+        },
+        {
+          "value": "Information"
         }
       ],
       "masterEventCategory": "Straßenzustand",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-08T20:00:59.346Z"
+        "value": "2022-04-08T21:34:56.126Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
