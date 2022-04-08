@@ -396,6 +396,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/488460_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 488460
+      },
+      "description": [
+        {
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Bad Camberg und Einfahrt B275, Idstein\nGefahr durch Spanngurte auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Frankfurt zwischen Bad Camberg und Einfahrt B275, Idstein",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-08T04:13:44.792Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/478197_LMS-HE/54"
       },
       "dataProducer": {
@@ -6391,7 +6442,7 @@
       },
       "description": [
         {
-          "value": "B455 Mainz-Kastel - Königstein\nzwischen Wiesbaden und Wiesbaden-Rambach-Hessloch\nFeuerwehreinsatz, beide Fahrtrichtungen bis auf weiteres gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+          "value": "B455 Mainz-Kastel - Königstein\nzwischen Wiesbaden und Wiesbaden-Rambach-Hessloch\nin beiden Richtungen Feuerwehreinsatz beendet"
         }
       ],
       "location": {
@@ -6429,7 +6480,7 @@
       "masterEventCategory": "Information",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-08T03:37:52.25Z"
+        "value": "2022-04-08T04:18:17.71Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -10462,6 +10513,74 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/488457_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 488457
+      },
+      "description": [
+        {
+          "value": "Kreis Kassel, Grifter Straße\nzwischen A49, Baunatal-Süd in Hertingshausen und Abzweig nach Holzhausen am Hahn\nin beiden Richtungen Bauarbeiten, vorübergehende Regelung durch provisorische Ampelanlagen, halbseitig gesperrt, bis 10.06.2022 20:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3316"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Kreis Kassel, Grifter Straße zwischen A49, Baunatal-Süd in Hertingshausen und Abzweig nach Holzhausen am Hahn",
+        "streets": [
+          "L3316"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-08T04:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-06-10T18:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 08.04.2022 06:00 Uhr bis 10.06.2022 20:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Information"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-08T04:00:02.404Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/471257_LMS-HE/54"
       },
       "dataProducer": {
@@ -12023,56 +12142,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/484241_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 484241
-      },
-      "description": [
-        {
-          "value": "Darmstädter Landstraße, Frankfurt Richtung Neu-Isenburg\nzwischen B3 in Frankfurt und Isenburger Schneise\nBaustelle beseitigt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": null
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Frankfurt, Darmstädter Landstraße zwischen B3 in Frankfurt und Isenburger Schneise",
-        "streets": null
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-08T03:37:10.335Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
