@@ -3387,6 +3387,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/489190_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 489190
+      },
+      "description": [
+        {
+          "value": "A66 Frankfurt Richtung Fulda\nzwischen Neuhof-Süd und Fulda-Süd\nGefahr durch Gegenstände auf dem rechten Fahrstreifen (ein Reifenmantel)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Frankfurt Richtung Fulda zwischen Neuhof-Süd und Fulda-Süd",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-09T17:20:19.474Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/483465_LMS-HE/54"
       },
       "dataProducer": {
@@ -4101,7 +4152,7 @@
       },
       "description": [
         {
-          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Frankfurt am Main-Ost und Frankfurt-Friedberger Landstraße\nGefahr durch Fahrradfahrer auf der Fahrbahn"
+          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Frankfurt am Main-Ost und Frankfurt-Friedberger Landstraße\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -4123,7 +4174,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -4133,11 +4184,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-09T17:04:53.778Z"
+        "value": "2022-04-09T17:24:28.08Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -11316,51 +11367,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/489184_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 489184
-      },
-      "description": [
-        {
-          "value": "Mainz-Kostheim\nStörung beseitigt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": null
-          }
-        ],
-        "name": "Ort",
-        "description": "Mainz-Kostheim",
-        "streets": null
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-09T17:03:33.385Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
