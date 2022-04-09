@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -471,7 +471,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Kelsterbach und Mönchhof-Dreieck\nGefahr durch ungesicherte Unfallstelle"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Kelsterbach und Mönchhof-Dreieck\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -493,7 +493,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -503,11 +503,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-09T11:48:53.003Z"
+        "value": "2022-04-09T12:47:39.001Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2549,57 +2549,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-06T11:12:41.672Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/489062_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 489062
-      },
-      "description": [
-        {
-          "value": "A45 Aschaffenburg - Gießen\nzwischen Wölfersheim und Münzenberg\nin beiden Richtungen die Gefahr durch ein entgegenkommendes Fahrzeug besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A45"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A45 Aschaffenburg Richtung Gießen zwischen Wölfersheim und Münzenberg",
-        "streets": [
-          "A45"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-09T12:23:03.645Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -10860,6 +10809,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-15T04:00:01.451Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/489088_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 489088
+      },
+      "description": [
+        {
+          "value": "L3442 zwischen Fellerdilln und Rodenbach\nin beiden Richtungen Gefahr durch umgestürzte Bäume, Richtungsfahrbahn vorübergehend gesperrt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3442"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Lahn-Dill-Kreis, L3442 zwischen Fellerdilln und Rodenbach",
+        "streets": [
+          "L3442"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-09T12:50:39.717Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
