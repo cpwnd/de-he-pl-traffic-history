@@ -1047,7 +1047,7 @@
       },
       "description": [
         {
-          "value": "A4 Bad Hersfeld Richtung Erfurt\nzwischen Wildeck-Hönebach und Wildeck-Obersuhl\nGefahr durch defekten LKW auf dem rechten Fahrstreifen"
+          "value": "A4 Bad Hersfeld Richtung Erfurt\nzwischen Wildeck-Hönebach und Wildeck-Obersuhl\ndefekter LKW auf dem rechten Fahrstreifen"
         }
       ],
       "location": {
@@ -1069,7 +1069,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1079,11 +1079,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-09T04:43:26.133Z"
+        "value": "2022-04-09T08:19:53.787Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2117,57 +2117,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/488953_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 488953
-      },
-      "description": [
-        {
-          "value": "A7 Fulda Richtung Kassel\nzwischen Bad Hersfeld-West und Homberg (Efze)\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A7"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A7 Fulda Richtung Kassel zwischen Bad Hersfeld-West und Homberg (Efze)",
-        "streets": [
-          "A7"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-09T07:37:06.856Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/485165_LMS-HE/54"
       },
       "dataProducer": {
@@ -2294,57 +2243,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/488951_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 488951
-      },
-      "description": [
-        {
-          "value": "A7 Kassel Richtung Hannover\nzwischen Kreuz Kassel-Mitte und Kassel-Ost\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A7"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A7 Kassel Richtung Hannover zwischen Kreuz Kassel-Mitte und Kassel-Ost",
-        "streets": [
-          "A7"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-09T07:37:39.856Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -4050,6 +3948,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-23T11:01:18.105Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/488958_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 488958
+      },
+      "description": [
+        {
+          "value": "A648 Wiesbadener Straße, Frankfurt - Eschborn\nzwischen Frankfurt am Main-Rebstock und Westkreuz Frankfurt\nin beiden Richtungen Gefahr besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A648"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A648 Wiesbadener Straße, Frankfurt Richtung Eschborn zwischen Frankfurt am Main-Rebstock und Westkreuz Frankfurt",
+        "streets": [
+          "A648"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-09T08:07:35.884Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6465,6 +6414,58 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/488964_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 488964
+      },
+      "description": [
+        {
+          "value": "B275, B54 Aarstraße, Aarbergen Richtung Bad Schwalbach\nzwischen Bad Schwalbach und Abzweig nach Born\nGefahr durch ungesicherte Unfallstelle im Kurvenbereich"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B275, B54"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B275, B54 Aarstraße, Aarbergen Richtung Bad Schwalbach zwischen Bad Schwalbach und Abzweig nach Born",
+        "streets": [
+          "B275",
+          "B54"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-09T07:55:38.243Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -11474,7 +11475,7 @@
       },
       "description": [
         {
-          "value": "Odenwaldkreis\nGefahr von Straßenglätte, erhöhte Unfallgefahr, Schneefall, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren\n(Im gesamten Odenwaldkreis kam es aufgrund umgestürzter Bäume und Straßenglätte zu unzähligen Verkehrsunfällen und Straßensperrungen. Es wird dringend empfohlen unnötige Fahrten und Spaziergänge zu vermeiden. Rettungs- und Einsatzfahrzeuge sind im Dauereinsatz.)"
+          "value": "Odenwaldkreis\nStraßenverhältnisse haben sich wieder gebessert"
         }
       ],
       "location": {
@@ -11490,7 +11491,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -11509,7 +11510,7 @@
       "masterEventCategory": "Straßenzustand",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-08T22:45:55.819Z"
+        "value": "2022-04-09T08:17:46.993Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
