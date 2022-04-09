@@ -1617,6 +1617,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/489196_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 489196
+      },
+      "description": [
+        {
+          "value": "A7 Kassel Richtung Fulda\nzwischen Dreieck Kassel-Süd und Guxhagen\nGefahr durch Gegenstände auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Kassel Richtung Fulda zwischen Dreieck Kassel-Süd und Guxhagen",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-09T18:02:33.274Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/485160_LMS-HE/54"
       },
       "dataProducer": {
@@ -2382,68 +2433,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/443951_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 443951
-      },
-      "description": [
-        {
-          "value": "A45 Hagen Richtung Gießen\nzwischen Herborn-Süd und Ehringshausen\nBaustelle, vorübergehende Begrenzung der Fahrbahnbreite auf 6,75 m, bis 09.04.2022 ca. 20:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A45"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A45 Hagen Richtung Gießen zwischen Herborn-Süd und Ehringshausen",
-        "streets": [
-          "A45"
-        ]
-      },
-      "duration": {
-        "startTime": null,
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-09T18:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "bis 09.04.2022 ca. 20:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Beschränkung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-10T11:56:53.812Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/468949_LMS-HE/54"
       },
       "dataProducer": {
@@ -2622,68 +2611,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-31T08:25:47.867Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/481161_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 481161
-      },
-      "description": [
-        {
-          "value": "A45 Gießen Richtung Hagen\nzwischen Ehringshausen und Herborn-Süd\nBaustelle, vorübergehende Begrenzung der Fahrbahnbreite auf 7,50 m, bis 09.04.2022 ca. 20:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A45"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A45 Gießen Richtung Hagen zwischen Ehringshausen und Herborn-Süd",
-        "streets": [
-          "A45"
-        ]
-      },
-      "duration": {
-        "startTime": null,
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-09T18:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "bis 09.04.2022 ca. 20:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Beschränkung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-10T11:58:32.086Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3480,7 +3407,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-09T17:39:42.099Z"
+        "value": "2022-04-09T17:54:31.75Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -10734,74 +10661,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-10T06:00:01.327Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/481885_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 481885
-      },
-      "description": [
-        {
-          "value": "Lahn-Dill-Kreis, L3362\nzwischen Dillenburg und Nanzenbach\nin beiden Richtungen Bauarbeiten, Richtungsfahrbahn gesperrt, eine Umleitung ist eingerichtet, bis 09.04.2022 20:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3362"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Lahn-Dill-Kreis, L3362 zwischen Dillenburg und Nanzenbach",
-        "streets": [
-          "L3362"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-14T05:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-09T18:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 14.03.2022 06:00 Uhr bis 09.04.2022 20:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-14T05:00:01.266Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
