@@ -3079,6 +3079,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/489389_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 489389
+      },
+      "description": [
+        {
+          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Eschborn und Frankfurt am Main-Höchst\nGefahr durch 1 defektes Fahrzeug, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Frankfurt Richtung Wiesbaden zwischen Eschborn und Frankfurt am Main-Höchst",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-10T22:06:50.342Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/486176_LMS-HE/54"
       },
       "dataProducer": {
@@ -4154,6 +4208,139 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/489385_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 489385
+      },
+      "description": [
+        {
+          "value": "B27 Bad Hersfeld Richtung Fulda\nin Höhe Hünfeld-Süd\nWartungsarbeiten, Fahrbahnverengung, maximale Fahrbahnbreite von 3 m, bis 14.04.2022\n(Umleitungsempfehlung über die U7)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B27"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B27 Bad Hersfeld Richtung Fulda in Höhe Hünfeld-Süd",
+        "streets": [
+          "B27"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-10T22:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-14T21:59:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 11.04.2022 bis 14.04.2022"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-10T22:00:02.423Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/489388_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 489388
+      },
+      "description": [
+        {
+          "value": "B27 Fulda Richtung Bad Hersfeld\nin Höhe Hünfeld-Süd\nWartungsarbeiten, Fahrbahnverengung, maximale Fahrbahnbreite von 3 m, Verzögerungsstreifen gesperrt, Ausfahrt gesperrt, bis 14.04.2022\n(Umleitungsempfehlung über die U7)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B27"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B27 Fulda Richtung Bad Hersfeld in Höhe Hünfeld-Süd",
+        "streets": [
+          "B27"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-10T22:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-14T21:59:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 11.04.2022 bis 14.04.2022"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-10T22:00:02.423Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -8613,6 +8800,71 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/489384_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 489384
+      },
+      "description": [
+        {
+          "value": "Frankfurt, Vilbeler Landstraße\nzwischen Bergen-Enkheim und Am Rebenborn\nBaustelle, Fahrbahnverengung, bis 16.04.2022 23:59 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3001"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, Vilbeler Landstraße zwischen Bergen-Enkheim und Am Rebenborn",
+        "streets": [
+          "L3001"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-10T22:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-16T21:59:59Z"
+        },
+        "name": "Dauer",
+        "description": "von 11.04.2022 00:00 Uhr bis 16.04.2022 23:59 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-10T22:00:02.423Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_D__HE_FFM-IGLZ/210807565498_LMS-HE/54"
       },
       "dataProducer": {
@@ -8743,17 +8995,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/488848_LMS-HE/54"
+        "value": "LMS/r_LMS/488851_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 488848
+        "value": 488851
       },
       "description": [
         {
-          "value": "Hochtaunuskreis, L3004\nzwischen Oberursel (Taunus) und Schmitten\nin beiden Richtungen gesperrt für Zweiradfahrzeuge, bis 10.04.2022 Mitternacht"
+          "value": "L3004 Frankfurt - Schmitten\nzwischen Oberursel (Taunus) und Schmitten\nin beiden Richtungen Straße wieder frei"
         }
       ],
       "location": {
@@ -8772,18 +9024,7 @@
           "L3004"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-04-08T22:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-10T21:59:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 09.04.2022 Mitternacht bis 10.04.2022 Mitternacht"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -8796,26 +9037,230 @@
       "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-08T22:00:06.838Z"
+        "value": "2022-04-10T22:15:34.114Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/488862_LMS-HE/54"
+        "value": "LMS/r_LMS/488853_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 488862
+        "value": 488853
       },
       "description": [
         {
-          "value": "Hochtaunuskreis, Kanonenstraße\nzwischen Ausfahrt B455, Oberursel-Hohemark und Abzweig nach Arnoldshain\nin beiden Richtungen gesperrt für Zweiradfahrzeuge, bis 10.04.2022 Mitternacht"
+          "value": "L3004 Frankfurt - Schmitten\nzwischen Oberursel (Taunus) und Schmitten\nin beiden Richtungen Straße wieder frei"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3004"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Hochtaunuskreis, L3004 zwischen Oberursel (Taunus) und Schmitten",
+        "streets": [
+          "L3004"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-10T22:15:58.993Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/488852_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 488852
+      },
+      "description": [
+        {
+          "value": "L3004 Frankfurt - Schmitten\nzwischen Oberursel (Taunus) und Schmitten\nin beiden Richtungen Straße wieder frei"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3004"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Hochtaunuskreis, L3004 zwischen Oberursel (Taunus) und Schmitten",
+        "streets": [
+          "L3004"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-10T22:15:25.828Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/488849_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 488849
+      },
+      "description": [
+        {
+          "value": "L3004 Frankfurt - Schmitten\nzwischen Oberursel (Taunus) und Schmitten\nin beiden Richtungen Straße wieder frei"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3004"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Hochtaunuskreis, L3004 zwischen Oberursel (Taunus) und Schmitten",
+        "streets": [
+          "L3004"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-10T22:15:50.074Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/488848_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 488848
+      },
+      "description": [
+        {
+          "value": "L3004 Frankfurt - Schmitten\nzwischen Oberursel (Taunus) und Schmitten\nin beiden Richtungen Straße wieder frei"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3004"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Hochtaunuskreis, L3004 zwischen Oberursel (Taunus) und Schmitten",
+        "streets": [
+          "L3004"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-10T22:15:10.749Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/488863_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 488863
+      },
+      "description": [
+        {
+          "value": "L3004 Kanonenstraße, Frankfurt - Schmitten\nzwischen Ausfahrt B455, Oberursel-Hohemark und Abzweig nach Arnoldshain\nin beiden Richtungen Straße wieder frei"
         }
       ],
       "location": {
@@ -8834,18 +9279,7 @@
           "L3004"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-04-08T22:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-10T21:59:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 09.04.2022 Mitternacht bis 10.04.2022 Mitternacht"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -8858,11 +9292,266 @@
       "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-08T22:00:06.838Z"
+        "value": "2022-04-10T22:13:59.468Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/488866_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 488866
+      },
+      "description": [
+        {
+          "value": "L3004 Kanonenstraße, Frankfurt - Schmitten\nzwischen Ausfahrt B455, Oberursel-Hohemark und Abzweig nach Arnoldshain\nin beiden Richtungen Straße wieder frei"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3004"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Hochtaunuskreis, Kanonenstraße zwischen Ausfahrt B455, Oberursel-Hohemark und Abzweig nach Arnoldshain",
+        "streets": [
+          "L3004"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-10T22:15:02.311Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/488868_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 488868
+      },
+      "description": [
+        {
+          "value": "L3004 Kanonenstraße, Frankfurt - Schmitten\nzwischen Ausfahrt B455, Oberursel-Hohemark und Abzweig nach Arnoldshain\nin beiden Richtungen Straße wieder frei"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3004"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Hochtaunuskreis, Kanonenstraße zwischen Ausfahrt B455, Oberursel-Hohemark und Abzweig nach Arnoldshain",
+        "streets": [
+          "L3004"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-10T22:14:16.046Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/488862_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 488862
+      },
+      "description": [
+        {
+          "value": "L3004 Kanonenstraße, Frankfurt - Schmitten\nzwischen Ausfahrt B455, Oberursel-Hohemark und Abzweig nach Arnoldshain\nin beiden Richtungen Straße wieder frei"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3004"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Hochtaunuskreis, Kanonenstraße zwischen Ausfahrt B455, Oberursel-Hohemark und Abzweig nach Arnoldshain",
+        "streets": [
+          "L3004"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-10T22:13:50.431Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/488865_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 488865
+      },
+      "description": [
+        {
+          "value": "L3004 Kanonenstraße, Frankfurt - Schmitten\nzwischen Ausfahrt B455, Oberursel-Hohemark und Abzweig nach Arnoldshain\nin beiden Richtungen Straße wieder frei"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3004"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Hochtaunuskreis, Kanonenstraße zwischen Ausfahrt B455, Oberursel-Hohemark und Abzweig nach Arnoldshain",
+        "streets": [
+          "L3004"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-10T22:14:27.458Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/488864_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 488864
+      },
+      "description": [
+        {
+          "value": "L3004 Kanonenstraße, Frankfurt - Schmitten\nzwischen Ausfahrt B455, Oberursel-Hohemark und Abzweig nach Arnoldshain\nin beiden Richtungen Straße wieder frei"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3004"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Hochtaunuskreis, Kanonenstraße zwischen Ausfahrt B455, Oberursel-Hohemark und Abzweig nach Arnoldshain",
+        "streets": [
+          "L3004"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-10T22:14:47.709Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -9124,17 +9813,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/488855_LMS-HE/54"
+        "value": "LMS/r_LMS/488857_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 488855
+        "value": 488857
       },
       "description": [
         {
-          "value": "Hochtaunuskreis, Hochtaunusstraße\nzwischen Abzweig nach Glashütten und Abzweig nach Oberreifenberg\nin beiden Richtungen gesperrt für Zweiradfahrzeuge, bis 10.04.2022 Mitternacht"
+          "value": "L3024 Hochtaunusstraße, Römerturm - Sandplacken\nzwischen Abzweig nach Glashütten und Abzweig nach Oberreifenberg\nin beiden Richtungen Straße wieder frei"
         }
       ],
       "location": {
@@ -9153,18 +9842,7 @@
           "L3024"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-04-08T22:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-10T21:59:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 09.04.2022 Mitternacht bis 10.04.2022 Mitternacht"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -9177,11 +9855,164 @@
       "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-08T22:00:06.838Z"
+        "value": "2022-04-10T22:13:27.233Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/488859_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 488859
+      },
+      "description": [
+        {
+          "value": "L3024 Hochtaunusstraße, Römerturm - Sandplacken\nzwischen Abzweig nach Glashütten und Abzweig nach Oberreifenberg\nin beiden Richtungen Straße wieder frei"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3024"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Hochtaunuskreis, Hochtaunusstraße zwischen Abzweig nach Glashütten und Abzweig nach Oberreifenberg",
+        "streets": [
+          "L3024"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-10T22:13:38.958Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/488858_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 488858
+      },
+      "description": [
+        {
+          "value": "L3024 Hochtaunusstraße, Römerturm - Sandplacken\nzwischen Abzweig nach Glashütten und Abzweig nach Oberreifenberg\nin beiden Richtungen Straße wieder frei"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3024"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Hochtaunuskreis, Hochtaunusstraße zwischen Abzweig nach Glashütten und Abzweig nach Oberreifenberg",
+        "streets": [
+          "L3024"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-10T22:12:53.151Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/488860_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 488860
+      },
+      "description": [
+        {
+          "value": "L3024 Hochtaunusstraße, Römerturm - Sandplacken\nzwischen Abzweig nach Glashütten und Abzweig nach Oberreifenberg\nin beiden Richtungen Straße wieder frei"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3024"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Hochtaunuskreis, Hochtaunusstraße zwischen Abzweig nach Glashütten und Abzweig nach Oberreifenberg",
+        "streets": [
+          "L3024"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-10T22:13:13.839Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -9840,6 +10671,136 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-01T04:00:02.244Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/489387_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 489387
+      },
+      "description": [
+        {
+          "value": "Kreis Fulda, Fuldaer Straße\nzwischen B27, Hünfeld-Süd und Hünfeld\nWartungsarbeiten, Fahrbahnverengung, maximale Fahrbahnbreite von 3 m, bis 14.04.2022\n(Auffahrt auf die B27 in Fahrtrichtung Bad Hersfeld gesperrt, Umleitungsempfehlung über die U6)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3176"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Kreis Fulda, Fuldaer Straße zwischen B27, Hünfeld-Süd und Hünfeld",
+        "streets": [
+          "L3176"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-10T22:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-14T21:59:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 11.04.2022 bis 14.04.2022"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-10T22:00:02.423Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/489386_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 489386
+      },
+      "description": [
+        {
+          "value": "Kreis Fulda, Fuldaer Straße\nzwischen Hünfeld und B27, Hünfeld-Süd\nWartungsarbeiten, Fahrbahnverengung, maximale Fahrbahnbreite von 3 m, bis 14.04.2022\n(Auffahrt zur B27 in Fahrtrichtung Bad Hersfeld gesperrt, Umleitungsempfehlung über die U6)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3176"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Kreis Fulda, Fuldaer Straße zwischen Hünfeld und B27, Hünfeld-Süd",
+        "streets": [
+          "L3176"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-10T22:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-14T21:59:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 11.04.2022 bis 14.04.2022"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-10T22:00:02.423Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
