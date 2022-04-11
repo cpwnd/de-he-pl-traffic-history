@@ -136,6 +136,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/489488_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 489488
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Frankfurt am Main-Süd und Frankfurter Kreuz\nGefahr durch defektes Fahrzeug, Gefahr durch Personen auf der Fahrbahn, fahren Sie bitte besonders vorsichtig"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Köln zwischen Frankfurt am Main-Süd und Frankfurter Kreuz",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-11T07:42:34.012Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/462180_LMS-HE/54"
       },
       "dataProducer": {
@@ -3831,6 +3885,71 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_D__HE_FFM-IGLZ/210825634420_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 489486
+      },
+      "description": [
+        {
+          "value": "A648 Wiesbadener Straße, Eschborn Richtung Frankfurt\nzwischen Westkreuz Frankfurt und Katharinenkreisel\nDemonstration, gesperrt, Straße wird mehrfach gesperrt, bis 11.04.2022 11:00 Uhr\nFrankfurt a.M., BAB A648, aufgrund von Versammlungen kommt es auf der A648 im Bereich des Westkreuzes und Katharinenkreisel zu Verkehrsbehinderungen bzw. Straßensperrungen. Es wird empfohlen diesen Bereich weiträumig zu umfahren. Stand 09:30 Uhr.\n"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A648"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A648 Wiesbadener Straße, Eschborn Richtung Frankfurt zwischen Westkreuz Frankfurt und Katharinenkreisel",
+        "streets": [
+          "A648"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-11T07:33:40Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-11T09:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "am 11.04.2022 von 09:33 Uhr bis 11:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-11T07:40:55.926Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -11843,51 +11962,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/489440_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 489440
-      },
-      "description": [
-        {
-          "value": "Kassel\nVermisstenfahndung"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": null
-          }
-        ],
-        "name": "Ort",
-        "description": "Kassel",
-        "streets": null
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Information"
-        }
-      ],
-      "masterEventCategory": "Information",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-11T05:10:11.93Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
