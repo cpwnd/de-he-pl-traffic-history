@@ -136,60 +136,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/489488_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 489488
-      },
-      "description": [
-        {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Frankfurt am Main-Süd und Frankfurter Kreuz\nGefahr durch defektes Fahrzeug, Gefahr durch Personen auf der Fahrbahn, fahren Sie bitte besonders vorsichtig"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Frankfurt Richtung Köln zwischen Frankfurt am Main-Süd und Frankfurter Kreuz",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-11T07:42:34.012Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/489496_LMS-HE/54"
       },
       "dataProducer": {
@@ -200,7 +146,7 @@
       },
       "description": [
         {
-          "value": "A3 Würzburg Richtung Frankfurt\nzwischen Rastplatz Hainbach und Auffahrt Offenbach\ndefekter PKW"
+          "value": "A3 Würzburg Richtung Frankfurt\nzwischen Rastplatz Hainbach und Auffahrt Offenbach\nStraße wieder frei"
         }
       ],
       "location": {
@@ -232,11 +178,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-11T08:01:19.443Z"
+        "value": "2022-04-11T10:10:04.964Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -497,6 +443,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/489521_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 489521
+      },
+      "description": [
+        {
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Limburg-Nord und Limburg-Süd\nGefahr durch Gegenstände auf der Fahrbahn, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Frankfurt zwischen Limburg-Nord und Limburg-Süd",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-11T09:59:48.174Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -3357,6 +3357,68 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_D__HE_FFM-IGLZ/210825632986_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 489519
+      },
+      "description": [
+        {
+          "value": "A66 Wiesbaden Richtung Frankfurt\nzwischen Nordwestkreuz Frankfurt und Frankfurt am Main-Miquelallee\nVerkehrsbehinderung, Fahrbahn auf einen Fahrstreifen verengt, bis 11.04.2022 14:30 Uhr\nPraunheim, Rödelheim, A66 aufgrund Brückenarbeiten auf einen Fahrstreifen verengt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Wiesbaden Richtung Frankfurt zwischen Nordwestkreuz Frankfurt und Frankfurt am Main-Miquelallee",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-11T07:09:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-11T12:30:00Z"
+        },
+        "name": "Dauer",
+        "description": "am 11.04.2022 von 09:09 Uhr bis 14:30 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-11T09:58:27.828Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/489495_LMS-HE/54"
       },
       "dataProducer": {
@@ -4002,63 +4064,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/489466_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 489466
-      },
-      "description": [
-        {
-          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Offenbach-Taunusring und Offenbacher Kreuz\nUnfallstelle geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A661"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A661 Bad Homburg Richtung Darmstadt zwischen Offenbach-Taunusring und Offenbacher Kreuz",
-        "streets": [
-          "A661"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hinweis"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Hinweis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-11T09:42:49.939Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/430914_LMS-HE/54"
       },
       "dataProducer": {
@@ -4117,57 +4122,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/489516_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 489516
-      },
-      "description": [
-        {
-          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Preungesheimer Dreieck und Frankfurt-Friedberger Landstraße\nGefahr durch Gegenstände auf der Fahrbahn"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A661"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A661 Bad Homburg Richtung Darmstadt zwischen Preungesheimer Dreieck und Frankfurt-Friedberger Landstraße",
-        "streets": [
-          "A661"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-11T09:17:21.8Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
