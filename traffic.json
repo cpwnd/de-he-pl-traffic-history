@@ -641,7 +641,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Mönchhof-Dreieck und Rastplatz Oberbach\nGefahr durch brennendes Fahrzeug auf dem Standstreifen, bitte vorsichtig fahren"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Mönchhof-Dreieck und Rastplatz Oberbach\ndefektes Fahrzeug, bitte vorsichtig fahren"
         }
       ],
       "location": {
@@ -663,24 +663,24 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Störung"
+          "value": "Hinweis"
         },
         {
-          "value": "Hinweis"
+          "value": "Hindernis"
         }
       ],
-      "masterEventCategory": "Störung",
+      "masterEventCategory": "Hinweis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-11T07:56:17.311Z"
+        "value": "2022-04-11T09:01:25.741Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4056,122 +4056,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_D__HE_FFM-IGLZ/210825634420_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 489486
-      },
-      "description": [
-        {
-          "value": "A648 Wiesbadener Straße, Eschborn Richtung Frankfurt\nzwischen Westkreuz Frankfurt und Katharinenkreisel\nDemonstration, gesperrt, Straße wird mehrfach gesperrt, bis 11.04.2022 11:00 Uhr\nFrankfurt a.M., BAB A648, aufgrund von Versammlungen kommt es auf der A648 im Bereich des Westkreuzes und Katharinenkreisel zu Verkehrsbehinderungen bzw. Straßensperrungen. Es wird empfohlen diesen Bereich weiträumig zu umfahren. Stand 09:30 Uhr.\n"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A648"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A648 Wiesbadener Straße, Eschborn Richtung Frankfurt zwischen Westkreuz Frankfurt und Katharinenkreisel",
-        "streets": [
-          "A648"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-04-11T07:33:40Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-11T09:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "am 11.04.2022 von 09:33 Uhr bis 11:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-11T07:40:55.926Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/489499_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 489499
-      },
-      "description": [
-        {
-          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Frankfurt am M.-Nieder-Eschbach und Überleitung Frankfurt am Main-Heddernheim\nalle Fahrbahnen geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A661"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A661 Bad Homburg Richtung Darmstadt zwischen Frankfurt am M.-Nieder-Eschbach und Überleitung Frankfurt am Main-Heddernheim",
-        "streets": [
-          "A661"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-11T08:49:58.364Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/489466_LMS-HE/54"
       },
       "dataProducer": {
@@ -4287,6 +4171,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/489516_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 489516
+      },
+      "description": [
+        {
+          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Preungesheimer Dreieck und Frankfurt-Friedberger Landstraße\nGefahr durch Gegenstände auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A661"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A661 Bad Homburg Richtung Darmstadt zwischen Preungesheimer Dreieck und Frankfurt-Friedberger Landstraße",
+        "streets": [
+          "A661"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-11T09:17:21.8Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
