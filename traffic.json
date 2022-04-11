@@ -580,60 +580,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/489494_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 489494
-      },
-      "description": [
-        {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Mönchhof-Dreieck und Rastplatz Oberbach\nalle Fahrbahnen geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Frankfurt Richtung Köln zwischen Mönchhof-Dreieck und Rastplatz Oberbach",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hinweis"
-        },
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hinweis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-11T10:25:45.83Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/481932_LMS-HE/54"
       },
       "dataProducer": {
@@ -3363,11 +3309,11 @@
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 489519
+        "value": 489532
       },
       "description": [
         {
-          "value": "A66 Wiesbaden Richtung Frankfurt\nzwischen Nordwestkreuz Frankfurt und Frankfurt am Main-Miquelallee\nVerkehrsbehinderung, Fahrbahn auf einen Fahrstreifen verengt, bis 11.04.2022 14:30 Uhr\nPraunheim, Rödelheim, A66 aufgrund Brückenarbeiten auf einen Fahrstreifen verengt"
+          "value": "A66 Wiesbaden Richtung Frankfurt\nzwischen Nordwestkreuz Frankfurt und Frankfurt am Main-Miquelallee\nVerkehrsbehinderung, Fahrbahn auf einen Fahrstreifen verengt, bis 11.04.2022 14:30 Uhr\nPraunheim, Rödelheim, A66 aufgrund Brückenarbeiten auf einen Fahrstreifen verengt, bis 11.04.2022 14:30Uhr."
         }
       ],
       "location": {
@@ -3389,7 +3335,7 @@
       "duration": {
         "startTime": {
           "name": "Startzeit",
-          "value": "2022-04-11T07:09:00Z"
+          "value": "2022-04-11T07:09:46Z"
         },
         "endTime": {
           "name": "Endzeit",
@@ -3410,7 +3356,7 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-11T09:58:27.828Z"
+        "value": "2022-04-11T10:43:54.087Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3538,6 +3484,64 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-01T04:00:02.244Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/489529_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 489529
+      },
+      "description": [
+        {
+          "value": "A66, B455 Frankfurt Richtung Mainz-Kastel\nzwischen Wiesbaden-Nordenstadt und Wiesbaden-Erbenheim\nGefahr durch Ölspur, Unfallaufnahme, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66, B455"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66, B455 Frankfurt Richtung Mainz-Kastel zwischen Wiesbaden-Nordenstadt und Wiesbaden-Erbenheim",
+        "streets": [
+          "A66",
+          "B455"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-11T10:42:53.912Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
