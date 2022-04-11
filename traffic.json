@@ -136,6 +136,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/489631_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 489631
+      },
+      "description": [
+        {
+          "value": "A3 Köln Richtung Würzburg\nzwischen Frankfurt am Main-Flughafen und Frankfurt am Main-Süd\nGefahr durch Gegenstände auf der Fahrbahn\n(vermutlich eine Tasche)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Würzburg zwischen Frankfurt am Main-Flughafen und Frankfurt am Main-Süd",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-11T17:36:02.337Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/462180_LMS-HE/54"
       },
       "dataProducer": {
@@ -471,7 +522,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Kelsterbach und Raunheim\nUnfall auf dem Standstreifen"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Kelsterbach und Raunheim\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -503,11 +554,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-11T16:34:01.186Z"
+        "value": "2022-04-11T17:36:36.829Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1149,7 +1200,7 @@
       },
       "description": [
         {
-          "value": "A5 Kassel Richtung Frankfurt\nzwischen Alsfeld-West und Homberg (Ohm)\nUnfallaufnahme, Richtungsfahrbahn gesperrt, Stau\n(Umleitungsempfehlung U18 Rtg. Süden)"
+          "value": "A5 Kassel - Frankfurt\nzwischen Alsfeld-West und Homberg (Ohm)\nin beiden Richtungen Unfallaufnahme, Bergungsarbeiten, Richtungsfahrbahn gesperrt, Stau\n(Umleitungsempfehlung U27 in FR Hattenbach)"
         }
       ],
       "location": {
@@ -1175,19 +1226,22 @@
       },
       "eventCategory": [
         {
+          "value": "Störung"
+        },
+        {
           "value": "Sperrung"
         },
         {
           "value": "Stau"
         },
         {
-          "value": "Störung"
+          "value": "Arbeitsstelle"
         }
       ],
-      "masterEventCategory": "Sperrung",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-11T17:16:13.257Z"
+        "value": "2022-04-11T17:25:48.785Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1902,60 +1956,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/489624_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 489624
-      },
-      "description": [
-        {
-          "value": "A7 Fulda Richtung Kassel\nzwischen Hünfeld/Schlitz und Niederaula\nStraße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A7"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A7 Fulda Richtung Kassel zwischen Hünfeld/Schlitz und Niederaula",
-        "streets": [
-          "A7"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-11T17:09:25.04Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -6834,111 +6834,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/489616_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 489616
-      },
-      "description": [
-        {
-          "value": "B453 zwischen Runzhausen und Abzweig nach Herzhausen\nin beiden Richtungen 1 Tier auf der Fahrbahn\n(eine Kuh)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B453"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B453 Richtung Dautphetal zwischen Runzhausen und Abzweig nach Herzhausen",
-        "streets": [
-          "B453"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-11T16:38:39.986Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/489579_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 489579
-      },
-      "description": [
-        {
-          "value": "B455 Boelckestraße, Königstein Richtung Mainz-Kastel\nin Höhe Mainz-Kastel\nAnschlussstelle wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B455"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B455 Boelckestraße, Königstein Richtung Mainz-Kastel in Höhe Mainz-Kastel",
-        "streets": [
-          "B455"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Stau"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-11T17:07:43.669Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
