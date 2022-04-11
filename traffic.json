@@ -3838,6 +3838,71 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/489661_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 489661
+      },
+      "description": [
+        {
+          "value": "A66 Frankfurt Richtung Fulda\nzwischen Neuhof-Süd und Neuhof-Nord\nWartungsarbeiten, Tunnel gesperrt, bis 13.04.2022, Mo und Di zwischen 22:00 Uhr und 05:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Frankfurt Richtung Fulda zwischen Neuhof-Süd und Neuhof-Nord",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-11T20:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-13T03:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 11.04.2022 bis 13.04.2022, Mo und Di zwischen 22:00 Uhr und 05:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Arbeitsstelle"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-11T20:00:02.921Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/483465_LMS-HE/54"
       },
       "dataProducer": {
@@ -12887,51 +12952,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/489650_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 489650
-      },
-      "description": [
-        {
-          "value": "Butzbach\nVermisstenfahndung\n(Seit Montag, den 11.04.2022, 16.30 Uhr wird der 12 jährige Louis Bliemel aus Butzbach vermisst. Der Louis ist 150 cm groß, hat eine schmale Statur und kurze dunkelblonde Haare (an den Seiten kurz, oben länger). Bekleidet ist er mit einem dunkelblauen Kapuzenpullover mit der Aufschrift \"Norwegen\", einer dunklen Hose und Arbeitsschuhen. Bei Antreffen des Louis Bliemel informieren Sie bitte umgehend die Polizeistation Butzbach unter Tel. 06033-70430 oder jede andere Polizeidienststelle oder wählen den Notruf 110)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": null
-          }
-        ],
-        "name": "Ort",
-        "description": "Butzbach",
-        "streets": null
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Information"
-        }
-      ],
-      "masterEventCategory": "Information",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-11T18:51:27.692Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
