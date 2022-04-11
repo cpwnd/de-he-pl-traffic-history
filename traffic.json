@@ -1323,114 +1323,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/489476_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 489476
-      },
-      "description": [
-        {
-          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Zeppelinheim und Einfahrt Frankfurter Kreuz\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Darmstadt Richtung Frankfurt zwischen Zeppelinheim und Einfahrt Frankfurter Kreuz",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-11T08:34:54.901Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/489490_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 489490
-      },
-      "description": [
-        {
-          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Frankfurter Kreuz und Frankfurt-Niederrad\nGefahr durch ungesicherte Unfallstelle, bitte vorsichtig fahren"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Darmstadt Richtung Frankfurt zwischen Frankfurter Kreuz und Frankfurt-Niederrad",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-11T07:45:30.282Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/335177_LMS-HE/54"
       },
       "dataProducer": {
@@ -4239,7 +4131,7 @@
       },
       "description": [
         {
-          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Frankfurt am M.-Nieder-Eschbach und Überleitung Frankfurt am Main-Heddernheim\nGefahr durch defektes Fahrzeug"
+          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Frankfurt am M.-Nieder-Eschbach und Überleitung Frankfurt am Main-Heddernheim\nalle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -4261,7 +4153,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -4271,11 +4163,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-11T08:08:03.45Z"
+        "value": "2022-04-11T08:49:58.364Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -5424,6 +5316,72 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_D__HE_FFM-IGLZ/210825637334_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 489510
+      },
+      "description": [
+        {
+          "value": "B40, B8 Frankfurt, Miquelallee\nzwischen Sebastian-Rinz-Straße und Eschersheimer Landstraße\nDemonstration, gesperrt, Straße wird mehrfach gesperrt, bis 11.04.2022 13:00 Uhr\nFrankfurt a.M., BAB A66, aufgrund von Versammlungen kommt es auf der A66 im Bereich Miquellallee zu Verkehrsbehinderungen bzw. Straßensperrungen. Es wird empfohlen diesen Bereich weiträumig zu umfahren. Stand 10:20 Uhr.\n"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B40, B8"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B40, B8 Frankfurt, Miquelallee zwischen Sebastian-Rinz-Straße und Eschersheimer Landstraße",
+        "streets": [
+          "B40",
+          "B8"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-11T07:33:40Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-11T11:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "am 11.04.2022 von 09:33 Uhr bis 13:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-11T08:38:32.291Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -11386,57 +11344,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/489503_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 489503
-      },
-      "description": [
-        {
-          "value": "L3216 Wächtersbach - Bad Soden - Salmünster\nzwischen Aufenau und A66, Bad Soden-Salmünster\nin beiden Richtungen Gefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3216"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Main-Kinzig-Kreis, L3216 zwischen Aufenau und A66, Bad Soden-Salmünster",
-        "streets": [
-          "L3216"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-11T08:31:11.168Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
