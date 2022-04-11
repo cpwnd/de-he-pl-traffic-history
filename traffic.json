@@ -1617,6 +1617,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/489546_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 489546
+      },
+      "description": [
+        {
+          "value": "A7 Kassel Richtung Fulda\nzwischen Malsfeld und Homberg (Efze)\nGefahr besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Kassel Richtung Fulda zwischen Malsfeld und Homberg (Efze)",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-11T12:26:47.068Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/485160_LMS-HE/54"
       },
       "dataProducer": {
@@ -3089,7 +3140,7 @@
       },
       "description": [
         {
-          "value": "A60 Rüsselsheim Richtung Mainz\nzwischen Mainspitz-Dreieck und Ginsheim-Gustavsburg\nGefahr durch ungesicherte Unfallstelle auf dem linken und dem mittleren Fahrstreifen"
+          "value": "A60 Rüsselsheim Richtung Mainz\nzwischen Mainspitz-Dreieck und Ginsheim-Gustavsburg\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -3111,7 +3162,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -3121,11 +3172,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-11T11:21:18.837Z"
+        "value": "2022-04-11T12:26:14.741Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3249,130 +3300,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_D__HE_FFM-IGLZ/210825632986_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 489532
-      },
-      "description": [
-        {
-          "value": "A66 Wiesbaden Richtung Frankfurt\nzwischen Nordwestkreuz Frankfurt und Frankfurt am Main-Miquelallee\nVerkehrsbehinderung, Fahrbahn auf einen Fahrstreifen verengt, bis 11.04.2022 14:30 Uhr\nPraunheim, Rödelheim, A66 aufgrund Brückenarbeiten auf einen Fahrstreifen verengt, bis 11.04.2022 14:30Uhr."
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A66"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A66 Wiesbaden Richtung Frankfurt zwischen Nordwestkreuz Frankfurt und Frankfurt am Main-Miquelallee",
-        "streets": [
-          "A66"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-04-11T07:09:46Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-11T12:30:00Z"
-        },
-        "name": "Dauer",
-        "description": "am 11.04.2022 von 09:09 Uhr bis 14:30 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-11T10:43:54.087Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/489495_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 489495
-      },
-      "description": [
-        {
-          "value": "A66 Wiesbaden Richtung Frankfurt\nzwischen Frankfurt am Main-L.-Landmann-Str. und Frankfurt am Main-Miquelallee\nBrückenarbeiten, Fahrbahn auf einen Fahrstreifen verengt, bis 11.04.2022 14:30 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A66"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A66 Wiesbaden Richtung Frankfurt zwischen Frankfurt am Main-L.-Landmann-Str. und Frankfurt am Main-Miquelallee",
-        "streets": [
-          "A66"
-        ]
-      },
-      "duration": {
-        "startTime": null,
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-11T12:30:00Z"
-        },
-        "name": "Dauer",
-        "description": "bis 11.04.2022 14:30 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Arbeitsstelle"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-11T08:06:16.612Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/486175_LMS-HE/54"
       },
       "dataProducer": {
@@ -3430,64 +3357,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-01T04:00:02.244Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/489529_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 489529
-      },
-      "description": [
-        {
-          "value": "A66, B455 Frankfurt Richtung Mainz-Kastel\nzwischen Wiesbaden-Nordenstadt und Wiesbaden-Erbenheim\nGefahr durch Ölspur, Unfallaufnahme, bitte vorsichtig fahren"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A66, B455"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A66, B455 Frankfurt Richtung Mainz-Kastel zwischen Wiesbaden-Nordenstadt und Wiesbaden-Erbenheim",
-        "streets": [
-          "A66",
-          "B455"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-11T10:42:53.912Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3618,57 +3487,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-23T10:56:32.54Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/489542_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 489542
-      },
-      "description": [
-        {
-          "value": "A67 Mannheim Richtung Darmstadt\nzwischen Pfungstadt und Dreieck Darmstadt-Griesheim\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A67"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A67 Mannheim Richtung Darmstadt zwischen Pfungstadt und Dreieck Darmstadt-Griesheim",
-        "streets": [
-          "A67"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-11T11:42:38.865Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -5867,57 +5685,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/489541_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 489541
-      },
-      "description": [
-        {
-          "value": "B45 Hanau Richtung Dieburg\nzwischen B459, Rödermark-Ober-Roden und Eppertshausen\nGegenstände auf der Fahrbahn"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B45"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B45 Hanau Richtung Dieburg zwischen B459, Rödermark-Ober-Roden und Eppertshausen",
-        "streets": [
-          "B45"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-11T11:23:37.56Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/483410_LMS-HE/54"
       },
       "dataProducer": {
@@ -6961,60 +6728,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-04T04:00:03.29Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/489477_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 489477
-      },
-      "description": [
-        {
-          "value": "B276 Bad-Orb/Wächtersbach - Mücke\nzwischen L3139 und Altenhainer Straße\nin beiden Richtungen Unfallaufnahme, Richtungsfahrbahn gesperrt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B276"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B276 Bad-Orb/Wächtersbach Richtung Mücke zwischen L3139 und Altenhainer Straße",
-        "streets": [
-          "B276"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Sperrung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-11T07:07:41.476Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -10557,60 +10270,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/489536_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 489536
-      },
-      "description": [
-        {
-          "value": "L3131 zwischen A485, Gießen-Schiffenberger Tal und Abzweig nach Watzenborn\nin beiden Richtungen Störung beseitigt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3131"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Kreis Gießen, L3131 zwischen A485, Gießen-Schiffenberger Tal und Abzweig nach Watzenborn",
-        "streets": [
-          "L3131"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-11T11:32:21.93Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
