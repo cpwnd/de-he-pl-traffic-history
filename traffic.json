@@ -396,6 +396,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/489639_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 489639
+      },
+      "description": [
+        {
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbadener Kreuz und Raunheim\nBaustelle beseitigt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Frankfurt zwischen Wiesbadener Kreuz und Raunheim",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-12T04:05:39.728Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/478197_LMS-HE/54"
       },
       "dataProducer": {
@@ -9351,7 +9405,7 @@
       },
       "description": [
         {
-          "value": "L562 zwischen Sandershausen und Landwehrhagen\nin beiden Richtungen Fahrbahnerneuerung, Richtungsfahrbahn gesperrt, der Umleitungsbeschilderung folgen, bis 15.04.2022 20:00 Uhr, empfohlene Umleitungen: Richtung Kassel, Richtung Hann.-Münden\n(Bitte folgen sie unbedingt der ausgeschilderten Umleitung)"
+          "value": "L562 zwischen Sandershausen und Landwehrhagen\nin beiden Richtungen Fahrbahnerneuerung, Richtungsfahrbahn gesperrt, der Umleitungsbeschilderung folgen, bis 17.06.2022 20:00 Uhr, empfohlene Umleitungen: Richtung Kassel, Richtung Hann.-Münden\n(Bitte folgen sie unbedingt der ausgeschilderten Umleitung)"
         }
       ],
       "location": {
@@ -9374,10 +9428,10 @@
         "startTime": null,
         "endTime": {
           "name": "Endzeit",
-          "value": "2022-04-15T18:00:00Z"
+          "value": "2022-06-17T18:00:00Z"
         },
         "name": "Dauer",
-        "description": "bis 15.04.2022 20:00 Uhr"
+        "description": "bis 17.06.2022 20:00 Uhr"
       },
       "urgency": {
         "name": "Dringlichkeit",
@@ -9397,7 +9451,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-17T13:04:03.676Z"
+        "value": "2022-04-12T04:06:55.547Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -10400,7 +10454,7 @@
       },
       "description": [
         {
-          "value": "L3112 Gernsheim - Alsbach-Hähnlein\nzwischen B44 und A67, Gernsheim\nin beiden Richtungen Baustelle, Richtungsfahrbahn gesperrt, eine örtliche Umleitung ist eingerichtet, bis 30.04.2022 Mitternacht"
+          "value": "L3112 Gernsheim - Alsbach-Hähnlein\nzwischen B44 und A67, Gernsheim\nin beiden Richtungen Baustelle, Richtungsfahrbahn gesperrt, eine örtliche Umleitung ist eingerichtet, bis 17.06.2022 Mitternacht"
         }
       ],
       "location": {
@@ -10420,16 +10474,13 @@
         ]
       },
       "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-01-17T06:00:00Z"
-        },
+        "startTime": null,
         "endTime": {
           "name": "Endzeit",
-          "value": "2022-04-30T21:59:00Z"
+          "value": "2022-06-17T21:59:00Z"
         },
         "name": "Dauer",
-        "description": "von 17.01.2022 07:00 Uhr bis 30.04.2022 Mitternacht"
+        "description": "bis 17.06.2022 Mitternacht"
       },
       "urgency": {
         "name": "Dringlichkeit",
@@ -10449,11 +10500,11 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-17T06:00:01.396Z"
+        "value": "2022-04-12T04:13:34.779Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
