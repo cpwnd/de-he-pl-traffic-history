@@ -652,7 +652,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Limburg-Nord und Diez\ndefekter LKW auf dem Standstreifen, Standstreifen blockiert"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Limburg-Nord und Diez\nalle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -687,11 +687,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-12T10:15:36.574Z"
+        "value": "2022-04-12T10:40:31.081Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3034,57 +3034,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/489803_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 489803
-      },
-      "description": [
-        {
-          "value": "A49 Südtangente, Kassel Richtung Gießen\nzwischen Kassel-Waldau und Kassel-Auestadion\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A49"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A49 Südtangente, Kassel Richtung Gießen zwischen Kassel-Waldau und Kassel-Auestadion",
-        "streets": [
-          "A49"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-12T10:26:19.137Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -10225,6 +10174,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/489809_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 489809
+      },
+      "description": [
+        {
+          "value": "L3030 Hünfelden-Dauborn Richtung Weilrod-Rod an der Weil\nzwischen Abzweig nach Rod an der Weil und Rod an der Weil\n1 umgestürzter Baum, Fahrbahnverengung"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3030"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Hochtaunuskreis, L3030 zwischen Abzweig nach Rod an der Weil und Rod an der Weil",
+        "streets": [
+          "L3030"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-12T10:39:24.115Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
