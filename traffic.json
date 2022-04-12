@@ -4218,7 +4218,7 @@
       },
       "description": [
         {
-          "value": "A661 Darmstadt - Bad Homburg\nzwischen Frankfurt am M.-Nieder-Eschbach und Bad Homburger Kreuz\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
+          "value": "A661 Darmstadt - Bad Homburg\nzwischen Frankfurt am M.-Nieder-Eschbach und Bad Homburger Kreuz\nin beiden Richtungen Gefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -4240,7 +4240,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -4250,11 +4250,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-12T14:14:48.015Z"
+        "value": "2022-04-12T14:30:43.933Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4916,57 +4916,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/489867_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 489867
-      },
-      "description": [
-        {
-          "value": "B40 Mainzer Landstraße Richtung Frankfurt Flughafen\nzwischen Frankfurt und Auffahrt Schwanheimer Knoten\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B40"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B40 Mainzer Landstraße Richtung Frankfurt Flughafen zwischen Frankfurt und Auffahrt Schwanheimer Knoten",
-        "streets": [
-          "B40"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-12T14:08:14.221Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -11331,7 +11280,7 @@
       },
       "description": [
         {
-          "value": "L3325 zwischen Bobenhausen und Höckersdorf\nbeide Fahrtrichtungen gesperrt, Fahrbahnerneuerung, eine örtliche Umleitung ist eingerichtet, bis 15.04.2022\n(ab Bobenhausen über die L3166 - Wohnfeld - Sellnrod - auf die K139 nach Groß Eichen und umgekehrt)"
+          "value": "L3325 zwischen Bobenhausen und Höckersdorf\nbeide Fahrtrichtungen gesperrt, Fahrbahnerneuerung, eine örtliche Umleitung ist eingerichtet, bis 29.04.2022\n(ab Bobenhausen über die L3166 - Wohnfeld - Sellnrod - auf die K139 nach Groß Eichen und umgekehrt)"
         }
       ],
       "location": {
@@ -11351,16 +11300,13 @@
         ]
       },
       "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-01T23:00:00Z"
-        },
+        "startTime": null,
         "endTime": {
           "name": "Endzeit",
-          "value": "2022-04-15T21:59:00Z"
+          "value": "2022-04-29T21:59:00Z"
         },
         "name": "Dauer",
-        "description": "von 02.03.2022 bis 15.04.2022"
+        "description": "bis 29.04.2022"
       },
       "urgency": {
         "name": "Dringlichkeit",
@@ -11380,7 +11326,7 @@
       "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-01T23:49:21.76Z"
+        "value": "2022-04-12T14:20:30.082Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
