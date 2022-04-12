@@ -3681,7 +3681,7 @@
       },
       "description": [
         {
-          "value": "A67 Mönchhof-Dreieck Richtung Darmstadt\nzwischen Groß-Gerau und Büttelborn\nGefahr durch Gegenstände auf der Fahrbahn (ein Reifen)"
+          "value": "A67 Mönchhof-Dreieck Richtung Darmstadt\nzwischen Groß-Gerau und Büttelborn\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -3703,7 +3703,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -3713,11 +3713,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-12T06:53:29.66Z"
+        "value": "2022-04-12T07:18:06.841Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -9121,6 +9121,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/489750_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 489750
+      },
+      "description": [
+        {
+          "value": "K821 Frankfurt, Ludwig-Landmann-Straße\nin Höhe A66, Frankfurt am Main-L.-Landmann-Str.\nin beiden Richtungen Brückenabriss, linker Fahrstreifen gesperrt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K821"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, Ludwig-Landmann-Straße in Höhe A66, Frankfurt am Main-L.-Landmann-Str.",
+        "streets": [
+          "K821"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-12T07:17:45.541Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
