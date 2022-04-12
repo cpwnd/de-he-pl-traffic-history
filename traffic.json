@@ -1396,6 +1396,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/489960_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 489960
+      },
+      "description": [
+        {
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Alsfeld-Ost und Hattenbacher Dreieck\ndefekter LKW auf dem rechten Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Frankfurt Richtung Kassel zwischen Alsfeld-Ost und Hattenbacher Dreieck",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-12T19:24:07.869Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/335177_LMS-HE/54"
       },
       "dataProducer": {
@@ -1458,66 +1509,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/489916_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 489916
-      },
-      "description": [
-        {
-          "value": "A6 Mannheim Richtung Kaiserslautern\nzwischen Ludwigshafen-Nord und Frankenthal\nUnfallstelle geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A6"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A6 Mannheim Richtung Kaiserslautern zwischen Ludwigshafen-Nord und Frankenthal",
-        "streets": [
-          "A6"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Information"
-        },
-        {
-          "value": "Stau"
-        }
-      ],
-      "masterEventCategory": "Sperrung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-12T19:00:18.161Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -2560,7 +2551,7 @@
       },
       "description": [
         {
-          "value": "A7, A5 Fulda Richtung Kassel\nzwischen Hattenbacher Dreieck und Kirchheim\ndefekter PKW, Feuerwehreinsatz, 2 rechte Fahrstreifen gesperrt"
+          "value": "A7, A5 Fulda Richtung Kassel\nzwischen Hattenbacher Dreieck und Kirchheim\nStraße wieder frei"
         }
       ],
       "location": {
@@ -2599,7 +2590,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-12T18:02:28.46Z"
+        "value": "2022-04-12T19:25:05.57Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
