@@ -396,6 +396,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/489807_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 489807
+      },
+      "description": [
+        {
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Diez und Limburg-Nord\nGefahr durch defekten LKW auf dem rechten Fahrstreifen und dem Standstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Frankfurt zwischen Diez und Limburg-Nord",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-12T10:30:55.319Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/478197_LMS-HE/54"
       },
       "dataProducer": {
@@ -1220,7 +1271,7 @@
       },
       "description": [
         {
-          "value": "A5 Kassel Richtung Frankfurt\nzwischen Alsfeld-West und Homberg (Ohm)\nUnfall mit LKW, Richtungsfahrbahn gesperrt, Bergungsarbeiten, empfohlene Umleitung: U18\n(Stau in FR Süden zw. Alsfeld Ost und Unfallstelle wird an der Unfallstelle vorbeigeleitet, erst wenn die Fahrbahn leer ist, können die Bergungsarbeiten beginnen. Fahrbahn Richtung Nord leergelaufen)"
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Alsfeld-West und Homberg (Ohm)\nUnfallstelle geräumt, Staulänge abnehmend"
         }
       ],
       "location": {
@@ -1246,19 +1297,16 @@
       },
       "eventCategory": [
         {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
           "value": "Unfall"
+        },
+        {
+          "value": "Stau"
         }
       ],
-      "masterEventCategory": "Arbeitsstelle",
+      "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-12T09:29:21.388Z"
+        "value": "2022-04-12T10:27:48.522Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3000,7 +3048,7 @@
       },
       "description": [
         {
-          "value": "A49 Südtangente, Kassel Richtung Gießen\nzwischen Kassel-Waldau und Kassel-Auestadion\nGefahr durch Fahrradfahrer auf der Fahrbahn"
+          "value": "A49 Südtangente, Kassel Richtung Gießen\nzwischen Kassel-Waldau und Kassel-Auestadion\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -3022,7 +3070,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -3032,11 +3080,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-12T10:09:34.683Z"
+        "value": "2022-04-12T10:26:19.137Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4137,7 +4185,7 @@
       },
       "description": [
         {
-          "value": "A648 Richtung Frankfurt\nzwischen Westkreuz Frankfurt und Katharinenkreisel\nDemonstration, Richtungsfahrbahn blockiert"
+          "value": "A648 Richtung Frankfurt\nzwischen Westkreuz Frankfurt und Katharinenkreisel\nStraße wieder frei"
         }
       ],
       "location": {
@@ -4169,7 +4217,7 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-12T09:28:07.381Z"
+        "value": "2022-04-12T10:36:46.641Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
