@@ -396,6 +396,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/490058_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490058
+      },
+      "description": [
+        {
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Bad Camberg und Idstein\ndefekter PKW auf dem Standstreifen, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Frankfurt zwischen Bad Camberg und Idstein",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-13T08:08:44.824Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/490022_LMS-HE/54"
       },
       "dataProducer": {
@@ -406,7 +460,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Diez und Limburg-Nord\nUnfallaufnahme, Richtungsfahrbahn gesperrt, Rettungshubschrauber im Einsatz, Gasse für Rettungs- und Einsatzfahrzeuge bilden, Stau, empfohlene Umleitung: U12"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Diez und Limburg-Nord\nUnfallaufnahme, Stau, Fahrbahn auf einen Fahrstreifen verengt, linker Fahrstreifen wieder befahrbar, empfohlene Umleitung: U12"
         }
       ],
       "location": {
@@ -435,22 +489,16 @@
           "value": "Störung"
         },
         {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Information"
-        },
-        {
-          "value": "Hinweis"
-        },
-        {
           "value": "Stau"
+        },
+        {
+          "value": "Sperrung"
         }
       ],
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T06:59:43.629Z"
+        "value": "2022-04-13T07:51:13.687Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -585,60 +633,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/490041_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490041
-      },
-      "description": [
-        {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbadener Kreuz und Wiesbaden/Niedernhausen\nGefahr durch einen Reifen auf der Fahrbahn, bitte vorsichtig fahren"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Frankfurt Richtung Köln zwischen Wiesbadener Kreuz und Wiesbaden/Niedernhausen",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T07:16:19.954Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
@@ -1323,60 +1317,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/490028_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490028
-      },
-      "description": [
-        {
-          "value": "A5 Heidelberg Richtung Darmstadt\nzwischen Heppenheim und Zwingenberg\nbitte vorsichtig fahren, Beseitigung einer Ölspur"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Heidelberg Richtung Darmstadt zwischen Heppenheim und Zwingenberg",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hinweis"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Hinweis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T07:12:32.47Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -2269,68 +2209,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T06:33:39.035Z"
+        "value": "2022-04-13T08:01:45.122Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/490055_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490055
-      },
-      "description": [
-        {
-          "value": "A7 Fulda Richtung Kassel\nzwischen Kirchheim und Kirchheimer Dreieck\ndefekter PKW im Baustellenbereich, rechter Fahrstreifen blockiert, bitte vorsichtig fahren"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A7"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A7 Fulda Richtung Kassel zwischen Kirchheim und Kirchheimer Dreieck",
-        "streets": [
-          "A7"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T07:42:06.971Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
@@ -2524,60 +2407,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/490047_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490047
-      },
-      "description": [
-        {
-          "value": "A7 Fulda Richtung Kassel\nzwischen Bad Hersfeld-West und Homberg (Efze)\nGefahr durch Gegenstände auf der Fahrbahn, bitte vorsichtig fahren\n(Feuerlöscher) "
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A7"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A7 Fulda Richtung Kassel zwischen Bad Hersfeld-West und Homberg (Efze)",
-        "streets": [
-          "A7"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T07:27:48.437Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/485165_LMS-HE/54"
       },
       "dataProducer": {
@@ -2766,6 +2595,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/490059_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490059
+      },
+      "description": [
+        {
+          "value": "A44 Kassel Richtung Dortmund\nzwischen Zierenberg und Breuna\nwegen Bergungsarbeiten gesperrt, bitte vorsichtig fahren, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, empfohlene Umleitung: U18"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A44"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A44 Kassel Richtung Dortmund zwischen Zierenberg und Breuna",
+        "streets": [
+          "A44"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-13T08:21:17.181Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -3775,17 +3658,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/490048_LMS-HE/54"
+        "value": "LMS/r_LMS/490061_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 490048
+        "value": 490061
       },
       "description": [
         {
-          "value": "A66 Wiesbaden Richtung Frankfurt\nzwischen Hofheim am Taunus und Hattersheim\nGefahr durch Gegenstände auf der Fahrbahn, bitte vorsichtig fahren\n(eine Wanne)"
+          "value": "A66 Wiesbaden Richtung Frankfurt\nzwischen Frankfurt am Main-Höchst und Eschborn\nGefahr durch Fahrzeugteile auf der Fahrbahn"
         }
       ],
       "location": {
@@ -3799,7 +3682,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A66 Wiesbaden Richtung Frankfurt zwischen Hofheim am Taunus und Hattersheim",
+        "description": "A66 Wiesbaden Richtung Frankfurt zwischen Frankfurt am Main-Höchst und Eschborn",
         "streets": [
           "A66"
         ]
@@ -3812,123 +3695,12 @@
       "eventCategory": [
         {
           "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
         }
       ],
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T07:29:03.609Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/490050_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490050
-      },
-      "description": [
-        {
-          "value": "A66 Wiesbaden Richtung Frankfurt\nzwischen Hattersheim und Krifteler Dreieck\nGefahr durch Gegenstände auf der Fahrbahn, bitte vorsichtig fahren\n(eine Box)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A66"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A66 Wiesbaden Richtung Frankfurt zwischen Hattersheim und Krifteler Dreieck",
-        "streets": [
-          "A66"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T07:33:54.444Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/490045_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490045
-      },
-      "description": [
-        {
-          "value": "A66 Wiesbaden Richtung Frankfurt\nzwischen Frankfurt am Main-Zeilsheim und Frankfurt am Main-Höchst\nGefahr durch ungesicherte Unfallstelle auf dem linken Fahrstreifen, bitte vorsichtig fahren"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A66"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A66 Wiesbaden Richtung Frankfurt zwischen Frankfurt am Main-Zeilsheim und Frankfurt am Main-Höchst",
-        "streets": [
-          "A66"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T07:25:12.485Z"
+        "value": "2022-04-13T08:18:09.094Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
