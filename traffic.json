@@ -4143,60 +4143,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/490115_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490115
-      },
-      "description": [
-        {
-          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Dreieich und Neu-Isenburg\nalle Fahrbahnen geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A661"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A661 Darmstadt Richtung Bad Homburg zwischen Dreieich und Neu-Isenburg",
-        "streets": [
-          "A661"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T11:18:26.698Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/430911_LMS-HE/54"
       },
       "dataProducer": {
@@ -5866,6 +5812,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-14T09:14:50.886Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/490126_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490126
+      },
+      "description": [
+        {
+          "value": "B44 Mannheim Richtung Groß-Gerau\nin Höhe Bürstadt-Mitte\nGefahr durch Gänse auf der Fahrbahn, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B44"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B44 Mannheim Richtung Groß-Gerau in Höhe Bürstadt-Mitte",
+        "streets": [
+          "B44"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-13T11:41:52.592Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -9089,7 +9089,7 @@
       },
       "description": [
         {
-          "value": "K821 Frankfurt, Ludwig-Landmann-Straße\nin Höhe A66, Frankfurt am Main-L.-Landmann-Str.\nin beiden Richtungen Brückenabriss, linker Fahrstreifen gesperrt"
+          "value": "K821 Frankfurt, Ludwig-Landmann-Straße\nin Höhe A66, Frankfurt am Main-L.-Landmann-Str.\nin beiden Richtungen Brückenarbeiten, linker Fahrstreifen gesperrt, bis 31.12.2022 Mitternacht"
         }
       ],
       "location": {
@@ -9108,23 +9108,31 @@
           "K821"
         ]
       },
-      "duration": null,
+      "duration": {
+        "startTime": null,
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-12-31T22:59:00Z"
+        },
+        "name": "Dauer",
+        "description": "bis 31.12.2022 Mitternacht"
+      },
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Arbeitsstelle"
+          "value": "Sperrung"
         },
         {
-          "value": "Sperrung"
+          "value": "Arbeitsstelle"
         }
       ],
-      "masterEventCategory": "Arbeitsstelle",
+      "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-12T09:28:34.141Z"
+        "value": "2022-04-13T11:41:37.732Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -10641,63 +10649,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/490116_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490116
-      },
-      "description": [
-        {
-          "value": "L3101 Seeheim-Jugenheim - Balkenhausen - Modautal - Hoxhohl\nzwischen Balkhausen und Staffel\nin beiden Richtungen Störung beseitigt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3101"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Kreis Darmstadt-Dieburg, L3101 zwischen Balkhausen und Staffel",
-        "streets": [
-          "L3101"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T11:14:11.791Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
