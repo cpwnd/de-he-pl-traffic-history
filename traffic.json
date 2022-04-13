@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -388,60 +388,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-20T19:39:05.112Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/490265_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490265
-      },
-      "description": [
-        {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbadener Kreuz und Raunheim\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Köln Richtung Frankfurt zwischen Wiesbadener Kreuz und Raunheim",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T19:04:09.595Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -10703,66 +10649,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/490205_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490205
-      },
-      "description": [
-        {
-          "value": "L3047 Bischoffen-Oberwiedbach Richtung Wettenberg\nzwischen Frankenbach und L3061\nalle Unfallstellen geräumt, keine Verkehrsbehinderung mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3047"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Kreis Gießen, L3047 zwischen Frankenbach und L3061",
-        "streets": [
-          "L3047"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Information"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T19:07:33.273Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/485094_LMS-HE/54"
       },
       "dataProducer": {
@@ -11302,7 +11188,7 @@
       },
       "description": [
         {
-          "value": "L3140 Niederaula Richtung Grebenhain\nzwischen Lauterbach (Hessen) und Dirlammen\nUnfall, Richtungsfahrbahn gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+          "value": "L3140 Niederaula Richtung Grebenhain\nzwischen Lauterbach (Hessen) und Dirlammen\nAufräumarbeiten, Richtungsfahrbahn gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
         }
       ],
       "location": {
@@ -11328,23 +11214,23 @@
       },
       "eventCategory": [
         {
-          "value": "Unfall"
-        },
-        {
           "value": "Sperrung"
         },
         {
           "value": "Hinweis"
+        },
+        {
+          "value": "Störung"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T17:34:33.212Z"
+        "value": "2022-04-13T19:19:25.166Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
