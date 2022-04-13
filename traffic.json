@@ -406,7 +406,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Diez und Limburg-Nord\nGefahr durch ungesicherte Unfallstelle, Richtungsfahrbahn blockiert, bitte vorsichtig fahren, Gasse für Rettungs- und Einsatzfahrzeuge bilden, empfohlene Umleitung: U12"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Diez und Limburg-Nord\nUnfallaufnahme, Richtungsfahrbahn gesperrt, Rettungshubschrauber im Einsatz, Gasse für Rettungs- und Einsatzfahrzeuge bilden, empfohlene Umleitung: U12"
         }
       ],
       "location": {
@@ -428,23 +428,26 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Sperrung"
         },
         {
-          "value": "Störung"
+          "value": "Information"
         },
         {
           "value": "Hinweis"
+        },
+        {
+          "value": "Störung"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T06:22:53.112Z"
+        "value": "2022-04-13T06:48:15.136Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1259,6 +1262,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-04T14:47:17.093Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/490028_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490028
+      },
+      "description": [
+        {
+          "value": "A5 Heidelberg Richtung Darmstadt\nzwischen Bensheim und Zwingenberg\ndefekter PKW auf dem Standstreifen, Gefahr durch Ölspur, bitte vorsichtig fahren\n(Öl- und Benzinspur)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Heidelberg Richtung Darmstadt zwischen Bensheim und Zwingenberg",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-13T06:38:15.537Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3485,60 +3542,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/489939_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 489939
-      },
-      "description": [
-        {
-          "value": "A66 Fulda Richtung Frankfurt\nzwischen Bad Orb/Wächtersbach und Gelnhausen-Ost\nStörung beseitigt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A66"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A66 Fulda Richtung Frankfurt zwischen Bad Orb/Wächtersbach und Gelnhausen-Ost",
-        "streets": [
-          "A66"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T06:29:37.143Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/489697_LMS-HE/54"
       },
       "dataProducer": {
@@ -3600,6 +3603,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/489964_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 489964
+      },
+      "description": [
+        {
+          "value": "A66 Fulda Richtung Frankfurt\nzwischen Neuhof-Nord und Neuhof-Süd\nwieder offen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Fulda Richtung Frankfurt zwischen Neuhof-Nord und Neuhof-Süd",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Arbeitsstelle"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-13T06:46:11.037Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -4111,6 +4168,63 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/490031_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490031
+      },
+      "description": [
+        {
+          "value": "A480 Reiskirchen Richtung Gießen\nzwischen Reiskirchener Dreieck und Gießener Nordkreuz\ndefekter LKW im Baustellenbereich, Richtungsfahrbahn gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A480"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A480 Reiskirchen Richtung Gießen zwischen Reiskirchener Dreieck und Gießener Nordkreuz",
+        "streets": [
+          "A480"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-13T06:44:23.309Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/478958_LMS-HE/54"
       },
       "dataProducer": {
@@ -4237,6 +4351,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/490030_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490030
+      },
+      "description": [
+        {
+          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Frankfurt am Main-Ost und Offenbach-Kaiserlei\nGefahr durch Ölspur, fahren Sie bitte besonders vorsichtig"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A661"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A661 Bad Homburg Richtung Darmstadt zwischen Frankfurt am Main-Ost und Offenbach-Kaiserlei",
+        "streets": [
+          "A661"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-13T06:41:02.211Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -6176,17 +6344,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/489936_LMS-HE/54"
+        "value": "LMS/r_LMS/489935_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 489936
+        "value": 489935
       },
       "description": [
         {
-          "value": "B45 Hanau Richtung Dieburg\nzwischen Rodgau-Niederroden in Nieder-Roden und B459, Rödermark-Ober-Roden\nvorübergehende Begrenzung der Breite besteht nicht mehr"
+          "value": "B45 Dieburg Richtung Hanau\nzwischen B459, Rödermark-Ober-Roden und Rodgau-Niederroden in Nieder-Roden\nBaustelle beseitigt"
         }
       ],
       "location": {
@@ -6200,7 +6368,7 @@
           }
         ],
         "name": "Ort",
-        "description": "B45 Hanau Richtung Dieburg zwischen Rodgau-Niederroden in Nieder-Roden und B459, Rödermark-Ober-Roden",
+        "description": "B45 Dieburg Richtung Hanau zwischen B459, Rödermark-Ober-Roden und Rodgau-Niederroden in Nieder-Roden",
         "streets": [
           "B45"
         ]
@@ -6212,13 +6380,22 @@
       },
       "eventCategory": [
         {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Störung"
+        },
+        {
           "value": "Beschränkung"
         }
       ],
-      "masterEventCategory": "Beschränkung",
+      "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T06:31:02.625Z"
+        "value": "2022-04-13T06:45:54.662Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -7688,6 +7865,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/489920_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 489920
+      },
+      "description": [
+        {
+          "value": "K61 zwischen Oberurff-Schiffelborn und Bergfreiheit\nin beiden Richtungen Straße wieder frei"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K61"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Schwalm-Eder-Kreis, K61 zwischen Oberurff-Schiffelborn und Bergfreiheit",
+        "streets": [
+          "K61"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Information"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-13T06:46:24.79Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/483393_LMS-HE/54"
       },
       "dataProducer": {
@@ -8545,7 +8776,7 @@
       },
       "description": [
         {
-          "value": "K809 Frankfurt, Rödelheimer Straße bis Ginnheimer Landstraße\nzwischen Schloßstraße und Wilhelm-Epstein-Straße\nBaustelle, gesperrt, am 13.04.2022 von 00:00 Uhr bis 23:59 Uhr\nBockenheim, Ginnheimer Landstraße 42, aufgrund von Kran-, Hebe- und Hubsteigerarbeiten Vollsperrung der Fahrbahn in Richtung X_Vollsperrung (beide Richtungen), Vollsperrung der Radwege (rechter Radweg), Vollsperrung der Gehwege (rechter Gehweg) in Richtung Nord-Ost vom 13.04.2022 bis 13.04.2022."
+          "value": "K809 Frankfurt, Rödelheimer Straße bis Ginnheimer Landstraße\nzwischen Schloßstraße und Wilhelm-Epstein-Straße\nBaustelle, gesperrt, bis 13.04.2022 23:59 Uhr\nBockenheim, Ginnheimer Landstraße 42, aufgrund von Kran-, Hebe- und Hubsteigerarbeiten Vollsperrung der Fahrbahn in Richtung X_Vollsperrung (beide Richtungen), Vollsperrung der Radwege (rechter Radweg), Vollsperrung der Gehwege (rechter Gehweg) in Richtung Nord-Ost vom 13.04.2022 bis 13.04.2022."
         }
       ],
       "location": {
@@ -8591,7 +8822,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-12T17:36:42.36Z"
+        "value": "2022-04-13T06:42:30.723Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
