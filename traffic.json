@@ -1811,7 +1811,7 @@
       },
       "description": [
         {
-          "value": "A7 Hannover Richtung Kassel\nzwischen Kassel-Ost und Kreuz Kassel-Mitte\nGefahr durch ungesicherte Unfallstelle, bitte vorsichtig fahren"
+          "value": "A7 Hannover Richtung Kassel\nzwischen Kassel-Ost und Kreuz Kassel-Mitte\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -1833,7 +1833,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1846,11 +1846,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T10:04:52.659Z"
+        "value": "2022-04-13T10:41:02.848Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4153,7 +4153,7 @@
       },
       "description": [
         {
-          "value": "A661 Darmstadt Richtung Bad Homburg\nAusfahrt Offenbach-Kaiserlei\nBeseitigung einer Ölspur, Richtungsfahrbahn gesperrt"
+          "value": "A661 Darmstadt Richtung Bad Homburg\nAusfahrt Offenbach-Kaiserlei\nStraße wieder frei"
         }
       ],
       "location": {
@@ -4188,7 +4188,7 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T07:39:45.873Z"
+        "value": "2022-04-13T10:41:37.193Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -7066,6 +7066,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/490109_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490109
+      },
+      "description": [
+        {
+          "value": "B455 Berliner Straße, Königstein Richtung Mainz-Kastel\nzwischen Wiesbaden und Ausfahrt Erbenheim\nVerkehrsbehinderung beseitigt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B455"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B455 Berliner Straße, Königstein Richtung Mainz-Kastel zwischen Wiesbaden und Ausfahrt Erbenheim",
+        "streets": [
+          "B455"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-13T10:43:23.285Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
