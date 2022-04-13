@@ -1156,6 +1156,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/490237_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490237
+      },
+      "description": [
+        {
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Alsfeld-Ost und Alsfeld-West\nGefahr durch defekten LKW auf dem rechten Fahrstreifen und dem Standstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Kassel Richtung Frankfurt zwischen Alsfeld-Ost und Alsfeld-West",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-13T16:34:20.47Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/338932_LMS-HE/54"
       },
       "dataProducer": {
@@ -1293,7 +1344,7 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Homberg (Ohm) und Alsfeld-West\nGefahr durch Ölspur, defekter LKW auf dem Standstreifen"
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Homberg (Ohm) und Alsfeld-West\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -1315,7 +1366,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1325,7 +1376,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T14:54:33.629Z"
+        "value": "2022-04-13T16:51:14.031Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2438,7 +2489,7 @@
       },
       "description": [
         {
-          "value": "A44 Dortmund Richtung Kassel\nzwischen Breuna und Zierenberg\nGefahr durch Bergungsarbeiten auf dem rechten Fahrstreifen, rechter Fahrstreifen gesperrt"
+          "value": "A44 Dortmund Richtung Kassel\nzwischen Breuna und Zierenberg\nUnfall, Gefahr durch Bergungsarbeiten auf dem rechten Fahrstreifen, rechter Fahrstreifen gesperrt"
         }
       ],
       "location": {
@@ -2464,16 +2515,19 @@
       },
       "eventCategory": [
         {
+          "value": "Arbeitsstelle"
+        },
+        {
           "value": "Sperrung"
         },
         {
-          "value": "Arbeitsstelle"
+          "value": "Unfall"
         }
       ],
-      "masterEventCategory": "Sperrung",
+      "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T16:16:40.95Z"
+        "value": "2022-04-13T16:51:50.836Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3617,6 +3671,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/490238_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490238
+      },
+      "description": [
+        {
+          "value": "A67 Mannheim - Darmstadt\nzwischen Viernheimer Dreieck und Lorsch\nin beiden Richtungen Gefahr besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A67"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A67 Mannheim Richtung Darmstadt zwischen Viernheimer Dreieck und Lorsch",
+        "streets": [
+          "A67"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-13T16:58:48.9Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/483464_LMS-HE/54"
       },
       "dataProducer": {
@@ -4252,108 +4357,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/490218_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490218
-      },
-      "description": [
-        {
-          "value": "A661 Darmstadt - Bad Homburg\nzwischen Einfahrt Frankfurt am Main-Eckenheim und Frankfurt am Main-Heddernheim\nin beiden Richtungen Gefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A661"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A661 Darmstadt Richtung Bad Homburg zwischen Einfahrt Frankfurt am Main-Eckenheim und Frankfurt am Main-Heddernheim",
-        "streets": [
-          "A661"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T16:25:51.38Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/490234_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490234
-      },
-      "description": [
-        {
-          "value": "A672 Querspange Darmstadt, Darmstadt - Griesheim\nzwischen Einfahrt Darmstadt-West und Dreieck Darmstadt\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A672"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A672 Querspange Darmstadt, Darmstadt Richtung Griesheim zwischen Einfahrt Darmstadt-West und Dreieck Darmstadt",
-        "streets": [
-          "A672"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T16:25:11.978Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
@@ -7115,57 +7118,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/490224_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490224
-      },
-      "description": [
-        {
-          "value": "B455 Mainz-Kastel - Königstein\nzwischen Wiesbaden-Fort Biehler und Wiesbaden-Erbenheim-Nord\nin beiden Richtungen Gefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B455"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B455 Mainz-Kastel Richtung Königstein zwischen Wiesbaden-Fort Biehler und Wiesbaden-Erbenheim-Nord",
-        "streets": [
-          "B455"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T16:14:26.834Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/477347_LMS-HE/54"
       },
       "dataProducer": {
@@ -7557,6 +7509,71 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-04T04:00:03.29Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/490245_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490245
+      },
+      "description": [
+        {
+          "value": "Schwalm-Eder-Kreis, K61\nzwischen Oberurff-Schiffelborn und Bergfreiheit\nin beiden Richtungen Krötenwanderung, Richtungsfahrbahn gesperrt, bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K61"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Schwalm-Eder-Kreis, K61 zwischen Oberurff-Schiffelborn und Bergfreiheit",
+        "streets": [
+          "K61"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-01T18:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-30T05:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 01.03.2022 bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Information"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-13T17:00:00.898Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
