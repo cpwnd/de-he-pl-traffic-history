@@ -331,57 +331,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/490251_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490251
-      },
-      "description": [
-        {
-          "value": "A3 Köln Richtung Darmstadt\nzwischen Raunheim und Mönchhof-Dreieck\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Köln Richtung Darmstadt zwischen Raunheim und Mönchhof-Dreieck",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T18:15:08.1Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/449399_LMS-HE/54"
       },
       "dataProducer": {
@@ -439,57 +388,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-20T19:39:05.112Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/490252_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490252
-      },
-      "description": [
-        {
-          "value": "A3 Köln - Frankfurt\nzwischen Wiesbaden/Niedernhausen und Wiesbadener Kreuz\nin beiden Richtungen Gefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Köln Richtung Frankfurt zwischen Wiesbaden/Niedernhausen und Wiesbadener Kreuz",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T18:15:39.892Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2417,6 +2315,58 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-03T16:02:45.746Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/490261_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490261
+      },
+      "description": [
+        {
+          "value": "A7, A5 Fulda Richtung Kassel\nzwischen Hattenbacher Dreieck und Kirchheim\nGefahr durch ungesicherte Unfallstelle auf dem linken Fahrstreifen im Baustellenbereich"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7, A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7, A5 Fulda Richtung Kassel zwischen Hattenbacher Dreieck und Kirchheim",
+        "streets": [
+          "A7",
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-13T18:35:09.218Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -10631,7 +10581,7 @@
       },
       "description": [
         {
-          "value": "L3020 Heuchelheim - Limburg\nzwischen Runkel und Abzweig nach Lindenholzhausen\nin beiden Richtungen Gefahr durch Pferde auf der Fahrbahn"
+          "value": "L3020 Heuchelheim - Limburg\nzwischen Runkel und Abzweig nach Lindenholzhausen\nin beiden Richtungen Gefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -10653,7 +10603,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -10663,11 +10613,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T18:03:00.131Z"
+        "value": "2022-04-13T18:26:22.569Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
