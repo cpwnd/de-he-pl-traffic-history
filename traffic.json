@@ -450,6 +450,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/490068_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490068
+      },
+      "description": [
+        {
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Limburg-Süd und Bad Camberg\nGefahr durch Fahrzeugteile auf der Fahrbahn, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Frankfurt zwischen Limburg-Süd und Bad Camberg",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-13T08:30:37.235Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/490022_LMS-HE/54"
       },
       "dataProducer": {
@@ -633,6 +687,63 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/490067_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490067
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Bad Camberg und Limburg-Süd\nGefahr durch ungesicherte Unfallstelle auf dem Standstreifen, Gefahr durch Fahrzeugteile auf der Fahrbahn, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Köln zwischen Bad Camberg und Limburg-Süd",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-13T08:29:24.703Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -2609,7 +2720,7 @@
       },
       "description": [
         {
-          "value": "A44 Kassel Richtung Dortmund\nzwischen Zierenberg und Breuna\nwegen Bergungsarbeiten gesperrt, bitte vorsichtig fahren, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, empfohlene Umleitung: U18"
+          "value": "A44 Kassel Richtung Dortmund\nzwischen Zierenberg und Breuna\nBergungsarbeiten, Fahrbahn auf einen Fahrstreifen verengt, linker Fahrstreifen wieder befahrbar, empfohlene Umleitung: U18"
         }
       ],
       "location": {
@@ -2635,16 +2746,19 @@
       },
       "eventCategory": [
         {
-          "value": "Sperrung"
+          "value": "Arbeitsstelle"
         },
         {
-          "value": "Hinweis"
+          "value": "Störung"
+        },
+        {
+          "value": "Sperrung"
         }
       ],
-      "masterEventCategory": "Sperrung",
+      "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T08:21:17.181Z"
+        "value": "2022-04-13T08:32:08.004Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3668,7 +3782,7 @@
       },
       "description": [
         {
-          "value": "A66 Wiesbaden Richtung Frankfurt\nzwischen Frankfurt am Main-Höchst und Eschborn\nGefahr durch Fahrzeugteile auf der Fahrbahn"
+          "value": "A66 Wiesbaden Richtung Frankfurt\nzwischen Frankfurt am Main-Höchst und Eschborn\nalle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -3690,7 +3804,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -3700,11 +3814,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T08:18:09.094Z"
+        "value": "2022-04-13T08:34:14.734Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
