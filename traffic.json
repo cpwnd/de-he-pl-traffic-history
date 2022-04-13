@@ -396,6 +396,74 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/490281_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490281
+      },
+      "description": [
+        {
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Idstein und Wiesbaden/Niedernhausen\nBaustelle auf allen Fahrstreifen, Verkehr wird über den Standstreifen geleitet, 2 km Stau, bis 14.04.2022 ca. 05:15 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Frankfurt zwischen Idstein und Wiesbaden/Niedernhausen",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-13T21:45:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-14T03:15:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 13.04.2022 23:45 Uhr bis 14.04.2022 ca. 05:15 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Stau"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-13T21:50:26.445Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/478197_LMS-HE/54"
       },
       "dataProducer": {
@@ -3140,6 +3208,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/490283_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490283
+      },
+      "description": [
+        {
+          "value": "A66 Rhein-Main-Schnellweg, Frankfurt Richtung Wiesbaden\nzwischen Wiesbadener Kreuz und Wallau\nGefahr durch ein totes Tier auf dem mittleren Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Rhein-Main-Schnellweg, Frankfurt Richtung Wiesbaden zwischen Wiesbadener Kreuz und Wallau",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-13T22:01:45.615Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -8516,74 +8635,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/464725_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 464725
-      },
-      "description": [
-        {
-          "value": "Rheingau-Taunus-Kreis, Rebhangstraße\nzwischen Hallgarten und Am Rebhang\nin beiden Richtungen Fahrbahnerneuerung, Richtungsfahrbahn gesperrt, eine örtliche Umleitung ist eingerichtet, bis 13.04.2022 Mitternacht"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "K634"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Rheingau-Taunus-Kreis, Rebhangstraße zwischen Hallgarten und Am Rebhang",
-        "streets": [
-          "K634"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-01-16T23:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-13T21:59:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 17.01.2022 00:00 Uhr bis 13.04.2022 Mitternacht"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-01-16T23:00:01.413Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/431963_LMS-HE/54"
       },
       "dataProducer": {
@@ -8761,71 +8812,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_D__HE_FFM-IGLZ/210825767814_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 489931
-      },
-      "description": [
-        {
-          "value": "K809 Frankfurt, Rödelheimer Straße bis Ginnheimer Landstraße\nzwischen Schloßstraße und Wilhelm-Epstein-Straße\nBaustelle, gesperrt, bis 13.04.2022 23:59 Uhr\nBockenheim, Ginnheimer Landstraße 42, aufgrund von Kran-, Hebe- und Hubsteigerarbeiten Vollsperrung der Fahrbahn in Richtung X_Vollsperrung (beide Richtungen), Vollsperrung der Radwege (rechter Radweg), Vollsperrung der Gehwege (rechter Gehweg) in Richtung Nord-Ost vom 13.04.2022 bis 13.04.2022."
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "K809"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Frankfurt, Rödelheimer Straße bis Ginnheimer Landstraße zwischen Schloßstraße und Wilhelm-Epstein-Straße",
-        "streets": [
-          "K809"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-04-12T22:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-13T21:59:59Z"
-        },
-        "name": "Dauer",
-        "description": "am 13.04.2022 von 00:00 Uhr bis 23:59 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T07:10:41.862Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -13281,64 +13267,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-02-09T19:20:15.106Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_D__HE_FFM-IGLZ/210824257559_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 485250
-      },
-      "description": [
-        {
-          "value": "Frankfurt, Bockenheimer Anlage bis Bremer Straße\nzwischen Taunusanlage und Eschersheimer Landstraße\nBaustelle, rechter Fahrstreifen gesperrt, bis 13.04.2022 23:59 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": null
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Frankfurt, Bockenheimer Anlage bis Bremer Straße zwischen Taunusanlage und Eschersheimer Landstraße",
-        "streets": null
-      },
-      "duration": {
-        "startTime": null,
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-13T21:59:00Z"
-        },
-        "name": "Dauer",
-        "description": "bis 13.04.2022 23:59 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-28T14:15:51.725Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
