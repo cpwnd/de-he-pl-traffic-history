@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -1797,60 +1797,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/490100_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490100
-      },
-      "description": [
-        {
-          "value": "A7 Hannover Richtung Kassel\nzwischen Kassel-Ost und Kreuz Kassel-Mitte\nUnfallstelle geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A7"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A7 Hannover Richtung Kassel zwischen Kassel-Ost und Kreuz Kassel-Mitte",
-        "streets": [
-          "A7"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T10:41:02.848Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -4143,17 +4089,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/490030_LMS-HE/54"
+        "value": "LMS/r_LMS/490115_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 490030
+        "value": 490115
       },
       "description": [
         {
-          "value": "A661 Darmstadt Richtung Bad Homburg\nAusfahrt Offenbach-Kaiserlei\nStraße wieder frei"
+          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Dreieich und Neu-Isenburg\nGegenstände auf der Fahrbahn, bitte vorsichtig fahren\n(ein Karton)"
         }
       ],
       "location": {
@@ -4167,7 +4113,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A661 Darmstadt Richtung Bad Homburg Ausfahrt Offenbach-Kaiserlei",
+        "description": "A661 Darmstadt Richtung Bad Homburg zwischen Dreieich und Neu-Isenburg",
         "streets": [
           "A661"
         ]
@@ -4179,20 +4125,20 @@
       },
       "eventCategory": [
         {
-          "value": "Störung"
+          "value": "Hindernis"
         },
         {
-          "value": "Sperrung"
+          "value": "Hinweis"
         }
       ],
-      "masterEventCategory": "Störung",
+      "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T10:41:37.193Z"
+        "value": "2022-04-13T11:02:37.48Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Geändert"
+        "value": "Neu"
       }
     },
     {
@@ -7066,60 +7012,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/490109_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490109
-      },
-      "description": [
-        {
-          "value": "B455 Berliner Straße, Königstein Richtung Mainz-Kastel\nzwischen Wiesbaden und Ausfahrt Erbenheim\nVerkehrsbehinderung beseitigt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B455"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B455 Berliner Straße, Königstein Richtung Mainz-Kastel zwischen Wiesbaden und Ausfahrt Erbenheim",
-        "streets": [
-          "B455"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T10:43:23.285Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -10702,6 +10594,63 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/490116_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490116
+      },
+      "description": [
+        {
+          "value": "L3101 Seeheim-Jugenheim - Balkenhausen - Modautal - Hoxhohl\nzwischen Balkhausen und Staffel\nin beiden Richtungen Störung beseitigt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3101"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Kreis Darmstadt-Dieburg, L3101 zwischen Balkhausen und Staffel",
+        "streets": [
+          "L3101"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-13T11:14:11.791Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/464788_LMS-HE/54"
       },
       "dataProducer": {
@@ -11487,58 +11436,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/490084_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490084
-      },
-      "description": [
-        {
-          "value": "L3264, K785 Diedenbergen, Casteller Straße\nin Höhe Querspange\nGefahr durch verlorene Ladung\n(Getränkekisten)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3264, K785"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Diedenbergen, Casteller Straße in Höhe Querspange",
-        "streets": [
-          "L3264",
-          "K785"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T09:18:18.693Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
