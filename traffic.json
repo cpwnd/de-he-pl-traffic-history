@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -536,7 +536,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Bad Camberg und Limburg-Süd\nUnfallaufnahme, bitte vorsichtig fahren"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Bad Camberg und Limburg-Süd\nBergungsarbeiten, rechter Fahrstreifen gesperrt, bitte vorsichtig fahren"
         }
       ],
       "location": {
@@ -562,16 +562,19 @@
       },
       "eventCategory": [
         {
-          "value": "Störung"
+          "value": "Hinweis"
         },
         {
-          "value": "Hinweis"
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
         }
       ],
-      "masterEventCategory": "Störung",
+      "masterEventCategory": "Hinweis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T08:55:51.49Z"
+        "value": "2022-04-13T09:42:30.635Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2431,63 +2434,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/490059_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490059
-      },
-      "description": [
-        {
-          "value": "A44 Kassel Richtung Dortmund\nzwischen Zierenberg und Breuna\nalle Fahrbahnen geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A44"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A44 Kassel Richtung Dortmund zwischen Zierenberg und Breuna",
-        "streets": [
-          "A44"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T09:24:57.667Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/477663_LMS-HE/54"
       },
       "dataProducer": {
@@ -4250,6 +4196,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/490094_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490094
+      },
+      "description": [
+        {
+          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Kaiserleibrücke und Frankfurt am Main-Ost\nGefahr durch Gegenstände auf der Fahrbahn (mehrere Metallteile), bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A661"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A661 Darmstadt Richtung Bad Homburg zwischen Kaiserleibrücke und Frankfurt am Main-Ost",
+        "streets": [
+          "A661"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-13T09:32:43.951Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
