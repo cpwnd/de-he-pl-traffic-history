@@ -2701,6 +2701,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/490287_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490287
+      },
+      "description": [
+        {
+          "value": "A45 Gießen Richtung Hagen\nzwischen Ehringshausen und Herborn-Süd\nNachtbaustelle, Richtungsfahrbahn gesperrt\n(15 Minütige Vollsperrung)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A45 Gießen Richtung Hagen zwischen Ehringshausen und Herborn-Süd",
+        "streets": [
+          "A45"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-13T22:31:00.072Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/468950_LMS-HE/54"
       },
       "dataProducer": {
@@ -3222,7 +3276,7 @@
       },
       "description": [
         {
-          "value": "A66 Rhein-Main-Schnellweg, Frankfurt Richtung Wiesbaden\nzwischen Wiesbadener Kreuz und Wallau\nGefahr durch ein totes Tier auf dem mittleren Fahrstreifen"
+          "value": "A66 Rhein-Main-Schnellweg, Frankfurt Richtung Wiesbaden\nzwischen Wiesbadener Kreuz und Wallau\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -3244,7 +3298,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -3254,7 +3308,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T22:01:45.615Z"
+        "value": "2022-04-13T22:36:01.177Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
