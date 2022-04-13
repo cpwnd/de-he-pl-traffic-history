@@ -1349,6 +1349,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/490123_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490123
+      },
+      "description": [
+        {
+          "value": "A6 Mannheim Richtung Heilbronn\nzwischen Viernheimer Dreieck und Viernheimer Kreuz\nGefahr durch ungesicherte Unfallstelle, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A6"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A6 Mannheim Richtung Heilbronn zwischen Viernheimer Dreieck und Viernheimer Kreuz",
+        "streets": [
+          "A6"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-13T11:22:27.144Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/450370_LMS-HE/54"
       },
       "dataProducer": {
@@ -4099,7 +4153,7 @@
       },
       "description": [
         {
-          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Dreieich und Neu-Isenburg\nGegenstände auf der Fahrbahn, bitte vorsichtig fahren\n(ein Karton)"
+          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Dreieich und Neu-Isenburg\nalle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -4134,11 +4188,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T11:02:37.48Z"
+        "value": "2022-04-13T11:18:26.698Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -7026,7 +7080,7 @@
       },
       "description": [
         {
-          "value": "B455 Mainz-Kastel Richtung Königstein\nzwischen A671, Mainz-Kastel und Überleitung Berliner Straße\nGefahr durch Ölspur, bitte vorsichtig fahren"
+          "value": "B455 Mainz-Kastel Richtung Königstein\nzwischen A671, Mainz-Kastel und Überleitung Berliner Straße\nReinigungsarbeiten, Fahrbahn auf einen Fahrstreifen verengt"
         }
       ],
       "location": {
@@ -7048,24 +7102,21 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Hindernis"
-        },
-        {
-          "value": "Hinweis"
+          "value": "Störung"
         }
       ],
-      "masterEventCategory": "Hindernis",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T10:10:36.747Z"
+        "value": "2022-04-13T11:23:38.568Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -11964,6 +12015,66 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-01T04:35:26.061Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/490121_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490121
+      },
+      "description": [
+        {
+          "value": "L3413 Groß-Umstadt Richtung Reinheim\nzwischen B45, B45/L3413 in Groß-Umstadt und Habitzheim\nUnfallaufnahme, Richtungsfahrbahn gesperrt, Rettungshubschrauber im Einsatz, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3413"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Kreis Darmstadt-Dieburg, L3413 zwischen B45, B45/L3413 in Groß-Umstadt und Habitzheim",
+        "streets": [
+          "L3413"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Information"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-13T11:21:22.26Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
