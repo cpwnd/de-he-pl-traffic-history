@@ -1334,17 +1334,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/490562_LMS-HE/54"
+        "value": "LMS/r_LMS/490573_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 490562
+        "value": 490573
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Alsfeld-Ost und Hattenbacher Dreieck\nGefahr durch liegengebliebenes Fahrzeug auf dem mittleren Fahrstreifen"
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Alsfeld-Ost und Hattenbacher Dreieck\nGefahr durch ungesicherte Unfallstelle"
         }
       ],
       "location": {
@@ -1370,17 +1370,71 @@
       },
       "eventCategory": [
         {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-14T19:29:30.917Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/490562_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490562
+      },
+      "description": [
+        {
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Alsfeld-Ost und Hattenbacher Dreieck\nliegengebliebenes Fahrzeug auf dem rechten Fahrstreifen, Polizei ist vor Ort"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Frankfurt Richtung Kassel zwischen Alsfeld-Ost und Hattenbacher Dreieck",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
           "value": "Hindernis"
+        },
+        {
+          "value": "Information"
         }
       ],
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-14T18:22:10.139Z"
+        "value": "2022-04-14T19:30:31.485Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2484,7 +2538,7 @@
       },
       "description": [
         {
-          "value": "A7 Fulda Richtung Hannover\nzwischen Dreieck Kassel-Süd und Kreuz Kassel-Mitte\nGefahr durch liegengebliebenes Fahrzeug auf dem linken Fahrstreifen"
+          "value": "A7 Fulda Richtung Hannover\nzwischen Dreieck Kassel-Süd und Kreuz Kassel-Mitte\nalle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -2506,7 +2560,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2516,11 +2570,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-14T18:52:37.033Z"
+        "value": "2022-04-14T19:31:21.038Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4295,6 +4349,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/490576_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490576
+      },
+      "description": [
+        {
+          "value": "A661 Darmstadt - Bad Homburg\nzwischen Neu-Isenburg und Offenbacher Kreuz\nin beiden Richtungen Gefahr durch 2 Personen auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A661"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A661 Darmstadt Richtung Bad Homburg zwischen Neu-Isenburg und Offenbacher Kreuz",
+        "streets": [
+          "A661"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-14T19:37:35.112Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
