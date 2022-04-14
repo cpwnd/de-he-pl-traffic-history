@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -471,7 +471,7 @@
       },
       "description": [
         {
-          "value": "A3 Würzburg Richtung Frankfurt\nzwischen Seligenstadt und Hanau\nUnfall, rechter Fahrstreifen blockiert"
+          "value": "A3 Würzburg Richtung Frankfurt\nzwischen Hanau und Obertshausen\nlinker Fahrstreifen wieder befahrbar, Unfall, Bergungsarbeiten"
         }
       ],
       "location": {
@@ -485,7 +485,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A3 Würzburg Richtung Frankfurt zwischen Seligenstadt und Hanau",
+        "description": "A3 Würzburg Richtung Frankfurt zwischen Hanau und Obertshausen",
         "streets": [
           "A3"
         ]
@@ -500,17 +500,20 @@
           "value": "Unfall"
         },
         {
-          "value": "Störung"
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-14T19:03:30.279Z"
+        "value": "2022-04-14T19:59:22.621Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1293,7 +1296,7 @@
       },
       "description": [
         {
-          "value": "A5 Darmstadt - Frankfurt\nzwischen Frankfurter Kreuz und Frankfurt-Niederrad\nin beiden Richtungen Gefahr durch mehrere Rehe auf der Fahrbahn"
+          "value": "A5 Darmstadt - Frankfurt\nzwischen Frankfurter Kreuz und Frankfurt-Niederrad\nin beiden Richtungen Straße wieder frei"
         }
       ],
       "location": {
@@ -1315,7 +1318,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1325,11 +1328,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-14T18:56:55.716Z"
+        "value": "2022-04-14T20:02:33.264Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2524,57 +2527,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/490568_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490568
-      },
-      "description": [
-        {
-          "value": "A7 Fulda Richtung Hannover\nzwischen Dreieck Kassel-Süd und Kreuz Kassel-Mitte\nalle Fahrbahnen geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A7"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A7 Fulda Richtung Hannover zwischen Dreieck Kassel-Süd und Kreuz Kassel-Mitte",
-        "streets": [
-          "A7"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-14T19:31:21.038Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -4363,7 +4315,7 @@
       },
       "description": [
         {
-          "value": "A661 Darmstadt - Bad Homburg\nzwischen Neu-Isenburg und Offenbacher Kreuz\nin beiden Richtungen Gefahr durch 2 Personen auf der Fahrbahn"
+          "value": "A661 Darmstadt - Bad Homburg\nzwischen Neu-Isenburg und Offenbacher Kreuz\nin beiden Richtungen Straße wieder frei"
         }
       ],
       "location": {
@@ -4385,7 +4337,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -4395,11 +4347,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-14T19:37:35.112Z"
+        "value": "2022-04-14T20:02:16.669Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
