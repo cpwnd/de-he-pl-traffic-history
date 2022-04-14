@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -1221,66 +1221,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-28T13:39:39.318Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/490573_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490573
-      },
-      "description": [
-        {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Alsfeld-Ost und Hattenbacher Dreieck\nalle Fahrbahnen wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Frankfurt Richtung Kassel zwischen Alsfeld-Ost und Hattenbacher Dreieck",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Information"
-        }
-      ],
-      "masterEventCategory": "Sperrung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-14T21:34:43.763Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4152,6 +4092,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/490588_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490588
+      },
+      "description": [
+        {
+          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Frankfurt am Main-Ost und Frankfurt-Friedberger Landstraße\nGefahr durch liegengebliebenes Fahrzeug auf dem Standstreifen, Gefahr durch unbeleuchtetes Fahrzeug auf der Fahrbahn\nliegengebliebenes Fahrzeug ist unbeleuchtet. Es gibt dort keinen Standstreifen."
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A661"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A661 Darmstadt Richtung Bad Homburg zwischen Frankfurt am Main-Ost und Frankfurt-Friedberger Landstraße",
+        "streets": [
+          "A661"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-14T22:13:25.919Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/430911_LMS-HE/54"
       },
       "dataProducer": {
@@ -4401,275 +4392,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/489674_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 489674
-      },
-      "description": [
-        {
-          "value": "B7 Hessisch-Lichtenau - Kassel\nzwischen Kaufungen und Kassel-Ost\nin beiden Richtungen Bauarbeiten, Fahrbahnverengung, maximale Fahrbahnbreite von 2,75 m, halbseitig gesperrt, bis 14.04.2022"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B7"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B7 Hessisch-Lichtenau Richtung Kassel zwischen Kaufungen und Kassel-Ost",
-        "streets": [
-          "B7"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-04-11T22:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-14T21:59:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 12.04.2022 bis 14.04.2022"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-11T22:00:01.756Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/489673_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 489673
-      },
-      "description": [
-        {
-          "value": "B7 Kassel - Hessisch-Lichtenau\nzwischen Kaufungen und Helsa\nin beiden Richtungen Bauarbeiten, Fahrbahnverengung, maximale Fahrbahnbreite von 2,75 m, halbseitig gesperrt, bis 14.04.2022"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B7"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B7 Kassel Richtung Hessisch-Lichtenau zwischen Kaufungen und Helsa",
-        "streets": [
-          "B7"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-04-11T22:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-14T21:59:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 12.04.2022 bis 14.04.2022"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-11T22:00:01.756Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/489385_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 489385
-      },
-      "description": [
-        {
-          "value": "B27 Bad Hersfeld Richtung Fulda\nin Höhe Hünfeld-Süd\nWartungsarbeiten, Fahrbahnverengung, maximale Fahrbahnbreite von 3 m, bis 14.04.2022\n(Umleitungsempfehlung über die U7)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B27"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B27 Bad Hersfeld Richtung Fulda in Höhe Hünfeld-Süd",
-        "streets": [
-          "B27"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-04-10T22:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-14T21:59:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 11.04.2022 bis 14.04.2022"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-10T22:00:02.423Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/489388_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 489388
-      },
-      "description": [
-        {
-          "value": "B27 Fulda Richtung Bad Hersfeld\nin Höhe Hünfeld-Süd\nWartungsarbeiten, Fahrbahnverengung, maximale Fahrbahnbreite von 3 m, Verzögerungsstreifen gesperrt, Ausfahrt gesperrt, bis 14.04.2022\n(Umleitungsempfehlung über die U7)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B27"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B27 Fulda Richtung Bad Hersfeld in Höhe Hünfeld-Süd",
-        "streets": [
-          "B27"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-04-10T22:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-14T21:59:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 11.04.2022 bis 14.04.2022"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-10T22:00:02.423Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
@@ -10766,71 +10488,6 @@
     },
     {
       "ticId": {
-        "value": "LMS-HE/r_LMS-HE/175120_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 175121
-      },
-      "description": [
-        {
-          "value": "L3138 Gonterskirchen, Hauptstraße\nzwischen Marburger Straße und Mittelgasse\nin beiden Richtungen Baustelle, Richtungsfahrbahn gesperrt, eine Umleitung ist eingerichtet, bis 14.04.2022 Mitternacht"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3138"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Gonterskirchen, Hauptstraße zwischen Marburger Straße und Mittelgasse",
-        "streets": [
-          "L3138"
-        ]
-      },
-      "duration": {
-        "startTime": null,
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-14T21:59:00Z"
-        },
-        "name": "Dauer",
-        "description": "bis 14.04.2022 Mitternacht"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-01T04:35:51.644Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/441078_LMS-HE/54"
       },
       "dataProducer": {
@@ -11086,136 +10743,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-01T04:00:02.244Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/489387_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 489387
-      },
-      "description": [
-        {
-          "value": "Kreis Fulda, Fuldaer Straße\nzwischen B27, Hünfeld-Süd und Hünfeld\nWartungsarbeiten, Fahrbahnverengung, maximale Fahrbahnbreite von 3 m, bis 14.04.2022\n(Auffahrt auf die B27 in Fahrtrichtung Bad Hersfeld gesperrt, Umleitungsempfehlung über die U6)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3176"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Kreis Fulda, Fuldaer Straße zwischen B27, Hünfeld-Süd und Hünfeld",
-        "streets": [
-          "L3176"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-04-10T22:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-14T21:59:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 11.04.2022 bis 14.04.2022"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-10T22:00:02.423Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/489386_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 489386
-      },
-      "description": [
-        {
-          "value": "Kreis Fulda, Fuldaer Straße\nzwischen Hünfeld und B27, Hünfeld-Süd\nWartungsarbeiten, Fahrbahnverengung, maximale Fahrbahnbreite von 3 m, bis 14.04.2022\n(Auffahrt zur B27 in Fahrtrichtung Bad Hersfeld gesperrt, Umleitungsempfehlung über die U6)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3176"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Kreis Fulda, Fuldaer Straße zwischen Hünfeld und B27, Hünfeld-Süd",
-        "streets": [
-          "L3176"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-04-10T22:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-14T21:59:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 11.04.2022 bis 14.04.2022"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-10T22:00:02.423Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -13359,67 +12886,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/486347_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 486347
-      },
-      "description": [
-        {
-          "value": "Frankfurt, Schwanheimer Ufer\nzwischen Lyoner Straße und A5, Frankfurt-Niederrad\nBaustelle, rechter Fahrstreifen gesperrt, bis 14.04.2022 23:59 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": null
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Frankfurt, Schwanheimer Ufer zwischen Lyoner Straße und A5, Frankfurt-Niederrad",
-        "streets": null
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-13T23:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-14T21:59:59Z"
-        },
-        "name": "Dauer",
-        "description": "von 14.03.2022 00:00 Uhr bis 14.04.2022 23:59 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-01T12:50:41.647Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/481869_LMS-HE/54"
       },
       "dataProducer": {
@@ -13473,67 +12939,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-13T23:00:04.455Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/487259_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 487259
-      },
-      "description": [
-        {
-          "value": "Main-Kinzig-Kreis, Gronauer Straße\nzwischen Gronau und Niederdorfelden\nin beiden Richtungen Brückenarbeiten, Richtungsfahrbahn gesperrt, bis 14.04.2022 Mitternacht"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": null
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Main-Kinzig-Kreis, Gronauer Straße zwischen Gronau und Niederdorfelden",
-        "streets": null
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-04-03T22:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-14T21:59:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 04.04.2022 Mitternacht bis 14.04.2022 Mitternacht"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Arbeitsstelle"
-        }
-      ],
-      "masterEventCategory": "Sperrung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-04T22:00:01.371Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
