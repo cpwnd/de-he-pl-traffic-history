@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -913,17 +913,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/490409_LMS-HE/54"
+        "value": "LMS/r_LMS/490434_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 490409
+        "value": 490434
       },
       "description": [
         {
-          "value": "A4 Erfurt Richtung Bad Hersfeld\nzwischen Bad Hersfeld und Kirchheimer Dreieck\nGefahr besteht nicht mehr"
+          "value": "A4 Erfurt Richtung Bad Hersfeld\nzwischen Bad Hersfeld und Kirchheimer Dreieck\nUnfall, stockender Verkehr, Gasse für Rettungs- und Einsatzfahrzeuge bilden"
         }
       ],
       "location": {
@@ -949,17 +949,23 @@
       },
       "eventCategory": [
         {
-          "value": "Hindernis"
+          "value": "Unfall"
+        },
+        {
+          "value": "Stau"
+        },
+        {
+          "value": "Hinweis"
         }
       ],
-      "masterEventCategory": "Hindernis",
+      "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-14T10:59:07.439Z"
+        "value": "2022-04-14T11:22:37.34Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Geändert"
+        "value": "Neu"
       }
     },
     {
@@ -1149,60 +1155,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/490395_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490395
-      },
-      "description": [
-        {
-          "value": "A4 Bad Hersfeld Richtung Erfurt\nzwischen Bad Hersfeld und Friedewald\nUnfallstelle geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A4"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A4 Bad Hersfeld Richtung Erfurt zwischen Bad Hersfeld und Friedewald",
-        "streets": [
-          "A4"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Stau"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-14T11:10:31.435Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -1779,6 +1731,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-28T20:00:01.686Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/490430_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490430
+      },
+      "description": [
+        {
+          "value": "A7 Kassel Richtung Fulda\nzwischen Bad Hersfeld-West und Kirchheimer Dreieck\nUnfall auf dem mittleren Fahrstreifen, mittlerer Fahrstreifen blockiert, Standstreifen blockiert"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Kassel Richtung Fulda zwischen Bad Hersfeld-West und Kirchheimer Dreieck",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-14T11:15:09.887Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6599,7 +6605,7 @@
       },
       "description": [
         {
-          "value": "B49, B54 Limburg Richtung Gießen\nzwischen A3, Limburg-Nord und Runkel\nGefahr durch verlorene Ladung (Holz)"
+          "value": "B49, B54 Limburg Richtung Gießen\nzwischen A3, Limburg-Nord und Runkel\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -6622,7 +6628,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -6632,11 +6638,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-14T11:11:53.447Z"
+        "value": "2022-04-14T11:27:48.645Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -10565,7 +10571,7 @@
       },
       "description": [
         {
-          "value": "L3053 Hermannstein, Hermannsteiner Straße\nzwischen Ortseingang und Wetzlarer Straße\nin beiden Richtungen Unfall, Richtungsfahrbahn gesperrt"
+          "value": "L3053 Hermannstein, Hermannsteiner Straße\nzwischen Ortseingang und Wetzlarer Straße\nin beiden Richtungen Unfallstelle geräumt"
         }
       ],
       "location": {
@@ -10600,11 +10606,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-14T10:16:28.386Z"
+        "value": "2022-04-14T11:24:43.495Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
