@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -457,6 +457,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/490439_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490439
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt - Köln\nzwischen Frankfurt am Main-Süd und Frankfurter Kreuz\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Köln zwischen Frankfurt am Main-Süd und Frankfurter Kreuz",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-14T11:41:31.342Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -1749,7 +1800,7 @@
       },
       "description": [
         {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Bad Hersfeld-West und Kirchheimer Dreieck\nUnfall auf dem mittleren Fahrstreifen, mittlerer Fahrstreifen blockiert, Standstreifen blockiert"
+          "value": "A7 Kassel Richtung Fulda\nzwischen Bad Hersfeld-West und Kirchheimer Dreieck\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -1784,11 +1835,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-14T11:15:09.887Z"
+        "value": "2022-04-14T11:38:31.471Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3701,7 +3752,7 @@
       },
       "description": [
         {
-          "value": "A67 Mannheim Richtung Darmstadt\nzwischen Gernsheim und Pfungstadt\nUnfallaufnahme, Standstreifen blockiert, rechter Fahrstreifen gesperrt"
+          "value": "A67 Mannheim Richtung Darmstadt\nzwischen Gernsheim und Pfungstadt\nVerkehrsstörung besteht nicht mehr"
         }
       ],
       "location": {
@@ -3727,16 +3778,16 @@
       },
       "eventCategory": [
         {
-          "value": "Störung"
+          "value": "Unfall"
         },
         {
-          "value": "Sperrung"
+          "value": "Stau"
         }
       ],
-      "masterEventCategory": "Störung",
+      "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-14T10:47:13.013Z"
+        "value": "2022-04-14T11:39:18.934Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6591,58 +6642,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/490428_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490428
-      },
-      "description": [
-        {
-          "value": "B49, B54 Limburg Richtung Gießen\nzwischen A3, Limburg-Nord und Runkel\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B49, B54"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B49, B54 Limburg Richtung Gießen zwischen A3, Limburg-Nord und Runkel",
-        "streets": [
-          "B49",
-          "B54"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-14T11:27:48.645Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -10553,60 +10552,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-25T23:02:10.851Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/490410_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490410
-      },
-      "description": [
-        {
-          "value": "L3053 Hermannstein, Hermannsteiner Straße\nzwischen Ortseingang und Wetzlarer Straße\nin beiden Richtungen Unfallstelle geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3053"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Hermannstein, Hermannsteiner Straße zwischen Ortseingang und Wetzlarer Straße",
-        "streets": [
-          "L3053"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-14T11:24:43.495Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
