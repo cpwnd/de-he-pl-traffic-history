@@ -406,7 +406,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Bad Camberg und Idstein\ndefekter LKW auf dem Standstreifen"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Bad Camberg und Idstein\nalle Fahrbahnen wieder frei"
         }
       ],
       "location": {
@@ -438,7 +438,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-14T06:39:17.429Z"
+        "value": "2022-04-14T08:11:04.496Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1290,7 +1290,7 @@
       },
       "description": [
         {
-          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Zeppelinheim und Frankfurter Kreuz\nUnfall auf dem rechten Fahrstreifen im Baustellenbereich"
+          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Zeppelinheim und Frankfurter Kreuz\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -1322,11 +1322,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-14T07:23:43.147Z"
+        "value": "2022-04-14T08:08:41.971Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1849,6 +1849,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/490364_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490364
+      },
+      "description": [
+        {
+          "value": "A7 Hannover Richtung Kassel\nzwischen Kassel-Ost und Kreuz Kassel-Mitte\nGefahr besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Hannover Richtung Kassel zwischen Kassel-Ost und Kreuz Kassel-Mitte",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-14T08:16:10.741Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/468285_LMS-HE/54"
       },
       "dataProducer": {
@@ -1924,7 +1975,7 @@
       },
       "description": [
         {
-          "value": "A7 Fulda Richtung Kassel\nzwischen Fulda-Mitte und Fulda-Nord\nUnfall mit LKW, umgestürzter LKW vor der Baustelle, Richtungsfahrbahn gesperrt, Gasse für Rettungs- und Einsatzfahrzeuge bilden"
+          "value": "A7 Fulda Richtung Kassel\nzwischen Fulda-Mitte und Fulda-Nord\nUnfall mit LKW, umgestürzter LKW vor der Baustelle, Richtungsfahrbahn gesperrt"
         }
       ],
       "location": {
@@ -1954,15 +2005,12 @@
         },
         {
           "value": "Sperrung"
-        },
-        {
-          "value": "Hinweis"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-14T06:54:05.659Z"
+        "value": "2022-04-14T08:10:26.699Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4256,57 +4304,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/490360_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490360
-      },
-      "description": [
-        {
-          "value": "A671 Mainz - Wiesbaden\nzwischen Mainz-Kastel und Wiesbaden-Amöneburg\nin beiden Richtungen Gefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A671"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A671 Mainz Richtung Wiesbaden zwischen Mainz-Kastel und Wiesbaden-Amöneburg",
-        "streets": [
-          "A671"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-14T07:34:27.829Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/487319_LMS-HE/54"
       },
       "dataProducer": {
@@ -6575,66 +6572,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-25T03:58:34.243Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/490328_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490328
-      },
-      "description": [
-        {
-          "value": "B62 Marburg - Biedenkopf\nzwischen Abzweig nach Kombach und Eckelshausen\nin beiden Richtungen Unfallstelle geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B62"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B62 Marburg Richtung Biedenkopf zwischen Abzweig nach Kombach und Eckelshausen",
-        "streets": [
-          "B62"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Information"
-        },
-        {
-          "value": "Arbeitsstelle"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-14T07:42:24.608Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
