@@ -136,6 +136,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/490313_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490313
+      },
+      "description": [
+        {
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Bad Camberg und Ausfahrt Idstein\nGefahr durch ein totes Tier auf dem Verzögerungsstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Frankfurt zwischen Bad Camberg und Ausfahrt Idstein",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-14T03:59:27.683Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/462180_LMS-HE/54"
       },
       "dataProducer": {
@@ -4221,6 +4272,63 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/490312_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490312
+      },
+      "description": [
+        {
+          "value": "B3 Kassel, Ihringshäuser Straße\nzwischen Fuldatalstraße und Kaulbachstraße\nWasserrohrbruch, Richtungsfahrbahn gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren\n(Fahrbahn steht unter Wasser - Sperrung dauert länger)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B3 Kassel, Ihringshäuser Straße zwischen Fuldatalstraße und Kaulbachstraße",
+        "streets": [
+          "B3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-14T03:57:11.995Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_D__HE_FFM-IGLZ/210823237649_LMS-HE/54"
       },
       "dataProducer": {
@@ -4679,6 +4787,68 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-11T05:00:02.327Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/490316_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490316
+      },
+      "description": [
+        {
+          "value": "B37 Heidelberg - Mosbach\nzwischen Kleingemünd und Neckarsteinach\nin beiden Richtungen Bauarbeiten, vorübergehende Begrenzung der Fahrbahnbreite auf 3 m, bis 02.09.2022 20:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B37"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B37 Heidelberg Richtung Mosbach zwischen Kleingemünd und Neckarsteinach",
+        "streets": [
+          "B37"
+        ]
+      },
+      "duration": {
+        "startTime": null,
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-09-02T18:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "bis 02.09.2022 20:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-14T04:09:49.47Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6846,6 +7016,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-07T05:00:01.4Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/490319_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490319
+      },
+      "description": [
+        {
+          "value": "B458 Hilders Richtung Fulda\nzwischen Abzweig nach Tränkhof und Poppenhausen/Wasserkuppe-Steinwand\nGefahr durch ein totes Tier (Reh) auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B458"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B458 Hilders Richtung Fulda zwischen Abzweig nach Tränkhof und Poppenhausen/Wasserkuppe-Steinwand",
+        "streets": [
+          "B458"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-14T04:18:47.76Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -9850,6 +10071,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/490318_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490318
+      },
+      "description": [
+        {
+          "value": "L3017 Flörsheim Richtung Eppstein\nzwischen Abzweig nach Breckenheim und L3018/L3017\nGefahr durch ein totes Tier auf der Fahrbahn\n(evtl. ein Dachs)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3017"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Wiesbaden, L3017 zwischen Abzweig nach Breckenheim und L3018/L3017",
+        "streets": [
+          "L3017"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-14T04:15:45.377Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
