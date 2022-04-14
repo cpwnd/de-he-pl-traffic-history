@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -132,57 +132,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/490313_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490313
-      },
-      "description": [
-        {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Bad Camberg und Ausfahrt Idstein\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Köln Richtung Frankfurt zwischen Bad Camberg und Ausfahrt Idstein",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-14T04:32:28.254Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -508,7 +457,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Würzburg\nEinfahrt Offenbach\nDauerbaustelle, der Umleitungsbeschilderung folgen, Einfahrt gesperrt, bis 19.04.2022 05:00 Uhr\n(der Verkehr wird über das Offenbacher Kreuz geleitet.)"
+          "value": "A3 Frankfurt Richtung Würzburg\nEinfahrt Offenbach\nDauerbaustelle, der Umleitungsbeschilderung folgen, Einfahrt gesperrt, bis 03.05.2022 22:00 Uhr\n(der Verkehr wird über das Offenbacher Kreuz geleitet.)"
         }
       ],
       "location": {
@@ -531,10 +480,10 @@
         "startTime": null,
         "endTime": {
           "name": "Endzeit",
-          "value": "2022-04-19T03:00:00Z"
+          "value": "2022-05-03T20:00:00Z"
         },
         "name": "Dauer",
-        "description": "bis 19.04.2022 05:00 Uhr"
+        "description": "bis 03.05.2022 22:00 Uhr"
       },
       "urgency": {
         "name": "Dringlichkeit",
@@ -554,7 +503,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-10T11:11:40.484Z"
+        "value": "2022-04-14T04:47:43.564Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6647,7 +6596,7 @@
       },
       "description": [
         {
-          "value": "B62, K16 zwischen Kombach und Eckelshausen\nin beiden Richtungen Unfall, Richtungsfahrbahn gesperrt, Rettungsfahrzeuge im Einsatz"
+          "value": "B62 Marburg - Biedenkopf\nzwischen Abzweig nach Kombach und Eckelshausen\nin beiden Richtungen Unfall, Richtungsfahrbahn gesperrt, Rettungsfahrzeuge im Einsatz, empfohlene Umleitungen: Richtung Marburg über Eckelshausen, B453, Wolfgruben, Dautphe und Friedensdorf, Richtung Biedenkopf über Friedensdorf, Dautphe, B453, Wolfgruben und Eckelshausen"
         }
       ],
       "location": {
@@ -6661,7 +6610,7 @@
           }
         ],
         "name": "Ort",
-        "description": "B62 Richtung Biedenkopf zwischen Kombach und Eckelshausen",
+        "description": "B62 Marburg Richtung Biedenkopf zwischen Abzweig nach Kombach und Eckelshausen",
         "streets": [
           "B62"
         ]
@@ -6685,11 +6634,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-14T04:39:04.394Z"
+        "value": "2022-04-14T04:40:38.123Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -11579,6 +11528,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-14T09:08:26.473Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/490331_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490331
+      },
+      "description": [
+        {
+          "value": "L3205 Maintal-Bischofsheim - Bad Homburg\nzwischen Abzweig nach Ober-Erlenbach und Bad Homburg vor der Höhe\nin beiden Richtungen 2 freilaufende Tiere (Pferde)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3205"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Hochtaunuskreis, L3205 zwischen Abzweig nach Ober-Erlenbach und Bad Homburg vor der Höhe",
+        "streets": [
+          "L3205"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-14T04:44:23.941Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
