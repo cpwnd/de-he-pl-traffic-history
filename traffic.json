@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -392,57 +392,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/490624_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490624
-      },
-      "description": [
-        {
-          "value": "A3 Köln - Frankfurt\nzwischen Limburg-Süd und Bad Camberg\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Köln Richtung Frankfurt zwischen Limburg-Süd und Bad Camberg",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-15T05:12:30.52Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
@@ -5658,7 +5607,7 @@
       },
       "description": [
         {
-          "value": "B49 Gießen Richtung Limburg\nzwischen Beselich-Obertiefenbach-West und B54, Hadamar\nGefahr durch ungesicherte Unfallstelle, Gefahr durch Fahrzeugteile auf der Fahrbahn, Polizei ist benachrichtigt, bitte vorsichtig fahren\n(Trümmerteile liegen auch auf drm Fahrstreifen der Gegenfahrbahn)"
+          "value": "B49 Gießen Richtung Limburg\nzwischen Beselich-Obertiefenbach-West und B54, Hadamar\nGefahr durch Fahrzeugteile auf der Fahrbahn, Unfall, Richtungsfahrbahn gesperrt\n(Trümmerteile liegen auch auf drm Fahrstreifen der Gegenfahrbahn)"
         }
       ],
       "location": {
@@ -5684,26 +5633,23 @@
       },
       "eventCategory": [
         {
-          "value": "Unfall"
-        },
-        {
           "value": "Hindernis"
         },
         {
-          "value": "Information"
+          "value": "Unfall"
         },
         {
-          "value": "Hinweis"
+          "value": "Sperrung"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-15T05:42:39.511Z"
+        "value": "2022-04-15T05:53:32.814Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -9821,6 +9767,58 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-04T04:00:03.29Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/490629_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490629
+      },
+      "description": [
+        {
+          "value": "L3094, L3482 Groß-Gerau - Bischofsheim\nzwischen Groß-Gerau und Rüsselsheim-Bauschheim\nin beiden Richtungen Gefahr durch mehrere Rinder auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3094, L3482"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "L3094, L3482 Groß-Gerau Richtung Bischofsheim zwischen Groß-Gerau und Rüsselsheim-Bauschheim",
+        "streets": [
+          "L3094",
+          "L3482"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-15T06:00:13.325Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
