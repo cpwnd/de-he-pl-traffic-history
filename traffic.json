@@ -1747,6 +1747,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/490644_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490644
+      },
+      "description": [
+        {
+          "value": "A7 Hannover - Kassel\nzwischen Kassel-Nord und Kreuz Kassel-Mitte\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Hannover Richtung Kassel zwischen Kassel-Nord und Kreuz Kassel-Mitte",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-15T08:16:02.47Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/468285_LMS-HE/54"
       },
       "dataProducer": {
@@ -4097,57 +4148,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/490637_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490637
-      },
-      "description": [
-        {
-          "value": "A671 Mainz - Wiesbaden\nzwischen Hochheim-Süd und Hochheim-Nord\nin beiden Richtungen Straße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A671"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A671 Mainz Richtung Wiesbaden zwischen Hochheim-Süd und Hochheim-Nord",
-        "streets": [
-          "A671"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-15T07:34:03.913Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/487319_LMS-HE/54"
       },
       "dataProducer": {
@@ -5658,7 +5658,7 @@
       },
       "description": [
         {
-          "value": "B49 Gießen Richtung Limburg\nzwischen Beselich-Obertiefenbach-West und B54, Hadamar\nGefahr durch Fahrzeugteile auf der Fahrbahn, Unfall, Richtungsfahrbahn gesperrt"
+          "value": "B49 Gießen Richtung Limburg\nzwischen Beselich-Obertiefenbach-West und B54, Hadamar\nUnfall, Richtungsfahrbahn gesperrt, Reinigungsarbeiten"
         }
       ],
       "location": {
@@ -5680,23 +5680,23 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
-        {
-          "value": "Hindernis"
-        },
         {
           "value": "Unfall"
         },
         {
           "value": "Sperrung"
+        },
+        {
+          "value": "Störung"
         }
       ],
-      "masterEventCategory": "Hindernis",
+      "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-15T06:25:01.169Z"
+        "value": "2022-04-15T08:04:22.9Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6224,6 +6224,63 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-04T04:00:03.29Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/490643_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490643
+      },
+      "description": [
+        {
+          "value": "B249 Eschwege-Niederhone - Sondershausen\nzwischen Grebendorf und Schwebda\nin beiden Richtungen Unfall mit Verletzten, Rettungshubschrauber im Einsatz, Aufforderung für ortskundige Autofahrer, das Gebiet weiträumig zu umfahren, aufgehoben"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B249"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B249 Eschwege-Niederhone Richtung Sondershausen zwischen Grebendorf und Schwebda",
+        "streets": [
+          "B249"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Information"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-15T08:14:00.748Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -10013,58 +10070,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-04T04:00:03.29Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/490629_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490629
-      },
-      "description": [
-        {
-          "value": "L3094, L3482 Groß-Gerau - Bischofsheim\nzwischen Groß-Gerau und Rüsselsheim-Bauschheim\nin beiden Richtungen Gefahr durch mehrere Rinder auf der Fahrbahn"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3094, L3482"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "L3094, L3482 Groß-Gerau Richtung Bischofsheim zwischen Groß-Gerau und Rüsselsheim-Bauschheim",
-        "streets": [
-          "L3094",
-          "L3482"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-15T06:00:13.325Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
