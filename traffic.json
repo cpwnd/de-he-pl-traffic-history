@@ -1102,108 +1102,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/490850_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490850
-      },
-      "description": [
-        {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Urselbachtalbrücke und Bad Homburger Kreuz\nStraße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Frankfurt Richtung Kassel zwischen Urselbachtalbrücke und Bad Homburger Kreuz",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-16T13:21:22.244Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/490852_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490852
-      },
-      "description": [
-        {
-          "value": "A5 Frankfurt Richtung Darmstadt\nzwischen Langen/Mörfelden und Weiterstadt\nalle Unfallstellen geräumt, keine Verkehrsbehinderung mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Frankfurt Richtung Darmstadt zwischen Langen/Mörfelden und Weiterstadt",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-16T13:14:36.942Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/338932_LMS-HE/54"
       },
       "dataProducer": {
@@ -10613,6 +10511,66 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-11T04:00:02.585Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/490856_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490856
+      },
+      "description": [
+        {
+          "value": "L3410 Hirschhorn Richtung Beerfelden\nzwischen Rothenberg und Beerfelden\nUnfall, Bergungsarbeiten, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, Vollsperrung, empfohlene Umleitung: Richtung Beerfelden über Rothenberg, Unter-Finkenbach und Ober-Finkenbach"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3410"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Odenwaldkreis, L3410 zwischen Rothenberg und Beerfelden",
+        "streets": [
+          "L3410"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Hinweis"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-16T13:34:39.979Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
