@@ -6397,7 +6397,7 @@
       },
       "description": [
         {
-          "value": "B455 Königstein Richtung Mainz-Kastel\nin Höhe Wiesbaden-Naurod\nGefahr durch 1 ungesicherte Unfallstelle hinter einer Kuppe"
+          "value": "B455 Königstein Richtung Mainz-Kastel\nin Höhe Wiesbaden-Naurod\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -6419,7 +6419,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -6429,11 +6429,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-16T20:02:14.627Z"
+        "value": "2022-04-16T20:27:13.711Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -10692,6 +10692,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-11T04:00:02.585Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/490912_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490912
+      },
+      "description": [
+        {
+          "value": "L3369 Ölmühlweg\nzwischen Königstein im Taunus und Ruppertshain\nGefahr durch ein totes Tier auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3369"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Hochtaunuskreis, Ölmühlweg zwischen Königstein im Taunus und Ruppertshain",
+        "streets": [
+          "L3369"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-16T20:16:35.666Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
