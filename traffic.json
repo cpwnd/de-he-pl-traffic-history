@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -6379,6 +6379,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-07T05:00:01.4Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/490911_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490911
+      },
+      "description": [
+        {
+          "value": "B455 Königstein Richtung Mainz-Kastel\nin Höhe Wiesbaden-Naurod\nGefahr durch 1 ungesicherte Unfallstelle hinter einer Kuppe"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B455"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B455 Königstein Richtung Mainz-Kastel in Höhe Wiesbaden-Naurod",
+        "streets": [
+          "B455"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-16T20:02:14.627Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
