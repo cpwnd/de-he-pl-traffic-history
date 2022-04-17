@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -2519,7 +2519,7 @@
       },
       "description": [
         {
-          "value": "A45 Aschaffenburg Richtung Gießen\nzwischen Altenstadt und Florstadt\nUnfall, Gefahr durch ein totes Tier auf der Fahrbahn, bitte vorsichtig fahren"
+          "value": "A45 Aschaffenburg Richtung Gießen\nzwischen Altenstadt und Florstadt\nUnfall, Gefahr durch verschmutzte Fahrbahn, bitte vorsichtig fahren"
         }
       ],
       "location": {
@@ -2545,19 +2545,19 @@
       },
       "eventCategory": [
         {
-          "value": "Hindernis"
+          "value": "Unfall"
         },
         {
           "value": "Hinweis"
         },
         {
-          "value": "Unfall"
+          "value": "Straßenzustand"
         }
       ],
-      "masterEventCategory": "Hindernis",
+      "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-17T21:22:05.377Z"
+        "value": "2022-04-17T22:10:01.906Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -8009,6 +8009,71 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/491083_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491083
+      },
+      "description": [
+        {
+          "value": "Frankfurt, K810\nzwischen Hügelstraße in Frankfurt und Nassauer Straße\nBaustelle, rechter Fahrstreifen gesperrt, bis 29.04.2022 23:59 Uhr\nEschersheim, Am Weißen Stein, aufgrund von Arbeiten an Versorgungsleitungen Teilsperrung der Fahrbahn, Teilsperrung der Radwege, Teilsperrung der Gehwege vom 18.04.2022 bis 29.04.2022."
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K810"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, K810 zwischen Hügelstraße in Frankfurt und Nassauer Straße",
+        "streets": [
+          "K810"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-17T22:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-29T21:59:59Z"
+        },
+        "name": "Dauer",
+        "description": "von 18.04.2022 00:00 Uhr bis 29.04.2022 23:59 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-17T22:00:02.7Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/471142_LMS-HE/54"
       },
       "dataProducer": {
@@ -11971,6 +12036,67 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-12T07:06:33.554Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_D__HE_FFM-IGLZ/210825769970_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490284
+      },
+      "description": [
+        {
+          "value": "Frankfurt, Tannenkopfweg bis Straßburger Straße\nzwischen An der Herrenwiese und Lyoner Straße\nBaustelle, Fahrbahnverengung, Arbeiten an Wasserleitungen, von 18.04.2022 00:00 Uhr bis 14.05.2022 23:59 Uhr\nSchwanheim, Straßburger Straße 21, aufgrund von Arbeiten an Wasserleitungen Teilsperrung der Fahrbahn, Vollsperrung der Gehwege vom 18.04.2022 bis 14.05.2022."
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": null
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, Tannenkopfweg bis Straßburger Straße zwischen An der Herrenwiese und Lyoner Straße",
+        "streets": null
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-17T22:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-05-14T21:59:59Z"
+        },
+        "name": "Dauer",
+        "description": "von 18.04.2022 00:00 Uhr bis 14.05.2022 23:59 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-13T22:11:38.614Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
