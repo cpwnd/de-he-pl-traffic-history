@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -132,6 +132,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/490963_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490963
+      },
+      "description": [
+        {
+          "value": "A3 Köln - Frankfurt\nzwischen Mönchhof-Dreieck und Frankfurt am Main-Flughafen\nin beiden Richtungen bitte vorsichtig fahren, Gefahr, Verkehrsbehinderung"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Frankfurt zwischen Mönchhof-Dreieck und Frankfurt am Main-Flughafen",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hinweis"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Hinweis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-17T09:16:25.758Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -10804,6 +10858,51 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/490959_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490959
+      },
+      "description": [
+        {
+          "value": "Frankfurt\nVermisstenfahndung\n( Seit dem gestrigen Ostersamstag, 16.04.2022 gg. 19:30 Uhr wird der 69-jährige Francis Anthony MANNING aus Frankfurt vermisst.\nHerr Manning ist nicht orientiert und benötigt Hilfe.\nEr wird wie folgt beschrieben: 190cm groß, schlank, graue Haare, grauer Bart, grauer Schnauzer. \nEr ist wie folgt bekleidet: schwarze Jacke, schwarze Turnschuhe mit blauen Streifen, schwarzes \"Guinness\"-Base Cap.\nHerr M. führt ein blaues Fahrrad und einen schwarzen \"Eastpack\" Beutel mit sich.\nBei Antreffen bitte Nachricht an die Polizei in Frankfurt oder den Notruf der Polizei unter der Nr.: 110. )"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": null
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt",
+        "streets": null
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Information"
+        }
+      ],
+      "masterEventCategory": "Information",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-17T08:47:46.625Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
