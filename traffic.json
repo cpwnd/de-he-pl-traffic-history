@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -5191,6 +5191,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/490953_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490953
+      },
+      "description": [
+        {
+          "value": "B43A Hanauer Kreuz - Obertshausen\nzwischen Hanau-Steinheim und Überleitung B45, Hanau-Klein-Auheim\nin beiden Richtungen 2 größere Tiere (Hunde) auf der Fahrbahn\n(Windhunde)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B43A"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B43A Hanauer Kreuz Richtung Obertshausen zwischen Hanau-Steinheim und Überleitung B45, Hanau-Klein-Auheim",
+        "streets": [
+          "B43A"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-17T07:29:12.045Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_D__HE_FFM-IGLZ/210824671626_LMS-HE/54"
       },
       "dataProducer": {
@@ -6249,6 +6300,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-04T04:00:03.29Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/490954_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490954
+      },
+      "description": [
+        {
+          "value": "B255, K72 Herborn - Rennerod\nzwischen Abzweig nach Schönbach und Abzweig nach Gusternhain\nin beiden Richtungen freilaufende Tiere (Rinder)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B255"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B255 Herborn Richtung Rennerod zwischen Abzweig nach Schönbach und Abzweig nach Gusternhain",
+        "streets": [
+          "B255"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-17T07:36:02.189Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
