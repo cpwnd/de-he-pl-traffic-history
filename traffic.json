@@ -1102,6 +1102,63 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/491031_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491031
+      },
+      "description": [
+        {
+          "value": "A4 Bad Hersfeld Richtung Erfurt\nzwischen Wildeck-Hönebach und Wildeck-Obersuhl\nGefahr durch ungesicherte Unfallstelle auf dem rechten Fahrstreifen hinter einer Kuppe, rechter Fahrstreifen blockiert, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A4"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A4 Bad Hersfeld Richtung Erfurt zwischen Wildeck-Hönebach und Wildeck-Obersuhl",
+        "streets": [
+          "A4"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hinweis"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-17T15:06:01.682Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/338932_LMS-HE/54"
       },
       "dataProducer": {
@@ -1221,6 +1278,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-28T13:39:39.318Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/491027_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491027
+      },
+      "description": [
+        {
+          "value": "A5 Frankfurt - Kassel\nzwischen Nordwestkreuz Frankfurt und Bad Homburger Kreuz\nin beiden Richtungen Gefahr besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Frankfurt Richtung Kassel zwischen Nordwestkreuz Frankfurt und Bad Homburger Kreuz",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-17T15:07:02.268Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
