@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -1822,7 +1822,7 @@
       },
       "description": [
         {
-          "value": "A7 Fulda Richtung Kassel\nzwischen Fulda-Mitte und Fulda-Nord\nGefahr durch ungesicherte Unfallstelle, bitte vorsichtig fahren"
+          "value": "A7 Fulda Richtung Kassel\nzwischen Fulda-Mitte und Fulda-Nord\nUnfallaufnahme, Bergungsarbeiten, rechter Fahrstreifen blockiert"
         }
       ],
       "location": {
@@ -1844,24 +1844,24 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Störung"
         },
         {
-          "value": "Hinweis"
+          "value": "Arbeitsstelle"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-17T12:15:31.615Z"
+        "value": "2022-04-17T12:38:26.453Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3522,7 +3522,7 @@
       },
       "description": [
         {
-          "value": "A67 Darmstadt - Mannheim\nzwischen Gernsheim und Lorsch\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
+          "value": "A67 Darmstadt Richtung Mannheim\nzwischen Gernsheim und Lorsch\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -3544,21 +3544,27 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
           "value": "Hindernis"
+        },
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
         }
       ],
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-17T11:32:56.062Z"
+        "value": "2022-04-17T12:56:58.057Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
