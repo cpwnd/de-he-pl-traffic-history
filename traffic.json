@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -536,7 +536,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Bad Camberg und Limburg-Süd\nGefahr durch defektes Fahrzeug auf dem rechten Fahrstreifen im Baustellenbereich"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Bad Camberg und Limburg-Süd\nStraße wieder frei"
         }
       ],
       "location": {
@@ -558,7 +558,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -568,11 +568,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-18T04:53:16.037Z"
+        "value": "2022-04-18T06:08:24.428Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -638,6 +638,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/491121_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491121
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Limburg-Nord und Diez\n1 angefahrenes Tier (Reh) auf dem rechten Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Köln zwischen Limburg-Nord und Diez",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-18T06:13:52.806Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
