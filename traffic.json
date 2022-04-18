@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -406,7 +406,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbaden/Niedernhausen und Wiesbadener Kreuz\nStaugefahr, defekter PKW"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbaden/Niedernhausen und Wiesbadener Kreuz\nStaugefahr, Staulänge zunehmend, Unfallaufnahme"
         }
       ],
       "location": {
@@ -435,13 +435,13 @@
           "value": "Stau"
         },
         {
-          "value": "Hindernis"
+          "value": "Störung"
         }
       ],
       "masterEventCategory": "Stau",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-18T13:59:52.609Z"
+        "value": "2022-04-18T14:38:49.377Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1326,60 +1326,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-18T12:21:44.489Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/491202_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 491202
-      },
-      "description": [
-        {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Alsfeld-West und Alsfeld-Ost\nVerkehrsstörung besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Frankfurt Richtung Kassel zwischen Alsfeld-West und Alsfeld-Ost",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Stau"
-        },
-        {
-          "value": "Unfall"
-        }
-      ],
-      "masterEventCategory": "Stau",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-18T14:16:08.659Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2286,60 +2232,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/491207_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 491207
-      },
-      "description": [
-        {
-          "value": "A7 Fulda Richtung Kassel\nzwischen Kirchheimer Dreieck und Bad Hersfeld-West\nUnfallstelle geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A7"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A7 Fulda Richtung Kassel zwischen Kirchheimer Dreieck und Bad Hersfeld-West",
-        "streets": [
-          "A7"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-18T14:18:18.719Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -4357,6 +4249,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/491226_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491226
+      },
+      "description": [
+        {
+          "value": "A671 Wiesbaden - Mainz\nzwischen Hochheim-Nord und Hochheim-Süd\nin beiden Richtungen Personen auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A671"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A671 Wiesbaden Richtung Mainz zwischen Hochheim-Nord und Hochheim-Süd",
+        "streets": [
+          "A671"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-18T14:41:36.039Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
