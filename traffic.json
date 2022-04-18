@@ -5087,71 +5087,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/481871_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 481871
-      },
-      "description": [
-        {
-          "value": "B43 Hanau - Frankfurt\nzwischen Wolfgang und Hanau Anschluss B8\nin beiden Richtungen Bauarbeiten, vorübergehende Begrenzung der Fahrbahnbreite auf 3,25 m, bis 18.04.2022 Mitternacht"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B43"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B43 Hanau Richtung Frankfurt zwischen Wolfgang und Hanau Anschluss B8",
-        "streets": [
-          "B43"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-13T23:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-18T21:59:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 14.03.2022 Mitternacht bis 18.04.2022 Mitternacht"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Beschränkung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-13T23:00:04.455Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_D__HE_FFM-IGLZ/210824671496_LMS-HE/54"
       },
       "dataProducer": {
@@ -8429,6 +8364,136 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-14T09:16:21.938Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/491294_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491294
+      },
+      "description": [
+        {
+          "value": "Frankfurt, Ginnheimer Landstraße\nzwischen Frankfurt und Rosa-Luxemburg Straße\nBaustelle, gesperrt, bis 22.04.2022 23:59 Uhr\nGinnheim, Ginnheimer Landstraße, Abbiegespur Platenstraße, aufgrund von Baustelleneinrichtungs- und Lagerfläche Vollsperrung der Fahrbahn (Abbiegefahrstreifen rechts), Teilsperrung der Fahrbahn vom 19.04.2022 bis 22.04.2022."
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K809"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, Ginnheimer Landstraße zwischen Frankfurt und Rosa-Luxemburg Straße",
+        "streets": [
+          "K809"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-18T22:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-22T21:59:59Z"
+        },
+        "name": "Dauer",
+        "description": "von 19.04.2022 00:00 Uhr bis 22.04.2022 23:59 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-18T22:00:01.307Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_D__HE_FFM-IGLZ/210823650675_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490161
+      },
+      "description": [
+        {
+          "value": "K809 Frankfurt, Ginnheimer Landstraße\nzwischen Frankfurt und Rosa-Luxemburg Straße\nBaustelle, gesperrt, von 19.04.2022 00:00 Uhr bis 22.04.2022 23:59 Uhr\nGinnheim, Ginnheimer Landstraße, Abbiegespur Platenstraße, aufgrund von Baustelleneinrichtungs- und Lagerfläche Vollsperrung der Fahrbahn (Abbiegefahrstreifen rechts), Teilsperrung der Fahrbahn vom 19.04.2022 bis 22.04.2022."
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K809"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, Ginnheimer Landstraße zwischen Frankfurt und Rosa-Luxemburg Straße",
+        "streets": [
+          "K809"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-18T22:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-22T21:59:59Z"
+        },
+        "name": "Dauer",
+        "description": "von 19.04.2022 00:00 Uhr bis 22.04.2022 23:59 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-13T13:30:43.804Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
