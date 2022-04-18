@@ -1283,6 +1283,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/491164_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491164
+      },
+      "description": [
+        {
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Frankfurt am Main-Westhafen und Westkreuz Frankfurt\nUnfall, Standstreifen blockiert"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Frankfurt Richtung Kassel zwischen Frankfurt am Main-Westhafen und Westkreuz Frankfurt",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-18T10:40:17.68Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/335177_LMS-HE/54"
       },
       "dataProducer": {
@@ -2246,7 +2300,7 @@
       },
       "description": [
         {
-          "value": "A7 Fulda Richtung Kassel\nzwischen Bad Hersfeld-West und Homberg (Efze)\nGefahr durch ungesicherte Unfallstelle, Gefahr durch Fahrzeugteile auf der Fahrbahn"
+          "value": "A7 Fulda Richtung Kassel\nzwischen Bad Hersfeld-West und Homberg (Efze)\nUnfallaufnahme, Gefahr"
         }
       ],
       "location": {
@@ -2272,20 +2326,17 @@
       },
       "eventCategory": [
         {
-          "value": "Unfall"
-        },
-        {
-          "value": "Hindernis"
+          "value": "Störung"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-18T10:20:28.686Z"
+        "value": "2022-04-18T10:47:50.438Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2492,7 +2543,7 @@
       },
       "description": [
         {
-          "value": "A45 Gießen Richtung Aschaffenburg\nzwischen Altenstadt und Hammersbach\nGefahr durch Gegenstände auf der Fahrbahn (ein Metallteil)"
+          "value": "A45 Gießen Richtung Aschaffenburg\nzwischen Altenstadt und Hammersbach\nHindernisse beseitigt"
         }
       ],
       "location": {
@@ -2514,7 +2565,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2524,11 +2575,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-18T10:28:56.415Z"
+        "value": "2022-04-18T10:48:10.476Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
