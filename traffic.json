@@ -523,6 +523,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/491580_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491580
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Raunheim und Wiesbadener Kreuz\nUnfall auf dem mittleren Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Köln zwischen Raunheim und Wiesbadener Kreuz",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-19T18:28:08.294Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/491467_LMS-HE/54"
       },
       "dataProducer": {
@@ -1426,7 +1477,7 @@
       },
       "description": [
         {
-          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Frankfurt am Main-Flughafen-Nord und Frankfurt-Niederrad\nRichtungsfahrbahn gesperrt, Rettungsfahrzeuge im Einsatz, Rettungshubschrauber im Einsatz"
+          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Frankfurt am Main-Flughafen-Nord und Frankfurt-Niederrad\nUnfall auf dem rechten Fahrstreifen und dem Standstreifen"
         }
       ],
       "location": {
@@ -1452,20 +1503,17 @@
       },
       "eventCategory": [
         {
-          "value": "Information"
-        },
-        {
-          "value": "Sperrung"
+          "value": "Unfall"
         }
       ],
-      "masterEventCategory": "Information",
+      "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-19T18:05:39.106Z"
+        "value": "2022-04-19T18:22:27.32Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2563,7 +2611,7 @@
       },
       "description": [
         {
-          "value": "A7 Kassel Richtung Hannover\nzwischen Kassel-Nord und Hann. Münden/Lutterberg\nGefahr durch Fahrradfahrer auf der Fahrbahn"
+          "value": "A7 Kassel Richtung Hannover\nzwischen Kassel-Nord und Hann. Münden/Lutterberg\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -2585,7 +2633,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2595,11 +2643,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-19T18:15:23.523Z"
+        "value": "2022-04-19T18:31:38.474Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -13614,6 +13662,67 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-12T07:06:33.554Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/491581_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491581
+      },
+      "description": [
+        {
+          "value": "Frankfurt, Hanauer Landstraße\nzwischen Honsellstraße und A661, B40, B8, Frankfurt am Main-Ost\nSportveranstaltung, es ist mit Zeitverlust zu rechnen, bis 19.04.2022 23:00 Uhr\nStadtgebiet, Frankfurt am Main, Dienstags-Skater-Tour. Start und Ziel im Hafenpark an der Mayfarthstraße. Mit kurzzeitigen Verkehrsbehinderungen im gesamten Stadtgebiet ist zu rechnen. Von 20:30 Uhr - 23:00 Uhr."
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": null
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, Hanauer Landstraße zwischen Honsellstraße und A661, B40, B8, Frankfurt am Main-Ost",
+        "streets": null
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-19T18:30:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-19T21:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "am 19.04.2022 von 20:30 Uhr bis 23:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Organisiertes Ereignis"
+        },
+        {
+          "value": "Zeitverlust"
+        }
+      ],
+      "masterEventCategory": "Organisiertes Ereignis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-19T18:30:01.112Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
