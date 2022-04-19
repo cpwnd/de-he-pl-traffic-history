@@ -571,7 +571,7 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-19T12:36:54.49Z"
+        "value": "2022-04-19T13:45:09.028Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -590,7 +590,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nEinfahrt Idstein\nGefahr durch Reifenteile auf der Fahrbahn, Gefahr durch Fahrzeugteile auf der Fahrbahn, defekter LKW auf dem Beschleunigungsstreifen"
+          "value": "A3 Frankfurt Richtung Köln\nin Höhe Idstein\nrechter Fahrstreifen gesperrt, Bergungsarbeiten"
         }
       ],
       "location": {
@@ -604,7 +604,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A3 Frankfurt Richtung Köln Einfahrt Idstein",
+        "description": "A3 Frankfurt Richtung Köln in Höhe Idstein",
         "streets": [
           "A3"
         ]
@@ -612,17 +612,20 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Hindernis"
+          "value": "Sperrung"
+        },
+        {
+          "value": "Arbeitsstelle"
         }
       ],
-      "masterEventCategory": "Hindernis",
+      "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-19T12:20:58.696Z"
+        "value": "2022-04-19T13:43:20.02Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2571,7 +2574,7 @@
       },
       "description": [
         {
-          "value": "A44 Dortmund Richtung Kassel\nzwischen Breuna und Zierenberg\nUnfall, Richtungsfahrbahn gesperrt, Verkehr wird über den Standstreifen geleitet"
+          "value": "A44 Dortmund Richtung Kassel\nzwischen Breuna und Zierenberg\nStraße wieder frei"
         }
       ],
       "location": {
@@ -2609,7 +2612,7 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-19T12:40:45.385Z"
+        "value": "2022-04-19T13:40:21.353Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3945,6 +3948,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/491498_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491498
+      },
+      "description": [
+        {
+          "value": "A67 Darmstadt Richtung Mönchhof-Dreieck\nzwischen Rüsselsheimer Dreieck und Rüsselsheim-Ost\nGefahr durch Reifenteile auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A67"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A67 Darmstadt Richtung Mönchhof-Dreieck zwischen Rüsselsheimer Dreieck und Rüsselsheim-Ost",
+        "streets": [
+          "A67"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-19T13:49:08.547Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/461453_LMS-HE/54"
       },
       "dataProducer": {
@@ -4198,60 +4252,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-23T11:01:18.105Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/491485_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 491485
-      },
-      "description": [
-        {
-          "value": "A661 Bad Homburg Richtung Darmstadt\nOffenbacher Kreuz Überleitung zur A3 Richtung Würzburg\nUnfallstelle geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A661"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A661 Bad Homburg Richtung Darmstadt Offenbacher Kreuz Überleitung zur A3 Richtung Würzburg",
-        "streets": [
-          "A661"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-19T13:15:09.591Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -12960,6 +12960,59 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-02-28T05:00:02.78Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/491489_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491489
+      },
+      "description": [
+        {
+          "value": "Neu-Isenburg, Friedhofstraße\nzwischen Carl-Ulrich-Straße und Herzogstraße\nin beiden Richtungen Hausbrand, Richtungsfahrbahn gesperrt, Feuerwehreinsatz"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": null
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Neu-Isenburg, Friedhofstraße zwischen Carl-Ulrich-Straße und Herzogstraße",
+        "streets": null
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Information"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-19T13:27:17.569Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
