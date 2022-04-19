@@ -1040,6 +1040,74 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/491320_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491320
+      },
+      "description": [
+        {
+          "value": "A4 Erfurt Richtung Bad Hersfeld\nzwischen Eisenach-West und Herleshausen\nBrückenarbeiten, Fahrbahnerneuerung, vorübergehende Begrenzung der Fahrbahnbreite auf 5,50 m, Verkehr wird über die Gegenfahrbahn geleitet, bis 10.06.2022 18:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A4"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A4 Erfurt Richtung Bad Hersfeld zwischen Eisenach-West und Herleshausen",
+        "streets": [
+          "A4"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-19T04:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-06-10T16:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 19.04.2022 06:00 Uhr bis 10.06.2022 18:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Beschränkung"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-19T04:00:03.105Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/487161_LMS-HE/54"
       },
       "dataProducer": {
@@ -1094,6 +1162,71 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-04T14:47:17.093Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/491321_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491321
+      },
+      "description": [
+        {
+          "value": "A4 Bad Hersfeld Richtung Erfurt\nzwischen Herleshausen und Eisenach-West\nBrückenarbeiten, Fahrbahnerneuerung, vorübergehende Begrenzung der Fahrbahnbreite auf 5,50 m, bis 10.06.2022 18:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A4"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A4 Bad Hersfeld Richtung Erfurt zwischen Herleshausen und Eisenach-West",
+        "streets": [
+          "A4"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-19T04:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-06-10T16:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 19.04.2022 06:00 Uhr bis 10.06.2022 18:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-19T04:00:03.105Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2443,6 +2576,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/491313_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491313
+      },
+      "description": [
+        {
+          "value": "A45 Hagen Richtung Gießen\nzwischen Herborn-Süd und Ehringshausen\nGefahr durch verlorene Ladung (ein Kantholz)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A45 Hagen Richtung Gießen zwischen Herborn-Süd und Ehringshausen",
+        "streets": [
+          "A45"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-19T04:00:15.743Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -4097,6 +4281,71 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/491319_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491319
+      },
+      "description": [
+        {
+          "value": "B3 Gießen Richtung Butzbach\nzwischen Butzbach-Pohl-Göns-West und Butzbach-Pohl-Göns-Süd\nBrückenarbeiten, vorübergehende Begrenzung der Fahrbahnbreite auf 3 m, bis 03.12.2022 19:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B3 Gießen Richtung Butzbach zwischen Butzbach-Pohl-Göns-West und Butzbach-Pohl-Göns-Süd",
+        "streets": [
+          "B3"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-19T04:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-12-03T18:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 19.04.2022 06:00 Uhr bis 03.12.2022 19:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-19T04:00:03.105Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/487319_LMS-HE/54"
       },
       "dataProducer": {
@@ -4151,6 +4400,71 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-05T05:55:15.795Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/491318_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491318
+      },
+      "description": [
+        {
+          "value": "B3 Butzbach Richtung Gießen\nzwischen Butzbach-Pohl-Göns-Süd und Butzbach-Pohl-Göns-West\nBrückenarbeiten, vorübergehende Begrenzung der Fahrbahnbreite auf 3 m, bis 03.12.2022 19:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B3 Butzbach Richtung Gießen zwischen Butzbach-Pohl-Göns-Süd und Butzbach-Pohl-Göns-West",
+        "streets": [
+          "B3"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-19T04:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-12-03T18:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 19.04.2022 06:00 Uhr bis 03.12.2022 19:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-19T04:00:03.105Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4280,6 +4594,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-18T10:04:37.93Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/491309_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491309
+      },
+      "description": [
+        {
+          "value": "B8 Königstein Richtung Frankfurt\nzwischen Bad Soden am Taunus und A66, Frankfurt am Main-Höchst\nGefahr besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B8"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B8 Königstein Richtung Frankfurt zwischen Bad Soden am Taunus und A66, Frankfurt am Main-Höchst",
+        "streets": [
+          "B8"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-19T04:05:10.663Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6516,6 +6881,74 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/491317_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491317
+      },
+      "description": [
+        {
+          "value": "Wetteraukreis, Ebersgönser Straße\nzwischen Pohl-Göns und Ebersgöns\nin beiden Richtungen Brückenarbeiten, Richtungsfahrbahn gesperrt, eine Umleitung ist eingerichtet, bis 03.12.2022 19:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K18"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Wetteraukreis, Ebersgönser Straße zwischen Pohl-Göns und Ebersgöns",
+        "streets": [
+          "K18"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-19T04:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-12-03T18:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 19.04.2022 06:00 Uhr bis 03.12.2022 19:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-19T04:00:03.105Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -9579,6 +10012,71 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/491315_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491315
+      },
+      "description": [
+        {
+          "value": "Lahn-Dill-Kreis, L3053\nzwischen L3052/L3053 und Abzweig nach Großaltenstädten\nin beiden Richtungen Bauarbeiten, Richtungsfahrbahn gesperrt, bis 22.04.2022 20:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3053"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Lahn-Dill-Kreis, L3053 zwischen L3052/L3053 und Abzweig nach Großaltenstädten",
+        "streets": [
+          "L3053"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-19T04:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-22T18:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 19.04.2022 06:00 Uhr bis 22.04.2022 20:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-19T04:00:03.105Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/485094_LMS-HE/54"
       },
       "dataProducer": {
@@ -9974,6 +10472,136 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/491323_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491323
+      },
+      "description": [
+        {
+          "value": "Ortsdurchfahrt Rülfenrod, Ehringshäuser Straße\nin beiden Richtungen Bauarbeiten, Richtungsfahrbahn gesperrt, bis 10.12.2022 20:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3146"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Ortsdurchfahrt Rülfenrod, Ehringshäuser Straße",
+        "streets": [
+          "L3146"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-19T04:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-12-10T19:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 19.04.2022 06:00 Uhr bis 10.12.2022 20:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-19T04:00:03.105Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/491322_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491322
+      },
+      "description": [
+        {
+          "value": "Wabern, Forststraße\nin Höhe Wabern\nin beiden Richtungen Fahrbahnausbesserung, Richtungsfahrbahn gesperrt, bis 22.04.2022 20:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3148"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Wabern, Forststraße in Höhe Wabern",
+        "streets": [
+          "L3148"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-19T04:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-22T18:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 19.04.2022 06:00 Uhr bis 22.04.2022 20:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-19T04:00:03.105Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
