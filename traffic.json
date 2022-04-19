@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -623,60 +623,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-19T15:05:14.864Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/491458_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 491458
-      },
-      "description": [
-        {
-          "value": "A3 Frankfurt Richtung Köln\nin Höhe Idstein\nStraße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Frankfurt Richtung Köln in Höhe Idstein",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Arbeitsstelle"
-        }
-      ],
-      "masterEventCategory": "Sperrung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-19T15:29:06.912Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4362,6 +4308,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/491530_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491530
+      },
+      "description": [
+        {
+          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Kaiserleibrücke und Offenbach-Taunusring\ndefekter PKW auf dem Standstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A661"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A661 Bad Homburg Richtung Darmstadt zwischen Kaiserleibrücke und Offenbach-Taunusring",
+        "streets": [
+          "A661"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-19T15:41:31.596Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/430914_LMS-HE/54"
       },
       "dataProducer": {
@@ -4598,7 +4595,7 @@
       },
       "description": [
         {
-          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Offenbacher Kreuz und Offenbach-Taunusring\nUnfall auf dem linken Fahrstreifen"
+          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Offenbacher Kreuz und Offenbach-Taunusring\nUnfall auf dem linken Fahrstreifen, linker Fahrstreifen gesperrt"
         }
       ],
       "location": {
@@ -4625,16 +4622,19 @@
       "eventCategory": [
         {
           "value": "Unfall"
+        },
+        {
+          "value": "Sperrung"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-19T15:15:14.08Z"
+        "value": "2022-04-19T15:45:37.564Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
