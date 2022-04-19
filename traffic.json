@@ -406,7 +406,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbaden/Niedernhausen und Wiesbadener Kreuz\nGefahr durch Gegenstände auf dem rechten und dem mittleren Fahrstreifen\nFeuerlöscher"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbaden/Niedernhausen und Wiesbadener Kreuz\nStraße wieder frei"
         }
       ],
       "location": {
@@ -428,7 +428,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -438,11 +438,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-19T20:03:25.938Z"
+        "value": "2022-04-19T21:12:57.89Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -584,7 +584,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Raunheim und Wiesbadener Kreuz\nUnfall auf dem mittleren Fahrstreifen"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Raunheim und Wiesbadener Kreuz\nalle Unfallstellen geräumt, keine Verkehrsbehinderung mehr"
         }
       ],
       "location": {
@@ -616,11 +616,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-19T18:28:08.294Z"
+        "value": "2022-04-19T21:15:54.176Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -635,7 +635,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbadener Kreuz und Wiesbaden/Niedernhausen\ndefekter PKW auf dem linken Fahrstreifen"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbadener Kreuz und Wiesbaden/Niedernhausen\nStraße wieder frei"
         }
       ],
       "location": {
@@ -667,11 +667,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-19T20:20:29.092Z"
+        "value": "2022-04-19T21:14:19.827Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -737,6 +737,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/491600_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491600
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Bad Camberg und Limburg-Süd\ndefekter LKW auf dem rechten Fahrstreifen\nReifenpanne"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Köln zwischen Bad Camberg und Limburg-Süd",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-19T20:55:13.193Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -4834,6 +4885,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/485399_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485399
+      },
+      "description": [
+        {
+          "value": "B40 Mainzer Landstraße Richtung Kriftel\nzwischen Frankfurt am Main-Schwanheim und Sindlinger Mainbrücke\nBaustelle beseitigt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B40"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B40 Mainzer Landstraße Richtung Kriftel zwischen Frankfurt am Main-Schwanheim und Sindlinger Mainbrücke",
+        "streets": [
+          "B40"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-19T21:08:18.822Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/491535_LMS-HE/54"
       },
       "dataProducer": {
@@ -4963,6 +5068,63 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/485396_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485396
+      },
+      "description": [
+        {
+          "value": "B40 Kriftel Richtung Mainzer Landstraße\nzwischen Sindlinger Mainbrücke und Frankfurt am Main-Schwanheim\nBaustelle beseitigt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B40"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B40 Kriftel Richtung Mainzer Landstraße zwischen Sindlinger Mainbrücke und Frankfurt am Main-Schwanheim",
+        "streets": [
+          "B40"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-19T21:08:30.821Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -5288,6 +5450,117 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/485393_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485393
+      },
+      "description": [
+        {
+          "value": "B43 Richtung Frankfurt Flughafen\nzwischen Auffahrt B40, Schwanheimer Knoten und Flughafen-West\nBaustelle beseitigt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B43"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B43 Richtung Frankfurt Flughafen zwischen Auffahrt B40, Schwanheimer Knoten und Flughafen-West",
+        "streets": [
+          "B43"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-19T21:08:51.194Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/485395_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485395
+      },
+      "description": [
+        {
+          "value": "B43 Frankfurt Flughafen Richtung Schwanheimer Knoten\nzwischen Flughafen-West und Auffahrt B40, Schwanheimer Knoten\nBaustelle beseitigt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B43"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B43 Frankfurt Flughafen Richtung Schwanheimer Knoten zwischen Flughafen-West und Auffahrt B40, Schwanheimer Knoten",
+        "streets": [
+          "B43"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-19T21:08:42.656Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -12430,6 +12703,51 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/491599_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491599
+      },
+      "description": [
+        {
+          "value": "Steffenberg\nVermisstenfahndung\nSeit dem 19.04.2022, 14:00 Uhr,wird die 21 jährige Ayse Karabacak aus Steffenberg vermisst.Die Vermisste ist auf ärztliche Hilfe angewiesen und ist orientierungslos.Beschreibung:160 cm,schlank,blonde schulterlange Haare.Bekleidung:schwarze Jeans,weiße Turnschuhe,pinkfarbendes T-Shirt,grau/schwarze Handtasche wird mitgeführt.Sachdienliche Hinweise zum Aufenthalt der Vermissten an die Polizei in Biedenkopf unter der Tel.Nr.:06461-92950 oder an jede andere Polizeidieststelle."
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": null
+          }
+        ],
+        "name": "Ort",
+        "description": "Steffenberg",
+        "streets": null
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Information"
+        }
+      ],
+      "masterEventCategory": "Information",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-19T20:52:35.776Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_D__HE_FFM-IGLZ/210813857704_LMS-HE/54"
       },
       "dataProducer": {
@@ -13395,67 +13713,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-12T07:06:33.554Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/491581_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 491581
-      },
-      "description": [
-        {
-          "value": "Frankfurt, Hanauer Landstraße\nzwischen Honsellstraße und A661, B40, B8, Frankfurt am Main-Ost\nSportveranstaltung, es ist mit Zeitverlust zu rechnen, bis 19.04.2022 23:00 Uhr\nStadtgebiet, Frankfurt am Main, Dienstags-Skater-Tour. Start und Ziel im Hafenpark an der Mayfarthstraße. Mit kurzzeitigen Verkehrsbehinderungen im gesamten Stadtgebiet ist zu rechnen. Von 20:30 Uhr - 23:00 Uhr."
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": null
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Frankfurt, Hanauer Landstraße zwischen Honsellstraße und A661, B40, B8, Frankfurt am Main-Ost",
-        "streets": null
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-04-19T18:30:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-19T21:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "am 19.04.2022 von 20:30 Uhr bis 23:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Organisiertes Ereignis"
-        },
-        {
-          "value": "Zeitverlust"
-        }
-      ],
-      "masterEventCategory": "Organisiertes Ereignis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-19T18:30:01.112Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
