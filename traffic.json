@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -1510,57 +1510,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-19T18:40:55.956Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/491578_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 491578
-      },
-      "description": [
-        {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Homberg (Ohm) und Alsfeld-West\nStraße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Frankfurt Richtung Kassel zwischen Homberg (Ohm) und Alsfeld-West",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-19T19:00:24.039Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4385,7 +4334,7 @@
       },
       "description": [
         {
-          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Offenbacher Kreuz und Offenbach-Taunusring\ndefekter PKW auf dem rechten Fahrstreifen und dem Standstreifen"
+          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Offenbacher Kreuz und Offenbach-Taunusring\nStraße wieder frei"
         }
       ],
       "location": {
@@ -4417,11 +4366,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-19T16:32:37.953Z"
+        "value": "2022-04-19T19:16:16.451Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -12703,6 +12652,51 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/491590_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491590
+      },
+      "description": [
+        {
+          "value": "Oestrich-Winkel\nVermisstenfahndung\nSeit dem 19.04.2022,17:30 Uhr ,wird der 84 jährige Herr Georg Sterzel aus Oestrich-Winkel vermisst..Der Vermisste ist auf ärztliche Hilfe angewiesen.Beschreibung:180 cm groß,normale Figur,graue kurze Haare evt. Brillenträger,mit Rollator unterwegs.Bekleidung:nicht bekannt.Sachdienliche Hinweise zum Aufenthalt des Vermissten an die Polizei in Rüdesheim unter der Tel.-Nr.: 06722-91120 oder an jede andere Polizeidieststelle."
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": null
+          }
+        ],
+        "name": "Ort",
+        "description": "Oestrich-Winkel",
+        "streets": null
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Information"
+        }
+      ],
+      "masterEventCategory": "Information",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-19T19:24:48.542Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
