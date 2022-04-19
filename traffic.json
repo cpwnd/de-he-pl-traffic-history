@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -512,6 +512,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/491539_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491539
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Frankfurt am Main-Süd und Frankfurt am Main-Flughafen\nGefahr durch Gegenstände auf der Fahrbahn\nein Besen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Köln zwischen Frankfurt am Main-Süd und Frankfurt am Main-Flughafen",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-19T16:09:21.787Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/461440_LMS-HE/54"
       },
       "dataProducer": {
@@ -577,6 +628,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/491540_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491540
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Raunheim und Wiesbadener Kreuz\ndefekter PKW auf dem linken Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Köln zwischen Raunheim und Wiesbadener Kreuz",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-19T16:10:34.269Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/491467_LMS-HE/54"
       },
       "dataProducer": {
@@ -587,7 +689,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Ausfahrt Raunheim und Wiesbaden/Niedernhausen\nBergungsarbeiten, 8 km Stau"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Ausfahrt Raunheim und Wiesbaden/Niedernhausen\nBergungsarbeiten, 8 km Stau, rechter Fahrstreifen gesperrt, mittlerer Fahrstreifen gesperrt"
         }
       ],
       "location": {
@@ -617,12 +719,15 @@
         },
         {
           "value": "Stau"
+        },
+        {
+          "value": "Sperrung"
         }
       ],
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-19T15:05:14.864Z"
+        "value": "2022-04-19T16:24:52.205Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1340,6 +1445,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/491543_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491543
+      },
+      "description": [
+        {
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Bad Nauheim und Ober-Mörlen\nGefahr durch Gegenstände auf dem linken Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Kassel Richtung Frankfurt zwischen Bad Nauheim und Ober-Mörlen",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-19T16:20:34.674Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/338932_LMS-HE/54"
       },
       "dataProducer": {
@@ -1477,7 +1633,7 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Grünberg und Homberg (Ohm)\nUnfall\nRastplatz Hegberg voll gesperrt\n"
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Grünberg und Homberg (Ohm)\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -1509,11 +1665,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-19T15:22:10.332Z"
+        "value": "2022-04-19T16:15:18.918Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4318,7 +4474,7 @@
       },
       "description": [
         {
-          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Kaiserleibrücke und Offenbach-Taunusring\ndefekter PKW auf dem Standstreifen"
+          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Kaiserleibrücke und Offenbach-Taunusring\nStraße wieder frei"
         }
       ],
       "location": {
@@ -4350,11 +4506,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-19T15:41:31.596Z"
+        "value": "2022-04-19T16:19:10.555Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4417,57 +4573,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/491529_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 491529
-      },
-      "description": [
-        {
-          "value": "A661 Bad Homburg - Darmstadt\nzwischen Frankfurt-Eckenheim und Preungesheimer Dreieck\nin beiden Richtungen Kinder auf der Fahrbahn, Gefahr\nim Bereich des Standstreifens\n"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A661"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A661 Bad Homburg Richtung Darmstadt zwischen Frankfurt-Eckenheim und Preungesheimer Dreieck",
-        "streets": [
-          "A661"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Sehr dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-19T15:40:20.997Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
@@ -5022,6 +5127,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/491537_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491537
+      },
+      "description": [
+        {
+          "value": "B7 Kassel Richtung Hessisch-Lichtenau\nzwischen Oberkaufungen und Helsa\nRichtungsfahrbahn gesperrt, Unfall\nUmleitung ist ausgewiesen durch Ortslage Oberkaufungen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B7 Kassel Richtung Hessisch-Lichtenau zwischen Oberkaufungen und Helsa",
+        "streets": [
+          "B7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-19T16:05:04.131Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/490316_LMS-HE/54"
       },
       "dataProducer": {
@@ -5155,17 +5314,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/485399_LMS-HE/54"
+        "value": "LMS/r_LMS/491535_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 485399
+        "value": 491535
       },
       "description": [
         {
-          "value": "B40 Mainzer Landstraße Richtung Kriftel\nzwischen Frankfurt am Main-Schwanheim und Sindlinger Mainbrücke\nFahrbahnerneuerung, vorübergehende Begrenzung der Fahrbahnbreite auf 6 m, bis 19.04.2022 18:00 Uhr"
+          "value": "B40 Mainzer Landstraße Richtung Kriftel\nzwischen Frankfurt am Main-Schwanheim und Sindlinger Mainbrücke\nFahrbahnerneuerung, vorübergehende Begrenzung der Fahrbahnbreite auf 6 m, bis 10.09.2022 18:00 Uhr"
         }
       ],
       "location": {
@@ -5185,13 +5344,16 @@
         ]
       },
       "duration": {
-        "startTime": null,
-        "endTime": {
-          "name": "Endzeit",
+        "startTime": {
+          "name": "Startzeit",
           "value": "2022-04-19T16:00:00Z"
         },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-09-10T16:00:00Z"
+        },
         "name": "Dauer",
-        "description": "bis 19.04.2022 18:00 Uhr"
+        "description": "von 19.04.2022 18:00 Uhr bis 10.09.2022 18:00 Uhr"
       },
       "urgency": {
         "name": "Dringlichkeit",
@@ -5208,26 +5370,26 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-29T07:50:49.198Z"
+        "value": "2022-04-19T16:00:07.748Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Geändert"
+        "value": "Neu"
       }
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/485396_LMS-HE/54"
+        "value": "LMS/r_LMS/491536_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 485396
+        "value": 491536
       },
       "description": [
         {
-          "value": "B40 Kriftel Richtung Mainzer Landstraße\nzwischen Sindlinger Mainbrücke und Frankfurt am Main-Schwanheim\nFahrbahnerneuerung, Fahrbahn auf einen Fahrstreifen verengt, vorübergehende Begrenzung der Fahrbahnbreite auf 3,25 m, bis 19.04.2022 18:00 Uhr"
+          "value": "B40 Kriftel Richtung Mainzer Landstraße\nzwischen Sindlinger Mainbrücke und Frankfurt am Main-Schwanheim\nFahrbahnerneuerung, vorübergehende Begrenzung der Fahrbahnbreite auf 3,25 m, Fahrbahn auf einen Fahrstreifen verengt, bis 10.09.2022 18:00 Uhr"
         }
       ],
       "location": {
@@ -5247,13 +5409,16 @@
         ]
       },
       "duration": {
-        "startTime": null,
-        "endTime": {
-          "name": "Endzeit",
+        "startTime": {
+          "name": "Startzeit",
           "value": "2022-04-19T16:00:00Z"
         },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-09-10T16:00:00Z"
+        },
         "name": "Dauer",
-        "description": "bis 19.04.2022 18:00 Uhr"
+        "description": "von 19.04.2022 18:00 Uhr bis 10.09.2022 18:00 Uhr"
       },
       "urgency": {
         "name": "Dringlichkeit",
@@ -5264,20 +5429,20 @@
           "value": "Arbeitsstelle"
         },
         {
-          "value": "Störung"
+          "value": "Beschränkung"
         },
         {
-          "value": "Beschränkung"
+          "value": "Störung"
         }
       ],
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-29T07:50:43.129Z"
+        "value": "2022-04-19T16:00:07.748Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Geändert"
+        "value": "Neu"
       }
     },
     {
@@ -5469,6 +5634,75 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/491533_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491533
+      },
+      "description": [
+        {
+          "value": "B40, B43 Schwanheimer Knoten Richtung Frankfurt Flughafen\nzwischen Schwanheimer Knoten und Flughafen-West\nFahrbahnerneuerung, vorübergehende Begrenzung der Fahrbahnbreite auf 3,25 m, Fahrbahn auf einen Fahrstreifen verengt, bis 17.06.2022 20:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B40, B43"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B40, B43 Schwanheimer Knoten Richtung Frankfurt Flughafen zwischen Schwanheimer Knoten und Flughafen-West",
+        "streets": [
+          "B40",
+          "B43"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-19T16:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-06-17T18:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 19.04.2022 18:00 Uhr bis 17.06.2022 20:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-19T16:00:07.748Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -5852,6 +6086,72 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-18T10:03:27.836Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/491534_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491534
+      },
+      "description": [
+        {
+          "value": "B43, B40 Frankfurt Flughafen Richtung Schwanheimer Knoten\nzwischen Flughafen-West und Auffahrt Schwanheimer Knoten\nFahrbahnerneuerung, vorübergehende Begrenzung der Fahrbahnbreite auf 6,25 m, bis 17.06.2022 20:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B43, B40"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B43, B40 Frankfurt Flughafen Richtung Schwanheimer Knoten zwischen Flughafen-West und Auffahrt Schwanheimer Knoten",
+        "streets": [
+          "B43",
+          "B40"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-19T16:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-06-17T18:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 19.04.2022 18:00 Uhr bis 17.06.2022 20:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-19T16:00:07.748Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -11359,7 +11659,7 @@
       },
       "description": [
         {
-          "value": "L3318 Bad König, Frankfurter Straße bis Kimbacher Straße\nzwischen B45, Bad König und Friedhofsweg\ngesperrt für LKW über 3,5 t, LKW wird empfohlen, das Gebiet weiträumig zu umfahren"
+          "value": "L3318 Bad König, Frankfurter Straße bis Kimbacher Straße\nzwischen B45, Bad König und Friedhofsweg\nStraße wieder frei"
         }
       ],
       "location": {
@@ -11394,11 +11694,11 @@
       "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-19T14:49:03.679Z"
+        "value": "2022-04-19T16:13:04.739Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
