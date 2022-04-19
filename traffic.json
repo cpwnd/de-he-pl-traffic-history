@@ -1477,7 +1477,7 @@
       },
       "description": [
         {
-          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Frankfurt am Main-Flughafen-Nord und Frankfurt-Niederrad\nUnfall auf dem rechten Fahrstreifen und dem Standstreifen"
+          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Frankfurt am Main-Flughafen-Nord und Frankfurt-Niederrad\nStandstreifen blockiert, Unfallaufnahme"
         }
       ],
       "location": {
@@ -1503,13 +1503,13 @@
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Störung"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-19T18:22:27.32Z"
+        "value": "2022-04-19T18:40:55.956Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2597,57 +2597,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/491579_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 491579
-      },
-      "description": [
-        {
-          "value": "A7 Kassel Richtung Hannover\nzwischen Kassel-Nord und Hann. Münden/Lutterberg\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A7"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A7 Kassel Richtung Hannover zwischen Kassel-Nord und Hann. Münden/Lutterberg",
-        "streets": [
-          "A7"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-19T18:31:38.474Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
