@@ -1036,7 +1036,7 @@
       },
       "description": [
         {
-          "value": "A4 Erfurt Richtung Bad Hersfeld\nzwischen Wildeck-Hönebach und Friedewald\nFeuerwehreinsatz, Richtungsfahrbahn gesperrt, Bergungsarbeiten, Aufräumarbeiten, empfohlene Umleitung: U78\n(nach Lkw Brand)"
+          "value": "A4 Erfurt Richtung Bad Hersfeld\nzwischen Wildeck-Hönebach und Friedewald\nBergungsarbeiten, Aufräumarbeiten, linker Fahrstreifen wieder befahrbar, Fahrbahn von 2 auf einen Fahrstreifen verengt, empfohlene Umleitung: U78\n(nach Lkw Brand)"
         }
       ],
       "location": {
@@ -1062,22 +1062,19 @@
       },
       "eventCategory": [
         {
-          "value": "Information"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
           "value": "Arbeitsstelle"
         },
         {
           "value": "Störung"
+        },
+        {
+          "value": "Sperrung"
         }
       ],
-      "masterEventCategory": "Information",
+      "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-20T06:12:48.332Z"
+        "value": "2022-04-20T09:22:07.728Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1346,6 +1343,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/491714_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491714
+      },
+      "description": [
+        {
+          "value": "A5 Heidelberg - Darmstadt\nzwischen Zwingenberg und Seeheim-Jugenheim\nin beiden Richtungen Entenfamilie auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Heidelberg Richtung Darmstadt zwischen Zwingenberg und Seeheim-Jugenheim",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-20T09:16:00.005Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/338932_LMS-HE/54"
       },
       "dataProducer": {
@@ -1469,60 +1517,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/491683_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 491683
-      },
-      "description": [
-        {
-          "value": "A5 Frankfurt Richtung Kassel\nNordwestkreuz Frankfurt Überleitung zur A66 Richtung Frankfurt\nUnfall in der Überleitung, gesperrt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Frankfurt Richtung Kassel Nordwestkreuz Frankfurt Überleitung zur A66 Richtung Frankfurt",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-20T07:27:20.679Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
@@ -2621,6 +2615,108 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/491710_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491710
+      },
+      "description": [
+        {
+          "value": "A44 Dortmund Richtung Kassel\nzwischen Breuna und Zierenberg\nverlorene Ladung (ein Plastikteil)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A44"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A44 Dortmund Richtung Kassel zwischen Breuna und Zierenberg",
+        "streets": [
+          "A44"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-20T09:01:12.23Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/491716_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491716
+      },
+      "description": [
+        {
+          "value": "A45 Gießen Richtung Aschaffenburg\nzwischen Gießener Südkreuz und Gambacher Kreuz\nGefahr durch verlorene Ladung (Holz)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A45 Gießen Richtung Aschaffenburg zwischen Gießener Südkreuz und Gambacher Kreuz",
+        "streets": [
+          "A45"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-20T09:19:50.195Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/477663_LMS-HE/54"
       },
       "dataProducer": {
@@ -3188,57 +3284,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/491696_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 491696
-      },
-      "description": [
-        {
-          "value": "A49 Kassel Richtung Gießen\nzwischen Baunatal-Süd und Edermünde\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A49"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A49 Kassel Richtung Gießen zwischen Baunatal-Süd und Edermünde",
-        "streets": [
-          "A49"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-20T08:39:30.149Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/485162_LMS-HE/54"
       },
       "dataProducer": {
@@ -3742,17 +3787,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/491700_LMS-HE/54"
+        "value": "LMS/r_LMS/491708_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 491700
+        "value": 491708
       },
       "description": [
         {
-          "value": "A66 Frankfurt Richtung Fulda\nzwischen Bad Orb/Wächtersbach und Bad Soden-Salmünster\nGefahr durch Spanngurte auf der Fahrbahn"
+          "value": "A67 Darmstadt Richtung Mannheim\nzwischen Lorsch und Viernheimer Dreieck\nTagesbaustelle, linker Fahrstreifen blockiert, mittlerer Fahrstreifen blockiert, Fahrbahn von 3 auf einen Fahrstreifen verengt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
         }
       ],
       "location": {
@@ -3760,31 +3805,37 @@
           {
             "edge": {
               "sortRoadNumber": {
-                "value": "A66"
+                "value": "A67"
               }
             }
           }
         ],
         "name": "Ort",
-        "description": "A66 Frankfurt Richtung Fulda zwischen Bad Orb/Wächtersbach und Bad Soden-Salmünster",
+        "description": "A67 Darmstadt Richtung Mannheim zwischen Lorsch und Viernheimer Dreieck",
         "streets": [
-          "A66"
+          "A67"
         ]
       },
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Hindernis"
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Hinweis"
         }
       ],
-      "masterEventCategory": "Hindernis",
+      "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-20T08:38:31.388Z"
+        "value": "2022-04-20T08:55:41.878Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -10327,7 +10378,7 @@
       },
       "description": [
         {
-          "value": "L3068 Abtsroda\nzwischen Wasserkuppenstraße und Wasserkuppe\nBaumfällarbeiten, beide Fahrtrichtungen gesperrt"
+          "value": "L3068 Abtsroda\nzwischen Wasserkuppenstraße und Wasserkuppe\nin beiden Richtungen Störung beseitigt"
         }
       ],
       "location": {
@@ -10362,7 +10413,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-20T04:44:49.381Z"
+        "value": "2022-04-20T09:21:08.095Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
