@@ -2321,6 +2321,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/491724_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491724
+      },
+      "description": [
+        {
+          "value": "A7 Fulda Richtung Kassel\nzwischen Melsungen und Guxhagen\nGefahr besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Fulda Richtung Kassel zwischen Melsungen und Guxhagen",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-20T10:39:59.184Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/485165_LMS-HE/54"
       },
       "dataProducer": {
@@ -4154,6 +4205,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/491726_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491726
+      },
+      "description": [
+        {
+          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Frankfurt am Main-Ost und Offenbach-Kaiserlei\nGefahr durch verlorene Ladung (mehrere Metallteile)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A661"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A661 Bad Homburg Richtung Darmstadt zwischen Frankfurt am Main-Ost und Offenbach-Kaiserlei",
+        "streets": [
+          "A661"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-20T10:28:20.283Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -7047,7 +7149,7 @@
       },
       "description": [
         {
-          "value": "Kreis Fulda, K22\nzwischen Birkenhof und Külos\nBaustelle, Fahrbahnerneuerung, beide Fahrtrichtungen gesperrt, eine Umleitung ist eingerichtet, bis 22.04.2022 Mitternacht\n(Umleitung für beide FR über Finkenhain, Friesenhausen, B458)"
+          "value": "K22 zwischen Birkenhof und Külos\nBaustelle, Fahrbahnerneuerung, beide Fahrtrichtungen gesperrt, eine Umleitung ist eingerichtet, bis 20.05.2022 Mitternacht\n(Umleitung für beide FR über Finkenhain, Friesenhausen, B458)"
         }
       ],
       "location": {
@@ -7067,16 +7169,13 @@
         ]
       },
       "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-02-28T23:00:00Z"
-        },
+        "startTime": null,
         "endTime": {
           "name": "Endzeit",
-          "value": "2022-04-22T21:59:00Z"
+          "value": "2022-05-20T21:59:00Z"
         },
         "name": "Dauer",
-        "description": "von 01.03.2022 Mitternacht bis 22.04.2022 Mitternacht"
+        "description": "bis 20.05.2022 Mitternacht"
       },
       "urgency": {
         "name": "Dringlichkeit",
@@ -7096,11 +7195,11 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-02-28T23:00:03.696Z"
+        "value": "2022-04-20T10:33:58.073Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -11827,7 +11926,7 @@
       "masterEventCategory": "Information",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-20T03:22:36.808Z"
+        "value": "2022-04-20T10:24:22.877Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
