@@ -458,17 +458,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/491734_LMS-HE/54"
+        "value": "LMS/r_LMS/491750_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 491734
+        "value": 491750
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Frankfurt am Main-Flughafen und Kelsterbach\nUnfallstelle geräumt"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Frankfurt am Main-Süd und Frankfurter Kreuz\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -482,7 +482,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A3 Frankfurt Richtung Köln zwischen Frankfurt am Main-Flughafen und Kelsterbach",
+        "description": "A3 Frankfurt Richtung Köln zwischen Frankfurt am Main-Süd und Frankfurter Kreuz",
         "streets": [
           "A3"
         ]
@@ -494,16 +494,13 @@
       },
       "eventCategory": [
         {
-          "value": "Unfall"
-        },
-        {
-          "value": "Stau"
+          "value": "Hindernis"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-20T11:30:45.865Z"
+        "value": "2022-04-20T12:35:43.349Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1346,17 +1343,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/491742_LMS-HE/54"
+        "value": "LMS/r_LMS/491761_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 491742
+        "value": 491761
       },
       "description": [
         {
-          "value": "A5 Kassel Richtung Frankfurt\nzwischen Hattenbacher Dreieck und Alsfeld-Ost\nGefahr besteht nicht mehr"
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Bad Homburger Kreuz und Nordwestkreuz Frankfurt\nGefahr durch defektes Fahrzeug auf dem rechten Fahrstreifen und dem Standstreifen"
         }
       ],
       "location": {
@@ -1370,7 +1367,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A5 Kassel Richtung Frankfurt zwischen Hattenbacher Dreieck und Alsfeld-Ost",
+        "description": "A5 Kassel Richtung Frankfurt zwischen Bad Homburger Kreuz und Nordwestkreuz Frankfurt",
         "streets": [
           "A5"
         ]
@@ -1378,7 +1375,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Normal"
+        "value": "Dringend"
       },
       "eventCategory": [
         {
@@ -1388,11 +1385,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-20T11:42:37.388Z"
+        "value": "2022-04-20T12:29:41.661Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Geändert"
+        "value": "Neu"
       }
     },
     {
@@ -4449,6 +4446,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-19T04:00:03.105Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/491758_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491758
+      },
+      "description": [
+        {
+          "value": "B3 Marburg Richtung Gießen\nzwischen Staufenberg-Süd und Gießener Nordkreuz/B3\nUnfall mit 3 Fahrzeugen im Baustellenbereich"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B3 Marburg Richtung Gießen zwischen Staufenberg-Süd und Gießener Nordkreuz/B3",
+        "streets": [
+          "B3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-20T12:25:31.533Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
