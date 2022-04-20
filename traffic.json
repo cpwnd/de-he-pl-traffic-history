@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -1356,7 +1356,7 @@
       },
       "description": [
         {
-          "value": "A5 Darmstadt Richtung Heidelberg\nDarmstädter Kreuz Überleitung zur A67 Richtung Mannheim\nGefahr durch verlorene Ladung (ein Metallteil)"
+          "value": "A5 Darmstadt Richtung Heidelberg\nDarmstädter Kreuz Überleitung zur A67 Richtung Mannheim\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -1378,6 +1378,57 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-20T11:16:02.95Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/491742_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491742
+      },
+      "description": [
+        {
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Hattenbacher Dreieck und Alsfeld-Ost\nGefahr durch Gegenstände auf der Fahrbahn (ein Reifen)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Kassel Richtung Frankfurt zwischen Hattenbacher Dreieck und Alsfeld-Ost",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
         "value": "Dringend"
       },
       "eventCategory": [
@@ -1388,7 +1439,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-20T10:56:31.029Z"
+        "value": "2022-04-20T11:18:04.657Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3688,63 +3739,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/491708_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 491708
-      },
-      "description": [
-        {
-          "value": "A67 Darmstadt Richtung Mannheim\nzwischen Lorsch und Viernheimer Dreieck\nBaustelle beseitigt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A67"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A67 Darmstadt Richtung Mannheim zwischen Lorsch und Viernheimer Dreieck",
-        "streets": [
-          "A67"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-20T10:58:12.974Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/483465_LMS-HE/54"
       },
       "dataProducer": {
@@ -5566,7 +5560,7 @@
       },
       "description": [
         {
-          "value": "B43, B44 Groß-Gerau Richtung Offenbach\nzwischen Überleitung Tiroler Schneise und Frankfurt am Main-Oberforsthaus\nPersonen auf der Fahrbahn, Verkehrsbehinderung"
+          "value": "B43, B44 Groß-Gerau Richtung Offenbach\nzwischen Überleitung Tiroler Schneise und Frankfurt am Main-Oberforsthaus\nStraße wieder frei"
         }
       ],
       "location": {
@@ -5602,7 +5596,7 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-20T07:15:25.292Z"
+        "value": "2022-04-20T11:15:25.29Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -12799,7 +12793,7 @@
       },
       "description": [
         {
-          "value": "Offenbach am Main, Strahlenbergerstraße\nin Höhe A661, Offenbach-Kaiserlei\nPersonen auf der Fahrbahn, Verkehrsbehinderung"
+          "value": "Offenbach am Main, Strahlenbergerstraße\nin Höhe A661, Offenbach-Kaiserlei\nStraße wieder frei"
         }
       ],
       "location": {
@@ -12830,7 +12824,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-20T07:14:59.385Z"
+        "value": "2022-04-20T11:15:40.927Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
