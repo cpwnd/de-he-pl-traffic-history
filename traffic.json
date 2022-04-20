@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -1684,7 +1684,7 @@
       },
       "description": [
         {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Kirchheim und Hattenbacher Dreieck\nGefahr durch 1 defektes Fahrzeug auf dem rechten Fahrstreifen im Kurvenbereich"
+          "value": "A7 Kassel Richtung Fulda\nzwischen Kirchheim und Hattenbacher Dreieck\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -1706,7 +1706,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1716,11 +1716,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-20T23:01:54.132Z"
+        "value": "2022-04-20T23:21:25.775Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3314,57 +3314,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/491893_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 491893
-      },
-      "description": [
-        {
-          "value": "A49 Gießen Richtung Kassel\nzwischen Gudensberg und Felsberg\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A49"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A49 Gießen Richtung Kassel zwischen Gudensberg und Felsberg",
-        "streets": [
-          "A49"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-20T23:03:47.995Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/443253_LMS-HE/54"
       },
       "dataProducer": {
@@ -3881,7 +3830,7 @@
       },
       "description": [
         {
-          "value": "A67 Mönchhof-Dreieck Richtung Darmstadt\nzwischen Groß-Gerau und Büttelborn\nGefahr durch ein totes Tier (Reh) auf der Fahrbahn"
+          "value": "A67 Mönchhof-Dreieck Richtung Mannheim\nzwischen Büttelborn und Dreieck Darmstadt-Griesheim\nGefahr durch ein totes Tier (Reh) auf der Fahrbahn, Gefahr durch ungesicherte Unfallstelle"
         }
       ],
       "location": {
@@ -3895,7 +3844,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A67 Mönchhof-Dreieck Richtung Darmstadt zwischen Groß-Gerau und Büttelborn",
+        "description": "A67 Mönchhof-Dreieck Richtung Mannheim zwischen Büttelborn und Dreieck Darmstadt-Griesheim",
         "streets": [
           "A67"
         ]
@@ -3908,16 +3857,19 @@
       "eventCategory": [
         {
           "value": "Hindernis"
+        },
+        {
+          "value": "Unfall"
         }
       ],
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-20T23:10:27.182Z"
+        "value": "2022-04-20T23:22:15.073Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -12376,6 +12328,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/489414_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 489414
+      },
+      "description": [
+        {
+          "value": "L3376 Erda, Goßbachstraße\nzwischen In der Hohl und Gewerbestraße\nin beiden Richtungen Baustelle beseitigt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3376"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Erda, Goßbachstraße zwischen In der Hohl und Gewerbestraße",
+        "streets": [
+          "L3376"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-20T23:20:17.519Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
