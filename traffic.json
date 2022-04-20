@@ -3198,7 +3198,7 @@
       },
       "description": [
         {
-          "value": "A49 Kassel Richtung Gießen\nzwischen Baunatal-Süd und Edermünde\nGefahr durch Gegenstände auf der Fahrbahn (ein Kantholz)"
+          "value": "A49 Kassel Richtung Gießen\nzwischen Baunatal-Süd und Edermünde\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -3220,7 +3220,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -3230,11 +3230,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-20T08:24:16.428Z"
+        "value": "2022-04-20T08:39:30.149Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3734,6 +3734,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-01T04:00:02.244Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/491700_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491700
+      },
+      "description": [
+        {
+          "value": "A66 Frankfurt Richtung Fulda\nzwischen Bad Orb/Wächtersbach und Bad Soden-Salmünster\nGefahr durch Spanngurte auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Frankfurt Richtung Fulda zwischen Bad Orb/Wächtersbach und Bad Soden-Salmünster",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-20T08:38:31.388Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
