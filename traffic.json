@@ -447,57 +447,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/491783_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 491783
-      },
-      "description": [
-        {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Limburg-Süd und Bad Camberg\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Köln Richtung Frankfurt zwischen Limburg-Süd und Bad Camberg",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-20T14:38:01.495Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/491820_LMS-HE/54"
       },
       "dataProducer": {
@@ -508,7 +457,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Limburg-Nord und Limburg-Süd\nGefahr durch Spanngurte auf der Fahrbahn"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Limburg-Nord und Limburg-Süd\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -530,7 +479,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -540,11 +489,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-20T14:42:02.487Z"
+        "value": "2022-04-20T15:18:07.101Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4920,57 +4869,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/491799_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 491799
-      },
-      "description": [
-        {
-          "value": "B26 Darmstadt Richtung Aschaffenburg\nzwischen B38, Roßdorf und Roßdorf-Gundernhausen\nGefahr durch Gegenstände auf der Fahrbahn"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B26"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B26 Darmstadt Richtung Aschaffenburg zwischen B38, Roßdorf und Roßdorf-Gundernhausen",
-        "streets": [
-          "B26"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-20T14:38:02.104Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/490316_LMS-HE/54"
       },
       "dataProducer": {
@@ -6534,6 +6432,63 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/491823_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491823
+      },
+      "description": [
+        {
+          "value": "B54 Berliner Straße, Wiesbaden Richtung Bad Schwalbach\nzwischen Siegfriedring und New-York-Straße in Wiesbaden\nVollsperrung, Unfall mit mehreren Fahrzeugen, Verkehrsbehinderung"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B54"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B54 Berliner Straße, Wiesbaden Richtung Bad Schwalbach zwischen Siegfriedring und New-York-Straße in Wiesbaden",
+        "streets": [
+          "B54"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-20T15:03:01.688Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -12211,7 +12166,7 @@
       },
       "description": [
         {
-          "value": "Flörsheim am Main\nVermisstenfahndung\nSeit dem 19.04.2022,23:30 Uhr, wird der 82-jährige Herr Hubert Krause aus Flörsheim vermisst. Der Vermisste ist dement und orientierungslos.Beschreibung:180 cm groß, schlank,schütteres graues Haar.Bekleidung:Schlafanzug.Sachdienliche Hinweise zum Aufenthalt des Vermissten an die Polizei Flörsheim unter der Tel.-Nr.:06145-54760 oder an jede andere Polizeidienststelle"
+          "value": "Flörsheim am Main\nVermisstenfahndung eingestellt"
         }
       ],
       "location": {
@@ -12237,7 +12192,7 @@
       "masterEventCategory": "Information",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-20T14:24:49.472Z"
+        "value": "2022-04-20T15:14:22.385Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
