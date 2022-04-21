@@ -396,6 +396,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/492022_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 492022
+      },
+      "description": [
+        {
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbaden/Niedernhausen und Wiesbadener Kreuz\nGefahr durch defektes Fahrzeug im Baustellenbereich, Gefahr durch Gegenstände auf der Fahrbahn vor der Baustelle"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Frankfurt zwischen Wiesbaden/Niedernhausen und Wiesbadener Kreuz",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-21T11:13:50.305Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/491359_LMS-HE/54"
       },
       "dataProducer": {
@@ -1426,7 +1477,7 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Alsfeld-West und Alsfeld-Ost\nGefahr durch ungesicherte Unfallstelle auf dem linken Fahrstreifen, linker Fahrstreifen blockiert"
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Alsfeld-West und Alsfeld-Ost\nGefahr durch ungesicherte Unfallstelle auf dem linken Fahrstreifen, linker Fahrstreifen blockiert, Bergungsarbeiten"
         }
       ],
       "location": {
@@ -1456,16 +1507,19 @@
         },
         {
           "value": "Störung"
+        },
+        {
+          "value": "Arbeitsstelle"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-21T10:30:03.457Z"
+        "value": "2022-04-21T10:55:57.838Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2742,6 +2796,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-06T11:12:41.672Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/492018_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 492018
+      },
+      "description": [
+        {
+          "value": "A45 Aschaffenburg - Gießen\nzwischen Langenselbold-West und Hammersbach\nin beiden Richtungen Gefahr besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A45 Aschaffenburg Richtung Gießen zwischen Langenselbold-West und Hammersbach",
+        "streets": [
+          "A45"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-21T11:04:20.856Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4381,6 +4486,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-12-20T14:44:37.366Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/492016_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 492016
+      },
+      "description": [
+        {
+          "value": "A671 Wiesbaden Richtung Mainz\nzwischen Wiesbaden-Amöneburg und Mainz-Kastel\nGefahr besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A671"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A671 Wiesbaden Richtung Mainz zwischen Wiesbaden-Amöneburg und Mainz-Kastel",
+        "streets": [
+          "A671"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-21T11:04:11.836Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
