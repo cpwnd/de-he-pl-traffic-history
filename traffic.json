@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -454,6 +454,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/491903_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491903
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Frankfurt am Main-Süd und Frankfurter Kreuz\nGefahr durch Gegenstände auf der Fahrbahn\n(unbekannter Art)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Köln zwischen Frankfurt am Main-Süd und Frankfurter Kreuz",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-21T02:26:17.78Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -3522,7 +3573,7 @@
       },
       "description": [
         {
-          "value": "A66 Frankfurt Richtung Fulda\nzwischen Gelnhausen-Ost und Bad Orb/Wächtersbach\nFahrbahnverengung, maximale Fahrbahnbreite von 3,25 m, Richtungsfahrbahn gesperrt, bis 22.04.2022, Mi und Do zwischen 20:00 Uhr und 05:00 Uhr\n(Ab AS Gelnhausen-Ost via Bedarsumleitung U33 zur AS Bad Orb-Wächtersbach.)"
+          "value": "A66 Frankfurt Richtung Fulda\nzwischen Gelnhausen-Ost und Bad Orb/Wächtersbach\nStraße wieder frei"
         }
       ],
       "location": {
@@ -3541,18 +3592,7 @@
           "A66"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-04-20T18:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-22T03:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 20.04.2022 bis 22.04.2022, Mi und Do zwischen 20:00 Uhr und 05:00 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -3568,11 +3608,11 @@
       "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-20T18:00:02.205Z"
+        "value": "2022-04-21T03:08:49.726Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3652,7 +3692,7 @@
       },
       "description": [
         {
-          "value": "A66 Frankfurt Richtung Fulda\nin Höhe Bad Orb/Wächtersbach\nAnschlussstelle gesperrt, bis 22.04.2022, Mi und Do zwischen 20:00 Uhr und 05:00 Uhr\n(Ab AS Gelnhausen-Ost via Bedarsumleitung U33 zur AS Bad Orb-Wächtersbach.)"
+          "value": "A66 Frankfurt Richtung Fulda\nin Höhe Bad Orb/Wächtersbach\nwieder offen"
         }
       ],
       "location": {
@@ -3671,18 +3711,7 @@
           "A66"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-04-20T18:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-22T03:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 20.04.2022 bis 22.04.2022, Mi und Do zwischen 20:00 Uhr und 05:00 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -3695,11 +3724,11 @@
       "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-20T18:00:02.205Z"
+        "value": "2022-04-21T03:08:58.089Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -5845,130 +5874,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/486438_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 486438
-      },
-      "description": [
-        {
-          "value": "B45 Hanau Richtung Dieburg\nzwischen Rodgau-Niederroden in Nieder-Roden und B459, Rödermark-Ober-Roden\nvorübergehende Begrenzung der Fahrbahnbreite auf 6,10 m, bis 16.07.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B45"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B45 Hanau Richtung Dieburg zwischen Rodgau-Niederroden in Nieder-Roden und B459, Rödermark-Ober-Roden",
-        "streets": [
-          "B45"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-28T18:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-07-16T03:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 28.03.2022 bis 16.07.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Beschränkung"
-        }
-      ],
-      "masterEventCategory": "Beschränkung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-02T03:02:18.419Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/487850_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 487850
-      },
-      "description": [
-        {
-          "value": "B45 Hanau Richtung Dieburg\nzwischen Rodgau-Niederroden in Nieder-Roden und B459, Rödermark-Ober-Roden\nvorübergehende Begrenzung der Fahrbahnbreite auf 6,10 m, bis 16.07.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B45"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B45 Hanau Richtung Dieburg zwischen Rodgau-Niederroden in Nieder-Roden und B459, Rödermark-Ober-Roden",
-        "streets": [
-          "B45"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-28T18:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-07-16T03:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 28.03.2022 bis 16.07.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Beschränkung"
-        }
-      ],
-      "masterEventCategory": "Beschränkung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-06T18:00:01.346Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/491853_LMS-HE/54"
       },
       "dataProducer": {
@@ -5979,7 +5884,7 @@
       },
       "description": [
         {
-          "value": "B45 Hanau Richtung Dieburg\nzwischen Rodgau-Niederroden in Nieder-Roden und B459, Rödermark-Ober-Roden\nvorübergehende Begrenzung der Fahrbahnbreite auf 6,10 m, bis 16.07.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
+          "value": "B45 Hanau Richtung Dieburg\nzwischen Rodgau-Niederroden in Nieder-Roden und B459, Rödermark-Ober-Roden\nvorübergehende Begrenzung der Breite besteht nicht mehr"
         }
       ],
       "location": {
@@ -5998,18 +5903,7 @@
           "B45"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-28T18:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-07-16T03:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 28.03.2022 bis 16.07.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -6022,69 +5916,7 @@
       "masterEventCategory": "Beschränkung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-20T18:00:02.205Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/485285_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 485285
-      },
-      "description": [
-        {
-          "value": "B45 Hanau Richtung Dieburg\nzwischen Rodgau-Niederroden in Nieder-Roden und B459, Rödermark-Ober-Roden\nvorübergehende Begrenzung der Fahrbahnbreite auf 6,10 m, bis 16.07.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B45"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B45 Hanau Richtung Dieburg zwischen Rodgau-Niederroden in Nieder-Roden und B459, Rödermark-Ober-Roden",
-        "streets": [
-          "B45"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-28T18:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-07-16T03:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 28.03.2022 bis 16.07.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Beschränkung"
-        }
-      ],
-      "masterEventCategory": "Beschränkung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-29T03:02:42.125Z"
+        "value": "2022-04-21T03:09:20.453Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6103,7 +5935,7 @@
       },
       "description": [
         {
-          "value": "B45 Dieburg Richtung Hanau\nzwischen B459, Rödermark-Ober-Roden und Rodgau-Niederroden in Nieder-Roden\nBauarbeiten, Richtungsfahrbahn gesperrt, Verkehr wird über die Gegenfahrbahn geleitet, Fahrbahn auf einen Fahrstreifen verengt, vorübergehende Begrenzung der Fahrbahnbreite auf 3 m, bis 21.04.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
+          "value": "B45 Dieburg Richtung Hanau\nzwischen B459, Rödermark-Ober-Roden und Rodgau-Niederroden in Nieder-Roden\nBaustelle beseitigt"
         }
       ],
       "location": {
@@ -6122,18 +5954,7 @@
           "B45"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-28T18:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-21T03:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 28.03.2022 bis 21.04.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -6155,7 +5976,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-02T03:02:30.06Z"
+        "value": "2022-04-21T03:08:25.678Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6174,7 +5995,7 @@
       },
       "description": [
         {
-          "value": "B45 Dieburg Richtung Hanau\nzwischen B459, Rödermark-Ober-Roden und Rodgau-Niederroden in Nieder-Roden\nBauarbeiten, vorübergehende Begrenzung der Fahrbahnbreite auf 3 m, Richtungsfahrbahn gesperrt, Verkehr wird über die Gegenfahrbahn geleitet, Fahrbahn auf einen Fahrstreifen verengt, bis 21.04.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
+          "value": "B45 Dieburg Richtung Hanau\nzwischen B459, Rödermark-Ober-Roden und Rodgau-Niederroden in Nieder-Roden\nBaustelle beseitigt"
         }
       ],
       "location": {
@@ -6193,18 +6014,7 @@
           "B45"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-28T18:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-21T03:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 28.03.2022 bis 21.04.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -6226,82 +6036,11 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-20T18:00:02.205Z"
+        "value": "2022-04-21T03:08:40.617Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/487849_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 487849
-      },
-      "description": [
-        {
-          "value": "B45 Dieburg Richtung Hanau\nzwischen B459, Rödermark-Ober-Roden und Rodgau-Niederroden in Nieder-Roden\nBauarbeiten, vorübergehende Begrenzung der Fahrbahnbreite auf 3 m, Richtungsfahrbahn gesperrt, Verkehr wird über die Gegenfahrbahn geleitet, Fahrbahn auf einen Fahrstreifen verengt, bis 21.04.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B45"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B45 Dieburg Richtung Hanau zwischen B459, Rödermark-Ober-Roden und Rodgau-Niederroden in Nieder-Roden",
-        "streets": [
-          "B45"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-28T18:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-21T03:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 28.03.2022 bis 21.04.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Beschränkung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-06T18:00:01.346Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -6316,7 +6055,7 @@
       },
       "description": [
         {
-          "value": "B45 Dieburg Richtung Hanau\nzwischen B459, Rödermark-Ober-Roden und Rodgau-Niederroden in Nieder-Roden\nBauarbeiten, Richtungsfahrbahn gesperrt, Verkehr wird über die Gegenfahrbahn geleitet, Fahrbahn auf einen Fahrstreifen verengt, vorübergehende Begrenzung der Fahrbahnbreite auf 3 m, bis 21.04.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
+          "value": "B45 Dieburg Richtung Hanau\nzwischen B459, Rödermark-Ober-Roden und Rodgau-Niederroden in Nieder-Roden\nBaustelle beseitigt"
         }
       ],
       "location": {
@@ -6335,18 +6074,7 @@
           "B45"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-28T18:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-21T03:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 28.03.2022 bis 21.04.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -6368,82 +6096,11 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-29T03:02:32.671Z"
+        "value": "2022-04-21T03:08:33.866Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/490731_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490731
-      },
-      "description": [
-        {
-          "value": "B45 Dieburg Richtung Hanau\nzwischen B459, Rödermark-Ober-Roden und Rodgau-Niederroden in Nieder-Roden\nBauarbeiten, vorübergehende Begrenzung der Fahrbahnbreite auf 3 m, Richtungsfahrbahn gesperrt, Verkehr wird über die Gegenfahrbahn geleitet, Fahrbahn auf einen Fahrstreifen verengt, bis 21.04.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B45"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B45 Dieburg Richtung Hanau zwischen B459, Rödermark-Ober-Roden und Rodgau-Niederroden in Nieder-Roden",
-        "streets": [
-          "B45"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-28T18:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-21T03:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 28.03.2022 bis 21.04.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Beschränkung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-15T18:00:01.106Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
