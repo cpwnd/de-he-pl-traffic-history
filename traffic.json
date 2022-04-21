@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -454,6 +454,63 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/492004_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 492004
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Frankfurt am Main-Süd und Frankfurt am Main-Flughafen\ndefekter LKW auf dem Standstreifen, Standstreifen blockiert, Reifenschaden"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Köln zwischen Frankfurt am Main-Süd und Frankfurt am Main-Flughafen",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Information"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-21T10:32:11.593Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -1167,57 +1224,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/491991_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 491991
-      },
-      "description": [
-        {
-          "value": "A4 Bad Hersfeld Richtung Erfurt\nzwischen Wildeck-Obersuhl und Gerstungen\nStraße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A4"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A4 Bad Hersfeld Richtung Erfurt zwischen Wildeck-Obersuhl und Gerstungen",
-        "streets": [
-          "A4"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-21T10:05:54.73Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/491321_LMS-HE/54"
       },
       "dataProducer": {
@@ -1406,6 +1412,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/492003_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 492003
+      },
+      "description": [
+        {
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Alsfeld-West und Alsfeld-Ost\nGefahr durch ungesicherte Unfallstelle auf dem linken Fahrstreifen, linker Fahrstreifen blockiert"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Frankfurt Richtung Kassel zwischen Alsfeld-West und Alsfeld-Ost",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-21T10:30:03.457Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
