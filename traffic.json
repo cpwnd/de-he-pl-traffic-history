@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "5ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -4165,57 +4165,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/491973_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 491973
-      },
-      "description": [
-        {
-          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Offenbach-Taunusring und Offenbach-Kaiserlei\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A661"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A661 Darmstadt Richtung Bad Homburg zwischen Offenbach-Taunusring und Offenbach-Kaiserlei",
-        "streets": [
-          "A661"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-21T08:23:51.05Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/430911_LMS-HE/54"
       },
       "dataProducer": {
@@ -5707,6 +5656,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-31T22:00:01.446Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/491979_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491979
+      },
+      "description": [
+        {
+          "value": "B45 Dieburg Richtung Hanau\nzwischen Dieburg und Münster\nGefahr durch Gegenstände auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B45 Dieburg Richtung Hanau zwischen Dieburg und Münster",
+        "streets": [
+          "B45"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-21T08:28:32.369Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
