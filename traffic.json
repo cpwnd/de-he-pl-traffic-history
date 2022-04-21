@@ -3523,6 +3523,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/491983_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 491983
+      },
+      "description": [
+        {
+          "value": "A66 Frankfurt Richtung Fulda\nzwischen Gelnhausen-Ost und Bad Orb/Wächtersbach\nBaustelle\n(Die Ausfahrt Bad Orb/Wächtersbach ist über die linke Spur nicht zu erreichen. Bitte ab Baustellenbeginn die rechte Spur benutzen.)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Frankfurt Richtung Fulda zwischen Gelnhausen-Ost und Bad Orb/Wächtersbach",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-21T08:49:25.625Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/483465_LMS-HE/54"
       },
       "dataProducer": {
@@ -5674,7 +5725,7 @@
       },
       "description": [
         {
-          "value": "B45 Dieburg Richtung Hanau\nzwischen Dieburg und Münster\nGefahr durch Gegenstände auf der Fahrbahn"
+          "value": "B45 Dieburg Richtung Hanau\nzwischen Dieburg und Münster\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -5696,7 +5747,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -5706,11 +5757,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-21T08:28:32.369Z"
+        "value": "2022-04-21T08:56:28.431Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -9861,7 +9912,7 @@
       },
       "description": [
         {
-          "value": "L3044 Haiger, Westerwaldstraße\nzwischen Ortseingang und Berliner Straße\nbeide Fahrtrichtungen gesperrt, Fahrbahnerneuerung, eine Umleitung ist eingerichtet, bis 22.04.2022"
+          "value": "L3044 Haiger, Westerwaldstraße\nzwischen Ortseingang und Berliner Straße\nbeide Fahrtrichtungen gesperrt, Fahrbahnerneuerung, eine Umleitung ist eingerichtet, bis 31.05.2022"
         }
       ],
       "location": {
@@ -9884,10 +9935,10 @@
         "startTime": null,
         "endTime": {
           "name": "Endzeit",
-          "value": "2022-04-22T21:59:00Z"
+          "value": "2022-05-31T21:59:00Z"
         },
         "name": "Dauer",
-        "description": "bis 22.04.2022"
+        "description": "bis 31.05.2022"
       },
       "urgency": {
         "name": "Dringlichkeit",
@@ -9907,7 +9958,7 @@
       "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-25T23:02:10.851Z"
+        "value": "2022-04-21T08:54:54.041Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
