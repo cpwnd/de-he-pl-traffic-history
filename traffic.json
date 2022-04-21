@@ -910,60 +910,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/492122_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 492122
-      },
-      "description": [
-        {
-          "value": "A4 Erfurt Richtung Bad Hersfeld\nzwischen Bad Hersfeld und Kirchheimer Dreieck\nUnfall auf dem linken Fahrstreifen, linker Fahrstreifen blockiert"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A4"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A4 Erfurt Richtung Bad Hersfeld zwischen Bad Hersfeld und Kirchheimer Dreieck",
-        "streets": [
-          "A4"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-21T16:15:14.596Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/438867_LMS-HE/54"
       },
       "dataProducer": {
@@ -1460,57 +1406,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/492132_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 492132
-      },
-      "description": [
-        {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Alsfeld-Ost und Hattenbacher Dreieck\nGefahr durch Metallteile auf der Fahrbahn\n(Unterlegkeil)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Frankfurt Richtung Kassel zwischen Alsfeld-Ost und Hattenbacher Dreieck",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-21T17:17:58.96Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
@@ -3679,6 +3574,71 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/492136_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 492136
+      },
+      "description": [
+        {
+          "value": "A66 Frankfurt Richtung Fulda\nzwischen Gelnhausen-Ost und Bad Orb/Wächtersbach\nFahrbahnverengung, maximale Fahrbahnbreite von 3,25 m, Richtungsfahrbahn gesperrt, bis 22.04.2022, Mi und Do zwischen 20:00 Uhr und 05:00 Uhr\n(Ab AS Gelnhausen-Ost via Bedarsumleitung U33 zur AS Bad Orb-Wächtersbach.)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Frankfurt Richtung Fulda zwischen Gelnhausen-Ost und Bad Orb/Wächtersbach",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-20T18:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-22T03:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 20.04.2022 bis 22.04.2022, Mi und Do zwischen 20:00 Uhr und 05:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-21T18:00:00.582Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/491983_LMS-HE/54"
       },
       "dataProducer": {
@@ -3726,6 +3686,68 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/492137_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 492137
+      },
+      "description": [
+        {
+          "value": "A66 Frankfurt Richtung Fulda\nin Höhe Bad Orb/Wächtersbach\nAnschlussstelle gesperrt, bis 22.04.2022, Mi und Do zwischen 20:00 Uhr und 05:00 Uhr\n(Ab AS Gelnhausen-Ost via Bedarsumleitung U33 zur AS Bad Orb-Wächtersbach.)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Frankfurt Richtung Fulda in Höhe Bad Orb/Wächtersbach",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-20T18:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-22T03:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 20.04.2022 bis 22.04.2022, Mi und Do zwischen 20:00 Uhr und 05:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-21T18:00:00.582Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -6053,6 +6075,192 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/486438_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 486438
+      },
+      "description": [
+        {
+          "value": "B45 Hanau Richtung Dieburg\nzwischen Rodgau-Niederroden in Nieder-Roden und B459, Rödermark-Ober-Roden\nvorübergehende Begrenzung der Fahrbahnbreite auf 6,10 m, bis 16.07.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B45 Hanau Richtung Dieburg zwischen Rodgau-Niederroden in Nieder-Roden und B459, Rödermark-Ober-Roden",
+        "streets": [
+          "B45"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-28T18:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-07-16T03:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 28.03.2022 bis 16.07.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Beschränkung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-02T03:02:18.419Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/487850_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 487850
+      },
+      "description": [
+        {
+          "value": "B45 Hanau Richtung Dieburg\nzwischen Rodgau-Niederroden in Nieder-Roden und B459, Rödermark-Ober-Roden\nvorübergehende Begrenzung der Fahrbahnbreite auf 6,10 m, bis 16.07.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B45 Hanau Richtung Dieburg zwischen Rodgau-Niederroden in Nieder-Roden und B459, Rödermark-Ober-Roden",
+        "streets": [
+          "B45"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-28T18:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-07-16T03:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 28.03.2022 bis 16.07.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Beschränkung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-06T18:00:01.346Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/485285_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485285
+      },
+      "description": [
+        {
+          "value": "B45 Hanau Richtung Dieburg\nzwischen Rodgau-Niederroden in Nieder-Roden und B459, Rödermark-Ober-Roden\nvorübergehende Begrenzung der Fahrbahnbreite auf 6,10 m, bis 16.07.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B45 Hanau Richtung Dieburg zwischen Rodgau-Niederroden in Nieder-Roden und B459, Rödermark-Ober-Roden",
+        "streets": [
+          "B45"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-28T18:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-07-16T03:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 28.03.2022 bis 16.07.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Beschränkung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-03-29T03:02:42.125Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
