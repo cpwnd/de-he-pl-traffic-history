@@ -3848,6 +3848,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/492277_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 492277
+      },
+      "description": [
+        {
+          "value": "A67 Darmstadt Richtung Mönchhof-Dreieck\nzwischen Rüsselsheimer Dreieck und Rüsselsheim-Ost\nUnfall auf dem mittleren Fahrstreifen, stockender Verkehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A67"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A67 Darmstadt Richtung Mönchhof-Dreieck zwischen Rüsselsheimer Dreieck und Rüsselsheim-Ost",
+        "streets": [
+          "A67"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Stau"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-22T10:26:02.053Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/461453_LMS-HE/54"
       },
       "dataProducer": {
@@ -7002,7 +7056,7 @@
       },
       "description": [
         {
-          "value": "B455 Königstein Richtung Mainz-Kastel\nzwischen A66, Wiesbaden-Erbenheim und A671, Mainz-Kastel\nGefahr durch Gegenstände auf der Fahrbahn (ein Holzteil)"
+          "value": "B455 Königstein Richtung Mainz-Kastel\nzwischen A66, Wiesbaden-Erbenheim und A671, Mainz-Kastel\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -7024,7 +7078,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -7034,11 +7088,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-22T10:16:15.226Z"
+        "value": "2022-04-22T10:24:38.292Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
