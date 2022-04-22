@@ -396,6 +396,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/492283_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 492283
+      },
+      "description": [
+        {
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Limburg-Süd und Bad Camberg\nGefahr durch verlorene Ladung (ein Holzbrett)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Frankfurt zwischen Limburg-Süd und Bad Camberg",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-22T11:01:39.56Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/491359_LMS-HE/54"
       },
       "dataProducer": {
@@ -3858,7 +3909,7 @@
       },
       "description": [
         {
-          "value": "A67 Darmstadt Richtung Mönchhof-Dreieck\nzwischen Rüsselsheimer Dreieck und Rüsselsheim-Ost\nUnfall auf dem mittleren Fahrstreifen, stockender Verkehr"
+          "value": "A67 Darmstadt Richtung Mönchhof-Dreieck\nzwischen Rüsselsheimer Dreieck und Rüsselsheim-Ost\nalle Unfallstellen geräumt, keine Verkehrsbehinderung mehr"
         }
       ],
       "location": {
@@ -3893,11 +3944,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-22T10:26:02.053Z"
+        "value": "2022-04-22T11:12:56.938Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4406,6 +4457,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-12-20T14:44:37.366Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/492284_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 492284
+      },
+      "description": [
+        {
+          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Frankfurt am Main-Heddernheim und Frankfurt am M.-Nieder-Eschbach\nGefahr besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A661"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A661 Darmstadt Richtung Bad Homburg zwischen Frankfurt am Main-Heddernheim und Frankfurt am M.-Nieder-Eschbach",
+        "streets": [
+          "A661"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-22T11:12:23.702Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -12553,6 +12655,64 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-02-09T19:20:15.106Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_D__HE_FFM-IGLZ/210826744607_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 492285
+      },
+      "description": [
+        {
+          "value": "Frankfurt, Lyoner Straße\nzwischen Straßburger Straße und Goldsteinstraße\nBaustelle, Fahrbahnverengung, bis 31.05.2022 23:59 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": null
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, Lyoner Straße zwischen Straßburger Straße und Goldsteinstraße",
+        "streets": null
+      },
+      "duration": {
+        "startTime": null,
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-05-31T21:59:00Z"
+        },
+        "name": "Dauer",
+        "description": "bis 31.05.2022 23:59 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-22T11:06:52.826Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
