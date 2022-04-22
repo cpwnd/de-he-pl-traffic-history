@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -396,17 +396,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/492283_LMS-HE/54"
+        "value": "LMS/r_LMS/492316_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 492283
+        "value": 492316
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Limburg-Süd und Bad Camberg\nGefahr besteht nicht mehr"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Limburg-Süd und Bad Camberg\nGefahr durch Gegenstände auf der Fahrbahn"
         }
       ],
       "location": {
@@ -428,7 +428,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Normal"
+        "value": "Dringend"
       },
       "eventCategory": [
         {
@@ -438,11 +438,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-22T11:38:39.824Z"
+        "value": "2022-04-22T12:30:06.919Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Geändert"
+        "value": "Neu"
       }
     },
     {
@@ -1351,6 +1351,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/492302_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 492302
+      },
+      "description": [
+        {
+          "value": "A5 Frankfurt Richtung Darmstadt\nzwischen Langen/Mörfelden und Weiterstadt\nGefahr durch Reifenteile auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Frankfurt Richtung Darmstadt zwischen Langen/Mörfelden und Weiterstadt",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-22T12:33:22.107Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/338932_LMS-HE/54"
       },
       "dataProducer": {
@@ -1474,57 +1525,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/492292_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 492292
-      },
-      "description": [
-        {
-          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Frankfurt am Main-Flughafen-Nord und Frankfurt-Niederrad\nGefahr durch Fahrzeugteile auf der Fahrbahn"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Darmstadt Richtung Frankfurt zwischen Frankfurt am Main-Flughafen-Nord und Frankfurt-Niederrad",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-22T11:26:22.343Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
@@ -3444,17 +3444,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/492293_LMS-HE/54"
+        "value": "LMS/r_LMS/492309_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 492293
+        "value": 492309
       },
       "description": [
         {
-          "value": "A60 Mainz Richtung Rüsselsheim\nzwischen Bischofsheim und Rüsselsheim-Mitte\nGefahr durch Spanngurte auf dem rechten Fahrstreifen"
+          "value": "A60 Rüsselsheim Richtung Mainz\nzwischen Mainspitz-Dreieck und Ginsheim-Gustavsburg\nUnfall auf dem linken Fahrstreifen, linker Fahrstreifen blockiert"
         }
       ],
       "location": {
@@ -3468,7 +3468,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A60 Mainz Richtung Rüsselsheim zwischen Bischofsheim und Rüsselsheim-Mitte",
+        "description": "A60 Rüsselsheim Richtung Mainz zwischen Mainspitz-Dreieck und Ginsheim-Gustavsburg",
         "streets": [
           "A60"
         ]
@@ -3476,17 +3476,20 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Hindernis"
+          "value": "Unfall"
+        },
+        {
+          "value": "Störung"
         }
       ],
-      "masterEventCategory": "Hindernis",
+      "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-22T11:27:20.337Z"
+        "value": "2022-04-22T12:11:16.883Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6136,6 +6139,63 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/492319_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 492319
+      },
+      "description": [
+        {
+          "value": "B45 Höchst im Odenwald Richtung Michelstadt\nzwischen Zell und Michelstadt\nUnfall, halbseitig gesperrt, Verkehr wird an der Unfallstelle vorbeigeführt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B45 Höchst im Odenwald Richtung Michelstadt zwischen Zell und Michelstadt",
+        "streets": [
+          "B45"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-22T12:34:32.939Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/491935_LMS-HE/54"
       },
       "dataProducer": {
@@ -7141,6 +7201,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/492315_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 492315
+      },
+      "description": [
+        {
+          "value": "B455 Königstein Richtung Mainz-Kastel\nzwischen Am Fort Biehler und Mainz-Kastel\nGefahr besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B455"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B455 Königstein Richtung Mainz-Kastel zwischen Am Fort Biehler und Mainz-Kastel",
+        "streets": [
+          "B455"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Stau"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-22T12:33:26.388Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -8330,7 +8444,7 @@
       },
       "description": [
         {
-          "value": "K809 Frankfurt, Ginnheimer Landstraße\nzwischen Frankfurt und Rosa-Luxemburg Straße\nBaustelle, gesperrt, von 19.04.2022 00:00 Uhr bis 22.04.2022 23:59 Uhr\nGinnheim, Ginnheimer Landstraße, Abbiegespur Platenstraße, aufgrund von Baustelleneinrichtungs- und Lagerfläche Vollsperrung der Fahrbahn (Abbiegefahrstreifen rechts), Teilsperrung der Fahrbahn vom 19.04.2022 bis 22.04.2022."
+          "value": "K809 Frankfurt, Ginnheimer Landstraße\nzwischen Frankfurt und Rosa-Luxemburg Straße\nBaustelle, gesperrt, bis 29.04.2022 23:59 Uhr"
         }
       ],
       "location": {
@@ -8350,16 +8464,13 @@
         ]
       },
       "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-04-18T22:00:00Z"
-        },
+        "startTime": null,
         "endTime": {
           "name": "Endzeit",
-          "value": "2022-04-22T21:59:59Z"
+          "value": "2022-04-29T21:59:00Z"
         },
         "name": "Dauer",
-        "description": "von 19.04.2022 00:00 Uhr bis 22.04.2022 23:59 Uhr"
+        "description": "bis 29.04.2022 23:59 Uhr"
       },
       "urgency": {
         "name": "Dringlichkeit",
@@ -8376,11 +8487,11 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-13T13:30:43.804Z"
+        "value": "2022-04-22T12:32:17.52Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
