@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -583,17 +583,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/492348_LMS-HE/54"
+        "value": "LMS/r_LMS/492234_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 492348
+        "value": 492234
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Raunheim und Wiesbadener Kreuz\nGefahr besteht nicht mehr"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbaden/Niedernhausen und Limburg-Süd\nBauarbeiten im Baustellenbereich, rechter Fahrstreifen gesperrt, LKW wird empfohlen, das Gebiet weiträumig zu umfahren, mittlerer Fahrstreifen gesperrt, Fahrbahn von 3 auf einen Fahrstreifen verengt, 20 km Stau, bis 23.04.2022 05:00 Uhr"
         }
       ],
       "location": {
@@ -607,79 +607,45 @@
           }
         ],
         "name": "Ort",
-        "description": "A3 Frankfurt Richtung Köln zwischen Raunheim und Wiesbadener Kreuz",
+        "description": "A3 Frankfurt Richtung Köln zwischen Wiesbaden/Niedernhausen und Limburg-Süd",
         "streets": [
           "A3"
         ]
       },
-      "duration": null,
+      "duration": {
+        "startTime": null,
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-23T03:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "bis 23.04.2022 05:00 Uhr"
+      },
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-22T14:12:18.385Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/492328_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 492328
-      },
-      "description": [
+          "value": "Arbeitsstelle"
+        },
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Idstein und Bad Camberg\nUnfallstelle geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Frankfurt Richtung Köln zwischen Idstein und Bad Camberg",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
+          "value": "Sperrung"
+        },
         {
-          "value": "Unfall"
+          "value": "Hinweis"
         },
         {
           "value": "Störung"
+        },
+        {
+          "value": "Stau"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-22T14:12:13.963Z"
+        "value": "2022-04-22T14:30:05.93Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -745,77 +711,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-28T08:49:29.626Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/492234_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 492234
-      },
-      "description": [
-        {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Bad Camberg und Limburg-Süd\nBauarbeiten im Baustellenbereich, rechter Fahrstreifen gesperrt, LKW wird empfohlen, das Gebiet weiträumig zu umfahren, mittlerer Fahrstreifen gesperrt, Fahrbahn von 3 auf einen Fahrstreifen verengt, 11 km Stau, bis 23.04.2022 05:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Frankfurt Richtung Köln zwischen Bad Camberg und Limburg-Süd",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": {
-        "startTime": null,
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-23T03:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "bis 23.04.2022 05:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Hinweis"
-        },
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Stau"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-22T14:12:57.278Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6252,63 +6147,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/492319_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 492319
-      },
-      "description": [
-        {
-          "value": "B45 Höchst im Odenwald Richtung Michelstadt\nzwischen Zell und Michelstadt\nalle Unfallstellen geräumt, keine Verkehrsbehinderung mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B45"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B45 Höchst im Odenwald Richtung Michelstadt zwischen Zell und Michelstadt",
-        "streets": [
-          "B45"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-22T14:07:04.497Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
