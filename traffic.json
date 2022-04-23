@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -1352,6 +1352,108 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/492434_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 492434
+      },
+      "description": [
+        {
+          "value": "A5 Frankfurt - Darmstadt\nzwischen Frankfurt-Niederrad und Frankfurter Kreuz\nin beiden Richtungen Gefahr durch 1 Person auf dem Standstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Frankfurt Richtung Darmstadt zwischen Frankfurt-Niederrad und Frankfurter Kreuz",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-23T01:29:41.823Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/492429_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 492429
+      },
+      "description": [
+        {
+          "value": "A5 Heidelberg Richtung Darmstadt\nzwischen Bensheim und Zwingenberg\nStraße wieder frei"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Heidelberg Richtung Darmstadt zwischen Bensheim und Zwingenberg",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-23T01:27:04.804Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -3390,57 +3492,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-29T09:00:02.365Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/492425_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 492425
-      },
-      "description": [
-        {
-          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Wallau und Wiesbaden-Nordenstadt\nGefahr durch 1 Gegenstand auf dem linken Fahrstreifen"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A66"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A66 Frankfurt Richtung Wiesbaden zwischen Wallau und Wiesbaden-Nordenstadt",
-        "streets": [
-          "A66"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-22T23:34:51.871Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
