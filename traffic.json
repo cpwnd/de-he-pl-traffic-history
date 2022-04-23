@@ -652,7 +652,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Limburg-Nord und Diez\nGefahr durch ungesicherte Unfallstelle auf dem linken Fahrstreifen"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Limburg-Nord und Diez\nUnfallaufnahme, bitte vorsichtig fahren"
         }
       ],
       "location": {
@@ -674,21 +674,24 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Störung"
+        },
+        {
+          "value": "Hinweis"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-23T12:49:17.562Z"
+        "value": "2022-04-23T13:22:37.298Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -5173,6 +5176,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/492552_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 492552
+      },
+      "description": [
+        {
+          "value": "B42 Rüdesheim Richtung Wiesbaden\nzwischen Oestrich und Hattenheim\nGefahr besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B42"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B42 Rüdesheim Richtung Wiesbaden zwischen Oestrich und Hattenheim",
+        "streets": [
+          "B42"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-23T13:13:16.395Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/492012_LMS-HE/54"
       },
       "dataProducer": {
@@ -6539,6 +6593,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/492554_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 492554
+      },
+      "description": [
+        {
+          "value": "B62 Alsfeld Richtung Marburg\nzwischen Überleitung Kirchhain-Ost und Kirchhain-Mitte\nUnfallaufnahme, Richtungsfahrbahn gesperrt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B62"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B62 Alsfeld Richtung Marburg zwischen Überleitung Kirchhain-Ost und Kirchhain-Mitte",
+        "streets": [
+          "B62"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-23T13:04:59.668Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/479446_LMS-HE/54"
       },
       "dataProducer": {
@@ -6936,6 +7044,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-04T04:00:03.29Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/492558_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 492558
+      },
+      "description": [
+        {
+          "value": "B275 Bad Schwalbach Richtung Bad Nauheim\nzwischen Merzhausen und B275/L3063\nUnfallaufnahme, Richtungsfahrbahn gesperrt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B275"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B275 Bad Schwalbach Richtung Bad Nauheim zwischen Merzhausen und B275/L3063",
+        "streets": [
+          "B275"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-23T13:17:26.045Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -9481,71 +9643,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_D__HE_FFM-IGLZ/210824669539_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 486431
-      },
-      "description": [
-        {
-          "value": "L3006 Altstadt Richtung Sossenheim\nzwischen Höchst und Alt Sossenheim\nBaustelle, Arbeiten an Wasserleitungen, rechter Fahrstreifen gesperrt, von 18.04.2022 09:00 Uhr bis 23.04.2022 15:00 Uhr\nHöchst, Zuckschwerdtstraße 11, aufgrund von Arbeiten an Wasserleitungen Teilsperrung der Fahrbahn vom 18.04.2022 bis 23.04.2022 zwischen 09:00 und 15:00 Uhr."
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3006"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Frankfurt, L3006 zwischen Höchst und Alt Sossenheim",
-        "streets": [
-          "L3006"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-04-18T07:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-23T13:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 18.04.2022 09:00 Uhr bis 23.04.2022 15:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-01T17:35:32.872Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/422516_LMS-HE/54"
       },
       "dataProducer": {
@@ -9920,7 +10017,7 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-23T12:47:09.752Z"
+        "value": "2022-04-23T13:08:30.545Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -11419,74 +11516,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/492494_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 492494
-      },
-      "description": [
-        {
-          "value": "Hanau\nDemonstration, mehrfach kurzfristige Sperrungen, Verkehrsbehinderung zu erwarten, ÖPNV gestört, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, bis 23.04.2022 15:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": null
-          }
-        ],
-        "name": "Ort",
-        "description": "Hanau",
-        "streets": null
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-04-23T09:30:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-23T13:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "am 23.04.2022 von 11:30 Uhr bis 15:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Stau"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Hinweis"
-        },
-        {
-          "value": "Öffentlicher Verkehr"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-23T09:30:00.89Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
