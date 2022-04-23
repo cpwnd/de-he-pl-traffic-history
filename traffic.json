@@ -1297,57 +1297,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/492584_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 492584
-      },
-      "description": [
-        {
-          "value": "A5 Heidelberg - Frankfurt\nzwischen Darmstädter Kreuz und Weiterstadt\nin beiden Richtungen Gefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Heidelberg Richtung Frankfurt zwischen Darmstädter Kreuz und Weiterstadt",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-23T17:24:43.972Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/364835_LMS-HE/54"
       },
       "dataProducer": {
@@ -1873,7 +1822,7 @@
       },
       "description": [
         {
-          "value": "A7 Kassel Richtung Fulda\nzwischen Homberg (Efze) und Bad Hersfeld-West\nUnfall auf dem linken Fahrstreifen, Gefahr durch Personen auf der Fahrbahn, Stau, langsam fahren, Gasse für Rettungs- und Einsatzfahrzeuge bilden"
+          "value": "A7 Kassel Richtung Fulda\nzwischen Homberg (Efze) und Bad Hersfeld-West\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -1895,7 +1844,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1914,11 +1863,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-23T17:08:50.755Z"
+        "value": "2022-04-23T17:39:08.152Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -9923,6 +9872,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-20T05:00:02.68Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/492612_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 492612
+      },
+      "description": [
+        {
+          "value": "L3040 Adam-Opel-Straße, Wiesbaden - Kostheim - Rüsselsheim\nzwischen Nauheimer Straße und A60, Rüsselsheim-Königstädten\nin beiden Richtungen Unfall, Richtungsfahrbahn gesperrt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3040"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Kreis Groß-Gerau, Adam-Opel-Straße zwischen Nauheimer Straße und A60, Rüsselsheim-Königstädten",
+        "streets": [
+          "L3040"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-23T17:37:49.99Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
