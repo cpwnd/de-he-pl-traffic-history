@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -1242,7 +1242,7 @@
       },
       "description": [
         {
-          "value": "A5 Heidelberg Richtung Darmstadt\nzwischen Darmstadt-Eberstadt und Darmstädter Kreuz\nbrennendes Fahrzeug auf dem Standstreifen, Sichtbehinderung durch Rauch, langsam fahren"
+          "value": "A5 Heidelberg Richtung Darmstadt\nzwischen Darmstadt-Eberstadt und Darmstädter Kreuz\nStörung beseitigt"
         }
       ],
       "location": {
@@ -1277,11 +1277,11 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-23T18:19:20.315Z"
+        "value": "2022-04-23T18:36:24.349Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2558,6 +2558,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/477663_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 477663
+      },
+      "description": [
+        {
+          "value": "A45 Gießen Richtung Aschaffenburg\nzwischen Wetzlar-Süd und Gießen-Lützellinden\nStörung beseitigt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A45 Gießen Richtung Aschaffenburg zwischen Wetzlar-Süd und Gießen-Lützellinden",
+        "streets": [
+          "A45"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-23T18:26:36.191Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/485966_LMS-HE/54"
       },
       "dataProducer": {
@@ -2674,6 +2728,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-06T11:12:41.672Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/477664_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 477664
+      },
+      "description": [
+        {
+          "value": "A45 Gießen Richtung Hagen\nzwischen Gießen-Lützellinden und Wetzlar-Süd\nStörung beseitigt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A45"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A45 Gießen Richtung Hagen zwischen Gießen-Lützellinden und Wetzlar-Süd",
+        "streets": [
+          "A45"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-23T18:26:27.223Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6407,60 +6515,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-09-25T03:58:34.243Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/492554_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 492554
-      },
-      "description": [
-        {
-          "value": "B62 Alsfeld Richtung Marburg\nzwischen Überleitung Kirchhain-Ost und Kirchhain-Mitte\nStraße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B62"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B62 Alsfeld Richtung Marburg zwischen Überleitung Kirchhain-Ost und Kirchhain-Mitte",
-        "streets": [
-          "B62"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-23T18:13:11.322Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
