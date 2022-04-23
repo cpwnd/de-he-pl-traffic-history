@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -533,7 +533,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbadener Kreuz und Wiesbaden/Niedernhausen\nGefahr durch defektes Fahrzeug auf dem linken Fahrstreifen im Baustellenbereich"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbadener Kreuz und Wiesbaden/Niedernhausen\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -555,7 +555,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -565,61 +565,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-23T04:46:16.972Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/492405_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 492405
-      },
-      "description": [
-        {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbaden/Niedernhausen und Idstein\nBaustelle beseitigt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Frankfurt Richtung Köln zwischen Wiesbaden/Niedernhausen und Idstein",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-23T04:50:24.042Z"
+        "value": "2022-04-23T05:09:32.455Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -7485,71 +7431,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/490540_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490540
-      },
-      "description": [
-        {
-          "value": "K61 zwischen Oberurff-Schiffelborn und Bergfreiheit\nin beiden Richtungen Richtungsfahrbahn gesperrt, Krötenwanderung, bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "K61"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Schwalm-Eder-Kreis, K61 zwischen Oberurff-Schiffelborn und Bergfreiheit",
-        "streets": [
-          "K61"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-01T18:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-30T05:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 01.03.2022 bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Information"
-        }
-      ],
-      "masterEventCategory": "Sperrung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-15T05:04:23.914Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/492384_LMS-HE/54"
       },
       "dataProducer": {
@@ -7560,7 +7441,7 @@
       },
       "description": [
         {
-          "value": "Schwalm-Eder-Kreis, K61\nzwischen Oberurff-Schiffelborn und Bergfreiheit\nin beiden Richtungen Krötenwanderung, Richtungsfahrbahn gesperrt, bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
+          "value": "K61 zwischen Oberurff-Schiffelborn und Bergfreiheit\nin beiden Richtungen wieder offen"
         }
       ],
       "location": {
@@ -7579,18 +7460,7 @@
           "K61"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-01T18:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-30T05:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 01.03.2022 bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -7606,72 +7476,7 @@
       "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-22T17:00:01.267Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/490726_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 490726
-      },
-      "description": [
-        {
-          "value": "K61 zwischen Oberurff-Schiffelborn und Bergfreiheit\nin beiden Richtungen Richtungsfahrbahn gesperrt, Krötenwanderung, bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "K61"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Schwalm-Eder-Kreis, K61 zwischen Oberurff-Schiffelborn und Bergfreiheit",
-        "streets": [
-          "K61"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-01T18:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-30T05:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 01.03.2022 bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Information"
-        }
-      ],
-      "masterEventCategory": "Sperrung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-16T05:11:47.44Z"
+        "value": "2022-04-23T05:09:26.689Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
