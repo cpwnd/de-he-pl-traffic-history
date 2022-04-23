@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -519,68 +519,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/492405_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 492405
-      },
-      "description": [
-        {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbaden/Niedernhausen und Idstein\nNachtbaustelle auf dem rechten und dem mittleren Fahrstreifen, Fahrbahn von 3 auf einen Fahrstreifen verengt, bis 23.04.2022 ca. 06:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Frankfurt Richtung Köln zwischen Wiesbaden/Niedernhausen und Idstein",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": {
-        "startTime": null,
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-23T04:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "bis 23.04.2022 ca. 06:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-22T20:15:19.157Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
@@ -3585,6 +3523,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/492403_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 492403
+      },
+      "description": [
+        {
+          "value": "A66 Frankfurt Richtung Fulda\nin Höhe Bad Orb/Wächtersbach\nAusfahrt wieder frei"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Frankfurt Richtung Fulda in Höhe Bad Orb/Wächtersbach",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-23T04:20:04.865Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/483465_LMS-HE/54"
       },
       "dataProducer": {
@@ -6323,6 +6312,68 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/492444_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 492444
+      },
+      "description": [
+        {
+          "value": "B49 Limburg - Gießen\nzwischen Abzweig nach Biskirchen und Solms-Niederbiel\nin beiden Richtungen Markierungsarbeiten, bis 23.04.2022 ca. 14:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B49"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B49 Limburg Richtung Gießen zwischen Abzweig nach Biskirchen und Solms-Niederbiel",
+        "streets": [
+          "B49"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-23T04:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-23T12:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "am 23.04.2022 von 06:00 Uhr bis ca. 14:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-23T04:00:00.793Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/477786_LMS-HE/54"
       },
       "dataProducer": {
@@ -7041,6 +7092,75 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/485107_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 485107
+      },
+      "description": [
+        {
+          "value": "K17, K4124 zwischen Trösel und Wünschmichelbach\nin beiden Richtungen Fahrbahnerneuerung, Richtungsfahrbahn gesperrt, eine Umleitung ist eingerichtet, von 23.04.2022 06:00 Uhr bis 02.05.2022 Mitternacht"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K17, K4124"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Kreis Bergstraße und Rhein-Neckar-Kreis, K17, K4124 zwischen Trösel und Wünschmichelbach",
+        "streets": [
+          "K17",
+          "K4124"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-23T04:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-05-02T21:59:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 23.04.2022 06:00 Uhr bis 02.05.2022 Mitternacht"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-09T00:30:48.284Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
