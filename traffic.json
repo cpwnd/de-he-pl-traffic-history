@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -1307,7 +1307,7 @@
       },
       "description": [
         {
-          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Weiterstadt und Langen/Mörfelden\nGefahr durch Gegenstände auf der Fahrbahn"
+          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Weiterstadt und Langen/Mörfelden\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -1329,7 +1329,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1339,11 +1339,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-24T14:20:41.997Z"
+        "value": "2022-04-24T14:35:23.587Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1402,57 +1402,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-28T13:39:39.318Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/492772_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 492772
-      },
-      "description": [
-        {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Alsfeld-Ost und Hattenbacher Dreieck\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Frankfurt Richtung Kassel zwischen Alsfeld-Ost und Hattenbacher Dreieck",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-24T14:22:18.73Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3613,7 +3562,7 @@
       },
       "description": [
         {
-          "value": "A67 Mönchhof-Dreieck - Mannheim\nzwischen Büttelborn und Dreieck Darmstadt-Griesheim\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
+          "value": "A67 Mönchhof-Dreieck - Mannheim\nzwischen Büttelborn und Dreieck Darmstadt-Griesheim\nin beiden Richtungen Gefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -3635,7 +3584,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -3645,11 +3594,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-24T14:29:30.489Z"
+        "value": "2022-04-24T14:34:39.643Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4675,6 +4624,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/492783_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 492783
+      },
+      "description": [
+        {
+          "value": "B8 Frankfurt - Königstein\nzwischen Bad Soden am Taunus und Kelkheim (Taunus)\nin beiden Richtungen Achtung, Personen werfen Gegenstände auf die Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B8"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B8 Frankfurt Richtung Königstein zwischen Bad Soden am Taunus und Kelkheim (Taunus)",
+        "streets": [
+          "B8"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Sehr dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-24T14:43:37.297Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
