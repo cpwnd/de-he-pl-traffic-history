@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "2ms",
+  "time": "1ms",
   "version": "TIC",
   "data": [
     {
@@ -6721,6 +6721,74 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-04T04:00:03.29Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/492674_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 492674
+      },
+      "description": [
+        {
+          "value": "B454 Neustadt (Hessen), Bahnhofstraße\nzwischen Am Bahnhof und Ringstraße\nin beiden Richtungen Jahrmarkt, Richtungsfahrbahn gesperrt, eine Umleitung ist eingerichtet, bis 24.04.2022 20:00 Uhr, empfohlene Umleitungen: Richtung Stadtallendorf über Im Hattenrod und Alsfelder Straße, Richtung Treysa über Alsfelder Straße und Im Hattenrod"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B454"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B454 Neustadt (Hessen), Bahnhofstraße zwischen Am Bahnhof und Ringstraße",
+        "streets": [
+          "B454"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-24T05:25:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-24T18:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "am 24.04.2022 von 07:25 Uhr bis 20:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Organisiertes Ereignis"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Organisiertes Ereignis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-24T05:25:01.081Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
