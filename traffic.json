@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -1355,6 +1355,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/492802_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 492802
+      },
+      "description": [
+        {
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Alsfeld-Ost und Hattenbacher Dreieck\nGefahr durch defektes Fahrzeug auf dem rechten Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Frankfurt Richtung Kassel zwischen Alsfeld-Ost und Hattenbacher Dreieck",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-24T17:19:17.722Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -3927,7 +3978,7 @@
       },
       "description": [
         {
-          "value": "A485 Gießener Nordkreuz Richtung Langgöns\nzwischen Linden und Gießener Südkreuz\nUnfallaufnahme auf dem Standstreifen, bitte vorsichtig fahren"
+          "value": "A485 Gießener Nordkreuz Richtung Langgöns\nzwischen Linden und Gießener Südkreuz\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -3962,7 +4013,7 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-24T17:02:58.192Z"
+        "value": "2022-04-24T17:23:16.629Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4421,7 +4472,7 @@
       },
       "description": [
         {
-          "value": "B3 Kassel - Göttingen\nzwischen Wilhelmshausen und Neumünden\nin beiden Richtungen Unfallaufnahme, Richtungsfahrbahn gesperrt, Rettungsfahrzeuge vor Ort, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+          "value": "B3 Kassel - Göttingen\nzwischen Wilhelmshausen und Neumünden\nin beiden Richtungen Unfallaufnahme, Bergungsarbeiten, bitte vorsichtig fahren"
         }
       ],
       "location": {
@@ -4450,10 +4501,7 @@
           "value": "Störung"
         },
         {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Information"
+          "value": "Arbeitsstelle"
         },
         {
           "value": "Hinweis"
@@ -4462,7 +4510,7 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-24T17:07:20.247Z"
+        "value": "2022-04-24T17:25:57.945Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
