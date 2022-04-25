@@ -4262,7 +4262,7 @@
       },
       "description": [
         {
-          "value": "A67 Darmstadt - Mönchhof-Dreieck\nzwischen Rüsselsheim-Ost und Mönchhof-Dreieck\nin beiden Richtungen Gefahr durch Tiere auf der Fahrbahn\nim Bereich Standstreifen , sind Rehe"
+          "value": "A67 Darmstadt - Mönchhof-Dreieck\nzwischen Rüsselsheim-Ost und Mönchhof-Dreieck\nin beiden Richtungen Gefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -4284,7 +4284,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -4294,11 +4294,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-25T19:44:21.553Z"
+        "value": "2022-04-25T20:21:46.994Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4687,6 +4687,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/493171_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 493171
+      },
+      "description": [
+        {
+          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Neu-Isenburg und Dreieich\nGefahr durch ein totes Tier (Reh) auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A661"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A661 Bad Homburg Richtung Darmstadt zwischen Neu-Isenburg und Dreieich",
+        "streets": [
+          "A661"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-25T20:24:27.223Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -7371,7 +7422,7 @@
       },
       "description": [
         {
-          "value": "B80 Bad Karlshafen Richtung Hann.-Münden\nzwischen Bad Karlshafen und Gewissenruh\nLöscharbeiten\nparkender Bootsanhänger"
+          "value": "B80 Bad Karlshafen Richtung Hann.-Münden\nzwischen Bad Karlshafen und Gewissenruh\nLöscharbeiten, rechter Fahrstreifen gesperrt\nparkender Bootsanhänger"
         }
       ],
       "location": {
@@ -7398,12 +7449,15 @@
       "eventCategory": [
         {
           "value": "Störung"
+        },
+        {
+          "value": "Sperrung"
         }
       ],
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-25T20:15:25.253Z"
+        "value": "2022-04-25T20:29:24.449Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
