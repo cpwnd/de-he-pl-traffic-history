@@ -1218,60 +1218,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/493000_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 493000
-      },
-      "description": [
-        {
-          "value": "A4 Bad Hersfeld Richtung Erfurt\nzwischen Bad Hersfeld und Friedewald\nUnfallstelle geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A4"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A4 Bad Hersfeld Richtung Erfurt zwischen Bad Hersfeld und Friedewald",
-        "streets": [
-          "A4"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-25T10:12:49.638Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/491321_LMS-HE/54"
       },
       "dataProducer": {
@@ -7123,6 +7069,71 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-04T04:00:03.29Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/493013_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 493013
+      },
+      "description": [
+        {
+          "value": "B324 Bad Hersfeld - Homberg (Efze)\nzwischen B27, Bad Hersfeld und Einfahrt Bad Hersfeld-West\nin beiden Richtungen Baumfällarbeiten, Richtungsfahrbahn gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, bis 25.04.2022 17:00 Uhr, empfohlene Umleitung: Richtung Kassel über a4 und A7\n"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B324"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B324 Bad Hersfeld Richtung Homberg (Efze) zwischen B27, Bad Hersfeld und Einfahrt Bad Hersfeld-West",
+        "streets": [
+          "B324"
+        ]
+      },
+      "duration": {
+        "startTime": null,
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-25T15:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "bis 25.04.2022 17:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-25T10:24:09.088Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
