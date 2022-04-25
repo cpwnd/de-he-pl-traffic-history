@@ -571,57 +571,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/493137_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 493137
-      },
-      "description": [
-        {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Limburg-Süd und Bad Camberg\nalle Fahrbahnen wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Köln Richtung Frankfurt zwischen Limburg-Süd und Bad Camberg",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-25T16:58:25.56Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/491359_LMS-HE/54"
       },
       "dataProducer": {
@@ -1481,57 +1430,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-04T14:43:08.674Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/493139_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 493139
-      },
-      "description": [
-        {
-          "value": "A4 Erfurt Richtung Bad Hersfeld\nzwischen Wildeck-Obersuhl und Wildeck-Hönebach\nStraße wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A4"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A4 Erfurt Richtung Bad Hersfeld zwischen Wildeck-Obersuhl und Wildeck-Hönebach",
-        "streets": [
-          "A4"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-25T17:05:04.141Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3099,7 +2997,7 @@
       },
       "description": [
         {
-          "value": "A44 Dortmund Richtung Kassel\nzwischen Zierenberg und Kassel-Bad Wilhelmshöhe\nUnfall auf dem linken Fahrstreifen"
+          "value": "A44 Dortmund Richtung Kassel\nzwischen Zierenberg und Kassel-Bad Wilhelmshöhe\nUnfallaufnahme\n7 km Rückstau"
         }
       ],
       "location": {
@@ -3125,17 +3023,17 @@
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Störung"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-25T16:16:44.512Z"
+        "value": "2022-04-25T17:13:02.994Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3150,7 +3048,7 @@
       },
       "description": [
         {
-          "value": "A44 Dortmund Richtung Kassel\nzwischen Diemelstadt und Warburg\nbrennender LKW auf dem Standstreifen"
+          "value": "A44 Dortmund Richtung Kassel\nzwischen Diemelstadt und Warburg\nRichtungsfahrbahn gesperrt, brennender LKW auf dem Standstreifen, Löscharbeiten"
         }
       ],
       "location": {
@@ -3176,17 +3074,20 @@
       },
       "eventCategory": [
         {
+          "value": "Sperrung"
+        },
+        {
           "value": "Störung"
         }
       ],
-      "masterEventCategory": "Störung",
+      "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-25T17:00:18.666Z"
+        "value": "2022-04-25T17:20:37.871Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -7696,17 +7597,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/493140_LMS-HE/54"
+        "value": "LMS/r_LMS/493144_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 493140
+        "value": 493144
       },
       "description": [
         {
-          "value": "B456 Usingen Richtung Oberursel\nzwischen Usingen und Abzweig nach Köppern\nHindernisse beseitigt"
+          "value": "B455 AS Friedberg - Friedberg\nin Höhe Friedberg\nUnfall, beide Fahrtrichtungen bis auf weiteres gesperrt"
         }
       ],
       "location": {
@@ -7714,15 +7615,15 @@
           {
             "edge": {
               "sortRoadNumber": {
-                "value": "B456"
+                "value": "B455"
               }
             }
           }
         ],
         "name": "Ort",
-        "description": "B456 Usingen Richtung Oberursel zwischen Usingen und Abzweig nach Köppern",
+        "description": "B455 AS Friedberg Richtung Friedberg in Höhe Friedberg",
         "streets": [
-          "B456"
+          "B455"
         ]
       },
       "duration": null,
@@ -7732,17 +7633,20 @@
       },
       "eventCategory": [
         {
-          "value": "Hindernis"
+          "value": "Unfall"
+        },
+        {
+          "value": "Sperrung"
         }
       ],
-      "masterEventCategory": "Hindernis",
+      "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-25T17:00:45.516Z"
+        "value": "2022-04-25T17:16:22.868Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Geändert"
+        "value": "Neu"
       }
     },
     {
@@ -13712,7 +13616,7 @@
       },
       "description": [
         {
-          "value": "Langen (Hessen), Südliche Ringstraße\nzwischen Darmstädter Straße und Woogstraße\nin beiden Richtungen Feuerwehreinsatz, Richtungsfahrbahn gesperrt\n(Rauchentwicklung aus Keller)"
+          "value": "Langen (Hessen), Südliche Ringstraße\nzwischen Darmstädter Straße und Woogstraße\nin beiden Richtungen Feuerwehreinsatz, Richtungsfahrbahn gesperrt"
         }
       ],
       "location": {
@@ -13743,11 +13647,11 @@
       "masterEventCategory": "Information",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-25T14:07:05.897Z"
+        "value": "2022-04-25T17:11:43.395Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
