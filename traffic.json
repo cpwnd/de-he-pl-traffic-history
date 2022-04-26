@@ -530,7 +530,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Bad Camberg und Einfahrt B275, Idstein\n1 defekter LKW auf dem Standstreifen\n(Reifenteile wurden entfernt)"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Bad Camberg und Einfahrt B275, Idstein\nStraße wieder frei"
         }
       ],
       "location": {
@@ -562,7 +562,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-26T18:49:51.476Z"
+        "value": "2022-04-26T18:58:05.752Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -12411,6 +12411,64 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/493475_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 493475
+      },
+      "description": [
+        {
+          "value": "Frankfurt\nzwischen Theatertunnel und Kurt-Schumacher-Straße\nTunnel gesperrt, beide Fahrtrichtungen gesperrt, bis 28.04.2022 06:00 Uhr\nInnenstadt, Theatertunnel, aufgrund von Wartungsarbeiten Vollsperrung Theatertunnel vom 26.04.2022, 21 Uhr bis 28.04.2022, 6 Uhr."
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": null
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt zwischen Theatertunnel und Kurt-Schumacher-Straße",
+        "streets": null
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-26T19:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-28T04:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 26.04.2022 21:00 Uhr bis 28.04.2022 06:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-26T19:00:01.133Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
