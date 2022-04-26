@@ -833,6 +833,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/493296_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 493296
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Raunheim und Wiesbadener Kreuz\nUnfall auf dem linken Fahrstreifen, vorsichtig an das Stauende heranfahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Köln zwischen Raunheim und Wiesbadener Kreuz",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-26T09:18:24.829Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/481932_LMS-HE/54"
       },
       "dataProducer": {
@@ -1538,60 +1592,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/493285_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 493285
-      },
-      "description": [
-        {
-          "value": "A5 Frankfurt Richtung Darmstadt\nzwischen Zeppelinheim und Langen/Mörfelden\nUnfallstelle geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Frankfurt Richtung Darmstadt zwischen Zeppelinheim und Langen/Mörfelden",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Hinweis"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-26T08:35:22.384Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -3841,7 +3841,7 @@
       },
       "description": [
         {
-          "value": "A66 Frankfurt Richtung Fulda\nzwischen Neuhof-Süd und Neuhof-Nord\nReinigungsarbeiten, Tunnelwartungsarbeiten, linker Fahrstreifen gesperrt, bis 26.04.2022 ca. 16:00 Uhr"
+          "value": "A66 Frankfurt Richtung Fulda\nzwischen Neuhof-Süd und Neuhof-Nord\nStörung beseitigt"
         }
       ],
       "location": {
@@ -3860,15 +3860,7 @@
           "A66"
         ]
       },
-      "duration": {
-        "startTime": null,
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-26T14:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "bis 26.04.2022 ca. 16:00 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -3887,11 +3879,11 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-26T06:04:39.028Z"
+        "value": "2022-04-26T09:20:00.204Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -6759,58 +6751,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/493284_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 493284
-      },
-      "description": [
-        {
-          "value": "B49, B54 Gießen - Limburg\nzwischen Beselich-Obertiefenbach-Ost und Limburg-Offheim\nin beiden Richtungen die Gefahr durch ein entgegenkommendes Fahrzeug besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B49, B54"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B49, B54 Gießen Richtung Limburg zwischen Beselich-Obertiefenbach-Ost und Limburg-Offheim",
-        "streets": [
-          "B49",
-          "B54"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-26T08:34:37.463Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
