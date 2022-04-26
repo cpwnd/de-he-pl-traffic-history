@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -146,7 +146,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Würzburg\nzwischen Offenbacher Kreuz und Offenbach\nGefahr durch Gegenstände auf der Fahrbahn"
+          "value": "A3 Frankfurt Richtung Würzburg\nzwischen Offenbacher Kreuz und Offenbach\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -168,7 +168,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -178,11 +178,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-26T05:05:49.666Z"
+        "value": "2022-04-26T05:35:11.197Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1658,6 +1658,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/493230_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 493230
+      },
+      "description": [
+        {
+          "value": "A5 Heidelberg Richtung Darmstadt\nzwischen Bensheim und Zwingenberg\nUnfall auf dem linken Fahrstreifen, Gefahr durch Personen auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Heidelberg Richtung Darmstadt zwischen Bensheim und Zwingenberg",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-26T05:37:17.094Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/338932_LMS-HE/54"
       },
       "dataProducer": {
@@ -2316,7 +2370,7 @@
       },
       "description": [
         {
-          "value": "A7 Hannover Richtung Kassel\nzwischen Hann. Münden/Lutterberg und Kassel-Nord\nGefahr durch Reifenteile auf der Fahrbahn"
+          "value": "A7 Hannover Richtung Kassel\nzwischen Hann. Münden/Lutterberg und Kassel-Nord\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -2338,7 +2392,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2348,11 +2402,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-26T05:06:34.543Z"
+        "value": "2022-04-26T05:36:07.598Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -7381,6 +7435,61 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/493232_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 493232
+      },
+      "description": [
+        {
+          "value": "B426, B3 Höchst im Odenwald Richtung Gernsheim\nzwischen Darmstadt-Eberstadt-Süd und Darmstadt-Eberstadt\nUnfall, Stau"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B426, B3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B426, B3 Höchst im Odenwald Richtung Gernsheim zwischen Darmstadt-Eberstadt-Süd und Darmstadt-Eberstadt",
+        "streets": [
+          "B426",
+          "B3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Stau"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-26T05:39:54.234Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/477347_LMS-HE/54"
       },
       "dataProducer": {
@@ -12126,51 +12235,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-12-14T15:08:09.05Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/493173_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 493173
-      },
-      "description": [
-        {
-          "value": "Neustadt (Hessen)\nVermisstenfahndung eingestellt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": null
-          }
-        ],
-        "name": "Ort",
-        "description": "Neustadt (Hessen)",
-        "streets": null
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Information"
-        }
-      ],
-      "masterEventCategory": "Information",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-26T05:27:46.155Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
