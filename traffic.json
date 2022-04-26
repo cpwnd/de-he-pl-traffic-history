@@ -530,7 +530,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Diez und Limburg-Nord\nReinigungsarbeiten, Richtungsfahrbahn gesperrt\nca. 30 Minuten\n"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Diez und Limburg-Nord\nReinigungsarbeiten, Standstreifen mitbenutzen"
         }
       ],
       "location": {
@@ -559,13 +559,13 @@
           "value": "Störung"
         },
         {
-          "value": "Sperrung"
+          "value": "Hinweis"
         }
       ],
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-25T23:03:16.376Z"
+        "value": "2022-04-26T00:19:45.229Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1013,7 +1013,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Limburg-Nord und Diez\nReinigungsarbeiten, Richtungsfahrbahn gesperrt\nca. 30 Minuten"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Limburg-Nord und Diez\nReinigungsarbeiten, linker Fahrstreifen gesperrt"
         }
       ],
       "location": {
@@ -1048,7 +1048,7 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-25T23:03:50.404Z"
+        "value": "2022-04-26T00:25:43.545Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -2544,6 +2544,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/493184_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 493184
+      },
+      "description": [
+        {
+          "value": "A7 Würzburg Richtung Fulda\nzwischen Bad Brückenau-Volkers und Dreieck Fulda\nUnfallaufnahme"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Würzburg Richtung Fulda zwischen Bad Brückenau-Volkers und Dreieck Fulda",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-26T01:24:40.336Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/443927_LMS-HE/54"
       },
       "dataProducer": {
@@ -3809,6 +3860,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-29T09:00:02.365Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/493187_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 493187
+      },
+      "description": [
+        {
+          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Frankfurt am Main-Zeilsheim und Krifteler Dreieck\nGefahr durch Gegenstände auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Frankfurt Richtung Wiesbaden zwischen Frankfurt am Main-Zeilsheim und Krifteler Dreieck",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-26T01:28:24.079Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -13517,53 +13619,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-02-28T05:00:02.78Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/493178_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 493178
-      },
-      "description": [
-        {
-          "value": "Bornweg\nin Höhe Mühlheim am Main\nHausbrand\naufgrund starker Rauchentwicklung sollen die Anwohner Fenster und Türen geschlossen halten in diesem Bereich"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": null
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Kreis Offenbach, Bornweg in Höhe Mühlheim am Main",
-        "streets": null
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-25T21:05:31.448Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
