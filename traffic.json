@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -1803,60 +1803,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/493408_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 493408
-      },
-      "description": [
-        {
-          "value": "A6 Heilbronn Richtung Kaiserslautern\nzwischen Viernheimer Dreieck und Mannheim-Sandhofen\nUnfall auf dem linken Fahrstreifen, linker Fahrstreifen blockiert"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A6"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A6 Heilbronn Richtung Kaiserslautern zwischen Viernheimer Dreieck und Mannheim-Sandhofen",
-        "streets": [
-          "A6"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-26T14:26:34.807Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/450370_LMS-HE/54"
       },
       "dataProducer": {
@@ -2960,7 +2906,7 @@
       },
       "description": [
         {
-          "value": "A44 Kassel Richtung Dortmund\nzwischen Warburg und Diemelstadt\nGefahr durch Gegenstände auf der Fahrbahn (ein Reifen)"
+          "value": "A44 Kassel Richtung Dortmund\nzwischen Warburg und Diemelstadt\nStraße wieder frei"
         }
       ],
       "location": {
@@ -2982,7 +2928,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2992,11 +2938,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-26T13:42:15.518Z"
+        "value": "2022-04-26T15:12:55.235Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -3892,7 +3838,7 @@
       },
       "description": [
         {
-          "value": "A67 Darmstadt Richtung Mannheim\nzwischen Gernsheim und Lorsch\nUnfall im Baustellenbereich, Unfall mit LKW\n(Baustellenbegrenzung im Bereich der Zufahrt für Baustelenfahrzeuge verschoben)"
+          "value": "A67 Darmstadt Richtung Mannheim\nzwischen Gernsheim und Lorsch\nUnfall im Baustellenbereich, Unfall mit LKW\n(Baustellenbegrenzung im Bereich der Zufahrt für Baustellenfahrzeuge verschoben)"
         }
       ],
       "location": {
@@ -3924,7 +3870,7 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-26T13:40:06.621Z"
+        "value": "2022-04-26T14:56:08.522Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -7324,17 +7270,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/493267_LMS-HE/54"
+        "value": "LMS/r_LMS/493415_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 493267
+        "value": 493415
       },
       "description": [
         {
-          "value": "B324 Bad Hersfeld - Homberg (Efze)\nzwischen B27, Bad Hersfeld und Einfahrt Bad Hersfeld-West\nin beiden Richtungen Baumfällarbeiten, Richtungsfahrbahn gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, bis 29.04.2022, Di - Fr zwischen 09:00 Uhr und 17:00 Uhr, empfohlene Umleitung: Richtung Kassel über a4 und A7\n"
+          "value": "B456 Oberursel Richtung Usingen\nzwischen Abzweig nach Wehrheim und Usingen\nUnfall, Richtungsfahrbahn gesperrt, empfohlene Umleitung: Richtung Usingen über Neu-Anspach, Usingen und B275"
         }
       ],
       "location": {
@@ -7342,52 +7288,38 @@
           {
             "edge": {
               "sortRoadNumber": {
-                "value": "B324"
+                "value": "B456"
               }
             }
           }
         ],
         "name": "Ort",
-        "description": "B324 Bad Hersfeld Richtung Homberg (Efze) zwischen B27, Bad Hersfeld und Einfahrt Bad Hersfeld-West",
+        "description": "B456 Oberursel Richtung Usingen zwischen Abzweig nach Wehrheim und Usingen",
         "streets": [
-          "B324"
+          "B456"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-04-26T07:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-29T15:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 26.04.2022 bis 29.04.2022, Di - Fr zwischen 09:00 Uhr und 17:00 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Arbeitsstelle"
+          "value": "Unfall"
         },
         {
           "value": "Sperrung"
-        },
-        {
-          "value": "Hinweis"
         }
       ],
-      "masterEventCategory": "Arbeitsstelle",
+      "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-26T07:00:01.578Z"
+        "value": "2022-04-26T14:47:44.18Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -12931,6 +12863,56 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/493417_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 493417
+      },
+      "description": [
+        {
+          "value": "Usinger Straße\nzwischen Wehrheim und B456\nin beiden Richtungen Unfall, Richtungsfahrbahn gesperrt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": null
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Hochtaunuskreis, Usinger Straße zwischen Wehrheim und B456",
+        "streets": null
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-26T14:48:38.197Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
