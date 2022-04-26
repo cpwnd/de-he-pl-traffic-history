@@ -1604,6 +1604,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/493493_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 493493
+      },
+      "description": [
+        {
+          "value": "A5 Europabrücke Frankfurt, Frankfurt - Darmstadt\nzwischen Frankfurt am Main-Westhafen und Frankfurt-Niederrad\nin beiden Richtungen Gefahr durch 1 Person auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Europabrücke Frankfurt, Frankfurt Richtung Darmstadt zwischen Frankfurt am Main-Westhafen und Frankfurt-Niederrad",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-26T20:59:55.261Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/492899_LMS-HE/54"
       },
       "dataProducer": {
@@ -3712,6 +3763,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-10-29T09:00:02.365Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/493494_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 493494
+      },
+      "description": [
+        {
+          "value": "A66 Frankfurt Richtung Wiesbaden\nNordwestkreuz Frankfurt Überleitung zur A5 Richtung Frankfurt\nGefahr durch ungesicherte Unfallstelle in Anschlussstellen, bitte vorsichtig fahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Frankfurt Richtung Wiesbaden Nordwestkreuz Frankfurt Überleitung zur A5 Richtung Frankfurt",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-26T21:08:57.915Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
