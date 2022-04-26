@@ -3722,7 +3722,7 @@
       },
       "description": [
         {
-          "value": "A66 Wiesbaden Richtung Frankfurt\nzwischen Nordwestkreuz Frankfurt und Frankfurt am Main-L.-Landmann-Str.\n1 brennender PKW, Feuerwehreinsatz, Richtungsfahrbahn gesperrt, Gefahr durch ausgelaufene Flüssigkeiten auf der Straße, empfohlene Umleitung: Richtung Frankfurt über Eschborn"
+          "value": "A66 Wiesbaden Richtung Frankfurt\nzwischen Nordwestkreuz Frankfurt und Frankfurt am Main-L.-Landmann-Str.\n1 brennender PKW, Feuerwehreinsatz, Gefahr durch ausgelaufene Flüssigkeiten auf der Straße, linker Fahrstreifen wieder befahrbar, Fahrbahn von 2 auf einen Fahrstreifen verengt, empfohlene Umleitung: Richtung Frankfurt über Eschborn"
         }
       ],
       "location": {
@@ -3754,16 +3754,16 @@
           "value": "Information"
         },
         {
-          "value": "Sperrung"
+          "value": "Hindernis"
         },
         {
-          "value": "Hindernis"
+          "value": "Sperrung"
         }
       ],
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-26T05:03:43.749Z"
+        "value": "2022-04-26T07:06:52.907Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -4155,57 +4155,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/493246_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 493246
-      },
-      "description": [
-        {
-          "value": "A67 Darmstadt Richtung Mönchhof-Dreieck\nzwischen Rüsselsheimer Dreieck und Rüsselsheim-Ost\nalle Fahrbahnen geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A67"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A67 Darmstadt Richtung Mönchhof-Dreieck zwischen Rüsselsheimer Dreieck und Rüsselsheim-Ost",
-        "streets": [
-          "A67"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-26T06:49:04.922Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -7396,6 +7345,74 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/493267_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 493267
+      },
+      "description": [
+        {
+          "value": "B324 Bad Hersfeld - Homberg (Efze)\nzwischen B27, Bad Hersfeld und Einfahrt Bad Hersfeld-West\nin beiden Richtungen Baumfällarbeiten, Richtungsfahrbahn gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, bis 29.04.2022, Di - Fr zwischen 09:00 Uhr und 17:00 Uhr, empfohlene Umleitung: Richtung Kassel über a4 und A7\n"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B324"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B324 Bad Hersfeld Richtung Homberg (Efze) zwischen B27, Bad Hersfeld und Einfahrt Bad Hersfeld-West",
+        "streets": [
+          "B324"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-26T07:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-29T15:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 26.04.2022 bis 29.04.2022, Di - Fr zwischen 09:00 Uhr und 17:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-26T07:00:01.578Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/477347_LMS-HE/54"
       },
       "dataProducer": {
@@ -8509,6 +8526,71 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/493266_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 493266
+      },
+      "description": [
+        {
+          "value": "Frankfurt, Mainzer Landstraße\nzwischen Waldschulstraße und B40\nBaustelle, Fahrbahnverengung, bis 29.04.2022, Mo - Fr zwischen 09:00 Uhr und 15:00 Uhr\nGriesheim, Mainzer Landstraße 600, aufgrund von Baustelleneinrichtungs- und Lagerfläche Teilsperrung der Fahrbahn in Richtung West vom 25.04.2022 bis 29.04.2022 zwischen 09:00 und 15:00 Uhr."
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K803"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, Mainzer Landstraße zwischen Waldschulstraße und B40",
+        "streets": [
+          "K803"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-25T07:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-29T13:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 25.04.2022 bis 29.04.2022, Mo - Fr zwischen 09:00 Uhr und 15:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-26T07:00:01.578Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
