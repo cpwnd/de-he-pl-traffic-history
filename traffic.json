@@ -4169,7 +4169,7 @@
       },
       "description": [
         {
-          "value": "A67 Darmstadt Richtung Mönchhof-Dreieck\nzwischen Rüsselsheimer Dreieck und Rüsselsheim-Ost\nGefahr durch defektes Fahrzeug auf dem linken Fahrstreifen"
+          "value": "A67 Darmstadt Richtung Mönchhof-Dreieck\nzwischen Rüsselsheimer Dreieck und Rüsselsheim-Ost\nalle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -4191,7 +4191,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -4201,11 +4201,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-26T06:20:16.554Z"
+        "value": "2022-04-26T06:49:04.922Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -7279,6 +7279,58 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/493262_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 493262
+      },
+      "description": [
+        {
+          "value": "B255, B277 Rennerod Richtung Wetzlar\nzwischen Herborn und Sinn\nGefahr durch Gegenstände auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B255, B277"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B255, B277 Rennerod Richtung Wetzlar zwischen Herborn und Sinn",
+        "streets": [
+          "B255",
+          "B277"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-26T06:51:57.842Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/486932_LMS-HE/54"
       },
       "dataProducer": {
@@ -7340,61 +7392,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/493232_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 493232
-      },
-      "description": [
-        {
-          "value": "B426, B3 Höchst im Odenwald Richtung Gernsheim\nzwischen Darmstadt-Eberstadt-Süd und Darmstadt-Eberstadt\nUnfallstelle geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B426, B3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B426, B3 Höchst im Odenwald Richtung Gernsheim zwischen Darmstadt-Eberstadt-Süd und Darmstadt-Eberstadt",
-        "streets": [
-          "B426",
-          "B3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Stau"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-26T06:25:52.043Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
