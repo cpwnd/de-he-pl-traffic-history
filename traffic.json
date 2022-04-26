@@ -4648,7 +4648,7 @@
       },
       "description": [
         {
-          "value": "A485 Langgöns Richtung Gießener Nordkreuz\nzwischen Linden und Dreieck Bergwerkswald\nGefahr durch Reifenteile auf der Fahrbahn"
+          "value": "A485 Langgöns Richtung Gießener Nordkreuz\nzwischen Linden und Dreieck Bergwerkswald\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -4670,7 +4670,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -4680,11 +4680,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-26T10:07:26.12Z"
+        "value": "2022-04-26T10:26:56.361Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -11888,6 +11888,66 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-10T06:00:01.327Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/493333_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 493333
+      },
+      "description": [
+        {
+          "value": "L3413 Reinheim Richtung Groß-Umstadt\nzwischen Habitzheim und Hof an der Seidenirr\nUnfall, Bergungsarbeiten, Richtungsfahrbahn gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3413"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Kreis Darmstadt-Dieburg, L3413 zwischen Habitzheim und Hof an der Seidenirr",
+        "streets": [
+          "L3413"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-26T10:31:53.79Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
