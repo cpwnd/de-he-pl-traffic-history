@@ -530,7 +530,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Bad Camberg und Idstein\nUnfall mit Verletzten, Richtungsfahrbahn gesperrt, Gasse für Rettungsfahrzeuge bilden, empfohlene Umleitung: U57\n( Pkw vs. Lkw )"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Limburg-Süd und Idstein\nUnfall mit Verletzten, Richtungsfahrbahn gesperrt, Gasse für Rettungsfahrzeuge bilden, 10 km Stau, empfohlene Umleitungen: U55, U57\n( Pkw vs. Lkw )"
         }
       ],
       "location": {
@@ -544,7 +544,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A3 Köln Richtung Frankfurt zwischen Bad Camberg und Idstein",
+        "description": "A3 Köln Richtung Frankfurt zwischen Limburg-Süd und Idstein",
         "streets": [
           "A3"
         ]
@@ -563,12 +563,15 @@
         },
         {
           "value": "Hinweis"
+        },
+        {
+          "value": "Stau"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-27T05:38:36.662Z"
+        "value": "2022-04-27T06:09:23.181Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3963,7 +3966,7 @@
       },
       "description": [
         {
-          "value": "A66 Frankfurt Richtung Fulda\nDreieck Fulda Überleitung zur A7 Richtung Kassel\nUnfall auf dem rechten Fahrstreifen, rechter Fahrstreifen blockiert"
+          "value": "A66 Frankfurt Richtung Fulda\nDreieck Fulda Überleitung zur A7 Richtung Kassel\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -3998,11 +4001,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-27T05:19:00.169Z"
+        "value": "2022-04-27T06:14:53.17Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4830,6 +4833,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2021-12-20T14:44:37.366Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/493571_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 493571
+      },
+      "description": [
+        {
+          "value": "A671 Mainz Richtung Wiesbaden\nzwischen Mainz-Kastel und Wiesbaden-Amöneburg\nGefahr besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A671"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A671 Mainz Richtung Wiesbaden zwischen Mainz-Kastel und Wiesbaden-Amöneburg",
+        "streets": [
+          "A671"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-27T06:11:30.474Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
