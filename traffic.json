@@ -136,6 +136,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/493605_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 493605
+      },
+      "description": [
+        {
+          "value": "A3 Köln Richtung Würzburg\nzwischen Frankfurt am Main-Flughafen und Frankfurt am Main-Süd\nGefahr durch Gegenstände auf der Fahrbahn im Baustellenbereich"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Würzburg zwischen Frankfurt am Main-Flughafen und Frankfurt am Main-Süd",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-27T07:13:49.048Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/493037_LMS-HE/54"
       },
       "dataProducer": {
@@ -641,6 +692,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/493603_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 493603
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Kelsterbach und Mönchhof-Dreieck\nGefahr durch verlorene Ladung (ein Metallteil)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Köln zwischen Kelsterbach und Mönchhof-Dreieck",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-27T07:09:03.434Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -3771,60 +3873,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/493532_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 493532
-      },
-      "description": [
-        {
-          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Wallau und Wiesbaden-Nordenstadt\nUnfallaufnahme, Standstreifen gesperrt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A66"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A66 Frankfurt Richtung Wiesbaden zwischen Wallau und Wiesbaden-Nordenstadt",
-        "streets": [
-          "A66"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-27T04:24:33.233Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -7086,7 +7134,7 @@
       },
       "description": [
         {
-          "value": "B253 Dillenburg Richtung Biedenkopf\nzwischen Überleitung B277, Dillenburg und Dillenburg\nUnfall, stockender Verkehr, Gefahr durch Bergungsarbeiten"
+          "value": "B253 Dillenburg Richtung Biedenkopf\nzwischen Überleitung B277, Dillenburg und Dillenburg\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -7108,7 +7156,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -7124,11 +7172,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-27T06:43:33.807Z"
+        "value": "2022-04-27T07:09:17.139Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -7461,17 +7509,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/493505_LMS-HE/54"
+        "value": "LMS/r_LMS/493267_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 493505
+        "value": 493267
       },
       "description": [
         {
-          "value": "B458 Hilders Richtung Fulda\nzwischen A7, Fulda-Mitte und Petersberg\nGefahr durch 1 defekten LKW, Sichtbehinderung durch dichten Nebel, bitte vorsichtig fahren"
+          "value": "B324 Bad Hersfeld - Homberg (Efze)\nzwischen B27, Bad Hersfeld und Einfahrt Bad Hersfeld-West\nin beiden Richtungen Baumfällarbeiten, Richtungsfahrbahn gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, bis 29.04.2022, Di - Fr zwischen 09:00 Uhr und 17:00 Uhr, empfohlene Umleitung: Richtung Kassel über a4 und A7\n"
         }
       ],
       "location": {
@@ -7479,15 +7527,151 @@
           {
             "edge": {
               "sortRoadNumber": {
-                "value": "B458"
+                "value": "B324"
               }
             }
           }
         ],
         "name": "Ort",
-        "description": "B458 Hilders Richtung Fulda zwischen A7, Fulda-Mitte und Petersberg",
+        "description": "B324 Bad Hersfeld Richtung Homberg (Efze) zwischen B27, Bad Hersfeld und Einfahrt Bad Hersfeld-West",
         "streets": [
-          "B458"
+          "B324"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-26T07:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-29T15:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 26.04.2022 bis 29.04.2022, Di - Fr zwischen 09:00 Uhr und 17:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-26T07:00:01.578Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/493598_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 493598
+      },
+      "description": [
+        {
+          "value": "B324 Bad Hersfeld - Homberg (Efze)\nzwischen B27, Bad Hersfeld und Einfahrt Bad Hersfeld-West\nin beiden Richtungen Baumfällarbeiten, Richtungsfahrbahn gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, bis 29.04.2022, Di - Fr zwischen 09:00 Uhr und 17:00 Uhr, empfohlene Umleitung: Richtung Kassel über a4 und A7\n"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B324"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B324 Bad Hersfeld Richtung Homberg (Efze) zwischen B27, Bad Hersfeld und Einfahrt Bad Hersfeld-West",
+        "streets": [
+          "B324"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-26T07:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-29T15:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 26.04.2022 bis 29.04.2022, Di - Fr zwischen 09:00 Uhr und 17:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-27T07:00:01.678Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/493599_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 493599
+      },
+      "description": [
+        {
+          "value": "B426 Höchst im Odenwald - Gernsheim\nzwischen Ober-Ramstadt und Darmstadt-Eberstadt-Süd\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn\n(ein Rollstuhlfahrer) "
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B426"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B426 Höchst im Odenwald Richtung Gernsheim zwischen Ober-Ramstadt und Darmstadt-Eberstadt-Süd",
+        "streets": [
+          "B426"
         ]
       },
       "duration": null,
@@ -7498,22 +7682,16 @@
       "eventCategory": [
         {
           "value": "Hindernis"
-        },
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Hinweis"
         }
       ],
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-26T23:23:54.37Z"
+        "value": "2022-04-27T07:08:15.301Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -8631,6 +8809,71 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/493597_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 493597
+      },
+      "description": [
+        {
+          "value": "Frankfurt, Mainzer Landstraße\nzwischen Waldschulstraße und B40\nBaustelle, Fahrbahnverengung, bis 29.04.2022, Mo - Fr zwischen 09:00 Uhr und 15:00 Uhr\nGriesheim, Mainzer Landstraße 600, aufgrund von Baustelleneinrichtungs- und Lagerfläche Teilsperrung der Fahrbahn in Richtung West vom 25.04.2022 bis 29.04.2022 zwischen 09:00 und 15:00 Uhr."
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K803"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, Mainzer Landstraße zwischen Waldschulstraße und B40",
+        "streets": [
+          "K803"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-25T07:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-29T13:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 25.04.2022 bis 29.04.2022, Mo - Fr zwischen 09:00 Uhr und 15:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-27T07:00:01.678Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
