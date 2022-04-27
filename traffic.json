@@ -571,6 +571,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/493608_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 493608
+      },
+      "description": [
+        {
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Limburg-Süd und Bad Camberg\nUnfall im Baustellenbereich, linker Fahrstreifen blockiert"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Frankfurt zwischen Limburg-Süd und Bad Camberg",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-27T07:21:22.6Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/493545_LMS-HE/54"
       },
       "dataProducer": {
@@ -581,7 +635,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Limburg-Süd und Idstein\nUnfall mit Verletzten, Gasse für Rettungsfahrzeuge bilden, 10 km Stau, linker Fahrstreifen wieder befahrbar, Fahrbahn von 3 auf einen Fahrstreifen verengt, empfohlene Umleitungen: U55, U57\n( Pkw vs. Lkw )"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Limburg-Süd und Idstein\nUnfallstelle geräumt, Staulänge abnehmend"
         }
       ],
       "location": {
@@ -610,22 +664,13 @@
           "value": "Unfall"
         },
         {
-          "value": "Hinweis"
-        },
-        {
           "value": "Stau"
-        },
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Störung"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-27T06:32:14.823Z"
+        "value": "2022-04-27T07:28:20.924Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -706,7 +751,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Kelsterbach und Mönchhof-Dreieck\nGefahr durch verlorene Ladung (ein Metallteil)"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Kelsterbach und Mönchhof-Dreieck\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -728,7 +773,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -738,11 +783,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-27T07:09:03.434Z"
+        "value": "2022-04-27T07:33:46.015Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -7124,63 +7169,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/493593_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 493593
-      },
-      "description": [
-        {
-          "value": "B253 Dillenburg Richtung Biedenkopf\nzwischen Überleitung B277, Dillenburg und Dillenburg\nUnfallstelle geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B253"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B253 Dillenburg Richtung Biedenkopf zwischen Überleitung B277, Dillenburg und Dillenburg",
-        "streets": [
-          "B253"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Stau"
-        },
-        {
-          "value": "Arbeitsstelle"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-27T07:09:17.139Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/445126_LMS-HE/54"
       },
       "dataProducer": {
@@ -7655,7 +7643,7 @@
       },
       "description": [
         {
-          "value": "B426 Höchst im Odenwald - Gernsheim\nzwischen Ober-Ramstadt und Darmstadt-Eberstadt-Süd\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn\n(ein Rollstuhlfahrer) "
+          "value": "B426 Höchst im Odenwald - Gernsheim\nzwischen Ober-Ramstadt und Darmstadt-Eberstadt-Süd\nin beiden Richtungen Gefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -7677,7 +7665,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -7687,7 +7675,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-27T07:08:15.301Z"
+        "value": "2022-04-27T07:21:52.742Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
