@@ -1,9 +1,60 @@
 {
   "status": "OK",
   "cached": false,
-  "time": "1.295ms",
+  "time": "1.352ms",
   "version": "TIC",
   "data": [
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/493836_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 493836
+      },
+      "description": [
+        {
+          "value": "A3 Köln - Frankfurt\nzwischen Limburg-Süd und Bad Camberg\nin beiden Richtungen 1 Person auf dem Standstreifen\n(Fußgänger mit Rucksack)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Köln Richtung Frankfurt zwischen Limburg-Süd und Bad Camberg",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-27T23:40:37.802Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
     {
       "ticId": {
         "value": "LMS/r_LMS/493835_LMS-HE/54"
@@ -124,7 +175,7 @@
       },
       "description": [
         {
-          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Weiterstadt und Langen/Mörfelden\nFahrbahn auf einen Fahrstreifen verengt, Baustelle\n(linker Fahrsteifen befahrbar, km 508,4 bis km 508)"
+          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Weiterstadt und Langen/Mörfelden\nFahrbahnbeschränkung besteht nicht mehr"
         }
       ],
       "location": {
@@ -159,11 +210,11 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-27T20:21:00.909Z"
+        "value": "2022-04-27T23:49:32.059Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -178,7 +229,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbadener Kreuz und Wiesbaden/Niedernhausen\nBaustelle auf dem linken Fahrstreifen, linker Fahrstreifen gesperrt"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbadener Kreuz und Wiesbaden/Niedernhausen\nFahrstreifensperrung wieder aufgehoben"
         }
       ],
       "location": {
@@ -213,7 +264,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-27T20:51:01.126Z"
+        "value": "2022-04-27T23:48:21.892Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
