@@ -1901,7 +1901,7 @@
       },
       "description": [
         {
-          "value": "A6 Mannheim Richtung Heilbronn\nzwischen Mannheim-Sandhofen und Viernheimer Dreieck\nGefahr durch Gegenstände auf dem linken Fahrstreifen\n(ein Hammer) "
+          "value": "A6 Mannheim Richtung Heilbronn\nzwischen Mannheim-Sandhofen und Viernheimer Dreieck\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -1923,7 +1923,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -1933,11 +1933,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-27T10:47:24.18Z"
+        "value": "2022-04-27T11:23:14.323Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -5179,60 +5179,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-03-18T10:04:37.93Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/493665_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 493665
-      },
-      "description": [
-        {
-          "value": "B8 Frankfurt Richtung Königstein\nzwischen Abzweig nach Neuenhain und Königstein im Taunus\nUnfallstelle geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B8"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B8 Frankfurt Richtung Königstein zwischen Abzweig nach Neuenhain und Königstein im Taunus",
-        "streets": [
-          "B8"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        },
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-27T11:06:42.415Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -11071,6 +11017,63 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/493680_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 493680
+      },
+      "description": [
+        {
+          "value": "L3140 Grebenhain - Niederaula\nzwischen Willofs und Schlitz\nin beiden Richtungen Unfall, Richtungsfahrbahn gesperrt, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3140"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Vogelsbergkreis, L3140 zwischen Willofs und Schlitz",
+        "streets": [
+          "L3140"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-27T11:17:04.367Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
