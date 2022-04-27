@@ -592,7 +592,7 @@
       },
       "description": [
         {
-          "value": "A3 Würzburg Richtung Frankfurt\nzwischen Offenbacher Kreuz und Frankfurt am Main-Süd\nStandstreifen blockiert\n(kurzzeitige Sperrung des rechten Fahrstreifens zur Bergung eines Pannen-LKW)"
+          "value": "A3 Würzburg Richtung Frankfurt\nzwischen Offenbacher Kreuz und Frankfurt am Main-Süd\nStandstreifenblockierung beseitigt"
         }
       ],
       "location": {
@@ -624,11 +624,11 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-27T17:52:59.582Z"
+        "value": "2022-04-27T18:30:30.979Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -1538,7 +1538,7 @@
       },
       "description": [
         {
-          "value": "A5 Kassel Richtung Frankfurt\nzwischen Friedberg und Bad Homburger Kreuz\nGegenstände auf dem Abbiegestreifen, defekter LKW, Reifenschaden\n(Abfahrt zur A661 in Ri Oberursel)"
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Friedberg und Bad Homburger Kreuz\nalle Fahrbahnen geräumt"
         }
       ],
       "location": {
@@ -1573,7 +1573,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-27T17:45:52.3Z"
+        "value": "2022-04-27T18:28:41.467Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1708,6 +1708,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/493802_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 493802
+      },
+      "description": [
+        {
+          "value": "A5 Darmstadt Richtung Frankfurt\nzwischen Dreieck Darmstadt und Weiterstadt\nVerzögerungsstreifen blockiert\n(Anschlusstelle Weiterstadt)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Darmstadt Richtung Frankfurt zwischen Dreieck Darmstadt und Weiterstadt",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-27T18:40:21.773Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -2482,6 +2533,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-01-10T07:00:01.983Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/493799_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 493799
+      },
+      "description": [
+        {
+          "value": "A7 Fulda - Kassel\nzwischen Kirchheim und Kirchheimer Dreieck\nin beiden Richtungen Gefahr durch Personen auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Fulda Richtung Kassel zwischen Kirchheim und Kirchheimer Dreieck",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-27T18:26:12.065Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3646,7 +3748,7 @@
       },
       "description": [
         {
-          "value": "A66 Frankfurt Richtung Wiesbaden\nNordwestkreuz Frankfurt Überleitung zur A5 Richtung Kassel\nVerkehrsbehinderung\n(Pannenfahrzeug)"
+          "value": "A66 Frankfurt Richtung Wiesbaden\nNordwestkreuz Frankfurt Überleitung zur A5 Richtung Kassel\nVerkehrsbehinderung beseitigt"
         }
       ],
       "location": {
@@ -3678,7 +3780,7 @@
       "masterEventCategory": "Störung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-27T17:47:46.932Z"
+        "value": "2022-04-27T18:27:02.525Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
