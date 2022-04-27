@@ -1,7 +1,7 @@
 {
   "status": "OK",
   "cached": true,
-  "time": "1ms",
+  "time": "2ms",
   "version": "TIC",
   "data": [
     {
@@ -700,7 +700,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Frankfurt am Main-Süd und Frankfurter Kreuz\nUnfall mit LKW, Richtungsfahrbahn gesperrt, Gefahr durch ausgelaufene Flüssigkeiten auf der Straße, empfohlene Umleitung: U58\n( Lkw vs. Lkw, Betriebsstoffe laufen aus)"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Frankfurt am Main-Süd und Frankfurter Kreuz\nUnfall mit LKW, Gefahr durch ausgelaufene Flüssigkeiten auf der Straße, linker Fahrstreifen wieder befahrbar, Fahrbahn von 3 auf zwei Fahrstreifen verengt, empfohlene Umleitung: U58\n( Lkw vs. Lkw, Betriebsstoffe laufen aus)"
         }
       ],
       "location": {
@@ -729,16 +729,19 @@
           "value": "Unfall"
         },
         {
+          "value": "Hindernis"
+        },
+        {
           "value": "Sperrung"
         },
         {
-          "value": "Hindernis"
+          "value": "Störung"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-27T08:15:39.466Z"
+        "value": "2022-04-27T08:27:32.513Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -1758,60 +1761,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/493591_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 493591
-      },
-      "description": [
-        {
-          "value": "A5 Kassel Richtung Frankfurt\nzwischen Bad Homburger Kreuz und Nordwestkreuz Frankfurt\nUnfallstelle geräumt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Kassel Richtung Frankfurt zwischen Bad Homburger Kreuz und Nordwestkreuz Frankfurt",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-27T08:17:12.237Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/492899_LMS-HE/54"
       },
       "dataProducer": {
@@ -1952,7 +1901,7 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Homberg (Ohm) und Alsfeld-West\nUnfall auf dem linken Fahrstreifen, linker Fahrstreifen blockiert"
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Homberg (Ohm) und Alsfeld-West\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -1987,11 +1936,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-27T08:07:53.158Z"
+        "value": "2022-04-27T08:32:49.435Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4811,57 +4760,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/493611_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 493611
-      },
-      "description": [
-        {
-          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Offenbach-Kaiserlei und Offenbach-Taunusring\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A661"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A661 Bad Homburg Richtung Darmstadt zwischen Offenbach-Kaiserlei und Offenbach-Taunusring",
-        "streets": [
-          "A661"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-27T08:08:20.93Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/430914_LMS-HE/54"
       },
       "dataProducer": {
@@ -4934,7 +4832,7 @@
       },
       "description": [
         {
-          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Frankfurt am M.-Nieder-Eschbach und Frankfurt am Main-Heddernheim\nGefahr durch ungesicherte Unfallstelle auf dem linken Fahrstreifen"
+          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Frankfurt am M.-Nieder-Eschbach und Frankfurt am Main-Heddernheim\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -4956,7 +4854,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -4966,11 +4864,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-27T07:58:02.228Z"
+        "value": "2022-04-27T08:37:29.503Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
