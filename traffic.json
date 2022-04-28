@@ -1910,6 +1910,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/494103_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 494103
+      },
+      "description": [
+        {
+          "value": "A5 Frankfurt Richtung Kassel\nHattenbacher Dreieck Überleitung zur A7 Richtung Kassel\nGefahr durch liegengebliebenes Fahrzeug auf dem rechten Fahrstreifen\n(Auto-Transporter mit defekter Bremse)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Frankfurt Richtung Kassel Hattenbacher Dreieck Überleitung zur A7 Richtung Kassel",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-28T19:39:57.831Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/335177_LMS-HE/54"
       },
       "dataProducer": {
@@ -4784,60 +4835,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/494053_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 494053
-      },
-      "description": [
-        {
-          "value": "A661 Darmstadt Richtung Bad Homburg\nBad Homburger Kreuz Überleitung zur A5 Richtung Kassel\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A661"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A661 Darmstadt Richtung Bad Homburg Bad Homburger Kreuz Überleitung zur A5 Richtung Kassel",
-        "streets": [
-          "A661"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Sperrung"
-        },
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Sperrung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-28T19:20:16.098Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/491319_LMS-HE/54"
       },
       "dataProducer": {
@@ -7506,7 +7503,7 @@
       },
       "description": [
         {
-          "value": "B448 Obertshausen Richtung Offenbach\nzwischen Obertshausen und Offenbach-Waldhof\nVollsperrung, Unfall"
+          "value": "B448 Obertshausen Richtung Offenbach\nzwischen Obertshausen und Offenbach-Waldhof\nStraße wieder frei"
         }
       ],
       "location": {
@@ -7541,11 +7538,11 @@
       "masterEventCategory": "Sperrung",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-28T16:48:57.964Z"
+        "value": "2022-04-28T19:40:58.863Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -11401,57 +11398,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/494096_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 494096
-      },
-      "description": [
-        {
-          "value": "L3159 Kirchheim - Bad Hersfeld\nzwischen Reckerode und Bad Hersfeld\nin beiden Richtungen Gefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "L3159"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Kreis Hersfeld-Rotenburg, L3159 zwischen Reckerode und Bad Hersfeld",
-        "streets": [
-          "L3159"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-28T19:26:55.642Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
