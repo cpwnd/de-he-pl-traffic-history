@@ -1738,57 +1738,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/493825_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 493825
-      },
-      "description": [
-        {
-          "value": "A6 Heilbronn Richtung Kaiserslautern\nzwischen Viernheimer Dreieck und Mannheim-Sandhofen\nFahrbahnbeschränkung besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A6"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A6 Heilbronn Richtung Kaiserslautern zwischen Viernheimer Dreieck und Mannheim-Sandhofen",
-        "streets": [
-          "A6"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Störung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-28T02:05:45.888Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/450370_LMS-HE/54"
       },
       "dataProducer": {
@@ -3762,6 +3711,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/493846_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 493846
+      },
+      "description": [
+        {
+          "value": "A67 Darmstadt Richtung Mannheim\nzwischen Gernsheim und Lorsch\nlinker Fahrstreifen blockiert, Gefahr durch liegengebliebenes Fahrzeug auf dem linken Fahrstreifen\n(im Baustellenbereich)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A67"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A67 Darmstadt Richtung Mannheim zwischen Gernsheim und Lorsch",
+        "streets": [
+          "A67"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-28T02:51:56.498Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -6140,192 +6143,6 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-12T04:32:20.684Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/486438_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 486438
-      },
-      "description": [
-        {
-          "value": "B45 Hanau Richtung Dieburg\nzwischen Rodgau-Niederroden in Nieder-Roden und B459, Rödermark-Ober-Roden\nvorübergehende Begrenzung der Fahrbahnbreite auf 6,10 m, bis 16.07.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B45"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B45 Hanau Richtung Dieburg zwischen Rodgau-Niederroden in Nieder-Roden und B459, Rödermark-Ober-Roden",
-        "streets": [
-          "B45"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-28T18:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-07-16T03:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 28.03.2022 bis 16.07.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Beschränkung"
-        }
-      ],
-      "masterEventCategory": "Beschränkung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-02T03:02:18.419Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/487850_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 487850
-      },
-      "description": [
-        {
-          "value": "B45 Hanau Richtung Dieburg\nzwischen Rodgau-Niederroden in Nieder-Roden und B459, Rödermark-Ober-Roden\nvorübergehende Begrenzung der Fahrbahnbreite auf 6,10 m, bis 16.07.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B45"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B45 Hanau Richtung Dieburg zwischen Rodgau-Niederroden in Nieder-Roden und B459, Rödermark-Ober-Roden",
-        "streets": [
-          "B45"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-28T18:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-07-16T03:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 28.03.2022 bis 16.07.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Beschränkung"
-        }
-      ],
-      "masterEventCategory": "Beschränkung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-06T18:00:01.346Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/485285_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 485285
-      },
-      "description": [
-        {
-          "value": "B45 Hanau Richtung Dieburg\nzwischen Rodgau-Niederroden in Nieder-Roden und B459, Rödermark-Ober-Roden\nvorübergehende Begrenzung der Fahrbahnbreite auf 6,10 m, bis 16.07.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B45"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B45 Hanau Richtung Dieburg zwischen Rodgau-Niederroden in Nieder-Roden und B459, Rödermark-Ober-Roden",
-        "streets": [
-          "B45"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-03-28T18:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-07-16T03:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 28.03.2022 bis 16.07.2022, Mo - Fr zwischen 20:00 Uhr und 05:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Beschränkung"
-        }
-      ],
-      "masterEventCategory": "Beschränkung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-03-29T03:02:42.125Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -10592,6 +10409,74 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/493854_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 493854
+      },
+      "description": [
+        {
+          "value": "Vogelsbergkreis, L3070\nzwischen Abzweig nach Ulrichstein und Stumpertenrod\nin beiden Richtungen Bauarbeiten, Richtungsfahrbahn gesperrt, eine Umleitung ist eingerichtet, bis 29.04.2022 20:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3070"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Vogelsbergkreis, L3070 zwischen Abzweig nach Ulrichstein und Stumpertenrod",
+        "streets": [
+          "L3070"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-28T04:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-29T18:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 28.04.2022 06:00 Uhr bis 29.04.2022 20:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-28T04:00:01.646Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/486939_LMS-HE/54"
       },
       "dataProducer": {
@@ -12139,64 +12024,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/493475_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 493475
-      },
-      "description": [
-        {
-          "value": "Frankfurt\nzwischen Theatertunnel und Kurt-Schumacher-Straße\nTunnel gesperrt, beide Fahrtrichtungen gesperrt, bis 28.04.2022 06:00 Uhr\nInnenstadt, Theatertunnel, aufgrund von Wartungsarbeiten Vollsperrung Theatertunnel vom 26.04.2022, 21 Uhr bis 28.04.2022, 6 Uhr."
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": null
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Frankfurt zwischen Theatertunnel und Kurt-Schumacher-Straße",
-        "streets": null
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-04-26T19:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-28T04:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 26.04.2022 21:00 Uhr bis 28.04.2022 06:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Sperrung"
-        }
-      ],
-      "masterEventCategory": "Sperrung",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-26T19:00:01.133Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
