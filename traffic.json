@@ -136,60 +136,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/494056_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 494056
-      },
-      "description": [
-        {
-          "value": "A3 Frankfurt Richtung Würzburg\nzwischen Frankfurt am Main-Süd und Offenbach\nUnfall auf dem linken Fahrstreifen, linker Fahrstreifen blockiert"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Frankfurt Richtung Würzburg zwischen Frankfurt am Main-Süd und Offenbach",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-28T15:16:06.983Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/493037_LMS-HE/54"
       },
       "dataProducer": {
@@ -2757,7 +2703,7 @@
       },
       "description": [
         {
-          "value": "A7 Fulda Richtung Kassel\nzwischen Melsungen und Guxhagen\nGefahr durch Gegenstände auf allen Fahrstreifen\n(Fahrzeugteile)"
+          "value": "A7 Fulda Richtung Kassel\nzwischen Melsungen und Guxhagen\nHindernisse beseitigt"
         }
       ],
       "location": {
@@ -2779,7 +2725,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -2789,11 +2735,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-28T16:03:16.72Z"
+        "value": "2022-04-28T16:59:04.92Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -7296,6 +7242,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/494073_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 494073
+      },
+      "description": [
+        {
+          "value": "B448 Obertshausen Richtung Offenbach\nzwischen Obertshausen und Offenbach-Waldhof\nVollsperrung, Unfall"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B448"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B448 Obertshausen Richtung Offenbach zwischen Obertshausen und Offenbach-Waldhof",
+        "streets": [
+          "B448"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-28T16:48:57.964Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/477347_LMS-HE/54"
       },
       "dataProducer": {
@@ -7756,6 +7756,201 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-25T04:00:01.775Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/490540_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490540
+      },
+      "description": [
+        {
+          "value": "K61 zwischen Oberurff-Schiffelborn und Bergfreiheit\nin beiden Richtungen Richtungsfahrbahn gesperrt, Krötenwanderung, bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K61"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Schwalm-Eder-Kreis, K61 zwischen Oberurff-Schiffelborn und Bergfreiheit",
+        "streets": [
+          "K61"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-01T18:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-30T05:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 01.03.2022 bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Information"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-15T05:04:23.914Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/490726_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 490726
+      },
+      "description": [
+        {
+          "value": "K61 zwischen Oberurff-Schiffelborn und Bergfreiheit\nin beiden Richtungen Richtungsfahrbahn gesperrt, Krötenwanderung, bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K61"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Schwalm-Eder-Kreis, K61 zwischen Oberurff-Schiffelborn und Bergfreiheit",
+        "streets": [
+          "K61"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-01T18:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-30T05:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 01.03.2022 bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Information"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-16T05:11:47.44Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/494077_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 494077
+      },
+      "description": [
+        {
+          "value": "Schwalm-Eder-Kreis, K61\nzwischen Oberurff-Schiffelborn und Bergfreiheit\nin beiden Richtungen Krötenwanderung, Richtungsfahrbahn gesperrt, bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "K61"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Schwalm-Eder-Kreis, K61 zwischen Oberurff-Schiffelborn und Bergfreiheit",
+        "streets": [
+          "K61"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-03-01T18:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-30T05:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "vom 01.03.2022 bis 30.04.2022, täglich zwischen 19:00 Uhr und 07:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Information"
+        }
+      ],
+      "masterEventCategory": "Sperrung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-28T17:00:01.788Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
