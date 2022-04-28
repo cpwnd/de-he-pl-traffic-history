@@ -1599,6 +1599,68 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/494079_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 494079
+      },
+      "description": [
+        {
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Alsfeld-West und Homberg (Ohm)\nNachtbaustelle auf dem linken Fahrstreifen, bis 29.04.2022 ca. 06:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Kassel Richtung Frankfurt zwischen Alsfeld-West und Homberg (Ohm)",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-28T17:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-04-29T04:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 28.04.2022 19:00 Uhr bis 29.04.2022 ca. 06:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-28T17:20:46.996Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/338932_LMS-HE/54"
       },
       "dataProducer": {
@@ -2689,57 +2751,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/494068_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 494068
-      },
-      "description": [
-        {
-          "value": "A7 Fulda Richtung Kassel\nzwischen Melsungen und Guxhagen\nHindernisse beseitigt"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A7"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A7 Fulda Richtung Kassel zwischen Melsungen und Guxhagen",
-        "streets": [
-          "A7"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-28T16:59:04.92Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -6133,7 +6144,7 @@
       },
       "description": [
         {
-          "value": "B43A Hanauer Kreuz Richtung Obertshausen\nzwischen Hanau-Wolfgang und Hanau-Hafen in Großauheim\nUnfall auf allen Fahrstreifen, Vollsperrung"
+          "value": "B43A Hanauer Kreuz Richtung Obertshausen\nzwischen Hanau-Wolfgang und Hanau-Hafen in Großauheim\nUnfall auf dem rechten Fahrstreifen, rechter Fahrstreifen blockiert"
         }
       ],
       "location": {
@@ -6162,13 +6173,13 @@
           "value": "Unfall"
         },
         {
-          "value": "Sperrung"
+          "value": "Störung"
         }
       ],
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-28T15:53:53.771Z"
+        "value": "2022-04-28T17:07:12.065Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
