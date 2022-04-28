@@ -1541,7 +1541,7 @@
       },
       "description": [
         {
-          "value": "A5 Europabrücke Frankfurt, Frankfurt Richtung Darmstadt\nzwischen Frankfurt am Main-Westhafen und Frankfurt-Niederrad\nUnfallaufnahme, bitte vorsichtig fahren"
+          "value": "A5 Europabrücke Frankfurt, Frankfurt Richtung Darmstadt\nzwischen Frankfurt am Main-Westhafen und Frankfurt-Niederrad\nUnfallstelle geräumt"
         }
       ],
       "location": {
@@ -1576,7 +1576,7 @@
       "masterEventCategory": "Hinweis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-28T05:07:51.785Z"
+        "value": "2022-04-28T05:35:22.866Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -6999,6 +6999,60 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-04T04:00:03.29Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/493867_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 493867
+      },
+      "description": [
+        {
+          "value": "B275 Bad Nauheim Richtung Usingen\nzwischen Usingen und Südtangente\nUnfallaufnahme, Richtungsfahrbahn gesperrt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B275"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B275 Bad Nauheim Richtung Usingen zwischen Usingen und Südtangente",
+        "streets": [
+          "B275"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Störung",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-28T05:35:03.143Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
