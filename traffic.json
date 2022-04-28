@@ -1853,57 +1853,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/494103_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 494103
-      },
-      "description": [
-        {
-          "value": "A5 Frankfurt Richtung Kassel\nHattenbacher Dreieck Überleitung zur A7 Richtung Kassel\nalle Fahrbahnen wieder frei"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A5"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A5 Frankfurt Richtung Kassel Hattenbacher Dreieck Überleitung zur A7 Richtung Kassel",
-        "streets": [
-          "A5"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-28T21:42:53.608Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/335177_LMS-HE/54"
       },
       "dataProducer": {
@@ -13052,6 +13001,67 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-02-09T00:04:48.592Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/494114_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 494114
+      },
+      "description": [
+        {
+          "value": "Frankfurt, Lyoner Straße\nzwischen Goldsteinstraße und Schwanheimer Ufer\nin beiden Richtungen Baustelle, Fahrbahnerneuerung, rechter Fahrstreifen gesperrt, bis 29.05.2022 23:59 Uhr\nSchwanheim, Niederrad, Lyoner Straße/ Schwanheimer Straße -Phase 2-, aufgrund von Grunderneuerung Teilsperrung der Fahrbahn, Teilsperrung der Fahrbahn (rechter Fahrstreifen) vom 29.04.2022 bis 29.05.2022.\n"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": null
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt, Lyoner Straße zwischen Goldsteinstraße und Schwanheimer Ufer",
+        "streets": null
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-04-28T22:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-05-29T21:59:59Z"
+        },
+        "name": "Dauer",
+        "description": "von 29.04.2022 00:00 Uhr bis 29.05.2022 23:59 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-28T22:00:02.671Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
