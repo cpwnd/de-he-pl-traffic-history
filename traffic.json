@@ -1801,7 +1801,7 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Alsfeld-Ost und Hattenbacher Dreieck\nUnfallaufnahme auf dem linken und dem mittleren Fahrstreifen, 10 km Stau\nan der Unfallstelle wird der Verkehr rechts vorbeigeleitet"
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Alsfeld-Ost und Hattenbacher Dreieck\n10 km Stau, Unfallstelle geräumt"
         }
       ],
       "location": {
@@ -1827,16 +1827,16 @@
       },
       "eventCategory": [
         {
-          "value": "Störung"
+          "value": "Stau"
         },
         {
-          "value": "Stau"
+          "value": "Unfall"
         }
       ],
-      "masterEventCategory": "Störung",
+      "masterEventCategory": "Stau",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-29T12:21:20.674Z"
+        "value": "2022-04-29T13:14:10.035Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3765,6 +3765,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/494249_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 494249
+      },
+      "description": [
+        {
+          "value": "A66 Wiesbaden Richtung Frankfurt\nSchiersteiner Kreuz Überleitung zur A643 Richtung Wiesbaden\nHindernisse beseitigt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A66"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A66 Wiesbaden Richtung Frankfurt Schiersteiner Kreuz Überleitung zur A643 Richtung Wiesbaden",
+        "streets": [
+          "A66"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-29T13:11:53.969Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -6809,6 +6860,60 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/494254_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 494254
+      },
+      "description": [
+        {
+          "value": "B83 Melsungen Richtung Bebra\nzwischen Abzweig nach Hergershausen und Rotenburg an der Fulda\nUnfall, Richtungsfahrbahn bis auf weiteres gesperrt\n2 Beteiligte nach Unfall"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B83"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B83 Melsungen Richtung Bebra zwischen Abzweig nach Hergershausen und Rotenburg an der Fulda",
+        "streets": [
+          "B83"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-29T13:19:33.258Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/445126_LMS-HE/54"
       },
       "dataProducer": {
@@ -8386,71 +8491,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/494168_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 494168
-      },
-      "description": [
-        {
-          "value": "Frankfurt, Mainzer Landstraße\nzwischen Waldschulstraße und B40\nBaustelle, Fahrbahnverengung, bis 29.04.2022, Mo - Fr zwischen 09:00 Uhr und 15:00 Uhr\nGriesheim, Mainzer Landstraße 600, aufgrund von Baustelleneinrichtungs- und Lagerfläche Teilsperrung der Fahrbahn in Richtung West vom 25.04.2022 bis 29.04.2022 zwischen 09:00 und 15:00 Uhr."
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "K803"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "Frankfurt, Mainzer Landstraße zwischen Waldschulstraße und B40",
-        "streets": [
-          "K803"
-        ]
-      },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-04-25T07:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-04-29T13:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "vom 25.04.2022 bis 29.04.2022, Mo - Fr zwischen 09:00 Uhr und 15:00 Uhr"
-      },
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Arbeitsstelle"
-        },
-        {
-          "value": "Störung"
-        }
-      ],
-      "masterEventCategory": "Arbeitsstelle",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-29T07:00:01.871Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
       }
     },
     {
@@ -10261,6 +10301,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/494260_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 494260
+      },
+      "description": [
+        {
+          "value": "L3053 Wetzlar Richtung Bischoffen\nzwischen Blasbach und Hohensolms\nUnfall, Richtungsfahrbahn bis auf weiteres gesperrt\nPKW und Motorrad beteiligt\n"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3053"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Lahn-Dill-Kreis, L3053 zwischen Blasbach und Hohensolms",
+        "streets": [
+          "L3053"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-29T13:17:59.755Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
