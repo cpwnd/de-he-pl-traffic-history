@@ -582,17 +582,17 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/494202_LMS-HE/54"
+        "value": "LMS/r_LMS/494213_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 494202
+        "value": 494213
       },
       "description": [
         {
-          "value": "A3 Frankfurt - Köln\nzwischen Kelsterbach und Raunheim\nin beiden Richtungen Gefahr durch Personen auf dem Standstreifen"
+          "value": "A3 Würzburg Richtung Frankfurt\nzwischen Offenbach und Frankfurt am Main-Süd\nGefahr durch Gegenstände auf dem mittleren Fahrstreifen (ein Plastikteil)"
         }
       ],
       "location": {
@@ -606,7 +606,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A3 Frankfurt Richtung Köln zwischen Kelsterbach und Raunheim",
+        "description": "A3 Würzburg Richtung Frankfurt zwischen Offenbach und Frankfurt am Main-Süd",
         "streets": [
           "A3"
         ]
@@ -624,7 +624,7 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-29T10:30:36.544Z"
+        "value": "2022-04-29T10:57:02.676Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -894,7 +894,7 @@
       },
       "description": [
         {
-          "value": "A3 Frankfurt Richtung Köln\nzwischen Idstein und Bad Camberg\nGefahr durch Gegenstände auf dem mittleren Fahrstreifen (ein Spanngurt)"
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Idstein und Bad Camberg\nStraße wieder frei"
         }
       ],
       "location": {
@@ -916,7 +916,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -926,11 +926,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-29T10:41:10.553Z"
+        "value": "2022-04-29T11:07:13.243Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4767,6 +4767,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/494209_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 494209
+      },
+      "description": [
+        {
+          "value": "A661 Darmstadt Richtung Bad Homburg\nzwischen Bad Homburger Kreuz und Bad Homburg\nalle Fahrbahnen wieder frei"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A661"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A661 Darmstadt Richtung Bad Homburg zwischen Bad Homburger Kreuz und Bad Homburg",
+        "streets": [
+          "A661"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-29T11:10:28.749Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/491319_LMS-HE/54"
       },
       "dataProducer": {
@@ -5535,6 +5586,57 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-19T16:00:07.748Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/494214_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 494214
+      },
+      "description": [
+        {
+          "value": "B42 Rüdesheim Richtung Wiesbaden\nin Höhe Eltville Martinsthal\nGefahr durch Gegenstände auf dem linken Fahrstreifen (Dämmwolle)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B42"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B42 Rüdesheim Richtung Wiesbaden in Höhe Eltville Martinsthal",
+        "streets": [
+          "B42"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-04-29T10:58:28.009Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
