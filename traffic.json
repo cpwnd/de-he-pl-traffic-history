@@ -582,57 +582,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/496551_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 496551
-      },
-      "description": [
-        {
-          "value": "A3 Würzburg Richtung Frankfurt\nzwischen Obertshausen und Offenbach\nGefahr durch 1 ungesicherte Unfallstelle auf dem linken Fahrstreifen"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A3"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A3 Würzburg Richtung Frankfurt zwischen Obertshausen und Offenbach",
-        "streets": [
-          "A3"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Unfall"
-        }
-      ],
-      "masterEventCategory": "Unfall",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-05-06T15:34:49.214Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/494933_LMS-HE/54"
       },
       "dataProducer": {
@@ -1917,7 +1866,7 @@
       },
       "description": [
         {
-          "value": "A5 Basel Richtung Kassel\nzwischen Teningen und Grünberg\nGefahr durch ungesicherte Unfallstelle, Gefahr durch Gegenstände auf dem Standstreifen\n(Waschmaschine auf dem Standstreifen)"
+          "value": "A5 Basel Richtung Kassel\nzwischen Teningen und Grünberg\nBergungsarbeiten, bitte vorsichtig fahren\n(Waschmaschine auf dem Standstreifen)"
         }
       ],
       "location": {
@@ -1939,24 +1888,24 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Arbeitsstelle"
         },
         {
-          "value": "Hindernis"
+          "value": "Hinweis"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-05-06T15:27:48.397Z"
+        "value": "2022-05-06T16:26:59.722Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -4331,57 +4280,6 @@
     },
     {
       "ticId": {
-        "value": "LMS/r_LMS/496552_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 496552
-      },
-      "description": [
-        {
-          "value": "A66 Fulda Richtung Frankfurt\nzwischen Flieden und Raststätte Distelrasen-Nord\nGefahr durch Reifenteile auf der Fahrbahn, Gefahr durch Gegenstände auf der Fahrbahn (ein Reifen)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A66"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A66 Fulda Richtung Frankfurt zwischen Flieden und Raststätte Distelrasen-Nord",
-        "streets": [
-          "A66"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-05-06T15:40:56.007Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
         "value": "LMS/r_LMS/397236_LMS-HE/54"
       },
       "dataProducer": {
@@ -4493,6 +4391,66 @@
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
         "value": "2022-04-01T04:00:02.244Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/496561_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 496561
+      },
+      "description": [
+        {
+          "value": "A67 Darmstadt Richtung Mannheim\nzwischen Gernsheim und Lorsch\n1 Unfall im Baustellenbereich, Richtungsfahrbahn blockiert, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren, Stau"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A67"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A67 Darmstadt Richtung Mannheim zwischen Gernsheim und Lorsch",
+        "streets": [
+          "A67"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Hinweis"
+        },
+        {
+          "value": "Stau"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-05-06T16:18:58.747Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -5644,6 +5602,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/496557_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 496557
+      },
+      "description": [
+        {
+          "value": "B26 Aschaffenburg Richtung Darmstadt\nzwischen Roßdorf-Gundernhausen und Einfahrt Roßdorf-West\nGefahr durch Gegenstände auf der Fahrbahn, bitte vorsichtig fahren\n(Glasscherben)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B26"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B26 Aschaffenburg Richtung Darmstadt zwischen Roßdorf-Gundernhausen und Einfahrt Roßdorf-West",
+        "streets": [
+          "B26"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-05-06T16:07:05.926Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
