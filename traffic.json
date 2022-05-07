@@ -1,22 +1,22 @@
 {
   "status": "OK",
   "cached": false,
-  "time": "6.189ms",
+  "time": "4.836ms",
   "version": "TIC",
   "data": [
     {
       "ticId": {
-        "value": "LMS/r_LMS/496638_LMS-HE/54"
+        "value": "LMS/r_LMS/496644_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 496638
+        "value": 496644
       },
       "description": [
         {
-          "value": "A7, A5 Fulda - Kassel\nzwischen Hattenbacher Dreieck und Kirchheim\nin beiden Richtungen 1 Reh auf der Fahrbahn\n383609"
+          "value": "A3 Köln Richtung Frankfurt\nzwischen Wiesbaden/Niedernhausen und Wiesbadener Kreuz\nBergungsarbeiten auf dem linken Fahrstreifen, linker Fahrstreifen gesperrt"
         }
       ],
       "location": {
@@ -24,16 +24,15 @@
           {
             "edge": {
               "sortRoadNumber": {
-                "value": "A7, A5"
+                "value": "A3"
               }
             }
           }
         ],
         "name": "Ort",
-        "description": "A7, A5 Fulda Richtung Kassel zwischen Hattenbacher Dreieck und Kirchheim",
+        "description": "A3 Köln Richtung Frankfurt zwischen Wiesbaden/Niedernhausen und Wiesbadener Kreuz",
         "streets": [
-          "A7",
-          "A5"
+          "A3"
         ]
       },
       "duration": null,
@@ -43,13 +42,16 @@
       },
       "eventCategory": [
         {
-          "value": "Hindernis"
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
         }
       ],
-      "masterEventCategory": "Hindernis",
+      "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-05-07T00:33:27.683Z"
+        "value": "2022-05-07T01:30:59.359Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
