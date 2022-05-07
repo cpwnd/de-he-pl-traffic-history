@@ -1,22 +1,22 @@
 {
   "status": "OK",
   "cached": false,
-  "time": "1.465ms",
+  "time": "4.518ms",
   "version": "TIC",
   "data": [
     {
       "ticId": {
-        "value": "LMS/r_LMS/496867_LMS-HE/54"
+        "value": "LMS/r_LMS/496874_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 496867
+        "value": 496874
       },
       "description": [
         {
-          "value": "A5 Frankfurt - Darmstadt\nzwischen Frankfurt-Niederrad und Frankfurter Kreuz\nin beiden Richtungen Gefahr durch 1 Person auf dem Standstreifen"
+          "value": "A671 Mainz Richtung Wiesbaden\nzwischen Gustavsburg und Hochheim-Süd\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -24,21 +24,21 @@
           {
             "edge": {
               "sortRoadNumber": {
-                "value": "A5"
+                "value": "A671"
               }
             }
           }
         ],
         "name": "Ort",
-        "description": "A5 Frankfurt Richtung Darmstadt zwischen Frankfurt-Niederrad und Frankfurter Kreuz",
+        "description": "A671 Mainz Richtung Wiesbaden zwischen Gustavsburg und Hochheim-Süd",
         "streets": [
-          "A5"
+          "A671"
         ]
       },
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -48,7 +48,106 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-05-07T20:36:42.367Z"
+        "value": "2022-05-07T21:39:37.82Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/496872_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 496872
+      },
+      "description": [
+        {
+          "value": "A4 Erfurt Richtung Bad Hersfeld\nzwischen Wildeck-Hönebach und Friedewald\nGefahr besteht nicht mehr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A4"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A4 Erfurt Richtung Bad Hersfeld zwischen Wildeck-Hönebach und Friedewald",
+        "streets": [
+          "A4"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-05-07T21:33:04.41Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/496871_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 496871
+      },
+      "description": [
+        {
+          "value": "Frankfurt\nVermisstenfahndung\n(In Frankfurt wird der 61-jährige Herr\nMichael MESINGER vermißt.\n\nHerr MESINGER ist 1,94 Meter groß und schlank.\nEr hat kurze, graue Haare und trägt einen grauen Kinnbart.\n\nAuffällig ist eine Art Bandage am linken Fuß.\n\nZur Bekleidung ist nichts bekannt.\n\nHerr MESINGER ist orientierungslos und benötigt dringend medizinische Hilfe.\n\nBei Antreffen von Herrn MESINGER rufen Sie bitte den Notruf 110 oder jede andere Polizeidienststelle.)"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": null
+          }
+        ],
+        "name": "Ort",
+        "description": "Frankfurt",
+        "streets": null
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Information"
+        }
+      ],
+      "masterEventCategory": "Information",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-05-07T21:00:37.92Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
