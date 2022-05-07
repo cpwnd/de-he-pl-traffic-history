@@ -1,22 +1,125 @@
 {
   "status": "OK",
   "cached": false,
-  "time": "4.316ms",
+  "time": "6.189ms",
   "version": "TIC",
   "data": [
     {
       "ticId": {
-        "value": "LMS/r_LMS/496632_LMS-HE/54"
+        "value": "LMS/r_LMS/496638_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 496632
+        "value": 496638
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nzwischen Kelsterbach und Frankfurt am Main-Flughafen\nUnfall, Fahrbahn auf einen Fahrstreifen verengt, rechter Fahrstreifen nicht befahrbar, mittlerer Fahrstreifen nicht befahrbar"
+          "value": "A7, A5 Fulda - Kassel\nzwischen Hattenbacher Dreieck und Kirchheim\nin beiden Richtungen 1 Reh auf der Fahrbahn\n383609"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7, A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7, A5 Fulda Richtung Kassel zwischen Hattenbacher Dreieck und Kirchheim",
+        "streets": [
+          "A7",
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-05-07T00:33:27.683Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/496636_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 496636
+      },
+      "description": [
+        {
+          "value": "A7 Fulda Richtung Kassel\nzwischen Homberg (Efze) und Malsfeld\nGefahr durch ungesicherte Unfallstelle auf dem rechten und dem mittleren Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A7"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A7 Fulda Richtung Kassel zwischen Homberg (Efze) und Malsfeld",
+        "streets": [
+          "A7"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-05-07T00:19:57.253Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/496634_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 496634
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Wiesbadener Kreuz und Wiesbaden/Niedernhausen\nGefahr durch 1 defektes Fahrzeug im Baustellenbereich, linker Fahrstreifen gesperrt"
         }
       ],
       "location": {
@@ -30,7 +133,7 @@
           }
         ],
         "name": "Ort",
-        "description": "A3 Köln Richtung Frankfurt zwischen Kelsterbach und Frankfurt am Main-Flughafen",
+        "description": "A3 Frankfurt Richtung Köln zwischen Wiesbadener Kreuz und Wiesbaden/Niedernhausen",
         "streets": [
           "A3"
         ]
@@ -38,24 +141,24 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Normal"
+        "value": "Dringend"
       },
       "eventCategory": [
         {
-          "value": "Unfall"
+          "value": "Hindernis"
         },
         {
-          "value": "Störung"
+          "value": "Sperrung"
         }
       ],
-      "masterEventCategory": "Unfall",
+      "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-05-06T22:36:02.083Z"
+        "value": "2022-05-07T00:47:35.903Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
