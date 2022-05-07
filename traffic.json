@@ -1869,7 +1869,7 @@
       },
       "description": [
         {
-          "value": "A5 Kassel Richtung Frankfurt\nzwischen Alsfeld-West und Homberg (Ohm)\nBauarbeiten, vorübergehende Begrenzung der Fahrbahnbreite auf 3,95 m, bis 07.05.2022 07:00 Uhr"
+          "value": "A5 Kassel Richtung Frankfurt\nzwischen Alsfeld-West und Homberg (Ohm)\nBaustelle beseitigt"
         }
       ],
       "location": {
@@ -1888,18 +1888,7 @@
           "A5"
         ]
       },
-      "duration": {
-        "startTime": {
-          "name": "Startzeit",
-          "value": "2022-04-25T05:00:00Z"
-        },
-        "endTime": {
-          "name": "Endzeit",
-          "value": "2022-05-07T05:00:00Z"
-        },
-        "name": "Dauer",
-        "description": "von 25.04.2022 07:00 Uhr bis 07.05.2022 07:00 Uhr"
-      },
+      "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -1915,11 +1904,11 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-25T05:00:02.227Z"
+        "value": "2022-05-07T05:40:29.081Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
@@ -2061,7 +2050,61 @@
       },
       "description": [
         {
-          "value": "A5 Frankfurt Richtung Kassel\nzwischen Homberg (Ohm) und Alsfeld-Ost\nBauarbeiten, vorübergehende Begrenzung der Fahrbahnbreite auf 5,95 m, bis 07.05.2022 07:00 Uhr"
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Homberg (Ohm) und Alsfeld-Ost\nBaustelle beseitigt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Frankfurt Richtung Kassel zwischen Homberg (Ohm) und Alsfeld-Ost",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Beschränkung"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-05-07T05:40:39.515Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/496661_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 496661
+      },
+      "description": [
+        {
+          "value": "A5 Frankfurt - Kassel\nzwischen Homberg (Ohm) und Alsfeld-Ost\nin beiden Richtungen Bauarbeiten, vorübergehende Begrenzung der Fahrbahnbreite auf 5,85 m, bis 21.05.2022 07:00 Uhr"
         }
       ],
       "location": {
@@ -2083,14 +2126,14 @@
       "duration": {
         "startTime": {
           "name": "Startzeit",
-          "value": "2022-04-25T05:00:00Z"
+          "value": "2022-05-07T05:00:00Z"
         },
         "endTime": {
           "name": "Endzeit",
-          "value": "2022-05-07T05:00:00Z"
+          "value": "2022-05-21T05:00:00Z"
         },
         "name": "Dauer",
-        "description": "von 25.04.2022 07:00 Uhr bis 07.05.2022 07:00 Uhr"
+        "description": "von 07.05.2022 07:00 Uhr bis 21.05.2022 07:00 Uhr"
       },
       "urgency": {
         "name": "Dringlichkeit",
@@ -2107,7 +2150,7 @@
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-04-25T05:00:02.227Z"
+        "value": "2022-05-07T05:00:01.42Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3271,6 +3314,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/496663_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 496663
+      },
+      "description": [
+        {
+          "value": "A44 Dortmund Richtung Kassel\nzwischen Warburg und Breuna\nUnfall, Richtungsfahrbahn gesperrt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A44"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A44 Dortmund Richtung Kassel zwischen Warburg und Breuna",
+        "streets": [
+          "A44"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-05-07T05:38:01.442Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
       }
     },
     {
@@ -7058,6 +7155,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/496666_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 496666
+      },
+      "description": [
+        {
+          "value": "B49 Limburg Richtung Gießen\nzwischen Obertiefenbach und Heckholzhausen Ost\nGefahr durch Gegenstände auf der Fahrbahn\nDachlatte"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B49"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B49 Limburg Richtung Gießen zwischen Obertiefenbach und Heckholzhausen Ost",
+        "streets": [
+          "B49"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-05-07T05:27:40.306Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
