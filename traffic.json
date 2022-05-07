@@ -1,22 +1,78 @@
 {
   "status": "OK",
   "cached": false,
-  "time": "5.420ms",
+  "time": "4.841ms",
   "version": "TIC",
   "data": [
     {
       "ticId": {
-        "value": "LMS/r_LMS/496816_LMS-HE/54"
+        "value": "LMS/r_LMS/496837_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 496816
+        "value": 496837
       },
       "description": [
         {
-          "value": "A671 Mainz Richtung Wiesbaden\nzwischen Auffahrt Mainspitz-Dreieck und Hochheim-Süd\nGefahr durch 1 defektes Fahrzeug, rechter Fahrstreifen blockiert, bitte vorsichtig fahren\n(es gibt dort keinen Standstreifen)"
+          "value": "Wiesbaden, Theodor-Heuss-Ring\nzwischen Fritz-Kalle-Straße und Biebricher Allee\nFeuerwehreinsatz, Richtungsfahrbahn gesperrt, Verkehrsbehinderung, Anwohner werden gebeten, Fenster und Türen geschlossen zu halten, ortskundige Autofahrer werden gebeten, das Gebiet weiträumig zu umfahren"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": null
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Wiesbaden, Theodor-Heuss-Ring zwischen Fritz-Kalle-Straße und Biebricher Allee",
+        "streets": null
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Information"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Information",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-05-07T17:28:55.715Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/496833_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 496833
+      },
+      "description": [
+        {
+          "value": "A44 Dortmund Richtung Kassel\nzwischen Kassel-Bad Wilhelmshöhe und Kreuz Kassel-West\nBaustelle, Richtungsfahrbahn gesperrt, eine Umleitung ist eingerichtet, bis 08.05.2022 ca. 09:00 Uhr\n(ab AS Kassel-Wilhelmshöhe über die U79 bis zur AS Baunatal-Mitte (A49))"
         }
       ],
       "location": {
@@ -24,37 +80,110 @@
           {
             "edge": {
               "sortRoadNumber": {
-                "value": "A671"
+                "value": "A44"
               }
             }
           }
         ],
         "name": "Ort",
-        "description": "A671 Mainz Richtung Wiesbaden zwischen Auffahrt Mainspitz-Dreieck und Hochheim-Süd",
+        "description": "A44 Dortmund Richtung Kassel zwischen Kassel-Bad Wilhelmshöhe und Kreuz Kassel-West",
         "streets": [
-          "A671"
+          "A44"
         ]
       },
-      "duration": null,
+      "duration": {
+        "startTime": null,
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-05-08T07:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "bis 08.05.2022 ca. 09:00 Uhr"
+      },
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
-          "value": "Hindernis"
+          "value": "Arbeitsstelle"
         },
         {
-          "value": "Störung"
+          "value": "Sperrung"
         },
         {
           "value": "Hinweis"
         }
       ],
-      "masterEventCategory": "Hindernis",
+      "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-05-07T15:59:11.085Z"
+        "value": "2022-05-07T17:06:29.704Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/496831_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 496831
+      },
+      "description": [
+        {
+          "value": "A44 Dortmund Richtung Kassel\nzwischen Kassel-Bad Wilhelmshöhe und Kreuz Kassel-West\nBaustelle, eine Umleitung ist eingerichtet, bis 08.05.2022 09:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A44"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A44 Dortmund Richtung Kassel zwischen Kassel-Bad Wilhelmshöhe und Kreuz Kassel-West",
+        "streets": [
+          "A44"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-05-07T17:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-05-08T07:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 07.05.2022 19:00 Uhr bis 08.05.2022 09:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-05-07T17:00:01.708Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
