@@ -1,22 +1,22 @@
 {
   "status": "OK",
   "cached": false,
-  "time": "4.062ms",
+  "time": "5.420ms",
   "version": "TIC",
   "data": [
     {
       "ticId": {
-        "value": "LMS/r_LMS/496809_LMS-HE/54"
+        "value": "LMS/r_LMS/496816_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 496809
+        "value": 496816
       },
       "description": [
         {
-          "value": "A49 Südtangente, Gießen - Kassel\nzwischen Kassel-Industriepark und Kreuz Kassel-Mitte\nin beiden Richtungen Gefahr durch 2 Personen auf der Fahrbahn\n(Personen versuchen die Fahrbahnen zu überqueren)"
+          "value": "A671 Mainz Richtung Wiesbaden\nzwischen Auffahrt Mainspitz-Dreieck und Hochheim-Süd\nGefahr durch 1 defektes Fahrzeug, rechter Fahrstreifen blockiert, bitte vorsichtig fahren\n(es gibt dort keinen Standstreifen)"
         }
       ],
       "location": {
@@ -24,15 +24,15 @@
           {
             "edge": {
               "sortRoadNumber": {
-                "value": "A49"
+                "value": "A671"
               }
             }
           }
         ],
         "name": "Ort",
-        "description": "A49 Südtangente, Gießen Richtung Kassel zwischen Kassel-Industriepark und Kreuz Kassel-Mitte",
+        "description": "A671 Mainz Richtung Wiesbaden zwischen Auffahrt Mainspitz-Dreieck und Hochheim-Süd",
         "streets": [
-          "A49"
+          "A671"
         ]
       },
       "duration": null,
@@ -43,114 +43,18 @@
       "eventCategory": [
         {
           "value": "Hindernis"
+        },
+        {
+          "value": "Störung"
+        },
+        {
+          "value": "Hinweis"
         }
       ],
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-05-07T15:33:33.455Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/496806_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 496806
-      },
-      "description": [
-        {
-          "value": "A7 Hannover Richtung Kassel\nzwischen Kassel-Ost und Kreuz Kassel-Mitte\nGefahr durch mehrere Gegenstände auf der Fahrbahn\n(Kunststoffteile)"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A7"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A7 Hannover Richtung Kassel zwischen Kassel-Ost und Kreuz Kassel-Mitte",
-        "streets": [
-          "A7"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-05-07T15:27:37.866Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/496802_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 496802
-      },
-      "description": [
-        {
-          "value": "B49 Gießen Richtung Limburg\nzwischen Abzweig nach Biskirchen und Löhnberg\nGefahr durch 1 totes Tier (Waschbär) auf der Fahrbahn"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "B49"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "B49 Gießen Richtung Limburg zwischen Abzweig nach Biskirchen und Löhnberg",
-        "streets": [
-          "B49"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Dringend"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-05-07T15:13:27.968Z"
+        "value": "2022-05-07T15:59:11.085Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
