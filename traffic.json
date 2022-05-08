@@ -136,6 +136,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/496915_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 496915
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Würzburg\nzwischen Obertshausen und Hanau\nGefahr durch Metallteile auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Würzburg zwischen Obertshausen und Hanau",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-05-08T03:46:01.298Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/493037_LMS-HE/54"
       },
       "dataProducer": {
@@ -1862,6 +1913,57 @@
     },
     {
       "ticId": {
+        "value": "LMS/r_LMS/496912_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 496912
+      },
+      "description": [
+        {
+          "value": "A5 Darmstadt Richtung Heidelberg\nzwischen Seeheim-Jugenheim und Zwingenberg\nGefahr durch ein totes Tier auf der Fahrbahn"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Darmstadt Richtung Heidelberg zwischen Seeheim-Jugenheim und Zwingenberg",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-05-08T03:14:35.724Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
         "value": "LMS/r_LMS/338932_LMS-HE/54"
       },
       "dataProducer": {
@@ -1923,6 +2025,57 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/496910_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 496910
+      },
+      "description": [
+        {
+          "value": "A5 Frankfurt Richtung Kassel\nzwischen Nordwestkreuz Frankfurt und Bad Homburger Kreuz\nGefahr durch ungesicherte Unfallstelle"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A5"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A5 Frankfurt Richtung Kassel zwischen Nordwestkreuz Frankfurt und Bad Homburger Kreuz",
+        "streets": [
+          "A5"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-05-08T03:07:51.76Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
@@ -3223,7 +3376,7 @@
       },
       "description": [
         {
-          "value": "A44 Dortmund Richtung Kassel\nzwischen Kassel-Bad Wilhelmshöhe und Kreuz Kassel-West\nBaustelle beseitigt"
+          "value": "A44 Dortmund Richtung Kassel\nzwischen Kassel-Bad Wilhelmshöhe und Kreuz Kassel-West\nBaustelle, Richtungsfahrbahn gesperrt, bis 08.05.2022 09:00 Uhr, empfohlene Umleitung: U79"
         }
       ],
       "location": {
@@ -3242,7 +3395,15 @@
           "A44"
         ]
       },
-      "duration": null,
+      "duration": {
+        "startTime": null,
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-05-08T07:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "bis 08.05.2022 09:00 Uhr"
+      },
       "urgency": {
         "name": "Dringlichkeit",
         "value": "Normal"
@@ -3253,15 +3414,12 @@
         },
         {
           "value": "Sperrung"
-        },
-        {
-          "value": "Hinweis"
         }
       ],
       "masterEventCategory": "Arbeitsstelle",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-05-08T02:43:48.802Z"
+        "value": "2022-05-08T02:52:33.356Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
@@ -3331,57 +3489,6 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Neu"
-      }
-    },
-    {
-      "ticId": {
-        "value": "LMS/r_LMS/496903_LMS-HE/54"
-      },
-      "dataProducer": {
-        "value": "LMS-HE/54"
-      },
-      "dataIdentifier": {
-        "value": 496903
-      },
-      "description": [
-        {
-          "value": "A44 Dortmund Richtung Kassel\nzwischen Warburg und Breuna\nGefahr besteht nicht mehr"
-        }
-      ],
-      "location": {
-        "tic3Location": [
-          {
-            "edge": {
-              "sortRoadNumber": {
-                "value": "A44"
-              }
-            }
-          }
-        ],
-        "name": "Ort",
-        "description": "A44 Dortmund Richtung Kassel zwischen Warburg und Breuna",
-        "streets": [
-          "A44"
-        ]
-      },
-      "duration": null,
-      "urgency": {
-        "name": "Dringlichkeit",
-        "value": "Normal"
-      },
-      "eventCategory": [
-        {
-          "value": "Hindernis"
-        }
-      ],
-      "masterEventCategory": "Hindernis",
-      "objectVersionBeginTime": {
-        "name": "Objektversionserzeugungszeit",
-        "value": "2022-05-08T02:42:22.825Z"
-      },
-      "objectVersionStatus": {
-        "name": "Objektversionstyp",
-        "value": "Geändert"
       }
     },
     {
@@ -4650,6 +4757,60 @@
       "objectVersionStatus": {
         "name": "Objektversionstyp",
         "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/496914_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 496914
+      },
+      "description": [
+        {
+          "value": "A67 Mannheim Richtung Darmstadt\nzwischen Lorsch und Gernsheim\nWildunfall, Standstreifen blockiert"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A67"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A67 Mannheim Richtung Darmstadt zwischen Lorsch und Gernsheim",
+        "streets": [
+          "A67"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Störung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-05-08T03:41:35.859Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
       }
     },
     {
