@@ -1,22 +1,22 @@
 {
   "status": "OK",
   "cached": false,
-  "time": "7.050ms",
+  "time": "1.437ms",
   "version": "TIC",
   "data": [
     {
       "ticId": {
-        "value": "LMS/r_LMS/497053_LMS-HE/54"
+        "value": "LMS/r_LMS/497066_LMS-HE/54"
       },
       "dataProducer": {
         "value": "LMS-HE/54"
       },
       "dataIdentifier": {
-        "value": 497053
+        "value": 497066
       },
       "description": [
         {
-          "value": "A66 Frankfurt Richtung Fulda\nzwischen Überleitung Langenselbolder Dreieck und Langenselbold\nalle Fahrbahnen geräumt"
+          "value": "A7 Kassel Richtung Fulda\nzwischen Dreieck Kassel-Süd und Guxhagen\nGefahr durch defektes Fahrzeug auf dem rechten Fahrstreifen im Baustellenbereich"
         }
       ],
       "location": {
@@ -24,21 +24,21 @@
           {
             "edge": {
               "sortRoadNumber": {
-                "value": "A66"
+                "value": "A7"
               }
             }
           }
         ],
         "name": "Ort",
-        "description": "A66 Frankfurt Richtung Fulda zwischen Überleitung Langenselbolder Dreieck und Langenselbold",
+        "description": "A7 Kassel Richtung Fulda zwischen Dreieck Kassel-Süd und Guxhagen",
         "streets": [
-          "A66"
+          "A7"
         ]
       },
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Normal"
+        "value": "Dringend"
       },
       "eventCategory": [
         {
@@ -48,7 +48,115 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-05-08T15:57:02.498Z"
+        "value": "2022-05-08T17:04:09.879Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/497062_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 497062
+      },
+      "description": [
+        {
+          "value": "B3 Gießen Richtung Marburg\nzwischen Weimar-Nord und Marburg-Süd\nGefahr durch ungesicherte Unfallstelle, bitte vorsichtig fahren, Richtungsfahrbahn gesperrt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "B3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "B3 Gießen Richtung Marburg zwischen Weimar-Nord und Marburg-Süd",
+        "streets": [
+          "B3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Dringend"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        },
+        {
+          "value": "Hinweis"
+        },
+        {
+          "value": "Sperrung"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-05-08T16:47:57.82Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/497060_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 497060
+      },
+      "description": [
+        {
+          "value": "A661 Bad Homburg Richtung Darmstadt\nzwischen Offenbacher Kreuz und Neu-Isenburg\nUnfallstelle geräumt"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A661"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A661 Bad Homburg Richtung Darmstadt zwischen Offenbacher Kreuz und Neu-Isenburg",
+        "streets": [
+          "A661"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Unfall"
+        }
+      ],
+      "masterEventCategory": "Unfall",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-05-08T17:01:47.315Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
