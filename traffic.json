@@ -1,9 +1,60 @@
 {
   "status": "OK",
   "cached": false,
-  "time": "3.545ms",
+  "time": "1.459ms",
   "version": "TIC",
   "data": [
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/497392_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 497392
+      },
+      "description": [
+        {
+          "value": "A3 Frankfurt Richtung Köln\nzwischen Bad Camberg und Limburg-Süd\ndefekter LKW auf dem rechten Fahrstreifen"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "A3"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "A3 Frankfurt Richtung Köln zwischen Bad Camberg und Limburg-Süd",
+        "streets": [
+          "A3"
+        ]
+      },
+      "duration": null,
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Hindernis"
+        }
+      ],
+      "masterEventCategory": "Hindernis",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-05-09T20:48:04.052Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Geändert"
+      }
+    },
     {
       "ticId": {
         "value": "LMS/r_LMS/497388_LMS-HE/54"
@@ -16,7 +67,7 @@
       },
       "description": [
         {
-          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Frankfurt am Main-Höchst und Kelkheim\ndefekter PKW auf dem Standstreifen"
+          "value": "A66 Frankfurt Richtung Wiesbaden\nzwischen Frankfurt am Main-Höchst und Kelkheim\nStraße wieder frei"
         }
       ],
       "location": {
@@ -48,11 +99,11 @@
       "masterEventCategory": "Hindernis",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-05-09T20:17:13.808Z"
+        "value": "2022-05-09T20:49:25.183Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
