@@ -1,9 +1,77 @@
 {
   "status": "OK",
   "cached": false,
-  "time": "1.283ms",
+  "time": "2.565ms",
   "version": "TIC",
   "data": [
+    {
+      "ticId": {
+        "value": "LMS/r_LMS/497141_LMS-HE/54"
+      },
+      "dataProducer": {
+        "value": "LMS-HE/54"
+      },
+      "dataIdentifier": {
+        "value": 497141
+      },
+      "description": [
+        {
+          "value": "Vogelsbergkreis, L3139\nzwischen Rebgeshain und Abzweig nach Helpershain\nin beiden Richtungen Fahrbahnerneuerung, Richtungsfahrbahn gesperrt, eine Umleitung ist eingerichtet, bis 25.06.2022 20:00 Uhr"
+        }
+      ],
+      "location": {
+        "tic3Location": [
+          {
+            "edge": {
+              "sortRoadNumber": {
+                "value": "L3139"
+              }
+            }
+          }
+        ],
+        "name": "Ort",
+        "description": "Vogelsbergkreis, L3139 zwischen Rebgeshain und Abzweig nach Helpershain",
+        "streets": [
+          "L3139"
+        ]
+      },
+      "duration": {
+        "startTime": {
+          "name": "Startzeit",
+          "value": "2022-05-09T05:00:00Z"
+        },
+        "endTime": {
+          "name": "Endzeit",
+          "value": "2022-06-25T18:00:00Z"
+        },
+        "name": "Dauer",
+        "description": "von 09.05.2022 07:00 Uhr bis 25.06.2022 20:00 Uhr"
+      },
+      "urgency": {
+        "name": "Dringlichkeit",
+        "value": "Normal"
+      },
+      "eventCategory": [
+        {
+          "value": "Arbeitsstelle"
+        },
+        {
+          "value": "Sperrung"
+        },
+        {
+          "value": "Hinweis"
+        }
+      ],
+      "masterEventCategory": "Arbeitsstelle",
+      "objectVersionBeginTime": {
+        "name": "Objektversionserzeugungszeit",
+        "value": "2022-05-09T05:00:00.596Z"
+      },
+      "objectVersionStatus": {
+        "name": "Objektversionstyp",
+        "value": "Neu"
+      }
+    },
     {
       "ticId": {
         "value": "LMS/r_LMS/497130_LMS-HE/54"
@@ -16,7 +84,7 @@
       },
       "description": [
         {
-          "value": "A3 Köln Richtung Frankfurt\nWiesbadener Kreuz Überleitung zur A66 Richtung Frankfurt\nGefahr durch ungesicherte Unfallstelle, Gefahr durch Ölspur"
+          "value": "A3 Köln Richtung Frankfurt\nWiesbadener Kreuz Überleitung zur A66 Richtung Frankfurt\nGefahr besteht nicht mehr"
         }
       ],
       "location": {
@@ -38,7 +106,7 @@
       "duration": null,
       "urgency": {
         "name": "Dringlichkeit",
-        "value": "Dringend"
+        "value": "Normal"
       },
       "eventCategory": [
         {
@@ -51,11 +119,11 @@
       "masterEventCategory": "Unfall",
       "objectVersionBeginTime": {
         "name": "Objektversionserzeugungszeit",
-        "value": "2022-05-09T04:16:40.673Z"
+        "value": "2022-05-09T05:04:04.704Z"
       },
       "objectVersionStatus": {
         "name": "Objektversionstyp",
-        "value": "Neu"
+        "value": "Geändert"
       }
     },
     {
