@@ -15,7 +15,7 @@ jobs:
     - name: Fetch latest data
       run: |-
         curl -i "https://webapi.polizei.hessen.de/api/traffic/"  > out.json 
-        head -C 50 out.json 
+        head -c 50 out.json 
         cat out.json | jq . > traffic.json
         rm out.json
     - name: Commit and push if it changed
